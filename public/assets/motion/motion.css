@@ -245,3 +245,4 @@ html:not([data-motion="off"]) .field :is(input, select, textarea):focus, .m-inpu
    the flow ends --m-safe (48px) above the bottom edge, and a fading stage dissolves above that band,
    never under the button. Size the panel so the loop's subject sits above the fade */
 [data-m-loop]:not(:has(> .stage)) { padding-bottom: var(--m-safe); }
+[data-m-loop] > .stage:is(.stage--fade-b, .stage--fade-br) { bottom: var(--m-safe); }
