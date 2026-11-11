@@ -215,3 +215,4 @@ html:not([data-motion="off"]) .field :is(input, select, textarea):focus, .m-inpu
 .m-switch:active::before { transform: scaleX(1.22); transition-duration: var(--m-press); }
 .m-switch[aria-checked="true"]:active::before { transform: translateX(12px) scaleX(1.22); }
 .m-switch:hover:not([aria-checked="true"]) { background: color-mix(in oklab, var(--ink) 58%, var(--bg)); }
+/* a check box: <input type="checkbox" class="m-check">, the tick fades in as it grows from 70% to full size, 160ms */
