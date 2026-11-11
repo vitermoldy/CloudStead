@@ -7,3 +7,4 @@ itself: every new cell, plant, building and piece of gear is seen being made by 
 **Direction (from the owner).** A reference screenshot of a cinematic hero: a floating chunk of
 cliff in a sea of golden clouds at a low sun, a person sitting with a laptop on it, a small
 wooden hut and power poles, giant words bottom left, a short paragraph and a pill button bottom
+right, and a black tab hanging from the top edge with the navigation. The owner asked for it
