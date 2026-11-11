@@ -937,3 +937,4 @@ export class World extends Emitter {
     // Step back while new cells rise, so the grown island stays in frame.
     if (this.refitT > 0 && !this.dragging) {
       this.refitT = Math.max(0, this.refitT - dt);
+      const cur = this.camera.position.distanceTo(this.controls.target);
