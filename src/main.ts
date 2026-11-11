@@ -77,3 +77,4 @@ async function startWorld(): Promise<void> {
   // Development only: a handle for the headless checks.
   if (import.meta.env.DEV) Object.assign(window, { __cs: { world: w, progress, timer, player } });
   w.character.name = progress.name;
+  w.sync(new Set(progress.reached().map((m) => m.id)));
