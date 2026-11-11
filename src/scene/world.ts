@@ -697,3 +697,4 @@ export class World extends Emitter {
       this.pointerIn = e.pointerType === 'mouse' ? true : this.pointerIn;
       this.nudge();
       this.pick();
+      const on = this.hover.kind === 'char' ? 'char' : this.hover.kind === 'prop' ? 'prop' : this.hover.kind === 'tile' ? 'tile' : null;
