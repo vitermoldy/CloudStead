@@ -796,3 +796,4 @@ export class World extends Emitter {
   start(): void {
     this.loopOn = true;
     this.last = performance.now();
+    this.renderer.setAnimationLoop(() => this.tick());
