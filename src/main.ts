@@ -349,3 +349,4 @@ $('focus-start').addEventListener('click', () => toggleFocus());
 $('focus-reset').addEventListener('click', () => timer.reset());
 $('focus-reset-2').addEventListener('click', () => timer.reset());
 $('focus-skip').addEventListener('click', () => timer.skip());
+for (const input of document.querySelectorAll<HTMLInputElement>('#preset-group input')) {
