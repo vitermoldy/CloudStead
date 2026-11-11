@@ -79,3 +79,4 @@ export class Cursor {
     const px = this.rx, py = this.ry;
     this.rx += (this.x - this.rx) * k;
     this.ry += (this.y - this.ry) * k;
+    this.vx = (this.rx - px) / Math.max(dt, 0.001);
