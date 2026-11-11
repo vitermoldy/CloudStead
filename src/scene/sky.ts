@@ -79,3 +79,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
   return {
     mesh,
     update(look, time) {
+      const u = material.uniforms;
