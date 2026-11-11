@@ -87,3 +87,4 @@ export class Fx {
   private pools = new Map<FxKind, Particle[]>();
   private mats = new Map<FxKind, SpriteMaterial>();
   private fireflies: Points;
+  private flyBase: Float32Array;
