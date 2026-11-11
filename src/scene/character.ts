@@ -4,3 +4,5 @@ import {
   type Camera, type Raycaster,
 } from 'three';
 import { clamp, damp } from '../core/emitter';
+import type { Gear } from '../sim/milestones';
+
