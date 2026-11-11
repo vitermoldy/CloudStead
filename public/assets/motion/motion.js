@@ -206,3 +206,4 @@ function restart(loop) {
   // the page's keyframe loops only: a hover transition in the panel (the pause button's) is no cycle.
   // ui.js fragments in the card restart by themselves
   const anims = loop.getAnimations({ subtree: true }).filter(a => typeof CSSAnimation === 'function' && a instanceof CSSAnimation);
+  if (!anims.length) return;
