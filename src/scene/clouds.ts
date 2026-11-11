@@ -242,3 +242,4 @@ export function createClouds(count: number): Clouds {
       attribute vec2 aSize;
       attribute vec4 aMeta; // seed, alpha, speed, variant
       uniform float uTime;
+      uniform float uSpan;
