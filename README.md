@@ -72,3 +72,4 @@ tetap berjalan; hanya pulaunya yang tidak tergambar.
 ```
 src/
   main.ts            menyambungkan timer, progres, musik, pulau, dan antarmuka
+  core/              emitter dan penyimpanan (localStorage, berkas simpanan)
