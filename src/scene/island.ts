@@ -443,3 +443,4 @@ export class Island {
     this.layGrass();
   }
 
+  dispose(): void {
