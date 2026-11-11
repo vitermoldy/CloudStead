@@ -633,3 +633,4 @@ export class PropsLayer {
           m.uniforms.uNight.value = ctx.night;
         };
         break;
+      default:
