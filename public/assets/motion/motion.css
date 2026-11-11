@@ -155,3 +155,4 @@ html:not([data-motion="off"]) .tab { transition: color var(--m-slide) var(--m-ea
 /* the card rises 2px, its border and shadow deepen; a card without its own box (.card--open) lifts
    its panel. Never tilts, flips or follows the pointer */
 html:not([data-motion="off"]) .card:not(.card--open, .card--plan) {
+  transition: transform var(--m-out) var(--m-ease), border-color var(--m-out) var(--m-ease), box-shadow var(--m-out) var(--m-ease);
