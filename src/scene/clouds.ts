@@ -118,3 +118,4 @@ function layout(count: number): Puff[] {
   for (let t = 0; t < towers; t++) {
     const a = (t / towers) * Math.PI * 2 + rand() * 0.3;
     const r = 34 + rand() * 40;
+    const cx = Math.cos(a) * r, cz = Math.sin(a) * r;
