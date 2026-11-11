@@ -282,3 +282,4 @@ export function createClouds(count: number): Clouds {
       varying float vDist;
       varying float vToward;
       void main() {
+        float ux = vSeed > 0.5 ? 1.0 - vUv.x : vUv.x;
