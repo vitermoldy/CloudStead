@@ -280,3 +280,4 @@ export class Island {
         t.group.position.y = -11 - order * 0.6;
         order++;
       }
+      this.tiles.set(key, t);
