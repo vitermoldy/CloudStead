@@ -472,3 +472,4 @@ function renderSaveStatus(): void {
   const at = lastSaved();
   el.textContent = at
     ? `Progres tersimpan otomatis di browser ini. Terakhir pukul ${new Date(at).toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit' })}.`
+    : 'Progres tersimpan otomatis di browser ini setiap kali waktu fokus bertambah.';
