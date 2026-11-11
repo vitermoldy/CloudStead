@@ -26,3 +26,4 @@ function puffAtlas(): DataTexture {
       const side = Math.abs(x - 0.5);
       const r = 0.06 + rand() * 0.16 * (1 - side * 1.3);
       const rr = Math.max(0.05, r);
+      // Every sphere stays inside its cell, so no billow is cut by the atlas edge.
