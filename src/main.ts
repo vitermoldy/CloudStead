@@ -327,3 +327,4 @@ function renderHud(force = false): void {
     meter.setAttribute('aria-valuenow', String(Math.round(k * 100)));
   } else {
     $('next-label').textContent = '';
+    $('next-title').textContent = 'Semua sudah dibangun';
