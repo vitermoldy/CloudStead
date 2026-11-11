@@ -988,3 +988,4 @@ export class World extends Emitter {
     if (n) this.emit('ink', sum / n, max);
   }
 
+  bubbleAnchor(): { x: number; y: number; visible: boolean } {
