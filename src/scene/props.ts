@@ -470,3 +470,4 @@ function waterfall(): Group {
         // The lip curls out, then the water falls almost straight.
         float t = 1.0 - uv.y;
         p.z += sqrt(t) * 0.55;
+        gl_Position = projectionMatrix * modelViewMatrix * vec4(p, 1.0);
