@@ -239,3 +239,4 @@ export class Island {
     const g = new Group();
     g.position.set(cell[0], 0, cell[1]);
     const dirt = DIRT.has(cellKey(cell));
+    const slabMat = (dirt ? this.dirtTopMat : this.grassMat).clone();
