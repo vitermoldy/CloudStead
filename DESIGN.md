@@ -50,3 +50,4 @@ dial **ENERGY 3 / RHYTHM 1 / MOTION 3**.
 | VMK's name tag is a real button | Keyboard and touch users can greet him; it steps aside while he speaks or the pointer is on him. |
 | The black tab hanging from the top, centred | The reference's composition, kept on purpose; the wordmark sits inside it so its contrast never depends on the sky. |
 | Giant numerals bottom left are the timer | The reference's giant word, made into live state. Its ink switches between cream and black from the pixels under it, so it keeps 3:1 or better on gold clouds and on night. |
+| Small text on dark plates (92% black) | 4.5:1 over the brightest midday cloud. Blur on the story plate and the open panel only (R-10). |
