@@ -882,3 +882,4 @@ export class World extends Emitter {
     const p = this.press;
     if (p && p.on === 'char' && !p.petting && (performance.now() - p.t) / 1000 > PRESS_TO_PET) {
       p.petting = true;
+      this.character.petting = true;
