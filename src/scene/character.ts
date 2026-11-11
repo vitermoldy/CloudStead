@@ -465,3 +465,5 @@ export class Character {
       this.rig.add(g);
       g.userData.neck = true;
     }
+  }
+
