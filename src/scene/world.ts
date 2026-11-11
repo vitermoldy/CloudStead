@@ -702,3 +702,4 @@ export class World extends Emitter {
       if (on === 'char') {
         this.controls.enabled = false;
         c.setPointerCapture(e.pointerId);
+      }
