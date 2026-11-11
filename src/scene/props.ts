@@ -631,3 +631,4 @@ export class PropsLayer {
           const m = u.mat as ShaderMaterial;
           m.uniforms.uTime.value = ctx.time;
           m.uniforms.uNight.value = ctx.night;
+        };
