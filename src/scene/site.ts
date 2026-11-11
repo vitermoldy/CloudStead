@@ -36,3 +36,4 @@ export class PropSite {
     this.cell = cell;
     this.group.position.set(cell[0], 0, cell[1]);
 
+    // Stakes at the corners, a string between them.
