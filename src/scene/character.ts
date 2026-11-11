@@ -40,3 +40,4 @@ function reach(a: Vector3, target: Vector3, l1: number, l2: number, pole: Vector
   const d = target.clone().sub(a);
   const dist = clamp(d.length(), Math.abs(l1 - l2) + 0.002, l1 + l2 - 0.0005);
   const dir = d.lengthSq() > 1e-8 ? d.normalize() : new Vector3(0, -1, 0);
+  const cosA = clamp((l1 * l1 + dist * dist - l2 * l2) / (2 * l1 * dist), -1, 1);
