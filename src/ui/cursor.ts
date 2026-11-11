@@ -60,3 +60,4 @@ export class Cursor {
     if (!this.enabled) return;
     this.state = state;
     this.el.dataset.state = state;
+    if (text) this.label.textContent = text;
