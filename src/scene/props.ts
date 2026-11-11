@@ -183,3 +183,4 @@ function hut(): Group {
   const glow = new MeshBasicMaterial({ color: '#ffb35c', transparent: true, opacity: 0 });
   const door = new Mesh(new PlaneGeometry(0.22, 0.46), glow);
   door.position.set(0, 0.3, 0.355);
+  g.add(door);
