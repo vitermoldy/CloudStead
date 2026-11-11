@@ -595,3 +595,4 @@ export class World extends Emitter {
     this.instant = on;
   }
 
+  setPaused(on: boolean): void {
