@@ -533,3 +533,4 @@ export const REVEAL: Record<PropKind, 'rise' | 'parts' | 'pond' | 'fall'> = {
   telescope: 'rise', balloon: 'rise', waterfall: 'fall',
 };
 
+export class PropsLayer {
