@@ -133,3 +133,4 @@ export function makeGear(kind: Gear): Group {
     }
     case 'mug': {
       const cup = m(new CylinderGeometry(0.028, 0.025, 0.06, 12), '#efe8d6', 0.5);
+      cup.position.y = 0.03;
