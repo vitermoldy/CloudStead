@@ -627,3 +627,4 @@ export class World extends Emitter {
   /** Any sign of the visitor keeps the resident awake. */
   nudge(): void {
     this.idleFor = 0;
+    if (this.character.act === 'sleep') {
