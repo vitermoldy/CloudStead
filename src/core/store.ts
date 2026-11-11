@@ -27,3 +27,4 @@ function flush(): boolean {
   timer = 0;
   if (readOnly) return false;
   try {
+    localStorage.setItem(KEY, JSON.stringify(readAll()));
