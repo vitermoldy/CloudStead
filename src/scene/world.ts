@@ -928,3 +928,4 @@ export class World extends Emitter {
       }
     }
 
+    this.island.update(dt, t);
