@@ -177,3 +177,4 @@ function hut(): Group {
   const front = mesh(tri(true), WOOD, 0, 0.07, 0.38);
   const back = mesh(tri(false), WOOD, 0, 0.07, -0.42);
   g.add(front, back);
+  // Inside, a warm dark room; after dusk the doorway glows.
