@@ -315,3 +315,4 @@ export class World extends Emitter {
         const grow = { t: 0 };
         this.tweens.push((dt) => {
           grow.t = Math.min(1, grow.t + dt / 0.6);
+          g.scale.setScalar(Math.max(0.01, 1 - Math.pow(1 - grow.t, 3)));
