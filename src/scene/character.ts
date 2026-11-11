@@ -196,3 +196,4 @@ export class Character {
   onPlanDone: (() => void) | null = null;
 
   private plan: Step[] = [];
+  private stepT = 0;
