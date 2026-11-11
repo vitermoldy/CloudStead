@@ -818,3 +818,4 @@ export class Character {
       this.pokeT -= dt;
       pitch -= Math.sin((this.pokeT / 0.5) * Math.PI) * 0.25;
     }
+    this.headYaw = damp(this.headYaw, yaw, 8, dt);
