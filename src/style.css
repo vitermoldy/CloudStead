@@ -345,3 +345,4 @@ fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
 .toast.is-on { opacity: 1; transform: translate(-50%, 0); }
 
 /* ---------------------------------------------------------------- the cursor */
+.cursor { position: fixed; left: 0; top: 0; z-index: 60; pointer-events: none; opacity: 0; transition: opacity 160ms var(--ease); }
