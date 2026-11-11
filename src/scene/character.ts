@@ -512,3 +512,4 @@ export class Character {
   private next(): void {
     this.plan.shift();
     this.stepT = 0;
+    this.beats = 0;
