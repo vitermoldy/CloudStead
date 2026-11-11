@@ -105,3 +105,4 @@ export class PropSite {
         o.visible = i < Math.max(1, Math.ceil(k * n));
       });
     } else if (mode === 'pond') {
+      // The water widens as the hole is dug; the stones go round it after.
