@@ -413,3 +413,4 @@ export class World extends Emitter {
     if (kind === 'hammer') {
       this.fx.spawn('dust', target.clone().setY(0.08), 3);
       if (n % 4 === 0) this.site?.use();
+    } else if (kind === 'dig') {
