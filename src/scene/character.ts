@@ -627,3 +627,4 @@ export class Character {
     const crouch = act === 'hammer' ? 0.03 : act === 'dig' ? 0.02 + dip * 0.4 : act === 'water' ? 0.015 : 0;
     this.hipY = seatedHip * this.sit + (0.255 - crouch) * (1 - this.sit) + breathe * 0.3;
 
+    // ---- spine
