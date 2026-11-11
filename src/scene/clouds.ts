@@ -342,3 +342,4 @@ export function createClouds(count: number): Clouds {
   };
 
   return {
+    mesh: group,
