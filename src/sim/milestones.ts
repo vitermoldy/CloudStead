@@ -35,3 +35,5 @@ export const START_TILES: Cell[] = [
   [-1, 1], [0, 1], [1, 1],
 ];
 
+export const HOME: Cell = [0, 0];
+
