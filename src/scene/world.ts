@@ -544,3 +544,5 @@ export class World extends Emitter {
     if (path) for (const c of path.slice(1, -1)) steps.push({ kind: 'walk', to: new Vector3(c[0], 0, c[1]), carry });
     steps.push({ kind: 'walk', to: to.clone(), carry });
     return steps;
+  }
+
