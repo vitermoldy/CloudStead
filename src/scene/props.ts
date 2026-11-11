@@ -216,3 +216,4 @@ function pole(): Group {
   };
   build(g, 2.3);
   // A second pole on a small rock farther out: the line runs on to other islands.
+  const far = new Group();
