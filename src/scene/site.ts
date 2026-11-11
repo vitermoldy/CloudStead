@@ -12,3 +12,4 @@ const PLANK = new MeshStandardMaterial({ color: '#b08a5c', roughness: 0.9 });
 const STRING = new LineBasicMaterial({ color: '#f0a04b' });
 
 /**
+ * A piece under construction: stakes and a string round its cell, a faint plan of the whole
