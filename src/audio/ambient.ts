@@ -177,3 +177,4 @@ export class Ambient {
     g.gain.exponentialRampToValueAtTime(0.35, t + 0.003);
     g.gain.exponentialRampToValueAtTime(0.0001, t + 0.045);
     src.connect(bp).connect(g).connect(this.keyGain!);
+    src.start(t, Math.random() * 1.5, 0.06);
