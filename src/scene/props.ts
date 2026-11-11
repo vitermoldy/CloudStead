@@ -451,3 +451,4 @@ function balloon(): Group {
 }
 
 function waterfall(): Group {
+  const g = new Group();
