@@ -23,3 +23,4 @@ const today = (): string => {
 };
 
 const fresh = (): ProgressData => ({
+  focusMs: 0,
