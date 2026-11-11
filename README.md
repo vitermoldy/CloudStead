@@ -65,3 +65,5 @@ tetap berjalan; hanya pulaunya yang tidak tergambar.
 | S | Simpan progres |
 | P | Jeda atau lanjutkan pemandangan |
 | M | Buka panel musik |
+| Esc | Tutup panel |
+
