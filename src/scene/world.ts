@@ -651,3 +651,5 @@ export class World extends Emitter {
     this.dist = clamp((2.5 + reach * 2.9) * narrow, 7, 34);
     this.controls.minDistance = this.dist * 0.45;
     this.controls.maxDistance = this.dist * 1.6;
+  }
+
