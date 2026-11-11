@@ -13,3 +13,5 @@ export type Act =
 
 export type SeatAct = 'sitIdle' | 'type' | 'rest' | 'sleep' | 'craft';
 
+const SEATED = new Set<Act>(['sitIdle', 'type', 'rest', 'sleep', 'craft']);
+
