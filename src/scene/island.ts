@@ -119,3 +119,4 @@ export interface GrassUniforms {
 }
 
 export class Island {
+  readonly group = new Group();
