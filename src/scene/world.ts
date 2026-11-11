@@ -117,3 +117,4 @@ export class World extends Emitter {
     this.scene.add(this.island.group, this.props.group, this.character.root, this.character.seat, this.fx.group);
 
     this.camera.position.set(0, 9, 12);
+    this.bindPointer();
