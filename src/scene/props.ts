@@ -577,3 +577,4 @@ export class PropsLayer {
           (u.bulb as MeshStandardMaterial).emissiveIntensity = on * 2.4;
           (u.light as PointLight).intensity = on * 2.2;
         };
+        break;
