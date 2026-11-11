@@ -64,3 +64,4 @@ export class PropSite {
       if (mode === 'rise') {
         const mat = (mesh.material as Material).clone();
         mat.clippingPlanes = [this.cut];
+        mat.clipShadows = true;
