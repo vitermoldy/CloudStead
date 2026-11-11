@@ -335,3 +335,4 @@ export class World extends Emitter {
     // A short cheer where the work was done, then on to the next project.
     this.celebrating = true;
     this.character.run([
+      { kind: 'do', act: 'cheer', seconds: 1.4 },
