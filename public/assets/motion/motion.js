@@ -50,3 +50,4 @@ function nav() {
       else bar.classList.remove('m-menu-open');
     });
   });
+  bar.addEventListener('pointerleave', () => { clearTimeout(t); bar.classList.remove('m-menu-open'); });
