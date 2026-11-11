@@ -579,3 +579,4 @@ export class PropsLayer {
         };
         break;
       case 'board':
+        e.update = (_dt, ctx) => {
