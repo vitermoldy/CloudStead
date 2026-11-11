@@ -144,3 +144,4 @@ export class Progress extends Emitter {
     this.emit('change');
   }
 
+  /** Writes the progress section; with now, straight to storage. */
