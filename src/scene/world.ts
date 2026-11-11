@@ -488,3 +488,4 @@ export class World extends Emitter {
 
   /** A breadth-first walk over free cells (8 directions, no corner cutting) to the first cell the test accepts. */
   private findPath(from: Cell, accept: (c: Cell) => boolean): Cell[] | null {
+    const blocked = this.blockedCells();
