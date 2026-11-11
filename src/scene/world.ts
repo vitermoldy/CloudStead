@@ -288,3 +288,5 @@ export class World extends Emitter {
     if (!m || m.kind !== 'tiles' || !m.tiles) return null;
     const i = Math.min(m.tiles.length - 1, Math.floor(this.p * m.tiles.length));
     return m.tiles[i];
+  }
+
