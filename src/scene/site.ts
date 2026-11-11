@@ -69,3 +69,4 @@ export class PropSite {
       }
     });
     this.ghost.traverse((o) => {
+      const mesh = o as Mesh;
