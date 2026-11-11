@@ -86,3 +86,4 @@ function screenTexture(): { tex: CanvasTexture; draw: (lines: number, mode: 'cod
         ctx.fill();
       } else {
         ctx.strokeStyle = '#9fc7a0';
+        ctx.lineWidth = 2;
