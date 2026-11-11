@@ -85,3 +85,4 @@ html:not([data-motion="off"]) a.pill:hover { background: color-mix(in oklab, var
    and .m-link carry an arrow or sit alone and rest on the faint hairline */
 html:not([data-motion="off"]) :is(.link, .m-link, p a:not([class]), .footer ul a, .footer .link) {
   text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor), linear-gradient(var(--m-rest, var(--line-strong)), var(--m-rest, var(--line-strong)));
