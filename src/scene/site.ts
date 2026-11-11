@@ -146,3 +146,4 @@ export class PropSite {
     this.planks--;
   }
 
+  get stock(): number {
