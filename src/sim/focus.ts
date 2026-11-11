@@ -174,3 +174,4 @@ export class FocusTimer extends Emitter {
   /** The credit mark is stored with the time it covers, so a reload never counts a second twice. */
   private store(): void {
     if (!this.persistOn) return;
+    const s: Saved = {
