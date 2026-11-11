@@ -321,3 +321,4 @@ export function createClouds(count: number): Clouds {
   let sortClock = -1;
 
   const write = (time: number) => {
+    const span = material.uniforms.uSpan.value as number;
