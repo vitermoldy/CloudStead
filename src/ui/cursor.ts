@@ -80,3 +80,4 @@ export class Cursor {
     this.rx += (this.x - this.rx) * k;
     this.ry += (this.y - this.ry) * k;
     this.vx = (this.rx - px) / Math.max(dt, 0.001);
+    this.vy = (this.ry - py) / Math.max(dt, 0.001);
