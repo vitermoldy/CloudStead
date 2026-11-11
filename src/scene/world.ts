@@ -596,3 +596,4 @@ export class World extends Emitter {
   }
 
   setPaused(on: boolean): void {
+    this.paused = on;
