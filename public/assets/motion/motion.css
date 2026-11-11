@@ -209,3 +209,4 @@ html:not([data-motion="off"]) .field :is(input, select, textarea):focus, .m-inpu
   content: ""; position: absolute; left: 3px; top: 3px; width: 18px; height: 18px; border-radius: 999px;
   background: var(--bg); box-shadow: 0 1px 3px rgb(0 0 0 / .25);
   transform-origin: 0 50%; transition: transform 180ms var(--m-ease);
+}
