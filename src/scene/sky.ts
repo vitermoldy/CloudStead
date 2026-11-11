@@ -12,3 +12,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
       uZenith: { value: null },
       uHorizon: { value: null },
       uGlow: { value: null },
+      uBelow: { value: null },
