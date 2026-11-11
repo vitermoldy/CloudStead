@@ -73,3 +73,4 @@ export class FocusTimer extends Emitter {
     return this.running || this.remainingMs !== this.lengthMs();
   }
 
+  get focusing(): boolean {
