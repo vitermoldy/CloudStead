@@ -71,3 +71,4 @@ export class Ambient {
     const ctx = this.ctx!;
     const src = ctx.createBufferSource();
     src.buffer = this.noise;
+    src.loop = true;
