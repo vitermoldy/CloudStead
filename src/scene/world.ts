@@ -25,3 +25,5 @@ export interface Hover {
 
 export type WorkMode = 'work' | 'rest' | 'free';
 
+const PRESS_TO_PET = 0.45;
+
