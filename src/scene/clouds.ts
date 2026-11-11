@@ -116,3 +116,4 @@ function layout(count: number): Puff[] {
   // Cumulus towers all round, so the frame behind the island is cloud, not sky.
   const towers = Math.round(16 * Math.max(0.6, scale));
   for (let t = 0; t < towers; t++) {
+    const a = (t / towers) * Math.PI * 2 + rand() * 0.3;
