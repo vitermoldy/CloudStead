@@ -83,3 +83,4 @@ function tabs() {
         jump(ind, false);
         set(to);
       }
+      at = to;
