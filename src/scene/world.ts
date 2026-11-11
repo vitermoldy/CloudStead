@@ -224,3 +224,5 @@ export class World extends Emitter {
 
   get workMode(): WorkMode {
     return this.mode;
+  }
+
