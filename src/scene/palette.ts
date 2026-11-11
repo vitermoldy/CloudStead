@@ -84,3 +84,4 @@ export class LiveLook {
   private static tmpB = new Color();
 
   set(a: Look, b: Look = a, t = 0): void {
+    const c = (key: 'zenith' | 'horizon' | 'glow' | 'sun' | 'hemiSky' | 'hemiGround' | 'cloudLit' | 'cloudShade' | 'fog') => {
