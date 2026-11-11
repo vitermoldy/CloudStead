@@ -248,3 +248,4 @@ export class Island {
     const earth = new Mesh(this.dirtGeo, this.earthMat);
     earth.position.y = -0.25;
     earth.receiveShadow = true;
+    const dist = Math.hypot(cell[0], cell[1]);
