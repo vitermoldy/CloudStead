@@ -36,3 +36,4 @@ function rockGeometry(cell: Cell, depth: number): BufferGeometry {
       const sq = 0.5 / Math.max(Math.abs(Math.cos(a)), Math.abs(Math.sin(a)));
       if (r === 0) {
         ring.push(new Vector3(Math.cos(a) * sq, y, Math.sin(a) * sq));
+        continue;
