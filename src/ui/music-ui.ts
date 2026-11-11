@@ -93,3 +93,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
       t.className = 'queue__title';
       t.textContent = name;
       const meta = document.createElement('span');
+      meta.className = 'queue__meta';
