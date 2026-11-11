@@ -74,3 +74,4 @@ function screenTexture(): { tex: CanvasTexture; draw: (lines: number, mode: 'cod
       return;
     }
     if (mode === 'rest' || mode === 'away') {
+      // Resting: a moon. Away at work: the island's plan, a grid of cells.
