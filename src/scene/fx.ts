@@ -27,3 +27,4 @@ const TEXTURES: Record<FxKind, () => CanvasTexture> = {
     ctx.fill();
   }),
   dust: () => glyphTexture((ctx) => {
+    const g = ctx.createRadialGradient(32, 32, 2, 32, 32, 30);
