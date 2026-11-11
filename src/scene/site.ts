@@ -26,3 +26,4 @@ export class PropSite {
   private lo = 0;
   private hi = 1;
   private pile = new Group();
+  private planks = 0;
