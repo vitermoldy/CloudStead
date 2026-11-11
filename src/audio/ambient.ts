@@ -57,3 +57,4 @@ export class Ambient {
       data[i] = last * 3.5;
     }
     this.windGain = ctx.createGain();
+    this.lifeGain = ctx.createGain();
