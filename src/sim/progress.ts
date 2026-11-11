@@ -28,3 +28,4 @@ const fresh = (): ProgressData => ({
   todayDate: today(),
   sessions: 0,
   reachedAt: {},
+  startedAt: new Date().toISOString(),
