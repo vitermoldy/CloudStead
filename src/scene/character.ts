@@ -829,3 +829,4 @@ export class Character {
       phones.position.copy(neck).addScaledVector(forward, 0.01);
       phones.quaternion.copy(spineQ).multiply(new Quaternion().setFromAxisAngle(new Vector3(1, 0, 0), 1.25));
       phones.scale.setScalar(0.92);
+    } else if (phones) {
