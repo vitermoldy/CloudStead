@@ -159,3 +159,4 @@ function onHover(h: Hover & { dragging?: boolean }, petting: boolean): void {
       cursor.set('prop', h.prop?.title ?? '');
       break;
     case 'ghost': {
+      const m = world?.ghostMilestone;
