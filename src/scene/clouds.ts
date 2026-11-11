@@ -206,3 +206,4 @@ export interface Clouds {
   update(look: LiveLook, camera: Camera, time: number, moving: boolean): void;
 }
 
+export function createClouds(count: number): Clouds {
