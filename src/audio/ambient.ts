@@ -117,3 +117,4 @@ export class Ambient {
       o.type = 'sine';
       o.frequency.setValueAtTime(base, t);
       o.frequency.exponentialRampToValueAtTime(base * (1.25 + Math.random() * 0.3), t + 0.07);
+      g.gain.setValueAtTime(0.0001, t);
