@@ -35,3 +35,4 @@ export class Cursor {
     addEventListener('pointermove', (e) => {
       if (e.pointerType !== 'mouse') return;
       this.x = e.clientX;
+      this.y = e.clientY;
