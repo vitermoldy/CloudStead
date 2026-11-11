@@ -148,3 +148,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 }
 .story__phase { margin: 0; font-size: 14px; color: var(--muted); }
 .story__phase strong { color: var(--accent); font-weight: 500; }
+.story__line { margin: 0; font-size: 16px; line-height: 1.35; text-wrap: pretty; }
