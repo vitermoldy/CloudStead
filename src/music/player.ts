@@ -61,3 +61,4 @@ export class MusicPlayer extends Emitter {
     this.queue.push(item);
     this.persist();
     this.emit('change');
+    fetchDetails(item).then((d) => {
