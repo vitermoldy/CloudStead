@@ -1001,3 +1001,4 @@ export class World extends Emitter {
     return { x: (p.x * 0.5 + 0.5) * r.width + r.left, y: (-p.y * 0.5 + 0.5) * r.height + r.top };
   }
 
+  static supported(): boolean {
