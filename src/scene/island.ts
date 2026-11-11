@@ -421,3 +421,4 @@ export class Island {
     this.highlightAlpha += (this.highlightTarget - this.highlightAlpha) * Math.min(1, dt * 14);
     const mat = (this.highlight.children[0] as Mesh).material as MeshBasicMaterial;
     mat.opacity = this.highlightAlpha * 0.9;
+    const sc = 0.92 + this.highlightAlpha * 0.08;
