@@ -234,3 +234,4 @@ function positionBubble(): void {
     bubbleUntil = 0;
     return;
   }
+  const a = world.bubbleAnchor();
