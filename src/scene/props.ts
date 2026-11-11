@@ -106,3 +106,4 @@ function tree(): Group {
   const blobs: [number, number, number, number, MeshStandardMaterial][] = [
     [0, 0.05, 0, 0.42, LEAF], [0.28, -0.08, 0.1, 0.3, LEAF_LIGHT], [-0.26, -0.05, -0.06, 0.32, LEAF],
     [0.05, 0.3, -0.05, 0.3, LEAF_LIGHT], [-0.08, -0.12, 0.28, 0.26, LEAF_LIGHT],
+  ];
