@@ -362,3 +362,4 @@ function toggleFocus(): void {
   world?.nudge();
   if (timer.running && timer.phase === 'focus') {
     const next = progress.next();
+    if (next && world) speak(pick(['Oke, aku mulai kerja.', 'Ayo. Kamu fokus, aku bangun.', `Lanjut ${next.title.toLowerCase()}.`]), 2000);
