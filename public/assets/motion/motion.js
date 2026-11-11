@@ -299,3 +299,4 @@ function maskWords(h1) {
     });
     n.replaceWith(frag);
   });
+  walk(copy);
