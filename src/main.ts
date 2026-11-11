@@ -528,3 +528,4 @@ importInput.addEventListener('change', async () => {
   err.textContent = '';
   if (!file) return;
   if (isReadOnly()) {
+    err.textContent = 'Keluar dari pratinjau dulu untuk memuat simpanan.';
