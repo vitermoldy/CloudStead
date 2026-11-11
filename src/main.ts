@@ -270,3 +270,4 @@ function phaseLine(): string {
   return `${timer.phaseLabel} dijeda · ${r}`;
 }
 
+function storyLine(): string {
