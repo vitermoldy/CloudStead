@@ -32,3 +32,4 @@
 
 /* ---------------------------------------------------------------- buttons */
 html:not([data-motion="off"]) .btn {
+  position: relative;
