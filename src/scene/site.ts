@@ -134,3 +134,4 @@ export class PropSite {
     m.rotation.y = (this.planks % 2 ? 1 : -1) * 0.12 + 0.3;
     m.castShadow = true;
     m.receiveShadow = true;
+    this.pile.add(m);
