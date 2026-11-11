@@ -212,3 +212,4 @@ function onPokeProp(e: { kind: keyof typeof PROP_TITLE; title: string }): void {
     hut: 'Pondoknya hangat kalau malam.',
     board: 'Itu catatan fokusmu hari ini.',
     balloon: 'Suatu hari kita terbang ke pulau lain.',
+    telescope: 'Malam nanti kita lihat bintang.',
