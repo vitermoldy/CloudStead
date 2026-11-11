@@ -11,3 +11,4 @@ function glyphTexture(draw: (ctx: CanvasRenderingContext2D) => void): CanvasText
   const ctx = c.getContext('2d')!;
   draw(ctx);
   const t = new CanvasTexture(c);
+  t.colorSpace = SRGBColorSpace;
