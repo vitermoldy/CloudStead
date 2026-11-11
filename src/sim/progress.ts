@@ -79,3 +79,4 @@ export class Progress extends Emitter {
   }
 
   get name(): string {
+    return this.data.name;
