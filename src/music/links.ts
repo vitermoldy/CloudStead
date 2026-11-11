@@ -124,3 +124,4 @@ export interface Details {
   error?: 'private' | 'missing' | null;
 }
 
+/** Title and thumbnail from YouTube's oEmbed endpoint; null when it cannot be read. */
