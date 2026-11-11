@@ -400,3 +400,4 @@ function openPanel(id: string | null, focus = true): void {
     const on = p.id === `panel-${id}`;
     p.dataset.open = String(on);
     p.inert = !on;
+  }
