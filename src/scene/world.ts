@@ -786,3 +786,4 @@ export class World extends Emitter {
     if (!same) this.emitHover();
   }
 
+  private emitHover(): void {
