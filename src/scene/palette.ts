@@ -17,3 +17,4 @@ export interface Look {
   cloudLit: string;
   cloudShade: string;
   fog: string;
+  stars: number;
