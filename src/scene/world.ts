@@ -387,3 +387,4 @@ export class World extends Emitter {
     const at = m.at!;
     const target = new Vector3(at[0], 0, at[1]);
     const stand = this.approach ?? this.standPoint(at);
+    if (!stand) return this.planFree();
