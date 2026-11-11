@@ -92,3 +92,4 @@ export function parseSaveFile(text: string): Bag {
   }
   const data = p.data as Bag;
   const progress = data.progress as { focusMs?: unknown } | undefined;
+  if (!progress || typeof progress.focusMs !== 'number' || !Number.isFinite(progress.focusMs) || progress.focusMs < 0) {
