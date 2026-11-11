@@ -185,3 +185,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 
 /* ---------------------------------------------------------------- panels */
 .panel {
+  position: fixed; top: 76px; left: 50%; z-index: 28; width: min(440px, calc(100% - 32px));
