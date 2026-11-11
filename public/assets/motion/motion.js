@@ -17,3 +17,4 @@
     screen (1.2 s, ease-out); prefix, suffix, decimals and thousands separators are kept. The
     number's width is measured once the web fonts are in and again when it is first seen (a stat
     in a hidden tab), so nothing beside it moves; a stat the observer never reports shows its own
+    text after 6 s on screen. A headless screenshot (HeadlessChrome) sees the final number unless
