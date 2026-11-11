@@ -83,3 +83,4 @@ export class Cursor {
     this.vy = (this.ry - py) / Math.max(dt, 0.001);
     const speed = Math.hypot(this.vx, this.vy);
     // Stretch along the move, round shapes only (a tile's square keeps its corners square to the screen).
+    const round = this.state === 'idle' || this.state === 'grab' || this.state === 'prop';
