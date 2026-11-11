@@ -546,3 +546,4 @@ export class Character {
         this.act = step.carry ? 'carry' : 'walk';
         const dx = step.to.x - pos.x, dz = step.to.z - pos.z;
         const d = Math.hypot(dx, dz);
+        if (d > 0.02) turnTo(step.to.x, step.to.z, 10);
