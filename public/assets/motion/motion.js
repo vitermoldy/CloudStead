@@ -150,3 +150,4 @@ function counts() {
       return r.width > 0 && r.bottom > 0 && r.top < innerHeight && r.right > 0 && r.left < innerWidth && document.visibilityState === 'visible';
     };
     // the safety net: a stat on screen for 6 s that the observer never reported shows its own text
+    const watch = () => {
