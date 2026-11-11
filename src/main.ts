@@ -298,3 +298,4 @@ function renderHud(force = false): void {
   if (text !== lastDigits) {
     lastDigits = text;
     digits.forEach((d, i) => {
+      d.textContent = text[i] ?? '0';
