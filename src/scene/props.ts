@@ -538,3 +538,4 @@ export class PropsLayer {
   readonly entries: PropEntry[] = [];
 
   add(kind: PropKind, cell: Cell, animate: boolean): PropEntry {
+    const replaced = REPLACES[kind];
