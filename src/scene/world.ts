@@ -539,3 +539,4 @@ export class World extends Emitter {
     const pos = this.character.root.position;
     if (pos.distanceTo(to) < 0.05) return [];
     const goal = this.cellOf(to);
+    const path = this.findPath(this.cellOf(pos), (c) => c[0] === goal[0] && c[1] === goal[1]);
