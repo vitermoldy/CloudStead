@@ -13,3 +13,4 @@ export interface QueueItem extends ParsedLink {
 
 export type MusicStatus = 'idle' | 'loading-api' | 'loading' | 'playing' | 'paused' | 'buffering' | 'ended' | 'api-error';
 
+let uid = 0;
