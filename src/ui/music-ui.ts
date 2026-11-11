@@ -107,3 +107,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
       return li;
     }));
   };
+  player.on('change', render);
