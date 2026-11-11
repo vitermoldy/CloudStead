@@ -214,3 +214,4 @@ export class Fx {
   update(dt: number, time: number, night: number, reach: number): void {
     for (const pool of this.pools.values()) {
       for (const p of pool) {
+        if (!p.active) continue;
