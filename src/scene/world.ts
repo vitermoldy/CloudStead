@@ -397,3 +397,4 @@ export class World extends Emitter {
       steps.push({ kind: 'call', fn: () => this.site?.deliver() });
     } else {
       steps.push(...this.walkTo(stand));
+    }
