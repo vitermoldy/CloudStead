@@ -373,3 +373,4 @@ export class World extends Emitter {
     if (m.kind === 'tiles') {
       const cell = this.activeTile();
       const stand = cell ? this.standPoint(cell) : null;
+      if (!cell || !stand) return this.planFree();
