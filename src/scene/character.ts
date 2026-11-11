@@ -758,3 +758,4 @@ export class Character {
       this.sipT -= dt;
       targets[R].set(-0.03, neck.y + 0.05, 0.1);
     }
+    const elbows = [new Vector3(), new Vector3()];
