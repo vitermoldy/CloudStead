@@ -214,3 +214,4 @@ export function createClouds(count: number): Clouds {
   geo.index = base.index;
   geo.setAttribute('position', base.getAttribute('position'));
   geo.setAttribute('uv', base.getAttribute('uv'));
+  const aOffset = new InstancedBufferAttribute(new Float32Array(n * 3), 3);
