@@ -385,3 +385,4 @@ export class Island {
 
   showHighlight(cell: Cell | null): void {
     if (cell) {
+      this.highlight.position.set(cell[0], 0, cell[1]);
