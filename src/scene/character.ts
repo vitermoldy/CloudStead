@@ -542,3 +542,4 @@ export class Character {
         if (this.sit > 0.2) {
           this.act = 'stand';
           return;
+        }
