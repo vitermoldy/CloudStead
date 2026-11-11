@@ -681,3 +681,4 @@ export class World extends Emitter {
     };
     c.addEventListener('pointermove', (e) => {
       toNdc(e);
+      this.pointerIn = true;
