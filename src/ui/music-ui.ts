@@ -18,3 +18,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
   const loop = $<HTMLInputElement>('music-loop');
   const queue = $('queue');
 
+  const showError = (msg: string) => {
