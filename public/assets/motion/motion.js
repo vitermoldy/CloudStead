@@ -207,3 +207,4 @@ function restart(loop) {
   // ui.js fragments in the card restart by themselves
   const anims = loop.getAnimations({ subtree: true }).filter(a => typeof CSSAnimation === 'function' && a instanceof CSSAnimation);
   if (!anims.length) return;
+  const dur = a => Number(a.effect?.getComputedTiming().duration) || 0;
