@@ -315,3 +315,4 @@ function pondShape(): Shape {
   return s;
 }
 
+function pond(): Group {
