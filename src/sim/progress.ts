@@ -49,3 +49,5 @@ export class Progress extends Emitter {
     } else {
       this.data = this.read();
     }
+  }
+
