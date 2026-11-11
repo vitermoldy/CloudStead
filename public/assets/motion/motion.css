@@ -42,3 +42,4 @@ html:not([data-motion="off"]) .btn--primary:hover { background: color-mix(in okl
 html:not([data-motion="off"]) .btn--secondary:hover {
   background: color-mix(in oklab, var(--bg) 92%, var(--ink));
   border-color: color-mix(in oklab, var(--ink) 32%, transparent);
+}
