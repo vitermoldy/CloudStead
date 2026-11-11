@@ -934,3 +934,4 @@ export class Character {
       if (this.sipT > 0 && act === 'rest') {
         mug.position.copy(handR).add(new Vector3(0.0, -0.02, 0.03));
       } else {
+        mug.position.lerp(mug.userData.rest as Vector3, 1 - Math.exp(-10 * dt));
