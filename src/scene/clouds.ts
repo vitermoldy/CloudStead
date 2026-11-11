@@ -83,3 +83,4 @@ function puffAtlas(): DataTexture {
       }
     }
   }
+  const tex = new DataTexture(img.data, width, CELL, RGBAFormat);
