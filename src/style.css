@@ -327,3 +327,4 @@ fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
   transition: opacity 160ms var(--ease);
 }
 .greet__name {
+  padding: 4px 10px; border-radius: 999px; background: var(--plate); color: var(--ink); font-size: 13px; font-weight: 500;
