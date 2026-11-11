@@ -180,3 +180,4 @@ function counts() {
         const t0 = performance.now();
         const step = now => {
           const k = Math.min(1, (now - t0) / ms);
+          span.textContent = k < 1 ? format(p.value * (1 - Math.pow(1 - k, 4)), p) : p.raw;
