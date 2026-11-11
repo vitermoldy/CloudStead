@@ -491,3 +491,4 @@ function saveProgress(): void {
     toast(`Progres tersimpan, pukul ${clockNow()}.`);
     icon.classList.add('is-saved');
     clearTimeout(savedFlash);
+    savedFlash = window.setTimeout(() => icon.classList.remove('is-saved'), 1600);
