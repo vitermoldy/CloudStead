@@ -153,3 +153,4 @@ export class Ambient {
     const ctx = this.ctx;
     if (!ctx) return;
     let wait = 120 + Math.random() * 140;
+    if (this.typing && this.settings.keys && !this.hidden) {
