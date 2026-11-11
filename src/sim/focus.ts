@@ -82,3 +82,4 @@ export class FocusTimer extends Emitter {
   }
 
   lengthMs(phase: Phase = this.phase): number {
+    const c = this.config;
