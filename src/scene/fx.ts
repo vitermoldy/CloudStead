@@ -15,3 +15,4 @@ function glyphTexture(draw: (ctx: CanvasRenderingContext2D) => void): CanvasText
   return t;
 }
 
+const TEXTURES: Record<FxKind, () => CanvasTexture> = {
