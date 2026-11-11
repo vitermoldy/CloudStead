@@ -149,3 +149,4 @@ function hutFrame(): Group {
       m.rotation.z = s * 0.42;
       g.add(m);
     }
+  }
