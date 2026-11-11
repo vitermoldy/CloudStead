@@ -344,3 +344,4 @@ export function createClouds(count: number): Clouds {
   return {
     mesh: group,
     update(look, camera, time, moving) {
+      const f = floor.material.uniforms;
