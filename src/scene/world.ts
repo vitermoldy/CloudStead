@@ -960,3 +960,4 @@ export class World extends Emitter {
   /** Average brightness of the scene under the big clock, so its ink can switch. */
   private sampleInk(): void {
     const rects = this.inkRects();
+    if (!rects.length) return;
