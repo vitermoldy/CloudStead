@@ -360,3 +360,4 @@ export class Island {
         const lean = rim ? 0.5 : 0.18;
         const axis = new Vector3(outward.z, 0, -outward.x).normalize();
         q.setFromAxisAngle(up, rand() * Math.PI);
+        if (axis.lengthSq() > 0) q.premultiply(new Quaternion().setFromAxisAngle(axis, lean * rand()));
