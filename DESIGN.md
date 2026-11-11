@@ -22,3 +22,5 @@ dial **ENERGY 3 / RHYTHM 1 / MOTION 3**.
 - MOTION 3: the product is a living place (clouds drifting, the resident typing, building,
   sleeping, birds and fireflies). Interface motion stays small.
 
+## The deal (taste-skill 2.5.1)
+
