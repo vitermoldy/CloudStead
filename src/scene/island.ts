@@ -80,3 +80,4 @@ function rockGeometry(cell: Cell, depth: number): BufferGeometry {
 
 /** A thin blade, root at the origin, normals straight up so the lawn reads as one surface. */
 function bladeGeometry(): BufferGeometry {
+  const h = 1;
