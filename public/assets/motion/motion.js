@@ -334,3 +334,4 @@ function enter() {
   // still: the picture takes its place at once (no settle); otherwise the CSS settle and fade run out first
   const done = (still = false) => { if (still) hero.classList.add('is-still'); hero.classList.add('is-entered'); };
   const late = () => setTimeout(done, 1150);
+  // the head line did not run, reduced motion, a headless shot (it sees the hero at rest, as it sees the
