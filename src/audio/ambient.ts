@@ -207,3 +207,4 @@ export class Ambient {
     else this.creak();
   }
 
+  /** A short filtered noise: earth for a shovel, a trickle for water. */
