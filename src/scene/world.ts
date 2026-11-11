@@ -704,3 +704,4 @@ export class World extends Emitter {
         c.setPointerCapture(e.pointerId);
       }
     });
+    const up = (e: PointerEvent) => {
