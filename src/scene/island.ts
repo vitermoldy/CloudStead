@@ -134,3 +134,4 @@ export class Island {
   private earthMat: MeshStandardMaterial;
   private rockMat: MeshStandardMaterial;
   /** Cells whose lawn is kept short or bare because something stands on them. */
+  private bare = new Map<string, 'none' | 'edges'>();
