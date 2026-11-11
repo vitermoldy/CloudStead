@@ -634,3 +634,4 @@ export class PropsLayer {
         };
         break;
       default:
+        break;
