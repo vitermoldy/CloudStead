@@ -292,3 +292,5 @@ export class Character {
     this.mouth.position.set(0, -0.032, 0.078);
     this.mouth.rotation.z = Math.PI;
     this.head.add(this.mouth);
+    this.rig.add(this.head);
+
