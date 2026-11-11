@@ -858,3 +858,5 @@ export class Character {
       this.screenTick = act === 'type' ? 0.35 : 1.5;
       if (act === 'type') this.screenLines++;
       this.screen.draw(this.screenLines, act === 'sleep' ? 'sleep' : act === 'rest' ? 'rest' : act === 'type' || act === 'sitIdle' ? 'code' : 'away');
+    }
+
