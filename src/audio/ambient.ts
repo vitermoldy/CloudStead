@@ -238,3 +238,4 @@ export class Ambient {
     lp.type = 'lowpass';
     lp.frequency.value = 700;
     g.gain.setValueAtTime(0.0001, t);
+    g.gain.exponentialRampToValueAtTime(0.05, t + 0.03);
