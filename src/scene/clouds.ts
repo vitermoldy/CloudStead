@@ -103,3 +103,4 @@ function layout(count: number): Puff[] {
   for (let i = 0; i < Math.round(150 * scale); i++) {
     const r = 8 + Math.sqrt(rand()) * 95;
     const a = rand() * Math.PI * 2;
+    const w = 13 + rand() * 20 + r * 0.1;
