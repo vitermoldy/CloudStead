@@ -639,3 +639,4 @@ addEventListener('keydown', (e) => {
     if (openId) {
       openPanel(null);
       e.preventDefault();
+    }
