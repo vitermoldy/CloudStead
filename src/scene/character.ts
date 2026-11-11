@@ -254,3 +254,4 @@ export class Character {
   private hitHead: Mesh;
   private readonly crate: Group;
   readonly spout = new Vector3();
+  readonly blade = new Vector3();
