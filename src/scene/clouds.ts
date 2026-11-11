@@ -349,3 +349,4 @@ export function createClouds(count: number): Clouds {
       (f.uShade.value as Color).copy(look.cloudShade);
       (f.uFog.value as Color).copy(look.fog);
       (f.uSunDir.value as Vector3).copy(look.sunDir);
+      f.uTime.value = time;
