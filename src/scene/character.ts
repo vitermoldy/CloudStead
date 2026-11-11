@@ -940,3 +940,4 @@ export class Character {
   }
 
   setScreenGlow(night: number): void {
+    this.screenLight.intensity = Math.max(0, night - 0.5) * 1.2 * (this.act === 'sleep' ? 0.2 : this.atHome ? 1 : 0.3);
