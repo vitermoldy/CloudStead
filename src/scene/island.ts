@@ -152,3 +152,4 @@ export class Island {
         .replace('#include <project_vertex>', /* glsl */ `
           vec4 wpos = instanceMatrix * vec4(transformed, 1.0);
           float k = position.y * position.y;
+          float sway = sin(uTime * 1.6 + wpos.x * 1.7 + wpos.z * 1.1) + 0.5 * sin(uTime * 2.7 + wpos.z * 2.3);
