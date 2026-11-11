@@ -23,3 +23,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
     input.setAttribute('aria-invalid', msg ? 'true' : 'false');
   };
 
+  const add = (raw: string) => {
