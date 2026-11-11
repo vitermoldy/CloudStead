@@ -96,3 +96,4 @@ async function startWorld(): Promise<void> {
     if (on) {
       speak(pick(['Hehe, geli.', 'Makasih.', 'Enak juga dielus begini.']));
       ambient.greet();
+    }
