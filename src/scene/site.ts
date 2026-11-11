@@ -129,3 +129,4 @@ export class PropSite {
   /** One more armful of planks on the pile. */
   deliver(): void {
     if (this.planks >= 6) return;
+    const m = new Mesh(new BoxGeometry(0.28, 0.025, 0.06), PLANK);
