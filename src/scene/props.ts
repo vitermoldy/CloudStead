@@ -204,3 +204,4 @@ function catenary(a: Vector3, b: Vector3, sag: number, steps = 24): Vector3[] {
     p.y -= Math.sin(t * Math.PI) * sag;
     pts.push(p);
   }
+  return pts;
