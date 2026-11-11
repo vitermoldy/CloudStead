@@ -193,3 +193,4 @@ function hut(): Group {
   }
   g.add(mesh(new BoxGeometry(0.08, 0.06, 1.08), WOOD_DARK, 0, 1.03, 0));
   g.userData.glow = glow;
+  return g;
