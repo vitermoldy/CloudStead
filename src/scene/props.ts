@@ -610,3 +610,4 @@ export class PropsLayer {
           const rings = u.rings as Mesh[];
           const free = rings.reduce((best, r) => (r.userData.age > best.userData.age ? r : best), rings[0]);
           const local = e.group.worldToLocal(point.clone());
+          free.position.x = Math.max(-0.25, Math.min(0.25, local.x));
