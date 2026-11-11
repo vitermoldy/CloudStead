@@ -147,3 +147,4 @@ function cloudFloor(): { mesh: Mesh; material: ShaderMaterial } {
       uSunDir: { value: new Vector3() },
       uTime: { value: 0 },
     },
+    vertexShader: /* glsl */ `
