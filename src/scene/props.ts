@@ -94,3 +94,5 @@ function sapling(): Group {
   const b = mesh(new IcosahedronGeometry(0.09, 0), LEAF, -0.07, 0.38, 0.04);
   g.add(trunk, a, b);
   return g;
+}
+
