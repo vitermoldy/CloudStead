@@ -823,3 +823,4 @@ export class World extends Emitter {
     this.adaptClock += dt;
     if (this.adaptClock < 2.5) return;
     this.adaptClock = 0;
+    let next = this.pixelRatio;
