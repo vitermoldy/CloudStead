@@ -404,3 +404,4 @@ export class Character {
     }
     if (had) return had;
     const g = makeGear(kind);
+    switch (kind) {
