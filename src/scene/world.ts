@@ -439,3 +439,4 @@ export class World extends Emitter {
         if (!cell) return [];
         const spot = new Vector3(cell[0] + (Math.random() - 0.5) * 0.4, 0, cell[1] + (Math.random() - 0.5) * 0.4);
         const view = spot.clone().add(new Vector3(Math.sign(cell[0] || 1) * 3, 0, Math.sign(cell[1] || 1) * 3));
+        return [...this.walkTo(spot), { kind: 'do', act: 'stand', seconds: 3 + Math.random() * 3, face: view }];
