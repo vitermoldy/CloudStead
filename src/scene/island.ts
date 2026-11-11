@@ -353,3 +353,4 @@ export class Island {
           x *= 0.94;
           z *= 0.94;
         }
+        p.set(t.cell[0] + x, 0, t.cell[1] + z);
