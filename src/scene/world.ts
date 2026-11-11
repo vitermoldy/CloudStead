@@ -734,3 +734,4 @@ export class World extends Emitter {
       }
     };
     c.addEventListener('pointerup', up);
+    c.addEventListener('pointercancel', up);
