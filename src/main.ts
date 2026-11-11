@@ -41,3 +41,4 @@ function toast(text: string, ms = 3200): void {
 }
 
 const bubble = $('bubble');
+const say = $('say');
