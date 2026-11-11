@@ -961,3 +961,4 @@ export class Character {
     this.heading = 0;
     this.sit = 1;
     this.act = 'sitIdle';
+    this.setCraft(null);
