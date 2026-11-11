@@ -231,3 +231,4 @@ export function createClouds(count: number): Clouds {
     uniforms: {
       uAtlas: { value: puffAtlas() },
       uLit: { value: new Color() },
+      uShade: { value: new Color() },
