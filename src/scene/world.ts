@@ -801,3 +801,4 @@ export class World extends Emitter {
 
   /** One still frame (paused scene, reduced motion, a resize). */
   frame(): void {
+    this.step(0);
