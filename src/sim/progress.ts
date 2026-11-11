@@ -114,3 +114,4 @@ export class Progress extends Emitter {
     const passed: Milestone[] = [];
     for (const m of MILESTONES) {
       if (!d.reachedAt[m.id] && m.minutes * 60000 <= d.focusMs) {
+        d.reachedAt[m.id] = new Date().toISOString();
