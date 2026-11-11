@@ -665,3 +665,4 @@ export class PropsLayer {
   }
 
   blocked(): Set<string> {
+    return new Set(this.entries.filter((e) => e.blocking).map((e) => cellKey(e.cell)));
