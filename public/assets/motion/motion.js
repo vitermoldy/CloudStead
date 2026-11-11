@@ -59,3 +59,4 @@ function tabs() {
     if (!list.querySelector('[role="tab"]') || list.querySelector(':scope > .m-tab-ind')) return;
     const ind = document.createElement('span');
     ind.className = 'm-tab-ind';
+    ind.setAttribute('aria-hidden', 'true');
