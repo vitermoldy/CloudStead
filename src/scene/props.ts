@@ -365,3 +365,4 @@ function windmill(): Group {
   const blade = new BoxGeometry(0.11, 0.62, 0.015);
   for (let i = 0; i < 4; i++) {
     const arm = new Group();
+    arm.rotation.z = (i * Math.PI) / 2;
