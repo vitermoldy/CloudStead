@@ -388,3 +388,5 @@ progress.on('reach', (m: Milestone) => {
 progress.on('change', () => {
   world?.setContext(progress.todayMinutes, progress.minutes);
   world?.setProgress(progress.next(), projectShare());
+});
+
