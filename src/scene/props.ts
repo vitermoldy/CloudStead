@@ -24,3 +24,5 @@ export interface PropEntry {
   wiggle: number;
   update?: (dt: number, ctx: PropContext, self: PropEntry) => void;
   poke?: (self: PropEntry, point: Vector3) => void;
+}
+
