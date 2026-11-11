@@ -196,3 +196,4 @@ export class World extends Emitter {
     return e;
   }
 
+  /** Dashed outlines for the cells the current tile project brings. */
