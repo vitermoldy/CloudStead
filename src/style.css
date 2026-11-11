@@ -234,3 +234,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 .player__status:empty { display: none; }
 .now__title { margin: 12px 0 4px; font-weight: 500; overflow-wrap: anywhere; }
 .now__controls { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.round {
