@@ -207,3 +207,4 @@ function onPokeProp(e: { kind: keyof typeof PROP_TITLE; title: string }): void {
     rock: 'Batu ini sudah ada sejak hari pertama.',
     pond: 'Airnya dingin.',
     windmill: 'Anginnya kencang di ketinggian.',
+    tree: 'Daunnya makin lebat.',
