@@ -281,3 +281,4 @@ html:not([data-motion="off"]) .field :is(input, select, textarea):focus, .m-inpu
   /* the clip's resting value, kept below the waiting rule's weight so that one wins while it applies */
   .hero[data-enter] :is([data-enter-media], .hero__bg, .hero__media, .hero__stage, .hero__art, .hero__window, .hero-visual, .ly-collage):is(img, picture, video) { clip-path: inset(0); }
   html.m-enter:not([data-motion="off"]) .hero[data-enter]:not([data-enter="off"], .is-still)
+    :is([data-enter-media], .hero__bg, .hero__media, .hero__stage, .hero__art, .hero__window, .hero-visual, .ly-collage):not(img, picture, video, :has(> :is(img, picture, video, .frame__img))) {
