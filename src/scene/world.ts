@@ -803,3 +803,5 @@ export class World extends Emitter {
   frame(): void {
     this.step(0);
     this.render();
+  }
+
