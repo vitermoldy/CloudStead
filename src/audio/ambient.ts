@@ -158,3 +158,4 @@ export class Ambient {
       // Words come in bursts, with a pause to think now and then.
       if (Math.random() < 0.08) wait += 500 + Math.random() * 900;
     } else {
+      wait = 400;
