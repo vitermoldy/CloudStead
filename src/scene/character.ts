@@ -358,3 +358,4 @@ export class Character {
     const handle = new Mesh(new BoxGeometry(0.02, 0.15, 0.02), new MeshStandardMaterial({ color: '#7a5636' }));
     handle.position.y = 0.04;
     const head = new Mesh(new BoxGeometry(0.07, 0.03, 0.03), IRON);
+    head.position.y = 0.11;
