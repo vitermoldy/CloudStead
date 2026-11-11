@@ -376,3 +376,4 @@ function enter() {
     let k = 0;
     steps.forEach(el => {
       const above = !!(el.compareDocumentPosition(h1) & Node.DOCUMENT_POSITION_FOLLOWING);
+      // the rise is added to whatever transform the part has of its own; the fade replaces its opacity
