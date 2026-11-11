@@ -5,3 +5,5 @@ import {
   PointLight, Shape, ShaderMaterial, SphereGeometry, SRGBColorSpace, TorusGeometry, Vector2, Vector3, type Raycaster,
 } from 'three';
 import { rng } from '../core/emitter';
+import { cellKey, type Cell, type PropKind } from '../sim/milestones';
+
