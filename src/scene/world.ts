@@ -552,3 +552,4 @@ export class World extends Emitter {
     return this.walkTo(c.home);
   }
 
+  private get home(): Vector3 {
