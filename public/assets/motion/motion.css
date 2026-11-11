@@ -231,3 +231,4 @@ html:not([data-motion="off"]) .field :is(input, select, textarea):focus, .m-inpu
 .m-check:checked { background-color: var(--action); border-color: var(--action); }
 .m-check:checked::before { opacity: 1; transform: rotate(-45deg) scale(1); }
 
+/* ---------------------------------------------------------------- FAQ
