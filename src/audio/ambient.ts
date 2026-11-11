@@ -73,3 +73,4 @@ export class Ambient {
     src.buffer = this.noise;
     src.loop = true;
     const lp = ctx.createBiquadFilter();
+    lp.type = 'lowpass';
