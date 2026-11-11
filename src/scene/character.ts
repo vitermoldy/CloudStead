@@ -180,3 +180,4 @@ export function makeGear(kind: Gear): Group {
   return g;
 }
 
+/** Textiles are knitted or sewn; the rest is put together by hand. */
