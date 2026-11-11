@@ -923,3 +923,4 @@ export class Character {
     this.root.localToWorld(this.grip);
     if (this.craftPiece) {
       const p = (this.craftPiece.userData.p as number) ?? 0;
+      const lapY = this.hipY + 0.07;
