@@ -357,3 +357,4 @@ function pond(): Group {
 function windmill(): Group {
   const g = new Group();
   g.add(mesh(new CylinderGeometry(0.13, 0.23, 1.45, 6), std('#d8cbb0', { flatShading: true }), 0, 0.72, 0));
+  g.add(mesh(new ConeGeometry(0.19, 0.3, 6), std('#4a3a30', { flatShading: true }), 0, 1.6, 0));
