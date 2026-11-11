@@ -28,3 +28,5 @@ export class Ambient {
   private typing = false;
   private ducked = false;
   private hidden = false;
+  private timers: number[] = [];
+
