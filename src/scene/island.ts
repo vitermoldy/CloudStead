@@ -222,3 +222,4 @@ export class Island {
     }
   }
 
+  setRise(cell: Cell, k: number): void {
