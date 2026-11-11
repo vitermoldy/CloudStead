@@ -53,3 +53,4 @@ export const MILESTONES: Milestone[] = [
   { id: 'buku', minutes: 180, title: 'Tumpukan buku', done: 'Buku-buku catatan menumpuk di samping laptop.', doing: 'menjilid buku catatan', work: 'craft', kind: 'gear', gear: 'books' },
   { id: 'rangka-pondok', minutes: 210, title: 'Rangka pondok', done: 'Rangka pondok sudah berdiri.', doing: 'memasang rangka pondok', work: 'build', kind: 'prop', prop: 'hut-frame', at: [-2, -1] },
   { id: 'pondok', minutes: 250, title: 'Pondok kayu', done: 'Pondok kayu selesai, atapnya rapat.', doing: 'memasang dinding dan atap pondok', work: 'build', kind: 'prop', prop: 'hut', at: [-2, -1] },
+  { id: 'mug', minutes: 290, title: 'Mug teh', done: 'Ada mug teh hangat untuk jam istirahat.', doing: 'membentuk mug dari tanah liat', work: 'craft', kind: 'gear', gear: 'mug' },
