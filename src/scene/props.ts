@@ -257,3 +257,4 @@ function lamp(): Group {
 
 function boardTexture(): { tex: CanvasTexture; draw: (today: number, total: number) => void } {
   const canvas = document.createElement('canvas');
+  canvas.width = 256;
