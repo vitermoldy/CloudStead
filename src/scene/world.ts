@@ -781,3 +781,4 @@ export class World extends Emitter {
       u.z = 0;
     }
     this.island.showHighlight(this.hover.kind === 'tile' || this.hover.kind === 'ghost' ? this.hover.cell ?? null : null);
+    const same = prev.kind === this.hover.kind && prev.prop === this.hover.prop && prev.part === this.hover.part &&
