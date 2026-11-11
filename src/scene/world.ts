@@ -98,3 +98,4 @@ export class World extends Emitter {
     this.renderer.setPixelRatio(this.pixelRatio);
     this.renderer.outputColorSpace = SRGBColorSpace;
     this.renderer.toneMapping = ACESFilmicToneMapping;
+    this.renderer.shadowMap.enabled = true;
