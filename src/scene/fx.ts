@@ -222,3 +222,4 @@ export class Fx {
           p.sprite.visible = false;
           continue;
         }
+        p.vel.y -= p.gravity * dt;
