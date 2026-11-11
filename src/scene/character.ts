@@ -168,3 +168,4 @@ export function makeGear(kind: Gear): Group {
       rim.rotation.x = Math.PI / 2;
       rim.position.y = 0.01;
       const pom = m(new SphereGeometry(0.025, 8, 6), '#efe6cf');
+      pom.position.y = 0.1;
