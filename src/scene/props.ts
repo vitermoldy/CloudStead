@@ -600,3 +600,4 @@ export class PropsLayer {
         e.update = (dt) => {
           for (const r of u.rings as Mesh[]) {
             r.userData.age += dt;
+            const a = r.userData.age as number;
