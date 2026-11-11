@@ -625,3 +625,4 @@ export class PropsLayer {
           p.setXYZ(1, f.position.x, f.position.y - 1.4, 0);
           p.needsUpdate = true;
         };
+        break;
