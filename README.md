@@ -49,3 +49,4 @@ tetap berjalan; hanya pulaunya yang tidak tergambar.
 ## Bermain dengan VMK
 
 - Arahkan kursor ke VMK: dia menoleh, dan kursor berubah menjadi "Sapa VMK".
+- Klik untuk menyapa (saat bekerja, dia melambai dan bilang proyeknya sudah berapa persen).
