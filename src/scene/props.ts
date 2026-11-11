@@ -403,3 +403,4 @@ function telescope(): Group {
     leg.rotation.set(Math.sin(a) * 0.35, 0, -Math.cos(a) * 0.35);
     g.add(leg);
   }
+  const tube = new Group();
