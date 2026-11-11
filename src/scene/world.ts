@@ -66,3 +66,4 @@ export class World extends Emitter {
   private replan = true;
   private celebrating = false;
   private rope: Line;
+  private ropeCell: Cell | null = null;
