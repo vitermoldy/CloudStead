@@ -523,3 +523,4 @@ export class World extends Emitter {
   private standPoint(target: Cell): Vector3 | null {
     const tk = cellKey(target);
     const ring = (c: Cell) => Math.max(Math.abs(c[0] - target[0]), Math.abs(c[1] - target[1]));
+    // Right beside it if a neighbour is free; one cell further off when the neighbours are all built on.
