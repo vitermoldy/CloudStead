@@ -87,3 +87,4 @@ export class PropSite {
     this.setProgress(0);
   }
 
+  /** p from 0 to 1: how much of the piece stands. */
