@@ -961,3 +961,4 @@ export class World extends Emitter {
   private sampleInk(): void {
     const rects = this.inkRects();
     if (!rects.length) return;
+    const gl = this.renderer.getContext();
