@@ -85,3 +85,4 @@ function tabs() {
       }
       at = to;
       instant = false;
+    };
