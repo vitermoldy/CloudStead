@@ -142,3 +142,4 @@ export class FocusTimer extends Emitter {
 
   private advance(keepRunning: boolean, completed = true): void {
     if (this.phase === 'focus') {
+      if (completed) this.onFocusDone();
