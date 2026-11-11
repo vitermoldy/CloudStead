@@ -448,3 +448,4 @@ export class Island {
       const mesh = o as Mesh;
       if (mesh.geometry) mesh.geometry.dispose();
     });
+  }
