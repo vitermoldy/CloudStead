@@ -638,3 +638,4 @@ export class World extends Emitter {
     this.fitDistance(reach);
     const az = 0;
     const polar = 0.98;
+    this.camera.position.set(Math.sin(az) * Math.sin(polar) * this.dist, Math.cos(polar) * this.dist + 0.25, Math.cos(az) * Math.sin(polar) * this.dist);
