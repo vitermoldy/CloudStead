@@ -215,3 +215,4 @@ function pole(): Group {
     for (const x of [-0.26, 0, 0.26]) parent.add(mesh(new CylinderGeometry(0.018, 0.018, 0.07, 5), std('#9aa3a1'), x, h - 0.09, 0, false));
   };
   build(g, 2.3);
+  // A second pole on a small rock farther out: the line runs on to other islands.
