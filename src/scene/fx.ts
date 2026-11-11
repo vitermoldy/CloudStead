@@ -95,3 +95,4 @@ export class Fx {
 
   constructor() {
     for (const k of Object.keys(TEXTURES) as FxKind[]) {
+      this.mats.set(k, new SpriteMaterial({ map: TEXTURES[k](), transparent: true, depthWrite: false, opacity: 0 }));
