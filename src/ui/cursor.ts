@@ -25,3 +25,4 @@ export class Cursor {
   private over = false;
 
   constructor(el: HTMLElement, private surface: HTMLElement) {
+    this.el = el;
