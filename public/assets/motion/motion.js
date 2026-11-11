@@ -275,3 +275,4 @@ document.addEventListener('click', e => {
 // (m-enter-done) is not; the picture waits at its start scale and settles by a CSS transition, so it
 // never blinks however late this file is. Without script, under reduced motion and in print the hero
 // simply stands; when this file is later than the mark, the words fade in by CSS and the hero stands.
+// The h1 gets its word masks for the length of the entrance and its own nodes back afterwards.
