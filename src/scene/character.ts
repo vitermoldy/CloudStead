@@ -417,3 +417,4 @@ export class Character {
         g.userData.rest = g.position.clone();
         this.seat.add(g);
         break;
+      case 'scarf':
