@@ -66,3 +66,4 @@ export interface YTPlayer {
   loadPlaylist(o: unknown): void;
   cuePlaylist(o: unknown): void;
   playVideo(): void;
+  pauseVideo(): void;
