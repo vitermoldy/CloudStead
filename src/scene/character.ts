@@ -214,3 +214,4 @@ export class Character {
   private waveT = 0;
   private pokeT = 0;
   private sipT = 0;
+  private nextSip = 8;
