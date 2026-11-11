@@ -215,3 +215,4 @@ export class Island {
       const t = this.buildTile(c);
       t.rise = 0;
       t.target = 0;
+      t.landed = false;
