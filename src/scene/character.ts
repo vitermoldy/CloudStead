@@ -302,3 +302,5 @@ export class Character {
       this.shins.push(new Mesh(new CapsuleGeometry(0.032, L_SHIN - 0.06, 4, 8), PANTS));
       this.shoes.push(new Mesh(new BoxGeometry(0.05, 0.035, 0.085), SHOES));
     }
+    this.rig.add(...this.upper, ...this.fore, ...this.palms, ...this.thighs, ...this.shins, ...this.shoes);
+
