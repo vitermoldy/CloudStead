@@ -146,3 +146,4 @@ export function makeGear(kind: Gear): Group {
       const cupGeo = new CylinderGeometry(0.03, 0.03, 0.025, 12);
       const l = m(cupGeo, '#2b2b2e', 0.5);
       const r = m(cupGeo, '#2b2b2e', 0.5);
+      l.rotation.z = Math.PI / 2;
