@@ -370,3 +370,4 @@ function enter() {
       ? [{ transform: 'translateY(calc(100% + .2em))' }, { transform: 'none' }]
       : [{ transform: 'translateY(.35em)', opacity: 0 }, { transform: 'none', opacity: 1 }],
       { duration: 700, delay: 80 + k * lineStep, easing: EASE, fill: 'both' }))));
+    // a line above the h1 (a notice, a pill) comes with its first line; what follows starts as its
