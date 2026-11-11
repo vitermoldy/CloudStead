@@ -803,3 +803,4 @@ export class Character {
         yaw = this.looking ? lookYaw * 0.7 : lookYaw * 0.3;
         pitch = this.looking ? lookPitch * 0.6 : act === 'haul' ? 0.35 : 0.5;
         break;
+      case 'cheer':
