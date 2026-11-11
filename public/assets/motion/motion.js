@@ -69,3 +69,4 @@ function tabs() {
       ind.style.setProperty('--sx', String(sx)); ind.style.setProperty('--sy', String(sy));
     };
     // the pill travels by transform only: it takes the new tab's size at once, is drawn scaled to the
+    // old tab's size at the old place, and settles to scale 1 at the new place (motion.css)
