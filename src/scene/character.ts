@@ -714,3 +714,4 @@ export class Character {
           break;
         case 'walk': {
           const ph = this.walkPhase + i * Math.PI + Math.PI;
+          t.set(s * 0.12, this.hipY + 0.02, Math.cos(ph) * 0.07);
