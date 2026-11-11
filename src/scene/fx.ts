@@ -101,3 +101,4 @@ export class Fx {
     const n = 28;
     const pos = new Float32Array(n * 3);
     this.flyBase = new Float32Array(n * 4);
+    for (let i = 0; i < n; i++) {
