@@ -123,3 +123,4 @@ async function startWorld(): Promise<void> {
   if (!paused) w.start();
   requestAnimationFrame(() => html.classList.add('scene-ready'));
   // Once the island has faded in over it, the still is no longer needed.
+  setTimeout(() => {
