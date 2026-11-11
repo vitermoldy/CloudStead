@@ -420,3 +420,4 @@ function balloon(): Group {
   const profile: Vector2[] = [];
   for (let i = 0; i <= 16; i++) {
     const t = i / 16;
+    const y = -0.85 + t * 1.75;
