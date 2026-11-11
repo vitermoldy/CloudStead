@@ -171,3 +171,4 @@ function hut(): Group {
       hole.absarc(0, 0.36, 0.12, 0, Math.PI, false);
       hole.lineTo(-0.12, 0);
       s.holes.push(hole);
+    }
