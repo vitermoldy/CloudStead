@@ -55,3 +55,4 @@ function puffAtlas(): DataTexture {
             const dx = x - c.x, dy = y - c.y;
             const d2 = dx * dx + dy * dy;
             if (d2 >= c.r * c.r) continue;
+            const h = Math.sqrt(c.r * c.r - d2);
