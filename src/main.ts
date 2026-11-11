@@ -449,3 +449,4 @@ function renderIsland(): void {
       const at = progress.data.reachedAt[m.id];
       const d = at ? new Date(at) : null;
       when.textContent = d && !isReadOnly() ? `selesai ${d.toLocaleDateString('id-ID', { day: 'numeric', month: 'short' })}` : 'selesai';
+    } else if (m === next) {
