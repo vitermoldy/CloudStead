@@ -173,3 +173,4 @@ function hut(): Group {
       s.holes.push(hole);
     }
     return new ExtrudeGeometry(s, { depth: 0.04, bevelEnabled: false });
+  };
