@@ -649,3 +649,4 @@ addEventListener('keydown', (e) => {
     toggleFocus();
   } else if (e.key === 'p' || e.key === 'P') {
     setScenePaused(!(world?.isPaused ?? false));
+  } else if (e.key === 's' || e.key === 'S') {
