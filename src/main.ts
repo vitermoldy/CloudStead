@@ -151,3 +151,4 @@ function onHover(h: Hover & { dragging?: boolean }, petting: boolean): void {
   if (petting) return cursor.set('pet', 'Elus');
   switch (h.kind) {
     case 'char': {
+      const sleeping = world?.character.act === 'sleep';
