@@ -560,3 +560,4 @@ $('reset-confirm').addEventListener('click', () => {
   resetDialog.close();
   timer.reset();
   progress.reset();
+  world?.sync(new Set());
