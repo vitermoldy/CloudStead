@@ -21,3 +21,5 @@ function readAll(): Bag {
     cache = {};
   }
   return cache!;
+}
+
