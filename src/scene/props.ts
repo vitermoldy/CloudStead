@@ -199,3 +199,4 @@ function hut(): Group {
 function catenary(a: Vector3, b: Vector3, sag: number, steps = 24): Vector3[] {
   const pts: Vector3[] = [];
   for (let i = 0; i <= steps; i++) {
+    const t = i / steps;
