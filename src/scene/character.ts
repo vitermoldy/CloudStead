@@ -407,3 +407,4 @@ export class Character {
     switch (kind) {
       case 'cushion':
         this.seat.add(g);
+        break;
