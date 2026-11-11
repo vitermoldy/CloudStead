@@ -27,3 +27,4 @@ tetap berjalan; hanya pulaunya yang tidak tergambar.
   20 menit; pulau mulai dari 9 petak dan menjadi 37. Selama fase fokus berjalan, VMK mengerjakan
   proyek berikutnya dan hasilnya naik sedikit demi sedikit sesuai persentasenya:
   - bangunan: dia mengangkut kayu dari peti di tempat duduknya lalu memalu;
+  - tanaman: dia menggali lalu menyiram;
