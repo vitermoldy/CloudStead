@@ -849,3 +849,4 @@ export class World extends Emitter {
     const reach = this.island.reach();
     this.sun.position.copy(L.sunDir).multiplyScalar(22);
     const cam = this.sun.shadow.camera;
+    const r = reach + 1.5;
