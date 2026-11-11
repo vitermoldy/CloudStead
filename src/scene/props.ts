@@ -271,3 +271,4 @@ function boardTexture(): { tex: CanvasTexture; draw: (today: number, total: numb
     ctx.fillStyle = '#26302a';
     ctx.fillRect(0, 0, 256, 160);
     ctx.fillStyle = 'rgba(235, 232, 214, 0.92)';
+    ctx.font = '500 22px "Funnel Sans Variable", system-ui, sans-serif';
