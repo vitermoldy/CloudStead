@@ -240,3 +240,4 @@ export class World extends Emitter {
   }
 
   private startProject(m: Milestone | null): void {
+    this.endProject();
