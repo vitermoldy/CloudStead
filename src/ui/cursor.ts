@@ -66,3 +66,4 @@ export class Cursor {
   }
 
   private wake(): void {
+    if (!this.raf) {
