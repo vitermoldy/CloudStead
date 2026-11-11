@@ -524,3 +524,4 @@ const importInput = $<HTMLInputElement>('save-import');
 importInput.addEventListener('change', async () => {
   const file = importInput.files?.[0];
   importInput.value = '';
+  const err = $('save-error');
