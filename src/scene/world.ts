@@ -925,3 +925,4 @@ export class World extends Emitter {
       if (this.steamClock <= 0) {
         this.steamClock = 0.7;
         this.fx.spawn('steam', this.character.seat.localToWorld(new Vector3(-0.27, 0.09, 0.13)));
+      }
