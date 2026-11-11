@@ -59,3 +59,4 @@ export class World extends Emitter {
   private dragging = false;
   private mode: WorkMode = 'free';
   private project: Milestone | null = null;
+  private p = 0;
