@@ -283,3 +283,4 @@ export class MusicPlayer extends Emitter {
   private onError(code: number): void {
     const item = this.item;
     if (item) {
+      item.status = 'error';
