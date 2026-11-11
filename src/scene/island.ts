@@ -364,3 +364,4 @@ export class Island {
         const tall = rand() < 0.12;
         const h = (dirt ? 0.05 : 0.06) + rand() * (tall ? 0.12 : 0.06);
         s.set(0.04 + rand() * 0.03, h, 1);
+        m.compose(p, q, s);
