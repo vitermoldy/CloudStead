@@ -639,3 +639,4 @@ export class PropsLayer {
   }
 
   remove(match: (e: PropEntry) => boolean): void {
+    for (let i = this.entries.length - 1; i >= 0; i--) {
