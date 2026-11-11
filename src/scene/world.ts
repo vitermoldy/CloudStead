@@ -583,3 +583,4 @@ export class World extends Emitter {
     if (this.timeMode === 'auto') {
       const d = new Date();
       const { a, b, t } = lookForHour(d.getHours() + d.getMinutes() / 60);
+      this.target.set(LOOKS[a], LOOKS[b], t);
