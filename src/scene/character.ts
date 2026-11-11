@@ -535,3 +535,4 @@ export class Character {
       case 'call':
         step.fn();
         this.next();
+        return;
