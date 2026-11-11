@@ -250,3 +250,4 @@ function positionGreet(): void {
   greetBtn.style.left = `${a.x}px`;
   greetBtn.style.top = `${a.y + 6}px`;
   greetBtn.classList.toggle('is-quiet', !a.visible || bubbleUntil > 0 || hoveringResident);
+}
