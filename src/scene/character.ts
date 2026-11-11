@@ -540,3 +540,4 @@ export class Character {
         this.workPoint = null;
         // Get up first.
         if (this.sit > 0.2) {
+          this.act = 'stand';
