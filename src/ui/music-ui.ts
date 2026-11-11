@@ -55,3 +55,5 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
   $('music-prev').addEventListener('click', () => player.prev());
   $('music-next').addEventListener('click', () => player.next());
   volume.addEventListener('input', () => player.setVolume(Number(volume.value)));
+  loop.addEventListener('change', () => player.setLoop(loop.checked));
+
