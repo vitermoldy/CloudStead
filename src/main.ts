@@ -611,3 +611,4 @@ function setScenePaused(on: boolean, remember = true): void {
   if (remember) {
     settings.paused = on;
     save('settings', settings);
+  }
