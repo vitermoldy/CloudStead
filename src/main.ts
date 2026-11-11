@@ -188,3 +188,4 @@ function onGreet(): void {
       `Kamu fokus, aku kerja. ${left} lagi ${next.title.toLowerCase()} jadi.`,
       'Sebentar, tanggung. Lanjut fokus, ya.',
     ] : ['Pulaunya sudah utuh. Aku temani kamu fokus.']));
+  } else if (timer.resting) {
