@@ -925,3 +925,4 @@ export class Character {
       const p = (this.craftPiece.userData.p as number) ?? 0;
       const lapY = this.hipY + 0.07;
       this.craftPiece.visible = act === 'craft';
+      this.craftPiece.position.set(0, lapY + 0.02, 0.14);
