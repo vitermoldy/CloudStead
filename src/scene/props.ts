@@ -209,3 +209,4 @@ function catenary(a: Vector3, b: Vector3, sag: number, steps = 24): Vector3[] {
 
 function pole(): Group {
   const g = new Group();
+  const build = (parent: Group, h: number) => {
