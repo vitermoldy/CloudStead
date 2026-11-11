@@ -93,3 +93,4 @@ export class Cursor {
     this.label.style.left = `${this.rx}px`;
     this.label.style.top = `${this.ry}px`;
     const settled = Math.abs(this.x - this.rx) < 0.3 && Math.abs(this.y - this.ry) < 0.3;
+    this.raf = settled ? 0 : requestAnimationFrame((t) => this.frame(t));
