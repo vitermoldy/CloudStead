@@ -628,3 +628,4 @@ export class Character {
     this.hipY = seatedHip * this.sit + (0.255 - crouch) * (1 - this.sit) + breathe * 0.3;
 
     // ---- spine
+    const lean = new Vector3(0, 1, 0.06);
