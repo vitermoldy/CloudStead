@@ -1,2 +1,3 @@
 import { load, save } from '../core/store';
 
+export interface SoundSettings {
