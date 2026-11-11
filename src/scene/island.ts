@@ -19,3 +19,4 @@ function tint(hex: string, rand: () => number, spread: number): Color {
   return c;
 }
 
+/** The rock under one cell: a tapered, faceted column whose top is the cell's exact square. */
