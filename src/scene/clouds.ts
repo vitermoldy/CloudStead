@@ -185,3 +185,5 @@ function cloudFloor(): { mesh: Mesh; material: ShaderMaterial } {
         vec3 col = mix(uShade, uLit, lit * (0.35 + billow * 0.65));
         col *= mix(0.55, 1.0, billow);
         float dist = length(vWorld - cameraPosition);
+        col = mix(col, uFog, smoothstep(40.0, 150.0, dist) * 0.9);
+
