@@ -620,3 +620,4 @@ export class World extends Emitter {
     this.context.totalMinutes = total;
   }
 
+  setInkSource(fn: () => DOMRect[]): void {
