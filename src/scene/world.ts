@@ -12,3 +12,5 @@ import { Island } from './island';
 import { LiveLook, LOOKS, lookForHour, type TimeId } from './palette';
 import { PropsLayer, type PropEntry } from './props';
 import { PropSite } from './site';
+import { createSky } from './sky';
+
