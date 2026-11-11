@@ -49,3 +49,4 @@ export class World extends Emitter {
   private look = new LiveLook();
   private target = new LiveLook();
   private timeMode: TimeMode = 'senja';
+  private clockCheck = 0;
