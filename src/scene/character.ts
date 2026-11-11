@@ -658,3 +658,4 @@ export class Character {
     const scarf = this.gear.get('scarf');
     if (scarf) {
       scarf.position.copy(neck).addScaledVector(this.spine, -0.01);
+      scarf.quaternion.setFromUnitVectors(UP, this.spine);
