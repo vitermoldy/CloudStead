@@ -500,3 +500,4 @@ function saveProgress(): void {
 $('save-now').addEventListener('click', saveProgress);
 $('save-now-2').addEventListener('click', saveProgress);
 
+function downloadSave(): void {
