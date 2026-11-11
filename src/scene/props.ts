@@ -491,3 +491,4 @@ function waterfall(): Group {
         col *= mix(1.0, 0.45, uNight);
         float a = edge * fade * (0.55 + streak * 0.45);
         gl_FragColor = vec4(col, a);
+        #include <colorspace_fragment>
