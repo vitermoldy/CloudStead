@@ -494,3 +494,4 @@ function waterfall(): Group {
         #include <colorspace_fragment>
       }
     `,
+  });
