@@ -101,3 +101,5 @@ export class World extends Emitter {
     this.renderer.shadowMap.enabled = true;
     this.renderer.shadowMap.type = PCFShadowMap;
     // Pieces under construction are cut at their progress line.
+    this.renderer.localClippingEnabled = true;
+
