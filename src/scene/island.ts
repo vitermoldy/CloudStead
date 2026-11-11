@@ -105,3 +105,4 @@ interface Tile {
   /** Where the cell is on its way up from the clouds (0 hidden below, 1 in place), and where the work has got it to. */
   rise: number;
   target: number;
+  landed: boolean;
