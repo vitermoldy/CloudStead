@@ -275,3 +275,4 @@ export function createClouds(count: number): Clouds {
       uniform vec3 uShade;
       uniform vec3 uFog;
       varying vec2 vUv;
+      varying float vAlpha;
