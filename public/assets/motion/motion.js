@@ -326,3 +326,4 @@ function enterSteps(hero, h1, media) {
   };
   hero.querySelectorAll(ENTER_TEXT).forEach(take);
   return out.filter(el => !el.closest('[aria-hidden="true"]') && !out.some(o => o !== el && o.contains(el)))
+    .sort((a, b) => (a.compareDocumentPosition(b) & Node.DOCUMENT_POSITION_FOLLOWING ? -1 : 1));
