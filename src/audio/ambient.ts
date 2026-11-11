@@ -159,3 +159,4 @@ export class Ambient {
       if (Math.random() < 0.08) wait += 500 + Math.random() * 900;
     } else {
       wait = 400;
+    }
