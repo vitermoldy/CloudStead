@@ -918,3 +918,4 @@ export class Character {
     }
     if (t.yarn.visible) {
       t.yarn.position.copy(handL).add(handR).multiplyScalar(0.5);
+    }
