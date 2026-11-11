@@ -673,3 +673,4 @@ export class World extends Emitter {
   }
 
   // ------------------------------------------------------------ pointer
+  private bindPointer(): void {
