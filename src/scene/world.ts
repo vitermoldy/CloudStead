@@ -775,3 +775,4 @@ export class World extends Emitter {
       }
     }
     const u = this.island.grassUniforms.uCursor.value;
+    if (this.hover.kind === 'tile' || this.hover.kind === 'prop') {
