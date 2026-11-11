@@ -345,3 +345,4 @@ function pond(): Group {
   for (let i = 0; i < 4; i++) {
     const r = new Mesh(ringGeo, new MeshBasicMaterial({ color: '#d9ecee', transparent: true, opacity: 0 }));
     r.rotation.x = -Math.PI / 2;
+    r.position.y = 0.03;
