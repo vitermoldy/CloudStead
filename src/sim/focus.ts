@@ -68,3 +68,4 @@ export class FocusTimer extends Emitter {
     return PHASE_LABEL[this.phase];
   }
 
+  /** True once a block has been started and not reset. */
