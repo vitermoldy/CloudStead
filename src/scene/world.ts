@@ -369,3 +369,4 @@ export class World extends Emitter {
       steps.push({ kind: 'sit', act: 'craft', seconds: 9 });
       c.run(steps);
       return;
+    }
