@@ -66,3 +66,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
     loop.checked = player.loop;
     const playing = player.isPlaying;
     play.classList.toggle('is-playing', playing);
+    play.setAttribute('aria-label', playing ? 'Jeda musik' : 'Putar musik');
