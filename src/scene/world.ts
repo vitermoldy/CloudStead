@@ -39,3 +39,4 @@ export class World extends Emitter {
   readonly island = new Island();
   readonly props = new PropsLayer();
   readonly character = new Character();
+  readonly fx = new Fx();
