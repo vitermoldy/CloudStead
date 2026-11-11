@@ -204,3 +204,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
   display: grid; place-items: center; width: 44px; height: 44px; border: 0; border-radius: 50%; background: none; color: var(--muted);
 }
 .panel__close:hover { color: var(--ink); background: rgba(231, 228, 209, 0.08); }
+.panel__close svg { width: 20px; height: 20px; fill: currentColor; }
