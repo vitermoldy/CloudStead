@@ -49,3 +49,4 @@ export class PropSite {
     this.group.add(new Line(new BufferGeometry().setFromPoints(loop), STRING));
 
     this.build = buildProp(kind);
+    this.ghost = buildProp(kind);
