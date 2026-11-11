@@ -22,3 +22,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
       varying vec3 vDir;
       void main() {
         vDir = normalize(position);
+        vec4 p = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
