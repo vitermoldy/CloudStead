@@ -235,3 +235,4 @@ function positionBubble(): void {
     return;
   }
   const a = world.bubbleAnchor();
+  const half = Math.min(120, bubble.offsetWidth / 2);
