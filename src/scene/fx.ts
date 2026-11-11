@@ -120,3 +120,4 @@ export class Fx {
       this.birds.add(b);
     }
     this.birds.visible = false;
+    this.group.add(this.birds);
