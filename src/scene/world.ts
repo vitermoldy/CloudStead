@@ -444,3 +444,4 @@ export class World extends Emitter {
     ];
     if (plants.length) {
       options.push([2, () => {
+        const pl = plants[Math.floor(Math.random() * plants.length)];
