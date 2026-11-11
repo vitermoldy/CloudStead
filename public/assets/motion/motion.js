@@ -235,3 +235,4 @@ function pauseButton(loop) {
   btn.__show = show;
 }
 function loops() {
+  const els = [...document.querySelectorAll('[data-m-loop]')].filter(el => !el.__mLoop);
