@@ -47,3 +47,4 @@ const TEXTURES: Record<FxKind, () => CanvasTexture> = {
     ctx.textBaseline = 'middle';
     ctx.fillText('♪', 32, 34);
   }),
+  z: () => glyphTexture((ctx) => {
