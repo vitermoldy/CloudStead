@@ -511,3 +511,5 @@ const BUILDERS: Record<PropKind, () => Group> = {
 };
 
 /** Which way each piece faces (radians round y), so fronts meet the camera or the resident. */
+const FACING: Partial<Record<PropKind, number>> = { hut: 0.45, 'hut-frame': 0.45, board: 0, bench: 0, windmill: 0.5, telescope: -0.6 };
+
