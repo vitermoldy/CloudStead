@@ -128,3 +128,4 @@ export class Island {
   private grass: InstancedMesh;
   readonly grassUniforms: GrassUniforms = { uTime: { value: 0 }, uCursor: { value: new Vector3(0, 0, 0) }, uWind: { value: 1 } };
   private slabGeo = new RoundedBoxGeometry(0.975, 0.16, 0.975, 2, 0.035);
+  private dirtGeo = new BoxGeometry(1, 0.3, 1);
