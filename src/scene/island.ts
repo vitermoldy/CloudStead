@@ -449,3 +449,4 @@ export class Island {
       if (mesh.geometry) mesh.geometry.dispose();
     });
   }
+}
