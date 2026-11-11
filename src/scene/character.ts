@@ -157,3 +157,4 @@ export function makeGear(kind: Gear): Group {
       const ring = m(new TorusGeometry(0.06, 0.024, 6, 14), '#c05a3c');
       ring.rotation.x = Math.PI / 2;
       const tail = m(new BoxGeometry(0.04, 0.11, 0.015), '#c05a3c');
+      tail.position.set(0.03, -0.06, 0.06);
