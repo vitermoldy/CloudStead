@@ -672,3 +672,4 @@ export class Character {
       if (act === 'cheer') standFoot.y = Math.max(0, Math.sin(time * 9 + i)) * 0.02;
       const target = standFoot.lerp(seatedFoot, this.sit);
       const pole = new Vector3(s * this.sit, 0.6 * this.sit, 1);
+      this.feet[i].lerp(target, 1 - Math.exp(-14 * dt));
