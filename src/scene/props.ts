@@ -393,3 +393,5 @@ function pine(): Group {
   const tiers: [number, number, number][] = [[0.42, 0.62, 0.62], [0.33, 0.55, 0.98], [0.22, 0.45, 1.3]];
   for (const [r, h, y] of tiers) g.add(mesh(new ConeGeometry(r, h, 7), PINE, 0, y, 0));
   return g;
+}
+
