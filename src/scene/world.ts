@@ -200,3 +200,4 @@ export class World extends Emitter {
   updateGhosts(reached: Set<string>): void {
     const upcoming = MILESTONES.find((m) => !reached.has(m.id));
     const tiles = upcoming && upcoming.kind === 'tiles' ? upcoming : null;
+    this.island.setGhosts(tiles?.tiles ?? []);
