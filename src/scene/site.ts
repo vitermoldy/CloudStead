@@ -42,3 +42,4 @@ export class PropSite {
     for (const [x, z] of corners) {
       const m = new Mesh(stake, STAKE);
       m.position.set(x, 0.08, z);
+      m.castShadow = true;
