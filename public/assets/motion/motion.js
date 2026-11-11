@@ -261,3 +261,4 @@ document.addEventListener('click', e => {
 });
 
 /* ---------------------------------------------------------------- switches */
+document.addEventListener('click', e => {
