@@ -185,3 +185,4 @@ export class Ambient {
     if (!ctx || !this.settings.effects) return;
     const t = ctx.currentTime + 0.01 + at;
     const o = ctx.createOscillator();
+    const g = ctx.createGain();
