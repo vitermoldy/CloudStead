@@ -50,3 +50,4 @@ const TEXTURES: Record<FxKind, () => CanvasTexture> = {
   z: () => glyphTexture((ctx) => {
     ctx.fillStyle = '#f3efd9';
     ctx.font = '600 46px "Funnel Display Variable", system-ui, sans-serif';
+    ctx.textAlign = 'center';
