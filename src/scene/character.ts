@@ -435,3 +435,5 @@ export class Character {
 
   hasGear(kind: Gear): boolean {
     return this.gear.has(kind);
+  }
+
