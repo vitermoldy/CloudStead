@@ -580,3 +580,4 @@ export class Character {
         d = Math.atan2(Math.sin(d), Math.cos(d));
         this.heading += d * Math.min(1, dt * 6);
         pos.lerp(this.home, Math.min(1, dt * 6));
+        this.act = step.act;
