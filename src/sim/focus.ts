@@ -49,3 +49,4 @@ export class FocusTimer extends Emitter {
     this.creditedAt = Number.isFinite(s.creditedAt) ? (s.creditedAt as number) : Date.now();
   }
 
+  /** Called once the island exists: a block that ran while the page was closed is credited up to its end. */
