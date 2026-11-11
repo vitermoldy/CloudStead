@@ -3,3 +3,5 @@ import {
   MeshStandardMaterial, Object3D, Plane, Vector3,
 } from 'three';
 import type { Cell, PropKind } from '../sim/milestones';
+import { buildProp, REVEAL } from './props';
+
