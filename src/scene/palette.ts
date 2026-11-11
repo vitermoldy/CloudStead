@@ -10,3 +10,4 @@ export interface Look {
   sun: string;
   sunIntensity: number;
   /** Direction toward the sun (or the moon at night). */
+  sunDir: [number, number, number];
