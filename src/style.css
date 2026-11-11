@@ -407,3 +407,4 @@ html.has-cursor .cursor.is-on { opacity: 1; }
   .tab__icon--pause { display: none; }
 }
 @media (max-height: 560px) and (min-width: 761px) {
+  .big { font-size: clamp(72px, 22vh, 160px); }
