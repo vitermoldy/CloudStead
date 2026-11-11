@@ -87,3 +87,4 @@ export class Ambient {
     swellGain.gain.value = 0.25;
     const base = ctx.createGain();
     base.gain.value = 0.55;
+    swell.connect(swellGain).connect(base.gain);
