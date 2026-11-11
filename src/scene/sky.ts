@@ -46,3 +46,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
       void main() {
         vec3 d = normalize(vDir);
         float h = clamp(d.y, -1.0, 1.0);
+        // Below the horizon the sky keeps the horizon colour: the cloud sea covers it.
