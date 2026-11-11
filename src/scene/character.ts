@@ -589,3 +589,4 @@ export class Character {
   }
 
   // ------------------------------------------------------------ picking and anchors
+  pick(ray: Raycaster): 'head' | 'body' | null {
