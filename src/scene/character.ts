@@ -793,3 +793,4 @@ export class Character {
         break;
       case 'walk':
       case 'carry':
+        yaw = this.looking ? lookYaw * 0.4 : 0;
