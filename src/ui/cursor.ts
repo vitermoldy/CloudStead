@@ -42,3 +42,4 @@ export class Cursor {
         this.el.classList.toggle('is-on', on);
         if (on && this.rx < -50) {
           this.rx = this.x;
+          this.ry = this.y;
