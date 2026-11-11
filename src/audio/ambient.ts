@@ -32,3 +32,5 @@ export class Ambient {
 
   constructor() {
     this.settings = { ...DEFAULTS, ...load<Partial<SoundSettings>>('sound', {}) };
+  }
+
