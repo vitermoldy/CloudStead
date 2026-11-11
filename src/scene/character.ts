@@ -621,3 +621,4 @@ export class Character {
     const cushion = this.gear.has('cushion') ? 0.055 : 0;
     const seatedHip = 0.085 + cushion;
     const breathe = Math.sin(time * 1.7) * 0.004;
+    this.workT += dt;
