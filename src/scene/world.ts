@@ -284,3 +284,4 @@ export class World extends Emitter {
 
   /** The cell of a tile project the resident is hauling now. */
   private activeTile(): Cell | null {
+    const m = this.project;
