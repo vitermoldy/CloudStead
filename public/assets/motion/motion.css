@@ -262,3 +262,4 @@ html:not([data-motion="off"]) .field :is(input, select, textarea):focus, .m-inpu
    until motion.js takes over (.is-entering): no script, reduced motion, print and data-motion="off"
    show the hero as written; a script later than the mark finds the words fading in here.
    The pictures (a photograph, a window, the collage) are never hidden, so nothing blinks or flashes
+   the hero's ground: a photograph waits at 1.05 and a window or collage at .98, by the scale property
