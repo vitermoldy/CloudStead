@@ -615,3 +615,4 @@ export class World extends Emitter {
     if (this.paused) this.frame();
   }
 
+  setContext(today: number, total: number): void {
