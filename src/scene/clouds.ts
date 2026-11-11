@@ -179,3 +179,4 @@ function cloudFloor(): { mesh: Mesh; material: ShaderMaterial } {
         float e = 0.03;
         float hx = fbm(p + vec2(e, 0.0));
         float hz = fbm(p + vec2(0.0, e));
+        vec3 n = normalize(vec3((h - hx) * 2.2, e, (h - hz) * 2.2));
