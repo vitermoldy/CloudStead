@@ -96,3 +96,4 @@ export class Progress extends Emitter {
 
   /** The milestone before the next one, for the meter's start. */
   previousMinutes(): number {
+    const done = this.reached();
