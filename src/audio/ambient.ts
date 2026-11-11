@@ -243,3 +243,5 @@ export class Ambient {
     o.connect(lp).connect(g).connect(this.keyGain!);
     o.start(t);
     o.stop(t + 0.32);
+  }
+
