@@ -112,3 +112,4 @@ export class Progress extends Emitter {
     d.todayMs += ms;
     this.unsavedMs += ms;
     const passed: Milestone[] = [];
+    for (const m of MILESTONES) {
