@@ -189,3 +189,4 @@ export class Fx {
         this.birds.position.set(-26 * this.birdDir, 5 + Math.random() * 3, -10 - Math.random() * 8);
         this.birds.visible = true;
       }
+      return;
