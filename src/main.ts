@@ -412,3 +412,4 @@ function openPanel(id: string | null, focus = true): void {
       const sel = panel.dataset.focus;
       const first = sel ? panel.querySelector<HTMLElement>(sel) : null;
       requestAnimationFrame(() => (first ?? panel.querySelector<HTMLElement>('.panel__title') ?? panel).focus({ preventScroll: true }));
+    }
