@@ -411,3 +411,4 @@ export class Island {
       t.group.rotation.x = Math.cos(time * 1.1 + t.cell[1]) * 0.04 * sway;
       if (t.rise >= 1) {
         t.group.position.y = 0;
+        t.group.rotation.set(0, 0, 0);
