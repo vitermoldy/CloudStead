@@ -398,3 +398,4 @@ function openPanel(id: string | null, focus = true): void {
   if (openId === id) id = null;
   for (const p of document.querySelectorAll<HTMLElement>('.panel')) {
     const on = p.id === `panel-${id}`;
+    p.dataset.open = String(on);
