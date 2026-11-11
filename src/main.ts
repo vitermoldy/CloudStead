@@ -392,3 +392,5 @@ progress.on('change', () => {
 
 // ------------------------------------------------------------ panels
 const tabItems = [...document.querySelectorAll<HTMLButtonElement>('.tab__item')];
+let openId: string | null = null;
+
