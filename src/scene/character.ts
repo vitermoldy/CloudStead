@@ -677,3 +677,4 @@ export class Character {
       const knee = new Vector3(), foot = new Vector3();
       reach(hip, this.feet[i], L_THIGH, L_SHIN, pole, knee, foot);
       span(this.thighs[i], hip, knee);
+      span(this.shins[i], knee, foot);
