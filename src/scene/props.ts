@@ -474,3 +474,4 @@ function waterfall(): Group {
       }
     `,
     fragmentShader: /* glsl */ `
+      uniform float uTime;
