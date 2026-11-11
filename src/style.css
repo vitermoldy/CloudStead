@@ -225,3 +225,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 .field__error { margin: 0; min-height: 0; font-size: 14px; color: var(--danger); }
 .field__error:empty { display: none; }
 
+.music-empty p { margin: 16px 0 10px; font-size: 15px; color: var(--muted); }
