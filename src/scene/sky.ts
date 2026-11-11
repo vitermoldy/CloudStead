@@ -8,3 +8,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
     depthWrite: false,
     fog: false,
     toneMapped: false,
+    uniforms: {
