@@ -534,3 +534,4 @@ export class World extends Emitter {
     return mid.addScaledVector(toward, cellKey(cell) === cellKey(HOME) ? 0.4 : 0.3);
   }
 
+  /** Walk steps from where the resident is to a point, cell by cell. */
