@@ -356,3 +356,4 @@ function enter() {
     done();
   };
   // the fonts first (a line set in the fallback face breaks elsewhere), 250ms at most: the words are
+  // hidden meanwhile, so nothing is seen twice
