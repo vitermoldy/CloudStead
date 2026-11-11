@@ -27,3 +27,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
     try {
       player.add(raw, true);
       input.value = '';
+      showError('');
