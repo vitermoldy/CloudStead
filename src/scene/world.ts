@@ -573,3 +573,4 @@ export class World extends Emitter {
     this.rope.geometry.computeBoundingSphere();
   }
 
+  // ------------------------------------------------------------ settings
