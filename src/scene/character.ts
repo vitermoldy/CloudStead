@@ -496,3 +496,4 @@ export class Character {
     return this.root.position.distanceTo(this.home) < 0.05;
   }
 
+  /** The seated act the resident is in, or null when up. */
