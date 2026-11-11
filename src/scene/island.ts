@@ -389,3 +389,5 @@ export class Island {
       this.highlight.visible = true;
     }
     this.highlightTarget = cell ? 1 : 0;
+  }
+
