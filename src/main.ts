@@ -238,3 +238,5 @@ function positionBubble(): void {
   const half = Math.min(120, bubble.offsetWidth / 2);
   bubble.style.left = `${Math.max(half + 12, Math.min(innerWidth - half - 12, a.x))}px`;
   bubble.style.top = `${Math.max(bubble.offsetHeight + 80, a.y)}px`;
+}
+
