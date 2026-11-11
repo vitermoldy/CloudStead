@@ -359,3 +359,5 @@ export class Character {
     handle.position.y = 0.04;
     const head = new Mesh(new BoxGeometry(0.07, 0.03, 0.03), IRON);
     head.position.y = 0.11;
+    t.hammer.add(handle, head);
+
