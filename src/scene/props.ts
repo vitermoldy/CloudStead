@@ -489,3 +489,4 @@ function waterfall(): Group {
         float fade = smoothstep(0.0, 0.45, vUv.y);
         vec3 col = mix(vec3(0.45, 0.66, 0.7), vec3(0.93, 0.97, 0.98), smoothstep(0.35, 0.8, streak));
         col *= mix(1.0, 0.45, uNight);
+        float a = edge * fade * (0.55 + streak * 0.45);
