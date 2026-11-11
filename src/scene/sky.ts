@@ -76,3 +76,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
   const mesh = new Mesh(new SphereGeometry(500, 48, 24), material);
   mesh.frustumCulled = false;
   mesh.renderOrder = -10;
+  return {
