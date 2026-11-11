@@ -8,3 +8,4 @@ import { exportSave, isReadOnly, lastSaved, load, onSaved, parseSaveFile, replac
 import { MusicPlayer } from './music/player';
 import { clockText, FocusTimer, type PresetId } from './sim/focus';
 import { formatMinutes, formatMinutesLong, MILESTONES, tilesFor, TOTAL_MINUTES, type Milestone } from './sim/milestones';
+import { Progress } from './sim/progress';
