@@ -27,3 +27,4 @@ if (previewMinutes !== null) setReadOnly(true);
 const progress = new Progress(previewMinutes);
 const ambient = new Ambient();
 const timer = new FocusTimer((ms) => progress.add(ms), () => progress.finishSession(), previewMinutes === null);
+const player = new MusicPlayer($('player-host'));
