@@ -534,3 +534,4 @@ export const REVEAL: Record<PropKind, 'rise' | 'parts' | 'pond' | 'fall'> = {
 };
 
 export class PropsLayer {
+  readonly group = new Group();
