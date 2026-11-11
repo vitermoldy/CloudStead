@@ -766,3 +766,4 @@ export class World extends Emitter {
           this.hover = { kind: 'prop', prop: prop.entry, cell: prop.entry.cell };
           this.hitPoint.copy(prop.point);
         } else if (this.ray.ray.intersectPlane(this.ground, this.hitPoint)) {
+          const cell = this.island.cellAt(this.hitPoint.x, this.hitPoint.z);
