@@ -103,3 +103,4 @@ export class World extends Emitter {
     // Pieces under construction are cut at their progress line.
     this.renderer.localClippingEnabled = true;
 
+    this.sun.castShadow = true;
