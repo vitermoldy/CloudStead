@@ -953,3 +953,4 @@ export class Character {
     return this.root.localToWorld(this.lookWander.clone());
   }
 
+  /** Back to the seat at once, nothing planned (reduced motion, a reset, a load). */
