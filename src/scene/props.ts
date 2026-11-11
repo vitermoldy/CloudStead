@@ -20,3 +20,4 @@ export interface PropEntry {
   title: string;
   group: Group;
   blocking: boolean;
+  grow: number;
