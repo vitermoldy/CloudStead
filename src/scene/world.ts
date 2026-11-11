@@ -764,3 +764,4 @@ export class World extends Emitter {
         const prop = this.props.pick(this.ray);
         if (prop) {
           this.hover = { kind: 'prop', prop: prop.entry, cell: prop.entry.cell };
+          this.hitPoint.copy(prop.point);
