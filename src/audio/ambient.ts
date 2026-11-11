@@ -312,3 +312,4 @@ export class Ambient {
   }
 
   private apply(): void {
+    if (!this.ctx || !this.master) return;
