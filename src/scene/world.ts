@@ -994,3 +994,4 @@ export class World extends Emitter {
     return { x: a.x + r.left, y: a.y + r.top, visible: a.visible };
   }
 
+  /** Where the resident is on screen, for the keyboard button that greets them. */
