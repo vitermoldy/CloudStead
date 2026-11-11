@@ -189,3 +189,4 @@ export class Character {
   readonly seat = new Group();
   private rig = new Group();
   readonly home = new Vector3(0, 0, 0);
+  heading = 0;
