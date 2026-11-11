@@ -175,3 +175,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 /* The reference's pill with its dark round end: here the round end is the play or pause sign. */
 .go { padding: 4px 4px 4px 20px; min-height: 52px; font-size: 16px; gap: 14px; }
 .go__dot {
+  display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; background: var(--bg);
