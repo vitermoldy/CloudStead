@@ -244,3 +244,4 @@ export class World extends Emitter {
     this.project = m;
     this.loopN = 0;
     if (!m) return;
+    if (m.kind === 'prop' && m.prop && m.at) {
