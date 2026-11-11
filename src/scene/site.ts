@@ -106,3 +106,4 @@ export class PropSite {
       });
     } else if (mode === 'pond') {
       // The water widens as the hole is dug; the stones go round it after.
+      const [water, ...rest] = this.parts;
