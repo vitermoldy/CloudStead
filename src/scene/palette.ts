@@ -71,3 +71,4 @@ export class LiveLook {
   sunIntensity = 1;
   sunDir = new Vector3();
   hemiSky = new Color();
+  hemiGround = new Color();
