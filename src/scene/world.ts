@@ -663,3 +663,4 @@ export class World extends Emitter {
     this.camera.setViewOffset(w, h, 0, h * shift, w, h);
     const before = this.dist;
     this.fitDistance(this.island.reach());
+    if (Math.abs(before - this.dist) > 0.01) {
