@@ -437,3 +437,4 @@ export class Character {
     return this.gear.has(kind);
   }
 
+  clearGear(): void {
