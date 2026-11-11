@@ -295,3 +295,4 @@ export class World extends Emitter {
     const instant = this.instant || this.paused || document.hidden;
     if (this.project?.id !== m.id) this.startProject(m);
     if (m.kind === 'prop' && m.prop && m.at) {
+      this.site?.dispose();
