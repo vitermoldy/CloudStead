@@ -174,3 +174,4 @@ export class World extends Emitter {
     this.endProject();
     this.celebrating = false;
     this.character.settle();
+    this.props.clear();
