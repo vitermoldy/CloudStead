@@ -4,3 +4,4 @@ export interface SoundSettings {
   on: boolean;
   volume: number;
   wind: boolean;
+  life: boolean;
