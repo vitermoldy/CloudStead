@@ -426,3 +426,4 @@ export class Character {
         this.head.add(g);
         break;
       default:
+        break;
