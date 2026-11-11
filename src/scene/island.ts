@@ -188,3 +188,4 @@ export class Island {
       m.renderOrder = 20;
       g.add(m);
     }
+    return g;
