@@ -57,3 +57,4 @@ export const MILESTONES: Milestone[] = [
   { id: 'petak-4', minutes: 330, title: 'Lima petak baru', done: 'Lima petak baru sudah ditarik naik.', doing: 'menarik lima petak baru dari awan', work: 'haul', kind: 'tiles', tiles: [[-1, -2], [-1, 2], [1, 2], [2, -2], [3, 0]] },
   { id: 'tiang', minutes: 370, title: 'Tiang listrik', done: 'Tiang listrik terpasang, kabelnya sampai ke awan.', doing: 'memasang tiang listrik', work: 'build', kind: 'prop', prop: 'pole', at: [2, -2] },
   { id: 'lampu', minutes: 420, title: 'Lampu taman', done: 'Lampu taman menyala setiap senja.', doing: 'memasang lampu taman', work: 'build', kind: 'prop', prop: 'lamp', at: [1, 1] },
+  { id: 'papan', minutes: 470, title: 'Papan tulis', done: 'Papan tulis mencatat waktu fokusmu hari ini.', doing: 'membuat papan tulis', work: 'build', kind: 'prop', prop: 'board', at: [0, -2] },
