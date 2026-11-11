@@ -117,3 +117,4 @@ export class PropSite {
       this.build.children.forEach((o, i) => {
         if (i === 0) o.visible = true;
         else if (i === 1) {
+          o.visible = k > 0.15;
