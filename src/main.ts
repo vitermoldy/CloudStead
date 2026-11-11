@@ -440,3 +440,4 @@ function renderIsland(): void {
     li.className = done ? 'is-done' : m === next ? 'is-next' : 'is-locked';
     const mark = document.createElement('span');
     mark.className = 'build__mark';
+    mark.setAttribute('aria-hidden', 'true');
