@@ -892,3 +892,4 @@ export class Character {
     t.hammer.visible = act === 'hammer' && this.waveT <= 0;
     t.shovel.visible = act === 'dig';
     t.can.visible = act === 'water' && this.waveT <= 0;
+    t.plank.visible = act === 'carry';
