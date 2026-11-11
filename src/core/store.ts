@@ -42,3 +42,5 @@ export function setReadOnly(on: boolean): void {
   if (on) cache = {};
 }
 
+export const isReadOnly = (): boolean => readOnly;
+
