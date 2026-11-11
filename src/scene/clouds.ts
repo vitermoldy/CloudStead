@@ -95,3 +95,4 @@ interface Puff {
   x: number; y: number; z: number; w: number; h: number; seed: number; alpha: number; speed: number;
 }
 
+function layout(count: number): Puff[] {
