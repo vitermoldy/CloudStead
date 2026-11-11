@@ -494,3 +494,4 @@ function saveProgress(): void {
     savedFlash = window.setTimeout(() => icon.classList.remove('is-saved'), 1600);
   } else {
     toast('Browser menolak menyimpan. Unduh berkas simpanan sebagai cadangan.', 5000);
+  }
