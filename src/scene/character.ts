@@ -311,3 +311,4 @@ export class Character {
     const lid = new Group();
     lid.position.set(0, 0.006, -0.055);
     lid.rotation.x = -0.32;
+    const lidBack = new Mesh(new BoxGeometry(0.17, 0.11, 0.008), base.material);
