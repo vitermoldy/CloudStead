@@ -855,3 +855,4 @@ export class World extends Emitter {
       cam.updateProjectionMatrix();
     }
     this.hemi.color.copy(L.hemiSky);
+    this.hemi.groundColor.copy(L.hemiGround);
