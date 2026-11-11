@@ -147,3 +147,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
   background: var(--plate); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
 }
 .story__phase { margin: 0; font-size: 14px; color: var(--muted); }
+.story__phase strong { color: var(--accent); font-weight: 500; }
