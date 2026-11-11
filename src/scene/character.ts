@@ -187,3 +187,4 @@ export class Character {
   readonly root = new Group();
   /** What stays at the seat while the resident walks off: the laptop, the crate, the cushion, the books, the mug. */
   readonly seat = new Group();
+  private rig = new Group();
