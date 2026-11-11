@@ -398,3 +398,4 @@ export class Island {
 
   update(dt: number, time: number): void {
     this.grassUniforms.uTime.value = time;
+    let landed = false;
