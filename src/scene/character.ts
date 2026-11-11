@@ -884,3 +884,4 @@ export class Character {
   }
 
   /** Puts the right tool in the right hand for the act, and the piece in the making on the lap. */
+  private placeTools(act: Act, elbows: Vector3[], mug: Group | undefined, dt: number): void {
