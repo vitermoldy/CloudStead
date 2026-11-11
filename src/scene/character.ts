@@ -438,3 +438,4 @@ export class Character {
   }
 
   clearGear(): void {
+    for (const k of [...this.gear.keys()]) this.setGear(k, false);
