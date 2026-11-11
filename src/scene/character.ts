@@ -917,3 +917,4 @@ export class Character {
       t.plank.rotation.set(0, 0, 0);
     }
     if (t.yarn.visible) {
+      t.yarn.position.copy(handL).add(handR).multiplyScalar(0.5);
