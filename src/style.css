@@ -282,3 +282,4 @@ fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
 .checks legend { margin-bottom: 4px; }
 
 .stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin: 0; }
+.stats div { padding: 10px 12px; border-radius: var(--r-md); background: rgba(231, 228, 209, .05); }
