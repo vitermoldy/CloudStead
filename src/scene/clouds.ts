@@ -93,3 +93,5 @@ function puffAtlas(): DataTexture {
 
 interface Puff {
   x: number; y: number; z: number; w: number; h: number; seed: number; alpha: number; speed: number;
+}
+
