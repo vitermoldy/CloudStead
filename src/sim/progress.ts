@@ -70,3 +70,4 @@ export class Progress extends Emitter {
     this.emit('change');
   }
 
+  get minutes(): number {
