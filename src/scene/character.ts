@@ -457,3 +457,4 @@ export class Character {
     const g = this.gear.get(kind);
     if (!g || kind !== 'headphones') return;
     if (this.musicOn) {
+      this.head.add(g);
