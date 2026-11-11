@@ -14,3 +14,5 @@ import { PropsLayer, type PropEntry } from './props';
 import { PropSite } from './site';
 import { createSky } from './sky';
 
+export type TimeMode = TimeId | 'auto';
+
