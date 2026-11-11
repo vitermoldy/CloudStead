@@ -61,3 +61,4 @@ function rockGeometry(cell: Cell, depth: number): BufferGeometry {
       colors.push(col.r, col.g, col.b);
     }
   };
+  for (let r = 0; r < rings; r++) {
