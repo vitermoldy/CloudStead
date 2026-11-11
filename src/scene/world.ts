@@ -917,3 +917,4 @@ export class World extends Emitter {
       this.zClock -= dt;
       if (this.zClock <= 0) {
         this.zClock = 1.5;
+        this.fx.spawn('z', this.character.headWorld().add(new Vector3(0.1, 0.14, 0)));
