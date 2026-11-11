@@ -251,3 +251,4 @@ export class Island {
     const dist = Math.hypot(cell[0], cell[1]);
     const depth = 1.1 + Math.max(0, 3.4 - dist * 0.95) + rand() * 0.9;
     const rock = new Mesh(rockGeometry(cell, depth), this.rockMat);
+    rock.castShadow = true;
