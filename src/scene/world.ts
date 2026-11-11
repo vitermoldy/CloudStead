@@ -75,3 +75,4 @@ export class World extends Emitter {
   private instant = false;
   private dist = 14;
   private idleFor = 0;
+  private noteClock = 0;
