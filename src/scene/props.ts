@@ -556,3 +556,4 @@ export class PropsLayer {
     return entry;
   }
 
+  private wire(e: PropEntry): void {
