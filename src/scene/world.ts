@@ -474,3 +474,4 @@ export class World extends Emitter {
   private blockedCells(): Set<string> {
     const b = this.props.blocked();
     if (this.site) b.add(cellKey(this.site.cell));
+    return b;
