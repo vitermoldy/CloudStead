@@ -175,3 +175,4 @@ export class Ambient {
     const g = ctx.createGain();
     g.gain.setValueAtTime(0.0001, t);
     g.gain.exponentialRampToValueAtTime(0.35, t + 0.003);
+    g.gain.exponentialRampToValueAtTime(0.0001, t + 0.045);
