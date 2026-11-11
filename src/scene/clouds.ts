@@ -269,3 +269,4 @@ export function createClouds(count: number): Clouds {
         vToward = max(dot(normalize(world - cameraPosition), normalize(uSunDir)), 0.0);
       }
     `,
+    fragmentShader: /* glsl */ `
