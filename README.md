@@ -52,3 +52,4 @@ tetap berjalan; hanya pulaunya yang tidak tergambar.
 - Klik untuk menyapa (saat bekerja, dia melambai dan bilang proyeknya sudah berapa persen).
 - Tahan klik untuk mengelusnya.
 - Nama "VMK" bisa diganti di panel **Pulau**.
+- Klik kolam, kincir, pohon, dan bangunan lain; arahkan ke garis putus-putus untuk melihat kapan
