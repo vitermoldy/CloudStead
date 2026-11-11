@@ -14,3 +14,5 @@ npm install
 npm run dev      # http://localhost:5173
 npm run build    # hasil di dist/
 npm run preview
+```
+
