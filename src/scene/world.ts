@@ -504,3 +504,4 @@ export class World extends Emitter {
         if (accept(n)) {
           goal = n;
           break;
+        }
