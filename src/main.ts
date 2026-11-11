@@ -315,3 +315,4 @@ function renderHud(force = false): void {
   lastHud = key;
   $('phase').innerHTML = phaseLine();
   $('story').textContent = storyLine();
+  const fill = $('meter-fill');
