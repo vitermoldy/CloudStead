@@ -113,3 +113,4 @@ export class Fx {
     const wing = new LineBasicMaterial({ color: '#1c1a19', transparent: true, opacity: 0.75 });
     for (let i = 0; i < 5; i++) {
       const g = new BufferGeometry();
+      g.setAttribute('position', new BufferAttribute(new Float32Array([-0.22, 0.06, 0, 0, 0, 0, 0.22, 0.06, 0]), 3));
