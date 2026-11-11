@@ -10,3 +10,4 @@
   file); nothing moves because the page scrolled (that is a dealt moment's job, assets/moments).
 
   Hover moves sit under (hover: hover) and (pointer: fine): a phone never keeps a stuck hover.
+  Hover out runs 120ms against 150ms in (motion.md, tokens).
