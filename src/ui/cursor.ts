@@ -74,3 +74,4 @@ export class Cursor {
 
   private frame(now: number): void {
     const dt = Math.min(0.05, (now - this.last) / 1000);
+    this.last = now;
