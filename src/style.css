@@ -361,3 +361,4 @@ html.has-cursor .cursor.is-on { opacity: 1; }
 .cursor__label {
   position: absolute; left: 0; top: 0; padding: 5px 10px; border-radius: 999px; background: var(--bg); color: var(--ink);
   font-size: 13px; font-weight: 500; white-space: nowrap; opacity: 0; transform: translate(22px, 16px);
+  transition: opacity 150ms var(--ease);
