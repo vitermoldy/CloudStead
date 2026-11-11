@@ -374,3 +374,4 @@ function enter() {
     // last line is half way up
     const after = 80 + (lines.length - 1) * lineStep + 220;
     let k = 0;
+    steps.forEach(el => {
