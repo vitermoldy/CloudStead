@@ -105,3 +105,4 @@ export class LiveLook {
     this.horizon.lerp(target.horizon, k);
     this.glow.lerp(target.glow, k);
     this.sun.lerp(target.sun, k);
+    this.hemiSky.lerp(target.hemiSky, k);
