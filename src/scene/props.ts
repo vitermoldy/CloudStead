@@ -111,3 +111,5 @@ function tree(): Group {
   g.add(crown);
   g.userData.crown = crown;
   return g;
+}
+
