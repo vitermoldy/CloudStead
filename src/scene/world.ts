@@ -581,3 +581,4 @@ export class World extends Emitter {
 
   private applyClock(jump = false): void {
     if (this.timeMode === 'auto') {
+      const d = new Date();
