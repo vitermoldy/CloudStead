@@ -88,3 +88,4 @@ export class Fx {
   private mats = new Map<FxKind, SpriteMaterial>();
   private fireflies: Points;
   private flyBase: Float32Array;
+  private birds = new Group();
