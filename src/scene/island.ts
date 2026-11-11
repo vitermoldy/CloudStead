@@ -60,3 +60,4 @@ function rockGeometry(cell: Cell, depth: number): BufferGeometry {
       positions.push(p.x, p.y, p.z);
       colors.push(col.r, col.g, col.b);
     }
+  };
