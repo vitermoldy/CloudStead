@@ -49,3 +49,4 @@ export class MusicPlayer extends Emitter {
     return this.status === 'playing' || this.status === 'buffering';
   }
 
+  /** Adds a link and returns it, or throws LinkError. */
