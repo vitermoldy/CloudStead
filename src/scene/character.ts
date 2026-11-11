@@ -822,3 +822,4 @@ export class Character {
     this.headPitch = damp(this.headPitch, pitch, 8, dt);
     this.headRoll = damp(this.headRoll, roll, 6, dt);
     this.head.position.copy(headPos);
+    const spineQ = new Quaternion().setFromUnitVectors(UP, this.spine);
