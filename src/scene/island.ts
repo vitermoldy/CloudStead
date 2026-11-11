@@ -258,3 +258,4 @@ export class Island {
     return { cell, group: g, rise: 1, target: 1, landed: true, depth };
   }
 
+  /** Brings the island to exactly these cells, all in place (a load, a reset, a preview). */
