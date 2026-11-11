@@ -904,3 +904,4 @@ export class World extends Emitter {
       this.think();
     }
     this.character.update(dt, t);
+    this.updateRope();
