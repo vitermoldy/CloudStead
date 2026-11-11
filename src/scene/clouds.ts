@@ -261,3 +261,4 @@ export function createClouds(count: number): Clouds {
         vec4 mv = viewMatrix * vec4(world, 1.0);
         gl_Position = projectionMatrix * mv;
         vUv = uv;
+        vAlpha = aMeta.y;
