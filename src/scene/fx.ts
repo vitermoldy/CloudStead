@@ -20,3 +20,4 @@ const TEXTURES: Record<FxKind, () => CanvasTexture> = {
     ctx.fillStyle = '#ef6a45';
     ctx.beginPath();
     ctx.moveTo(32, 54);
+    ctx.bezierCurveTo(6, 36, 6, 12, 22, 12);
