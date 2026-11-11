@@ -30,3 +30,4 @@ const SKIN = new MeshStandardMaterial({ color: '#d6a27c', roughness: 0.7 });
 const HAIR = new MeshStandardMaterial({ color: '#2a211c', roughness: 0.9 });
 const HOODIE = new MeshStandardMaterial({ color: '#4d6a39', roughness: 0.9 });
 const PANTS = new MeshStandardMaterial({ color: '#363a45', roughness: 0.9 });
+const SHOES = new MeshStandardMaterial({ color: '#2a2622', roughness: 0.8 });
