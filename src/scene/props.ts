@@ -485,3 +485,4 @@ function waterfall(): Group {
       }
       void main() {
         float streak = noise(vec2(vUv.x * 9.0, vUv.y * 3.0 + uTime * 2.2)) * 0.6 + noise(vec2(vUv.x * 23.0, vUv.y * 7.0 + uTime * 3.4)) * 0.4;
+        float edge = smoothstep(0.0, 0.18, vUv.x) * smoothstep(1.0, 0.82, vUv.x);
