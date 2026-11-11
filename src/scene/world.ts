@@ -720,3 +720,4 @@ export class World extends Emitter {
       if (p.on === 'char') {
         this.emit('greet');
       } else if (p.on === 'prop' && p.prop) {
+        p.prop.wiggle = 1;
