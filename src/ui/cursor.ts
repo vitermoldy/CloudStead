@@ -52,3 +52,4 @@ export class Cursor {
       this.el.classList.remove('is-on');
     });
     addEventListener('pointerdown', () => this.el.classList.add('is-down'));
+    addEventListener('pointerup', () => this.el.classList.remove('is-down'));
