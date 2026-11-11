@@ -161,3 +161,4 @@ export class FocusTimer extends Emitter {
     if (this.phase === 'focus' && now - this.creditedAt >= 1000) {
       this.credit(Math.min(now, this.endAt));
       this.store();
+    }
