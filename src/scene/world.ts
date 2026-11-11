@@ -92,3 +92,4 @@ export class World extends Emitter {
 
   constructor(private canvas: HTMLCanvasElement, opts: { small: boolean }) {
     super();
+    this.renderer = new WebGLRenderer({ canvas, antialias: true, powerPreference: 'high-performance' });
