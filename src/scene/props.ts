@@ -251,3 +251,4 @@ function lamp(): Group {
   light.position.set(0.28, 0.95, 0.22);
   g.add(light);
   g.userData.bulb = bulbMat;
+  g.userData.light = light;
