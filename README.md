@@ -10,3 +10,4 @@ VMK.
 ## Menjalankan
 
 ```bash
+npm install
