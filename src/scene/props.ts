@@ -589,3 +589,4 @@ export class PropsLayer {
         break;
       case 'windmill':
         e.update = (dt) => {
+          u.spin = Math.max(0, (u.spin as number) - dt * 0.6);
