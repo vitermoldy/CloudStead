@@ -215,3 +215,4 @@ export class World extends Emitter {
 
   /** work: a focus block runs; rest: a break; free: no timer. */
   setWork(mode: WorkMode): void {
+    if (mode === this.mode) return;
