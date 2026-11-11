@@ -65,3 +65,5 @@ export class Ambient {
     this.loopLife();
     this.loopKeys();
     this.apply();
+  }
+
