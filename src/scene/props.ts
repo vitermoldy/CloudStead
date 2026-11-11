@@ -413,3 +413,4 @@ function telescope(): Group {
 }
 
 function balloon(): Group {
+  const g = new Group();
