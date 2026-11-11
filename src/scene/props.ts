@@ -703,3 +703,4 @@ export class PropsLayer {
 
   settle(): void {
     for (const e of this.entries) {
+      e.grow = 1;
