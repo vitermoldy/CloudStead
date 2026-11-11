@@ -60,3 +60,4 @@ export class Progress extends Emitter {
     if (!d.reachedAt || typeof d.reachedAt !== 'object') d.reachedAt = {};
     if (typeof d.name !== 'string' || !d.name.trim() || d.name === OLD_DEFAULT) d.name = DEFAULT_NAME;
     d.name = d.name.slice(0, 18);
+    // Anything the time already covers counts as reached, even from an older save.
