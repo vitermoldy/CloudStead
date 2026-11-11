@@ -32,3 +32,4 @@ const fresh = (): ProgressData => ({
   name: DEFAULT_NAME,
 });
 
+/**
