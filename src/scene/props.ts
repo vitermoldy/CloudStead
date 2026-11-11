@@ -87,3 +87,4 @@ function flowers(): Group {
   return g;
 }
 
+function sapling(): Group {
