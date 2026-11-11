@@ -73,3 +73,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
     status.textContent = st === 'loading-api' ? 'Memuat YouTube…'
       : st === 'loading' || st === 'buffering' ? 'Memuat lagu…'
       : st === 'api-error' ? player.apiError
+      : st === 'ended' ? 'Antrean selesai. Putar lagi dari daftar di bawah.'
