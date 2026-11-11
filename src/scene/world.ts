@@ -50,3 +50,4 @@ export class World extends Emitter {
   private target = new LiveLook();
   private timeMode: TimeMode = 'senja';
   private clockCheck = 0;
+  private ray = new Raycaster();
