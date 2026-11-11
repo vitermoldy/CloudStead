@@ -31,3 +31,4 @@ const player = new MusicPlayer($('player-host'));
 const settings = load<{ time: TimeMode; paused: boolean | null }>('settings', { time: 'senja', paused: null });
 
 // ------------------------------------------------------------ small helpers
+const toastEl = $('toast');
