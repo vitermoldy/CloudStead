@@ -274,3 +274,4 @@ html:not([data-motion="off"]) .field :is(input, select, textarea):focus, .m-inpu
     :is(h1, h1 ~ *, :has(> h1) ~ *, :has(~ h1)) { transition: opacity 400ms var(--m-ease); }
   /* the settle: a photograph from 1.05 inside its frame (the hero clips one of its own), anything else from .98 */
   html.m-enter:not([data-motion="off"]) .hero[data-enter]:not([data-enter="off"], .is-still)
+    :is(:is([data-enter-media], .hero__bg, .hero__media, .hero__stage, .hero__art, .hero__window, .hero-visual, .ly-collage):is(img, picture, video),
