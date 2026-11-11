@@ -585,3 +585,4 @@ for (const input of document.querySelectorAll<HTMLInputElement>('#time-group inp
     if (!input.checked) return;
     settings.time = input.value as TimeMode;
     save('settings', settings);
+    world?.setTime(settings.time);
