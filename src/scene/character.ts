@@ -834,3 +834,4 @@ export class Character {
     }
 
     // ---- face
+    this.nextBlink -= dt;
