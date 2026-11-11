@@ -157,3 +157,4 @@ export class FocusTimer extends Emitter {
   /** Call often: credits focus time each second and finishes a block when its time is up. */
   tick(): void {
     if (!this.running) return;
+    const now = Date.now();
