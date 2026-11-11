@@ -418,3 +418,4 @@ function openPanel(id: string | null, focus = true): void {
   }
 }
 
+for (const t of tabItems) t.addEventListener('click', () => openPanel(t.dataset.panel ?? null));
