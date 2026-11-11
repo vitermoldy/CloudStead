@@ -203,3 +203,4 @@ export class Island {
   /** How far the island reaches from its centre, for the camera. */
   reach(): number {
     let r = 1.5;
+    for (const t of this.tiles.values()) if (t.landed) r = Math.max(r, Math.hypot(t.cell[0], t.cell[1]) + 0.9);
