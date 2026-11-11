@@ -632,3 +632,4 @@ export class Character {
     switch (act) {
       case 'type': lean.set(0, 1, 0.32); break;
       case 'craft': lean.set(0, 1, 0.26); break;
+      case 'rest': lean.set(0, 1, this.stretchT > 0 ? -0.05 : -0.12); break;
