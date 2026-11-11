@@ -101,3 +101,4 @@ function screenTexture(): { tex: CanvasTexture; draw: (lines: number, mode: 'cod
       ctx.globalAlpha = i === 8 ? 1 : 0.85;
       ctx.fillRect(8 + indents[k] * 9, 6 + i * 8.4, widths[k] * 90, 4);
     }
+    ctx.globalAlpha = 1;
