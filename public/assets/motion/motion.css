@@ -28,3 +28,5 @@
   --m-ease-enter: cubic-bezier(.22, 1, .36, 1); /* an entrance settling: long soft tail, never past its mark */
   --m-cycle: 3.2s;                            /* one cycle of a card's loop (2.5-4 s) */
   --m-lift: -2px;
+}
+
