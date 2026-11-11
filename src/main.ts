@@ -189,3 +189,4 @@ function onGreet(): void {
       'Sebentar, tanggung. Lanjut fokus, ya.',
     ] : ['Pulaunya sudah utuh. Aku temani kamu fokus.']));
   } else if (timer.resting) {
+    c.wave();
