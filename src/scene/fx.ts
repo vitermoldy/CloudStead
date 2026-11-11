@@ -54,3 +54,4 @@ const TEXTURES: Record<FxKind, () => CanvasTexture> = {
     ctx.textBaseline = 'middle';
     ctx.fillText('z', 32, 32);
   }),
+  drop: () => glyphTexture((ctx) => {
