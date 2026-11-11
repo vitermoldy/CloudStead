@@ -80,3 +80,4 @@ src/
   ui/                kursor dan panel musik
 ```
 
+Arah desain dan alasannya ada di [DESIGN.md](DESIGN.md).
