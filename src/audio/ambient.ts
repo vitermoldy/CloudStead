@@ -139,3 +139,4 @@ export class Ambient {
     amGain.gain.value = 0.5;
     g.gain.value = 0;
     am.connect(amGain).connect(g.gain);
+    g.gain.setValueAtTime(0, t);
