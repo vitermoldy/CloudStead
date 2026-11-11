@@ -514,3 +514,5 @@ const BUILDERS: Record<PropKind, () => Group> = {
 const FACING: Partial<Record<PropKind, number>> = { hut: 0.45, 'hut-frame': 0.45, board: 0, bench: 0, windmill: 0.5, telescope: -0.6 };
 
 /** What replaces what: the tree grows out of the sapling, the hut over its frame. */
+const REPLACES: Partial<Record<PropKind, PropKind>> = { tree: 'sapling', hut: 'hut-frame' };
+
