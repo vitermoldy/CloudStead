@@ -43,3 +43,4 @@ export function parseLink(raw: string): ParsedLink {
   if (listId && !LIST_ID.test(listId)) listId = null;
   // Mixes (RD...), liked songs (LL, LM) and Watch later (WL) do not play outside YouTube.
   const unplayable = listId && (/^RD/.test(listId) || listId === 'LL' || listId === 'WL' || listId === 'LM');
+  if (unplayable) {
