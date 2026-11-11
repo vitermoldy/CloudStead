@@ -71,3 +71,4 @@ export function onSaved(fn: (at: number) => void): () => void {
   return () => listeners.delete(fn);
 }
 
+/** The whole save as a file the visitor keeps. */
