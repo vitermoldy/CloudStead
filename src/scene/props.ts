@@ -155,3 +155,4 @@ function hutFrame(): Group {
 }
 
 function hut(): Group {
+  const g = new Group();
