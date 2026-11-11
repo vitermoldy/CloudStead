@@ -242,3 +242,4 @@ function loops() {
   els.forEach(el => {
     el.__mLoop = true;
     io.observe(el);
+    pauseButton(el);
