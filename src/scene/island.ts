@@ -295,3 +295,4 @@ export class Island {
     const dash = new BoxGeometry(0.16, 0.012, 0.022);
     for (const c of cells) {
       const g = new Group();
+      g.position.set(c[0], 0.01, c[1]);
