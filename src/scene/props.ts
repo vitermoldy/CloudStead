@@ -336,3 +336,4 @@ function pond(): Group {
   }
   const pad = new CircleGeometry(0.06, 7);
   for (const [x, z] of [[0.1, -0.08], [-0.15, 0.1], [0.05, 0.18]]) {
+    const p = mesh(pad, LEAF_LIGHT, x, 0.026, z, false);
