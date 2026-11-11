@@ -334,3 +334,4 @@ export class Island {
     const up = new Vector3(0, 1, 0);
     let i = 0;
     for (const t of this.tiles.values()) {
+      if (!t.landed) continue;
