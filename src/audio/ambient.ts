@@ -147,3 +147,5 @@ export class Ambient {
     am.start(t);
     o.stop(t + 0.35);
     am.stop(t + 0.35);
+  }
+
