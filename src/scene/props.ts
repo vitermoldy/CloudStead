@@ -263,3 +263,4 @@ function boardTexture(): { tex: CanvasTexture; draw: (today: number, total: numb
   const tex = new CanvasTexture(canvas);
   tex.colorSpace = SRGBColorSpace;
   const fmt = (min: number) => {
+    const m = Math.floor(min);
