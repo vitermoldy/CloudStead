@@ -270,3 +270,4 @@ fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
 .segments { display: flex; flex-wrap: wrap; gap: 6px; }
 .segments legend { margin-bottom: 8px; }
 .segments label { position: relative; }
+.segments input { position: absolute; opacity: 0; inset: 0; margin: 0; }
