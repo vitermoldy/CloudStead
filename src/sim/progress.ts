@@ -2,3 +2,4 @@ import { Emitter } from '../core/emitter';
 import { load, save, saveNow } from '../core/store';
 import { MILESTONES, type Milestone } from './milestones';
 
+export interface ProgressData {
