@@ -43,3 +43,4 @@ dial **ENERGY 3 / RHYTHM 1 / MOTION 3**.
 | In a break VMK rests; without a timer he lives on the island (walks, waters the plants, looks at the site, uses the laptop) and the project waits | Keeps the rule plain: the island grows only from focus, and VMK is never just parked at the seat. |
 | The resident is called VMK (the owner's initials) and can be renamed | Asked for by the owner. Saves that still carry the first default ("Bayu") move to VMK. |
 | Progress counts only while a focus block runs | One plain rule the panel states; breaks are not counted. A block left running while the tab is closed is counted up to its end. |
+| Autosave plus a save button, a file to download and load, and a reset behind a dialog | The owner asked for save and reset. Autosave means nothing is lost; the button confirms; the file is a backup; reset is destructive, so it asks first and offers the download. |
