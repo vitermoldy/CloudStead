@@ -582,3 +582,4 @@ export class World extends Emitter {
   private applyClock(jump = false): void {
     if (this.timeMode === 'auto') {
       const d = new Date();
+      const { a, b, t } = lookForHour(d.getHours() + d.getMinutes() / 60);
