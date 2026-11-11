@@ -351,3 +351,4 @@ $('focus-reset-2').addEventListener('click', () => timer.reset());
 $('focus-skip').addEventListener('click', () => timer.skip());
 for (const input of document.querySelectorAll<HTMLInputElement>('#preset-group input')) {
   input.checked = input.value === timer.preset;
+  input.addEventListener('change', () => {
