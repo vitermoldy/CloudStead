@@ -238,3 +238,4 @@ export function createClouds(count: number): Clouds {
       uSpan: { value: 130 },
     },
     vertexShader: /* glsl */ `
+      attribute vec3 aOffset;
