@@ -275,3 +275,4 @@ function boardTexture(): { tex: CanvasTexture; draw: (today: number, total: numb
     ctx.fillText('Fokus hari ini', 18, 38);
     ctx.font = '500 52px "Funnel Display Variable", system-ui, sans-serif';
     ctx.fillText(fmt(today), 18, 98);
+    ctx.font = '400 20px "Funnel Sans Variable", system-ui, sans-serif';
