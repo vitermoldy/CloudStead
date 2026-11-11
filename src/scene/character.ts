@@ -510,3 +510,4 @@ export class Character {
   }
 
   private next(): void {
+    this.plan.shift();
