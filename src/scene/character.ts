@@ -799,3 +799,4 @@ export class Character {
       case 'hammer':
       case 'dig':
       case 'water':
+      case 'haul':
