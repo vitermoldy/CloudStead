@@ -280,3 +280,4 @@ export class MusicPlayer extends Emitter {
     this.emit('change');
   }
 
+  private onError(code: number): void {
