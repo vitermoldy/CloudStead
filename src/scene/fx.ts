@@ -86,3 +86,4 @@ export class Fx {
   readonly group = new Group();
   private pools = new Map<FxKind, Particle[]>();
   private mats = new Map<FxKind, SpriteMaterial>();
+  private fireflies: Points;
