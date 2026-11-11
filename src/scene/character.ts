@@ -581,3 +581,4 @@ export class Character {
         this.heading += d * Math.min(1, dt * 6);
         pos.lerp(this.home, Math.min(1, dt * 6));
         this.act = step.act;
+        this.stepT += dt;
