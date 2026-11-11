@@ -89,3 +89,4 @@ function flowers(): Group {
 
 function sapling(): Group {
   const g = new Group();
+  const trunk = mesh(new CylinderGeometry(0.02, 0.03, 0.42, 5), WOOD, 0, 0.21, 0);
