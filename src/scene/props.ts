@@ -341,3 +341,4 @@ function pond(): Group {
     g.add(p);
   }
   const rings: Mesh[] = [];
+  const ringGeo = new TorusGeometry(1, 0.012, 4, 32);
