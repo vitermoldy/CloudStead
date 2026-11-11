@@ -377,3 +377,4 @@ export class Character {
     const plank = new Mesh(new BoxGeometry(0.3, 0.03, 0.07), new MeshStandardMaterial({ color: '#b08a5c', roughness: 0.9 }));
     const plank2 = plank.clone();
     plank2.position.y = 0.032;
+    plank2.rotation.y = 0.12;
