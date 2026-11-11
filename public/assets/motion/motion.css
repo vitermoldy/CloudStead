@@ -18,3 +18,4 @@
   --m-in: 150ms;                              /* hover in: buttons, links, nav, tabs */
   --m-out: 120ms;                             /* hover out */
   --m-press: 90ms;                            /* a press */
+  --m-panel: 200ms;                           /* a menu or sheet opening */
