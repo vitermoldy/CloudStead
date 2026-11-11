@@ -160,3 +160,4 @@ export class Ambient {
     } else {
       wait = 400;
     }
+    this.later(wait, () => this.loopKeys());
