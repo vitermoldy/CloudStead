@@ -33,3 +33,4 @@ export function parseLink(raw: string): ParsedLink {
   const source = host === 'music.youtube.com' ? 'YouTube Music' : 'YouTube';
 
   let videoId: string | null = null;
+  const parts = url.pathname.split('/').filter(Boolean);
