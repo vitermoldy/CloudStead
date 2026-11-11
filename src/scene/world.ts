@@ -624,3 +624,4 @@ export class World extends Emitter {
     this.inkRects = fn;
   }
 
+  /** Any sign of the visitor keeps the resident awake. */
