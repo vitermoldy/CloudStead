@@ -332,3 +332,4 @@ export function createClouds(count: number): Clouds {
     });
     for (let k = 0; k < n; k++) {
       const p = puffs[order[k]];
+      aOffset.setXYZ(k, p.x, p.y, p.z);
