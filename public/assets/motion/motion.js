@@ -258,3 +258,5 @@ document.addEventListener('click', e => {
     setPaused(box, paused);
     box.querySelectorAll('[data-ui]').forEach(r => { try { paused ? r.__ui?.pause() : r.__ui?.resume(); } catch { /* none */ } });
   } else setPaused(box, btn.classList.contains('is-paused'));
+});
+
