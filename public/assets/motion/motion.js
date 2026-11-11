@@ -102,3 +102,4 @@ function parse(text) {
   if (!m) return null;
   const raw = m[0];
   const seps = raw.match(/[^\d]/g) || [];
+  let dec = '', group = '', decimals = 0;
