@@ -469,3 +469,4 @@ export class Character {
 
   setMusic(on: boolean): void {
     if (on === this.musicOn) return;
+    this.musicOn = on;
