@@ -323,3 +323,4 @@ export class Character {
     this.seat.add(this.laptop);
 
     // The crate the building material comes from, behind the seat.
+    this.crate = new Group();
