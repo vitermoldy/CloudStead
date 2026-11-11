@@ -96,3 +96,4 @@ export class LiveLook {
     this.stars = n(a.stars, b.stars);
     this.night = n(a.night, b.night);
     this.exposure = n(a.exposure, b.exposure);
+    this.sunDir.set(n(a.sunDir[0], b.sunDir[0]), n(a.sunDir[1], b.sunDir[1]), n(a.sunDir[2], b.sunDir[2])).normalize();
