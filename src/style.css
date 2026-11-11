@@ -113,3 +113,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
   background: none; color: rgba(231, 228, 209, 0.82); transition: color 120ms var(--ease), background-color 120ms var(--ease);
 }
 .tab__icon:hover { color: var(--ink); background: rgba(231, 228, 209, 0.08); }
+.tab__icon:active { transform: scale(.94); }
