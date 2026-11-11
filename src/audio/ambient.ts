@@ -152,3 +152,4 @@ export class Ambient {
   private loopKeys(): void {
     const ctx = this.ctx;
     if (!ctx) return;
+    let wait = 120 + Math.random() * 140;
