@@ -294,3 +294,4 @@ function board(): Group {
   const { tex, draw } = boardTexture();
   const face = new Mesh(new PlaneGeometry(0.64, 0.4), new MeshStandardMaterial({ map: tex, roughness: 1 }));
   face.position.set(0, 0.56, 0.05);
+  g.add(face);
