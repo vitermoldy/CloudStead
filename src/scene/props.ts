@@ -476,3 +476,4 @@ function waterfall(): Group {
     fragmentShader: /* glsl */ `
       uniform float uTime;
       uniform float uNight;
+      varying vec2 vUv;
