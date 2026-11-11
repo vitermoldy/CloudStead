@@ -228,3 +228,4 @@ function pauseButton(loop) {
     btn.setAttribute('aria-label', `${paused ? 'Play' : 'Pause'} animation`);
     btn.title = btn.getAttribute('aria-label');
     btn.classList.toggle('is-paused', paused);
+  };
