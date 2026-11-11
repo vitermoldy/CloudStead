@@ -985,3 +985,4 @@ export class World extends Emitter {
         }
       }
     }
+    if (n) this.emit('ink', sum / n, max);
