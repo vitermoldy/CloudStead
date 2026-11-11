@@ -108,3 +108,5 @@ export class Fx {
     geo.setAttribute('position', new BufferAttribute(pos, 3));
     this.fireflies = new Points(geo, new PointsMaterial({ color: '#ffd77a', size: 0.06, transparent: true, opacity: 0, blending: AdditiveBlending, depthWrite: false }));
     this.fireflies.frustumCulled = false;
+    this.group.add(this.fireflies);
+
