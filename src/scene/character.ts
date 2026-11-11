@@ -845,3 +845,4 @@ export class Character {
     const closed = act === 'sleep' || this.happy > 0.5;
     for (let i = 0; i < 2; i++) {
       this.eyes[i].visible = !closed || act === 'sleep';
+      this.eyes[i].scale.y = act === 'sleep' || this.blink > 0 ? 0.15 : 1.3;
