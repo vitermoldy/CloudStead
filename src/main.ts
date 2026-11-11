@@ -629,3 +629,5 @@ mountMusicUi(player, toast);
 player.on('change', () => {
   world?.setMusic(player.isPlaying);
   ambient.setDucked(player.isPlaying);
+});
+
