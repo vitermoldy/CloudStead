@@ -55,3 +55,4 @@ export class Progress extends Emitter {
     const raw = load<Partial<ProgressData>>('progress', {});
     const d = { ...fresh(), ...raw };
     if (!Number.isFinite(d.focusMs) || d.focusMs < 0) d.focusMs = 0;
+    if (!Number.isFinite(d.todayMs) || d.todayMs < 0) d.todayMs = 0;
