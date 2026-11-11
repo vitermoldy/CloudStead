@@ -17,3 +17,4 @@ function glyphTexture(draw: (ctx: CanvasRenderingContext2D) => void): CanvasText
 
 const TEXTURES: Record<FxKind, () => CanvasTexture> = {
   heart: () => glyphTexture((ctx) => {
+    ctx.fillStyle = '#ef6a45';
