@@ -653,3 +653,4 @@ addEventListener('keydown', (e) => {
     saveProgress();
   } else if (e.key === 'm' || e.key === 'M') {
     openPanel('music');
+  }
