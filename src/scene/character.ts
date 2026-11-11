@@ -160,3 +160,4 @@ export function makeGear(kind: Gear): Group {
       tail.position.set(0.03, -0.06, 0.06);
       tail.rotation.z = 0.15;
       g.add(ring, tail);
+      break;
