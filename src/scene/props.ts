@@ -97,3 +97,4 @@ function sapling(): Group {
 }
 
 function tree(): Group {
+  const g = new Group();
