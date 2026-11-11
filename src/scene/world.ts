@@ -168,3 +168,4 @@ export class World extends Emitter {
     addEventListener('resize', () => this.resize());
   }
 
+  // ------------------------------------------------------------ setup from progress
