@@ -49,3 +49,4 @@ export class Cursor {
     }, { passive: true });
     document.documentElement.addEventListener('pointerleave', () => {
       this.over = false;
+      this.el.classList.remove('is-on');
