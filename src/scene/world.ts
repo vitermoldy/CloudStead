@@ -821,3 +821,4 @@ export class World extends Emitter {
   /** Drops the resolution a step when frames run slow, and climbs back when there is room. */
   private adapt(dt: number): void {
     this.adaptClock += dt;
+    if (this.adaptClock < 2.5) return;
