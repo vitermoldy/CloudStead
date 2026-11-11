@@ -103,3 +103,4 @@ export class Ambient {
     if (!ctx) return;
     if (this.night > 0.6) this.cricket();
     else this.bird();
+    this.later(this.night > 0.6 ? 900 + Math.random() * 1600 : 2500 + Math.random() * 6000, () => this.loopLife());
