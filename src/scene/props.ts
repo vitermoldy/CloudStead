@@ -280,3 +280,4 @@ function boardTexture(): { tex: CanvasTexture; draw: (today: number, total: numb
     ctx.fillText(`Total ${fmt(total)}`, 18, 136);
     tex.needsUpdate = true;
   };
+  return { tex, draw };
