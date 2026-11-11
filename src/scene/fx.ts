@@ -116,3 +116,4 @@ export class Fx {
       g.setAttribute('position', new BufferAttribute(new Float32Array([-0.22, 0.06, 0, 0, 0, 0, 0.22, 0.06, 0]), 3));
       const b = new Line(g, wing);
       b.userData.offset = new Vector3(-i * 0.5 * (i % 2 ? 1 : -1) * 0.6 - i * 0.45, -i * 0.12, i * 0.35 * (i % 2 ? 1 : -1));
+      b.userData.phase = Math.random() * 6;
