@@ -281,3 +281,4 @@ export class Character {
       arc.visible = false;
       this.happyEyes.push(arc);
       const cheek = new Mesh(new SphereGeometry(0.013, 8, 6), new MeshBasicMaterial({ color: '#e07a62', transparent: true, opacity: 0 }));
+      cheek.position.set(s * 0.05, -0.02, 0.068);
