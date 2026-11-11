@@ -332,3 +332,4 @@ export class World extends Emitter {
       this.replan = true;
       return;
     }
+    // A short cheer where the work was done, then on to the next project.
