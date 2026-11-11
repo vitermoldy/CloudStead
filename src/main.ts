@@ -525,3 +525,4 @@ importInput.addEventListener('change', async () => {
   const file = importInput.files?.[0];
   importInput.value = '';
   const err = $('save-error');
+  err.textContent = '';
