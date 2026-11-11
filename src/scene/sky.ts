@@ -5,3 +5,4 @@ import type { LiveLook } from './palette';
 export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number) => void } {
   const material = new ShaderMaterial({
     side: BackSide,
+    depthWrite: false,
