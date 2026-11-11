@@ -81,3 +81,4 @@ async function startWorld(): Promise<void> {
   w.setTime(settings.time);
   w.setInstant(reducedMotion());
   w.resetView();
+  w.setInkSource(() => [$('big').getBoundingClientRect()]);
