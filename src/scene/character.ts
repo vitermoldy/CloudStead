@@ -294,3 +294,4 @@ export class Character {
     this.head.add(this.mouth);
     this.rig.add(this.head);
 
+    for (let i = 0; i < 2; i++) {
