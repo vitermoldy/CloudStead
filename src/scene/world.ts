@@ -512,3 +512,4 @@ export class World extends Emitter {
     const cells: Cell[] = [];
     let k: string | null = cellKey(goal);
     while (k) {
+      const [x, z] = k.split(',').map(Number);
