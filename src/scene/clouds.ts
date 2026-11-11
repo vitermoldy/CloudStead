@@ -251,3 +251,4 @@ export function createClouds(count: number): Clouds {
       varying vec3 vSunView;
       varying float vDist;
       varying float vToward;
+      void main() {
