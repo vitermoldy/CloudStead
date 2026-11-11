@@ -21,3 +21,4 @@ function puffAtlas(): DataTexture {
   for (let k = 0; k < VARIANTS; k++) {
     const circles: { x: number; y: number; r: number; z: number }[] = [{ x: 0.48 + rand() * 0.04, y: 0.52, r: 0.22 + rand() * 0.06, z: 0.1 }];
     const n = 9 + k * 3;
+    for (let i = 0; i < n; i++) {
