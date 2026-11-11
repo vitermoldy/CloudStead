@@ -120,3 +120,4 @@ export class World extends Emitter {
     this.bindPointer();
     this.controls = new OrbitControls(this.camera, canvas);
     this.controls.enableDamping = true;
+    this.controls.dampingFactor = 0.07;
