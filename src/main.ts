@@ -178,3 +178,4 @@ function onGreet(): void {
     world.nudge();
     return;
   }
+  const next = progress.next();
