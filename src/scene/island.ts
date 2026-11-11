@@ -418,3 +418,4 @@ export class Island {
       }
     }
     if (landed) this.layGrass();
+    this.highlightAlpha += (this.highlightTarget - this.highlightAlpha) * Math.min(1, dt * 14);
