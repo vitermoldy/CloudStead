@@ -131,3 +131,4 @@ export function makeGear(kind: Gear): Group {
       });
       break;
     }
+    case 'mug': {
