@@ -875,3 +875,4 @@ export class World extends Emitter {
       this.ray.setFromCamera(this.ndc, this.camera);
       this.character.looking = this.ray.ray.at(10, new Vector3());
     } else {
+      this.character.looking = null;
