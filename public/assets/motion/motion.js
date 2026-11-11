@@ -343,3 +343,4 @@ function enter() {
   const h1 = hero.querySelector('h1');
   if (!h1) return done(true);
   const media = [...hero.querySelectorAll(ENTER_MEDIA)].filter((m, i, all) => !all.some(o => o !== m && o.contains(m)));
+  const steps = enterSteps(hero, h1, media);
