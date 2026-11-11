@@ -306,3 +306,4 @@ export class Character {
 
     // The laptop: on the lap while typing, on the ground beside the seat otherwise.
     this.screen = screenTexture();
+    this.screen.draw(0, 'code');
