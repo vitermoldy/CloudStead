@@ -709,3 +709,4 @@ export class Character {
           if (this.stretchT > 0) t.set(s * 0.07, this.hipY + 0.47, -0.02);
           else t.set(s * 0.17, this.hipY - 0.03, -0.13);
           break;
+        case 'sleep':
