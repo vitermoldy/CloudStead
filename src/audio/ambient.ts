@@ -172,3 +172,4 @@ export class Ambient {
     bp.type = 'bandpass';
     bp.frequency.value = 1800 + Math.random() * 1500;
     bp.Q.value = 3;
+    const g = ctx.createGain();
