@@ -605,3 +605,4 @@ export class PropsLayer {
             (r.material as MeshBasicMaterial).opacity = k < 1 ? (1 - k) * 0.8 : 0;
             r.scale.setScalar(0.03 + k * 0.32);
           }
+        };
