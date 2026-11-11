@@ -3,3 +3,4 @@
 
 export type Cell = readonly [number, number];
 
+export type PropKind =
