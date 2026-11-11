@@ -19,3 +19,4 @@ export class PropSite {
   readonly group = new Group();
   readonly cell: Cell;
   readonly kind: PropKind;
+  private build: Group;
