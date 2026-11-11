@@ -63,3 +63,4 @@ function screenTexture(): { tex: CanvasTexture; draw: (lines: number, mode: 'cod
   canvas.height = 84;
   const ctx = canvas.getContext('2d')!;
   const tex = new CanvasTexture(canvas);
+  tex.colorSpace = SRGBColorSpace;
