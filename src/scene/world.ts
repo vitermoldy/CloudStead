@@ -88,3 +88,5 @@ export class World extends Emitter {
   private inkClock = 0;
   private moving = false;
   private context = { night: 0, time: 0, todayMinutes: 0, totalMinutes: 0 };
+  onFrame: ((dt: number) => void) | null = null;
+
