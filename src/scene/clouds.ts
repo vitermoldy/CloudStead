@@ -23,3 +23,4 @@ function puffAtlas(): DataTexture {
     const n = 9 + k * 3;
     for (let i = 0; i < n; i++) {
       const x = 0.14 + rand() * 0.72;
+      const side = Math.abs(x - 0.5);
