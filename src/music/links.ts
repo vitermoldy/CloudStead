@@ -76,3 +76,4 @@ export interface YTPlayer {
   getDuration(): number;
   getPlaylist(): string[] | null;
   getPlaylistIndex(): number;
+  getVideoData(): { title?: string; author?: string };
