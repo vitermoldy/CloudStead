@@ -34,3 +34,5 @@ export class PropSite {
   constructor(kind: PropKind, cell: Cell, pileAt: Vector3 | null) {
     this.kind = kind;
     this.cell = cell;
+    this.group.position.set(cell[0], 0, cell[1]);
+
