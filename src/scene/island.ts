@@ -165,3 +165,4 @@ export class Island {
         `);
     };
     this.grass = new InstancedMesh(bladeGeometry(), bladeMat, BLADES_PER_TILE * MAX_TILES);
+    this.grass.instanceMatrix.setUsage(DynamicDrawUsage);
