@@ -460,3 +460,4 @@ function waterfall(): Group {
   const mat = new ShaderMaterial({
     transparent: true,
     depthWrite: false,
+    side: DoubleSide,
