@@ -32,3 +32,4 @@ const TEXTURES: Record<FxKind, () => CanvasTexture> = {
     g.addColorStop(1, 'rgba(236, 222, 196, 0)');
     ctx.fillStyle = g;
     ctx.fillRect(0, 0, 64, 64);
+  }),
