@@ -66,3 +66,4 @@ export function lookForHour(hour: number): { a: TimeId; b: TimeId; t: number } {
 export class LiveLook {
   zenith = new Color();
   horizon = new Color();
+  glow = new Color();
