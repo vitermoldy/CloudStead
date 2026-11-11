@@ -134,3 +134,4 @@ function layout(count: number): Puff[] {
 }
 
 /** The floor of the cloud sea: one wide disc, billowing in light and shade, fading into the haze. */
+function cloudFloor(): { mesh: Mesh; material: ShaderMaterial } {
