@@ -72,3 +72,4 @@ export class Ambient {
     const src = ctx.createBufferSource();
     src.buffer = this.noise;
     src.loop = true;
+    const lp = ctx.createBiquadFilter();
