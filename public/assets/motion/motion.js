@@ -90,3 +90,4 @@ function tabs() {
     new MutationObserver(place).observe(list, { subtree: true, attributes: true, attributeFilter: ['aria-selected'] });
     new ResizeObserver(() => { instant = true; place(); }).observe(list);
     document.fonts?.ready.then(() => { instant = true; place(); });
+  });
