@@ -790,3 +790,4 @@ export class World extends Emitter {
     this.emit('hover', this.dragging ? { kind: null, dragging: true } : this.hover, this.press?.petting === true);
   }
 
+  // ------------------------------------------------------------ frame
