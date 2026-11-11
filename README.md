@@ -17,3 +17,5 @@ npm run preview
 ```
 
 Butuh Node 20 atau lebih baru dan browser dengan WebGL. Tanpa WebGL, timer, musik, dan progres
+tetap berjalan; hanya pulaunya yang tidak tergambar.
+
