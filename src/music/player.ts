@@ -249,3 +249,4 @@ export class MusicPlayer extends Emitter {
   private onState(s: number): void {
     const YT = window.YT!;
     const item = this.item;
+    if (s === YT.PlayerState.PLAYING) {
