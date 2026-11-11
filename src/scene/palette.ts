@@ -16,3 +16,4 @@ export interface Look {
   hemiIntensity: number;
   cloudLit: string;
   cloudShade: string;
+  fog: string;
