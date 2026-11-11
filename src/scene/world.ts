@@ -726,3 +726,4 @@ export class World extends Emitter {
           this.fx.spawn('leaf', p.prop.group.position.clone().setY(1.0), 4);
         }
         this.lookAt(p.point ?? p.prop.group.position);
+        this.emit('poke-prop', p.prop);
