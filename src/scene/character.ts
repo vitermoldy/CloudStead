@@ -673,3 +673,4 @@ export class Character {
       const target = standFoot.lerp(seatedFoot, this.sit);
       const pole = new Vector3(s * this.sit, 0.6 * this.sit, 1);
       this.feet[i].lerp(target, 1 - Math.exp(-14 * dt));
+      const hip = pelvis.clone().addScaledVector(side, s * 0.045);
