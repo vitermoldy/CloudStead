@@ -81,3 +81,4 @@ function puffAtlas(): DataTexture {
         img.data[i + 2] = Math.round(bottom * 255);
         img.data[i + 3] = Math.round(cover * 255);
       }
+    }
