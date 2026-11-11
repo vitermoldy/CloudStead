@@ -263,3 +263,4 @@ export function createClouds(count: number): Clouds {
         vUv = uv;
         vAlpha = aMeta.y;
         vSeed = aMeta.x;
+        vVariant = aMeta.w;
