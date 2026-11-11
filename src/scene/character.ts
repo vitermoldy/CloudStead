@@ -742,3 +742,4 @@ export class Character {
           break;
         default:
           t.set(s * 0.11, lapY, 0.11);
+      }
