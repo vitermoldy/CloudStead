@@ -160,3 +160,4 @@ export class Island {
           float push = (1.0 - smoothstep(0.0, 0.42, dl)) * uCursor.z;
           wpos.xz += (dv / max(dl, 0.0001)) * push * 0.11 * k;
           wpos.y -= push * 0.06 * k;
+          vec4 mvPosition = modelViewMatrix * wpos;
