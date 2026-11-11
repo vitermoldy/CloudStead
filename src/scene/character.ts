@@ -421,3 +421,4 @@ export class Character {
         this.rig.add(g);
         break;
       case 'beanie':
+        g.position.set(0, 0.02, -0.005);
