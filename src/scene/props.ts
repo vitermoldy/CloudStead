@@ -447,3 +447,4 @@ function balloon(): Group {
   g.add(tether);
   g.userData.float = float;
   g.userData.tether = tether;
+  return g;
