@@ -13,3 +13,4 @@ their StudyCabin and SongPlay, for a resident who develops a world of tiles ("du
 progress, for progress that can be saved and reset, and for a responsive cursor that can play with
 the resident. The reference's own code, video and copy are not used; only its look is.
 
+**Design Read.** Reading this as: an ambient study app (software) for students who study at a
