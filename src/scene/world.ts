@@ -1002,3 +1002,4 @@ export class World extends Emitter {
   }
 
   static supported(): boolean {
+    try {
