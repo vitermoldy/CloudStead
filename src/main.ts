@@ -162,3 +162,4 @@ function onHover(h: Hover & { dragging?: boolean }, petting: boolean): void {
       const m = world?.ghostMilestone;
       cursor.set('ghost', m ? `Petak baru · ${formatMinutesLong(m.minutes - progress.minutes)} lagi` : 'Petak baru');
       break;
+    }
