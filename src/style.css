@@ -89,3 +89,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 /* ---------------------------------------------------------------- the black tab, hanging from the top */
 .tab {
   position: fixed; top: 10px; left: 50%; transform: translateX(-50%); z-index: 30;
+  display: flex; align-items: center; gap: clamp(8px, 2vw, 28px);
