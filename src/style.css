@@ -158,3 +158,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 
 /* ---------------------------------------------------------------- buttons */
 .btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px;
