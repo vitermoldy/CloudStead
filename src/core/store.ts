@@ -25,3 +25,4 @@ function readAll(): Bag {
 
 function flush(): boolean {
   timer = 0;
+  if (readOnly) return false;
