@@ -572,3 +572,4 @@ export class PropsLayer {
         };
         break;
       case 'lamp':
+        e.update = (_dt, ctx) => {
