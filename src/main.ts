@@ -288,3 +288,4 @@ function storyLine(): string {
   if (timer.active) return `Fokus dijeda. ${n} berhenti kerja, ${next.title.toLowerCase()} di ${pct}%.`;
   return pct > 0
     ? `${n} menunggu kamu fokus. ${next.title} berhenti di ${pct}%.`
+    : `${n} menunggu kamu fokus. Selama kamu fokus, dia bekerja membangun pulau.`;
