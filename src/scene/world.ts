@@ -736,3 +736,4 @@ export class World extends Emitter {
     c.addEventListener('pointerup', up);
     c.addEventListener('pointercancel', up);
     c.addEventListener('contextmenu', (e) => e.preventDefault());
+    c.addEventListener('dblclick', () => {
