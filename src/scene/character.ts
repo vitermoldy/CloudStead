@@ -224,3 +224,4 @@ export class Character {
   /** What the pointer or the work asks the head to look at. */
   looking: Vector3 | null = null;
   private workPoint: Vector3 | null = null;
+  private lookWander = new Vector3(0, 0.5, 3);
