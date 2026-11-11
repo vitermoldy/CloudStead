@@ -701,3 +701,4 @@ export class World extends Emitter {
       this.press = { x: e.clientX, y: e.clientY, t: performance.now(), on, moved: false, petting: false, prop: this.hover.prop, point: this.hitPoint.clone() };
       if (on === 'char') {
         this.controls.enabled = false;
+        c.setPointerCapture(e.pointerId);
