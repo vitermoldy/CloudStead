@@ -550,3 +550,4 @@ export class Character {
         const move = Math.min(d, dt * WALK_SPEED * (step.carry ? 0.8 : 1));
         if (d > 1e-4) {
           pos.x += (dx / d) * move;
+          pos.z += (dz / d) * move;
