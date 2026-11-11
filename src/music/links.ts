@@ -72,3 +72,4 @@ export interface YTPlayer {
   previousVideo(): void;
   playVideoAt(i: number): void;
   seekTo(s: number, allow: boolean): void;
+  getCurrentTime(): number;
