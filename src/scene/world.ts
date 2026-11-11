@@ -897,3 +897,4 @@ export class World extends Emitter {
     // Without a timer, nothing happening for a while sends the resident to sleep.
     if (this.mode === 'free') {
       this.idleFor += dt;
+      if (this.idleFor > 150 && this.character.act !== 'sleep' && !this.celebrating && this.idleFor - dt <= 150) this.replan = true;
