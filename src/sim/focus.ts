@@ -179,3 +179,5 @@ export class FocusTimer extends Emitter {
       endAt: this.endAt, remainingMs: this.remainingMs, creditedAt: this.creditedAt,
     };
     save('focus', s);
+  }
+
