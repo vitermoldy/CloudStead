@@ -94,3 +94,4 @@ export class Fx {
   private birdDir = 1;
 
   constructor() {
+    for (const k of Object.keys(TEXTURES) as FxKind[]) {
