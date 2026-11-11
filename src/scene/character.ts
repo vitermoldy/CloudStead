@@ -16,3 +16,4 @@ export type SeatAct = 'sitIdle' | 'type' | 'rest' | 'sleep' | 'craft';
 const SEATED = new Set<Act>(['sitIdle', 'type', 'rest', 'sleep', 'craft']);
 
 /** One thing to do. A plan is a list of these, done in order. */
+export type Step =
