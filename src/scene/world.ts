@@ -136,3 +136,4 @@ export class World extends Emitter {
       this.emitHover();
     });
     this.controls.addEventListener('change', () => {
+      this.hoverDirty = true;
