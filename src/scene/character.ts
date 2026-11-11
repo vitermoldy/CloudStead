@@ -154,3 +154,4 @@ export function makeGear(kind: Gear): Group {
       break;
     }
     case 'scarf': {
+      const ring = m(new TorusGeometry(0.06, 0.024, 6, 14), '#c05a3c');
