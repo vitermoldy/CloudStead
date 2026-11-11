@@ -840,3 +840,4 @@ export class Character {
       this.nextBlink = 2 + Math.random() * 4;
     }
     this.blink = Math.max(0, this.blink - dt);
+    this.petAmount = damp(this.petAmount, this.petting ? 1 : 0, 6, dt);
