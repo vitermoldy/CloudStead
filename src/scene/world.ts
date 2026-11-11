@@ -920,3 +920,4 @@ export class World extends Emitter {
         this.fx.spawn('z', this.character.headWorld().add(new Vector3(0.1, 0.14, 0)));
       }
     }
+    if (this.character.hasGear('mug') && (this.character.act === 'rest' || L.night > 0.6)) {
