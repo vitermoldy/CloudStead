@@ -112,3 +112,4 @@ export function loadYouTubeApi(): Promise<YTNamespace> {
       s.remove();
       reject(new Error('network'));
     };
+    document.head.appendChild(s);
