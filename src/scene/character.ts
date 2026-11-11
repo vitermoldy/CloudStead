@@ -335,3 +335,5 @@ export class Character {
     this.crate.rotation.y = 0.3;
     this.seat.add(this.crate);
 
+    this.buildTools();
+
