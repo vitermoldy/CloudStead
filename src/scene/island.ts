@@ -68,3 +68,4 @@ function rockGeometry(cell: Cell, depth: number): BufferGeometry {
       tri(b, d, c);
     }
   }
+  const bottom = pts[rings];
