@@ -15,3 +15,4 @@
     still selects; this follows aria-selected).
   - numbers: [data-m-count] on a stat ticks from 0 to its own text once, when 60% of it is on
     screen (1.2 s, ease-out); prefix, suffix, decimals and thousands separators are kept. The
+    number's width is measured once the web fonts are in and again when it is first seen (a stat
