@@ -104,3 +104,4 @@ function screenTexture(): { tex: CanvasTexture; draw: (lines: number, mode: 'cod
     ctx.globalAlpha = 1;
     tex.needsUpdate = true;
   };
+  return { tex, draw };
