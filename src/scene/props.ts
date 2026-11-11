@@ -425,3 +425,4 @@ function balloon(): Group {
     profile.push(new Vector2(Math.max(0.06, r), y));
   }
   const env = new LatheGeometry(profile, 16);
+  const cols: number[] = [];
