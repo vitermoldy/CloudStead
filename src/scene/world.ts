@@ -602,3 +602,4 @@ export class World extends Emitter {
     if (on) this.frame();
   }
 
+  get isPaused(): boolean {
