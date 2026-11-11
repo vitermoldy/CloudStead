@@ -277,3 +277,4 @@ document.addEventListener('click', e => {
 // simply stands; when this file is later than the mark, the words fade in by CSS and the hero stands.
 // The h1 gets its word masks for the length of the entrance and its own nodes back afterwards.
 const ENTER_MEDIA = '[data-enter-media], .hero__bg, .hero__media, .hero__stage, .hero__art, .hero__window, .hero-visual, .ly-collage';
+const ENTER_TEXT = 'h1 ~ *, :has(> h1) ~ *, :has(~ h1)';
