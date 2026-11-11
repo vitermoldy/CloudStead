@@ -221,3 +221,4 @@ function pole(): Group {
   far.rotation.y = 0.5;
   const islet = mesh(new ConeGeometry(0.9, 2.6, 7), std('#5e5044', { flatShading: true }), 0, -1.3, 0);
   islet.rotation.x = Math.PI;
+  const lawn = mesh(new CylinderGeometry(0.92, 0.9, 0.16, 7), std('#66763a', { flatShading: true }), 0, -0.04, 0);
