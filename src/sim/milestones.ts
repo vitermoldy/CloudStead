@@ -9,3 +9,4 @@ export type PropKind =
 
 export type Gear = 'cushion' | 'headphones' | 'books' | 'mug' | 'scarf' | 'beanie';
 
+/** How the resident works on it: hammer and planks, shovel and can, a rope from the clouds, or by hand at the seat. */
