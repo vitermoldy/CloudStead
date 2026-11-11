@@ -399,3 +399,4 @@ function telescope(): Group {
   const g = new Group();
   for (let i = 0; i < 3; i++) {
     const a = (i / 3) * Math.PI * 2;
+    const leg = mesh(new CylinderGeometry(0.012, 0.012, 0.55, 4), IRON, Math.cos(a) * 0.1, 0.26, Math.sin(a) * 0.1);
