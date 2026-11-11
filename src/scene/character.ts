@@ -926,3 +926,4 @@ export class Character {
       const lapY = this.hipY + 0.07;
       this.craftPiece.visible = act === 'craft';
       this.craftPiece.position.set(0, lapY + 0.02, 0.14);
+      const s = (0.25 + 0.75 * p) * (this.craftKind === 'cushion' ? 0.55 : 0.85);
