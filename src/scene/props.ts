@@ -510,3 +510,4 @@ const BUILDERS: Record<PropKind, () => Group> = {
   rock, flowers, sapling, tree, garden, 'hut-frame': hutFrame, hut, pole, lamp, board, pond, windmill, bench, pine, telescope, balloon, waterfall,
 };
 
+/** Which way each piece faces (radians round y), so fronts meet the camera or the resident. */
