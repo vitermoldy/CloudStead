@@ -79,3 +79,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
     if (st === 'api-error' && player.apiError !== lastError) toast(player.apiError);
     lastError = st === 'api-error' ? player.apiError : '';
 
+    queue.replaceChildren(...player.queue.map((q, i) => {
