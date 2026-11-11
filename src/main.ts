@@ -690,3 +690,4 @@ try {
     setTimeout(() => toast(msg, 4000), 600);
   }
 } catch {
+  /* private window */
