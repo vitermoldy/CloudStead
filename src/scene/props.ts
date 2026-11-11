@@ -608,3 +608,4 @@ export class PropsLayer {
         };
         e.poke = (_self, point) => {
           const rings = u.rings as Mesh[];
+          const free = rings.reduce((best, r) => (r.userData.age > best.userData.age ? r : best), rings[0]);
