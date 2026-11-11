@@ -64,3 +64,5 @@ export function saveNow(): boolean {
   return flush();
 }
 
+export const lastSaved = (): number => lastWrite;
+
