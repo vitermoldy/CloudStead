@@ -277,3 +277,4 @@ export class Ambient {
   }
 
   greet(): void {
+    this.tone(740, 0.12, 0.08);
