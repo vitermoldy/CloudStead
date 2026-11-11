@@ -282,3 +282,4 @@ export class World extends Emitter {
     if (this.paused) this.frame();
   }
 
+  /** The cell of a tile project the resident is hauling now. */
