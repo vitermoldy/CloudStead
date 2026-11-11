@@ -59,3 +59,4 @@ interface YTNamespace {
   PlayerState: { PLAYING: number; PAUSED: number; BUFFERING: number; CUED: number; ENDED: number };
 }
 
+export interface YTPlayer {
