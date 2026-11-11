@@ -338,3 +338,4 @@ function renderHud(force = false): void {
     ? (timer.phase === 'focus' ? 'Jeda fokus' : 'Jeda istirahat')
     : timer.active ? (timer.phase === 'focus' ? 'Lanjutkan fokus' : 'Lanjutkan istirahat') : 'Mulai fokus';
   $('focus-toggle-text').textContent = label;
+  $('focus-reset').hidden = !timer.active;
