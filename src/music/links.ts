@@ -48,3 +48,4 @@ export function parseLink(raw: string): ParsedLink {
     else throw new LinkError('Mix dan daftar pribadi tidak bisa diputar di luar YouTube. Tempel satu lagu, album, atau playlist publik.');
   }
 
+  if (!videoId && !listId) throw new LinkError('Tautan ini tidak berisi video atau playlist. Buka lagunya, lalu salin lagi tautannya.');
