@@ -196,3 +196,4 @@ export class Island {
     return this.tiles.get(cellKey(cell))?.landed === true;
   }
 
+  cells(): Cell[] {
