@@ -139,3 +139,4 @@ function garden(): Group {
   return g;
 }
 
+function hutFrame(): Group {
