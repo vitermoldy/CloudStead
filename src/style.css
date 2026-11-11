@@ -73,3 +73,4 @@ html.has-cursor #scene { cursor: none; }
 html.scene-ready .poster { opacity: 0; pointer-events: none; }
 /* A darker floor under the big clock and a lighter veil at the top, as in the reference. */
 .hero::before {
+  content: ""; position: absolute; inset: 0; z-index: 1; pointer-events: none;
