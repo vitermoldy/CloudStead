@@ -127,3 +127,5 @@ export class Progress extends Emitter {
     this.data.sessions += 1;
     this.persist(true);
     this.emit('change');
+  }
+
