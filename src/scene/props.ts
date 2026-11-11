@@ -250,3 +250,4 @@ function lamp(): Group {
   const light = new PointLight('#ffb35a', 0, 3.6, 1.6);
   light.position.set(0.28, 0.95, 0.22);
   g.add(light);
+  g.userData.bulb = bulbMat;
