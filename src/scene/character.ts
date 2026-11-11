@@ -153,3 +153,4 @@ export function makeGear(kind: Gear): Group {
       g.add(band, l, r);
       break;
     }
+    case 'scarf': {
