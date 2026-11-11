@@ -184,3 +184,4 @@ export class Fx {
     if (this.birdT < 0) {
       this.birdClock -= dt;
       if (this.birdClock <= 0 && night < 0.6) {
+        this.birdT = 0;
