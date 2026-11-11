@@ -310,3 +310,4 @@ export class World extends Emitter {
     } else if (m.kind === 'gear' && m.gear) {
       this.character.setCraft(null);
       const g = this.character.setGear(m.gear, true);
+      if (g && !instant) {
