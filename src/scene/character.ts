@@ -492,3 +492,4 @@ export class Character {
     return this.sit > 0.5;
   }
 
+  get atHome(): boolean {
