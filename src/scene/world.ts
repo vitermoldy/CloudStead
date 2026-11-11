@@ -524,3 +524,4 @@ export class World extends Emitter {
     const tk = cellKey(target);
     const ring = (c: Cell) => Math.max(Math.abs(c[0] - target[0]), Math.abs(c[1] - target[1]));
     // Right beside it if a neighbour is free; one cell further off when the neighbours are all built on.
+    const path = this.findPath(HOME, (c) => cellKey(c) !== tk && ring(c) === 1)
