@@ -23,3 +23,4 @@ export interface Look {
   exposure: number;
 }
 
+export const LOOKS: Record<TimeId, Look> = {
