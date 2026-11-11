@@ -141,3 +141,4 @@ export class Ambient {
     am.connect(amGain).connect(g.gain);
     g.gain.setValueAtTime(0, t);
     g.gain.linearRampToValueAtTime(0.018, t + 0.03);
+    g.gain.linearRampToValueAtTime(0, t + 0.32);
