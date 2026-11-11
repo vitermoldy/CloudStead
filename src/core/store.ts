@@ -39,3 +39,4 @@ function flush(): boolean {
 /** Preview mode: the page shows a borrowed state and never touches the visitor's save. */
 export function setReadOnly(on: boolean): void {
   readOnly = on;
+  if (on) cache = {};
