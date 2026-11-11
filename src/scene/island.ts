@@ -243,3 +243,4 @@ export class Island {
     slabMat.color = tint(dirt ? '#8a6a47' : '#6b7b36', rand, dirt ? 0.35 : 1);
     const slab = new Mesh(this.slabGeo, slabMat);
     slab.position.y = -0.08;
+    slab.receiveShadow = true;
