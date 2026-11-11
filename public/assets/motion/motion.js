@@ -193,3 +193,5 @@ function counts() {
   fontsIn().then(() => items.forEach(el => { el.__mCount.arm(); ro.observe(el); io.observe(el); }));
   // a printed page never scrolls the stats into view: each prints its own number
   addEventListener('beforeprint', () => items.forEach(el => el.__mCount.show()));
+}
+
