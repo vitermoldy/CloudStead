@@ -274,3 +274,4 @@ export class World extends Emitter {
     if (m.kind === 'prop') this.site?.setProgress(this.p);
     else if (m.kind === 'tiles' && m.tiles) {
       const n = m.tiles.length;
+      m.tiles.forEach((c, i) => this.island.setRise(c, Math.max(0, Math.min(0.999, this.p * n - i))));
