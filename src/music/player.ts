@@ -66,3 +66,4 @@ export class MusicPlayer extends Emitter {
       if (!it) return;
       if (d && d.title) Object.assign(it, { title: d.title, author: d.author || '', thumb: d.thumb || '' });
       if (d && d.error === 'private') Object.assign(it, { status: 'error', error: 'Video atau playlist ini pribadi.' });
+      if (d && d.error === 'missing') Object.assign(it, { status: 'error', error: 'YouTube tidak menemukan video atau playlist ini.' });
