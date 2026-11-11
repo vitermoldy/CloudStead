@@ -425,3 +425,4 @@ export class Character {
         g.rotation.x = -0.15;
         this.head.add(g);
         break;
+      default:
