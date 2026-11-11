@@ -142,3 +142,5 @@ export class Progress extends Emitter {
     this.data.name = name;
     this.persist(true);
     this.emit('change');
+  }
+
