@@ -128,3 +128,4 @@ export class Ambient {
   }
 
   private cricket(): void {
+    const ctx = this.ctx!;
