@@ -13,3 +13,4 @@ export class Cursor {
   private ring: HTMLElement;
   private dot: HTMLElement;
   private label: HTMLElement;
+  private x = -100;
