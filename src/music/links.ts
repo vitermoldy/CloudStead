@@ -114,3 +114,4 @@ export function loadYouTubeApi(): Promise<YTNamespace> {
     };
     document.head.appendChild(s);
   });
+  return apiPromise;
