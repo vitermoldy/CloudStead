@@ -239,3 +239,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
   background: none; color: var(--ink); transition: background-color 120ms var(--ease), border-color 120ms var(--ease);
 }
 .round:hover { border-color: var(--ink); background: rgba(231, 228, 209, .06); }
+.round:active { transform: scale(.94); }
