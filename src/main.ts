@@ -567,3 +567,5 @@ $('reset-confirm').addEventListener('click', () => {
   renderIsland();
   renderHud(true);
   toast('Progres direset. Pulau kembali ke 9 petak awal.');
+});
+
