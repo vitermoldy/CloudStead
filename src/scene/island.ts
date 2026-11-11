@@ -54,3 +54,4 @@ function rockGeometry(cell: Cell, depth: number): BufferGeometry {
     const c = new Color(strata[((band % strata.length) + strata.length) % strata.length]);
     return c.multiplyScalar(0.85 + rand() * 0.25);
   };
+  const tri = (a: Vector3, b: Vector3, c: Vector3) => {
