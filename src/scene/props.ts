@@ -661,3 +661,4 @@ export class PropsLayer {
 
   at(cell: Cell): PropEntry[] {
     const k = cellKey(cell);
+    return this.entries.filter((e) => cellKey(e.cell) === k);
