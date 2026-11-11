@@ -80,3 +80,4 @@ async function startWorld(): Promise<void> {
   w.sync(new Set(progress.reached().map((m) => m.id)));
   w.setTime(settings.time);
   w.setInstant(reducedMotion());
+  w.resetView();
