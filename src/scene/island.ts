@@ -339,3 +339,4 @@ export class Island {
       const dirt = DIRT.has(key);
       const bare = this.bare.get(key);
       if (bare === 'none') continue;
+      const rand = rng(hash(t.cell) ^ 0x2f6b);
