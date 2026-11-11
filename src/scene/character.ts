@@ -22,3 +22,4 @@ export type Step =
   | { kind: 'sit'; act: SeatAct; seconds: number }
   | { kind: 'call'; fn: () => void };
 
+const UP = new Vector3(0, 1, 0);
