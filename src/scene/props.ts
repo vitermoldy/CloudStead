@@ -516,3 +516,4 @@ const FACING: Partial<Record<PropKind, number>> = { hut: 0.45, 'hut-frame': 0.45
 /** What replaces what: the tree grows out of the sapling, the hut over its frame. */
 const REPLACES: Partial<Record<PropKind, PropKind>> = { tree: 'sapling', hut: 'hut-frame' };
 
+/** Things the resident walks round. Flowers, the waterfall and the balloon's stake are not in the way. */
