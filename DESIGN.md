@@ -36,3 +36,4 @@ dial **ENERGY 3 / RHYTHM 1 / MOTION 3**.
 | Decision | Reason |
 | --- | --- |
 | Vite, TypeScript and a live Three.js scene, no React or shadcn | One screen with a canvas: a framework adds nothing, and the owner's other ambient apps use the same stack. The reference's pasted component is a reference only. |
+| The island is made of tiles that rise out of the clouds | "Dunia petak": each cell is a block with a grass top, an earth band and a faceted rock under it, so the island literally grows by cells (9 at the start, 37 at the end). |
