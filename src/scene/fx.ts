@@ -134,3 +134,4 @@ export class Fx {
       pool.push(p);
     }
     p.active = true;
+    p.sprite.visible = true;
