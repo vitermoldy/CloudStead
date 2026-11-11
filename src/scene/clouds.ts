@@ -307,3 +307,5 @@ export function createClouds(count: number): Clouds {
         #include <colorspace_fragment>
       }
     `,
+  });
+
