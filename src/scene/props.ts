@@ -36,3 +36,4 @@ export const PROP_TITLE: Record<PropKind, string> = {
 const std = (color: string, extra: Partial<ConstructorParameters<typeof MeshStandardMaterial>[0]> = {}) =>
   new MeshStandardMaterial({ color, roughness: 0.85, ...extra });
 
+const WOOD = std('#86603f');
