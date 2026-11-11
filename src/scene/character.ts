@@ -406,3 +406,4 @@ export class Character {
     const g = makeGear(kind);
     switch (kind) {
       case 'cushion':
+        this.seat.add(g);
