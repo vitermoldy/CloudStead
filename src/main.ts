@@ -640,3 +640,4 @@ addEventListener('keydown', (e) => {
       openPanel(null);
       e.preventDefault();
     }
+    return;
