@@ -7,3 +7,5 @@ VMK.
 
 ![CloudStead](public/share.jpg)
 
+## Menjalankan
+
