@@ -660,3 +660,4 @@ export class PropsLayer {
   }
 
   at(cell: Cell): PropEntry[] {
+    const k = cellKey(cell);
