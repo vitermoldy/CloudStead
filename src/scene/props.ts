@@ -581,3 +581,4 @@ export class PropsLayer {
       case 'board':
         e.update = (_dt, ctx) => {
           const key = Math.floor(ctx.todayMinutes) * 100000 + Math.floor(ctx.totalMinutes);
+          if (u.drawn !== key) {
