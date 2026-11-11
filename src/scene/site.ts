@@ -113,3 +113,4 @@ export class PropSite {
         o.visible = k > 0.5 && i < Math.ceil(((k - 0.5) / 0.5) * rest.length);
       });
     } else if (mode === 'fall') {
+      // The channel first, then the water reaches further down the cliff.
