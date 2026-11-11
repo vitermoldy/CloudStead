@@ -647,3 +647,4 @@ addEventListener('keydown', (e) => {
   if (e.key === ' ' && !onControl) {
     e.preventDefault();
     toggleFocus();
+  } else if (e.key === 'p' || e.key === 'P') {
