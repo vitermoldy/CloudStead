@@ -649,3 +649,5 @@ export class PropsLayer {
       });
       this.entries.splice(i, 1);
     }
+  }
+
