@@ -246,3 +246,4 @@ export class Fx {
     }
     this.flyBirds(dt, night);
   }
+}
