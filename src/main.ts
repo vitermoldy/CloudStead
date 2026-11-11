@@ -467,3 +467,4 @@ function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
     el.textContent = 'Ini pratinjau: tidak ada yang disimpan, dan progres aslimu tidak berubah.';
+    return;
