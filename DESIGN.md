@@ -51,3 +51,4 @@ dial **ENERGY 3 / RHYTHM 1 / MOTION 3**.
 | The black tab hanging from the top, centred | The reference's composition, kept on purpose; the wordmark sits inside it so its contrast never depends on the sky. |
 | Giant numerals bottom left are the timer | The reference's giant word, made into live state. Its ink switches between cream and black from the pixels under it, so it keeps 3:1 or better on gold clouds and on night. |
 | Small text on dark plates (92% black) | 4.5:1 over the brightest midday cloud. Blur on the story plate and the open panel only (R-10). |
+| Gold accent only on the meter, the active tab mark, focus rings and state | One warm note, the low sun. The primary button is cream with a black round end, as in the reference. |
