@@ -304,3 +304,4 @@ export class Island {
           m.position.set(Math.cos(a) * along + Math.sin(a) * 0.47, 0, -Math.sin(a) * along + Math.cos(a) * 0.47);
           m.rotation.y = a;
           g.add(m);
+        }
