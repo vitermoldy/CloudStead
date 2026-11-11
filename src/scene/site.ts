@@ -151,3 +151,4 @@ export class PropSite {
   }
 
   dispose(): void {
+    this.group.removeFromParent();
