@@ -185,3 +185,4 @@ export class Fx {
       this.birdClock -= dt;
       if (this.birdClock <= 0 && night < 0.6) {
         this.birdT = 0;
+        this.birdDir = Math.random() < 0.5 ? 1 : -1;
