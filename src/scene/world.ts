@@ -443,3 +443,4 @@ export class World extends Emitter {
       }],
     ];
     if (plants.length) {
+      options.push([2, () => {
