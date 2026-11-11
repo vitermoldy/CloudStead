@@ -302,3 +302,4 @@ function renderHud(force = false): void {
     });
   }
   bigEl.classList.toggle('is-paused', timer.active && !timer.running);
+  const minLeft = Math.ceil(ms / 60000);
