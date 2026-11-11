@@ -349,3 +349,4 @@ export class Island {
           const along = rand() - 0.5;
           const inset = 0.44 + rand() * 0.04;
           [x, z] = side === 0 ? [along, -inset] : side === 1 ? [along, inset] : side === 2 ? [-inset, along] : [inset, along];
+        } else {
