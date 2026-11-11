@@ -26,3 +26,4 @@ interface Saved {
  * A focus timer in real time. While a focus block runs, every elapsed millisecond is handed to
  * onFocusTime, which grows the island. Events: change, finished (phase).
  */
+export class FocusTimer extends Emitter {
