@@ -173,3 +173,4 @@ export class World extends Emitter {
   sync(reached: Set<string>): void {
     this.endProject();
     this.celebrating = false;
+    this.character.settle();
