@@ -516,3 +516,4 @@ export class World extends Emitter {
       cells.unshift([x, z]);
       k = prev.get(k) ?? null;
     }
+    return cells;
