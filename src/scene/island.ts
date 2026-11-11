@@ -186,3 +186,4 @@ export class Island {
       m.position.set(Math.sin(a) * (size / 2), 0.012, Math.cos(a) * (size / 2));
       m.rotation.y = a;
       m.renderOrder = 20;
+      g.add(m);
