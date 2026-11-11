@@ -57,3 +57,4 @@ function rock(): Group {
   const big = mesh(new DodecahedronGeometry(0.34, 0), STONE, 0.02, 0.2, -0.05);
   big.scale.set(1.25, 0.9, 1);
   big.rotation.set(0.3, 0.6, 0.1);
+  const small = mesh(new DodecahedronGeometry(0.14, 0), STONE, 0.33, 0.07, 0.24);
