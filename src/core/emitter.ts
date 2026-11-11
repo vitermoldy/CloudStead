@@ -41,3 +41,4 @@ export function rng(seed: number): () => number {
   };
 }
 
+export const reducedMotion = (): boolean => matchMedia('(prefers-reduced-motion: reduce)').matches;
