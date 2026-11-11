@@ -318,3 +318,4 @@ function pondShape(): Shape {
 function pond(): Group {
   const g = new Group();
   const water = new Mesh(
+    new ExtrudeGeometry(pondShape(), { depth: 0.02, bevelEnabled: false }),
