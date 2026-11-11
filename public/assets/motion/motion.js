@@ -313,3 +313,4 @@ function maskWords(h1) {
 function enterSteps(hero, h1, media) {
   // what follows (and precedes) the h1 in its column, as whole blocks in reading order; a box of
   // layout (a div with no words of its own) is opened, a button row gives one step a button.
+  // A picture, window or collage (or a box round one) is never opened: it stands as one block and
