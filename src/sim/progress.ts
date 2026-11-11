@@ -43,3 +43,4 @@ export class Progress extends Emitter {
   constructor(previewMinutes: number | null = null) {
     super();
     if (previewMinutes !== null) {
+      this.data = fresh();
