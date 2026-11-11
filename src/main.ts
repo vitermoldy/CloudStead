@@ -532,3 +532,4 @@ importInput.addEventListener('change', async () => {
     return;
   }
   try {
+    if (file.size > 2_000_000) throw new SaveFileError('Berkas ini terlalu besar untuk sebuah simpanan.');
