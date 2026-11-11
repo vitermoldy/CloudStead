@@ -397,3 +397,4 @@ export function init() {
   try { tabs(); } catch (e) { console.warn('motion.js: tabs', e); }
   try { counts(); } catch (e) { console.warn('motion.js: counts', e); }
   try { loops(); } catch (e) { console.warn('motion.js: loops', e); }
+}
