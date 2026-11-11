@@ -433,3 +433,4 @@ export class World extends Emitter {
     const options: [number, () => Step[]][] = [
       [1, () => [...this.goHome(), { kind: 'sit', act: 'sitIdle', seconds: 7 + Math.random() * 6 }]],
       [1, () => [...this.goHome(), { kind: 'sit', act: 'type', seconds: 7 + Math.random() * 6 }]],
+      [3, () => {
