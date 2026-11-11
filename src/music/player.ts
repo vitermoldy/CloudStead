@@ -52,3 +52,4 @@ export class MusicPlayer extends Emitter {
   /** Adds a link and returns it, or throws LinkError. */
   add(raw: string, playNow = false): QueueItem {
     const parsed = parseLink(raw);
+    const dup = this.queue.findIndex((q) => q.videoId === parsed.videoId && q.listId === parsed.listId);
