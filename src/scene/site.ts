@@ -8,3 +8,4 @@ import { buildProp, REVEAL } from './props';
 const GHOST = new MeshBasicMaterial({ color: '#f3efd9', transparent: true, opacity: 0.16, depthWrite: false });
 const GHOST_LINE = new LineBasicMaterial({ color: '#f3efd9', transparent: true, opacity: 0.25 });
 const STAKE = new MeshStandardMaterial({ color: '#c9a472', roughness: 0.9 });
+const PLANK = new MeshStandardMaterial({ color: '#b08a5c', roughness: 0.9 });
