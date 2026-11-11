@@ -13,3 +13,4 @@
     instead of waiting 150ms again; it stays while the pointer is on the word or its panel.
   - tabs: every .tabs[role=tablist] gets one indicator that slides to the selected tab (system.js
     still selects; this follows aria-selected).
+  - numbers: [data-m-count] on a stat ticks from 0 to its own text once, when 60% of it is on
