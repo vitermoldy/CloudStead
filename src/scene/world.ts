@@ -527,3 +527,4 @@ export class World extends Emitter {
     const path = this.findPath(HOME, (c) => cellKey(c) !== tk && ring(c) === 1)
       ?? this.findPath(HOME, (c) => cellKey(c) !== tk && ring(c) === 2);
     if (!path) return null;
+    const cell = path[path.length - 1];
