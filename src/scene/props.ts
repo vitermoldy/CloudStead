@@ -567,3 +567,4 @@ export class PropsLayer {
         };
         break;
       case 'hut':
+        e.update = (_dt, ctx) => {
