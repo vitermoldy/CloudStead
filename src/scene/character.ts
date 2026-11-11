@@ -428,3 +428,4 @@ export class Character {
       default:
         break;
     }
+    this.gear.set(kind, g);
