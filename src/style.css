@@ -370,3 +370,4 @@ html.has-cursor .cursor.is-on { opacity: 1; }
 /* The pat pulses on a ring of its own: a scale on the moving ring would pull it toward the corner. */
 .cursor[data-state="pet"] .cursor__ring::after {
   content: ""; position: absolute; inset: -6px; border-radius: 50%; border: 1.5px solid var(--accent);
+  animation: pat 420ms ease-in-out infinite alternate;
