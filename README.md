@@ -16,3 +16,4 @@ npm run build    # hasil di dist/
 npm run preview
 ```
 
+Butuh Node 20 atau lebih baru dan browser dengan WebGL. Tanpa WebGL, timer, musik, dan progres
