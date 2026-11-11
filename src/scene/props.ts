@@ -71,3 +71,4 @@ function rock(): Group {
 
 function flowers(): Group {
   const g = new Group();
+  const rand = rng(99);
