@@ -426,3 +426,4 @@ canvas.addEventListener('pointerdown', () => {
 
 // ------------------------------------------------------------ the island panel
 function renderIsland(): void {
+  $('stat-total').textContent = formatMinutes(progress.minutes);
