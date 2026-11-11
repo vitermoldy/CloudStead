@@ -233,3 +233,4 @@ function positionBubble(): void {
     bubble.classList.remove('is-on');
     bubbleUntil = 0;
     return;
+  }
