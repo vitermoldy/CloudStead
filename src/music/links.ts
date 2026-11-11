@@ -147,3 +147,4 @@ export const ERROR_TEXT: Record<number, string> = {
   100: 'Video ini sudah dihapus atau dijadikan pribadi.',
   101: 'Video ini tidak bisa diputar di luar YouTube: pemiliknya membatasi, atau siarannya sudah berakhir.',
   150: 'Video ini tidak bisa diputar di luar YouTube: pemiliknya membatasi, atau siarannya sudah berakhir.',
+  153: 'YouTube menolak memutarnya di sini.',
