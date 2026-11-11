@@ -94,3 +94,4 @@ export class Progress extends Emitter {
     return MILESTONES.find((m) => !this.isReached(m)) ?? null;
   }
 
+  /** The milestone before the next one, for the meter's start. */
