@@ -228,3 +228,4 @@ function positionBubble(): void {
   if (!world) {
     bubble.classList.remove('is-on');
     return;
+  }
