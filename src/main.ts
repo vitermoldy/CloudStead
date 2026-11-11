@@ -646,3 +646,4 @@ addEventListener('keydown', (e) => {
   const onControl = t.closest('button, a, label, summary');
   if (e.key === ' ' && !onControl) {
     e.preventDefault();
+    toggleFocus();
