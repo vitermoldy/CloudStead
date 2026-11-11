@@ -106,3 +106,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
       li.append(btn, rm);
       return li;
     }));
+  };
