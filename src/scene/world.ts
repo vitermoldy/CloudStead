@@ -908,3 +908,4 @@ export class World extends Emitter {
     this.character.setScreenGlow(L.night);
     if (this.character.musicOn && this.character.act !== 'sleep') {
       this.noteClock -= dt;
+      if (this.noteClock <= 0) {
