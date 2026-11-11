@@ -109,3 +109,4 @@ export class Progress extends Emitter {
       d.todayMs = 0;
     }
     d.focusMs += ms;
+    d.todayMs += ms;
