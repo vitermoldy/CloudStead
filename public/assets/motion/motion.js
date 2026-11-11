@@ -347,3 +347,4 @@ function enter() {
   const EASE = 'cubic-bezier(.22, 1, .36, 1)';
   const anims = [];
   let masks = null, over = false;
+  const finish = () => {
