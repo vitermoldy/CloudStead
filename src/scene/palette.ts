@@ -117,3 +117,4 @@ export class LiveLook {
     this.exposure += (target.exposure - this.exposure) * k;
     this.sunDir.lerp(target.sunDir, k).normalize();
   }
+}
