@@ -494,3 +494,4 @@ export class World extends Emitter {
     const queue: Cell[] = [from];
     let goal: Cell | null = accept(from) ? from : null;
     while (queue.length && !goal) {
+      const c = queue.shift()!;
