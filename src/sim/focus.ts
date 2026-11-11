@@ -18,3 +18,4 @@ interface Saved {
   round: number;
   running: boolean;
   endAt: number;
+  remainingMs: number;
