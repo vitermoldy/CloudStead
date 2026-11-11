@@ -2,3 +2,4 @@
   taste-skill motion.css - the micro-interactions a company site has (figma.com, x.ai): one small
   opt-in layer over system.css and ui/cards.css. Link it after them (data-motion on <html> is optional);
   load motion.js once (it adds the tab indicator, the number tick and the card loops).
+  The layer is ON as soon as this file is linked: no attribute is needed (a hover shot of a linked card or photo
