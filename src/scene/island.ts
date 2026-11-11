@@ -347,3 +347,4 @@ export class Island {
         if (dirt || bare === 'edges') {
           const side = Math.floor(rand() * 4);
           const along = rand() - 0.5;
+          const inset = 0.44 + rand() * 0.04;
