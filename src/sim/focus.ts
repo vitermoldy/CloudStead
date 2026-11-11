@@ -58,3 +58,5 @@ export class FocusTimer extends Emitter {
       this.advance(false);
     }
     this.commit();
+  }
+
