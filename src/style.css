@@ -242,3 +242,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 .round:active { transform: scale(.94); }
 .round svg { width: 18px; height: 18px; fill: currentColor; }
 .round--main { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.round--main:hover { background: color-mix(in oklab, var(--ink) 86%, var(--bg)); }
