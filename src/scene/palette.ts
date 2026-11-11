@@ -46,3 +46,4 @@ export const LOOKS: Record<TimeId, Look> = {
   },
 };
 
+/** The look the real clock asks for, blended across the hour of change. */
