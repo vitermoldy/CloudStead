@@ -145,3 +145,4 @@ export function makeGear(kind: Gear): Group {
       const band = m(new TorusGeometry(0.093, 0.009, 5, 18, Math.PI), '#2b2b2e', 0.5);
       const cupGeo = new CylinderGeometry(0.03, 0.03, 0.025, 12);
       const l = m(cupGeo, '#2b2b2e', 0.5);
+      const r = m(cupGeo, '#2b2b2e', 0.5);
