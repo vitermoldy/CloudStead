@@ -70,3 +70,4 @@ export interface YTPlayer {
   stopVideo(): void;
   nextVideo(): void;
   previousVideo(): void;
+  playVideoAt(i: number): void;
