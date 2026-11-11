@@ -282,3 +282,4 @@ export class Island {
       }
       this.tiles.set(key, t);
       this.group.add(t.group);
+      added.push(c);
