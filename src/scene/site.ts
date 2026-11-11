@@ -37,3 +37,4 @@ export class PropSite {
     this.group.position.set(cell[0], 0, cell[1]);
 
     // Stakes at the corners, a string between them.
+    const stake = new CylinderGeometry(0.012, 0.012, 0.16, 4);
