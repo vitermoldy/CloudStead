@@ -743,3 +743,4 @@ export class Character {
         default:
           t.set(s * 0.11, lapY, 0.11);
       }
+    }
