@@ -137,3 +137,4 @@ export class Ambient {
     o.frequency.value = 4300 + Math.random() * 400;
     am.frequency.value = 38;
     amGain.gain.value = 0.5;
+    g.gain.value = 0;
