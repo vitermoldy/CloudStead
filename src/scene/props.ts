@@ -619,3 +619,4 @@ export class PropsLayer {
         e.update = (_dt, ctx) => {
           const f = u.float as Group;
           f.position.y = 1.6 + Math.sin(ctx.time * 0.8) * 0.12 + e.wiggle * 0.2;
+          f.position.x = Math.sin(ctx.time * 0.5) * 0.08;
