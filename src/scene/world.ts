@@ -1003,3 +1003,4 @@ export class World extends Emitter {
 
   static supported(): boolean {
     try {
+      const c = document.createElement('canvas');
