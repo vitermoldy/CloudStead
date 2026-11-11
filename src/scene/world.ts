@@ -590,3 +590,4 @@ export class World extends Emitter {
     if (jump && (this.instant || this.paused)) this.look.approach(this.target, 1);
   }
 
+  /** Reduced motion: builds appear at once, the camera stays still. */
