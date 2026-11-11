@@ -12,3 +12,4 @@ export type Gear = 'cushion' | 'headphones' | 'books' | 'mug' | 'scarf' | 'beani
 /** How the resident works on it: hammer and planks, shovel and can, a rope from the clouds, or by hand at the seat. */
 export type Work = 'build' | 'plant' | 'dig' | 'haul' | 'craft';
 
+export interface Milestone {
