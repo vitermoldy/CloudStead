@@ -12,3 +12,4 @@ export type PresetId = keyof typeof PRESETS;
 
 export const PHASE_LABEL: Record<Phase, string> = { focus: 'Fokus', short: 'Istirahat', long: 'Istirahat panjang' };
 
+interface Saved {
