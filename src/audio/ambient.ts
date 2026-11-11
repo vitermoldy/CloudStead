@@ -94,3 +94,4 @@ export class Ambient {
     swell.start();
   }
 
+  private later(ms: number, fn: () => void): void {
