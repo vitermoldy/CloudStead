@@ -57,3 +57,4 @@ function puffAtlas(): DataTexture {
             if (d2 >= c.r * c.r) continue;
             const h = Math.sqrt(c.r * c.r - d2);
             const wgt = Math.exp((c.z + h - best) * 90);
+            sx += (wgt * dx) / c.r;
