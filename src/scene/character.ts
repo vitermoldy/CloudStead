@@ -842,3 +842,4 @@ export class Character {
     this.blink = Math.max(0, this.blink - dt);
     this.petAmount = damp(this.petAmount, this.petting ? 1 : 0, 6, dt);
     this.happy = Math.max(this.petAmount, this.waveT > 0 ? 1 : 0, act === 'cheer' ? 1 : 0);
+    const closed = act === 'sleep' || this.happy > 0.5;
