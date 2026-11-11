@@ -132,3 +132,4 @@ function counts() {
     let node, p;
     while ((node = walk.nextNode()) && !(p = parse(node.data))) { /* next */ }
     if (!node || !p) return;
+    // the number gets its own span, as wide as the final number and right-aligned, so nothing beside it
