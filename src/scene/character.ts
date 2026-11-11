@@ -27,3 +27,4 @@ const L_UPPER = 0.12, L_FORE = 0.11, L_THIGH = 0.14, L_SHIN = 0.135, L_TORSO = 0
 const WALK_SPEED = 0.62;
 
 const SKIN = new MeshStandardMaterial({ color: '#d6a27c', roughness: 0.7 });
+const HAIR = new MeshStandardMaterial({ color: '#2a211c', roughness: 0.9 });
