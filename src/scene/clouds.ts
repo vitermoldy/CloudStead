@@ -320,3 +320,4 @@ export function createClouds(count: number): Clouds {
   const camPos = new Vector3();
   let sortClock = -1;
 
+  const write = (time: number) => {
