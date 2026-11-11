@@ -184,3 +184,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 .go.is-running .i-pause { display: block; }
 
 /* ---------------------------------------------------------------- panels */
+.panel {
