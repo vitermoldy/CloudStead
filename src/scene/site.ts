@@ -124,3 +124,5 @@ export class PropSite {
         } else o.visible = k > 0.9;
       });
     }
+  }
+
