@@ -98,3 +98,4 @@ html:not([data-motion="off"]) :is(.link, .m-link, p a:not([class]), .footer ul a
   background-size: 100% 1px, 100% 1px; background-position: left 0 bottom 0, 0 100%; transition-duration: var(--m-in);
 }
 /* the link's arrow is not underlined: the line runs under the words only */
+html:not([data-motion="off"]) .link { background-size: 0% 1px, calc(100% - 1em - var(--s-2)) 1px; }
