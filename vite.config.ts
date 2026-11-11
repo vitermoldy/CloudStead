@@ -5,3 +5,4 @@ export default defineConfig({
   build: {
     assetsDir: 'build',
     chunkSizeWarningLimit: 900,
+  },
