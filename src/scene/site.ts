@@ -44,3 +44,4 @@ export class PropSite {
       m.position.set(x, 0.08, z);
       m.castShadow = true;
       this.group.add(m);
+    }
