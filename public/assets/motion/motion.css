@@ -50,3 +50,4 @@ html:not([data-motion="off"]) .btn:active { transform: translateY(1px) scale(.98
    Reduced motion keeps the colour change only (see the end of this file). */
 @media (hover: hover) and (pointer: fine) {
   html:not([data-motion="off"]) .btn:hover { transform: translateY(-1px); }
+  html:not([data-motion="off"]) .btn--xl:hover { transform: translateY(-2px); }
