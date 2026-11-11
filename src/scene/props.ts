@@ -98,3 +98,4 @@ function sapling(): Group {
 
 function tree(): Group {
   const g = new Group();
+  const trunk = mesh(new CylinderGeometry(0.05, 0.085, 0.95, 6), WOOD, 0, 0.47, 0);
