@@ -98,3 +98,4 @@ export function parseSaveFile(text: string): Bag {
   return data;
 }
 
+export function replaceAll(data: Bag): void {
