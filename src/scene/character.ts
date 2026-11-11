@@ -524,3 +524,4 @@ export class Character {
       this.act = this.atHome && this.seated ? (this.seatAct ?? 'sitIdle') : 'stand';
       this.workPoint = null;
       return;
+    }
