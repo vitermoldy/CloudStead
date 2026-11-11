@@ -286,3 +286,4 @@ export class World extends Emitter {
   private activeTile(): Cell | null {
     const m = this.project;
     if (!m || m.kind !== 'tiles' || !m.tiles) return null;
+    const i = Math.min(m.tiles.length - 1, Math.floor(this.p * m.tiles.length));
