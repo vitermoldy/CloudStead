@@ -27,3 +27,4 @@ function rockGeometry(cell: Cell, depth: number): BufferGeometry {
   const pts: Vector3[][] = [];
   const tipX = (rand() - 0.5) * 0.5, tipZ = (rand() - 0.5) * 0.5;
   for (let r = 0; r <= rings; r++) {
+    const k = r / rings;
