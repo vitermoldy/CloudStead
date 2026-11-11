@@ -677,3 +677,4 @@ export class PropsLayer {
     const hits = ray.intersectObjects(this.group.children, true);
     for (const h of hits) {
       if (h.object instanceof Line) continue;
+      const entry = (h.object as Object3D).userData.prop as PropEntry | undefined;
