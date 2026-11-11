@@ -470,3 +470,4 @@ function renderSaveStatus(): void {
     return;
   }
   const at = lastSaved();
+  el.textContent = at
