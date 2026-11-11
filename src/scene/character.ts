@@ -896,3 +896,4 @@ export class Character {
     t.yarn.visible = act === 'craft' && this.craftKind !== null && KNITTED.has(this.craftKind);
     if (t.hammer.visible) {
       t.hammer.position.copy(handR);
+      t.hammer.quaternion.setFromUnitVectors(UP, handR.clone().sub(elbows[R]).normalize());
