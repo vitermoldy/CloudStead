@@ -596,3 +596,4 @@ export class PropsLayer {
           u.spin = 1.4;
         };
         break;
+      case 'pond':
