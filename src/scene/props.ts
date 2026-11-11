@@ -76,3 +76,4 @@ function flowers(): Group {
   const stem = new CylinderGeometry(0.006, 0.006, 1, 3);
   const head = new IcosahedronGeometry(0.03, 0);
   for (let i = 0; i < 16; i++) {
+    const a = rand() * Math.PI * 2;
