@@ -402,3 +402,4 @@ export class Character {
       }
       return null;
     }
+    if (had) return had;
