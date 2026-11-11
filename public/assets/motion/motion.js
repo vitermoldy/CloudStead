@@ -99,3 +99,4 @@ function tabs() {
 const NUM = /\d+(?:[.,\u00A0\u202F]\d+)*/;
 function parse(text) {
   const m = text.match(NUM);
+  if (!m) return null;
