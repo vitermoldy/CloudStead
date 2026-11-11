@@ -946,3 +946,4 @@ export class Character {
   private wander(dt: number): Vector3 {
     this.wanderClock -= dt;
     if (this.wanderClock <= 0) {
+      this.wanderClock = 3 + Math.random() * 4;
