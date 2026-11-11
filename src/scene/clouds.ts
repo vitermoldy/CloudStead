@@ -141,3 +141,4 @@ function cloudFloor(): { mesh: Mesh; material: ShaderMaterial } {
     // No depth: the puffs that dip below the floor must never be cut by it.
     depthWrite: false,
     uniforms: {
+      uLit: { value: new Color() },
