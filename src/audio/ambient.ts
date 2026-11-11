@@ -296,3 +296,4 @@ export class Ambient {
   }
 
   setDucked(on: boolean): void {
+    this.ducked = on;
