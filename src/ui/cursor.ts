@@ -15,3 +15,4 @@ export class Cursor {
   private label: HTMLElement;
   private x = -100;
   private y = -100;
+  private rx = -100;
