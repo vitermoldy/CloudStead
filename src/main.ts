@@ -575,3 +575,4 @@ nameInput.addEventListener('change', () => {
   nameInput.value = progress.name;
   nameTag();
   if (world) world.character.name = progress.name;
+  renderHud(true);
