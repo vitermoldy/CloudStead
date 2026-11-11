@@ -16,3 +16,4 @@ import { createSky } from './sky';
 
 export type TimeMode = TimeId | 'auto';
 
+export interface Hover {
