@@ -596,3 +596,4 @@ export class Character {
   }
 
   bubbleAnchor(camera: Camera, w: number, h: number): { x: number; y: number; visible: boolean } {
+    const p = new Vector3(0, 0.2, 0);
