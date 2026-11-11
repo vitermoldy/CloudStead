@@ -62,3 +62,4 @@ export function lookForHour(hour: number): { a: TimeId; b: TimeId; t: number } {
   return { a: 'senja', b: 'malam', t: 1 };
 }
 
+/** A look as live three.js values, blended in place. */
