@@ -384,3 +384,4 @@ function enter() {
     // the pictures settle by CSS over 1.1 s: the hero is done when both are through
     anims.push({ finished: new Promise(r => setTimeout(r, 1150)), cancel() {} });
     Promise.all(anims.map(a => a.finished)).then(finish, finish);
+  }).catch(finish);
