@@ -221,3 +221,4 @@ export class Character {
   petting = false;
   private petAmount = 0;
   private happy = 0;
+  /** What the pointer or the work asks the head to look at. */
