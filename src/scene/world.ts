@@ -153,3 +153,4 @@ export class World extends Emitter {
       this.emit('land');
       // Step back so the grown island stays in frame.
       const before = this.dist;
+      this.fitDistance(this.island.reach());
