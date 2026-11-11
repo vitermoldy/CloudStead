@@ -130,3 +130,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 .hud {
   position: relative; z-index: 3; width: 100%; pointer-events: none;
   padding: 0 var(--gutter) clamp(26px, 3vw, 42px);
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(300px, 380px); align-items: end; gap: clamp(16px, 3vw, 48px);
