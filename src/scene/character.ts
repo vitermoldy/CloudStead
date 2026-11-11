@@ -551,3 +551,4 @@ export class Character {
         if (d > 1e-4) {
           pos.x += (dx / d) * move;
           pos.z += (dz / d) * move;
+        }
