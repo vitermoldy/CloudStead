@@ -22,3 +22,4 @@ export class PropSite {
   private build: Group;
   private ghost: Group;
   private cut = new Plane(new Vector3(0, -1, 0), 0);
+  private ghostCut = new Plane(new Vector3(0, 1, 0), 0);
