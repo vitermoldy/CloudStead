@@ -47,3 +47,5 @@ export class MusicPlayer extends Emitter {
 
   get isPlaying(): boolean {
     return this.status === 'playing' || this.status === 'buffering';
+  }
+
