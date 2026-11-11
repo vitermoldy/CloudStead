@@ -903,3 +903,4 @@ export class Character {
       const dir = handR.clone().sub(handL).normalize();
       t.shovel.position.copy(handR);
       t.shovel.quaternion.setFromUnitVectors(UP, dir);
+      this.blade.copy(handR).addScaledVector(dir, -0.3);
