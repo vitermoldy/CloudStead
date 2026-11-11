@@ -19,3 +19,4 @@ export interface PropEntry {
   cell: Cell;
   title: string;
   group: Group;
+  blocking: boolean;
