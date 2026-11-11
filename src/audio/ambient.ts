@@ -249,3 +249,4 @@ export class Ambient {
     if (work) {
       // On the work channel, so the "work" switch silences it.
       const ctx = this.ctx!;
+      const t = ctx.currentTime + 0.01;
