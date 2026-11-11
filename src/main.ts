@@ -266,3 +266,4 @@ let lastMinuteSr = -1;
 function phaseLine(): string {
   const r = `putaran ${timer.round} dari ${timer.config.rounds}`;
   if (!timer.active) return `Siap fokus · ${r}`;
+  if (timer.running) return `<strong>${timer.phaseLabel}</strong> · ${r}`;
