@@ -91,3 +91,4 @@ function puffAtlas(): DataTexture {
   return tex;
 }
 
+interface Puff {
