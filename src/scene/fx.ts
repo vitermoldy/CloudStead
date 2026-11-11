@@ -62,3 +62,4 @@ const TEXTURES: Record<FxKind, () => CanvasTexture> = {
     ctx.bezierCurveTo(18, 40, 20, 30, 32, 10);
     ctx.fill();
   }),
+  leaf: () => glyphTexture((ctx) => {
