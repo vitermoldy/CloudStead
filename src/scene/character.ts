@@ -770,3 +770,4 @@ export class Character {
     }
     this.placeTools(act, elbows, mug, dt);
 
+    // ---- head
