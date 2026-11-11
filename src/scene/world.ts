@@ -321,3 +321,4 @@ export class World extends Emitter {
         this.fx.spawn('dust', this.character.headWorld().add(new Vector3(0, -0.15, 0.1)), 6);
       }
     }
+    this.rope.visible = false;
