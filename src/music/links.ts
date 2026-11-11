@@ -7,3 +7,4 @@ export class LinkError extends Error {}
 
 export interface ParsedLink {
   kind: 'video' | 'playlist';
+  videoId: string | null;
