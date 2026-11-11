@@ -783,3 +783,4 @@ export class Character {
         pitch = this.looking ? lookPitch * 0.5 + 0.2 : 0.45;
         break;
       case 'craft':
+        yaw = this.looking ? lookYaw * 0.6 : 0;
