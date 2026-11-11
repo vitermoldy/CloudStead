@@ -88,3 +88,4 @@ export class Cursor {
     const angle = Math.atan2(this.vy, this.vx);
     this.ring.style.transform = stretch > 0.01
       ? `translate3d(${this.rx}px, ${this.ry}px, 0) rotate(${angle}rad) scale(${1 + stretch}, ${1 - stretch * 0.55})`
+      : `translate3d(${this.rx}px, ${this.ry}px, 0)`;
