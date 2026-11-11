@@ -678,3 +678,4 @@ export class Character {
       reach(hip, this.feet[i], L_THIGH, L_SHIN, pole, knee, foot);
       span(this.thighs[i], hip, knee);
       span(this.shins[i], knee, foot);
+      this.shoes[i].position.copy(foot).add(new Vector3(0, -0.005, 0.02));
