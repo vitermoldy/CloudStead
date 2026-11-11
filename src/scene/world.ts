@@ -411,3 +411,4 @@ export class World extends Emitter {
 
   private workBeat(kind: 'hammer' | 'dig' | 'water', target: Vector3, n: number): void {
     if (kind === 'hammer') {
+      this.fx.spawn('dust', target.clone().setY(0.08), 3);
