@@ -41,3 +41,4 @@ export class World extends Emitter {
   readonly character = new Character();
   readonly fx = new Fx();
   private clouds: Clouds;
+  private sky = createSky();
