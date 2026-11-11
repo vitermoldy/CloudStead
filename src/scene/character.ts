@@ -361,3 +361,4 @@ export class Character {
     head.position.y = 0.11;
     t.hammer.add(handle, head);
 
+    const shaft = new Mesh(new CylinderGeometry(0.008, 0.008, 0.36, 5), new MeshStandardMaterial({ color: '#7a5636' }));
