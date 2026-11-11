@@ -69,3 +69,4 @@ export class World extends Emitter {
   private ropeCell: Cell | null = null;
   private tweens: ((dt: number) => boolean)[] = [];
   private refitT = 0;
+  private time = 0;
