@@ -27,3 +27,4 @@ export class Ambient {
   private night = 0;
   private typing = false;
   private ducked = false;
+  private hidden = false;
