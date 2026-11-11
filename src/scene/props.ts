@@ -566,3 +566,4 @@ export class PropsLayer {
           crown.rotation.x = Math.cos(ctx.time * 0.7) * 0.02;
         };
         break;
+      case 'hut':
