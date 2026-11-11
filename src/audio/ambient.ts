@@ -167,3 +167,4 @@ export class Ambient {
     const ctx = this.ctx!;
     const t = ctx.currentTime + 0.005;
     const src = ctx.createBufferSource();
+    src.buffer = this.noise;
