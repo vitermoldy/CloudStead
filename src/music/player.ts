@@ -233,3 +233,4 @@ export class MusicPlayer extends Emitter {
         this.status = 'ended';
         this.emit('change');
         return;
+      }
