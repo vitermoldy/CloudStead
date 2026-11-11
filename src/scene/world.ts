@@ -237,3 +237,5 @@ export class World extends Emitter {
 
   get currentProject(): Milestone | null {
     return this.project;
+  }
+
