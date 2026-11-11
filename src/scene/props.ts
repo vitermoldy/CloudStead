@@ -622,3 +622,4 @@ export class PropsLayer {
           f.position.x = Math.sin(ctx.time * 0.5) * 0.08;
           const tether = u.tether as Line;
           const p = tether.geometry.getAttribute('position');
+          p.setXYZ(1, f.position.x, f.position.y - 1.4, 0);
