@@ -74,3 +74,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
       : st === 'loading' || st === 'buffering' ? 'Memuat lagu…'
       : st === 'api-error' ? player.apiError
       : st === 'ended' ? 'Antrean selesai. Putar lagi dari daftar di bawah.'
+      : st === 'idle' && item ? 'Tekan putar untuk mulai.'
