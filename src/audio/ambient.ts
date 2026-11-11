@@ -45,3 +45,4 @@ export class Ambient {
     if (!AC) return;
     const ctx = new AC();
     this.ctx = ctx;
+    this.master = ctx.createGain();
