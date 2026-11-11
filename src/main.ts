@@ -193,3 +193,4 @@ function onGreet(): void {
     speak(pick(['Istirahat dulu. Minum air, ya.', 'Regangkan badan sebentar.', 'Matamu juga perlu lepas dari layar.']));
   } else {
     c.wave();
+    const lines = ['Hai! Mulai fokus, nanti aku kerja.', 'Aku cuma bisa membangun selama kamu fokus.'];
