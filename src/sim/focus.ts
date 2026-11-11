@@ -43,3 +43,4 @@ export class FocusTimer extends Emitter {
     this.preset = s.preset && s.preset in PRESETS ? s.preset : 'short';
     this.phase = s.phase && ['focus', 'short', 'long'].includes(s.phase) ? s.phase : 'focus';
     this.round = Number.isInteger(s.round) && (s.round as number) > 0 ? (s.round as number) : 1;
+    this.running = s.running === true && Number.isFinite(s.endAt);
