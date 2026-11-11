@@ -84,3 +84,4 @@ function flowers(): Group {
     const f = mesh(head, heads[i % 3], Math.cos(a) * r, h, Math.sin(a) * r, false);
     g.add(s, f);
   }
+  return g;
