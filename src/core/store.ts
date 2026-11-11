@@ -23,3 +23,4 @@ function readAll(): Bag {
   return cache!;
 }
 
+function flush(): boolean {
