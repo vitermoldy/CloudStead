@@ -122,3 +122,4 @@ export class World extends Emitter {
     this.controls.enableDamping = true;
     this.controls.dampingFactor = 0.07;
     this.controls.enablePan = false;
+    this.controls.rotateSpeed = 0.55;
