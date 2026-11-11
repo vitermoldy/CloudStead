@@ -112,3 +112,4 @@ export class World extends Emitter {
     this.scene.add(this.sun, this.sun.target, this.hemi, this.bounce);
     this.scene.fog = new Fog('#7d6656', 35, 150);
     this.scene.add(this.sky.mesh);
+    this.clouds = createClouds(opts.small ? 240 : 380);
