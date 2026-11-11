@@ -97,3 +97,5 @@ function bladeGeometry(): BufferGeometry {
   g.setAttribute('color', new BufferAttribute(new Float32Array(cols), 3));
   g.setIndex(idx);
   return g;
+}
+
