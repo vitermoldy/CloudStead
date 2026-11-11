@@ -312,3 +312,4 @@ export class World extends Emitter {
       const g = this.character.setGear(m.gear, true);
       if (g && !instant) {
         g.scale.setScalar(0.01);
+        const grow = { t: 0 };
