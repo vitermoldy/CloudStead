@@ -232,3 +232,4 @@ export function createClouds(count: number): Clouds {
       uAtlas: { value: puffAtlas() },
       uLit: { value: new Color() },
       uShade: { value: new Color() },
+      uFog: { value: new Color() },
