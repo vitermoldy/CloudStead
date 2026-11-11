@@ -569,3 +569,4 @@ $('reset-confirm').addEventListener('click', () => {
   toast('Progres direset. Pulau kembali ke 9 petak awal.');
 });
 
+const nameInput = $<HTMLInputElement>('resident-name');
