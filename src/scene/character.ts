@@ -651,3 +651,4 @@ export class Character {
     const neck = pelvis.clone().addScaledVector(this.spine, L_TORSO + breathe);
     const side = new Vector3(1, 0, 0);
     const forward = new Vector3().crossVectors(side, this.spine).normalize();
+    side.crossVectors(this.spine, forward).normalize();
