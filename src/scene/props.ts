@@ -109,3 +109,4 @@ function tree(): Group {
   ];
   for (const [x, y, z, r, m] of blobs) crown.add(mesh(new IcosahedronGeometry(r, 1), m, x, y, z));
   g.add(crown);
+  g.userData.crown = crown;
