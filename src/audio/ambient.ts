@@ -315,3 +315,4 @@ export class Ambient {
     if (!this.ctx || !this.master) return;
     const s = this.settings;
     const t = this.ctx.currentTime;
+    const vol = s.on ? (s.volume / 100) * (this.ducked ? 0.45 : 1) : 0;
