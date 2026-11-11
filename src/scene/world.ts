@@ -611,3 +611,4 @@ export class World extends Emitter {
   }
 
   setMusic(on: boolean): void {
+    this.character.setMusic(on);
