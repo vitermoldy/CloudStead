@@ -6,3 +6,4 @@ const KEY = 'cloudstead:v1';
 type Bag = Record<string, unknown>;
 
 let cache: Bag | null = null;
+let readOnly = false;
