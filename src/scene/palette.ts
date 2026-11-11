@@ -80,3 +80,4 @@ export class LiveLook {
   night = 0;
   exposure = 1;
 
+  private static tmpA = new Color();
