@@ -212,3 +212,4 @@ export function createClouds(count: number): Clouds {
   const base = new PlaneGeometry(1, 1);
   const geo = new InstancedBufferGeometry();
   geo.index = base.index;
+  geo.setAttribute('position', base.getAttribute('position'));
