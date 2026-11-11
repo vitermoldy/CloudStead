@@ -319,3 +319,4 @@ export class World extends Emitter {
           return grow.t >= 1;
         });
         this.fx.spawn('dust', this.character.headWorld().add(new Vector3(0, -0.15, 0.1)), 6);
+      }
