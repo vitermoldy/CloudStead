@@ -707,3 +707,4 @@ export class World extends Emitter {
     const up = (e: PointerEvent) => {
       const p = this.press;
       this.press = null;
+      this.controls.enabled = true;
