@@ -114,3 +114,4 @@ function parse(text) {
   const value = parseFloat(intPart.replace(/[^\d]/g, '') + (dec ? '.' + raw.slice(lastSep + 1) : ''));
   return { index: m.index, raw, value, dec, group, decimals };
 }
+function format(v, p) {
