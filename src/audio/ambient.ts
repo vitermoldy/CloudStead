@@ -98,3 +98,4 @@ export class Ambient {
     this.timers.push(window.setTimeout(fn, ms));
   }
 
+  private loopLife(): void {
