@@ -264,3 +264,4 @@ export class Island {
     for (const [key, t] of this.tiles) {
       if (!want.has(key)) {
         this.group.remove(t.group);
+        this.tiles.delete(key);
