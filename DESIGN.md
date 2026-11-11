@@ -15,3 +15,5 @@ the resident. The reference's own code, video and copy are not used; only its lo
 
 **Design Read.** Reading this as: an ambient study app (software) for students who study at a
 screen with music on, in a cinematic golden-hour diorama style taken from the owner's reference,
+dial **ENERGY 3 / RHYTHM 1 / MOTION 3**.
+
