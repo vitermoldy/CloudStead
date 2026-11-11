@@ -49,3 +49,4 @@ export function load<T>(section: string, fallback: T): T {
   if (value === undefined || value === null) return fallback;
   if (fallback && typeof fallback === 'object' && !Array.isArray(fallback) && typeof value === 'object') {
     return { ...fallback, ...(value as object) } as T;
+  }
