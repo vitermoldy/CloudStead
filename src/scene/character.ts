@@ -831,3 +831,5 @@ export class Character {
       phones.scale.setScalar(0.92);
     } else if (phones) {
       phones.scale.setScalar(1);
+    }
+
