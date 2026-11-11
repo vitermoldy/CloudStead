@@ -302,3 +302,4 @@ export function createClouds(count: number): Clouds {
         col = mix(col, uFog, smoothstep(70.0, 190.0, vDist) * 0.8);
 
         // Film grain, fixed to the screen, as in the reference render.
+        col += (fract(sin(dot(gl_FragCoord.xy, vec2(12.9898, 78.233))) * 43758.5453) - 0.5) * 0.03;
