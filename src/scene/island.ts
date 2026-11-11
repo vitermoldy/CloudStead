@@ -132,3 +132,4 @@ export class Island {
   private grassMat: MeshStandardMaterial;
   private dirtTopMat: MeshStandardMaterial;
   private earthMat: MeshStandardMaterial;
+  private rockMat: MeshStandardMaterial;
