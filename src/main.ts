@@ -61,3 +61,4 @@ let world: WorldType | null = null;
 const cursor = new Cursor($('cursor'), canvas);
 let justBuilt: { text: string; until: number } | null = null;
 
+async function startWorld(): Promise<void> {
