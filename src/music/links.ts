@@ -68,3 +68,4 @@ export interface YTPlayer {
   playVideo(): void;
   pauseVideo(): void;
   stopVideo(): void;
+  nextVideo(): void;
