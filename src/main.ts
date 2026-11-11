@@ -483,3 +483,4 @@ onSaved(() => {
 function saveProgress(): void {
   if (isReadOnly()) {
     toast('Ini pratinjau, jadi tidak ada yang disimpan.');
+    return;
