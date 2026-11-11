@@ -13,3 +13,4 @@ const CELL = 256;
  * texture keeps the surface normal (RGB) and the coverage (A), so the shader can light every
  * billow from wherever the sun stands.
  */
+function puffAtlas(): DataTexture {
