@@ -44,3 +44,4 @@ function nav() {
   bar.querySelectorAll('.nav__item').forEach(item => {
     const has = !!item.querySelector('.nav__menu');
     item.addEventListener('pointerenter', () => {
+      clearTimeout(t);
