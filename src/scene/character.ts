@@ -808,3 +808,4 @@ export class Character {
         break;
       default:
         yaw = lookYaw;
+        pitch = lookPitch;
