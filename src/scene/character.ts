@@ -872,3 +872,4 @@ export class Character {
         this.stretchT = 2.4;
         this.nextStretch = 14 + Math.random() * 10;
       }
+      if (mug) {
