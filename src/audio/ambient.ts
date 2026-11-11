@@ -7,3 +7,5 @@ export interface SoundSettings {
   life: boolean;
   keys: boolean;
   effects: boolean;
+}
+
