@@ -151,3 +151,4 @@ export class Island {
         .replace('#include <common>', '#include <common>\nuniform float uTime;\nuniform vec3 uCursor;\nuniform float uWind;')
         .replace('#include <project_vertex>', /* glsl */ `
           vec4 wpos = instanceMatrix * vec4(transformed, 1.0);
+          float k = position.y * position.y;
