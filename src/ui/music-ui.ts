@@ -68,3 +68,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
     play.classList.toggle('is-playing', playing);
     play.setAttribute('aria-label', playing ? 'Jeda musik' : 'Putar musik');
     const item = player.item;
+    title.textContent = player.nowTitle || item?.title || (item ? item.url : '');
