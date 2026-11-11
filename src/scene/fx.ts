@@ -70,3 +70,4 @@ const TEXTURES: Record<FxKind, () => CanvasTexture> = {
   }),
 };
 
+interface Particle {
