@@ -216,3 +216,4 @@ export class Ambient {
     const bp = ctx.createBiquadFilter();
     bp.type = 'bandpass';
     bp.frequency.value = freq;
+    bp.Q.value = q;
