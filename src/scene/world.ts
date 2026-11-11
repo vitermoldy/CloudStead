@@ -586,3 +586,4 @@ export class World extends Emitter {
       this.target.set(LOOKS[a], LOOKS[b], t);
     } else {
       this.target.set(LOOKS[this.timeMode]);
+    }
