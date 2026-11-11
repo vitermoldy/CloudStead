@@ -83,3 +83,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
       u.uZenith.value = look.zenith;
       u.uHorizon.value = look.horizon;
       u.uGlow.value = look.glow;
+      u.uBelow.value = below.copy(look.cloudShade).lerp(look.horizon, 0.35);
