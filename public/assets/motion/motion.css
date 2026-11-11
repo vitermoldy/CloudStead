@@ -152,3 +152,4 @@ html:not([data-motion="off"]) .tab { transition: color var(--m-slide) var(--m-ea
 /* the ring (system.css) is drawn in full in the frame the focus lands; no transition */
 
 /* ---------------------------------------------------------------- cards: a 2px lift */
+/* the card rises 2px, its border and shadow deepen; a card without its own box (.card--open) lifts
