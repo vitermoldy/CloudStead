@@ -174,3 +174,4 @@ function onHover(h: Hover & { dragging?: boolean }, petting: boolean): void {
 function onGreet(): void {
   if (!world) return;
   const c = world.character;
+  if (c.act === 'sleep') {
