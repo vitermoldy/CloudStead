@@ -113,3 +113,4 @@ const BLADES_PER_TILE = 150;
 const MAX_TILES = 40;
 
 export interface GrassUniforms {
+  uTime: { value: number };
