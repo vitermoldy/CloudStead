@@ -33,3 +33,5 @@ const PANTS = new MeshStandardMaterial({ color: '#363a45', roughness: 0.9 });
 const SHOES = new MeshStandardMaterial({ color: '#2a2622', roughness: 0.8 });
 const WOOD = new MeshStandardMaterial({ color: '#86603f', roughness: 0.85 });
 const IRON = new MeshStandardMaterial({ color: '#55534f', roughness: 0.45, metalness: 0.5 });
+const DARK = new MeshBasicMaterial({ color: '#1b1512' });
+
