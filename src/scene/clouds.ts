@@ -194,3 +194,4 @@ function cloudFloor(): { mesh: Mesh; material: ShaderMaterial } {
       }
     `,
   });
+  const mesh = new Mesh(new CircleGeometry(220, 48), material);
