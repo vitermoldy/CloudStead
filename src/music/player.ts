@@ -39,3 +39,5 @@ export class MusicPlayer extends Emitter {
     this.current = Number.isInteger(saved.current) && (saved.current as number) < this.queue.length ? (saved.current as number) : -1;
     this.volume = Number.isFinite(saved.volume) ? clamp(saved.volume as number, 0, 100) : 70;
     this.loop = saved.loop !== false;
+  }
+
