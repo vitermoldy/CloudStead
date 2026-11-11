@@ -369,3 +369,4 @@ function windmill(): Group {
     arm.add(mesh(blade, std('#efe7d2'), 0.03, 0.36, 0.03));
     arm.add(mesh(new BoxGeometry(0.02, 0.66, 0.02), WOOD_DARK, 0, 0.34, 0.02));
     hub.add(arm);
+  }
