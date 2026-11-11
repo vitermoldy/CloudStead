@@ -161,3 +161,4 @@ function cloudFloor(): { mesh: Mesh; material: ShaderMaterial } {
       uniform vec3 uFog;
       uniform vec3 uSunDir;
       uniform float uTime;
+      varying vec3 vWorld;
