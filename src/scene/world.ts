@@ -973,3 +973,4 @@ export class World extends Emitter {
           const x = Math.round((r.left - cr.left + (r.width * (i + 0.5)) / 5) * ratio);
           const y = Math.round(ch - (r.top - cr.top + (r.height * (j + 0.5)) / 3) * ratio);
           if (x < 0 || y < 0 || x >= this.canvas.width || y >= ch) continue;
+          gl.readPixels(x, y, 1, 1, gl.RGBA, gl.UNSIGNED_BYTE, px);
