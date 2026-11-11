@@ -423,3 +423,4 @@ export class Character {
       case 'beanie':
         g.position.set(0, 0.02, -0.005);
         g.rotation.x = -0.15;
+        this.head.add(g);
