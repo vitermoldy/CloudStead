@@ -806,3 +806,4 @@ export class Character {
       case 'cheer':
         pitch = -0.25;
         break;
+      default:
