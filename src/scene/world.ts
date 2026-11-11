@@ -695,3 +695,4 @@ export class World extends Emitter {
     c.addEventListener('pointerdown', (e) => {
       toNdc(e);
       this.pointerIn = e.pointerType === 'mouse' ? true : this.pointerIn;
+      this.nudge();
