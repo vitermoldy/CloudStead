@@ -124,3 +124,4 @@ async function startWorld(): Promise<void> {
   requestAnimationFrame(() => html.classList.add('scene-ready'));
   // Once the island has faded in over it, the still is no longer needed.
   setTimeout(() => {
+    $('poster').hidden = true;
