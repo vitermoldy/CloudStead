@@ -178,3 +178,4 @@ export class Island {
   }
 
   private frame(size: number, thick: number, mat: Material): Group {
+    const g = new Group();
