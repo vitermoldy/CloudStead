@@ -9,3 +9,4 @@ import { Character, type Step } from './character';
 import { createClouds, type Clouds } from './clouds';
 import { Fx } from './fx';
 import { Island } from './island';
+import { LiveLook, LOOKS, lookForHour, type TimeId } from './palette';
