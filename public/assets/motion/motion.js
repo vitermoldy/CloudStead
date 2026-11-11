@@ -141,3 +141,4 @@ function counts() {
     span.style.display = 'inline-block';
     span.style.textAlign = 'right';
     span.textContent = p.raw;
+    after.replaceWith(span);
