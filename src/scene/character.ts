@@ -825,3 +825,4 @@ export class Character {
     const spineQ = new Quaternion().setFromUnitVectors(UP, this.spine);
     this.head.quaternion.copy(spineQ).multiply(new Quaternion().setFromEuler(new Euler(this.headPitch, this.headYaw, this.headRoll, 'YXZ')));
     const phones = this.gear.get('headphones');
+    if (phones && phones.userData.neck && phones.parent === this.rig) {
