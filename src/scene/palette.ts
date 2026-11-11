@@ -13,3 +13,4 @@ export interface Look {
   sunDir: [number, number, number];
   hemiSky: string;
   hemiGround: string;
+  hemiIntensity: number;
