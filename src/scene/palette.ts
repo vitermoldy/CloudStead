@@ -95,3 +95,4 @@ export class LiveLook {
     this.hemiIntensity = n(a.hemiIntensity, b.hemiIntensity);
     this.stars = n(a.stars, b.stars);
     this.night = n(a.night, b.night);
+    this.exposure = n(a.exposure, b.exposure);
