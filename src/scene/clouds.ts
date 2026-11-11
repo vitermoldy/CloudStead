@@ -325,3 +325,4 @@ export function createClouds(count: number): Clouds {
     order.sort((ia, ib) => {
       const pa = puffs[ia], pb = puffs[ib];
       const xa = ((pa.x + time * pa.speed + span) % (span * 2) + span * 2) % (span * 2) - span;
+      const xb = ((pb.x + time * pb.speed + span) % (span * 2) + span * 2) % (span * 2) - span;
