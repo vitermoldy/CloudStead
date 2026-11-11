@@ -270,3 +270,4 @@ export class Island {
     const added: Cell[] = [];
     let order = 0;
     for (const c of cells) {
+      const key = cellKey(c);
