@@ -20,3 +20,5 @@ interface Saved {
   endAt: number;
   remainingMs: number;
   creditedAt: number;
+}
+
