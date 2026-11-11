@@ -114,3 +114,5 @@ export class World extends Emitter {
     this.scene.add(this.sky.mesh);
     this.clouds = createClouds(opts.small ? 240 : 380);
     this.scene.add(this.clouds.mesh);
+    this.scene.add(this.island.group, this.props.group, this.character.root, this.character.seat, this.fx.group);
+
