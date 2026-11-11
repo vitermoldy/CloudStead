@@ -638,3 +638,4 @@ addEventListener('keydown', (e) => {
   if (e.key === 'Escape') {
     if (openId) {
       openPanel(null);
+      e.preventDefault();
