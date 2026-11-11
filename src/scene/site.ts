@@ -130,3 +130,4 @@ export class PropSite {
   deliver(): void {
     if (this.planks >= 6) return;
     const m = new Mesh(new BoxGeometry(0.28, 0.025, 0.06), PLANK);
+    m.position.set((this.planks % 2) * 0.02, 0.013 + this.planks * 0.026, 0);
