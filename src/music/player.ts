@@ -266,3 +266,4 @@ export class MusicPlayer extends Emitter {
       }
     } else if (s === YT.PlayerState.PAUSED || s === YT.PlayerState.CUED) {
       this.status = 'paused';
+    } else if (s === YT.PlayerState.BUFFERING) {
