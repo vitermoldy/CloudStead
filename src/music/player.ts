@@ -88,3 +88,4 @@ export class MusicPlayer extends Emitter {
         if (this.isPlaying) this.play(this.current);
         else this.cue(this.current);
       }
+    }
