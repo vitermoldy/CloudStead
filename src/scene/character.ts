@@ -649,3 +649,4 @@ export class Character {
 
     const pelvis = new Vector3(0, this.hipY, -0.02);
     const neck = pelvis.clone().addScaledVector(this.spine, L_TORSO + breathe);
+    const side = new Vector3(1, 0, 0);
