@@ -215,3 +215,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 .field__label { font-size: 14px; color: var(--muted); padding: 0; }
 .field__row { display: flex; gap: 8px; }
 .field__input {
+  flex: 1; min-width: 0; min-height: 44px; padding: 0 14px; border-radius: var(--r-sm);
