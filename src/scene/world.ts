@@ -442,3 +442,4 @@ export class World extends Emitter {
         return [...this.walkTo(spot), { kind: 'do', act: 'stand', seconds: 3 + Math.random() * 3, face: view }];
       }],
     ];
+    if (plants.length) {
