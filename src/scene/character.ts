@@ -740,3 +740,4 @@ export class Character {
         case 'stand':
           t.set(s * 0.115, this.hipY - 0.03, 0.01);
           break;
+        default:
