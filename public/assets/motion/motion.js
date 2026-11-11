@@ -157,3 +157,4 @@ function counts() {
         if (onScreen()) { state = 'done'; stop(); span.textContent = p.raw; } else watch();
       }, 6000);
     };
+    const ctl = {
