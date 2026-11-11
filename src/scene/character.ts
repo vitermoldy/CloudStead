@@ -301,3 +301,4 @@ export class Character {
       this.thighs.push(new Mesh(new CapsuleGeometry(0.038, L_THIGH - 0.07, 4, 8), PANTS));
       this.shins.push(new Mesh(new CapsuleGeometry(0.032, L_SHIN - 0.06, 4, 8), PANTS));
       this.shoes.push(new Mesh(new BoxGeometry(0.05, 0.035, 0.085), SHOES));
+    }
