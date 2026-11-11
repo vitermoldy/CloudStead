@@ -30,3 +30,4 @@ export const smoothstep = (e0: number, e1: number, x: number): number => {
   return t * t * (3 - 2 * t);
 };
 
+/** Deterministic random numbers, so the island looks the same on every visit. */
