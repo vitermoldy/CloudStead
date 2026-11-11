@@ -445,3 +445,4 @@ export class Island {
 
   dispose(): void {
     this.group.traverse((o: Object3D) => {
+      const mesh = o as Mesh;
