@@ -272,3 +272,4 @@ export class Character {
     fringe.rotation.x = 0.5;
     this.head.add(skull, hair, fringe);
     for (const s of [-1, 1]) {
+      const eye = new Mesh(new SphereGeometry(0.011, 8, 6), DARK);
