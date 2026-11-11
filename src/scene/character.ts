@@ -502,3 +502,4 @@ export class Character {
   }
 
   wave(): void {
+    this.waveT = 1.6;
