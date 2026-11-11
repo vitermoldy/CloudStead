@@ -417,3 +417,4 @@ function balloon(): Group {
   g.add(mesh(new CylinderGeometry(0.02, 0.03, 0.18, 5), WOOD_DARK, 0, 0.09, 0));
   const float = new Group();
   float.position.y = 1.6;
+  const profile: Vector2[] = [];
