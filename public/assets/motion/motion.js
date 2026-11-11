@@ -214,3 +214,4 @@ function restart(loop) {
   if (!d || (t % d) / d > 0.25) anims.forEach(a => { a.currentTime = 0; });
 }
 function setPaused(box, paused) {
+  box.querySelectorAll('[data-m-loop]').forEach(l => l.classList.toggle('is-m-paused', paused));
