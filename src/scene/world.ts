@@ -719,3 +719,4 @@ export class World extends Emitter {
       if (p.moved) return;
       if (p.on === 'char') {
         this.emit('greet');
+      } else if (p.on === 'prop' && p.prop) {
