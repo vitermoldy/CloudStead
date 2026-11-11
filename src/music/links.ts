@@ -57,3 +57,5 @@ export function parseLink(raw: string): ParsedLink {
 interface YTNamespace {
   Player: new (el: HTMLElement, opts: unknown) => YTPlayer;
   PlayerState: { PLAYING: number; PAUSED: number; BUFFERING: number; CUED: number; ENDED: number };
+}
+
