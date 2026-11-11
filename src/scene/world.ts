@@ -818,3 +818,4 @@ export class World extends Emitter {
 
   private adaptClock = 0;
 
+  /** Drops the resolution a step when frames run slow, and climbs back when there is room. */
