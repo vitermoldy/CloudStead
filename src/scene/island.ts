@@ -320,3 +320,5 @@ export class Island {
     if (how) this.bare.set(cellKey(cell), how);
     else this.bare.delete(cellKey(cell));
     this.layGrass();
+  }
+
