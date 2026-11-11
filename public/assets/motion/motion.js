@@ -333,3 +333,4 @@ function enter() {
   if (!hero || hero.classList.contains('is-entered') || hero.classList.contains('is-entering')) return;
   // still: the picture takes its place at once (no settle); otherwise the CSS settle and fade run out first
   const done = (still = false) => { if (still) hero.classList.add('is-still'); hero.classList.add('is-entered'); };
+  const late = () => setTimeout(done, 1150);
