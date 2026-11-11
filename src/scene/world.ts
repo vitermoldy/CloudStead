@@ -44,3 +44,4 @@ export class World extends Emitter {
   private sky = createSky();
   private sun = new DirectionalLight('#ffffff', 2);
   private hemi = new HemisphereLight('#ffffff', '#444444', 0.6);
+  /** Light thrown back by the cloud sea onto the faces that turn from the sun. */
