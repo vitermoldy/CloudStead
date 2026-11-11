@@ -240,3 +240,4 @@ function pole(): Group {
   return g;
 }
 
+function lamp(): Group {
