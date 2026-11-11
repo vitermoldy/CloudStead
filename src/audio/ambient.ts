@@ -89,3 +89,4 @@ export class Ambient {
     base.gain.value = 0.55;
     swell.connect(swellGain).connect(base.gain);
     src.connect(lp).connect(base).connect(this.windGain!);
+    src.start();
