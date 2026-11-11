@@ -698,3 +698,4 @@ export class Character {
       const t = targets[i];
       switch (act) {
         case 'type': {
+          const tap = Math.max(0, Math.sin(time * 15 + i * 2.1 + Math.sin(time * 3.3 + i) * 2)) * 0.012;
