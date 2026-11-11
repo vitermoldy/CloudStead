@@ -181,3 +181,4 @@ export class Island {
     const g = new Group();
     const bar = new BoxGeometry(size, 0.01, thick);
     for (let i = 0; i < 4; i++) {
+      const m = new Mesh(bar, mat);
