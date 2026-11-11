@@ -761,3 +761,4 @@ export class World extends Emitter {
         this.hover = { kind: 'char', part };
         this.character.headWorld(this.hitPoint);
       } else {
+        const prop = this.props.pick(this.ray);
