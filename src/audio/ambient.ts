@@ -132,3 +132,4 @@ export class Ambient {
     const t = ctx.currentTime + 0.02;
     const o = ctx.createOscillator();
     const am = ctx.createOscillator();
+    const amGain = ctx.createGain();
