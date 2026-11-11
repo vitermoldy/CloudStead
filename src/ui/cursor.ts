@@ -10,3 +10,4 @@ export type CursorState = 'idle' | 'char' | 'pet' | 'tile' | 'ghost' | 'prop' | 
 export class Cursor {
   readonly enabled: boolean;
   private el: HTMLElement;
+  private ring: HTMLElement;
