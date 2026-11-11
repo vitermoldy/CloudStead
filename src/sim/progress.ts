@@ -98,3 +98,5 @@ export class Progress extends Emitter {
   previousMinutes(): number {
     const done = this.reached();
     return done.length ? done[done.length - 1].minutes : 0;
+  }
+
