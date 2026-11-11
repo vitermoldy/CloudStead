@@ -129,3 +129,4 @@ export function makeGear(kind: Gear): Group {
         b.rotation.y = (i - 1) * 0.18;
         g.add(b);
       });
+      break;
