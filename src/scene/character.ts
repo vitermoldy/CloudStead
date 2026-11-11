@@ -810,3 +810,4 @@ export class Character {
         yaw = lookYaw;
         pitch = lookPitch;
     }
+    if (this.petAmount > 0.01) {
