@@ -865,3 +865,4 @@ export class Character {
     this.hitBody.position.set(0, 0.2 + (1 - this.sit) * 0.1, 0.02);
     this.hitHead.position.copy(headPos);
 
+    // ---- seated life during a break: stretches and sips
