@@ -209,3 +209,4 @@ export class MusicPlayer extends Emitter {
   }
 
   prev(): void {
+    if (this.ready && this.player && this.player.getCurrentTime() > 4) {
