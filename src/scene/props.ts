@@ -210,3 +210,4 @@ function catenary(a: Vector3, b: Vector3, sag: number, steps = 24): Vector3[] {
 function pole(): Group {
   const g = new Group();
   const build = (parent: Group, h: number) => {
+    parent.add(mesh(new CylinderGeometry(0.03, 0.045, h, 6), WOOD_DARK, 0, h / 2, 0));
