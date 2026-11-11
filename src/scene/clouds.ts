@@ -172,3 +172,4 @@ function cloudFloor(): { mesh: Mesh; material: ShaderMaterial } {
         float v = 0.0, a = 0.5;
         for (int i = 0; i < 4; i++) { v += a * noise(p); p = p * 2.03 + 17.0; a *= 0.5; }
         return v;
+      }
