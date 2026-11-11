@@ -418,3 +418,4 @@ function balloon(): Group {
   const float = new Group();
   float.position.y = 1.6;
   const profile: Vector2[] = [];
+  for (let i = 0; i <= 16; i++) {
