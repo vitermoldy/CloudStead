@@ -224,3 +224,4 @@ export class Island {
 
   setRise(cell: Cell, k: number): void {
     const t = this.tiles.get(cellKey(cell));
+    if (t && !t.landed) t.target = Math.max(0, Math.min(1, k));
