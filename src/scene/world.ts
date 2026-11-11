@@ -477,3 +477,4 @@ export class World extends Emitter {
     return b;
   }
 
+  private freeCells(): Cell[] {
