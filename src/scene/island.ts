@@ -109,3 +109,4 @@ interface Tile {
   depth: number;
 }
 
+const BLADES_PER_TILE = 150;
