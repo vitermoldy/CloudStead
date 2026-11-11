@@ -44,3 +44,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
 
   for (const s of SUGGESTIONS) {
     const b = document.createElement('button');
+    b.type = 'button';
