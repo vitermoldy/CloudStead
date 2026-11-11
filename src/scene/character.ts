@@ -442,3 +442,4 @@ export class Character {
   }
 
   /** The piece in the making on the lap, growing with the work (null puts it away). */
+  setCraft(kind: Gear | null, p = 0): void {
