@@ -538,3 +538,4 @@ export class Character {
         return;
       case 'walk': {
         this.workPoint = null;
+        // Get up first.
