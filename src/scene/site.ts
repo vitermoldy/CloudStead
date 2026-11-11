@@ -56,3 +56,4 @@ export class PropSite {
     this.lo = Math.max(-0.05, box.min.y);
     this.hi = Math.max(this.lo + 0.05, box.max.y);
 
+    const mode = REVEAL[kind];
