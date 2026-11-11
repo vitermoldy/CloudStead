@@ -479,3 +479,4 @@ export class Character {
   // ------------------------------------------------------------ plans
   /** Replaces whatever the resident was doing with a new plan. */
   run(steps: Step[]): void {
+    this.plan = steps;
