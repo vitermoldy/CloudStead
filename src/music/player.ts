@@ -166,3 +166,4 @@ export class MusicPlayer extends Emitter {
       if (autoplay) p.loadPlaylist(opts);
       else p.cuePlaylist(opts);
     } else if (autoplay) p.loadVideoById(item.videoId!);
+    else p.cueVideoById(item.videoId!);
