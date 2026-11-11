@@ -32,3 +32,4 @@ export function parseLink(raw: string): ParsedLink {
   if (!known.includes(host)) throw new LinkError('Yang bisa diputar di sini hanya tautan YouTube dan YouTube Music.');
   const source = host === 'music.youtube.com' ? 'YouTube Music' : 'YouTube';
 
+  let videoId: string | null = null;
