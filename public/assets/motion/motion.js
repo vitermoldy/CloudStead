@@ -45,3 +45,4 @@ function nav() {
     const has = !!item.querySelector('.nav__menu');
     item.addEventListener('pointerenter', () => {
       clearTimeout(t);
+      // 150ms: the panel has started to show (motion.css lets it finish its own fade)
