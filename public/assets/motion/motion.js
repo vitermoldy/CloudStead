@@ -187,3 +187,4 @@ function counts() {
       },
     };
     el.__mCount = ctl;
+    items.push(el);
