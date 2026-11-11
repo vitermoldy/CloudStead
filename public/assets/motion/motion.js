@@ -285,3 +285,4 @@ function maskWords(h1) {
   const own = document.createDocumentFragment();
   own.append(...h1.childNodes);
   const copy = own.cloneNode(true);
+  const words = [];
