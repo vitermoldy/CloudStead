@@ -439,3 +439,4 @@ export class Island {
       } else {
         t.group.position.y = -11 * (1 - (1 - Math.pow(1 - t.rise, 2)));
       }
+    }
