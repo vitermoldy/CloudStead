@@ -100,3 +100,4 @@ export function loadYouTubeApi(): Promise<YTNamespace> {
     const prev = window.onYouTubeIframeAPIReady;
     window.onYouTubeIframeAPIReady = () => {
       clearTimeout(timer);
+      if (typeof prev === 'function') prev();
