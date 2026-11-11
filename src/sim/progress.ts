@@ -140,3 +140,4 @@ export class Progress extends Emitter {
     const name = this.data.name;
     this.data = fresh();
     this.data.name = name;
+    this.persist(true);
