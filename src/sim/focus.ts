@@ -23,3 +23,4 @@ interface Saved {
 }
 
 /**
+ * A focus timer in real time. While a focus block runs, every elapsed millisecond is handed to
