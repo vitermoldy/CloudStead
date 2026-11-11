@@ -268,3 +268,4 @@ export class Island {
       }
     }
     const added: Cell[] = [];
+    let order = 0;
