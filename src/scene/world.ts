@@ -1008,3 +1008,4 @@ export class World extends Emitter {
     } catch {
       return false;
     }
+  }
