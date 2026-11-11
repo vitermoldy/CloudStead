@@ -655,3 +655,4 @@ export class PropsLayer {
     this.remove(() => true);
   }
 
+  has(kind: PropKind): boolean {
