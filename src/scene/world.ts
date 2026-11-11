@@ -787,3 +787,4 @@ export class World extends Emitter {
   }
 
   private emitHover(): void {
+    this.emit('hover', this.dragging ? { kind: null, dragging: true } : this.hover, this.press?.petting === true);
