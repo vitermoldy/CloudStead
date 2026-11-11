@@ -290,3 +290,4 @@ export class World extends Emitter {
     return m.tiles[i];
   }
 
+  /** A milestone was reached: the piece in progress is finished, with a cheer when there is time to watch. */
