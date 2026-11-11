@@ -170,3 +170,4 @@ function counts() {
         if (state !== 'armed') { state = 'armed'; watch(); }
         return true;
       },
+      /** print: stop waiting and show the written number */
