@@ -451,3 +451,4 @@ export class World extends Emitter {
         return [...this.walkTo(stand), { kind: 'do', act: 'water', seconds: 4, face: t, beat: 0.5, onBeat: () => this.workBeat('water', t, 0) }];
       }]);
     }
+    const m = this.project;
