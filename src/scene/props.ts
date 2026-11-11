@@ -339,3 +339,4 @@ function pond(): Group {
     const p = mesh(pad, LEAF_LIGHT, x, 0.026, z, false);
     p.rotation.x = -Math.PI / 2;
     g.add(p);
+  }
