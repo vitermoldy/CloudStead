@@ -138,3 +138,4 @@ function counts() {
     after.splitText(p.raw.length);
     const span = document.createElement('span');
     span.className = 'm-count__n';
+    span.style.display = 'inline-block';
