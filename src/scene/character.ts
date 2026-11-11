@@ -913,3 +913,4 @@ export class Character {
       this.root.localToWorld(this.spout);
     }
     if (t.plank.visible) {
+      t.plank.position.copy(handL).add(handR).multiplyScalar(0.5).add(new Vector3(0, 0.025, 0.01));
