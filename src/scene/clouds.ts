@@ -351,3 +351,4 @@ export function createClouds(count: number): Clouds {
       (f.uSunDir.value as Vector3).copy(look.sunDir);
       f.uTime.value = time;
       const u = material.uniforms;
+      (u.uLit.value as Color).copy(look.cloudLit);
