@@ -55,3 +55,4 @@ export function parseLink(raw: string): ParsedLink {
 }
 
 interface YTNamespace {
+  Player: new (el: HTMLElement, opts: unknown) => YTPlayer;
