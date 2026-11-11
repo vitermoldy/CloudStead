@@ -647,3 +647,4 @@ export class Character {
     lean.normalize();
     this.spine.lerp(lean, 1 - Math.exp(-6 * dt)).normalize();
 
+    const pelvis = new Vector3(0, this.hipY, -0.02);
