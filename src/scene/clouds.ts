@@ -121,3 +121,4 @@ function layout(count: number): Puff[] {
     const cx = Math.cos(a) * r, cz = Math.sin(a) * r;
     const height = 7 + rand() * 15;
     const n = 9 + Math.floor(rand() * 8);
+    for (let i = 0; i < n; i++) {
