@@ -124,3 +124,4 @@ function garden(): Group {
     g.add(m);
   }
   g.add(mesh(new BoxGeometry(0.72, 0.08, 0.72), std('#3d2c20', { roughness: 1 }), 0, 0.05, 0, false));
+  const sprout = new ConeGeometry(0.03, 0.12, 4);
