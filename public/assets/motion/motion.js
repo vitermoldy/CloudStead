@@ -122,3 +122,4 @@ function format(v, p) {
 // the web fonts, or 3 s at most: a number measured in the fallback font comes out narrower
 const fontsIn = () => Promise.race([document.fonts?.ready ?? Promise.resolve(), new Promise(r => setTimeout(r, 3000))]);
 function counts() {
+  const els = [...document.querySelectorAll('[data-m-count]')].filter(el => !el.__mCount);
