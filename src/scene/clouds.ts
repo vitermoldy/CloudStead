@@ -252,3 +252,4 @@ export function createClouds(count: number): Clouds {
       varying float vDist;
       varying float vToward;
       void main() {
+        vec3 c = aOffset;
