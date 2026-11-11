@@ -19,3 +19,4 @@ const html = document.documentElement;
 
 // ------------------------------------------------------------ preview mode (?pratinjau=menit)
 const params = new URLSearchParams(location.search);
+const previewRaw = params.get('pratinjau');
