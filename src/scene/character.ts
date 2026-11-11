@@ -578,3 +578,4 @@ export class Character {
         this.workPoint = null;
         let d = 0 - this.heading;
         d = Math.atan2(Math.sin(d), Math.cos(d));
+        this.heading += d * Math.min(1, dt * 6);
