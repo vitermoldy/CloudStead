@@ -91,3 +91,4 @@ async function startWorld(): Promise<void> {
     $('big').dataset.ink = avg > 0.17 ? 'dark' : 'light';
   });
   w.on('hover', (h: Hover & { dragging?: boolean }, petting: boolean) => onHover(h, petting));
+  w.on('greet', onGreet);
