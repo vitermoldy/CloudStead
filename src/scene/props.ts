@@ -687,3 +687,4 @@ export class PropsLayer {
     for (const e of this.entries) {
       if (e.grow < 1) {
         e.grow = Math.min(1, e.grow + dt / 0.9);
+        const k = e.grow;
