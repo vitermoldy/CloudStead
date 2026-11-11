@@ -624,3 +624,4 @@ export class PropsLayer {
           const p = tether.geometry.getAttribute('position');
           p.setXYZ(1, f.position.x, f.position.y - 1.4, 0);
           p.needsUpdate = true;
+        };
