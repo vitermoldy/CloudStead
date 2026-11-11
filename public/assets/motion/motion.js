@@ -24,3 +24,4 @@
     system's pause button (one per panel, shared with ui.js). ui.js restarts its own fragments.
   - switches: a click on .m-switch flips aria-checked unless a handler before it called
     preventDefault().
+  Under prefers-reduced-motion: no entrance, no indicator travel, no tick, no loops, no restart.
