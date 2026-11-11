@@ -38,3 +38,5 @@ const fresh = (): ProgressData => ({
  */
 export class Progress extends Emitter {
   data: ProgressData;
+  private unsavedMs = 0;
+
