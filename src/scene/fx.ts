@@ -157,3 +157,4 @@ export class Fx {
           p.vel.set((Math.random() - 0.5) * 0.12, 0.28, (Math.random() - 0.5) * 0.12);
           p.max = 2.4; p.size = 0.06; p.grow = 0.01; p.gravity = 0;
           p.spin = (Math.random() - 0.5) * 1.2;
+          break;
