@@ -21,3 +21,4 @@ export function parseLink(raw: string): ParsedLink {
 
   const notLink = 'Itu bukan tautan. Salin dari bilah alamat atau tombol Bagikan.';
   if (/\s/.test(text) || !text.includes('.')) throw new LinkError(notLink);
+  let url: URL;
