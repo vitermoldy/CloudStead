@@ -325,3 +325,4 @@ function pond(): Group {
   water.position.y = 0.0;
   water.receiveShadow = true;
   g.add(water);
+  const rand = rng(57);
