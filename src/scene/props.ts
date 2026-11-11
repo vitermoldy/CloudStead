@@ -437,3 +437,4 @@ function balloon(): Group {
   env.setAttribute('color', new Float32BufferAttribute(cols, 3));
   float.add(mesh(env, new MeshStandardMaterial({ vertexColors: true, roughness: 0.7, side: DoubleSide })));
   const basket = mesh(new BoxGeometry(0.26, 0.2, 0.26), WOOD, 0, -1.3, 0);
+  float.add(basket);
