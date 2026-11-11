@@ -152,3 +152,4 @@ export class PropSite {
 
   dispose(): void {
     this.group.removeFromParent();
+    this.group.traverse((o) => {
