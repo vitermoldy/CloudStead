@@ -499,3 +499,4 @@ function waterfall(): Group {
   fall.position.set(0, -3.25, 0.5);
   g.add(fall);
   const mist = new Mesh(new SphereGeometry(0.5, 10, 8), new MeshBasicMaterial({ color: '#e8f0f0', transparent: true, opacity: 0.25, depthWrite: false, blending: AdditiveBlending }));
+  mist.position.set(0, -6.3, 1.0);
