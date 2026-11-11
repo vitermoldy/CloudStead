@@ -390,3 +390,4 @@ html.has-cursor .cursor.is-on { opacity: 1; }
   .big { font-size: clamp(84px, 25vw, 160px); margin-bottom: -0.06em; }
   .story { padding: 14px 14px 14px 16px; gap: 10px; }
   .story__line { font-size: 15px; }
+  .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
