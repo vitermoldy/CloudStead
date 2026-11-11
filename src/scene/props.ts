@@ -588,3 +588,4 @@ export class PropsLayer {
         };
         break;
       case 'windmill':
+        e.update = (dt) => {
