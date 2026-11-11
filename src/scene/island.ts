@@ -297,3 +297,4 @@ export class Island {
       const g = new Group();
       g.position.set(c[0], 0.01, c[1]);
       for (let side = 0; side < 4; side++) {
+        for (let i = 0; i < 3; i++) {
