@@ -65,3 +65,4 @@ export class World extends Emitter {
   private loopN = 0;
   private replan = true;
   private celebrating = false;
+  private rope: Line;
