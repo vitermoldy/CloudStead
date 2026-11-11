@@ -172,3 +172,4 @@ export class World extends Emitter {
   /** Makes the island match the reached milestones at once (first load, import, reset, preview). */
   sync(reached: Set<string>): void {
     this.endProject();
+    this.celebrating = false;
