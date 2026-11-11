@@ -81,3 +81,4 @@ four shader-lint hits inside three.js's own shader chunks, and moment-none (no s
 section for a kit moment; the growing piece is the moment). Kept on purpose and reported as open:
 
 - the centred black tab (the checker wants the nav's content on the page margins);
+- the timer and the story plate bottom-aligned, off the 12-column split lines (the reference);
