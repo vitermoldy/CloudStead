@@ -6,3 +6,4 @@ const LIST_ID = /^[A-Za-z0-9_-]{10,64}$/;
 export class LinkError extends Error {}
 
 export interface ParsedLink {
+  kind: 'video' | 'playlist';
