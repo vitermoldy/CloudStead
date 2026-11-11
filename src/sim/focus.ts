@@ -124,3 +124,5 @@ export class FocusTimer extends Emitter {
     this.round = 1;
     this.remainingMs = this.lengthMs();
     this.commit();
+  }
+
