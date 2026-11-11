@@ -17,3 +17,4 @@ let uid = 0;
 const newId = () => `q${Date.now().toString(36)}${(uid++).toString(36)}`;
 
 /** The music queue and the YouTube embed that plays it. Event: change. */
+export class MusicPlayer extends Emitter {
