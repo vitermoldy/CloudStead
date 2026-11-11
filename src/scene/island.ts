@@ -142,3 +142,5 @@ export class Island {
     this.dirtTopMat = new MeshStandardMaterial({ color: '#8a6a47', roughness: 1 });
     this.earthMat = new MeshStandardMaterial({ color: '#5a4230', roughness: 1 });
     this.rockMat = new MeshStandardMaterial({ vertexColors: true, roughness: 0.92, flatShading: true });
+    this.group.add(this.ghosts);
+
