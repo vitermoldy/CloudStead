@@ -316,3 +316,4 @@ fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
 }
 .bubble::after {
   content: ""; position: absolute; left: 50%; bottom: -6px; width: 12px; height: 12px; margin-left: -6px;
+  background: inherit; transform: rotate(45deg); border-radius: 2px;
