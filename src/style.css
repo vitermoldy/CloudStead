@@ -376,3 +376,4 @@ html.has-cursor .cursor.is-on { opacity: 1; }
 .cursor[data-state="tile"] .cursor__ring, .cursor[data-state="ghost"] .cursor__ring { width: 30px; height: 30px; margin: -15px 0 0 -15px; border-radius: 9px; }
 .cursor[data-state="ghost"] .cursor__ring { border-style: dashed; }
 .cursor[data-state="prop"] .cursor__ring { width: 48px; height: 48px; margin: -24px 0 0 -24px; background: rgba(243, 239, 217, .12); }
+.cursor[data-state="grab"] .cursor__ring { width: 24px; height: 24px; margin: -12px 0 0 -12px; background: rgba(243, 239, 217, .35); }
