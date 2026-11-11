@@ -557,3 +557,4 @@ export class PropsLayer {
   }
 
   private wire(e: PropEntry): void {
+    const u = e.group.userData;
