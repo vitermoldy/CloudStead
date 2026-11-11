@@ -107,3 +107,4 @@ export class Ambient {
   }
 
   private bird(): void {
+    const ctx = this.ctx!;
