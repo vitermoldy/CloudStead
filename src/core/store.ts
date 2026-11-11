@@ -72,3 +72,4 @@ export function onSaved(fn: (at: number) => void): () => void {
 }
 
 /** The whole save as a file the visitor keeps. */
+export function exportSave(): string {
