@@ -376,3 +376,4 @@ function windmill(): Group {
   return g;
 }
 
+function bench(): Group {
