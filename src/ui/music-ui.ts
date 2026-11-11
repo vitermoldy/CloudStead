@@ -84,3 +84,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
       li.classList.toggle('is-current', i === player.current);
       li.classList.toggle('has-error', q.status === 'error');
       const btn = document.createElement('button');
+      btn.type = 'button';
