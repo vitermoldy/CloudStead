@@ -245,3 +245,4 @@ export function createClouds(count: number): Clouds {
       uniform float uSpan;
       uniform vec3 uSunDir;
       varying vec2 vUv;
+      varying float vAlpha;
