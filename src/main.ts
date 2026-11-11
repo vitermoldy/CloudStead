@@ -180,3 +180,4 @@ function onGreet(): void {
   }
   const next = progress.next();
   const left = next ? formatMinutesLong(next.minutes - progress.minutes) : '';
+  const pct = Math.floor(projectShare() * 100);
