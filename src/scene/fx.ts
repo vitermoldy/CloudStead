@@ -203,3 +203,4 @@ export class Fx {
       pos.setY(0, 0.06 + flap * 0.07);
       pos.setY(2, 0.06 + flap * 0.07);
       pos.needsUpdate = true;
+    }
