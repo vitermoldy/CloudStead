@@ -199,3 +199,4 @@ export class Character {
   private stepT = 0;
   private beats = 0;
   private sit = 1;
+  private hipY = 0.09;
