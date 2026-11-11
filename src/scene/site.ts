@@ -60,3 +60,4 @@ export class PropSite {
     this.build.traverse((o) => {
       if (o.userData.late) this.late.push(o);
       const mesh = o as Mesh;
+      if (!mesh.material) return;
