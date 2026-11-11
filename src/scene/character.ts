@@ -854,3 +854,4 @@ export class Character {
 
     // ---- laptop screen
     this.screenTick -= dt;
+    if (this.screenTick <= 0) {
