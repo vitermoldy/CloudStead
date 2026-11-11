@@ -519,3 +519,4 @@ export class World extends Emitter {
     return cells;
   }
 
+  /** Where to stand to work on a cell: the nearest free neighbour, a step toward it from its middle. */
