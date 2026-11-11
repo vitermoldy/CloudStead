@@ -346,3 +346,4 @@ export class Island {
         // Bare earth keeps its grass to the rims; beds and floors too.
         if (dirt || bare === 'edges') {
           const side = Math.floor(rand() * 4);
+          const along = rand() - 0.5;
