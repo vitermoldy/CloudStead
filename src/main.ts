@@ -3,3 +3,4 @@ import '@fontsource-variable/funnel-sans';
 import './style.css';
 
 import { Ambient } from './audio/ambient';
+import { reducedMotion } from './core/emitter';
