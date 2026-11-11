@@ -523,3 +523,4 @@ const BLOCKING = new Set<PropKind>(['rock', 'sapling', 'tree', 'garden', 'hut-fr
 export function buildProp(kind: PropKind): Group {
   const g = BUILDERS[kind]();
   g.rotation.y = FACING[kind] ?? 0;
+  return g;
