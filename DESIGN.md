@@ -17,3 +17,4 @@ the resident. The reference's own code, video and copy are not used; only its lo
 screen with music on, in a cinematic golden-hour diorama style taken from the owner's reference,
 dial **ENERGY 3 / RHYTHM 1 / MOTION 3**.
 
+- ENERGY 3: a full-bleed live scene and giant numerals, as in the reference.
