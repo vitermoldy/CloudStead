@@ -676,3 +676,4 @@ export class PropsLayer {
   pick(ray: Raycaster): { entry: PropEntry; point: Vector3 } | null {
     const hits = ray.intersectObjects(this.group.children, true);
     for (const h of hits) {
+      if (h.object instanceof Line) continue;
