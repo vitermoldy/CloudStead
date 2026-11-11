@@ -351,3 +351,4 @@ export class Island {
           [x, z] = side === 0 ? [along, -inset] : side === 1 ? [along, inset] : side === 2 ? [-inset, along] : [inset, along];
         } else {
           x *= 0.94;
+          z *= 0.94;
