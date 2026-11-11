@@ -371,3 +371,4 @@ timer.on('change', () => {
   renderHud(true);
 });
 timer.on('finished', (phase: string, skipped: boolean) => {
+  if (phase === 'focus' && !skipped) {
