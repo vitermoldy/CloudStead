@@ -164,3 +164,4 @@ function counts() {
         span.textContent = p.raw;
         span.style.minWidth = '';
         const w = span.getBoundingClientRect().width;
+        if (!w) { state = 'wait'; clearTimeout(timer); return false; }
