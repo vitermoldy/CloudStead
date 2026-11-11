@@ -61,3 +61,4 @@ function screenTexture(): { tex: CanvasTexture; draw: (lines: number, mode: 'cod
   const canvas = document.createElement('canvas');
   canvas.width = 128;
   canvas.height = 84;
+  const ctx = canvas.getContext('2d')!;
