@@ -510,3 +510,4 @@ export class World extends Emitter {
     }
     if (!goal) return null;
     const cells: Cell[] = [];
+    let k: string | null = cellKey(goal);
