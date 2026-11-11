@@ -497,3 +497,4 @@ export class World extends Emitter {
       const c = queue.shift()!;
       for (const [dx, dz] of [[1, 0], [-1, 0], [0, 1], [0, -1], [1, 1], [1, -1], [-1, 1], [-1, -1]]) {
         const n: Cell = [c[0] + dx, c[1] + dz];
+        const nk = cellKey(n);
