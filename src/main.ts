@@ -51,3 +51,4 @@ function speak(text: string, ms = 2800): void {
   positionBubble();
 }
 
+const pick = <T,>(list: T[]): T => list[Math.floor(Math.random() * list.length)];
