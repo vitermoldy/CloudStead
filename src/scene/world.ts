@@ -401,3 +401,4 @@ export class World extends Emitter {
     if (m.work === 'build') {
       steps.push({ kind: 'do', act: 'hammer', seconds: 5.4, face: target, beat: 0.6, onBeat: (n) => this.workBeat('hammer', target, n) });
     } else if (m.work === 'plant') {
+      steps.push({ kind: 'do', act: 'dig', seconds: 3.9, face: target, beat: 1.3, onBeat: () => this.workBeat('dig', target, 0) });
