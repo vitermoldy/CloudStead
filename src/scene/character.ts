@@ -7,3 +7,4 @@ import { clamp, damp } from '../core/emitter';
 import type { Gear } from '../sim/milestones';
 
 /** Everything the resident can be doing; the seated ones happen at the seat. */
+export type Act =
