@@ -434,3 +434,4 @@ export class World extends Emitter {
       [1, () => [...this.goHome(), { kind: 'sit', act: 'sitIdle', seconds: 7 + Math.random() * 6 }]],
       [1, () => [...this.goHome(), { kind: 'sit', act: 'type', seconds: 7 + Math.random() * 6 }]],
       [3, () => {
+        const cells = this.freeCells();
