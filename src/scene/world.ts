@@ -267,3 +267,4 @@ export class World extends Emitter {
     this.approach = null;
   }
 
+  /** Puts the progress line into the picture: the piece built up to it, the cells up the rope, the piece on the lap. */
