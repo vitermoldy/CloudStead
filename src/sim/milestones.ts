@@ -68,3 +68,4 @@ export const MILESTONES: Milestone[] = [
   { id: 'teleskop', minutes: 1050, title: 'Teleskop', done: 'Teleskop terpasang untuk malam yang cerah.', doing: 'merakit teleskop', work: 'build', kind: 'prop', prop: 'telescope', at: [2, 1] },
   { id: 'kupluk', minutes: 1140, title: 'Kupluk', done: 'Kupluk hangat, pas untuk belajar malam.', doing: 'merajut kupluk', work: 'craft', kind: 'gear', gear: 'beanie' },
   { id: 'balon', minutes: 1250, title: 'Balon udara', done: 'Balon udara terikat di ujung utara.', doing: 'menjahit dan memasang balon udara', work: 'build', kind: 'prop', prop: 'balloon', at: [-1, -3] },
+  { id: 'air-terjun', minutes: 1400, title: 'Air terjun', done: 'Kolam meluap jadi air terjun ke lautan awan.', doing: 'membuka aliran air terjun dari kolam', work: 'dig', kind: 'prop', prop: 'waterfall', at: [2, 2] },
