@@ -372,3 +372,4 @@ export class Island {
     this.grass.instanceMatrix.needsUpdate = true;
   }
 
+  /** The cell under a point on the island's top, or null over the edge. */
