@@ -543,3 +543,4 @@ importInput.addEventListener('change', async () => {
     location.reload();
   } catch (e) {
     err.textContent = e instanceof SaveFileError ? e.message : 'Berkas ini tidak bisa dibaca.';
+  }
