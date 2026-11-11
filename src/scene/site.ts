@@ -66,3 +66,4 @@ export class PropSite {
         mat.clippingPlanes = [this.cut];
         mat.clipShadows = true;
         mesh.material = mat;
+      }
