@@ -87,3 +87,4 @@ export class LiveLook {
     const c = (key: 'zenith' | 'horizon' | 'glow' | 'sun' | 'hemiSky' | 'hemiGround' | 'cloudLit' | 'cloudShade' | 'fog') => {
       LiveLook.tmpA.set(a[key]);
       LiveLook.tmpB.set(b[key]);
+      this[key].copy(LiveLook.tmpA).lerp(LiveLook.tmpB, t);
