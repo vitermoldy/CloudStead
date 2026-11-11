@@ -415,3 +415,4 @@ export class World extends Emitter {
       if (n % 4 === 0) this.site?.use();
     } else if (kind === 'dig') {
       this.fx.spawn('dust', this.character.blade.clone().setY(0.04), 4);
+    } else {
