@@ -324,3 +324,4 @@ export class Character {
 
     // The crate the building material comes from, behind the seat.
     this.crate = new Group();
+    const box = new Mesh(new BoxGeometry(0.2, 0.13, 0.16), WOOD);
