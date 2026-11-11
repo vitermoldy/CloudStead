@@ -60,3 +60,4 @@ export function save(section: string, value: unknown): void {
 
 /** Writes now. Returns false when the browser refused (private window, full storage, preview). */
 export function saveNow(): boolean {
+  if (timer) clearTimeout(timer);
