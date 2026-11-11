@@ -219,3 +219,4 @@ export class Island {
       t.group.position.y = -11;
       this.tiles.set(key, t);
       this.group.add(t.group);
+    }
