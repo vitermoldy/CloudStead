@@ -421,3 +421,4 @@ export class World extends Emitter {
     this.emit('beat', kind);
   }
 
+  /** No timer running: the resident lives on the island, and the work in progress waits. */
