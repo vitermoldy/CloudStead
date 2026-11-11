@@ -58,3 +58,4 @@ export class Progress extends Emitter {
     if (!Number.isFinite(d.todayMs) || d.todayMs < 0) d.todayMs = 0;
     if (!Number.isInteger(d.sessions) || d.sessions < 0) d.sessions = 0;
     if (!d.reachedAt || typeof d.reachedAt !== 'object') d.reachedAt = {};
+    if (typeof d.name !== 'string' || !d.name.trim() || d.name === OLD_DEFAULT) d.name = DEFAULT_NAME;
