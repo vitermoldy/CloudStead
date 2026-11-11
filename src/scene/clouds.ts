@@ -42,3 +42,4 @@ function puffAtlas(): DataTexture {
           if (d - c.r < nearest && d > 0) {
             nearest = d - c.r;
             rx = dx / d;
+            ry = -dy / d;
