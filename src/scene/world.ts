@@ -857,3 +857,4 @@ export class World extends Emitter {
     this.hemi.color.copy(L.hemiSky);
     this.hemi.groundColor.copy(L.hemiGround);
     this.hemi.intensity = L.hemiIntensity;
+    this.bounce.color.copy(L.cloudLit);
