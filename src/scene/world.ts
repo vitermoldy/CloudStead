@@ -297,3 +297,4 @@ export class World extends Emitter {
     if (m.kind === 'prop' && m.prop && m.at) {
       this.site?.dispose();
       this.site = null;
+      const e = this.addProp(m.prop, m.at, false);
