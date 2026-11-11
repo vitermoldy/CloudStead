@@ -93,3 +93,4 @@ function screenTexture(): { tex: CanvasTexture; draw: (lines: number, mode: 'cod
       }
       tex.needsUpdate = true;
       return;
+    }
