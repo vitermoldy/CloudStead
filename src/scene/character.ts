@@ -730,3 +730,4 @@ export class Character {
           t.set(s * 0.12, this.hipY - 0.02, 0.02);
           break;
         case 'haul': {
+          const ph = time * 4 + i * Math.PI;
