@@ -869,3 +869,4 @@ export class World extends Emitter {
     if (this.lookHold > 0) {
       this.lookHold -= dt;
       this.character.looking = this.lookPoint;
+    } else if (this.pointerIn && this.hover.kind !== null) {
