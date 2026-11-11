@@ -370,3 +370,4 @@ export class World extends Emitter {
       c.run(steps);
       return;
     }
+    if (m.kind === 'tiles') {
