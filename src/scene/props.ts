@@ -348,3 +348,4 @@ function pond(): Group {
     r.position.y = 0.03;
     r.userData.age = 9;
     g.add(r);
+    rings.push(r);
