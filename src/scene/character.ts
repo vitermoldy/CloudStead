@@ -418,3 +418,4 @@ export class Character {
         this.seat.add(g);
         break;
       case 'scarf':
+        this.rig.add(g);
