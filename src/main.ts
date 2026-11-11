@@ -634,3 +634,4 @@ player.on('change', () => {
 // ------------------------------------------------------------ keyboard
 addEventListener('keydown', (e) => {
   const t = e.target as HTMLElement;
+  const typing = t.closest('input, textarea, select, [contenteditable="true"]');
