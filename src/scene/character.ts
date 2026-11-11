@@ -629,3 +629,4 @@ export class Character {
 
     // ---- spine
     const lean = new Vector3(0, 1, 0.06);
+    switch (act) {
