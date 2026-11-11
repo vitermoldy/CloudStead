@@ -127,3 +127,4 @@ export class World extends Emitter {
     this.controls.minPolarAngle = 0.5;
     this.controls.maxPolarAngle = 1.36;
     this.controls.target.set(0, 0.25, 0);
+    this.controls.addEventListener('start', () => {
