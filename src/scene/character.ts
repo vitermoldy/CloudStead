@@ -242,3 +242,4 @@ export class Character {
   private shins: Mesh[] = [];
   private shoes: Mesh[] = [];
   private laptop = new Group();
+  private screen: ReturnType<typeof screenTexture>;
