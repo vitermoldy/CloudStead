@@ -606,3 +606,4 @@ export class PropsLayer {
             r.scale.setScalar(0.03 + k * 0.32);
           }
         };
+        e.poke = (_self, point) => {
