@@ -248,3 +248,4 @@ function positionGreet(): void {
   if (!world) return;
   const a = world.bubbleAnchor();
   greetBtn.style.left = `${a.x}px`;
+  greetBtn.style.top = `${a.y + 6}px`;
