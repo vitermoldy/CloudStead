@@ -24,3 +24,4 @@ const previewMinutes = previewRaw !== null && /^\d{1,5}$/.test(previewRaw) ? Mat
 if (previewMinutes !== null) setReadOnly(true);
 
 // ------------------------------------------------------------ state
+const progress = new Progress(previewMinutes);
