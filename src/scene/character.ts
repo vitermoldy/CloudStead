@@ -644,3 +644,4 @@ export class Character {
       default: break;
     }
     if (this.petAmount > 0.01) lean.x += Math.sin(time * 3) * 0.06 * this.petAmount;
+    lean.normalize();
