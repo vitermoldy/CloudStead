@@ -508,3 +508,4 @@ export class World extends Emitter {
         queue.push(n);
       }
     }
+    if (!goal) return null;
