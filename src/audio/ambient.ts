@@ -109,3 +109,4 @@ export class Ambient {
   private bird(): void {
     const ctx = this.ctx!;
     const n = 2 + Math.floor(Math.random() * 3);
+    const base = 2600 + Math.random() * 1400;
