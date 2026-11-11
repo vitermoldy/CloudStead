@@ -91,3 +91,4 @@ export class PropSite {
   setProgress(p: number): void {
     const k = Math.max(0, Math.min(1, p));
     if (Math.abs(k - this.p) < 0.0005) return;
+    this.p = k;
