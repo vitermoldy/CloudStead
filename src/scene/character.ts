@@ -614,3 +614,4 @@ export class Character {
 
   // ------------------------------------------------------------ frame
   update(dt: number, time: number): void {
+    this.runPlan(dt);
