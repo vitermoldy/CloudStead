@@ -20,3 +20,4 @@ const newId = () => `q${Date.now().toString(36)}${(uid++).toString(36)}`;
 export class MusicPlayer extends Emitter {
   queue: QueueItem[];
   current: number;
+  volume: number;
