@@ -288,3 +288,4 @@ export class Island {
     return added;
   }
 
+  /** Dashed outlines where the next cells will rise. */
