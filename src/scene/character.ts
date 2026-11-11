@@ -484,3 +484,4 @@ export class Character {
     this.beats = 0;
   }
 
+  get busy(): boolean {
