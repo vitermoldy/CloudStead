@@ -51,3 +51,4 @@ export function parseLink(raw: string): ParsedLink {
   if (!videoId && !listId) throw new LinkError('Tautan ini tidak berisi video atau playlist. Buka lagunya, lalu salin lagi tautannya.');
   const kind = listId ? 'playlist' : 'video';
   const clean = kind === 'playlist' ? `https://www.youtube.com/playlist?list=${listId}` : `https://www.youtube.com/watch?v=${videoId}`;
+  return { kind, videoId, listId, source, url: clean };
