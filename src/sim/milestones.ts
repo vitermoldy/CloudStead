@@ -49,3 +49,4 @@ export const MILESTONES: Milestone[] = [
   { id: 'headphone', minutes: 80, title: 'Headphone', done: 'Headphone baru, dipakai setiap musik menyala.', doing: 'merakit headphone', work: 'craft', kind: 'gear', gear: 'headphones' },
   { id: 'kebun', minutes: 100, title: 'Kebun kecil', done: 'Kebun kecil sudah ditanami.', doing: 'menggarap kebun kecil', work: 'plant', kind: 'prop', prop: 'garden', at: [-2, 0] },
   { id: 'pohon-rindang', minutes: 125, title: 'Pohon rindang', done: 'Pohon mudanya tumbuh rindang.', doing: 'merawat pohon mudanya supaya rindang', work: 'plant', kind: 'prop', prop: 'tree', at: [1, -1] },
+  { id: 'petak-3', minutes: 150, title: 'Empat petak baru', done: 'Empat petak baru, pulau makin lebar.', doing: 'menarik empat petak baru dari awan', work: 'haul', kind: 'tiles', tiles: [[-2, -1], [-2, 1], [0, -2], [1, -2]] },
