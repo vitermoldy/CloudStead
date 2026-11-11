@@ -51,3 +51,4 @@ function reach(a: Vector3, target: Vector3, l1: number, l2: number, pole: Vector
 
 /** Places a capsule of fixed length between two points. */
 function span(m: Mesh, p: Vector3, q: Vector3): void {
+  const dir = q.clone().sub(p);
