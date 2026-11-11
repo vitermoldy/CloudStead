@@ -258,3 +258,4 @@ export class World extends Emitter {
     if (!this.celebrating) this.replan = true;
   }
 
+  private endProject(): void {
