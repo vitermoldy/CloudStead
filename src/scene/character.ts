@@ -250,3 +250,4 @@ export class Character {
   private craftPiece: Group | null = null;
   private craftKind: Gear | null = null;
   private gear = new Map<Gear, Group>();
+  private hitBody: Mesh;
