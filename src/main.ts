@@ -175,3 +175,4 @@ function onGreet(): void {
   if (!world) return;
   const c = world.character;
   if (c.act === 'sleep') {
+    world.nudge();
