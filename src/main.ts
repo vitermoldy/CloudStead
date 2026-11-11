@@ -675,3 +675,4 @@ timer.resume();
 renderHud(true);
 renderIsland();
 setInterval(() => {
+  timer.tick();
