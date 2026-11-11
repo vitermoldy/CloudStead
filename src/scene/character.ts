@@ -44,3 +44,4 @@ function reach(a: Vector3, target: Vector3, l1: number, l2: number, pole: Vector
   const sinA = Math.sqrt(1 - cosA * cosA);
   const bend = pole.clone().sub(dir.clone().multiplyScalar(pole.dot(dir)));
   if (bend.lengthSq() < 1e-6) bend.set(0, 0, 1);
+  bend.normalize();
