@@ -66,3 +66,4 @@ async function startWorld(): Promise<void> {
   if (!World.supported()) {
     $('fallback').hidden = false;
     return;
+  }
