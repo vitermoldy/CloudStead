@@ -138,3 +138,4 @@ export class PropSite {
     this.planks++;
   }
 
+  /** Takes a plank from the pile as the work goes on. */
