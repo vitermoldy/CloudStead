@@ -358,3 +358,4 @@ function enter() {
   // the fonts first (a line set in the fallback face breaks elsewhere), 250ms at most: the words are
   // hidden meanwhile, so nothing is seen twice
   Promise.race([document.fonts?.ready ?? Promise.resolve(), new Promise(r => setTimeout(r, 250))]).then(() => {
+    if (html.classList.contains('m-enter-done') && !hero.classList.contains('is-entering')) { over = true; return late(); }   // the safety mark won: CSS shows it
