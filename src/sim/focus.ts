@@ -182,3 +182,4 @@ export class FocusTimer extends Emitter {
   }
 
   private commit(): void {
+    this.store();
