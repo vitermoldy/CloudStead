@@ -748,3 +748,4 @@ export class Character {
       const swing = Math.sin(this.workT * Math.PI * 2 / 0.6);
       targets[R].set(-0.06, this.hipY + 0.28 + swing * 0.08, 0.17 - swing * 0.04);
     }
+    if (act === 'water') targets[R].set(-0.07, this.hipY + 0.12, 0.17);
