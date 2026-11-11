@@ -533,3 +533,4 @@ export class Character {
     };
     switch (step.kind) {
       case 'call':
+        step.fn();
