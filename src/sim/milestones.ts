@@ -25,3 +25,4 @@ export interface Milestone {
   tiles?: Cell[];
   at?: Cell;
   prop?: PropKind;
+  gear?: Gear;
