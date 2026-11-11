@@ -873,3 +873,4 @@ export class World extends Emitter {
       this.character.looking = this.hover.kind === 'char' ? this.camera.position : this.hitPoint;
     } else if (this.pointerIn) {
       this.ray.setFromCamera(this.ndc, this.camera);
+      this.character.looking = this.ray.ray.at(10, new Vector3());
