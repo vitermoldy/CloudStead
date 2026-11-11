@@ -69,3 +69,4 @@ export interface YTPlayer {
   pauseVideo(): void;
   stopVideo(): void;
   nextVideo(): void;
+  previousVideo(): void;
