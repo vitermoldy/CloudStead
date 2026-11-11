@@ -13,3 +13,4 @@ export interface ProgressData {
   name: string;
 }
 
+export const DEFAULT_NAME = 'VMK';
