@@ -488,3 +488,4 @@ export class Character {
     return this.plan.length > 0;
   }
 
+  get seated(): boolean {
