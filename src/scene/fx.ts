@@ -216,3 +216,4 @@ export class Fx {
       for (const p of pool) {
         if (!p.active) continue;
         p.life += dt;
+        const k = p.life / p.max;
