@@ -193,3 +193,4 @@ export class Fx {
     }
     this.birdT += dt;
     this.birds.position.x += dt * 2.1 * this.birdDir;
+    this.birds.position.y += Math.sin(this.birdT * 0.5) * dt * 0.1;
