@@ -226,3 +226,4 @@ function pole(): Group {
   build(far, 2.3);
   // The far pole and the wires go up last, once the near pole stands.
   far.userData.late = true;
+  g.add(far);
