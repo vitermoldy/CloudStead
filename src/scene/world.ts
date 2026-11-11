@@ -456,3 +456,4 @@ export class World extends Emitter {
       // Goes to look at the unfinished piece now and then.
       const t = new Vector3(m.at![0], 0, m.at![1]);
       const at = this.approach;
+      options.push([2, () => [...this.walkTo(at), { kind: 'do', act: 'stand', seconds: 3, face: t }]]);
