@@ -800,3 +800,4 @@ export class Character {
       case 'dig':
       case 'water':
       case 'haul':
+        yaw = this.looking ? lookYaw * 0.7 : lookYaw * 0.3;
