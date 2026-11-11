@@ -485,3 +485,4 @@ export class Character {
   }
 
   get busy(): boolean {
+    return this.plan.length > 0;
