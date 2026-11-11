@@ -691,3 +691,4 @@ export class World extends Emitter {
       this.ndc.set(9, 9);
       this.hoverDirty = true;
     });
+    // Registered before OrbitControls, so a press on the resident never turns the camera.
