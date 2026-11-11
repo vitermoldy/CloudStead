@@ -117,3 +117,4 @@ function parse(text) {
 function format(v, p) {
   let [i, d] = v.toFixed(p.decimals).split('.');
   if (p.group) i = i.replace(/\B(?=(\d{3})+(?!\d))/g, p.group);
+  return d ? i + p.dec + d : i;
