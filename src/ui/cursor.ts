@@ -72,3 +72,4 @@ export class Cursor {
     }
   }
 
+  private frame(now: number): void {
