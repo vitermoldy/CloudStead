@@ -518,3 +518,5 @@ function downloadSave(): void {
   toast('Berkas simpanan diunduh.');
 }
 $('save-export').addEventListener('click', downloadSave);
+$('reset-export').addEventListener('click', downloadSave);
+
