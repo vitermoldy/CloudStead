@@ -210,3 +210,4 @@ function onPokeProp(e: { kind: keyof typeof PROP_TITLE; title: string }): void {
     tree: 'Daunnya makin lebat.',
     sapling: 'Masih kecil. Nanti tumbuh rindang.',
     hut: 'Pondoknya hangat kalau malam.',
+    board: 'Itu catatan fokusmu hari ini.',
