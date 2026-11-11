@@ -124,3 +124,4 @@ export class Progress extends Emitter {
   }
 
   finishSession(): void {
+    this.data.sessions += 1;
