@@ -137,3 +137,4 @@ function layout(count: number): Puff[] {
 function cloudFloor(): { mesh: Mesh; material: ShaderMaterial } {
   const material = new ShaderMaterial({
     fog: false,
+    toneMapped: false,
