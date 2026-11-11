@@ -184,3 +184,4 @@ export class Ambient {
     const ctx = this.ctx;
     if (!ctx || !this.settings.effects) return;
     const t = ctx.currentTime + 0.01 + at;
+    const o = ctx.createOscillator();
