@@ -930,3 +930,4 @@ export class Character {
       this.craftPiece.scale.setScalar(Math.max(0.05, s));
       this.craftPiece.rotation.set(this.craftKind === 'beanie' || this.craftKind === 'headphones' ? -0.6 : 0, 0, 0);
     }
+    if (mug) {
