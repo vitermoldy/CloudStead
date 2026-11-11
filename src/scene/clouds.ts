@@ -312,3 +312,4 @@ export function createClouds(count: number): Clouds {
   const mesh = new Mesh(geo, material);
   mesh.frustumCulled = false;
   mesh.renderOrder = 2;
+  const floor = cloudFloor();
