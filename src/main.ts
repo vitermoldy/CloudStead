@@ -445,3 +445,4 @@ function renderIsland(): void {
     title.textContent = m.title;
     const when = document.createElement('span');
     when.className = 'build__when';
+    if (done) {
