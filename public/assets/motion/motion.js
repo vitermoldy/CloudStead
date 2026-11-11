@@ -250,3 +250,4 @@ function loops() {
 // one listener for every pause button: its own (m-own) toggles; a ui.js one is mirrored after ui.js ran
 document.addEventListener('click', e => {
   const btn = e.target.closest('.loop-pause');
+  if (!btn) return;
