@@ -167,3 +167,4 @@ function hut(): Group {
       const hole = new Shape();
       hole.moveTo(-0.12, 0);
       hole.lineTo(0.12, 0);
+      hole.lineTo(0.12, 0.36);
