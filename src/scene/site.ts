@@ -140,3 +140,4 @@ export class PropSite {
 
   /** Takes a plank from the pile as the work goes on. */
   use(): void {
+    const last = this.pile.children[this.pile.children.length - 1];
