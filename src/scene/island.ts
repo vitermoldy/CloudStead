@@ -266,3 +266,4 @@ export class Island {
         this.group.remove(t.group);
         this.tiles.delete(key);
       }
+    }
