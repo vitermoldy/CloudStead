@@ -5,3 +5,4 @@ export type Phase = 'focus' | 'short' | 'long';
 
 export const PRESETS = {
   short: { label: '25 menit fokus, 5 menit istirahat', focus: 25, short: 5, long: 15, rounds: 4 },
+  long: { label: '50 menit fokus, 10 menit istirahat', focus: 50, short: 10, long: 20, rounds: 3 },
