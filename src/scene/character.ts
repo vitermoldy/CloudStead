@@ -198,3 +198,4 @@ export class Character {
   private plan: Step[] = [];
   private stepT = 0;
   private beats = 0;
+  private sit = 1;
