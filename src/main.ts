@@ -480,3 +480,4 @@ onSaved(() => {
   if (openId === 'island') renderSaveStatus();
 });
 
+function saveProgress(): void {
