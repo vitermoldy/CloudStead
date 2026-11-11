@@ -180,3 +180,4 @@ function cloudFloor(): { mesh: Mesh; material: ShaderMaterial } {
         float hx = fbm(p + vec2(e, 0.0));
         float hz = fbm(p + vec2(0.0, e));
         vec3 n = normalize(vec3((h - hx) * 2.2, e, (h - hz) * 2.2));
+        float lit = smoothstep(-0.1, 0.9, dot(n, normalize(uSunDir)));
