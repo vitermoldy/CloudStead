@@ -91,3 +91,4 @@ export function formatMinutes(min: number): string {
   return r === 0 ? `${h} j` : `${h} j ${r} m`;
 }
 
+/** "1 jam 20 menit", for sentences and screen readers. */
