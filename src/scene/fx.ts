@@ -76,3 +76,4 @@ interface Particle {
   life: number;
   max: number;
   size: number;
+  grow: number;
