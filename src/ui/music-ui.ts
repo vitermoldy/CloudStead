@@ -63,3 +63,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
     empty.hidden = has;
     now.hidden = !has;
     volume.value = String(player.volume);
+    loop.checked = player.loop;
