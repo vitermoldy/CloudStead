@@ -324,3 +324,4 @@ function renderHud(force = false): void {
     $('next-title').textContent = next.title;
     $('next-left').textContent = `${formatMinutesLong(next.minutes - progress.minutes)} lagi`;
     fill.style.width = `${(k * 100).toFixed(1)}%`;
+    meter.setAttribute('aria-valuenow', String(Math.round(k * 100)));
