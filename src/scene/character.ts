@@ -95,3 +95,4 @@ function screenTexture(): { tex: CanvasTexture; draw: (lines: number, mode: 'cod
       return;
     }
     const cols = ['#9fc7a0', '#e9b46a', '#b9c4d6', '#d98b6a'];
+    for (let i = 0; i < 9; i++) {
