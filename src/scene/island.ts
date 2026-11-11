@@ -101,3 +101,4 @@ function bladeGeometry(): BufferGeometry {
 
 interface Tile {
   cell: Cell;
+  group: Group;
