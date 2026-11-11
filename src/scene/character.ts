@@ -332,3 +332,4 @@ export class Character {
     planks.position.set(0.03, 0.15, 0);
     this.crate.add(box, lidBar, planks);
     this.crate.position.set(0.3, 0, -0.3);
+    this.crate.rotation.y = 0.3;
