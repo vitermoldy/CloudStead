@@ -175,3 +175,5 @@ export class Island {
     this.highlight.renderOrder = 20;
     this.highlight.visible = false;
     this.group.add(this.highlight);
+  }
+
