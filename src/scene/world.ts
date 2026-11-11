@@ -982,3 +982,4 @@ export class World extends Emitter {
           sum += lum;
           max = Math.max(max, lum);
           n++;
+        }
