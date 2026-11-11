@@ -37,3 +37,4 @@ const std = (color: string, extra: Partial<ConstructorParameters<typeof MeshStan
   new MeshStandardMaterial({ color, roughness: 0.85, ...extra });
 
 const WOOD = std('#86603f');
+const WOOD_DARK = std('#5c4029');
