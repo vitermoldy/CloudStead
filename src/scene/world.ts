@@ -186,3 +186,4 @@ export class World extends Emitter {
     }
     this.updateGhosts(reached);
     this.replan = true;
+    this.frame();
