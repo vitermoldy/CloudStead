@@ -131,3 +131,4 @@ export class Island {
   private dirtGeo = new BoxGeometry(1, 0.3, 1);
   private grassMat: MeshStandardMaterial;
   private dirtTopMat: MeshStandardMaterial;
+  private earthMat: MeshStandardMaterial;
