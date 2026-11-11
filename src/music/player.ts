@@ -64,3 +64,4 @@ export class MusicPlayer extends Emitter {
     fetchDetails(item).then((d) => {
       const it = this.queue.find((q) => q.id === item.id);
       if (!it) return;
+      if (d && d.title) Object.assign(it, { title: d.title, author: d.author || '', thumb: d.thumb || '' });
