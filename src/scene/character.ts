@@ -152,3 +152,4 @@ export function makeGear(kind: Gear): Group {
       r.position.x = -0.093;
       g.add(band, l, r);
       break;
+    }
