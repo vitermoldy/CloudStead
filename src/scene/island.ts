@@ -207,3 +207,4 @@ export class Island {
     return r;
   }
 
+  /** Cells the resident is hauling up: they wait in the clouds and follow the work. */
