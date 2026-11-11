@@ -349,3 +349,4 @@ function enter() {
   let masks = null, over = false;
   const finish = () => {
     if (over) return;
+    over = true;
