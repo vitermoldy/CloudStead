@@ -373,3 +373,4 @@ function enter() {
     // a line above the h1 (a notice, a pill) comes with its first line; what follows starts as its
     // last line is half way up
     const after = 80 + (lines.length - 1) * lineStep + 220;
+    let k = 0;
