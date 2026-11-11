@@ -954,3 +954,4 @@ export class World extends Emitter {
     if (this.inkClock <= 0) {
       this.inkClock = 45;
       this.sampleInk();
+    }
