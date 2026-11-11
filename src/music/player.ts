@@ -34,3 +34,4 @@ export class MusicPlayer extends Emitter {
     super();
     const saved = load<{ queue?: QueueItem[]; current?: number; volume?: number; loop?: boolean }>('music', {});
     this.queue = Array.isArray(saved.queue)
+      ? saved.queue.filter((q) => q && (q.videoId || q.listId)).map((q) => ({ ...q, status: q.status === 'error' ? 'error' : 'ready' }))
