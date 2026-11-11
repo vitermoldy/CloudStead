@@ -256,3 +256,5 @@ export class World extends Emitter {
       this.island.addPending(m.tiles);
     }
     if (!this.celebrating) this.replan = true;
+  }
+
