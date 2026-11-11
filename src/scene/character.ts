@@ -767,3 +767,4 @@ export class Character {
       span(this.upper[i], shoulders[i], elbows[i]);
       span(this.fore[i], elbows[i], hand);
       this.palms[i].position.copy(hand);
+    }
