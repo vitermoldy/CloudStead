@@ -44,3 +44,4 @@ html:not([data-motion="off"]) .btn--secondary:hover {
   border-color: color-mix(in oklab, var(--ink) 32%, transparent);
 }
 html:not([data-motion="off"]) .btn:hover { transition-duration: var(--m-in), var(--m-in), var(--m-in), var(--m-in), var(--m-press); }
+html:not([data-motion="off"]) .btn:active { transform: translateY(1px) scale(.985); }
