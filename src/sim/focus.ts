@@ -147,3 +147,4 @@ export class FocusTimer extends Emitter {
     } else {
       this.round = this.phase === 'long' ? 1 : this.round + 1;
       this.phase = 'focus';
+    }
