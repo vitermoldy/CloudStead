@@ -101,3 +101,4 @@ export class Progress extends Emitter {
   }
 
   /** Adds focus time. Emits 'reach' for every milestone it passes, in order. */
+  add(ms: number): void {
