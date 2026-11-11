@@ -233,3 +233,4 @@ export class Character {
   private head = new Group();
   private eyes: Mesh[] = [];
   private happyEyes: Mesh[] = [];
+  private mouth: Mesh;
