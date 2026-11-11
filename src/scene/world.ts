@@ -934,3 +934,4 @@ export class World extends Emitter {
     this.tweens = this.tweens.filter((fn) => !fn(dt));
 
     if (this.hoverDirty) this.pick();
+    // Step back while new cells rise, so the grown island stays in frame.
