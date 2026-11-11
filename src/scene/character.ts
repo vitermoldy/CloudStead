@@ -279,3 +279,4 @@ export class Character {
       const arc = new Mesh(new TorusGeometry(0.012, 0.0035, 4, 8, Math.PI), DARK);
       arc.position.set(s * 0.03, 0.0, 0.079);
       arc.visible = false;
+      this.happyEyes.push(arc);
