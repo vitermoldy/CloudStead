@@ -809,3 +809,4 @@ export class Character {
       default:
         yaw = lookYaw;
         pitch = lookPitch;
+    }
