@@ -304,3 +304,4 @@ export class Character {
     }
     this.rig.add(...this.upper, ...this.fore, ...this.palms, ...this.thighs, ...this.shins, ...this.shoes);
 
+    // The laptop: on the lap while typing, on the ground beside the seat otherwise.
