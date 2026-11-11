@@ -408,3 +408,4 @@ export class Character {
       case 'cushion':
         this.seat.add(g);
         break;
+      case 'books':
