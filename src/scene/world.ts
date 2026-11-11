@@ -151,3 +151,4 @@ export class World extends Emitter {
     this.island.onLanded = (cell) => {
       this.fx.spawn('dust', new Vector3(cell[0], 0.05, cell[1]), 8);
       this.emit('land');
+      // Step back so the grown island stays in frame.
