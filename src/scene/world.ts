@@ -80,3 +80,4 @@ export class World extends Emitter {
   private steamClock = 0;
   private heartClock = 0;
   private lookHold = 0;
+  private lookPoint = new Vector3();
