@@ -893,3 +893,4 @@ export class Character {
     t.shovel.visible = act === 'dig';
     t.can.visible = act === 'water' && this.waveT <= 0;
     t.plank.visible = act === 'carry';
+    t.yarn.visible = act === 'craft' && this.craftKind !== null && KNITTED.has(this.craftKind);
