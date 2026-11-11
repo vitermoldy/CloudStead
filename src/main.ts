@@ -291,3 +291,4 @@ function storyLine(): string {
     : `${n} menunggu kamu fokus. Selama kamu fokus, dia bekerja membangun pulau.`;
 }
 
+let lastHud = '';
