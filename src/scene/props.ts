@@ -426,3 +426,4 @@ function balloon(): Group {
   }
   const env = new LatheGeometry(profile, 16);
   const cols: number[] = [];
+  const cream = new Color('#ece2c6'), warm = new Color('#d9733a');
