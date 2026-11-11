@@ -176,3 +176,4 @@ export function makeGear(kind: Gear): Group {
   g.traverse((o) => {
     o.castShadow = true;
     o.receiveShadow = true;
+  });
