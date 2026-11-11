@@ -920,3 +920,4 @@ export class Character {
       t.yarn.position.copy(handL).add(handR).multiplyScalar(0.5);
     }
     this.grip.copy(handL).add(handR).multiplyScalar(0.5);
+    this.root.localToWorld(this.grip);
