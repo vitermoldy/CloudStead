@@ -41,3 +41,4 @@ export const HOME: Cell = [0, 0];
 export const START_PROPS: { at: Cell; prop: PropKind }[] = [{ at: [-1, -1], prop: 'rock' }];
 
 export const MILESTONES: Milestone[] = [
+  { id: 'bunga', minutes: 5, title: 'Bunga liar', done: 'Bunga liar mulai tumbuh di sela rumput.', doing: 'menanam bunga liar', work: 'plant', kind: 'prop', prop: 'flowers', at: [1, 1] },
