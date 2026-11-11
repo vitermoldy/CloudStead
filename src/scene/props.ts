@@ -599,3 +599,4 @@ export class PropsLayer {
       case 'pond':
         e.update = (dt) => {
           for (const r of u.rings as Mesh[]) {
+            r.userData.age += dt;
