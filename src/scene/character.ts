@@ -248,3 +248,4 @@ export class Character {
     hammer: new Group(), shovel: new Group(), can: new Group(), plank: new Group(), yarn: new Group(),
   };
   private craftPiece: Group | null = null;
+  private craftKind: Gear | null = null;
