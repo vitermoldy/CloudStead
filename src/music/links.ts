@@ -157,3 +157,4 @@ export const ERROR_TEXT: Record<number, string> = {
 export const SUGGESTIONS = [
   { label: 'Radio lofi untuk belajar', url: 'https://www.youtube.com/watch?v=rFZHOHl-L8A' },
   { label: 'Radio piano untuk fokus', url: 'https://www.youtube.com/watch?v=N0snMcR6aaA' },
+];
