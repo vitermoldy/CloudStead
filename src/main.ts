@@ -468,3 +468,4 @@ function renderSaveStatus(): void {
   if (isReadOnly()) {
     el.textContent = 'Ini pratinjau: tidak ada yang disimpan, dan progres aslimu tidak berubah.';
     return;
+  }
