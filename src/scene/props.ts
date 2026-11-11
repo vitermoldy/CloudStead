@@ -410,3 +410,5 @@ function telescope(): Group {
   tube.add(mesh(new CylinderGeometry(0.06, 0.06, 0.06, 10), IRON, 0, 0.1, -0.24).rotateX(Math.PI / 2));
   g.add(tube);
   return g;
+}
+
