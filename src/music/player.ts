@@ -5,3 +5,4 @@ import { parseLink, loadYouTubeApi, fetchDetails, ERROR_TEXT, LinkError, type Pa
 export interface QueueItem extends ParsedLink {
   id: string;
   title: string;
+  author: string;
