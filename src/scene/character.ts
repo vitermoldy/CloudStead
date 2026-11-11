@@ -849,3 +849,4 @@ export class Character {
       this.happyEyes[i].visible = closed && act !== 'sleep';
       (this.blush[i].material as MeshBasicMaterial).opacity = this.petAmount * 0.75;
     }
+    const smile = 1 + this.happy * 0.6;
