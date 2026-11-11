@@ -33,3 +33,4 @@ export const PROP_TITLE: Record<PropKind, string> = {
   balloon: 'Balon udara', waterfall: 'Air terjun',
 };
 
+const std = (color: string, extra: Partial<ConstructorParameters<typeof MeshStandardMaterial>[0]> = {}) =>
