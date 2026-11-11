@@ -403,3 +403,4 @@ export class Island {
       if (t.landed) continue;
       // Follow the work smoothly; a cell on the rope sways a little.
       t.rise += (t.target - t.rise) * Math.min(1, dt * 1.6);
+      if (t.target >= 1 && t.rise > 0.995) t.rise = 1;
