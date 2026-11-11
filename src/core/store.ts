@@ -16,3 +16,4 @@ function readAll(): Bag {
   try {
     const raw = localStorage.getItem(KEY);
     const parsed = raw ? JSON.parse(raw) : {};
+    cache = parsed && typeof parsed === 'object' && !Array.isArray(parsed) ? parsed : {};
