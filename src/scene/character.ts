@@ -932,3 +932,4 @@ export class Character {
     }
     if (mug) {
       if (this.sipT > 0 && act === 'rest') {
+        mug.position.copy(handR).add(new Vector3(0.0, -0.02, 0.03));
