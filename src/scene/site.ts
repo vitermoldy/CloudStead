@@ -15,3 +15,4 @@ const STRING = new LineBasicMaterial({ color: '#f0a04b' });
  * A piece under construction: stakes and a string round its cell, a faint plan of the whole
  * thing, the real thing built up to the progress line, and a pile of the planks carried there.
  */
+export class PropSite {
