@@ -211,3 +211,4 @@ export function createClouds(count: number): Clouds {
   const n = puffs.length;
   const base = new PlaneGeometry(1, 1);
   const geo = new InstancedBufferGeometry();
+  geo.index = base.index;
