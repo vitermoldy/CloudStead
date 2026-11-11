@@ -215,3 +215,4 @@ export class Fx {
     for (const pool of this.pools.values()) {
       for (const p of pool) {
         if (!p.active) continue;
+        p.life += dt;
