@@ -44,3 +44,4 @@ export class Progress extends Emitter {
     super();
     if (previewMinutes !== null) {
       this.data = fresh();
+      this.data.focusMs = previewMinutes * 60000;
