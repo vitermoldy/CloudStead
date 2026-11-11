@@ -852,3 +852,4 @@ export class World extends Emitter {
     const r = reach + 1.5;
     if (cam.right !== r) {
       cam.left = -r; cam.right = r; cam.top = r; cam.bottom = -r; cam.near = 1; cam.far = 60;
+      cam.updateProjectionMatrix();
