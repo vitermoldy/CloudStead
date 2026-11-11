@@ -128,3 +128,4 @@ function counts() {
   const ro = new ResizeObserver(es => es.forEach(e => e.target.__mCount?.arm()));
   const items = [];
   els.forEach(el => {
+    const walk = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
