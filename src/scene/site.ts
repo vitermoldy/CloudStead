@@ -144,3 +144,5 @@ export class PropSite {
     if (!last || this.planks <= 1) return;
     this.pile.remove(last);
     this.planks--;
+  }
+
