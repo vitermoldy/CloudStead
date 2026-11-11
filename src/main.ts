@@ -485,3 +485,4 @@ function saveProgress(): void {
     toast('Ini pratinjau, jadi tidak ada yang disimpan.');
     return;
   }
+  const ok = progress.persist(true);
