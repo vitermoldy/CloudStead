@@ -453,3 +453,4 @@ export class Character {
   }
 
   /** Headphones go on the ears with the music and rest round the neck without it. */
+  private place(kind: Gear): void {
