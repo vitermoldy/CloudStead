@@ -681,3 +681,5 @@ export class PropsLayer {
       if (entry) return { entry, point: h.point };
     }
     return null;
+  }
+
