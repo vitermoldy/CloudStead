@@ -82,3 +82,4 @@ function tabs() {
         ind.getBoundingClientRect();
         jump(ind, false);
         set(to);
+      }
