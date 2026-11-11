@@ -441,3 +441,4 @@ export class World extends Emitter {
         const view = spot.clone().add(new Vector3(Math.sign(cell[0] || 1) * 3, 0, Math.sign(cell[1] || 1) * 3));
         return [...this.walkTo(spot), { kind: 'do', act: 'stand', seconds: 3 + Math.random() * 3, face: view }];
       }],
+    ];
