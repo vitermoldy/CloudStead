@@ -202,3 +202,4 @@ function onGreet(): void {
   ambient.greet();
 }
 
+function onPokeProp(e: { kind: keyof typeof PROP_TITLE; title: string }): void {
