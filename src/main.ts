@@ -107,3 +107,4 @@ async function startWorld(): Promise<void> {
   w.on('built', (m: Milestone) => {
     justBuilt = { text: m.done, until: performance.now() + 9000 };
     toast(m.done);
+    speak(pick(['Selesai!', 'Jadi juga.', 'Bagus, kan?']), 2200);
