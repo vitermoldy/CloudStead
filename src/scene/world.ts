@@ -715,3 +715,4 @@ export class World extends Emitter {
         this.emit('pet', false);
         this.emitHover();
         return;
+      }
