@@ -210,3 +210,4 @@ export class Island {
   /** Cells the resident is hauling up: they wait in the clouds and follow the work. */
   addPending(cells: Cell[]): void {
     for (const c of cells) {
+      const key = cellKey(c);
