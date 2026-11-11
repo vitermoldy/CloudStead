@@ -187,3 +187,4 @@ export class Ambient {
     const o = ctx.createOscillator();
     const g = ctx.createGain();
     o.type = type;
+    o.frequency.setValueAtTime(freq, t);
