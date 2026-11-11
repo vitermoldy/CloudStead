@@ -382,3 +382,4 @@ export class Character {
 
     const ball = new Mesh(new SphereGeometry(0.03, 10, 8), new MeshStandardMaterial({ color: '#c05a3c' }));
     ball.position.set(0.09, -0.02, 0.02);
+    const needle = new Mesh(new CylinderGeometry(0.003, 0.003, 0.12, 4), IRON);
