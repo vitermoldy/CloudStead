@@ -60,3 +60,4 @@ export class World extends Emitter {
   private mode: WorkMode = 'free';
   private project: Milestone | null = null;
   private p = 0;
+  private site: PropSite | null = null;
