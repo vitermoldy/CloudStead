@@ -9,3 +9,5 @@ export interface QueueItem extends ParsedLink {
   thumb: string;
   status: 'ready' | 'error';
   error: string;
+}
+
