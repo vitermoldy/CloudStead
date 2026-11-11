@@ -289,3 +289,4 @@ export class Island {
   }
 
   /** Dashed outlines where the next cells will rise. */
+  setGhosts(cells: Cell[]): void {
