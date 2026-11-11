@@ -74,3 +74,4 @@ interface Particle {
   sprite: Sprite;
   vel: Vector3;
   life: number;
+  max: number;
