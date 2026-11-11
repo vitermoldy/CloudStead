@@ -220,3 +220,4 @@ export class Character {
   private workT = 0;
   petting = false;
   private petAmount = 0;
+  private happy = 0;
