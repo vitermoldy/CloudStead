@@ -355,3 +355,4 @@ function pond(): Group {
 }
 
 function windmill(): Group {
+  const g = new Group();
