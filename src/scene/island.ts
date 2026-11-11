@@ -6,3 +6,4 @@ import { RoundedBoxGeometry } from 'three/examples/jsm/geometries/RoundedBoxGeom
 import { rng, clamp } from '../core/emitter';
 import { cellKey, type Cell } from '../sim/milestones';
 
+/** Cells with bare earth: the clearing round the resident and the path east and south. */
