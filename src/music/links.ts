@@ -23,3 +23,4 @@ export function parseLink(raw: string): ParsedLink {
   if (/\s/.test(text) || !text.includes('.')) throw new LinkError(notLink);
   let url: URL;
   try {
+    url = new URL(/^https?:\/\//i.test(text) ? text : `https://${text}`);
