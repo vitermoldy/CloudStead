@@ -88,3 +88,4 @@ export function parseSaveFile(text: string): Bag {
   }
   const p = parsed as { app?: unknown; data?: unknown };
   if (!p || p.app !== 'CloudStead' || !p.data || typeof p.data !== 'object') {
+    throw new SaveFileError('Berkas ini bukan simpanan CloudStead.');
