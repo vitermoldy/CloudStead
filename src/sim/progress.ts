@@ -25,3 +25,4 @@ const today = (): string => {
 const fresh = (): ProgressData => ({
   focusMs: 0,
   todayMs: 0,
+  todayDate: today(),
