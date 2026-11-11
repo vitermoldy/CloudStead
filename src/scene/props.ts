@@ -583,3 +583,4 @@ export class PropsLayer {
           const key = Math.floor(ctx.todayMinutes) * 100000 + Math.floor(ctx.totalMinutes);
           if (u.drawn !== key) {
             u.drawn = key;
+            (u.draw as (a: number, b: number) => void)(ctx.todayMinutes, ctx.totalMinutes);
