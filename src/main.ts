@@ -145,3 +145,4 @@ function projectShare(): number {
 }
 
 // ------------------------------------------------------------ cursor and the resident
+function onHover(h: Hover & { dragging?: boolean }, petting: boolean): void {
