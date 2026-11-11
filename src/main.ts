@@ -434,3 +434,4 @@ function renderIsland(): void {
   if (document.activeElement !== nameInput) nameInput.value = progress.name;
   const next = progress.next();
   const list = $('build-list');
+  list.replaceChildren(...MILESTONES.map((m) => {
