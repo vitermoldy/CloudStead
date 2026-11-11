@@ -773,3 +773,4 @@ export class World extends Emitter {
           this.hover = { kind: null };
         }
       }
+    }
