@@ -659,3 +659,4 @@ export class PropsLayer {
     return this.entries.some((e) => e.kind === kind);
   }
 
+  at(cell: Cell): PropEntry[] {
