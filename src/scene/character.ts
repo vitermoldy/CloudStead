@@ -659,3 +659,5 @@ export class Character {
     if (scarf) {
       scarf.position.copy(neck).addScaledVector(this.spine, -0.01);
       scarf.quaternion.setFromUnitVectors(UP, this.spine);
+    }
+
