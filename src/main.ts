@@ -347,3 +347,4 @@ function renderHud(force = false): void {
 $('focus-toggle').addEventListener('click', () => toggleFocus());
 $('focus-start').addEventListener('click', () => toggleFocus());
 $('focus-reset').addEventListener('click', () => timer.reset());
+$('focus-reset-2').addEventListener('click', () => timer.reset());
