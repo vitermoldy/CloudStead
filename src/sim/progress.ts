@@ -17,3 +17,4 @@ export const DEFAULT_NAME = 'VMK';
 /** The name the first version gave the resident; saves that still carry it move to the new default. */
 const OLD_DEFAULT = 'Bayu';
 
+const today = (): string => {
