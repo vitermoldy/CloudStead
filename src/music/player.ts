@@ -232,3 +232,4 @@ export class MusicPlayer extends Emitter {
       if (!this.loop) {
         this.status = 'ended';
         this.emit('change');
+        return;
