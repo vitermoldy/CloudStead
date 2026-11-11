@@ -55,3 +55,4 @@ function mesh(geo: BufferGeometry, mat: MeshStandardMaterial | MeshBasicMaterial
 function rock(): Group {
   const g = new Group();
   const big = mesh(new DodecahedronGeometry(0.34, 0), STONE, 0.02, 0.2, -0.05);
+  big.scale.set(1.25, 0.9, 1);
