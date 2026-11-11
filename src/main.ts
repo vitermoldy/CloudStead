@@ -56,3 +56,4 @@ const clockNow = () => new Date().toLocaleTimeString('id-ID', { hour: '2-digit',
 
 
 // ------------------------------------------------------------ the world
+const canvas = $<HTMLCanvasElement>('scene');
