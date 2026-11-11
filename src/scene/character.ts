@@ -797,3 +797,4 @@ export class Character {
         pitch = 0.15;
         break;
       case 'hammer':
+      case 'dig':
