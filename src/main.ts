@@ -20,3 +20,4 @@ const html = document.documentElement;
 // ------------------------------------------------------------ preview mode (?pratinjau=menit)
 const params = new URLSearchParams(location.search);
 const previewRaw = params.get('pratinjau');
+const previewMinutes = previewRaw !== null && /^\d{1,5}$/.test(previewRaw) ? Math.min(Number(previewRaw), TOTAL_MINUTES + 60) : null;
