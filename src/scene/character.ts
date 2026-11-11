@@ -530,3 +530,4 @@ export class Character {
       let d = want - this.heading;
       d = Math.atan2(Math.sin(d), Math.cos(d));
       this.heading += d * Math.min(1, dt * rate);
+    };
