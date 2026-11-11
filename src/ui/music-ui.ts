@@ -70,3 +70,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
     const item = player.item;
     title.textContent = player.nowTitle || item?.title || (item ? item.url : '');
     const st = player.status;
+    status.textContent = st === 'loading-api' ? 'Memuat YouTube…'
