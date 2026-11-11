@@ -737,3 +737,4 @@ export class World extends Emitter {
     c.addEventListener('pointercancel', up);
     c.addEventListener('contextmenu', (e) => e.preventDefault());
     c.addEventListener('dblclick', () => {
+      if (this.hover.kind === null) this.resetView();
