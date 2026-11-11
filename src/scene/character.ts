@@ -939,3 +939,4 @@ export class Character {
     }
   }
 
+  setScreenGlow(night: number): void {
