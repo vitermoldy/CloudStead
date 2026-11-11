@@ -117,3 +117,4 @@ html:not([data-motion="off"]) .footer ul a:hover { color: var(--ink); }
   html:not([data-motion="off"]) .nav__item:is(:hover, :focus-within) > .nav__menu {
     transition: opacity var(--m-panel) var(--m-ease) 150ms, transform var(--m-panel) var(--m-ease) 150ms, visibility 0s linear 150ms;
   }
+  /* .m-menu-open comes on when the first panel starts to show (150ms): from then the next word swaps
