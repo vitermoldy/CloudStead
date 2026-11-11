@@ -168,3 +168,5 @@ export class MusicPlayer extends Emitter {
     } else if (autoplay) p.loadVideoById(item.videoId!);
     else p.cueVideoById(item.videoId!);
     this.emit('change');
+  }
+
