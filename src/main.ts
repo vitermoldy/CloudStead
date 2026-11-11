@@ -118,3 +118,4 @@ async function startWorld(): Promise<void> {
     if (bubbleUntil) positionBubble();
   };
 
+  const paused = settings.paused ?? reducedMotion();
