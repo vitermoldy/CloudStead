@@ -411,3 +411,4 @@ html.has-cursor .cursor.is-on { opacity: 1; }
 }
 
 @media (hover: none), (pointer: coarse) {
+  .cursor { display: none; }
