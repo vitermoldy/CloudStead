@@ -58,3 +58,4 @@ export class PropSite {
 
     const mode = REVEAL[kind];
     this.build.traverse((o) => {
+      if (o.userData.late) this.late.push(o);
