@@ -537,3 +537,4 @@ export class PropsLayer {
   readonly group = new Group();
   readonly entries: PropEntry[] = [];
 
+  add(kind: PropKind, cell: Cell, animate: boolean): PropEntry {
