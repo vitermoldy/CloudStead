@@ -77,3 +77,4 @@ interface Particle {
   max: number;
   size: number;
   grow: number;
+  gravity: number;
