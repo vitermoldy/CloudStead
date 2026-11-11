@@ -73,3 +73,4 @@ const TEXTURES: Record<FxKind, () => CanvasTexture> = {
 interface Particle {
   sprite: Sprite;
   vel: Vector3;
+  life: number;
