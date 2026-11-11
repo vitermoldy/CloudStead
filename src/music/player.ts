@@ -242,3 +242,4 @@ export class MusicPlayer extends Emitter {
 
   private stop(): void {
     this.status = 'idle';
+    this.nowTitle = '';
