@@ -14,3 +14,4 @@
   --muted: var(--p-muted);
   --accent: var(--p-accent);
   --action: var(--p-ink);
+  --action-ink: var(--p-bg);
