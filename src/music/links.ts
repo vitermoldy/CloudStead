@@ -86,3 +86,5 @@ declare global {
   }
 }
 
+let apiPromise: Promise<YTNamespace> | null = null;
+
