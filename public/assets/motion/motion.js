@@ -341,3 +341,4 @@ function enter() {
   if (!html.classList.contains('m-enter') || reduced() || shot() || hero.getBoundingClientRect().bottom < 0) return done(true);
   if (html.classList.contains('m-enter-done')) return late();
   const h1 = hero.querySelector('h1');
+  if (!h1) return done(true);
