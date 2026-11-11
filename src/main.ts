@@ -282,3 +282,4 @@ function storyLine(): string {
     if (c?.act === 'carry') return `${n} mengangkut kayu untuk ${next.title.toLowerCase()}.`;
     return `${n} sedang ${next.doing}.`;
   }
+  if (timer.resting) return `Istirahat. ${n} ikut duduk${c?.hasGear('mug') ? ' dan minum teh' : ''}, kerjanya lanjut nanti.`;
