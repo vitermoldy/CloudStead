@@ -480,3 +480,5 @@ export class World extends Emitter {
   private freeCells(): Cell[] {
     const b = this.blockedCells();
     return this.island.cells().filter((c) => !b.has(cellKey(c)));
+  }
+
