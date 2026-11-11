@@ -41,3 +41,4 @@ export class PropSite {
     const corners = [[-0.44, -0.44], [0.44, -0.44], [0.44, 0.44], [-0.44, 0.44]];
     for (const [x, z] of corners) {
       const m = new Mesh(stake, STAKE);
+      m.position.set(x, 0.08, z);
