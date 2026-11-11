@@ -202,3 +202,4 @@ export class MusicPlayer extends Emitter {
       const at = this.player.getPlaylistIndex?.() ?? -1;
       if (list.length && at >= 0 && at < list.length - 1) {
         this.player.nextVideo();
+        return;
