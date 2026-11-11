@@ -225,3 +225,4 @@ export class Fx {
         p.vel.y -= p.gravity * dt;
         p.sprite.position.addScaledVector(p.vel, dt);
         p.vel.multiplyScalar(1 - dt * 0.8);
+        const s = p.size + p.grow * p.life;
