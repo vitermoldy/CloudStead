@@ -263,3 +263,4 @@ export class Character {
     this.hood = new Mesh(new TorusGeometry(0.055, 0.03, 6, 12), HOODIE);
     this.rig.add(this.torso, this.hood);
 
+    const skull = new Mesh(new SphereGeometry(0.085, 18, 14), SKIN);
