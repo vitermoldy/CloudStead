@@ -386,3 +386,4 @@ progress.on('reach', (m: Milestone) => {
   else toast(m.done);
 });
 progress.on('change', () => {
+  world?.setContext(progress.todayMinutes, progress.minutes);
