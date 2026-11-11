@@ -624,3 +624,4 @@ export class Character {
     this.workT += dt;
     const digC = (this.workT % 1.3) / 1.3;
     const dip = act === 'dig' ? Math.max(0, Math.sin(digC * Math.PI * 2)) * 0.05 : 0;
+    const crouch = act === 'hammer' ? 0.03 : act === 'dig' ? 0.02 + dip * 0.4 : act === 'water' ? 0.015 : 0;
