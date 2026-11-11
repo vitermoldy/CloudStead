@@ -619,3 +619,4 @@ export class Character {
     const sitTarget = SEATED.has(act) ? 1 : 0;
     this.sit = damp(this.sit, sitTarget, 5, dt);
     const cushion = this.gear.has('cushion') ? 0.055 : 0;
+    const seatedHip = 0.085 + cushion;
