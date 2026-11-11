@@ -429,3 +429,4 @@ export class Character {
         break;
     }
     this.gear.set(kind, g);
+    this.place(kind);
