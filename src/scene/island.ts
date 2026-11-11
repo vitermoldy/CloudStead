@@ -426,3 +426,4 @@ export class Island {
     this.highlight.visible = this.highlightAlpha > 0.01;
   }
 
+  /** Puts every cell where the work has got it, at once (reduced motion, a paused scene). */
