@@ -279,3 +279,4 @@ function storyLine(): string {
   if (c?.act === 'sleep') return `${n} tertidur. Klik dia untuk membangunkan.`;
   if (timer.focusing) {
     if (!next) return `Pulau sudah utuh. ${n} menemanimu fokus.`;
+    if (c?.act === 'carry') return `${n} mengangkut kayu untuk ${next.title.toLowerCase()}.`;
