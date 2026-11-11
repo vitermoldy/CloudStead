@@ -168,3 +168,4 @@ export class Island {
     this.grass.instanceMatrix.setUsage(DynamicDrawUsage);
     this.grass.count = 0;
     this.grass.receiveShadow = true;
+    this.grass.frustumCulled = false;
