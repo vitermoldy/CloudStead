@@ -261,3 +261,4 @@ export class Ambient {
       o.connect(g).connect(this.keyGain!);
       o.start(t);
       o.stop(t + 0.16);
+      return;
