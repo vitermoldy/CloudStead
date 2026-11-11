@@ -296,3 +296,4 @@ export function createClouds(count: number): Clouds {
         // Undersides sit in their own shadow; the lower billows get less sky.
         lit *= mix(0.42, 1.0, smoothstep(0.18, 0.62, vUv.y));
         vec3 col = mix(uShade, uLit, lit);
+        // A bright rim where a billow's edge turns toward the sun, stronger against the light.
