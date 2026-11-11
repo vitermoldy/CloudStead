@@ -508,3 +508,4 @@ function downloadSave(): void {
   progress.persist(true);
   const blob = new Blob([exportSave()], { type: 'application/json' });
   const a = document.createElement('a');
+  const d = new Date();
