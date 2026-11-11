@@ -505,3 +505,4 @@ function downloadSave(): void {
     toast('Ini pratinjau, jadi tidak ada simpanan untuk diunduh.');
     return;
   }
+  progress.persist(true);
