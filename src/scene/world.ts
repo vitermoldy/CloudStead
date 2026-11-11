@@ -793,3 +793,4 @@ export class World extends Emitter {
   // ------------------------------------------------------------ frame
   private loopOn = false;
 
+  start(): void {
