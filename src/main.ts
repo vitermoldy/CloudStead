@@ -179,3 +179,4 @@ function onGreet(): void {
     return;
   }
   const next = progress.next();
+  const left = next ? formatMinutesLong(next.minutes - progress.minutes) : '';
