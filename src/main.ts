@@ -341,3 +341,5 @@ function renderHud(force = false): void {
   $('focus-reset').hidden = !timer.active;
   $<HTMLButtonElement>('focus-start').textContent = label;
   $('focus-state').textContent = `Putaran ${timer.round} dari ${timer.config.rounds} · ${timer.active ? (timer.running ? timer.phaseLabel.toLowerCase() + ' berjalan' : timer.phaseLabel.toLowerCase() + ' dijeda') : 'belum dimulai'}`;
+}
+
