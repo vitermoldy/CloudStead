@@ -543,3 +543,4 @@ export class Character {
           this.act = 'stand';
           return;
         }
+        this.act = step.carry ? 'carry' : 'walk';
