@@ -65,3 +65,4 @@ function rock(): Group {
     const t = mesh(new ConeGeometry(0.035, 0.2, 4), LEAF_LIGHT, -0.05 + (i % 3) * 0.06, 0.48, -0.08 + Math.floor(i / 3) * 0.07);
     t.rotation.z = (i - 2.5) * 0.18;
     g.add(t);
+  }
