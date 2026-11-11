@@ -157,3 +157,4 @@ export class World extends Emitter {
       if (this.dist > before) {
         if (this.paused || this.instant) {
           const dir = this.camera.position.clone().sub(this.controls.target).normalize();
+          this.camera.position.copy(this.controls.target).addScaledVector(dir, this.dist);
