@@ -32,3 +32,4 @@ export const smoothstep = (e0: number, e1: number, x: number): number => {
 
 /** Deterministic random numbers, so the island looks the same on every visit. */
 export function rng(seed: number): () => number {
+  let s = seed >>> 0 || 1;
