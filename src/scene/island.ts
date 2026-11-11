@@ -228,3 +228,4 @@ export class Island {
   }
 
   /** The top of a cell on its way up, in the world (where the rope ties on). */
+  tileTop(cell: Cell, out = new Vector3()): Vector3 | null {
