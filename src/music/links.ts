@@ -125,3 +125,4 @@ export interface Details {
 }
 
 /** Title and thumbnail from YouTube's oEmbed endpoint; null when it cannot be read. */
+export async function fetchDetails(item: { kind: string; videoId: string | null; listId: string | null }): Promise<Details | null> {
