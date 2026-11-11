@@ -162,3 +162,4 @@ export function makeGear(kind: Gear): Group {
       g.add(ring, tail);
       break;
     }
+    case 'beanie': {
