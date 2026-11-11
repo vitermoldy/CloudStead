@@ -100,3 +100,4 @@ async function startWorld(): Promise<void> {
   });
   w.on('woke', () => speak('Eh, aku ketiduran.'));
   w.on('poke-prop', onPokeProp);
+  w.on('poke-tile', () => undefined);
