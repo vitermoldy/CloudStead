@@ -47,3 +47,5 @@ function reach(a: Vector3, target: Vector3, l1: number, l2: number, pole: Vector
   bend.normalize();
   mid.copy(a).addScaledVector(dir, l1 * cosA).addScaledVector(bend, l1 * sinA);
   end.copy(a).addScaledVector(dir, dist);
+}
+
