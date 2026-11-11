@@ -137,3 +137,5 @@
 
   .stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--gutter); border-top: 1px solid var(--line); padding-top: var(--s-6); }
   .stats p { margin-top: var(--s-3); color: var(--muted); font-size: var(--t-small); }
+  @media (max-width: 639px) { .stats { grid-template-columns: minmax(0, 1fr); row-gap: var(--s-6); } }
+
