@@ -54,3 +54,4 @@ export class World extends Emitter {
   private ndc = new Vector2(9, 9);
   private pointerIn = false;
   private hoverDirty = true;
+  hover: Hover = { kind: null };
