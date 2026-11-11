@@ -763,3 +763,4 @@ export class World extends Emitter {
       } else {
         const prop = this.props.pick(this.ray);
         if (prop) {
+          this.hover = { kind: 'prop', prop: prop.entry, cell: prop.entry.cell };
