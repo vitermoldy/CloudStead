@@ -636,3 +636,4 @@ export class World extends Emitter {
   resetView(): void {
     const reach = this.island.reach();
     this.fitDistance(reach);
+    const az = 0;
