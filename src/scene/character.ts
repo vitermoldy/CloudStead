@@ -498,3 +498,4 @@ export class Character {
 
   /** The seated act the resident is in, or null when up. */
   get seatAct(): SeatAct | null {
+    return SEATED.has(this.act) ? (this.act as SeatAct) : null;
