@@ -54,3 +54,4 @@ export class MusicPlayer extends Emitter {
     const parsed = parseLink(raw);
     const dup = this.queue.findIndex((q) => q.videoId === parsed.videoId && q.listId === parsed.listId);
     if (dup >= 0) {
+      if (playNow || this.current < 0) this.play(dup);
