@@ -133,3 +133,4 @@ export class MusicPlayer extends Emitter {
             },
           });
         });
+        return true;
