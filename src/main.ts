@@ -430,3 +430,4 @@ function renderIsland(): void {
   $('stat-today').textContent = formatMinutes(progress.todayMinutes);
   $('stat-tiles').textContent = String(tilesFor(progress.reached()).length);
   $('stat-sessions').textContent = String(progress.data.sessions);
+  const nameInput = $<HTMLInputElement>('resident-name');
