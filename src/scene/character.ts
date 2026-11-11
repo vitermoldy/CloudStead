@@ -386,3 +386,4 @@ export class Character {
     needle.rotation.z = 0.9;
     t.yarn.add(ball, needle);
 
+    for (const g of Object.values(t)) {
