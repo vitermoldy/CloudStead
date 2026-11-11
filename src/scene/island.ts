@@ -436,3 +436,4 @@ export class Island {
         t.group.position.y = 0;
         t.group.rotation.set(0, 0, 0);
         this.onLanded?.(t.cell);
+      } else {
