@@ -30,3 +30,4 @@ export class MusicPlayer extends Emitter {
   private creating: Promise<boolean> | null = null;
   private seekToVideo: string | null = null;
 
+  constructor(private host: HTMLElement) {
