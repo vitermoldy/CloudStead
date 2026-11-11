@@ -331,3 +331,4 @@ fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
   white-space: nowrap; transition: background-color 120ms var(--ease);
 }
 .greet:hover .greet__name { background: var(--bg); color: var(--accent); }
+.greet:active .greet__name { transform: scale(.96); }
