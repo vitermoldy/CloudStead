@@ -182,3 +182,4 @@ function onGreet(): void {
   const left = next ? formatMinutesLong(next.minutes - progress.minutes) : '';
   const pct = Math.floor(projectShare() * 100);
   if (timer.focusing) {
+    c.wave();
