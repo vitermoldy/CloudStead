@@ -999,3 +999,5 @@ export class World extends Emitter {
     const r = this.canvas.getBoundingClientRect();
     const p = this.character.root.localToWorld(new Vector3(0, 0.22, 0)).project(this.camera);
     return { x: (p.x * 0.5 + 0.5) * r.width + r.left, y: (-p.y * 0.5 + 0.5) * r.height + r.top };
+  }
+
