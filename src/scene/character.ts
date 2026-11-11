@@ -843,3 +843,4 @@ export class Character {
     this.petAmount = damp(this.petAmount, this.petting ? 1 : 0, 6, dt);
     this.happy = Math.max(this.petAmount, this.waveT > 0 ? 1 : 0, act === 'cheer' ? 1 : 0);
     const closed = act === 'sleep' || this.happy > 0.5;
+    for (let i = 0; i < 2; i++) {
