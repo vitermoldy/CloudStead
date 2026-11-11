@@ -433,3 +433,4 @@ function renderIsland(): void {
   const nameInput = $<HTMLInputElement>('resident-name');
   if (document.activeElement !== nameInput) nameInput.value = progress.name;
   const next = progress.next();
+  const list = $('build-list');
