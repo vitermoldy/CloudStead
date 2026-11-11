@@ -102,3 +102,4 @@ export class Ambient {
     const ctx = this.ctx;
     if (!ctx) return;
     if (this.night > 0.6) this.cricket();
+    else this.bird();
