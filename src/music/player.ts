@@ -206,3 +206,5 @@ export class MusicPlayer extends Emitter {
       }
     }
     this.advance(1);
+  }
+
