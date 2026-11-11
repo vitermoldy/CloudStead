@@ -115,3 +115,4 @@ function parse(text) {
   return { index: m.index, raw, value, dec, group, decimals };
 }
 function format(v, p) {
+  let [i, d] = v.toFixed(p.decimals).split('.');
