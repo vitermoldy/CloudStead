@@ -42,3 +42,4 @@ const TEXTURES: Record<FxKind, () => CanvasTexture> = {
   }),
   note: () => glyphTexture((ctx) => {
     ctx.fillStyle = '#f3efd9';
+    ctx.font = '700 52px "Funnel Sans Variable", system-ui, sans-serif';
