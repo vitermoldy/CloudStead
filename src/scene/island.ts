@@ -343,3 +343,4 @@ export class Island {
       const n = dirt ? 26 : BLADES_PER_TILE;
       for (let b = 0; b < n && i < this.grass.instanceMatrix.count; b++) {
         let x = rand() - 0.5, z = rand() - 0.5;
+        // Bare earth keeps its grass to the rims; beds and floors too.
