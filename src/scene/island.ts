@@ -431,3 +431,4 @@ export class Island {
     for (const t of this.tiles.values()) {
       if (t.landed) continue;
       t.rise = t.target;
+      if (t.rise >= 1) {
