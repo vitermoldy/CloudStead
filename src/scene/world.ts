@@ -193,3 +193,4 @@ export class World extends Emitter {
     const e = this.props.add(kind, at, animate);
     if (kind === 'pond') this.island.setBare(at, 'none');
     if (kind === 'garden' || kind === 'hut' || kind === 'hut-frame') this.island.setBare(at, 'edges');
+    return e;
