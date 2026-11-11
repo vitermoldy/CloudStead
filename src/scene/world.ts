@@ -570,3 +570,4 @@ export class World extends Emitter {
       pos.setXYZ(i, x, y, z);
     }
     pos.needsUpdate = true;
+    this.rope.geometry.computeBoundingSphere();
