@@ -217,3 +217,4 @@ export class Ambient {
     bp.type = 'bandpass';
     bp.frequency.value = freq;
     bp.Q.value = q;
+    const g = ctx.createGain();
