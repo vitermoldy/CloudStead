@@ -125,3 +125,5 @@ export class Ambient {
       o.stop(t + 0.12);
       t += 0.12 + Math.random() * 0.08;
     }
+  }
+
