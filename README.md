@@ -33,3 +33,4 @@ tetap berjalan; hanya pulaunya yang tidak tergambar.
 
   Saat istirahat VMK ikut istirahat. Tanpa timer dia jalan-jalan, menyiram tanaman, mengecek
   proyeknya, atau main laptop, dan proyeknya berhenti di persentase terakhir. Daftar lengkapnya ada
+  di panel **Pulau** dan di [src/sim/milestones.ts](src/sim/milestones.ts).
