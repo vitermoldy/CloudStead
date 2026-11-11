@@ -529,3 +529,4 @@ export class World extends Emitter {
     if (!path) return null;
     const cell = path[path.length - 1];
     const mid = new Vector3(cell[0], 0, cell[1]);
+    const toward = new Vector3(target[0], 0, target[1]).sub(mid).normalize();
