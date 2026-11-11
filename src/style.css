@@ -381,3 +381,4 @@ html.has-cursor .cursor.is-on { opacity: 1; }
 @keyframes pat { from { transform: scale(1); opacity: .9; } to { transform: scale(.82); opacity: .4; } }
 
 /* ---------------------------------------------------------------- narrow screens */
+@media (max-width: 900px) {
