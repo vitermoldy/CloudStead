@@ -198,3 +198,4 @@ export class Fx {
     for (const b of this.birds.children) {
       const o = b.userData.offset as Vector3;
       b.position.copy(o);
+      const flap = Math.sin(this.birdT * 9 + (b.userData.phase as number));
