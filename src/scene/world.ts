@@ -564,3 +564,4 @@ export class World extends Emitter {
     const pos = this.rope.geometry.getAttribute('position');
     for (let i = 0; i < 4; i++) {
       const t = i / 3;
+      const x = a.x + (b.x - a.x) * t;
