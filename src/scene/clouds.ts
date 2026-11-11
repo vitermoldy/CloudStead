@@ -75,3 +75,4 @@ function puffAtlas(): DataTexture {
         const len = Math.hypot(nx, ny, nz) || 1;
         nx /= len;
         ny /= len;
+        const i = ((CELL - 1 - py) * width + k * CELL + px) * 4;
