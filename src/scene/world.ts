@@ -717,3 +717,4 @@ export class World extends Emitter {
         return;
       }
       if (p.moved) return;
+      if (p.on === 'char') {
