@@ -432,3 +432,4 @@ function balloon(): Group {
     const a = Math.atan2(pos.getZ(i), pos.getX(i));
     const stripe = Math.floor(((a + Math.PI) / (Math.PI * 2)) * 16 + 0.5) % 2;
     const c = stripe ? warm : cream;
+    cols.push(c.r, c.g, c.b);
