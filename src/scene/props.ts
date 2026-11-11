@@ -544,3 +544,4 @@ export class PropsLayer {
     group.position.set(cell[0], 0, cell[1]);
     group.rotation.y = FACING[kind] ?? 0;
     const entry: PropEntry = {
+      kind, cell, title: PROP_TITLE[kind], group, blocking: BLOCKING.has(kind), grow: animate ? 0 : 1, wiggle: 0,
