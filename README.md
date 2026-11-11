@@ -67,3 +67,5 @@ tetap berjalan; hanya pulaunya yang tidak tergambar.
 | M | Buka panel musik |
 | Esc | Tutup panel |
 
+## Struktur
+
