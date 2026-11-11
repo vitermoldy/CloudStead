@@ -378,3 +378,4 @@ timer.on('finished', (phase: string, skipped: boolean) => {
     toast('Istirahat selesai. Fokus berikutnya sudah berjalan.');
     ambient.chime();
   }
+  renderIsland();
