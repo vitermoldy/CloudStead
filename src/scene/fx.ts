@@ -160,3 +160,4 @@ export class Fx {
           break;
         case 'z':
           p.vel.set(0.08, 0.16, 0.02);
+          p.max = 2.6; p.size = 0.04; p.grow = 0.035; p.gravity = 0;
