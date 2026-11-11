@@ -461,3 +461,5 @@ function renderIsland(): void {
     return li;
   }));
   renderSaveStatus();
+}
+
