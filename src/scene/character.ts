@@ -171,3 +171,4 @@ export function makeGear(kind: Gear): Group {
       pom.position.y = 0.1;
       g.add(cap, rim, pom);
       break;
+    }
