@@ -520,3 +520,4 @@ const REPLACES: Partial<Record<PropKind, PropKind>> = { tree: 'sapling', hut: 'h
 const BLOCKING = new Set<PropKind>(['rock', 'sapling', 'tree', 'garden', 'hut-frame', 'hut', 'pole', 'lamp', 'board', 'pond', 'windmill', 'bench', 'pine', 'telescope']);
 
 /** A fresh model of a piece, turned the way it stands (the construction site builds from these). */
+export function buildProp(kind: PropKind): Group {
