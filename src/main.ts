@@ -550,3 +550,4 @@ const resetDialog = $<HTMLDialogElement>('reset-dialog');
 $('save-reset').addEventListener('click', () => {
   if (isReadOnly()) {
     toast('Ini pratinjau, progres aslimu tidak tersentuh.');
+    return;
