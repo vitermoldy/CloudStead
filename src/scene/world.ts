@@ -854,3 +854,4 @@ export class World extends Emitter {
       cam.left = -r; cam.right = r; cam.top = r; cam.bottom = -r; cam.near = 1; cam.far = 60;
       cam.updateProjectionMatrix();
     }
+    this.hemi.color.copy(L.hemiSky);
