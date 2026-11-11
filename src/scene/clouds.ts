@@ -114,3 +114,4 @@ function layout(count: number): Puff[] {
     puffs.push({ x: Math.cos(a) * r, z: Math.sin(a) * r, y: -3.8 - rand() * 2.8, w, h: w * 0.55, seed: rand(), alpha: 0.95, speed: 0.35 + rand() * 0.2 });
   }
   // Cumulus towers all round, so the frame behind the island is cloud, not sky.
+  const towers = Math.round(16 * Math.max(0.6, scale));
