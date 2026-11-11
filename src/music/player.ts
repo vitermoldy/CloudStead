@@ -258,3 +258,4 @@ export class MusicPlayer extends Emitter {
         item.author = data.author || '';
         this.persist();
       }
+      if (this.seekToVideo) {
