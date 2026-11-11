@@ -111,3 +111,4 @@ function parse(text) {
     else { dec = raw[lastSep]; decimals = tail; group = seps.length > 1 ? seps[0] : ''; }
   }
   const intPart = dec ? raw.slice(0, lastSep) : raw;
+  const value = parseFloat(intPart.replace(/[^\d]/g, '') + (dec ? '.' + raw.slice(lastSep + 1) : ''));
