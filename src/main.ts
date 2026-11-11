@@ -72,3 +72,4 @@ async function startWorld(): Promise<void> {
   } catch {
     $('fallback').hidden = false;
     return;
+  }
