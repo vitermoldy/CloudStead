@@ -376,3 +376,4 @@ export class World extends Emitter {
       if (!cell || !stand) return this.planFree();
       const top = new Vector3(cell[0], -1, cell[1]);
       c.run([
+        ...this.walkTo(stand),
