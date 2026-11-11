@@ -137,3 +137,4 @@ export function makeGear(kind: Gear): Group {
       const handle = m(new TorusGeometry(0.016, 0.005, 5, 10), '#efe8d6', 0.5);
       handle.position.set(0.03, 0.032, 0);
       const tea = m(new CylinderGeometry(0.024, 0.024, 0.005, 12), '#7a4a2a', 0.3);
+      tea.position.y = 0.058;
