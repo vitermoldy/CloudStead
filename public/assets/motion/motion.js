@@ -226,3 +226,4 @@ function pauseButton(loop) {
   const show = paused => {
     btn.innerHTML = paused ? ICON_PLAY : ICON_PAUSE;
     btn.setAttribute('aria-label', `${paused ? 'Play' : 'Pause'} animation`);
+    btn.title = btn.getAttribute('aria-label');
