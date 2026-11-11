@@ -58,3 +58,4 @@ export function lookForHour(hour: number): { a: TimeId; b: TimeId; t: number } {
       const t = Math.min(1, (h - at) / 1);
       return { a: prev, b: id, t };
     }
+  }
