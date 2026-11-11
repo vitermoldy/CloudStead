@@ -591,3 +591,4 @@ for (const input of document.querySelectorAll<HTMLInputElement>('#time-group inp
 const soundBoxes: [string, keyof typeof ambient.settings][] = [['snd-on', 'on'], ['snd-wind', 'wind'], ['snd-life', 'life'], ['snd-keys', 'keys'], ['snd-fx', 'effects']];
 for (const [id, key] of soundBoxes) {
   const box = $<HTMLInputElement>(id);
+  box.checked = Boolean(ambient.settings[key]);
