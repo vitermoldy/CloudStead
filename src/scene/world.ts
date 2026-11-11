@@ -211,3 +211,5 @@ export class World extends Emitter {
   // The island never changes by itself. Each milestone is a project the resident works on while
   // the visitor focuses: the progress line (0..1) decides how much of it stands, and the resident
   // is seen doing the work: hammering and carrying planks, digging and watering, hauling new
+  // cells up from the clouds on a rope, or making a piece by hand at the seat.
+
