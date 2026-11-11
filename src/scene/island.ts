@@ -46,3 +46,4 @@ function rockGeometry(cell: Cell, depth: number): BufferGeometry {
     }
     pts.push(ring);
   }
+  const strata = ['#6f5e4e', '#5b4c40', '#7d6b57', '#4b4038', '#685a4c', '#56483d'];
