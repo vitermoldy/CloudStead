@@ -147,3 +147,4 @@ export class Progress extends Emitter {
   /** Writes the progress section; with now, straight to storage. */
   persist(now = false): boolean {
     save('progress', this.data);
+    if (!now) return true;
