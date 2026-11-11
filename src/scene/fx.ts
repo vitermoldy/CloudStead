@@ -125,3 +125,4 @@ export class Fx {
 
   private take(kind: FxKind): Particle {
     const pool = this.pools.get(kind)!;
+    let p = pool.find((q) => !q.active);
