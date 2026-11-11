@@ -234,3 +234,4 @@ export class Island {
     return out.set(cell[0], t.group.position.y + 0.02, cell[1]);
   }
 
+  private buildTile(cell: Cell): Tile {
