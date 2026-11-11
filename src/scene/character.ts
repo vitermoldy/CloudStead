@@ -207,3 +207,4 @@ export class Character {
   private headPitch = 0.3;
   private headRoll = 0;
   private walkPhase = 0;
+  private blink = 0;
