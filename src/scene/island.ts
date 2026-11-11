@@ -263,3 +263,4 @@ export class Island {
     const want = new Set(cells.map(cellKey));
     for (const [key, t] of this.tiles) {
       if (!want.has(key)) {
+        this.group.remove(t.group);
