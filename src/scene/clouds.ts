@@ -67,3 +67,4 @@ function puffAtlas(): DataTexture {
           nz = sz / ws;
         }
         // A soft, slightly wavy base: a long straight line under a big cloud reads as a cut.
+        const wave = Math.sin(x * 23 + k) * 0.012 + Math.sin(x * 57 + k * 3) * 0.006;
