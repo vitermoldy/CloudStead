@@ -778,3 +778,4 @@ export class World extends Emitter {
     if (this.hover.kind === 'tile' || this.hover.kind === 'prop') {
       u.set(this.hitPoint.x, this.hitPoint.z, 1);
     } else {
+      u.z = 0;
