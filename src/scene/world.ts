@@ -637,3 +637,4 @@ export class World extends Emitter {
     const reach = this.island.reach();
     this.fitDistance(reach);
     const az = 0;
+    const polar = 0.98;
