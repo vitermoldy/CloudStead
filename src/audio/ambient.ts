@@ -23,3 +23,4 @@ export class Ambient {
   private lifeGain: GainNode | null = null;
   private keyGain: GainNode | null = null;
   private fxGain: GainNode | null = null;
+  private noise: AudioBuffer | null = null;
