@@ -219,3 +219,4 @@ function onPokeProp(e: { kind: keyof typeof PROP_TITLE; title: string }): void {
     bench: 'Tempat bagus untuk melihat awan.',
     pine: 'Cemara ini tahan angin.',
     waterfall: 'Airnya jatuh sampai ke awan.',
+    flowers: 'Bunganya ikut bergoyang kena angin.',
