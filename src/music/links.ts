@@ -129,3 +129,4 @@ export async function fetchDetails(item: { kind: string; videoId: string | null;
   const target = item.kind === 'playlist' ? `https://www.youtube.com/playlist?list=${item.listId}` : `https://www.youtube.com/watch?v=${item.videoId}`;
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), 7000);
+  try {
