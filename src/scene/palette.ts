@@ -24,3 +24,4 @@ export interface Look {
 }
 
 export const LOOKS: Record<TimeId, Look> = {
+  pagi: {
