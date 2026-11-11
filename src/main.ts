@@ -521,3 +521,4 @@ $('save-export').addEventListener('click', downloadSave);
 $('reset-export').addEventListener('click', downloadSave);
 
 const importInput = $<HTMLInputElement>('save-import');
+importInput.addEventListener('change', async () => {
