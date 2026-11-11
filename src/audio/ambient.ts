@@ -64,3 +64,4 @@ export class Ambient {
     this.startWind();
     this.loopLife();
     this.loopKeys();
+    this.apply();
