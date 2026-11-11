@@ -358,3 +358,4 @@ for (const input of document.querySelectorAll<HTMLInputElement>('#preset-group i
 
 function toggleFocus(): void {
   timer.toggle();
+  ambient.start();
