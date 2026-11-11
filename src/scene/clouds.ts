@@ -364,3 +364,4 @@ export function createClouds(count: number): Clouds {
       }
     },
   };
+}
