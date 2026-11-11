@@ -44,3 +44,4 @@ const bubble = $('bubble');
 const say = $('say');
 let bubbleUntil = 0;
 function speak(text: string, ms = 2800): void {
+  bubble.textContent = text;
