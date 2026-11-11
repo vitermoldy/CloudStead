@@ -401,3 +401,4 @@ export class Character {
         this.gear.delete(kind);
       }
       return null;
+    }
