@@ -95,3 +95,4 @@ function tabs() {
 
 /* ---------------------------------------------------------------- numbers */
 // the first number in the element's text: "8,402", "4.2", "64%", "EUR 1.200", "12k"
+// separators: . , and the no-break spaces (U+00A0, U+202F); a plain space ends the number ("12 4 h" is 12)
