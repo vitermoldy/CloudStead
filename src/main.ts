@@ -299,3 +299,4 @@ function renderHud(force = false): void {
     lastDigits = text;
     digits.forEach((d, i) => {
       d.textContent = text[i] ?? '0';
+    });
