@@ -565,3 +565,4 @@ $('reset-confirm').addEventListener('click', () => {
   world?.resetView();
   justBuilt = null;
   renderIsland();
+  renderHud(true);
