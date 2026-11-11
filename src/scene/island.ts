@@ -174,3 +174,4 @@ export class Island {
     this.highlight = this.frame(0.99, 0.022, new MeshBasicMaterial({ color: '#f3efd9', transparent: true, opacity: 0, depthTest: false }));
     this.highlight.renderOrder = 20;
     this.highlight.visible = false;
+    this.group.add(this.highlight);
