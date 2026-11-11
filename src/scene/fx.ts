@@ -191,3 +191,4 @@ export class Fx {
       }
       return;
     }
+    this.birdT += dt;
