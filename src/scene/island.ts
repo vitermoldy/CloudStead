@@ -64,3 +64,4 @@ function rockGeometry(cell: Cell, depth: number): BufferGeometry {
   for (let r = 0; r < rings; r++) {
     for (let s = 0; s < sides; s++) {
       const a = pts[r][s], b = pts[r][(s + 1) % sides], c = pts[r + 1][s], d = pts[r + 1][(s + 1) % sides];
+      tri(a, b, c);
