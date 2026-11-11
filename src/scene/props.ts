@@ -698,3 +698,4 @@ export class PropsLayer {
         e.group.scale.set(1 + w, 1 - w, 1 + w);
       }
       e.update?.(dt, ctx, e);
+    }
