@@ -46,3 +46,4 @@ html:not([data-motion="off"]) .btn--secondary:hover {
 html:not([data-motion="off"]) .btn:hover { transition-duration: var(--m-in), var(--m-in), var(--m-in), var(--m-in), var(--m-press); }
 html:not([data-motion="off"]) .btn:active { transform: translateY(1px) scale(.985); }
 /* the step: a button rises 1px on hover (2px on the large size) and presses 1px down with a 1.5% shrink on
+   click; pointer only. The text-link secondary (arrow and block looks) keeps its underline and does not step.
