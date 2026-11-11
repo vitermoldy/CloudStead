@@ -652,3 +652,4 @@ export class PropsLayer {
   }
 
   clear(): void {
+    this.remove(() => true);
