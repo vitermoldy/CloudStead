@@ -231,3 +231,4 @@ export class Island {
   tileTop(cell: Cell, out = new Vector3()): Vector3 | null {
     const t = this.tiles.get(cellKey(cell));
     if (!t) return null;
+    return out.set(cell[0], t.group.position.y + 0.02, cell[1]);
