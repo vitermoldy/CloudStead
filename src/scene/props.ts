@@ -644,3 +644,4 @@ export class PropsLayer {
       if (!match(e)) continue;
       this.group.remove(e.group);
       e.group.traverse((o) => {
+        const m = o as Mesh;
