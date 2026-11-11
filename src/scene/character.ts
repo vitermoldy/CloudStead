@@ -583,3 +583,4 @@ export class Character {
         this.act = step.act;
         this.stepT += dt;
         if (this.stepT >= step.seconds) this.next();
+        return;
