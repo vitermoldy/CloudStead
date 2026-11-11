@@ -236,3 +236,4 @@ export class Fx {
     fm.opacity = Math.max(0, (night - 0.5) * 2) * 0.9;
     if (fm.opacity > 0.01) {
       const pos = this.fireflies.geometry.getAttribute('position') as BufferAttribute;
+      const spread = reach / 3;
