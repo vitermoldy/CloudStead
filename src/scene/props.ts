@@ -457,3 +457,4 @@ function waterfall(): Group {
   channel.rotation.x = -Math.PI / 2;
   channel.position.set(0, 0.02, 0.3);
   g.add(channel);
+  const mat = new ShaderMaterial({
