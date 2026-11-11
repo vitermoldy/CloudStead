@@ -332,3 +332,4 @@ export class Island {
     const s = new Vector3();
     const p = new Vector3();
     const up = new Vector3(0, 1, 0);
+    let i = 0;
