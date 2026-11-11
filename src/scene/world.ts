@@ -813,3 +813,4 @@ export class World extends Emitter {
     this.step(dt);
     this.render();
     this.adapt(dt);
+    this.onFrame?.(dt);
