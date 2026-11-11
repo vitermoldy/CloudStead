@@ -214,3 +214,4 @@ export class Island {
       if (this.tiles.has(key)) continue;
       const t = this.buildTile(c);
       t.rise = 0;
+      t.target = 0;
