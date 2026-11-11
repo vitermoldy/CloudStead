@@ -148,3 +148,4 @@ export class Island {
     bladeMat.onBeforeCompile = (shader) => {
       Object.assign(shader.uniforms, this.grassUniforms);
       shader.vertexShader = shader.vertexShader
+        .replace('#include <common>', '#include <common>\nuniform float uTime;\nuniform vec3 uCursor;\nuniform float uWind;')
