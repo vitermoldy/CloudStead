@@ -398,3 +398,4 @@ export class World extends Emitter {
     } else {
       steps.push(...this.walkTo(stand));
     }
+    if (m.work === 'build') {
