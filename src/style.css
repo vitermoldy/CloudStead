@@ -267,3 +267,4 @@ fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
 .choice strong { display: block; font: 500 17px/1.2 var(--font-display); color: var(--ink); margin-bottom: 2px; }
 .choice input { margin: 3px 0 0; width: 18px; height: 18px; accent-color: var(--accent); flex: none; }
 .choice:has(input:checked) { border-color: var(--accent); background: rgba(240, 160, 75, .07); }
+.segments { display: flex; flex-wrap: wrap; gap: 6px; }
