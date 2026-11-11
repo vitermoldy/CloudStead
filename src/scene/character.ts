@@ -229,3 +229,4 @@ export class Character {
   musicOn = false;
 
   private torso: Mesh;
+  private hood: Mesh;
