@@ -933,3 +933,4 @@ export class World extends Emitter {
     this.fx.update(dt, t, L.night, reach);
     this.tweens = this.tweens.filter((fn) => !fn(dt));
 
+    if (this.hoverDirty) this.pick();
