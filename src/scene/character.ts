@@ -49,3 +49,4 @@ function reach(a: Vector3, target: Vector3, l1: number, l2: number, pole: Vector
   end.copy(a).addScaledVector(dir, dist);
 }
 
+/** Places a capsule of fixed length between two points. */
