@@ -223,3 +223,4 @@ export class Character {
   private happy = 0;
   /** What the pointer or the work asks the head to look at. */
   looking: Vector3 | null = null;
+  private workPoint: Vector3 | null = null;
