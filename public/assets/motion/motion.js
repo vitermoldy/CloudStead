@@ -9,3 +9,4 @@
     before the first paint:
     <script>document.documentElement.classList.add('m-enter');setTimeout(()=>document.documentElement.classList.add('m-enter-done'),700)</script>
 
+  - nav: .m-menu-open from the moment a menu starts to show (150ms of intent), so the next word swaps the panel at once
