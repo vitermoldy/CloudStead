@@ -133,3 +133,4 @@ export class Progress extends Emitter {
     const clean = name.replace(/\s+/g, ' ').trim().slice(0, 18);
     this.data.name = clean || DEFAULT_NAME;
     this.persist(true);
+    this.emit('change');
