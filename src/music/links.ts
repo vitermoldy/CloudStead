@@ -146,3 +146,4 @@ export const ERROR_TEXT: Record<number, string> = {
   5: 'Video ini tidak bisa diputar di pemutar browser.',
   100: 'Video ini sudah dihapus atau dijadikan pribadi.',
   101: 'Video ini tidak bisa diputar di luar YouTube: pemiliknya membatasi, atau siarannya sudah berakhir.',
+  150: 'Video ini tidak bisa diputar di luar YouTube: pemiliknya membatasi, atau siarannya sudah berakhir.',
