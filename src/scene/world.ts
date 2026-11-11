@@ -806,3 +806,4 @@ export class World extends Emitter {
   }
 
   private tick(): void {
+    const now = performance.now();
