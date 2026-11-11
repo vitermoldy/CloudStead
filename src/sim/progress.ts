@@ -8,3 +8,4 @@ export interface ProgressData {
   todayDate: string;
   sessions: number;
   /** Milestone id -> ISO date it was reached. */
+  reachedAt: Record<string, string>;
