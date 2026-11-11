@@ -222,3 +222,4 @@ export function createClouds(count: number): Clouds {
   geo.setAttribute('aMeta', aMeta);
   geo.instanceCount = n;
 
+  const material = new ShaderMaterial({
