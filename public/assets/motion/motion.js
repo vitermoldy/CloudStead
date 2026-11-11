@@ -241,3 +241,4 @@ function loops() {
   const io = new IntersectionObserver(es => es.forEach(e => e.target.classList.toggle('is-m-off', !e.isIntersecting)), { rootMargin: '48px' });
   els.forEach(el => {
     el.__mLoop = true;
+    io.observe(el);
