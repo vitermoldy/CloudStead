@@ -51,3 +51,4 @@ export class MusicPlayer extends Emitter {
 
   /** Adds a link and returns it, or throws LinkError. */
   add(raw: string, playNow = false): QueueItem {
+    const parsed = parseLink(raw);
