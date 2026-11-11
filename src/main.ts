@@ -105,3 +105,4 @@ async function startWorld(): Promise<void> {
   w.on('pop', () => ambient.pop());
   w.on('land', () => ambient.land());
   w.on('built', (m: Milestone) => {
+    justBuilt = { text: m.done, until: performance.now() + 9000 };
