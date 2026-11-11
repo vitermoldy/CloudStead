@@ -6,3 +6,4 @@ export interface QueueItem extends ParsedLink {
   id: string;
   title: string;
   author: string;
+  thumb: string;
