@@ -140,3 +140,5 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 .big__d { display: inline-block; width: 0.56em; text-align: center; }
 .big__c { display: inline-block; width: 0.26em; text-align: center; transform: translateY(-0.06em); }
 .big[data-ink="dark"] { color: var(--bg); text-shadow: 0 0 60px rgba(255, 255, 255, .2); }
+.big.is-paused .big__c { opacity: .45; }
+
