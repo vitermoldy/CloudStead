@@ -41,3 +41,4 @@ tetap berjalan; hanya pulaunya yang tidak tergambar.
   simpananmu.
 - **Musik.** Tempel tautan YouTube atau YouTube Music (lagu, album, playlist publik). Ada dua
   radio Lofi Girl sebagai saran; alamat siaran langsung bisa berganti, jadi kalau salah satunya
+  berhenti, ganti ID-nya di [src/music/links.ts](src/music/links.ts).
