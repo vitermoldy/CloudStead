@@ -218,3 +218,4 @@ export class Ambient {
     bp.frequency.value = freq;
     bp.Q.value = q;
     const g = ctx.createGain();
+    g.gain.setValueAtTime(0.0001, t);
