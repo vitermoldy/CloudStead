@@ -526,3 +526,4 @@ export class Character {
       return;
     }
     const turnTo = (x: number, z: number, rate = 8) => {
+      const want = Math.atan2(x - pos.x, z - pos.z);
