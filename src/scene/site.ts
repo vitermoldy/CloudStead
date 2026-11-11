@@ -40,3 +40,4 @@ export class PropSite {
     const stake = new CylinderGeometry(0.012, 0.012, 0.16, 4);
     const corners = [[-0.44, -0.44], [0.44, -0.44], [0.44, 0.44], [-0.44, 0.44]];
     for (const [x, z] of corners) {
+      const m = new Mesh(stake, STAKE);
