@@ -10,3 +10,4 @@ import { cellKey, type Cell, type PropKind } from '../sim/milestones';
 export interface PropContext {
   night: number;
   time: number;
+  todayMinutes: number;
