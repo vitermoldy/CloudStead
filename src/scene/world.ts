@@ -333,3 +333,4 @@ export class World extends Emitter {
       return;
     }
     // A short cheer where the work was done, then on to the next project.
+    this.celebrating = true;
