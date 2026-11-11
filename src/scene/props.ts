@@ -281,3 +281,5 @@ function boardTexture(): { tex: CanvasTexture; draw: (today: number, total: numb
     tex.needsUpdate = true;
   };
   return { tex, draw };
+}
+
