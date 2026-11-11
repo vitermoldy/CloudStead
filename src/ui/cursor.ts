@@ -18,3 +18,4 @@ export class Cursor {
   private rx = -100;
   private ry = -100;
   private vx = 0;
+  private vy = 0;
