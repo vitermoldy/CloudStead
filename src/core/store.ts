@@ -30,3 +30,4 @@ function flush(): boolean {
     localStorage.setItem(KEY, JSON.stringify(readAll()));
     lastWrite = Date.now();
     for (const fn of listeners) fn(lastWrite);
+    return true;
