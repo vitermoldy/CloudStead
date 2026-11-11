@@ -130,3 +130,4 @@ export async function fetchDetails(item: { kind: string; videoId: string | null;
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), 7000);
   try {
+    const res = await fetch(`https://www.youtube.com/oembed?format=json&url=${encodeURIComponent(target)}`, { signal: ctrl.signal });
