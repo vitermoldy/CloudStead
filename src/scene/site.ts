@@ -93,3 +93,4 @@ export class PropSite {
     if (Math.abs(k - this.p) < 0.0005) return;
     this.p = k;
     const mode = REVEAL[this.kind];
+    if (mode === 'rise') {
