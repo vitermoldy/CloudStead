@@ -304,3 +304,4 @@ fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
   background: var(--card); color: var(--ink);
 }
 .confirm::backdrop { background: rgba(0, 0, 0, .55); }
+.confirm__title { margin: 0 0 8px; font: 500 24px/1.15 var(--font-display); }
