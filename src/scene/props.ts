@@ -299,3 +299,5 @@ function board(): Group {
   g.userData.draw = draw;
   g.userData.drawn = -1;
   return g;
+}
+
