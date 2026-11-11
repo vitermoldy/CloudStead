@@ -86,3 +86,4 @@ export class MusicPlayer extends Emitter {
       } else {
         this.current = Math.min(index, this.queue.length - 1);
         if (this.isPlaying) this.play(this.current);
+        else this.cue(this.current);
