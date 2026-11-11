@@ -34,3 +34,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
     }
   };
 
+  form.addEventListener('submit', (e) => {
