@@ -95,3 +95,4 @@ function bladeGeometry(): BufferGeometry {
     cols.push(c.r, c.g, c.b);
   }
   g.setAttribute('color', new BufferAttribute(new Float32Array(cols), 3));
+  g.setIndex(idx);
