@@ -720,3 +720,4 @@ export class Character {
         case 'carry':
           t.set(s * 0.075, this.hipY + 0.17, 0.13);
           break;
+        case 'hammer':
