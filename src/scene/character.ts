@@ -607,3 +607,4 @@ export class Character {
   }
 
   /** Between the two hands, in the world: where a hauled rope starts. */
+  handsWorld(out = new Vector3()): Vector3 {
