@@ -540,3 +540,4 @@ importInput.addEventListener('change', async () => {
     } catch {
       /* no session storage: the reload still shows the island */
     }
+    location.reload();
