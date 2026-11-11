@@ -760,3 +760,4 @@ export class Character {
     }
     const elbows = [new Vector3(), new Vector3()];
     for (let i = 0; i < 2; i++) {
+      this.hands[i].lerp(targets[i], 1 - Math.exp(-12 * dt));
