@@ -41,3 +41,4 @@ function puffAtlas(): DataTexture {
           cover = Math.max(cover, Math.min(1, Math.max(0, 0.5 + (c.r - d) / (24 / CELL))));
           if (d - c.r < nearest && d > 0) {
             nearest = d - c.r;
+            rx = dx / d;
