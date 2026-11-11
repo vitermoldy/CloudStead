@@ -936,3 +936,4 @@ export class World extends Emitter {
     if (this.hoverDirty) this.pick();
     // Step back while new cells rise, so the grown island stays in frame.
     if (this.refitT > 0 && !this.dragging) {
+      this.refitT = Math.max(0, this.refitT - dt);
