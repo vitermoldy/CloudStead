@@ -398,3 +398,4 @@ export class Character {
     if (!on) {
       if (had) {
         had.removeFromParent();
+        this.gear.delete(kind);
