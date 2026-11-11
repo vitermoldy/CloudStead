@@ -236,3 +236,4 @@ function pole(): Group {
     const line = new Line(new BufferGeometry().setFromPoints(pts), wire);
     line.userData.late = true;
     g.add(line);
+  }
