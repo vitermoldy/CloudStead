@@ -299,3 +299,4 @@ export class Island {
       for (let side = 0; side < 4; side++) {
         for (let i = 0; i < 3; i++) {
           const m = new Mesh(dash, mat);
+          const along = -0.32 + i * 0.32;
