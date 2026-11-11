@@ -63,3 +63,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
           float r = hash(cell);
           float star = step(0.9965, r) * smoothstep(0.05, 0.35, h);
           float tw = 0.65 + 0.35 * sin(uTime * (0.6 + r * 2.0) + r * 40.0);
+          col += vec3(0.85, 0.9, 1.0) * star * tw * uStars;
