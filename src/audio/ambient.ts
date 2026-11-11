@@ -39,3 +39,4 @@ export class Ambient {
   }
 
   /** Call from a user gesture. */
+  start(): void {
