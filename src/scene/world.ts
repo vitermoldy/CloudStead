@@ -349,3 +349,4 @@ export class World extends Emitter {
     if (this.mode === 'work' && this.project) {
       this.planWork(this.project);
       return;
+    }
