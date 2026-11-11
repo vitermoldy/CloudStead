@@ -203,3 +203,4 @@ const hostOf = el => el.closest('.card, .tile, .menu-card, a') || boxOf(el);
 
 function restart(loop) {
   if (reduced() || loop.classList.contains('is-m-paused')) return;
+  // the page's keyframe loops only: a hover transition in the panel (the pause button's) is no cycle.
