@@ -127,3 +127,4 @@ export class PropSite {
   }
 
   /** One more armful of planks on the pile. */
+  deliver(): void {
