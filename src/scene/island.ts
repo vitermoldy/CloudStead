@@ -138,3 +138,4 @@ export class Island {
   onLanded: ((cell: Cell) => void) | null = null;
 
   constructor() {
+    this.grassMat = new MeshStandardMaterial({ color: '#6b7b36', roughness: 0.95 });
