@@ -97,3 +97,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
       meta.textContent = q.status === 'error' ? q.error : [q.author, q.kind === 'playlist' ? 'playlist' : '', q.source].filter(Boolean).join(' · ');
       btn.append(t, meta);
       btn.addEventListener('click', () => player.play(i));
+      const rm = document.createElement('button');
