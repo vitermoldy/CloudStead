@@ -27,3 +27,4 @@
   Under prefers-reduced-motion: no entrance, no indicator travel, no tick, no loops, no restart.
 */
 const html = document.documentElement;
+const reducedQ = matchMedia('(prefers-reduced-motion: reduce)');
