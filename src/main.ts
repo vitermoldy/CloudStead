@@ -114,3 +114,4 @@ async function startWorld(): Promise<void> {
   });
   greetBtn.hidden = false;
   w.onFrame = () => {
+    positionGreet();
