@@ -157,3 +157,4 @@ export class MusicPlayer extends Emitter {
     item.error = '';
     this.persist();
     this.emit('change');
+    if (!(await this.ensurePlayer()) || !this.player) return;
