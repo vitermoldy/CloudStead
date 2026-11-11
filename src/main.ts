@@ -329,3 +329,4 @@ function renderHud(force = false): void {
     $('next-label').textContent = '';
     $('next-title').textContent = 'Semua sudah dibangun';
     $('next-left').textContent = `total ${formatMinutes(progress.minutes)}`;
+    fill.style.width = '100%';
