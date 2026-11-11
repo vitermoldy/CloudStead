@@ -463,3 +463,4 @@ function waterfall(): Group {
     side: DoubleSide,
     uniforms: { uTime: { value: 0 }, uNight: { value: 0 } },
     vertexShader: /* glsl */ `
+      varying vec2 vUv;
