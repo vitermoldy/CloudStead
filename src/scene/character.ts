@@ -337,3 +337,4 @@ export class Character {
 
     this.buildTools();
 
+    const ghost = new MeshBasicMaterial({ visible: false });
