@@ -672,3 +672,4 @@ export class PropsLayer {
     return BLOCKING.has(kind);
   }
 
+  /** The prop under the pointer ray, with the point it was hit. */
