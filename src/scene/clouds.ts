@@ -89,3 +89,5 @@ function puffAtlas(): DataTexture {
   tex.generateMipmaps = false;
   tex.needsUpdate = true;
   return tex;
+}
+
