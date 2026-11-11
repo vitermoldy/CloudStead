@@ -161,3 +161,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
   display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px;
   padding: 0 18px; border-radius: 999px; border: 1px solid transparent; font-size: 15px; font-weight: 500;
   text-decoration: none; white-space: nowrap; user-select: none;
+}
