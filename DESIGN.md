@@ -61,3 +61,4 @@ dial **ENERGY 3 / RHYTHM 1 / MOTION 3**.
 
 ## Motion and why
 
+- Scene entrance: the still poster fades as the live island comes in.
