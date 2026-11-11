@@ -338,3 +338,4 @@ export class Character {
     this.buildTools();
 
     const ghost = new MeshBasicMaterial({ visible: false });
+    this.hitBody = new Mesh(new CapsuleGeometry(0.16, 0.22, 4, 8), ghost);
