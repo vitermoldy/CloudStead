@@ -252,3 +252,4 @@ function lamp(): Group {
   g.add(light);
   g.userData.bulb = bulbMat;
   g.userData.light = light;
+  return g;
