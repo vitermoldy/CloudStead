@@ -303,3 +303,4 @@ function maskWords(h1) {
   const label = h1.hasAttribute('aria-label');
   if (!label) h1.setAttribute('aria-label', own.textContent.replace(/\s+/g, ' ').trim());
   h1.append(copy);
+  h1.querySelectorAll('.m-w').forEach(w => w.setAttribute('aria-hidden', 'true'));
