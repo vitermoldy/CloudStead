@@ -15,3 +15,4 @@ export interface PropContext {
 }
 
 export interface PropEntry {
+  kind: PropKind;
