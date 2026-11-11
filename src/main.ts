@@ -405,3 +405,4 @@ function openPanel(id: string | null, focus = true): void {
   const was = openId;
   openId = id;
   if (id) {
+    if (id === 'island') renderIsland();
