@@ -37,3 +37,4 @@ tetap berjalan; hanya pulaunya yang tidak tergambar.
 - **Simpan dan reset.** Progres tersimpan otomatis di browser (localStorage). Tombol simpan
   (ikon disket, atau tombol S) menyimpan saat itu juga. Di panel **Pulau** ada unduh berkas
   simpanan (JSON), muat berkas, dan reset progres (dengan konfirmasi).
+- **Pratinjau.** `?pratinjau=1400` menampilkan pulau setelah 1400 menit fokus tanpa menyentuh
