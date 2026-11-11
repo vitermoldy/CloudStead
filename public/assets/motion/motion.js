@@ -319,3 +319,4 @@ function enterSteps(hero, h1, media) {
   const take = el => {
     if (el === h1 || el.contains(h1) || out.includes(el) || el.matches('img, picture, video, canvas, .frame__img')) return;
     if (media.includes(el) || media.some(m => el.contains(m))) return;
+    if (el.matches('.btn-row')) { [...el.children].forEach(take); return; }
