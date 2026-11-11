@@ -305,3 +305,4 @@ export class World extends Emitter {
       }
     } else if (m.kind === 'tiles' && m.tiles) {
       for (const c of m.tiles) this.island.setRise(c, 1);
+      if (instant) this.island.settle();
