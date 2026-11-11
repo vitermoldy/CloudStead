@@ -46,3 +46,5 @@ tetap berjalan; hanya pulaunya yang tidak tergambar.
   browser: angin, burung siang dan jangkrik malam, suara kerja VMK (palu, sekop, tali, ketikan), dan
   suara selesai membangun.
 
+## Bermain dengan VMK
+
