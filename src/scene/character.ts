@@ -856,3 +856,4 @@ export class Character {
     this.screenTick -= dt;
     if (this.screenTick <= 0) {
       this.screenTick = act === 'type' ? 0.35 : 1.5;
+      if (act === 'type') this.screenLines++;
