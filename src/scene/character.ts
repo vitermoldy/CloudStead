@@ -286,3 +286,4 @@ export class Character {
       this.blush.push(cheek);
       const ear = new Mesh(new SphereGeometry(0.018, 8, 6), SKIN);
       ear.position.set(s * 0.083, -0.005, 0);
+      this.head.add(eye, arc, cheek, ear);
