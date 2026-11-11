@@ -371,3 +371,4 @@ html.has-cursor .cursor.is-on { opacity: 1; }
 .cursor[data-state="pet"] .cursor__ring::after {
   content: ""; position: absolute; inset: -6px; border-radius: 50%; border: 1.5px solid var(--accent);
   animation: pat 420ms ease-in-out infinite alternate;
+}
