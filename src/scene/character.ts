@@ -890,3 +890,4 @@ export class Character {
     const handL = this.palms[0].position;
     const t = this.tools;
     t.hammer.visible = act === 'hammer' && this.waveT <= 0;
+    t.shovel.visible = act === 'dig';
