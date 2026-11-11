@@ -726,3 +726,4 @@ export class Character {
         case 'dig':
           t.set(i === R ? -0.035 : 0.035, (i === R ? this.hipY + 0.26 : this.hipY + 0.12) - dip, i === R ? 0.06 : 0.14);
           break;
+        case 'water':
