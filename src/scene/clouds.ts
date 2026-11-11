@@ -306,3 +306,4 @@ export function createClouds(count: number): Clouds {
         gl_FragColor = vec4(col, a);
         #include <colorspace_fragment>
       }
+    `,
