@@ -155,3 +155,4 @@ function onHover(h: Hover & { dragging?: boolean }, petting: boolean): void {
       cursor.set('char', sleeping ? 'Bangunkan' : `Sapa ${progress.name}`);
       break;
     }
+    case 'prop':
