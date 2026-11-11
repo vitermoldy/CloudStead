@@ -149,3 +149,4 @@ export class FocusTimer extends Emitter {
       this.phase = 'focus';
     }
     this.remainingMs = this.lengthMs();
+    this.running = keepRunning;
