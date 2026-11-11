@@ -668,3 +668,4 @@ export class World extends Emitter {
       this.camera.position.copy(this.controls.target).addScaledVector(dir, this.dist);
     }
     this.camera.updateProjectionMatrix();
+    this.hoverDirty = true;
