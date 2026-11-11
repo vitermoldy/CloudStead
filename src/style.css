@@ -297,3 +297,5 @@ fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
 .build li.is-next .build__when { color: var(--accent); }
 
 .link { color: var(--ink); text-decoration: underline; text-decoration-color: var(--line-strong); text-underline-offset: 3px; }
+.link:hover { text-decoration-color: var(--ink); }
+
