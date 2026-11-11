@@ -66,3 +66,4 @@ function puffAtlas(): DataTexture {
           ny = sy / ws;
           nz = sz / ws;
         }
+        // A soft, slightly wavy base: a long straight line under a big cloud reads as a cut.
