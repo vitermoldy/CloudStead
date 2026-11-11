@@ -378,3 +378,4 @@ function windmill(): Group {
 
 function bench(): Group {
   const g = new Group();
+  for (const z of [-0.06, 0.06]) g.add(mesh(new BoxGeometry(0.66, 0.03, 0.1), WOOD, 0, 0.24, z));
