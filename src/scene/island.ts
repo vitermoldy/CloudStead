@@ -376,3 +376,5 @@ export class Island {
   cellAt(x: number, z: number): Cell | null {
     const c: Cell = [Math.round(x), Math.round(z)];
     return this.has(c) ? c : null;
+  }
+
