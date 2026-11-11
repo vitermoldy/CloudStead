@@ -21,3 +21,4 @@ function tint(hex: string, rand: () => number, spread: number): Color {
 
 /** The rock under one cell: a tapered, faceted column whose top is the cell's exact square. */
 function rockGeometry(cell: Cell, depth: number): BufferGeometry {
+  const rand = rng(hash(cell));
