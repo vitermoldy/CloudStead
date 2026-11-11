@@ -122,3 +122,4 @@ function layout(count: number): Puff[] {
     const height = 7 + rand() * 15;
     const n = 9 + Math.floor(rand() * 8);
     for (let i = 0; i < n; i++) {
+      const k = i / n;
