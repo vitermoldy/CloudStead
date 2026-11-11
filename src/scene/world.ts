@@ -498,3 +498,4 @@ export class World extends Emitter {
       for (const [dx, dz] of [[1, 0], [-1, 0], [0, 1], [0, -1], [1, 1], [1, -1], [-1, 1], [-1, -1]]) {
         const n: Cell = [c[0] + dx, c[1] + dz];
         const nk = cellKey(n);
+        if (prev.has(nk) || !free(n)) continue;
