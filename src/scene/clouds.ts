@@ -301,3 +301,4 @@ export function createClouds(count: number): Clouds {
         col += uLit * rim * 0.35 + uLit * pow(vToward, 6.0) * (1.0 - nz) * 0.9;
         col = mix(col, uFog, smoothstep(70.0, 190.0, vDist) * 0.8);
 
+        // Film grain, fixed to the screen, as in the reference render.
