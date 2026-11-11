@@ -74,3 +74,4 @@ export class MusicPlayer extends Emitter {
     return item;
   }
 
+  remove(index: number): void {
