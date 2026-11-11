@@ -71,3 +71,5 @@ export const MILESTONES: Milestone[] = [
   { id: 'air-terjun', minutes: 1400, title: 'Air terjun', done: 'Kolam meluap jadi air terjun ke lautan awan.', doing: 'membuka aliran air terjun dari kolam', work: 'dig', kind: 'prop', prop: 'waterfall', at: [2, 2] },
 ];
 
+export const TOTAL_MINUTES = MILESTONES[MILESTONES.length - 1].minutes;
+
