@@ -316,3 +316,4 @@ function pondShape(): Shape {
 }
 
 function pond(): Group {
+  const g = new Group();
