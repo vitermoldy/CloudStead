@@ -67,3 +67,4 @@ export class World extends Emitter {
   private celebrating = false;
   private rope: Line;
   private ropeCell: Cell | null = null;
+  private tweens: ((dt: number) => boolean)[] = [];
