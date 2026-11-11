@@ -475,3 +475,4 @@ function renderSaveStatus(): void {
     : 'Progres tersimpan otomatis di browser ini setiap kali waktu fokus bertambah.';
 }
 
+let savedFlash = 0;
