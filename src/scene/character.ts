@@ -390,3 +390,5 @@ export class Character {
       g.visible = false;
       this.rig.add(g);
     }
+  }
+
