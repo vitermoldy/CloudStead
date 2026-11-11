@@ -389,3 +389,4 @@ function bench(): Group {
 
 function pine(): Group {
   const g = new Group();
+  g.add(mesh(new CylinderGeometry(0.04, 0.07, 0.5, 6), WOOD_DARK, 0, 0.25, 0));
