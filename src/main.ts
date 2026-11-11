@@ -460,3 +460,4 @@ function renderIsland(): void {
     li.append(mark, sr, title, when);
     return li;
   }));
+  renderSaveStatus();
