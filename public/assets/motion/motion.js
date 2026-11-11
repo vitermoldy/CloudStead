@@ -160,3 +160,4 @@ function counts() {
     const ctl = {
       /** measure the final number in the page's font and hold its width; false while it has none (hidden) */
       arm() {
+        if (state === 'run' || state === 'done') return false;
