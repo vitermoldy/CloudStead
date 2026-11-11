@@ -255,3 +255,4 @@ export class World extends Emitter {
     } else if (m.kind === 'tiles' && m.tiles) {
       this.island.addPending(m.tiles);
     }
+    if (!this.celebrating) this.replan = true;
