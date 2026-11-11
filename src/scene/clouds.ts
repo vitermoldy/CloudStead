@@ -220,3 +220,5 @@ export function createClouds(count: number): Clouds {
   geo.setAttribute('aOffset', aOffset);
   geo.setAttribute('aSize', aSize);
   geo.setAttribute('aMeta', aMeta);
+  geo.instanceCount = n;
+
