@@ -176,3 +176,4 @@ function cloudFloor(): { mesh: Mesh; material: ShaderMaterial } {
       void main() {
         vec2 p = vWorld.xz * 0.05 + vec2(uTime * 0.006, 0.0);
         float h = fbm(p);
+        float e = 0.03;
