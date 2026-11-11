@@ -136,3 +136,4 @@ function garden(): Group {
       }
     }
   }
+  return g;
