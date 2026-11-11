@@ -669,3 +669,4 @@ export class PropsLayer {
   }
 
   isBlocking(kind: PropKind): boolean {
+    return BLOCKING.has(kind);
