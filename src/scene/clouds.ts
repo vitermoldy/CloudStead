@@ -229,3 +229,4 @@ export function createClouds(count: number): Clouds {
     fog: false,
     toneMapped: false,
     uniforms: {
+      uAtlas: { value: puffAtlas() },
