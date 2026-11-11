@@ -340,3 +340,4 @@ export class World extends Emitter {
     ]);
   }
 
+  /** Decides what the resident does next. Runs whenever a plan ends or the situation changes. */
