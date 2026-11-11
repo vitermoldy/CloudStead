@@ -63,3 +63,4 @@ function puffAtlas(): DataTexture {
             ws += wgt;
           }
           nx = sx / ws;
+          ny = sy / ws;
