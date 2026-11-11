@@ -83,3 +83,4 @@ export function parseSaveFile(text: string): Bag {
   let parsed: unknown;
   try {
     parsed = JSON.parse(text);
+  } catch {
