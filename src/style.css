@@ -96,3 +96,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 .tab__brand { margin: 0; font: 500 19px/1 var(--font-display); letter-spacing: -0.02em; white-space: nowrap; padding-right: clamp(4px, 1vw, 12px); }
 .tab__nav { display: flex; align-items: center; }
 .tab__item {
+  position: relative; min-height: 48px; padding: 0 clamp(10px, 1.6vw, 22px); border: 0; background: none;
