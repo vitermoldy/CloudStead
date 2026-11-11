@@ -574,3 +574,4 @@ nameInput.addEventListener('change', () => {
   progress.rename(nameInput.value);
   nameInput.value = progress.name;
   nameTag();
+  if (world) world.character.name = progress.name;
