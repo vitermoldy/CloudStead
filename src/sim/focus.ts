@@ -8,3 +8,5 @@ export const PRESETS = {
   long: { label: '50 menit fokus, 10 menit istirahat', focus: 50, short: 10, long: 20, rounds: 3 },
 } as const;
 
+export type PresetId = keyof typeof PRESETS;
+
