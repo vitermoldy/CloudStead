@@ -72,3 +72,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
       }
     `,
   });
+  const below = new Color();
