@@ -684,3 +684,4 @@ export class Character {
 
     // ---- arms
     const shoulders = [neck.clone().addScaledVector(side, 0.09).addScaledVector(this.spine, -0.03), neck.clone().addScaledVector(side, -0.09).addScaledVector(this.spine, -0.03)];
+    const lapY = this.hipY + 0.07;
