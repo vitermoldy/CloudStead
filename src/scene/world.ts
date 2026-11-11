@@ -887,3 +887,4 @@ export class World extends Emitter {
       this.emitHover();
     }
     if (p?.petting) {
+      this.heartClock -= dt;
