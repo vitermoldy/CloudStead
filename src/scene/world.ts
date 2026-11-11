@@ -685,3 +685,4 @@ export class World extends Emitter {
       this.hoverDirty = true;
       this.nudge();
       if (this.press && Math.hypot(e.clientX - this.press.x, e.clientY - this.press.y) > 6) this.press.moved = true;
+    });
