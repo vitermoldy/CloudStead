@@ -527,3 +527,4 @@ importInput.addEventListener('change', async () => {
   const err = $('save-error');
   err.textContent = '';
   if (!file) return;
+  if (isReadOnly()) {
