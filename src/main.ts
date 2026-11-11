@@ -546,3 +546,4 @@ importInput.addEventListener('change', async () => {
   }
 });
 
+const resetDialog = $<HTMLDialogElement>('reset-dialog');
