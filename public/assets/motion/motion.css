@@ -140,3 +140,4 @@ html:not([data-motion="off"]) .tabs.m-has-ind .tab[aria-selected="true"] { backg
    the old tab's size at the old place and settles to scale 1 at the new one), so nothing is laid out
    again while it moves and its corners are true at rest */
 .m-tab-ind {
+  position: absolute; left: 0; top: 0; z-index: 0; width: var(--w, 0px); height: var(--h, 0px);
