@@ -342,3 +342,4 @@ function enter() {
   if (html.classList.contains('m-enter-done')) return late();
   const h1 = hero.querySelector('h1');
   if (!h1) return done(true);
+  const media = [...hero.querySelectorAll(ENTER_MEDIA)].filter((m, i, all) => !all.some(o => o !== m && o.contains(m)));
