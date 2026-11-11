@@ -6,3 +6,4 @@ export class Emitter {
 
   on(event: string, fn: Handler): () => void {
     let set = this.handlers.get(event);
+    if (!set) {
