@@ -350,3 +350,5 @@ export class Character {
     });
     this.root.position.copy(this.home);
     this.seat.position.copy(this.home);
+  }
+
