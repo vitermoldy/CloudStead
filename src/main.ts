@@ -489,3 +489,4 @@ function saveProgress(): void {
   const icon = $('save-now');
   if (ok) {
     toast(`Progres tersimpan, pukul ${clockNow()}.`);
+    icon.classList.add('is-saved');
