@@ -92,3 +92,4 @@ html:not([data-motion="off"]) :is(.link, .m-link, p a:not([class]), .footer ul a
   padding-bottom: 2px;
 }
 /* set on its own rule: the shared rule above is (0,3,1) through :is(.footer .link) and would win */
+html:not([data-motion="off"]) p a:not([class]) { --m-rest: color-mix(in oklab, currentColor 45%, transparent); }
