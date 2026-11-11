@@ -162,3 +162,4 @@ export class Island {
           wpos.y -= push * 0.06 * k;
           vec4 mvPosition = modelViewMatrix * wpos;
           gl_Position = projectionMatrix * mvPosition;
+        `);
