@@ -36,3 +36,4 @@ function puffAtlas(): DataTexture {
         let best = -1, cover = 0, nearest = Infinity, rx = 0, ry = 0;
         for (const c of circles) {
           const dx = x - c.x, dy = y - c.y;
+          const d = Math.hypot(dx, dy);
