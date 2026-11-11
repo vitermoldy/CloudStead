@@ -133,3 +133,4 @@ function layout(count: number): Puff[] {
   return puffs;
 }
 
+/** The floor of the cloud sea: one wide disc, billowing in light and shade, fading into the haze. */
