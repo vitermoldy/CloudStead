@@ -353,3 +353,4 @@ html.has-cursor .cursor.is-on { opacity: 1; }
   box-shadow: 0 0 0 1.5px rgba(13, 14, 17, .5);
 }
 .cursor__ring {
+  width: 38px; height: 38px; margin: -19px 0 0 -19px; border-radius: 50%;
