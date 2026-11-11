@@ -17,3 +17,4 @@
   --action-ink: var(--p-bg);
   --card: var(--p-surface);
   --line: rgba(231, 228, 209, 0.14);
+  --line-strong: rgba(231, 228, 209, 0.32);
