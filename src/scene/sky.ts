@@ -21,3 +21,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
     vertexShader: /* glsl */ `
       varying vec3 vDir;
       void main() {
+        vDir = normalize(position);
