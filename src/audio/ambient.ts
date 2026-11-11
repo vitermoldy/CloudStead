@@ -247,3 +247,4 @@ export class Ambient {
 
   knock(work = false): void {
     if (work) {
+      // On the work channel, so the "work" switch silences it.
