@@ -328,3 +328,4 @@ export class World extends Emitter {
     const reached = new Set(MILESTONES.filter((x) => x.minutes <= m.minutes).map((x) => x.id));
     this.updateGhosts(reached);
     if (instant) {
+      this.frame();
