@@ -33,3 +33,4 @@ const PRESS_TO_PET = 0.45;
  */
 export class World extends Emitter {
   readonly renderer: WebGLRenderer;
+  readonly camera = new PerspectiveCamera(32, 1, 0.1, 1500);
