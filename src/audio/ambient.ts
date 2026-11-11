@@ -36,3 +36,5 @@ export class Ambient {
 
   get started(): boolean {
     return this.ctx !== null;
+  }
+
