@@ -471,3 +471,4 @@ export class Character {
     if (on === this.musicOn) return;
     this.musicOn = on;
     if (this.gear.has('headphones')) {
+      this.gear.get('headphones')!.removeFromParent();
