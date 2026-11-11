@@ -14,3 +14,4 @@ const hash = (c: Cell) => ((c[0] + 11) * 73856093) ^ ((c[1] + 7) * 19349663);
 function tint(hex: string, rand: () => number, spread: number): Color {
   const c = new Color(hex);
   const hsl = { h: 0, s: 0, l: 0 };
+  c.getHSL(hsl);
