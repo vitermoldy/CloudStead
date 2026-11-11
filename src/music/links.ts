@@ -136,3 +136,4 @@ export async function fetchDetails(item: { kind: string; videoId: string | null;
     return { title: data.title, author: data.author_name, thumb: data.thumbnail_url };
   } catch {
     return null;
+  } finally {
