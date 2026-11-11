@@ -82,3 +82,4 @@ interface Particle {
   active: boolean;
 }
 
+export class Fx {
