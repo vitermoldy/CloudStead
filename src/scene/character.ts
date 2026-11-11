@@ -929,3 +929,4 @@ export class Character {
       const s = (0.25 + 0.75 * p) * (this.craftKind === 'cushion' ? 0.55 : 0.85);
       this.craftPiece.scale.setScalar(Math.max(0.05, s));
       this.craftPiece.rotation.set(this.craftKind === 'beanie' || this.craftKind === 'headphones' ? -0.6 : 0, 0, 0);
+    }
