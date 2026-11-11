@@ -28,3 +28,4 @@ function flush(): boolean {
   if (readOnly) return false;
   try {
     localStorage.setItem(KEY, JSON.stringify(readAll()));
+    lastWrite = Date.now();
