@@ -316,3 +316,4 @@ export function createClouds(count: number): Clouds {
   const group = new Group();
   group.add(floor.mesh, mesh);
 
+  const order = puffs.map((_, i) => i);
