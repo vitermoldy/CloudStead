@@ -240,3 +240,4 @@ export class MusicPlayer extends Emitter {
     this.play(next);
   }
 
+  private stop(): void {
