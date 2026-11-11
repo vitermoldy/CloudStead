@@ -408,3 +408,4 @@ function openPanel(id: string | null, focus = true): void {
     if (id === 'island') renderIsland();
     if (focus) {
       const panel = $(`panel-${id}`);
+      // The link field for music, the chosen pattern for focus, the heading elsewhere (no field grabs the keys).
