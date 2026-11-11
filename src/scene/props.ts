@@ -547,3 +547,4 @@ export class PropsLayer {
       kind, cell, title: PROP_TITLE[kind], group, blocking: BLOCKING.has(kind), grow: animate ? 0 : 1, wiggle: 0,
     };
     this.wire(entry);
+    group.traverse((o) => {
