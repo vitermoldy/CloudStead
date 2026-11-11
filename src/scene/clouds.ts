@@ -313,3 +313,4 @@ export function createClouds(count: number): Clouds {
   mesh.frustumCulled = false;
   mesh.renderOrder = 2;
   const floor = cloudFloor();
+  const group = new Group();
