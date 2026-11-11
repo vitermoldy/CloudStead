@@ -468,3 +468,5 @@ export class World extends Emitter {
         return;
       }
     }
+  }
+
