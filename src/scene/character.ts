@@ -232,3 +232,4 @@ export class Character {
   private hood: Mesh;
   private head = new Group();
   private eyes: Mesh[] = [];
+  private happyEyes: Mesh[] = [];
