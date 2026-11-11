@@ -84,3 +84,4 @@ function tabs() {
         set(to);
       }
       at = to;
+      instant = false;
