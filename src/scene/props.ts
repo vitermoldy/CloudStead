@@ -96,3 +96,4 @@ function sapling(): Group {
   return g;
 }
 
+function tree(): Group {
