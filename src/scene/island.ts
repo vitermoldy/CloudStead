@@ -355,3 +355,4 @@ export class Island {
         }
         p.set(t.cell[0] + x, 0, t.cell[1] + z);
         // Blades on an outer rim lean out over the cliff.
+        const outward = new Vector3(x, 0, z);
