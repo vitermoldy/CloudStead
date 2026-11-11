@@ -77,3 +77,4 @@ src/
   music/             pembaca tautan YouTube dan antrean pemutar
   audio/ambient.ts   suara pulau (Web Audio)
   scene/             Three.js: langit, awan, pulau petak, bangunan, lokasi konstruksi, VMK, partikel
+  ui/                kursor dan panel musik
