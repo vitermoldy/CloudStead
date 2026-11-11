@@ -434,3 +434,4 @@ function balloon(): Group {
     const c = stripe ? warm : cream;
     cols.push(c.r, c.g, c.b);
   }
+  env.setAttribute('color', new Float32BufferAttribute(cols, 3));
