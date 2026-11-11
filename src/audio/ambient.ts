@@ -234,3 +234,4 @@ export class Ambient {
     o.type = 'sawtooth';
     o.frequency.setValueAtTime(140 + Math.random() * 30, t);
     o.frequency.linearRampToValueAtTime(95, t + 0.25);
+    const lp = ctx.createBiquadFilter();
