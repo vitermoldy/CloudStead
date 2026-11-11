@@ -27,3 +27,4 @@ export class PropSite {
   private hi = 1;
   private pile = new Group();
   private planks = 0;
+  private parts: Object3D[] = [];
