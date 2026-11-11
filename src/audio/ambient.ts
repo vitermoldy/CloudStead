@@ -200,3 +200,4 @@ export class Ambient {
   /** The resident's work, beat by beat: hammer, shovel, watering can, rope. Under the "work" switch. */
   work(kind: 'hammer' | 'dig' | 'water' | 'haul'): void {
     const ctx = this.ctx;
+    if (!ctx || !this.settings.keys || this.hidden) return;
