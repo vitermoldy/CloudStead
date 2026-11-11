@@ -50,3 +50,4 @@ export class Ambient {
     const len = ctx.sampleRate * 2;
     this.noise = ctx.createBuffer(1, len, ctx.sampleRate);
     const data = this.noise.getChannelData(0);
+    let last = 0;
