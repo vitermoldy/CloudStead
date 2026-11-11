@@ -526,3 +526,4 @@ export function buildProp(kind: PropKind): Group {
   return g;
 }
 
+/** How a piece shows its progress while it is being made. */
