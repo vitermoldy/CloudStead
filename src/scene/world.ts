@@ -273,3 +273,4 @@ export class World extends Emitter {
     if (!m) return;
     if (m.kind === 'prop') this.site?.setProgress(this.p);
     else if (m.kind === 'tiles' && m.tiles) {
+      const n = m.tiles.length;
