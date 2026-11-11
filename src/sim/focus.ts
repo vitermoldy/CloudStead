@@ -144,3 +144,4 @@ export class FocusTimer extends Emitter {
     if (this.phase === 'focus') {
       if (completed) this.onFocusDone();
       this.phase = this.round >= this.config.rounds ? 'long' : 'short';
+    } else {
