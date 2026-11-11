@@ -603,3 +603,4 @@ export class World extends Emitter {
   }
 
   get isPaused(): boolean {
+    return this.paused;
