@@ -186,3 +186,4 @@ export class Fx {
       if (this.birdClock <= 0 && night < 0.6) {
         this.birdT = 0;
         this.birdDir = Math.random() < 0.5 ? 1 : -1;
+        this.birds.position.set(-26 * this.birdDir, 5 + Math.random() * 3, -10 - Math.random() * 8);
