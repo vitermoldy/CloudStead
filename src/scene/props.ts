@@ -309,3 +309,4 @@ function pondShape(): Shape {
     const a = (i / n) * Math.PI * 2;
     const r = 0.36 + rand() * 0.06;
     const p = new Vector2(Math.cos(a) * r, Math.sin(a) * r);
+    if (i === 0) s.moveTo(p.x, p.y);
