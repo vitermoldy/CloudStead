@@ -762,3 +762,4 @@ export class Character {
     for (let i = 0; i < 2; i++) {
       this.hands[i].lerp(targets[i], 1 - Math.exp(-12 * dt));
       const s = i === 0 ? 1 : -1;
+      const hand = new Vector3();
