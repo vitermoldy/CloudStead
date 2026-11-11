@@ -75,3 +75,4 @@ export interface YTPlayer {
   getCurrentTime(): number;
   getDuration(): number;
   getPlaylist(): string[] | null;
+  getPlaylistIndex(): number;
