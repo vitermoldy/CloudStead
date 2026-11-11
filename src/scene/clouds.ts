@@ -317,3 +317,4 @@ export function createClouds(count: number): Clouds {
   group.add(floor.mesh, mesh);
 
   const order = puffs.map((_, i) => i);
+  const camPos = new Vector3();
