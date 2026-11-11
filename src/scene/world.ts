@@ -178,3 +178,4 @@ export class World extends Emitter {
     this.island.clearBare();
     this.character.clearGear();
     const done = MILESTONES.filter((m) => reached.has(m.id));
+    this.island.setTiles(tilesFor(done));
