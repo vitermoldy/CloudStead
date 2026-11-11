@@ -462,3 +462,4 @@ export class World extends Emitter {
     let r = Math.random() * total;
     for (const [w, make] of options) {
       r -= w;
+      if (r <= 0) {
