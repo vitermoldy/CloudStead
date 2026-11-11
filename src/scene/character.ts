@@ -807,3 +807,4 @@ export class Character {
         pitch = -0.25;
         break;
       default:
+        yaw = lookYaw;
