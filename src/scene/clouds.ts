@@ -363,3 +363,4 @@ export function createClouds(count: number): Clouds {
         write(time);
       }
     },
+  };
