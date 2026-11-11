@@ -118,3 +118,4 @@ export interface GrassUniforms {
   uWind: { value: number };
 }
 
+export class Island {
