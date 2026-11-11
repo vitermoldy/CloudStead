@@ -118,3 +118,4 @@ export class World extends Emitter {
 
     this.camera.position.set(0, 9, 12);
     this.bindPointer();
+    this.controls = new OrbitControls(this.camera, canvas);
