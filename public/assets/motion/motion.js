@@ -189,3 +189,4 @@ function counts() {
     el.__mCount = ctl;
     items.push(el);
   });
+  // measured only once the fonts are in; the resize observer measures again when a hidden stat shows
