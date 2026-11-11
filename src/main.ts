@@ -596,3 +596,4 @@ for (const [id, key] of soundBoxes) {
     ambient.update({ [key]: box.checked });
     if (key === 'on' && box.checked) ambient.start();
     syncSoundBoxes();
+  });
