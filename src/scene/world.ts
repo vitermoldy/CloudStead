@@ -653,3 +653,4 @@ export class World extends Emitter {
     this.controls.maxDistance = this.dist * 1.6;
   }
 
+  resize(): void {
