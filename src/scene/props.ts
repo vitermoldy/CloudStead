@@ -456,3 +456,4 @@ function waterfall(): Group {
   const channel = new Mesh(new PlaneGeometry(0.16, 0.42), new MeshStandardMaterial({ color: '#4c8590', roughness: 0.1, metalness: 0.1 }));
   channel.rotation.x = -Math.PI / 2;
   channel.position.set(0, 0.02, 0.3);
+  g.add(channel);
