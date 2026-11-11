@@ -330,3 +330,4 @@ export class World extends Emitter {
     if (instant) {
       this.frame();
       this.replan = true;
+      return;
