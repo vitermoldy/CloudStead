@@ -379,3 +379,5 @@ timer.on('finished', (phase: string, skipped: boolean) => {
     ambient.chime();
   }
   renderIsland();
+});
+
