@@ -36,3 +36,4 @@ const fresh = (): ProgressData => ({
  * Focus time and what it has built. Events:
  * change, reach (milestone), saved.
  */
+export class Progress extends Emitter {
