@@ -118,3 +118,4 @@ export class FocusTimer extends Emitter {
   }
 
   reset(): void {
+    if (this.running && this.phase === 'focus') this.credit(Date.now());
