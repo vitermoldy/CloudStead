@@ -497,3 +497,4 @@ function saveProgress(): void {
   }
   renderSaveStatus();
 }
+$('save-now').addEventListener('click', saveProgress);
