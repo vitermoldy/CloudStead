@@ -186,3 +186,4 @@ export class MusicPlayer extends Emitter {
   }
 
   toggle(): void {
+    if (!this.queue.length) return;
