@@ -262,3 +262,4 @@ function boardTexture(): { tex: CanvasTexture; draw: (today: number, total: numb
   const ctx = canvas.getContext('2d')!;
   const tex = new CanvasTexture(canvas);
   tex.colorSpace = SRGBColorSpace;
+  const fmt = (min: number) => {
