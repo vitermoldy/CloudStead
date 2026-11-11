@@ -516,3 +516,4 @@ export class Character {
     if (!this.plan.length) this.onPlanDone?.();
   }
 
+  private runPlan(dt: number): void {
