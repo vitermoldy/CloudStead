@@ -30,3 +30,4 @@ const timer = new FocusTimer((ms) => progress.add(ms), () => progress.finishSess
 const player = new MusicPlayer($('player-host'));
 const settings = load<{ time: TimeMode; paused: boolean | null }>('settings', { time: 'senja', paused: null });
 
+// ------------------------------------------------------------ small helpers
