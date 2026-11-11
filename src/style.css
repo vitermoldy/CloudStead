@@ -385,3 +385,4 @@ html.has-cursor .cursor.is-on { opacity: 1; }
   .tab__brand { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); padding: 0; }
   .tab { padding: 0 6px 0 10px; }
 }
+@media (max-width: 760px) {
