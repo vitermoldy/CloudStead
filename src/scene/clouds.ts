@@ -341,3 +341,4 @@ export function createClouds(count: number): Clouds {
     aMeta.needsUpdate = true;
   };
 
+  return {
