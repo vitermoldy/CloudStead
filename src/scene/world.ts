@@ -144,3 +144,4 @@ export class World extends Emitter {
     this.rope.frustumCulled = false;
     this.rope.visible = false;
     this.scene.add(this.rope);
+    this.character.onPlanDone = () => {
