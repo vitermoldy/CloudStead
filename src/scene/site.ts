@@ -71,3 +71,4 @@ export class PropSite {
     this.ghost.traverse((o) => {
       const mesh = o as Mesh;
       if (!mesh.material) return;
+      const isLine = (o as Line).isLine;
