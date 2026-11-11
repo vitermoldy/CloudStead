@@ -58,3 +58,4 @@ export class Ambient {
     }
     this.windGain = ctx.createGain();
     this.lifeGain = ctx.createGain();
+    this.keyGain = ctx.createGain();
