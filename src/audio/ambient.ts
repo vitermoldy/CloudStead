@@ -34,3 +34,4 @@ export class Ambient {
     this.settings = { ...DEFAULTS, ...load<Partial<SoundSettings>>('sound', {}) };
   }
 
+  get started(): boolean {
