@@ -74,3 +74,4 @@ src/
   main.ts            menyambungkan timer, progres, musik, pulau, dan antarmuka
   core/              emitter dan penyimpanan (localStorage, berkas simpanan)
   sim/               timer fokus, progres, daftar tahap pulau
+  music/             pembaca tautan YouTube dan antrean pemutar
