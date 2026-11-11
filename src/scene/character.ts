@@ -787,3 +787,4 @@ export class Character {
         pitch = this.looking ? lookPitch * 0.5 + 0.2 : 0.55;
         break;
       case 'sleep':
+        pitch = 0.62;
