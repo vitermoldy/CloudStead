@@ -370,3 +370,4 @@ function windmill(): Group {
     arm.add(mesh(new BoxGeometry(0.02, 0.66, 0.02), WOOD_DARK, 0, 0.34, 0.02));
     hub.add(arm);
   }
+  g.add(hub);
