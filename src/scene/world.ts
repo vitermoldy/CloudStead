@@ -710,3 +710,4 @@ export class World extends Emitter {
       this.controls.enabled = true;
       if (c.hasPointerCapture(e.pointerId)) c.releasePointerCapture(e.pointerId);
       if (!p) return;
+      if (p.petting) {
