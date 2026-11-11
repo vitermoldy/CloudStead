@@ -258,3 +258,4 @@ function nameTag(): void {
 nameTag();
 
 // ------------------------------------------------------------ the heads-up display
+const bigEl = $('big');
