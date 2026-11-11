@@ -294,3 +294,4 @@ export class World extends Emitter {
   reach(m: Milestone): void {
     const instant = this.instant || this.paused || document.hidden;
     if (this.project?.id !== m.id) this.startProject(m);
+    if (m.kind === 'prop' && m.prop && m.at) {
