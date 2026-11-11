@@ -441,3 +441,5 @@ export class Island {
       }
     }
     this.layGrass();
+  }
+
