@@ -268,3 +268,4 @@ export class Character {
     hair.rotation.x = -0.35;
     hair.position.set(0, 0.012, -0.008);
     const fringe = new Mesh(new BoxGeometry(0.12, 0.03, 0.04), HAIR);
+    fringe.position.set(0.0, 0.055, 0.06);
