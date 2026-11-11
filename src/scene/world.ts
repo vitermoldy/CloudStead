@@ -190,3 +190,4 @@ export class World extends Emitter {
   }
 
   private addProp(kind: NonNullable<Milestone['prop']>, at: Cell, animate: boolean): PropEntry {
+    const e = this.props.add(kind, at, animate);
