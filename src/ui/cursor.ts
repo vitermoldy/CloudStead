@@ -37,3 +37,4 @@ export class Cursor {
       this.x = e.clientX;
       this.y = e.clientY;
       const on = e.target === this.surface;
+      if (on !== this.over) {
