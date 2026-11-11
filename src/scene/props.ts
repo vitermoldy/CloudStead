@@ -602,3 +602,4 @@ export class PropsLayer {
             r.userData.age += dt;
             const a = r.userData.age as number;
             const k = a / 1.8;
+            (r.material as MeshBasicMaterial).opacity = k < 1 ? (1 - k) * 0.8 : 0;
