@@ -50,3 +50,4 @@ export class FocusTimer extends Emitter {
   }
 
   /** Called once the island exists: a block that ran while the page was closed is credited up to its end. */
+  resume(): void {
