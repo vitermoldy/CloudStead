@@ -576,3 +576,4 @@ export class Character {
       }
       case 'sit': {
         this.workPoint = null;
+        let d = 0 - this.heading;
