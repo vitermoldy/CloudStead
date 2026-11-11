@@ -17,3 +17,4 @@ const DEFAULTS: SoundSettings = { on: true, volume: 45, wind: true, life: true, 
  */
 export class Ambient {
   settings: SoundSettings;
+  private ctx: AudioContext | null = null;
