@@ -455,3 +455,4 @@ function renderIsland(): void {
       when.textContent = `di ${formatMinutes(m.minutes)}`;
     }
     const sr = document.createElement('span');
+    sr.className = 'sr-only';
