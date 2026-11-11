@@ -120,3 +120,4 @@ export function loadYouTubeApi(): Promise<YTNamespace> {
 export interface Details {
   title?: string;
   author?: string;
+  thumb?: string;
