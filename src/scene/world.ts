@@ -845,3 +845,4 @@ export class World extends Emitter {
     const L = this.look;
     this.sky.update(L, t);
     this.sun.color.copy(L.sun);
+    this.sun.intensity = L.sunIntensity;
