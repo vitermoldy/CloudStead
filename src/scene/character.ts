@@ -774,3 +774,4 @@ export class Character {
     let yaw = 0, pitch = 0.05, roll = 0;
     const headPos = neck.clone().addScaledVector(this.spine, 0.105);
     const target = this.looking ?? this.workPoint ?? this.wander(dt);
+    const local = this.root.worldToLocal(target.clone()).sub(headPos);
