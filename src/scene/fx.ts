@@ -105,3 +105,4 @@ export class Fx {
       this.flyBase.set([(Math.random() - 0.5) * 6, 0.25 + Math.random() * 1.1, (Math.random() - 0.5) * 6, Math.random() * 100], i * 4);
     }
     const geo = new BufferGeometry();
+    geo.setAttribute('position', new BufferAttribute(pos, 3));
