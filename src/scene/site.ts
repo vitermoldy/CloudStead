@@ -68,3 +68,4 @@ export class PropSite {
         mesh.material = mat;
       }
     });
+    this.ghost.traverse((o) => {
