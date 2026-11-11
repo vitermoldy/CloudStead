@@ -102,3 +102,4 @@ function layout(count: number): Puff[] {
   // Billows on the sea of clouds under the island: big, flat-bottomed, close together.
   for (let i = 0; i < Math.round(150 * scale); i++) {
     const r = 8 + Math.sqrt(rand()) * 95;
+    const a = rand() * Math.PI * 2;
