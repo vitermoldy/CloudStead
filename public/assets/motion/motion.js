@@ -49,3 +49,4 @@ function nav() {
       if (has) t = setTimeout(() => bar.classList.add('m-menu-open'), 150);
       else bar.classList.remove('m-menu-open');
     });
+  });
