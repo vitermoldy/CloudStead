@@ -794,3 +794,4 @@ export class Character {
       case 'walk':
       case 'carry':
         yaw = this.looking ? lookYaw * 0.4 : 0;
+        pitch = 0.15;
