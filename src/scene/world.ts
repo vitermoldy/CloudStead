@@ -336,3 +336,4 @@ export class World extends Emitter {
     this.celebrating = true;
     this.character.run([
       { kind: 'do', act: 'cheer', seconds: 1.4 },
+      { kind: 'call', fn: () => { this.celebrating = false; } },
