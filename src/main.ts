@@ -251,3 +251,4 @@ function positionGreet(): void {
   greetBtn.style.top = `${a.y + 6}px`;
   greetBtn.classList.toggle('is-quiet', !a.visible || bubbleUntil > 0 || hoveringResident);
 }
+function nameTag(): void {
