@@ -33,3 +33,4 @@ export class MusicPlayer extends Emitter {
   constructor(private host: HTMLElement) {
     super();
     const saved = load<{ queue?: QueueItem[]; current?: number; volume?: number; loop?: boolean }>('music', {});
+    this.queue = Array.isArray(saved.queue)
