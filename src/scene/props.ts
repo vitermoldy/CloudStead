@@ -158,3 +158,4 @@ function hut(): Group {
   const g = new Group();
   g.add(mesh(new BoxGeometry(0.9, 0.07, 0.94), WOOD_DARK, 0, 0.035, 0));
   const tri = (door: boolean) => {
+    const s = new Shape();
