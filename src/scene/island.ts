@@ -291,3 +291,4 @@ export class Island {
   /** Dashed outlines where the next cells will rise. */
   setGhosts(cells: Cell[]): void {
     this.ghosts.clear();
+    const mat = new MeshBasicMaterial({ color: '#f3efd9', transparent: true, opacity: 0.32, depthWrite: false });
