@@ -44,3 +44,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
       }
 
       void main() {
+        vec3 d = normalize(vDir);
