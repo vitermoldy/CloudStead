@@ -244,3 +244,4 @@ export class Island {
     const slab = new Mesh(this.slabGeo, slabMat);
     slab.position.y = -0.08;
     slab.receiveShadow = true;
+    slab.castShadow = true;
