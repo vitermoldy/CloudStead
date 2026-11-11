@@ -573,3 +573,4 @@ export class PropsLayer {
         break;
       case 'lamp':
         e.update = (_dt, ctx) => {
+          const on = Math.max(0, (ctx.night - 0.2) / 0.8);
