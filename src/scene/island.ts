@@ -157,3 +157,4 @@ export class Island {
           wpos.z += cos(uTime * 1.2 + wpos.x * 0.8) * 0.012 * k * uWind;
           vec2 dv = wpos.xz - uCursor.xy;
           float dl = length(dv);
+          float push = (1.0 - smoothstep(0.0, 0.42, dl)) * uCursor.z;
