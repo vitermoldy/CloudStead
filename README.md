@@ -28,3 +28,4 @@ tetap berjalan; hanya pulaunya yang tidak tergambar.
   proyek berikutnya dan hasilnya naik sedikit demi sedikit sesuai persentasenya:
   - bangunan: dia mengangkut kayu dari peti di tempat duduknya lalu memalu;
   - tanaman: dia menggali lalu menyiram;
+  - petak baru: dia menariknya dari awan dengan tali;
