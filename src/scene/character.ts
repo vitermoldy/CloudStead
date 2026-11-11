@@ -238,3 +238,4 @@ export class Character {
   private upper: Mesh[] = [];
   private fore: Mesh[] = [];
   private palms: Mesh[] = [];
+  private thighs: Mesh[] = [];
