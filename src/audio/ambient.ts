@@ -180,3 +180,4 @@ export class Ambient {
     src.start(t, Math.random() * 1.5, 0.06);
   }
 
+  private tone(freq: number, dur: number, gain: number, type: OscillatorType = 'sine', at = 0, slideTo?: number): void {
