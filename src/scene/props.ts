@@ -163,3 +163,4 @@ function hut(): Group {
     s.lineTo(0.4, 0);
     s.lineTo(0, 0.92);
     s.lineTo(-0.4, 0);
+    if (door) {
