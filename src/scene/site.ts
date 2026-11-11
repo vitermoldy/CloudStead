@@ -120,3 +120,4 @@ export class PropSite {
           o.visible = k > 0.15;
           const f = Math.max(0.02, (k - 0.15) / 0.85);
           o.scale.y = f;
+          o.position.y = -3.25 * f;
