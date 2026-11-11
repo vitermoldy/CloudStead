@@ -291,3 +291,4 @@ export function createClouds(count: number): Clouds {
         vec2 nxy = vec2((t.r * 2.0 - 1.0) * (vSeed > 0.5 ? -1.0 : 1.0), t.g * 2.0 - 1.0);
         float nz = sqrt(max(0.0, 1.0 - dot(nxy, nxy)));
         vec3 nrm = normalize(vec3(nxy, nz + 0.15));
+        float ndl = dot(nrm, vSunView);
