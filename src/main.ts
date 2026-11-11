@@ -385,3 +385,4 @@ progress.on('reach', (m: Milestone) => {
   if (world) world.reach(m);
   else toast(m.done);
 });
+progress.on('change', () => {
