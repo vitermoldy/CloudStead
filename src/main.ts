@@ -110,3 +110,4 @@ async function startWorld(): Promise<void> {
     speak(pick(['Selesai!', 'Jadi juga.', 'Bagus, kan?']), 2200);
     ambient.chime();
     renderHud(true);
+    renderIsland();
