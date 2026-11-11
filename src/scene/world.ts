@@ -831,3 +831,5 @@ export class World extends Emitter {
       this.renderer.setPixelRatio(next);
       this.resize();
     }
+  }
+
