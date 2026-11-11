@@ -824,3 +824,4 @@ export class World extends Emitter {
     if (this.adaptClock < 2.5) return;
     this.adaptClock = 0;
     let next = this.pixelRatio;
+    if (this.frameMs > 24 && this.pixelRatio > 0.85) next = Math.max(0.85, this.pixelRatio - 0.25);
