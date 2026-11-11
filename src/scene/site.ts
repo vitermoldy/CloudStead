@@ -153,3 +153,4 @@ export class PropSite {
   dispose(): void {
     this.group.removeFromParent();
     this.group.traverse((o) => {
+      const mesh = o as Mesh;
