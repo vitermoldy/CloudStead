@@ -586,3 +586,4 @@ for (const input of document.querySelectorAll<HTMLInputElement>('#time-group inp
     settings.time = input.value as TimeMode;
     save('settings', settings);
     world?.setTime(settings.time);
+  });
