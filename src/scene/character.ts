@@ -853,3 +853,4 @@ export class Character {
     this.mouth.scale.set(smile, this.pokeT > 0 ? -1 : smile, 1);
 
     // ---- laptop screen
+    this.screenTick -= dt;
