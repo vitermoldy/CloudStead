@@ -77,3 +77,4 @@ function puffAtlas(): DataTexture {
         ny /= len;
         const i = ((CELL - 1 - py) * width + k * CELL + px) * 4;
         img.data[i] = Math.round((nx * 0.5 + 0.5) * 255);
+        img.data[i + 1] = Math.round((ny * 0.5 + 0.5) * 255);
