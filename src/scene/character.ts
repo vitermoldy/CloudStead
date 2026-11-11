@@ -663,3 +663,4 @@ export class Character {
 
     // ---- legs
     const moving = act === 'walk' || act === 'carry';
+    if (moving) this.walkPhase += dt * (act === 'carry' ? 7.5 : 9);
