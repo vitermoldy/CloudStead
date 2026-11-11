@@ -544,3 +544,5 @@ importInput.addEventListener('change', async () => {
   } catch (e) {
     err.textContent = e instanceof SaveFileError ? e.message : 'Berkas ini tidak bisa dibaca.';
   }
+});
+
