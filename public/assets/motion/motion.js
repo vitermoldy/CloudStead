@@ -353,3 +353,4 @@ function enter() {
     anims.forEach(a => { try { a.cancel(); } catch { /* gone */ } });
     masks?.restore();
     hero.classList.remove('is-entering');
+    done();
