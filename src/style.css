@@ -108,3 +108,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
   border-radius: 2px; background: var(--accent);
 }
 .tab__tools { display: flex; align-items: center; gap: 2px; padding-left: 8px; border-left: 1px solid var(--line); }
+.tab__icon {
