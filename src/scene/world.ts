@@ -816,3 +816,5 @@ export class World extends Emitter {
     this.onFrame?.(dt);
   }
 
+  private adaptClock = 0;
+
