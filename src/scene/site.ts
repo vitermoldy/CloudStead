@@ -123,3 +123,4 @@ export class PropSite {
           o.position.y = -3.25 * f;
         } else o.visible = k > 0.9;
       });
+    }
