@@ -19,3 +19,4 @@ interface Saved {
   running: boolean;
   endAt: number;
   remainingMs: number;
+  creditedAt: number;
