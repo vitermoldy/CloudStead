@@ -230,3 +230,4 @@ export class World extends Emitter {
   setProgress(m: Milestone | null, p: number): void {
     if (m?.id !== this.project?.id) this.startProject(m);
     const next = Math.max(0, Math.min(1, p));
+    if (Math.abs(next - this.p) < 0.0004 && this.project === m) return;
