@@ -55,3 +55,4 @@ function rockGeometry(cell: Cell, depth: number): BufferGeometry {
     return c.multiplyScalar(0.85 + rand() * 0.25);
   };
   const tri = (a: Vector3, b: Vector3, c: Vector3) => {
+    const col = bandColor((a.y + b.y + c.y) / 3);
