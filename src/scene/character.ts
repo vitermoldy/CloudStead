@@ -355,3 +355,4 @@ export class Character {
   /** Hammer, shovel, watering can, a plank to carry, yarn and needles. Each hangs off the right hand. */
   private buildTools(): void {
     const t = this.tools;
+    const handle = new Mesh(new BoxGeometry(0.02, 0.15, 0.02), new MeshStandardMaterial({ color: '#7a5636' }));
