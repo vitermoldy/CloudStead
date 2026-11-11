@@ -193,3 +193,4 @@ html:not([data-motion="off"]) .field :is(input, select, textarea):focus, .m-inpu
   /* the field's own ring in place of the outline: a 2px line in --action (3:1 on the ground) and a soft halo,
      there at once like every focus ring (the hover's fade does not apply to focus) */
   outline: none; border-color: var(--action);
+  box-shadow: 0 0 0 1px var(--action), 0 0 0 4px color-mix(in oklab, var(--action) 20%, transparent); transition-duration: 0s;
