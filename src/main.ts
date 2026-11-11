@@ -215,3 +215,4 @@ function onPokeProp(e: { kind: keyof typeof PROP_TITLE; title: string }): void {
     telescope: 'Malam nanti kita lihat bintang.',
     garden: 'Sayurnya belum bisa dipanen.',
     pole: 'Kabelnya sampai ke pulau sebelah.',
+    lamp: 'Lampunya menyala sendiri tiap senja.',
