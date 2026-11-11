@@ -665,3 +665,4 @@ addEventListener('pointerdown', () => world?.nudge(), { passive: true });
 // ------------------------------------------------------------ preview banner
 if (previewMinutes !== null) {
   const p = $('preview');
+  p.hidden = false;
