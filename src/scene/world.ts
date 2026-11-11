@@ -699,3 +699,4 @@ export class World extends Emitter {
       this.pick();
       const on = this.hover.kind === 'char' ? 'char' : this.hover.kind === 'prop' ? 'prop' : this.hover.kind === 'tile' ? 'tile' : null;
       this.press = { x: e.clientX, y: e.clientY, t: performance.now(), on, moved: false, petting: false, prop: this.hover.prop, point: this.hitPoint.clone() };
+      if (on === 'char') {
