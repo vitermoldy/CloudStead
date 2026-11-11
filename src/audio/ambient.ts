@@ -250,3 +250,4 @@ export class Ambient {
       // On the work channel, so the "work" switch silences it.
       const ctx = this.ctx!;
       const t = ctx.currentTime + 0.01;
+      const o = ctx.createOscillator();
