@@ -613,3 +613,4 @@ export class PropsLayer {
           free.position.x = Math.max(-0.25, Math.min(0.25, local.x));
           free.position.z = Math.max(-0.25, Math.min(0.25, local.z));
           free.userData.age = 0;
+        };
