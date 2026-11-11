@@ -40,3 +40,4 @@ function nav() {
   bar.dataset.mNav = '1';   // no pill under the words (ST-08, ST-11): system.css draws their underline
 
   // one menu open: the next word swaps the panel at once (figma.com); leaving the bar closes softly
+  let t = 0;
