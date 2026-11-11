@@ -517,3 +517,5 @@ const FACING: Partial<Record<PropKind, number>> = { hut: 0.45, 'hut-frame': 0.45
 const REPLACES: Partial<Record<PropKind, PropKind>> = { tree: 'sapling', hut: 'hut-frame' };
 
 /** Things the resident walks round. Flowers, the waterfall and the balloon's stake are not in the way. */
+const BLOCKING = new Set<PropKind>(['rock', 'sapling', 'tree', 'garden', 'hut-frame', 'hut', 'pole', 'lamp', 'board', 'pond', 'windmill', 'bench', 'pine', 'telescope']);
+
