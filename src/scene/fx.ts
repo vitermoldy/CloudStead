@@ -123,3 +123,4 @@ export class Fx {
     this.group.add(this.birds);
   }
 
+  private take(kind: FxKind): Particle {
