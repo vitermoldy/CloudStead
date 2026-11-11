@@ -73,3 +73,4 @@ function tabs() {
     const place = () => {
       const sel = list.querySelector('[role="tab"][aria-selected="true"]');
       if (!sel) { ind.style.opacity = '0'; return; }
+      ind.style.opacity = '';
