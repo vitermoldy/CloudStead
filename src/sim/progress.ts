@@ -5,3 +5,4 @@ import { MILESTONES, type Milestone } from './milestones';
 export interface ProgressData {
   focusMs: number;
   todayMs: number;
+  todayDate: string;
