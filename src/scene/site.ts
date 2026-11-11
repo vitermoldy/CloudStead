@@ -74,3 +74,4 @@ export class PropSite {
       const isLine = (o as Line).isLine;
       const mat = (isLine ? GHOST_LINE : GHOST).clone();
       if (mode === 'rise') mat.clippingPlanes = [this.ghostCut];
+      mesh.material = mat;
