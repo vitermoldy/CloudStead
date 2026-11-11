@@ -157,3 +157,4 @@ export class PropSite {
       if (mesh.material && (mesh.material as Material).clippingPlanes) (mesh.material as Material).dispose();
     });
   }
+}
