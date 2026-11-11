@@ -145,3 +145,4 @@ export class Island {
     this.group.add(this.ghosts);
 
     const bladeMat = new MeshStandardMaterial({ vertexColors: true, roughness: 0.9, side: 2 });
+    bladeMat.onBeforeCompile = (shader) => {
