@@ -714,3 +714,4 @@ export class World extends Emitter {
         this.character.petting = false;
         this.emit('pet', false);
         this.emitHover();
+        return;
