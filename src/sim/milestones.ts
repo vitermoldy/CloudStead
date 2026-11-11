@@ -28,3 +28,4 @@ export interface Milestone {
   gear?: Gear;
 }
 
+/** The nine cells the island starts with. */
