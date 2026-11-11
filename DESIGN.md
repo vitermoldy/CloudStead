@@ -48,3 +48,4 @@ dial **ENERGY 3 / RHYTHM 1 / MOTION 3**.
 | A custom cursor over the island only: a dot on the mouse and a trailing ring that stretches with speed and changes over the resident, cells and pieces | The owner asked for a responsive cursor that plays with the resident. Over the interface the system pointer stays, so every control keeps its own pointer (R-39). Mouse only. |
 | Hover makes the resident look at you; a click greets (a poke during focus); holding pets them | The interaction the owner asked for, with lines that fit the moment (focus, break, idle). The grass parts round the pointer too. |
 | VMK's name tag is a real button | Keyboard and touch users can greet him; it steps aside while he speaks or the pointer is on him. |
+| The black tab hanging from the top, centred | The reference's composition, kept on purpose; the wordmark sits inside it so its contrast never depends on the sky. |
