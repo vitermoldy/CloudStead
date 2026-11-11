@@ -368,3 +368,4 @@ export class Island {
         this.grass.setMatrixAt(i++, m);
       }
     }
+    this.grass.count = i;
