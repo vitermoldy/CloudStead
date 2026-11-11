@@ -31,3 +31,4 @@ export class Cursor {
     this.label = el.querySelector('.cursor__label') as HTMLElement;
     this.enabled = matchMedia('(hover: hover) and (pointer: fine)').matches;
     if (!this.enabled) return;
+    document.documentElement.classList.add('has-cursor');
