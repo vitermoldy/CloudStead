@@ -137,3 +137,4 @@ function counts() {
     const after = node.splitText(p.index);
     after.splitText(p.raw.length);
     const span = document.createElement('span');
+    span.className = 'm-count__n';
