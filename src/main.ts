@@ -191,3 +191,4 @@ function onGreet(): void {
   } else if (timer.resting) {
     c.wave();
     speak(pick(['Istirahat dulu. Minum air, ya.', 'Regangkan badan sebentar.', 'Matamu juga perlu lepas dari layar.']));
+  } else {
