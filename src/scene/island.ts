@@ -312,3 +312,4 @@ export class Island {
   }
 
   ghostCells(): Cell[] {
+    return this.ghosts.children.map((g) => g.userData.ghost as Cell);
