@@ -397,3 +397,4 @@ function pine(): Group {
 
 function telescope(): Group {
   const g = new Group();
+  for (let i = 0; i < 3; i++) {
