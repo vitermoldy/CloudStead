@@ -357,3 +357,4 @@ export function createClouds(count: number): Clouds {
       (u.uSunDir.value as Vector3).copy(look.sunDir);
       u.uTime.value = time;
       camera.getWorldPosition(camPos);
+      // Back-to-front order, refreshed a few times a second (every frame while the view turns).
