@@ -588,3 +588,4 @@ export class Character {
     }
   }
 
+  // ------------------------------------------------------------ picking and anchors
