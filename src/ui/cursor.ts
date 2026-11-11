@@ -22,3 +22,5 @@ export class Cursor {
   private state: CursorState = 'idle';
   private raf = 0;
   private last = 0;
+  private over = false;
+
