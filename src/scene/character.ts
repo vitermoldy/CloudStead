@@ -693,3 +693,4 @@ export class Character {
     this.laptop.rotation.y = (1 - lk) * 0.5;
     const R = 1;
     const targets = [new Vector3(), new Vector3()];
+    for (let i = 0; i < 2; i++) {
