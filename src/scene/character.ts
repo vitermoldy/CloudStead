@@ -193,3 +193,5 @@ export class Character {
   act: Act = 'sitIdle';
   name = 'VMK';
   /** Called when a plan runs out, so the world can hand over the next one. */
+  onPlanDone: (() => void) | null = null;
+
