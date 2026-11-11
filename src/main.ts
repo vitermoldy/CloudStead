@@ -625,3 +625,4 @@ $('scene-pause').addEventListener('click', () => setScenePaused(!(world?.isPause
 $('scene-pause-2').addEventListener('click', () => setScenePaused(!(world?.isPaused ?? false)));
 
 // ------------------------------------------------------------ music
+mountMusicUi(player, toast);
