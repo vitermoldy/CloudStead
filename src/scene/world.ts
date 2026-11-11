@@ -530,3 +530,4 @@ export class World extends Emitter {
     const cell = path[path.length - 1];
     const mid = new Vector3(cell[0], 0, cell[1]);
     const toward = new Vector3(target[0], 0, target[1]).sub(mid).normalize();
+    // At the seat itself, step clear of the cushion and the laptop.
