@@ -66,3 +66,4 @@ export const MILESTONES: Milestone[] = [
   { id: 'cemara', minutes: 880, title: 'Pohon cemara', done: 'Pohon cemara tumbuh di samping pondok.', doing: 'menanam pohon cemara', work: 'plant', kind: 'prop', prop: 'pine', at: [-2, -2] },
   { id: 'petak-6', minutes: 960, title: 'Delapan petak terakhir', done: 'Delapan petak terakhir. Pulau sudah utuh.', doing: 'menarik delapan petak terakhir dari awan', work: 'haul', kind: 'tiles', tiles: [[-3, -1], [-3, 1], [-1, -3], [0, -3], [1, -3], [-1, 3], [0, 3], [1, 3]] },
   { id: 'teleskop', minutes: 1050, title: 'Teleskop', done: 'Teleskop terpasang untuk malam yang cerah.', doing: 'merakit teleskop', work: 'build', kind: 'prop', prop: 'telescope', at: [2, 1] },
+  { id: 'kupluk', minutes: 1140, title: 'Kupluk', done: 'Kupluk hangat, pas untuk belajar malam.', doing: 'merajut kupluk', work: 'craft', kind: 'gear', gear: 'beanie' },
