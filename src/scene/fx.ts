@@ -183,3 +183,4 @@ export class Fx {
   private flyBirds(dt: number, night: number): void {
     if (this.birdT < 0) {
       this.birdClock -= dt;
+      if (this.birdClock <= 0 && night < 0.6) {
