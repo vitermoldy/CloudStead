@@ -35,3 +35,4 @@ export function rng(seed: number): () => number {
   let s = seed >>> 0 || 1;
   return () => {
     s ^= s << 13;
+    s ^= s >>> 17;
