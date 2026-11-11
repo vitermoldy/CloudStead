@@ -223,3 +223,4 @@ export class Fx {
           continue;
         }
         p.vel.y -= p.gravity * dt;
+        p.sprite.position.addScaledVector(p.vel, dt);
