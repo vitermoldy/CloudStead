@@ -145,3 +145,4 @@ export class Ambient {
     o.connect(g).connect(this.lifeGain!);
     o.start(t);
     am.start(t);
+    o.stop(t + 0.35);
