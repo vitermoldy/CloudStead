@@ -39,3 +39,4 @@ export function parseLink(raw: string): ParsedLink {
   else if (['shorts', 'embed', 'live', 'v'].includes(parts[0])) videoId = parts[1] || null;
   if (videoId && !VIDEO_ID.test(videoId)) videoId = null;
 
+  let listId = url.searchParams.get('list');
