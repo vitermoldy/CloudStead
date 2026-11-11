@@ -362,3 +362,4 @@ export class Island {
         q.setFromAxisAngle(up, rand() * Math.PI);
         if (axis.lengthSq() > 0) q.premultiply(new Quaternion().setFromAxisAngle(axis, lean * rand()));
         const tall = rand() < 0.12;
+        const h = (dirt ? 0.05 : 0.06) + rand() * (tall ? 0.12 : 0.06);
