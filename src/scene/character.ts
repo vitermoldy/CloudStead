@@ -375,3 +375,4 @@ export class Character {
     t.can.add(can, spout);
 
     const plank = new Mesh(new BoxGeometry(0.3, 0.03, 0.07), new MeshStandardMaterial({ color: '#b08a5c', roughness: 0.9 }));
+    const plank2 = plank.clone();
