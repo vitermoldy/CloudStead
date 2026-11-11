@@ -53,3 +53,4 @@ export class PropSite {
     this.group.add(this.ghost, this.build);
     this.group.updateMatrixWorld(true);
     const box = new Box3().setFromObject(this.build);
+    this.lo = Math.max(-0.05, box.min.y);
