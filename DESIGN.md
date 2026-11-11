@@ -68,3 +68,4 @@ dial **ENERGY 3 / RHYTHM 1 / MOTION 3**.
 - During focus VMK works in rounds of about five seconds (hammer blows, shovel strokes, pulls on
   the rope), with walks to the crate for more material; the piece rises with the progress line.
 - In a break he stretches and sips tea; without a timer he walks about, waters plants and checks
+  the site, dozes after 2.5 minutes of nothing happening, and wakes when you come back.
