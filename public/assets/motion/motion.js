@@ -176,3 +176,4 @@ function counts() {
       hit() {
         if (state === 'run' || state === 'done' || !ctl.arm()) return;
         state = 'run';
+        stop();
