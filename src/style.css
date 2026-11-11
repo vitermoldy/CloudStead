@@ -315,3 +315,4 @@ fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
   transition: opacity 160ms var(--ease), transform 200ms var(--ease);
 }
 .bubble::after {
+  content: ""; position: absolute; left: 50%; bottom: -6px; width: 12px; height: 12px; margin-left: -6px;
