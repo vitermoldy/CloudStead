@@ -214,3 +214,4 @@ export class MusicPlayer extends Emitter {
       return;
     }
     const item = this.item;
+    if (item && item.kind === 'playlist' && this.ready && this.player) {
