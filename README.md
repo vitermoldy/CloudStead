@@ -57,3 +57,5 @@ tetap berjalan; hanya pulaunya yang tidak tergambar.
 - Seret untuk memutar pulau, gulir atau cubit untuk mendekat, klik dua kali di langit untuk
   mengembalikan kamera.
 
+## Tombol keyboard
+
