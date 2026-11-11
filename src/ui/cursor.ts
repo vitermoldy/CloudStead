@@ -45,3 +45,4 @@ export class Cursor {
           this.ry = this.y;
         }
       }
+      this.wake();
