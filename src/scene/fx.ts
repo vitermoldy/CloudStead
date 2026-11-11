@@ -52,3 +52,4 @@ const TEXTURES: Record<FxKind, () => CanvasTexture> = {
     ctx.font = '600 46px "Funnel Display Variable", system-ui, sans-serif';
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
+    ctx.fillText('z', 32, 32);
