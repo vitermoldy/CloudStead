@@ -467,3 +467,4 @@ function waterfall(): Group {
       void main() {
         vUv = uv;
         vec3 p = position;
+        // The lip curls out, then the water falls almost straight.
