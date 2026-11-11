@@ -815,3 +815,4 @@ export class Character {
       pitch = pitch * (1 - this.petAmount) - 0.1 * this.petAmount;
     }
     if (this.pokeT > 0) {
+      this.pokeT -= dt;
