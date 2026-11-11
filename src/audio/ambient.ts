@@ -38,3 +38,4 @@ export class Ambient {
     return this.ctx !== null;
   }
 
+  /** Call from a user gesture. */
