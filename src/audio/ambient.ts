@@ -311,3 +311,4 @@ export class Ambient {
     this.apply();
   }
 
+  private apply(): void {
