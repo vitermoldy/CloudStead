@@ -34,3 +34,4 @@ const TEXTURES: Record<FxKind, () => CanvasTexture> = {
     ctx.fillRect(0, 0, 64, 64);
   }),
   steam: () => glyphTexture((ctx) => {
+    const g = ctx.createRadialGradient(32, 32, 2, 32, 32, 30);
