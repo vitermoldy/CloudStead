@@ -42,3 +42,4 @@ dial **ENERGY 3 / RHYTHM 1 / MOTION 3**.
 | A construction site with stakes, a string and a pile of planks | Shows where the next piece goes and that it is unfinished, even when the timer is off. |
 | In a break VMK rests; without a timer he lives on the island (walks, waters the plants, looks at the site, uses the laptop) and the project waits | Keeps the rule plain: the island grows only from focus, and VMK is never just parked at the seat. |
 | The resident is called VMK (the owner's initials) and can be renamed | Asked for by the owner. Saves that still carry the first default ("Bayu") move to VMK. |
+| Progress counts only while a focus block runs | One plain rule the panel states; breaks are not counted. A block left running while the tab is closed is counted up to its end. |
