@@ -92,3 +92,5 @@ export class Ambient {
     src.start();
     lfo.start();
     swell.start();
+  }
+
