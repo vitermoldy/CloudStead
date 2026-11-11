@@ -118,3 +118,4 @@ export class Fx {
       b.userData.offset = new Vector3(-i * 0.5 * (i % 2 ? 1 : -1) * 0.6 - i * 0.45, -i * 0.12, i * 0.35 * (i % 2 ? 1 : -1));
       b.userData.phase = Math.random() * 6;
       this.birds.add(b);
+    }
