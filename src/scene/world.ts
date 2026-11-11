@@ -143,3 +143,4 @@ export class World extends Emitter {
     this.rope = new Line(new BufferGeometry().setFromPoints([new Vector3(), new Vector3(), new Vector3(), new Vector3()]), new LineBasicMaterial({ color: '#c9a472' }));
     this.rope.frustumCulled = false;
     this.rope.visible = false;
+    this.scene.add(this.rope);
