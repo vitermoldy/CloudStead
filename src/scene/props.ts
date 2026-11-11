@@ -237,3 +237,4 @@ function pole(): Group {
     line.userData.late = true;
     g.add(line);
   }
+  return g;
