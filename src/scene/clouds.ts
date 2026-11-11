@@ -96,3 +96,4 @@ interface Puff {
 }
 
 function layout(count: number): Puff[] {
+  const rand = rng(1234);
