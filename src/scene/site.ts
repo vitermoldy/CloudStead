@@ -94,3 +94,4 @@ export class PropSite {
     this.p = k;
     const mode = REVEAL[this.kind];
     if (mode === 'rise') {
+      // A sliver shows from the first minute, so the work is visible at once.
