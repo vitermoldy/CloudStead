@@ -636,3 +636,4 @@ export class Character {
       case 'sleep': lean.set(0.05, 1, 0.42); break;
       case 'walk': lean.set(0, 1, 0.12); break;
       case 'carry': lean.set(0, 1, 0.04); break;
+      case 'hammer': lean.set(0, 1, 0.28); break;
