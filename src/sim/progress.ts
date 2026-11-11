@@ -74,3 +74,4 @@ export class Progress extends Emitter {
     return this.data.focusMs / 60000;
   }
 
+  get todayMinutes(): number {
