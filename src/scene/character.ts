@@ -711,3 +711,4 @@ export class Character {
           break;
         case 'sleep':
           t.set(s * 0.06, lapY + 0.02, 0.1);
+          break;
