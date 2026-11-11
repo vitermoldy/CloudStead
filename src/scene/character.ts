@@ -775,3 +775,4 @@ export class Character {
     const headPos = neck.clone().addScaledVector(this.spine, 0.105);
     const target = this.looking ?? this.workPoint ?? this.wander(dt);
     const local = this.root.worldToLocal(target.clone()).sub(headPos);
+    const lookYaw = clamp(Math.atan2(local.x, local.z), -1.15, 1.15);
