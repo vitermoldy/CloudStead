@@ -29,3 +29,4 @@ export class Cursor {
     this.ring = el.querySelector('.cursor__ring') as HTMLElement;
     this.dot = el.querySelector('.cursor__dot') as HTMLElement;
     this.label = el.querySelector('.cursor__label') as HTMLElement;
+    this.enabled = matchMedia('(hover: hover) and (pointer: fine)').matches;
