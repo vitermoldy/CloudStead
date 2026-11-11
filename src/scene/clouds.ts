@@ -162,3 +162,4 @@ function cloudFloor(): { mesh: Mesh; material: ShaderMaterial } {
       uniform vec3 uSunDir;
       uniform float uTime;
       varying vec3 vWorld;
+      float hash(vec2 p) { return fract(sin(dot(p, vec2(127.1, 311.7))) * 43758.5453); }
