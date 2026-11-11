@@ -100,3 +100,4 @@ export class PropSite {
       this.ghostCut.constant = -h;
       for (const o of this.late) o.visible = k > 0.8;
     } else if (mode === 'parts') {
+      const n = this.parts.length;
