@@ -76,3 +76,4 @@ export class PropSite {
       if (mode === 'rise') mat.clippingPlanes = [this.ghostCut];
       mesh.material = mat;
       mesh.castShadow = false;
+      mesh.receiveShadow = false;
