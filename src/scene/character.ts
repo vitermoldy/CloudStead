@@ -566,3 +566,4 @@ export class Character {
         this.stepT += dt;
         if (step.beat && step.onBeat) {
           const n = Math.floor(this.stepT / step.beat);
+          if (n > this.beats) {
