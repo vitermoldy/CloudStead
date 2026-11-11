@@ -132,3 +132,4 @@ export function makeGear(kind: Gear): Group {
       break;
     }
     case 'mug': {
+      const cup = m(new CylinderGeometry(0.028, 0.025, 0.06, 12), '#efe8d6', 0.5);
