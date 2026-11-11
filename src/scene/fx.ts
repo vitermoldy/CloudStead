@@ -10,3 +10,4 @@ function glyphTexture(draw: (ctx: CanvasRenderingContext2D) => void): CanvasText
   c.width = c.height = 64;
   const ctx = c.getContext('2d')!;
   draw(ctx);
+  const t = new CanvasTexture(c);
