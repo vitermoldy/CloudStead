@@ -469,3 +469,4 @@ function renderSaveStatus(): void {
     el.textContent = 'Ini pratinjau: tidak ada yang disimpan, dan progres aslimu tidak berubah.';
     return;
   }
+  const at = lastSaved();
