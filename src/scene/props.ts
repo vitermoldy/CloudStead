@@ -388,3 +388,4 @@ function bench(): Group {
 }
 
 function pine(): Group {
+  const g = new Group();
