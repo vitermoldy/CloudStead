@@ -78,3 +78,4 @@ function tabs() {
       if (instant || reduced() || !at || !to.w || !to.h) { jump(ind, true); set(to); ind.getBoundingClientRect(); jump(ind, false); }
       else {
         jump(ind, true);
+        set({ ...to, x: at.x, y: at.y }, at.w / to.w, at.h / to.h);
