@@ -687,3 +687,4 @@ export class World extends Emitter {
       if (this.press && Math.hypot(e.clientX - this.press.x, e.clientY - this.press.y) > 6) this.press.moved = true;
     });
     c.addEventListener('pointerleave', () => {
+      this.pointerIn = false;
