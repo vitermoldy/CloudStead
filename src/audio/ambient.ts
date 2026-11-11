@@ -115,3 +115,4 @@ export class Ambient {
       const o = ctx.createOscillator();
       const g = ctx.createGain();
       o.type = 'sine';
+      o.frequency.setValueAtTime(base, t);
