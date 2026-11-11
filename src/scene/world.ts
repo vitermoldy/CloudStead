@@ -703,3 +703,4 @@ export class World extends Emitter {
         this.controls.enabled = false;
         c.setPointerCapture(e.pointerId);
       }
+    });
