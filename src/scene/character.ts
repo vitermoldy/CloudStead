@@ -631,3 +631,4 @@ export class Character {
     const lean = new Vector3(0, 1, 0.06);
     switch (act) {
       case 'type': lean.set(0, 1, 0.32); break;
+      case 'craft': lean.set(0, 1, 0.26); break;
