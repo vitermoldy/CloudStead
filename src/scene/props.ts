@@ -50,3 +50,5 @@ function mesh(geo: BufferGeometry, mat: MeshStandardMaterial | MeshBasicMaterial
   m.castShadow = shadow;
   m.receiveShadow = true;
   return m;
+}
+
