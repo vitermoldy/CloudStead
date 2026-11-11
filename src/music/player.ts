@@ -235,3 +235,4 @@ export class MusicPlayer extends Emitter {
         return;
       }
       next = 0;
+    }
