@@ -187,3 +187,4 @@ export class Island {
       m.rotation.y = a;
       m.renderOrder = 20;
       g.add(m);
+    }
