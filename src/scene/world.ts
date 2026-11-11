@@ -298,3 +298,4 @@ export class World extends Emitter {
       this.site?.dispose();
       this.site = null;
       const e = this.addProp(m.prop, m.at, false);
+      e.wiggle = instant ? 0 : 1;
