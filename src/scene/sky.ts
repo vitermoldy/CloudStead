@@ -15,3 +15,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
       uBelow: { value: null },
       uSunDir: { value: new Vector3() },
       uStars: { value: 0 },
+      uNight: { value: 0 },
