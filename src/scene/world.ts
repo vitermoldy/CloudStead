@@ -567,3 +567,4 @@ export class World extends Emitter {
       const x = a.x + (b.x - a.x) * t;
       const z = a.z + (b.z - a.z) * t;
       const y = a.y + (b.y - a.y) * t - Math.sin(t * Math.PI) * 0.12;
+      pos.setXYZ(i, x, y, z);
