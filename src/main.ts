@@ -292,3 +292,4 @@ function storyLine(): string {
 }
 
 let lastHud = '';
+function renderHud(force = false): void {
