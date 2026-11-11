@@ -610,3 +610,4 @@ $('view-reset').addEventListener('click', () => world?.resetView());
 function setScenePaused(on: boolean, remember = true): void {
   if (remember) {
     settings.paused = on;
+    save('settings', settings);
