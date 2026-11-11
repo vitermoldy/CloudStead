@@ -654,3 +654,5 @@ addEventListener('keydown', (e) => {
   } else if (e.key === 'm' || e.key === 'M') {
     openPanel('music');
   }
+});
+
