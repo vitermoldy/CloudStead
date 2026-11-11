@@ -544,3 +544,4 @@ export class Character {
           return;
         }
         this.act = step.carry ? 'carry' : 'walk';
+        const dx = step.to.x - pos.x, dz = step.to.z - pos.z;
