@@ -17,3 +17,4 @@ export interface PropContext {
 export interface PropEntry {
   kind: PropKind;
   cell: Cell;
+  title: string;
