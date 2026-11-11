@@ -660,3 +660,5 @@ addEventListener('keydown', (e) => {
 addEventListener('pointerdown', () => ambient.start(), { once: true });
 addEventListener('keydown', () => ambient.start(), { once: true });
 document.addEventListener('visibilitychange', () => ambient.setHidden(document.hidden));
+addEventListener('pointerdown', () => world?.nudge(), { passive: true });
+
