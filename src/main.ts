@@ -84,3 +84,5 @@ async function startWorld(): Promise<void> {
   w.setInkSource(() => [$('big').getBoundingClientRect()]);
   w.setMusic(player.isPlaying);
   w.setContext(progress.todayMinutes, progress.minutes);
+  syncWork();
+
