@@ -65,3 +65,4 @@ function screenTexture(): { tex: CanvasTexture; draw: (lines: number, mode: 'cod
   const tex = new CanvasTexture(canvas);
   tex.colorSpace = SRGBColorSpace;
   const widths = [0.62, 0.4, 0.75, 0.3, 0.55, 0.68, 0.22, 0.5, 0.8, 0.35, 0.6, 0.45];
+  const indents = [0, 1, 1, 2, 2, 1, 0, 1, 2, 2, 1, 0];
