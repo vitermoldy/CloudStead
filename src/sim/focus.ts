@@ -54,3 +54,4 @@ export class FocusTimer extends Emitter {
     if (!this.running) return;
     if (this.phase === 'focus') this.credit(Math.min(Date.now(), this.endAt));
     if (Date.now() >= this.endAt) {
+      this.running = false;
