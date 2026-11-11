@@ -365,3 +365,4 @@ export class World extends Emitter {
         steps.push(...this.walkTo(this.home.clone()));
       } else {
         steps.push(...this.goHome());
+      }
