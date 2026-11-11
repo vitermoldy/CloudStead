@@ -389,3 +389,4 @@ export class Character {
     for (const g of Object.values(t)) {
       g.visible = false;
       this.rig.add(g);
+    }
