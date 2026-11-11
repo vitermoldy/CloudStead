@@ -447,3 +447,4 @@ export class World extends Emitter {
         const pl = plants[Math.floor(Math.random() * plants.length)];
         const stand = this.standPoint(pl.cell);
         if (!stand) return [];
+        const t = new Vector3(pl.cell[0], 0, pl.cell[1]);
