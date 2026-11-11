@@ -69,3 +69,4 @@ async function startWorld(): Promise<void> {
   }
   try {
     world = new World(canvas, { small: Math.min(innerWidth, innerHeight) < 700 });
+  } catch {
