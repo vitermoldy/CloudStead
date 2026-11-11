@@ -272,3 +272,4 @@ document.addEventListener('click', e => {
 // follows it (the lead, each button, the facts) fades up 60ms apart, while the picture settles from a
 // slight scale; about 1.1 s in all, ease-out, transform and opacity only. motion.css hides the words
 // (never the picture) only while the head line's html.m-enter is on and its 700ms safety mark
+// (m-enter-done) is not; the picture waits at its start scale and settles by a CSS transition, so it
