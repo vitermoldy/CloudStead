@@ -341,3 +341,4 @@ export class Island {
       if (bare === 'none') continue;
       const rand = rng(hash(t.cell) ^ 0x2f6b);
       const n = dirt ? 26 : BLADES_PER_TILE;
+      for (let b = 0; b < n && i < this.grass.instanceMatrix.count; b++) {
