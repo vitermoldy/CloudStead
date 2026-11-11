@@ -83,3 +83,4 @@ export function tilesFor(reached: Iterable<Milestone>): Cell[] {
 }
 
 /** Hours and minutes in Indonesian, short: "1 j 20 m", "45 m". */
+export function formatMinutes(min: number): string {
