@@ -53,3 +53,4 @@ tetap berjalan; hanya pulaunya yang tidak tergambar.
 - Tahan klik untuk mengelusnya.
 - Nama "VMK" bisa diganti di panel **Pulau**.
 - Klik kolam, kincir, pohon, dan bangunan lain; arahkan ke garis putus-putus untuk melihat kapan
+  petak berikutnya naik.
