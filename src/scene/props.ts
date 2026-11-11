@@ -498,3 +498,4 @@ function waterfall(): Group {
   const fall = new Mesh(new PlaneGeometry(0.24, 6.5, 1, 24), mat);
   fall.position.set(0, -3.25, 0.5);
   g.add(fall);
+  const mist = new Mesh(new SphereGeometry(0.5, 10, 8), new MeshBasicMaterial({ color: '#e8f0f0', transparent: true, opacity: 0.25, depthWrite: false, blending: AdditiveBlending }));
