@@ -189,3 +189,4 @@ html:not([data-motion="off"]) .field :is(input, select, textarea), .m-input {
   transition: border-color var(--m-out) var(--m-ease), box-shadow var(--m-out) var(--m-ease), background-color var(--m-out) var(--m-ease);
 }
 html:not([data-motion="off"]) .field :is(input, select, textarea):hover, .m-input:hover { border-color: color-mix(in oklab, var(--ink) 48%, transparent); }
+html:not([data-motion="off"]) .field :is(input, select, textarea):focus, .m-input:focus {
