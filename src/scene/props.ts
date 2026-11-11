@@ -205,3 +205,5 @@ function catenary(a: Vector3, b: Vector3, sag: number, steps = 24): Vector3[] {
     pts.push(p);
   }
   return pts;
+}
+
