@@ -31,3 +31,4 @@ tetap berjalan; hanya pulaunya yang tidak tergambar.
   - petak baru: dia menariknya dari awan dengan tali;
   - perlengkapan (bantal, syal, kupluk, mug, buku, headphone): dia membuatnya sambil duduk.
 
+  Saat istirahat VMK ikut istirahat. Tanpa timer dia jalan-jalan, menyiram tanaman, mengecek
