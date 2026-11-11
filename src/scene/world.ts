@@ -465,3 +465,4 @@ export class World extends Emitter {
       if (r <= 0) {
         const steps = make();
         c.run(steps.length ? steps : [...this.goHome(), { kind: 'sit', act: 'sitIdle', seconds: 12 }]);
+        return;
