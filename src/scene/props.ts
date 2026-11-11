@@ -668,3 +668,4 @@ export class PropsLayer {
     return new Set(this.entries.filter((e) => e.blocking).map((e) => cellKey(e.cell)));
   }
 
+  isBlocking(kind: PropKind): boolean {
