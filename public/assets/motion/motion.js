@@ -72,3 +72,4 @@ function tabs() {
     // old tab's size at the old place, and settles to scale 1 at the new place (motion.css)
     const place = () => {
       const sel = list.querySelector('[role="tab"][aria-selected="true"]');
+      if (!sel) { ind.style.opacity = '0'; return; }
