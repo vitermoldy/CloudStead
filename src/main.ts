@@ -306,3 +306,4 @@ function renderHud(force = false): void {
   if (minLeft !== lastMinuteSr) {
     lastMinuteSr = minLeft;
     $('timer-sr').textContent = `Sisa ${formatMinutesLong(ms / 60000)} ${timer.phase === 'focus' ? 'fokus' : 'istirahat'}.`;
+  }
