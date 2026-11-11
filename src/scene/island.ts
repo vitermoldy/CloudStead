@@ -262,3 +262,4 @@ export class Island {
   setTiles(cells: Cell[], animate = false): Cell[] {
     const want = new Set(cells.map(cellKey));
     for (const [key, t] of this.tiles) {
+      if (!want.has(key)) {
