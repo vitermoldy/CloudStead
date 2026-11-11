@@ -560,3 +560,4 @@ export class PropsLayer {
     const u = e.group.userData;
     switch (e.kind) {
       case 'tree':
+        e.update = (_dt, ctx) => {
