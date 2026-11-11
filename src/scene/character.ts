@@ -241,3 +241,4 @@ export class Character {
   private thighs: Mesh[] = [];
   private shins: Mesh[] = [];
   private shoes: Mesh[] = [];
+  private laptop = new Group();
