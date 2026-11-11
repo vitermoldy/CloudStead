@@ -349,3 +349,4 @@ fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
 html.has-cursor .cursor.is-on { opacity: 1; }
 .cursor__dot, .cursor__ring { position: absolute; left: 0; top: 0; will-change: transform; }
 .cursor__dot {
+  width: 6px; height: 6px; margin: -3px 0 0 -3px; border-radius: 50%; background: var(--ink);
