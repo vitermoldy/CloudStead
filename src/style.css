@@ -240,3 +240,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 }
 .round:hover { border-color: var(--ink); background: rgba(231, 228, 209, .06); }
 .round:active { transform: scale(.94); }
+.round svg { width: 18px; height: 18px; fill: currentColor; }
