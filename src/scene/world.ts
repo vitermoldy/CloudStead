@@ -111,3 +111,4 @@ export class World extends Emitter {
     this.bounce.position.set(-0.5, -0.35, 0.8);
     this.scene.add(this.sun, this.sun.target, this.hemi, this.bounce);
     this.scene.fog = new Fog('#7d6656', 35, 150);
+    this.scene.add(this.sky.mesh);
