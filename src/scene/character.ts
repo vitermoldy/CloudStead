@@ -123,3 +123,4 @@ export function makeGear(kind: Gear): Group {
       break;
     }
     case 'books': {
+      ['#8c3b2e', '#2f4b5e', '#c9a75c'].forEach((col, i) => {
