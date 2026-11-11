@@ -60,3 +60,4 @@ function rock(): Group {
   const small = mesh(new DodecahedronGeometry(0.14, 0), STONE, 0.33, 0.07, 0.24);
   small.rotation.set(0.5, 0.2, 0.7);
   g.add(big, small);
+  // A tuft of grass on the boulder's crown, as on the reference's rock.
