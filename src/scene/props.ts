@@ -160,3 +160,4 @@ function hut(): Group {
   const tri = (door: boolean) => {
     const s = new Shape();
     s.moveTo(-0.4, 0);
+    s.lineTo(0.4, 0);
