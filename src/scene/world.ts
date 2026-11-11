@@ -784,3 +784,5 @@ export class World extends Emitter {
     const same = prev.kind === this.hover.kind && prev.prop === this.hover.prop && prev.part === this.hover.part &&
       (prev.cell?.[0] === this.hover.cell?.[0] && prev.cell?.[1] === this.hover.cell?.[1]);
     if (!same) this.emitHover();
+  }
+
