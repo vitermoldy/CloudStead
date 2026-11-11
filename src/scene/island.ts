@@ -227,3 +227,4 @@ export class Island {
     if (t && !t.landed) t.target = Math.max(0, Math.min(1, k));
   }
 
+  /** The top of a cell on its way up, in the world (where the rope ties on). */
