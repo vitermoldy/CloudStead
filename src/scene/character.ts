@@ -561,3 +561,4 @@ export class Character {
           return;
         }
         this.act = step.act;
+        this.workPoint = step.face ?? null;
