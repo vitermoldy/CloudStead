@@ -364,3 +364,4 @@ export class Character {
     const shaft = new Mesh(new CylinderGeometry(0.008, 0.008, 0.36, 5), new MeshStandardMaterial({ color: '#7a5636' }));
     shaft.position.y = -0.1;
     const spade = new Mesh(new BoxGeometry(0.07, 0.08, 0.008), IRON);
+    spade.position.y = -0.3;
