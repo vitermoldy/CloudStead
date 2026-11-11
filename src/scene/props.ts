@@ -266,3 +266,4 @@ function boardTexture(): { tex: CanvasTexture; draw: (today: number, total: numb
     const m = Math.floor(min);
     const h = Math.floor(m / 60);
     return h ? `${h} j ${m % 60} m` : `${m} m`;
+  };
