@@ -32,3 +32,4 @@ tetap berjalan; hanya pulaunya yang tidak tergambar.
   - perlengkapan (bantal, syal, kupluk, mug, buku, headphone): dia membuatnya sambil duduk.
 
   Saat istirahat VMK ikut istirahat. Tanpa timer dia jalan-jalan, menyiram tanaman, mengecek
+  proyeknya, atau main laptop, dan proyeknya berhenti di persentase terakhir. Daftar lengkapnya ada
