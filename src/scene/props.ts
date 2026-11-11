@@ -495,3 +495,4 @@ function waterfall(): Group {
       }
     `,
   });
+  const fall = new Mesh(new PlaneGeometry(0.24, 6.5, 1, 24), mat);
