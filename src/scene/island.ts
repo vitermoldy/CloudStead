@@ -384,3 +384,4 @@ export class Island {
   }
 
   showHighlight(cell: Cell | null): void {
+    if (cell) {
