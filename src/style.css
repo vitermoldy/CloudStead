@@ -64,3 +64,4 @@ button:disabled { cursor: not-allowed; opacity: .5; }
 main { display: block; }
 .hero {
   position: relative; height: 100vh; height: 100svh; overflow: hidden; background: #1b1d24;
+  display: flex; flex-direction: column; justify-content: flex-end;
