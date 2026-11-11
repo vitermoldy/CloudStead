@@ -117,3 +117,4 @@ export class Progress extends Emitter {
         d.reachedAt[m.id] = new Date().toISOString();
         passed.push(m);
       }
+    }
