@@ -94,3 +94,4 @@ export class World extends Emitter {
     super();
     this.renderer = new WebGLRenderer({ canvas, antialias: true, powerPreference: 'high-performance' });
     this.maxRatio = Math.min(window.devicePixelRatio || 1, opts.small ? 1.6 : 2);
+    this.pixelRatio = this.maxRatio;
