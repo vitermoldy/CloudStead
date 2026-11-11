@@ -264,3 +264,4 @@ export class MusicPlayer extends Emitter {
         this.seekToVideo = null;
         if (k > 0) this.player!.playVideoAt(k);
       }
+    } else if (s === YT.PlayerState.PAUSED || s === YT.PlayerState.CUED) {
