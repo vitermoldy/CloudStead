@@ -78,3 +78,5 @@ export class LiveLook {
   fog = new Color();
   stars = 0;
   night = 0;
+  exposure = 1;
+
