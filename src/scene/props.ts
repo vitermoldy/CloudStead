@@ -113,3 +113,4 @@ function tree(): Group {
   return g;
 }
 
+function garden(): Group {
