@@ -271,3 +271,4 @@ export class Character {
     fringe.position.set(0.0, 0.055, 0.06);
     fringe.rotation.x = 0.5;
     this.head.add(skull, hair, fringe);
+    for (const s of [-1, 1]) {
