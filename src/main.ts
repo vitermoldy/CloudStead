@@ -79,3 +79,4 @@ async function startWorld(): Promise<void> {
   w.character.name = progress.name;
   w.sync(new Set(progress.reached().map((m) => m.id)));
   w.setTime(settings.time);
+  w.setInstant(reducedMotion());
