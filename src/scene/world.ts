@@ -82,3 +82,4 @@ export class World extends Emitter {
   private lookHold = 0;
   private lookPoint = new Vector3();
   private frameMs = 16;
+  private pixelRatio: number;
