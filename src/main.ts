@@ -587,3 +587,4 @@ for (const input of document.querySelectorAll<HTMLInputElement>('#time-group inp
     save('settings', settings);
     world?.setTime(settings.time);
   });
+}
