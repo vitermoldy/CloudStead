@@ -72,3 +72,4 @@ function puffAtlas(): DataTexture {
         // The flat base faces down; billows near it turn down too, gradually.
         const down = Math.min(1, Math.max(0, (y - (base - 0.12)) / 0.1));
         ny = ny + (Math.min(ny, -0.25) - ny) * down;
+        const len = Math.hypot(nx, ny, nz) || 1;
