@@ -82,3 +82,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
       const u = material.uniforms;
       u.uZenith.value = look.zenith;
       u.uHorizon.value = look.horizon;
+      u.uGlow.value = look.glow;
