@@ -881,3 +881,4 @@ export class World extends Emitter {
     // Holding the press on the resident turns into petting.
     const p = this.press;
     if (p && p.on === 'char' && !p.petting && (performance.now() - p.t) / 1000 > PRESS_TO_PET) {
+      p.petting = true;
