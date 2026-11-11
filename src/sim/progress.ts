@@ -75,3 +75,4 @@ export class Progress extends Emitter {
   }
 
   get todayMinutes(): number {
+    return this.data.todayDate === today() ? this.data.todayMs / 60000 : 0;
