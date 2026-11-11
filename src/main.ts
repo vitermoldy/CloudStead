@@ -177,3 +177,4 @@ function onGreet(): void {
   if (c.act === 'sleep') {
     world.nudge();
     return;
+  }
