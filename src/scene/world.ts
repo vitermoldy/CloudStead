@@ -622,3 +622,5 @@ export class World extends Emitter {
 
   setInkSource(fn: () => DOMRect[]): void {
     this.inkRects = fn;
+  }
+
