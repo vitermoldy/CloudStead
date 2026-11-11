@@ -676,3 +676,4 @@ export class World extends Emitter {
   private bindPointer(): void {
     const c = this.canvas;
     const toNdc = (e: PointerEvent) => {
+      const r = c.getBoundingClientRect();
