@@ -156,3 +156,4 @@ export class Ambient {
     if (this.typing && this.settings.keys && !this.hidden) {
       this.key();
       // Words come in bursts, with a pause to think now and then.
+      if (Math.random() < 0.08) wait += 500 + Math.random() * 900;
