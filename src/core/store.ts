@@ -15,3 +15,4 @@ function readAll(): Bag {
   if (cache) return cache;
   try {
     const raw = localStorage.getItem(KEY);
+    const parsed = raw ? JSON.parse(raw) : {};
