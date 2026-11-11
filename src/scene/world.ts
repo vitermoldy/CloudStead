@@ -251,3 +251,4 @@ export class World extends Emitter {
         ? this.approach.clone().lerp(target, 0.2).add(new Vector3(this.approach.z - target.z, 0, target.x - this.approach.x).normalize().multiplyScalar(0.22))
         : null;
       this.site = new PropSite(m.prop, m.at, pileAt);
+      this.scene.add(this.site.group);
