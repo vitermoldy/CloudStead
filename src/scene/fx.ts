@@ -144,3 +144,4 @@ export class Fx {
       p.sprite.position.copy(at).add(new Vector3((Math.random() - 0.5) * 0.12, Math.random() * 0.05, (Math.random() - 0.5) * 0.12));
       p.life = 0;
       p.spin = 0;
+      switch (kind) {
