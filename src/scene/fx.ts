@@ -154,3 +154,4 @@ export class Fx {
           p.max = 0.9 + Math.random() * 0.4; p.size = 0.12 + Math.random() * 0.1; p.grow = 0.35; p.gravity = 0.05;
           break;
         case 'note':
+          p.vel.set((Math.random() - 0.5) * 0.12, 0.28, (Math.random() - 0.5) * 0.12);
