@@ -361,3 +361,4 @@ export class World extends Emitter {
       const steps: Step[] = [];
       if (this.loopN % 2 === 0) {
         steps.push(...this.walkTo(this.home.clone().add(new Vector3(0.12, 0, -0.1))));
+        steps.push({ kind: 'do', act: 'stand', seconds: 0.8, face: c.seat.localToWorld(new Vector3(0.3, 0, -0.3)) });
