@@ -201,3 +201,4 @@ function catenary(a: Vector3, b: Vector3, sag: number, steps = 24): Vector3[] {
   for (let i = 0; i <= steps; i++) {
     const t = i / steps;
     const p = a.clone().lerp(b, t);
+    p.y -= Math.sin(t * Math.PI) * sag;
