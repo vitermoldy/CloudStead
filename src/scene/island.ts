@@ -191,3 +191,4 @@ export class Island {
     return g;
   }
 
+  /** True for a cell that is part of the island (one still being hauled up does not count). */
