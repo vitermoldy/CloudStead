@@ -614,3 +614,4 @@ function setScenePaused(on: boolean, remember = true): void {
   }
   world?.setPaused(on);
   for (const id of ['scene-pause', 'scene-pause-2']) {
+    const b = $(id);
