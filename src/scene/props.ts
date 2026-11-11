@@ -191,3 +191,4 @@ function hut(): Group {
     r.rotation.z = s * 0.43;
     g.add(r);
   }
+  g.add(mesh(new BoxGeometry(0.08, 0.06, 1.08), WOOD_DARK, 0, 1.03, 0));
