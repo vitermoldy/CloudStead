@@ -204,3 +204,4 @@ export class MusicPlayer extends Emitter {
         this.player.nextVideo();
         return;
       }
+    }
