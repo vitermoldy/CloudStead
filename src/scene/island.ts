@@ -3,3 +3,4 @@ import {
   MeshBasicMaterial, MeshStandardMaterial, Object3D, Quaternion, Vector3, type Material,
 } from 'three';
 import { RoundedBoxGeometry } from 'three/examples/jsm/geometries/RoundedBoxGeometry.js';
+import { rng, clamp } from '../core/emitter';
