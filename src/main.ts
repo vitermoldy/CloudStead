@@ -7,3 +7,4 @@ import { reducedMotion } from './core/emitter';
 import { exportSave, isReadOnly, lastSaved, load, onSaved, parseSaveFile, replaceAll, save, SaveFileError, setReadOnly } from './core/store';
 import { MusicPlayer } from './music/player';
 import { clockText, FocusTimer, type PresetId } from './sim/focus';
+import { formatMinutes, formatMinutesLong, MILESTONES, tilesFor, TOTAL_MINUTES, type Milestone } from './sim/milestones';
