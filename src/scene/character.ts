@@ -458,3 +458,4 @@ export class Character {
     if (!g || kind !== 'headphones') return;
     if (this.musicOn) {
       this.head.add(g);
+      g.position.set(0, 0.01, -0.005);
