@@ -265,3 +265,4 @@ export function createClouds(count: number): Clouds {
         vSeed = aMeta.x;
         vVariant = aMeta.w;
         vSunView = normalize((viewMatrix * vec4(uSunDir, 0.0)).xyz);
+        vDist = length(mv.xyz);
