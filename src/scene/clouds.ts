@@ -154,3 +154,4 @@ function cloudFloor(): { mesh: Mesh; material: ShaderMaterial } {
         vWorld = w.xyz;
         gl_Position = projectionMatrix * viewMatrix * w;
       }
+    `,
