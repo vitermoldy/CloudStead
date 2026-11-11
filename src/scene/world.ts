@@ -356,3 +356,4 @@ export class World extends Emitter {
   private planWork(m: Milestone): void {
     const c = this.character;
     this.loopN++;
+    if (m.kind === 'gear') {
