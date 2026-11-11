@@ -383,3 +383,4 @@ export class World extends Emitter {
       ]);
       return;
     }
+    // A piece on a cell.
