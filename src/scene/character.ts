@@ -814,3 +814,4 @@ export class Character {
       roll += Math.sin(time * 3) * 0.12 * this.petAmount;
       pitch = pitch * (1 - this.petAmount) - 0.1 * this.petAmount;
     }
+    if (this.pokeT > 0) {
