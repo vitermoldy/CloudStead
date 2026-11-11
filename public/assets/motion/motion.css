@@ -104,3 +104,4 @@ html:not([data-motion="off"]) .link, html:not([data-motion="off"]) .link:is(:hov
 html:not([data-motion="off"]) .footer ul a:hover { color: var(--ink); }
 
 /* ---------------------------------------------------------------- navigation */
+/* the nav words take no pill (ST-08, ST-11): system.css draws the underline under a word from the left on hover and focus, and
