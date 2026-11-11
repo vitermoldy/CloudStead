@@ -37,3 +37,4 @@ const DARK = new MeshBasicMaterial({ color: '#1b1512' });
 
 /** Two-bone reach: from a to the target, bending toward the pole. Writes the joint and the end. */
 function reach(a: Vector3, target: Vector3, l1: number, l2: number, pole: Vector3, mid: Vector3, end: Vector3): void {
+  const d = target.clone().sub(a);
