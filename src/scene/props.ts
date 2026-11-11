@@ -241,3 +241,4 @@ function pole(): Group {
 }
 
 function lamp(): Group {
+  const g = new Group();
