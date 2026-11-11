@@ -58,3 +58,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
   loop.addEventListener('change', () => player.setLoop(loop.checked));
 
   let lastError = '';
+  const render = () => {
