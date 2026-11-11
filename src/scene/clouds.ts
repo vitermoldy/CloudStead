@@ -237,3 +237,4 @@ export function createClouds(count: number): Clouds {
       uTime: { value: 0 },
       uSpan: { value: 130 },
     },
+    vertexShader: /* glsl */ `
