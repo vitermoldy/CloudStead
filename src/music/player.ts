@@ -131,3 +131,4 @@ export class MusicPlayer extends Emitter {
               onStateChange: (e: { data: number }) => this.onState(e.data),
               onError: (e: { data: number }) => this.onError(e.data),
             },
+          });
