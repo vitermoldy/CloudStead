@@ -916,3 +916,4 @@ export class Character {
       t.plank.position.copy(handL).add(handR).multiplyScalar(0.5).add(new Vector3(0, 0.025, 0.01));
       t.plank.rotation.set(0, 0, 0);
     }
+    if (t.yarn.visible) {
