@@ -319,3 +319,4 @@ export class Island {
   setBare(cell: Cell, how: 'none' | 'edges' | null): void {
     if (how) this.bare.set(cellKey(cell), how);
     else this.bare.delete(cellKey(cell));
+    this.layGrass();
