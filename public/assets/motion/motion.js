@@ -120,3 +120,4 @@ function format(v, p) {
   return d ? i + p.dec + d : i;
 }
 // the web fonts, or 3 s at most: a number measured in the fallback font comes out narrower
+const fontsIn = () => Promise.race([document.fonts?.ready ?? Promise.resolve(), new Promise(r => setTimeout(r, 3000))]);
