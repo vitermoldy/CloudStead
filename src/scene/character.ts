@@ -68,3 +68,4 @@ function screenTexture(): { tex: CanvasTexture; draw: (lines: number, mode: 'cod
   const indents = [0, 1, 1, 2, 2, 1, 0, 1, 2, 2, 1, 0];
   const draw = (lines: number, mode: 'code' | 'rest' | 'sleep' | 'away') => {
     ctx.fillStyle = mode === 'sleep' ? '#0c1016' : '#16202b';
+    ctx.fillRect(0, 0, 128, 84);
