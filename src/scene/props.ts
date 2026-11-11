@@ -565,3 +565,4 @@ export class PropsLayer {
           crown.rotation.z = Math.sin(ctx.time * 0.9 + 1) * 0.025 + e.wiggle * Math.sin(ctx.time * 30) * 0.08;
           crown.rotation.x = Math.cos(ctx.time * 0.7) * 0.02;
         };
+        break;
