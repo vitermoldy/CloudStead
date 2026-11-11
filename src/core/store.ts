@@ -24,3 +24,4 @@ function readAll(): Bag {
 }
 
 function flush(): boolean {
+  timer = 0;
