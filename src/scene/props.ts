@@ -361,3 +361,4 @@ function windmill(): Group {
   g.add(mesh(new BoxGeometry(0.1, 0.18, 0.02), WOOD_DARK, 0, 0.12, 0.2, false));
   const hub = new Group();
   hub.position.set(0, 1.38, 0.2);
+  hub.add(mesh(new CylinderGeometry(0.04, 0.04, 0.08, 8), WOOD_DARK, 0, 0, 0).rotateX(Math.PI / 2));
