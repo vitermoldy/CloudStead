@@ -53,3 +53,4 @@ export function load<T>(section: string, fallback: T): T {
   return value as T;
 }
 
+export function save(section: string, value: unknown): void {
