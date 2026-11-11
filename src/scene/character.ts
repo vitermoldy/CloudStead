@@ -675,3 +675,4 @@ export class Character {
       this.feet[i].lerp(target, 1 - Math.exp(-14 * dt));
       const hip = pelvis.clone().addScaledVector(side, s * 0.045);
       const knee = new Vector3(), foot = new Vector3();
+      reach(hip, this.feet[i], L_THIGH, L_SHIN, pole, knee, foot);
