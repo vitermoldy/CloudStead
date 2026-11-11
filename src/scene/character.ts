@@ -184,3 +184,4 @@ export function makeGear(kind: Gear): Group {
 const KNITTED = new Set<Gear>(['cushion', 'scarf', 'beanie']);
 
 export class Character {
+  readonly root = new Group();
