@@ -31,3 +31,5 @@ dial **ENERGY 3 / RHYTHM 1 / MOTION 3**.
 - Type: Funnel Display and Funnel Sans (the first dealt pairing), self-hosted through Fontsource.
 - Radius: round (a consumer app, and the reference's pill button).
 
+## Decisions and their reasons (R-31)
+
