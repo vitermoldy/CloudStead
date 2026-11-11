@@ -4,3 +4,5 @@ import {
 } from 'three';
 import { RoundedBoxGeometry } from 'three/examples/jsm/geometries/RoundedBoxGeometry.js';
 import { rng, clamp } from '../core/emitter';
+import { cellKey, type Cell } from '../sim/milestones';
+
