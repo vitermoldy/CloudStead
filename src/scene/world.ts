@@ -107,3 +107,4 @@ export class World extends Emitter {
     this.sun.shadow.mapSize.set(opts.small ? 1024 : 2048, opts.small ? 1024 : 2048);
     this.sun.shadow.bias = -0.0006;
     this.sun.shadow.normalBias = 0.02;
+    this.sun.shadow.radius = 3;
