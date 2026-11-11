@@ -98,3 +98,4 @@ function screenTexture(): { tex: CanvasTexture; draw: (lines: number, mode: 'cod
     for (let i = 0; i < 9; i++) {
       const k = (lines + i) % widths.length;
       ctx.fillStyle = cols[(k * 7 + i) % cols.length];
+      ctx.globalAlpha = i === 8 ? 1 : 0.85;
