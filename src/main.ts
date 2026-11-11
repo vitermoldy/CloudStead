@@ -368,3 +368,4 @@ function toggleFocus(): void {
 
 timer.on('change', () => {
   syncWork();
+  renderHud(true);
