@@ -287,3 +287,4 @@ function maskWords(h1) {
   const copy = own.cloneNode(true);
   const words = [];
   const walk = node => [...node.childNodes].forEach(n => {
+    if (n.nodeType === 1) return walk(n);
