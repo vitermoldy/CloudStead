@@ -190,3 +190,4 @@ export class Character {
   private rig = new Group();
   readonly home = new Vector3(0, 0, 0);
   heading = 0;
+  act: Act = 'sitIdle';
