@@ -899,3 +899,4 @@ export class Character {
       t.hammer.quaternion.setFromUnitVectors(UP, handR.clone().sub(elbows[R]).normalize());
     }
     if (t.shovel.visible) {
+      // From the upper hand through the lower one, the blade on the ground in front.
