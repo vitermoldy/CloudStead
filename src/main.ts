@@ -372,3 +372,4 @@ timer.on('change', () => {
 });
 timer.on('finished', (phase: string, skipped: boolean) => {
   if (phase === 'focus' && !skipped) {
+    toast('Satu sesi fokus selesai. Waktunya istirahat.');
