@@ -791,3 +791,4 @@ export class Character {
         roll = 0.25 + Math.sin(time * 0.9) * 0.04;
         yaw = 0.1;
         break;
+      case 'walk':
