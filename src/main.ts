@@ -613,3 +613,4 @@ function setScenePaused(on: boolean, remember = true): void {
     save('settings', settings);
   }
   world?.setPaused(on);
+  for (const id of ['scene-pause', 'scene-pause-2']) {
