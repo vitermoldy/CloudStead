@@ -76,3 +76,4 @@ export class Ambient {
     lp.type = 'lowpass';
     lp.frequency.value = 520;
     lp.Q.value = 0.6;
+    const lfo = ctx.createOscillator();
