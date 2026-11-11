@@ -44,3 +44,4 @@ function rockGeometry(cell: Cell, depth: number): BufferGeometry {
       const rad = sq * taper * bulge * jitter;
       ring.push(new Vector3(Math.cos(a) * rad + tipX * k * k, y + (rand() - 0.5) * 0.18 * (r < rings ? 1 : 0), Math.sin(a) * rad + tipZ * k * k));
     }
+    pts.push(ring);
