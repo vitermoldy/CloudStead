@@ -354,3 +354,4 @@ export class Character {
 
   /** Hammer, shovel, watering can, a plank to carry, yarn and needles. Each hangs off the right hand. */
   private buildTools(): void {
+    const t = this.tools;
