@@ -230,3 +230,4 @@ export class Fx {
         const m = p.sprite.material as SpriteMaterial;
         m.opacity = Math.min(1, k * 6) * (1 - k * k);
         m.rotation += p.spin * dt;
+      }
