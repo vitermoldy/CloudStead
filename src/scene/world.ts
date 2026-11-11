@@ -467,3 +467,4 @@ export class World extends Emitter {
         c.run(steps.length ? steps : [...this.goHome(), { kind: 'sit', act: 'sitIdle', seconds: 12 }]);
         return;
       }
+    }
