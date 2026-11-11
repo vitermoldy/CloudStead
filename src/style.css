@@ -40,3 +40,4 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--ink);
+  font: 400 16px/1.45 var(--font-text);
