@@ -250,3 +250,4 @@ html:not([data-motion="off"]) .field :is(input, select, textarea):focus, .m-inpu
    --m-still (0-1) of the cycle, set on the loop where the picture is complete */
 @media (max-width: 639px) {
   [data-m-loop] * { animation-duration: var(--m-cycle) !important; animation-delay: calc(-1 * var(--m-still) * var(--m-cycle)) !important;
+                    animation-play-state: paused !important; }
