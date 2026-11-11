@@ -646,3 +646,4 @@ export class PropsLayer {
       e.group.traverse((o) => {
         const m = o as Mesh;
         if (m.geometry) m.geometry.dispose();
+      });
