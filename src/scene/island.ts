@@ -379,3 +379,4 @@ export class Island {
   }
 
   ghostAt(x: number, z: number): Cell | null {
+    const c: Cell = [Math.round(x), Math.round(z)];
