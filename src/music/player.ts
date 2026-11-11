@@ -23,3 +23,4 @@ export class MusicPlayer extends Emitter {
   volume: number;
   loop: boolean;
   status: MusicStatus = 'idle';
+  nowTitle = '';
