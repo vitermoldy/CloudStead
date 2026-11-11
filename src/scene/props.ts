@@ -642,3 +642,4 @@ export class PropsLayer {
     for (let i = this.entries.length - 1; i >= 0; i--) {
       const e = this.entries[i];
       if (!match(e)) continue;
+      this.group.remove(e.group);
