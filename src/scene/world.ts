@@ -126,3 +126,4 @@ export class World extends Emitter {
     this.controls.zoomSpeed = 0.7;
     this.controls.minPolarAngle = 0.5;
     this.controls.maxPolarAngle = 1.36;
+    this.controls.target.set(0, 0.25, 0);
