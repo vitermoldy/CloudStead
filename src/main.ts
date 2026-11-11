@@ -318,3 +318,4 @@ function renderHud(force = false): void {
   const fill = $('meter-fill');
   const meter = $('meter');
   if (next) {
+    const from = progress.previousMinutes();
