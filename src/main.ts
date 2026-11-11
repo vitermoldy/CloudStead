@@ -133,3 +133,4 @@ async function startWorld(): Promise<void> {
 function syncWork(): void {
   if (!world) return;
   world.setWork(timer.focusing ? 'work' : timer.resting ? 'rest' : 'free');
+  world.setProgress(progress.next(), projectShare());
