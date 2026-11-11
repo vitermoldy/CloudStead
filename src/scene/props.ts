@@ -521,3 +521,4 @@ const BLOCKING = new Set<PropKind>(['rock', 'sapling', 'tree', 'garden', 'hut-fr
 
 /** A fresh model of a piece, turned the way it stands (the construction site builds from these). */
 export function buildProp(kind: PropKind): Group {
+  const g = BUILDERS[kind]();
