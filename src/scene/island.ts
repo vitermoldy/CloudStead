@@ -322,3 +322,4 @@ export class Island {
     this.layGrass();
   }
 
+  clearBare(): void {
