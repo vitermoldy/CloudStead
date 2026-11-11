@@ -7,3 +7,5 @@ export type PropKind =
   | 'rock' | 'flowers' | 'sapling' | 'tree' | 'garden' | 'hut-frame' | 'hut' | 'pole' | 'lamp'
   | 'board' | 'pond' | 'windmill' | 'bench' | 'pine' | 'telescope' | 'balloon' | 'waterfall';
 
+export type Gear = 'cushion' | 'headphones' | 'books' | 'mug' | 'scarf' | 'beanie';
+
