@@ -138,3 +138,4 @@ function cloudFloor(): { mesh: Mesh; material: ShaderMaterial } {
   const material = new ShaderMaterial({
     fog: false,
     toneMapped: false,
+    // No depth: the puffs that dip below the floor must never be cut by it.
