@@ -249,3 +249,4 @@ function lamp(): Group {
   g.add(mesh(new ConeGeometry(0.1, 0.07, 4), IRON, 0.28, 1.1, 0.22));
   const light = new PointLight('#ffb35a', 0, 3.6, 1.6);
   light.position.set(0.28, 0.95, 0.22);
+  g.add(light);
