@@ -158,3 +158,4 @@ export class Fx {
           p.max = 2.4; p.size = 0.06; p.grow = 0.01; p.gravity = 0;
           p.spin = (Math.random() - 0.5) * 1.2;
           break;
+        case 'z':
