@@ -852,3 +852,4 @@ export class Character {
     const smile = 1 + this.happy * 0.6;
     this.mouth.scale.set(smile, this.pokeT > 0 ? -1 : smile, 1);
 
+    // ---- laptop screen
