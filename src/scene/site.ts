@@ -77,3 +77,4 @@ export class PropSite {
       mesh.material = mat;
       mesh.castShadow = false;
       mesh.receiveShadow = false;
+    });
