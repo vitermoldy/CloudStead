@@ -26,3 +26,4 @@ export class Ambient {
   private noise: AudioBuffer | null = null;
   private night = 0;
   private typing = false;
+  private ducked = false;
