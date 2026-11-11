@@ -113,3 +113,4 @@ type GeoMaker = BoxGeometry | CylinderGeometry | SphereGeometry | TorusGeometry;
 export function makeGear(kind: Gear): Group {
   const g = new Group();
   const m = (geo: GeoMaker, color: string, rough = 0.85) => new Mesh(geo, new MeshStandardMaterial({ color, roughness: rough }));
+  switch (kind) {
