@@ -41,3 +41,4 @@ function nav() {
 
   // one menu open: the next word swaps the panel at once (figma.com); leaving the bar closes softly
   let t = 0;
+  bar.querySelectorAll('.nav__item').forEach(item => {
