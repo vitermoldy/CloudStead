@@ -599,3 +599,4 @@ export class World extends Emitter {
     this.paused = on;
     if (on) this.renderer.setAnimationLoop(null);
     else this.start();
+    if (on) this.frame();
