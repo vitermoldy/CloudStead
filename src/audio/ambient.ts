@@ -198,3 +198,4 @@ export class Ambient {
   }
 
   /** The resident's work, beat by beat: hammer, shovel, watering can, rope. Under the "work" switch. */
+  work(kind: 'hammer' | 'dig' | 'water' | 'haul'): void {
