@@ -477,3 +477,4 @@ function waterfall(): Group {
       uniform float uTime;
       uniform float uNight;
       varying vec2 vUv;
+      float hash(vec2 p) { return fract(sin(dot(p, vec2(41.3, 289.1))) * 43758.5453); }
