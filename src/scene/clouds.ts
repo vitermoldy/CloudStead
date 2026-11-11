@@ -253,3 +253,4 @@ export function createClouds(count: number): Clouds {
       varying float vToward;
       void main() {
         vec3 c = aOffset;
+        // Wind from the west; puffs wrap round a wide square so the sea never runs out.
