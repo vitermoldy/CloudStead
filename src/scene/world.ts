@@ -633,3 +633,4 @@ export class World extends Emitter {
     }
   }
 
+  resetView(): void {
