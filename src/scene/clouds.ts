@@ -330,3 +330,4 @@ export function createClouds(count: number): Clouds {
       const db = (xb - camPos.x) ** 2 + (pb.y - camPos.y) ** 2 + (pb.z - camPos.z) ** 2;
       return db - da;
     });
+    for (let k = 0; k < n; k++) {
