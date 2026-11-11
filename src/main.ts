@@ -140,3 +140,4 @@ function syncWork(): void {
 function projectShare(): number {
   const next = progress.next();
   if (!next) return 1;
+  const from = progress.previousMinutes();
