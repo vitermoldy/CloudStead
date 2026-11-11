@@ -93,3 +93,4 @@ export class Fx {
   private birdT = -1;
   private birdDir = 1;
 
+  constructor() {
