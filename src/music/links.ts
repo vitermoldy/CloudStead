@@ -17,3 +17,5 @@ export interface ParsedLink {
 export function parseLink(raw: string): ParsedLink {
   const text = String(raw || '').trim();
   if (!text) throw new LinkError('Tempel tautannya dulu.');
+  if (VIDEO_ID.test(text)) return { kind: 'video', videoId: text, listId: null, source: 'YouTube', url: `https://www.youtube.com/watch?v=${text}` };
+
