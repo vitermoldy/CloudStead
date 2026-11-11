@@ -66,3 +66,4 @@ dial **ENERGY 3 / RHYTHM 1 / MOTION 3**.
 - A finished piece gives a small bounce and a puff of dust while VMK cheers (the page's dealt
   moment: the work is done).
 - During focus VMK works in rounds of about five seconds (hammer blows, shovel strokes, pulls on
+  the rope), with walks to the crate for more material; the piece rises with the progress line.
