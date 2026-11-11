@@ -27,3 +27,4 @@ interface Saved {
  * onFocusTime, which grows the island. Events: change, finished (phase).
  */
 export class FocusTimer extends Emitter {
+  preset: PresetId;
