@@ -90,3 +90,4 @@ export class Ambient {
     swell.connect(swellGain).connect(base.gain);
     src.connect(lp).connect(base).connect(this.windGain!);
     src.start();
+    lfo.start();
