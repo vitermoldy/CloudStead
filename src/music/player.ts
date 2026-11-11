@@ -72,3 +72,5 @@ export class MusicPlayer extends Emitter {
     });
     if (playNow || this.current < 0 || this.status === 'ended') this.play(this.queue.length - 1);
     return item;
+  }
+
