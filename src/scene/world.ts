@@ -647,3 +647,4 @@ export class World extends Emitter {
   private fitDistance(reach: number): void {
     const aspect = this.camera.aspect;
     // Narrow screens step back so the whole island stays in frame, with the clouds round it.
+    const narrow = Math.pow(Math.max(1, 1.45 / Math.max(0.5, aspect)), 0.85);
