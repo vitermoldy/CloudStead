@@ -22,3 +22,4 @@ export class MusicPlayer extends Emitter {
   current: number;
   volume: number;
   loop: boolean;
+  status: MusicStatus = 'idle';
