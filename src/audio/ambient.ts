@@ -264,3 +264,4 @@ export class Ambient {
       return;
     }
     this.tone(190, 0.14, 0.4, 'triangle', 0, 120);
+    this.tone(900, 0.04, 0.08, 'square');
