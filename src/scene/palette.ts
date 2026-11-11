@@ -92,3 +92,4 @@ export class LiveLook {
     c('zenith'); c('horizon'); c('glow'); c('sun'); c('hemiSky'); c('hemiGround'); c('cloudLit'); c('cloudShade'); c('fog');
     const n = (x: number, y: number) => x + (y - x) * t;
     this.sunIntensity = n(a.sunIntensity, b.sunIntensity);
+    this.hemiIntensity = n(a.hemiIntensity, b.hemiIntensity);
