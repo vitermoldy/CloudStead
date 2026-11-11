@@ -550,3 +550,5 @@ export class World extends Emitter {
     const c = this.character;
     if (c.atHome && c.seated) return [];
     return this.walkTo(c.home);
+  }
+
