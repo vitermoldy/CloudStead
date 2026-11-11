@@ -25,3 +25,4 @@ export interface Look {
 
 export const LOOKS: Record<TimeId, Look> = {
   pagi: {
+    zenith: '#5d7ea6', horizon: '#f0c3a2', glow: '#ffd9b8', sun: '#ffd6ad', sunIntensity: 2.3,
