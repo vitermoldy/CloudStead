@@ -71,3 +71,5 @@ dial **ENERGY 3 / RHYTHM 1 / MOTION 3**.
   the site, dozes after 2.5 minutes of nothing happening, and wakes when you come back.
 - Panels fade with a 6 px rise, 200 ms open, 120 ms close. Buttons step on hover, press on click.
 - The scene pause (the tab's pause button, the Suasana panel, the P key) freezes everything.
+  Under reduced motion the scene starts paused and builds appear at once.
+
