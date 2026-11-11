@@ -359,3 +359,4 @@ export class World extends Emitter {
     if (m.kind === 'gear') {
       // Making it by hand at the seat, up every other round for more material from the crate.
       const steps: Step[] = [];
+      if (this.loopN % 2 === 0) {
