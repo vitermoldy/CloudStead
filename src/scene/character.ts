@@ -563,3 +563,4 @@ export class Character {
         this.act = step.act;
         this.workPoint = step.face ?? null;
         if (step.face) turnTo(step.face.x, step.face.z, 9);
+        this.stepT += dt;
