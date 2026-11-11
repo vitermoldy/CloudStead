@@ -301,3 +301,4 @@ function board(): Group {
   return g;
 }
 
+function pondShape(): Shape {
