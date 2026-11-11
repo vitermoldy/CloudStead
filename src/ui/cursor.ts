@@ -39,3 +39,4 @@ export class Cursor {
       const on = e.target === this.surface;
       if (on !== this.over) {
         this.over = on;
+        this.el.classList.toggle('is-on', on);
