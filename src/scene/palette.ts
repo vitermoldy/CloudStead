@@ -101,3 +101,4 @@ export class LiveLook {
 
   /** Moves this look toward another by a fraction (for smooth changes). */
   approach(target: LiveLook, k: number): void {
+    this.zenith.lerp(target.zenith, k);
