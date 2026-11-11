@@ -141,3 +141,4 @@ export async function fetchDetails(item: { kind: string; videoId: string | null;
   }
 }
 
+export const ERROR_TEXT: Record<number, string> = {
