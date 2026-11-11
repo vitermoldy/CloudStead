@@ -463,3 +463,4 @@
 <script type="module" src="motion.js"></script>
 <script>
   const sw = document.getElementById('theme'), h = document.documentElement;
+  sw.setAttribute('aria-checked', String(h.dataset.theme === 'dark'));
