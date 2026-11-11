@@ -40,3 +40,4 @@ export function parseLink(raw: string): ParsedLink {
   if (videoId && !VIDEO_ID.test(videoId)) videoId = null;
 
   let listId = url.searchParams.get('list');
+  if (listId && !LIST_ID.test(listId)) listId = null;
