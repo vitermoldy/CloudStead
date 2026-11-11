@@ -413,3 +413,4 @@ export class Character {
         this.seat.add(g);
         break;
       case 'mug':
+        g.position.set(-0.27, 0, 0.13);
