@@ -554,3 +554,4 @@ $('save-reset').addEventListener('click', () => {
   }
   resetDialog.showModal();
   $('reset-cancel').focus();
+});
