@@ -148,3 +148,4 @@ function cloudFloor(): { mesh: Mesh; material: ShaderMaterial } {
       uTime: { value: 0 },
     },
     vertexShader: /* glsl */ `
+      varying vec3 vWorld;
