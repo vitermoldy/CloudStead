@@ -252,3 +252,4 @@ function positionGreet(): void {
   greetBtn.classList.toggle('is-quiet', !a.visible || bubbleUntil > 0 || hoveringResident);
 }
 function nameTag(): void {
+  $('greet-name').textContent = progress.name;
