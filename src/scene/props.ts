@@ -334,3 +334,4 @@ function pond(): Group {
     s.scale.setScalar(0.7 + rand() * 0.7);
     g.add(s);
   }
+  const pad = new CircleGeometry(0.06, 7);
