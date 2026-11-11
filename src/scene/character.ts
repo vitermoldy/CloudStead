@@ -57,3 +57,4 @@ function span(m: Mesh, p: Vector3, q: Vector3): void {
   if (len > 1e-6) m.quaternion.setFromUnitVectors(UP, dir.divideScalar(len));
 }
 
+function screenTexture(): { tex: CanvasTexture; draw: (lines: number, mode: 'code' | 'rest' | 'sleep' | 'away') => void } {
