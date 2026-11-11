@@ -62,3 +62,4 @@ tetap berjalan; hanya pulaunya yang tidak tergambar.
 | Tombol | Fungsi |
 | --- | --- |
 | Spasi | Mulai atau jeda fokus |
+| S | Simpan progres |
