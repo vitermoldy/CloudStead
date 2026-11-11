@@ -350,3 +350,4 @@ export class World extends Emitter {
       this.planWork(this.project);
       return;
     }
+    this.planFree();
