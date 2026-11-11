@@ -322,3 +322,4 @@ function renderHud(force = false): void {
     const k = Math.max(0, Math.min(1, (progress.minutes - from) / (next.minutes - from)));
     $('next-label').textContent = timer.focusing ? 'Dikerjakan: ' : 'Berikutnya: ';
     $('next-title').textContent = next.title;
+    $('next-left').textContent = `${formatMinutesLong(next.minutes - progress.minutes)} lagi`;
