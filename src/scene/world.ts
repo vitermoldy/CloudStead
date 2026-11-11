@@ -992,3 +992,5 @@ export class World extends Emitter {
     const r = this.canvas.getBoundingClientRect();
     const a = this.character.bubbleAnchor(this.camera, r.width, r.height);
     return { x: a.x + r.left, y: a.y + r.top, visible: a.visible };
+  }
+
