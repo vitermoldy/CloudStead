@@ -90,3 +90,4 @@ function screenTexture(): { tex: CanvasTexture; draw: (lines: number, mode: 'cod
         for (let i = 0; i < 4; i++) for (let j = 0; j < 3; j++) ctx.strokeRect(34 + i * 15, 18 + j * 15, 13, 13);
         ctx.fillStyle = '#e9b46a';
         ctx.fillRect(34 + 45 + 2, 18 + 30 + 2, 9, 9);
+      }
