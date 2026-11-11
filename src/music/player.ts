@@ -257,3 +257,4 @@ export class MusicPlayer extends Emitter {
         item.title = data.title;
         item.author = data.author || '';
         this.persist();
+      }
