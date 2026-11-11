@@ -43,3 +43,4 @@ export class Ambient {
     if (this.ctx || !this.settings.on) return;
     const AC = window.AudioContext || (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext;
     if (!AC) return;
+    const ctx = new AC();
