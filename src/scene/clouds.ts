@@ -98,3 +98,4 @@ interface Puff {
 function layout(count: number): Puff[] {
   const rand = rng(1234);
   const puffs: Puff[] = [];
+  const scale = count / 380;
