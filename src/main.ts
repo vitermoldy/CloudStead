@@ -35,3 +35,4 @@ const toastEl = $('toast');
 let toastTimer = 0;
 function toast(text: string, ms = 3200): void {
   toastEl.textContent = text;
+  toastEl.classList.add('is-on');
