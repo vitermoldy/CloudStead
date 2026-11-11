@@ -85,3 +85,5 @@ export class PropSite {
       this.group.add(this.pile);
     }
     this.setProgress(0);
+  }
+
