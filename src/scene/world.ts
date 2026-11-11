@@ -482,3 +482,4 @@ export class World extends Emitter {
     return this.island.cells().filter((c) => !b.has(cellKey(c)));
   }
 
+  private cellOf(v: Vector3): Cell {
