@@ -35,3 +35,4 @@ const WOOD = new MeshStandardMaterial({ color: '#86603f', roughness: 0.85 });
 const IRON = new MeshStandardMaterial({ color: '#55534f', roughness: 0.45, metalness: 0.5 });
 const DARK = new MeshBasicMaterial({ color: '#1b1512' });
 
+/** Two-bone reach: from a to the target, bending toward the pole. Writes the joint and the end. */
