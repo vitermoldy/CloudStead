@@ -88,3 +88,4 @@ function puffAtlas(): DataTexture {
   tex.magFilter = LinearFilter;
   tex.generateMipmaps = false;
   tex.needsUpdate = true;
+  return tex;
