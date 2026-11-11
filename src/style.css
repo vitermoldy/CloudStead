@@ -387,3 +387,4 @@ html.has-cursor .cursor.is-on { opacity: 1; }
 }
 @media (max-width: 760px) {
   .hud { grid-template-columns: minmax(0, 1fr); gap: 10px; }
+  .big { font-size: clamp(84px, 25vw, 160px); margin-bottom: -0.06em; }
