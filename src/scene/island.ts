@@ -375,3 +375,4 @@ export class Island {
   /** The cell under a point on the island's top, or null over the edge. */
   cellAt(x: number, z: number): Cell | null {
     const c: Cell = [Math.round(x), Math.round(z)];
+    return this.has(c) ? c : null;
