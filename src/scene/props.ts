@@ -140,3 +140,4 @@ function garden(): Group {
 }
 
 function hutFrame(): Group {
+  const g = new Group();
