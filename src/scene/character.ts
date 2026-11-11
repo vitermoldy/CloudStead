@@ -384,3 +384,5 @@ export class Character {
     ball.position.set(0.09, -0.02, 0.02);
     const needle = new Mesh(new CylinderGeometry(0.003, 0.003, 0.12, 4), IRON);
     needle.rotation.z = 0.9;
+    t.yarn.add(ball, needle);
+
