@@ -65,3 +65,4 @@ function tabs() {
     let instant = true, at = null;
     const set = (b, sx = 1, sy = 1) => {
       ind.style.setProperty('--x', `${b.x}px`); ind.style.setProperty('--y', `${b.y}px`);
+      ind.style.setProperty('--w', `${b.w}px`); ind.style.setProperty('--h', `${b.h}px`);
