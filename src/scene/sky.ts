@@ -71,3 +71,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
         #include <colorspace_fragment>
       }
     `,
+  });
