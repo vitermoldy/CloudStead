@@ -112,3 +112,4 @@ function layout(count: number): Puff[] {
     const a = rand() * Math.PI * 2;
     const w = 4 + rand() * 6;
     puffs.push({ x: Math.cos(a) * r, z: Math.sin(a) * r, y: -3.8 - rand() * 2.8, w, h: w * 0.55, seed: rand(), alpha: 0.95, speed: 0.35 + rand() * 0.2 });
+  }
