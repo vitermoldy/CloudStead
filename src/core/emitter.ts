@@ -9,3 +9,4 @@ export class Emitter {
     if (!set) {
       set = new Set();
       this.handlers.set(event, set);
+    }
