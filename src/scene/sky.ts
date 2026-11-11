@@ -18,3 +18,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
       uNight: { value: 0 },
       uTime: { value: 0 },
     },
+    vertexShader: /* glsl */ `
