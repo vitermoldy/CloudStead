@@ -320,3 +320,4 @@ function renderHud(force = false): void {
   if (next) {
     const from = progress.previousMinutes();
     const k = Math.max(0, Math.min(1, (progress.minutes - from) / (next.minutes - from)));
+    $('next-label').textContent = timer.focusing ? 'Dikerjakan: ' : 'Berikutnya: ';
