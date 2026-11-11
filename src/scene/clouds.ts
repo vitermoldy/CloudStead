@@ -327,3 +327,4 @@ export function createClouds(count: number): Clouds {
       const xa = ((pa.x + time * pa.speed + span) % (span * 2) + span * 2) % (span * 2) - span;
       const xb = ((pb.x + time * pb.speed + span) % (span * 2) + span * 2) % (span * 2) - span;
       const da = (xa - camPos.x) ** 2 + (pa.y - camPos.y) ** 2 + (pa.z - camPos.z) ** 2;
+      const db = (xb - camPos.x) ** 2 + (pb.y - camPos.y) ** 2 + (pb.z - camPos.z) ** 2;
