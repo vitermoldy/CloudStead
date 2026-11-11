@@ -74,3 +74,4 @@ export class FocusTimer extends Emitter {
   }
 
   get focusing(): boolean {
+    return this.running && this.phase === 'focus';
