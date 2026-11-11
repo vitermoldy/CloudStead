@@ -316,3 +316,4 @@ export class Island {
   }
 
   /** What grows on a cell: 'none' for water, 'edges' for a bed or a floor. */
+  setBare(cell: Cell, how: 'none' | 'edges' | null): void {
