@@ -22,3 +22,4 @@ export class Ambient {
   private windGain: GainNode | null = null;
   private lifeGain: GainNode | null = null;
   private keyGain: GainNode | null = null;
+  private fxGain: GainNode | null = null;
