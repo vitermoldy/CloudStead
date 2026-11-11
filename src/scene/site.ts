@@ -98,3 +98,4 @@ export class PropSite {
       const h = this.lo + (this.hi - this.lo) * (0.04 + 0.96 * k);
       this.cut.constant = h;
       this.ghostCut.constant = -h;
+      for (const o of this.late) o.visible = k > 0.8;
