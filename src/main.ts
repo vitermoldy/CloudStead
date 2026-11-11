@@ -286,3 +286,4 @@ function storyLine(): string {
   if (!next) return 'Pulau sudah utuh. Waktu fokusmu tetap dicatat.';
   const pct = Math.floor(projectShare() * 100);
   if (timer.active) return `Fokus dijeda. ${n} berhenti kerja, ${next.title.toLowerCase()} di ${pct}%.`;
+  return pct > 0
