@@ -222,3 +222,4 @@ function pauseButton(loop) {
   if (box.querySelector(':scope > .loop-pause')) return;   // ui.js or the page put one there: it is shared
   const btn = document.createElement('button');
   btn.type = 'button';
+  btn.className = 'loop-pause m-own';
