@@ -68,3 +68,5 @@ const TEXTURES: Record<FxKind, () => CanvasTexture> = {
     ctx.ellipse(32, 32, 10, 22, 0.6, 0, Math.PI * 2);
     ctx.fill();
   }),
+};
+
