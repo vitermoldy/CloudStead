@@ -481,3 +481,4 @@ onSaved(() => {
 });
 
 function saveProgress(): void {
+  if (isReadOnly()) {
