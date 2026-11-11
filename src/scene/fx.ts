@@ -119,3 +119,4 @@ export class Fx {
       b.userData.phase = Math.random() * 6;
       this.birds.add(b);
     }
+    this.birds.visible = false;
