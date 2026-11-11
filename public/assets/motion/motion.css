@@ -12,3 +12,5 @@
   Hover moves sit under (hover: hover) and (pointer: fine): a phone never keeps a stuck hover.
   Hover out runs 120ms against 150ms in (motion.md, tokens).
   Under prefers-reduced-motion colours still change and a press still shows; nothing moves or scales.
+*/
+
