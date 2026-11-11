@@ -14,3 +14,4 @@ export class Emitter {
     return () => set!.delete(fn);
   }
 
+  emit(event: string, ...args: unknown[]): void {
