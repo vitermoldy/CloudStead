@@ -745,3 +745,4 @@ export class Character {
       }
     }
     if (act === 'hammer') {
+      const swing = Math.sin(this.workT * Math.PI * 2 / 0.6);
