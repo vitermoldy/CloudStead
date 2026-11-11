@@ -19,3 +19,5 @@ export class Emitter {
     if (!set) return;
     for (const fn of [...set]) fn(...args);
   }
+}
+
