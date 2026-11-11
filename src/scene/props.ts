@@ -196,3 +196,4 @@ function hut(): Group {
   return g;
 }
 
+function catenary(a: Vector3, b: Vector3, sag: number, steps = 24): Vector3[] {
