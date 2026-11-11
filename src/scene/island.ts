@@ -285,3 +285,4 @@ export class Island {
       added.push(c);
     }
     this.layGrass();
+    return added;
