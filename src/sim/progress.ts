@@ -30,3 +30,5 @@ const fresh = (): ProgressData => ({
   reachedAt: {},
   startedAt: new Date().toISOString(),
   name: DEFAULT_NAME,
+});
+
