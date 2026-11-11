@@ -385,3 +385,5 @@ function bench(): Group {
     g.add(mesh(new BoxGeometry(0.035, 0.2, 0.035), WOOD_DARK, x, 0.33, -0.13));
   }
   return g;
+}
+
