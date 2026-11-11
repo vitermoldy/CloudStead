@@ -902,3 +902,4 @@ export class Character {
       // From the upper hand through the lower one, the blade on the ground in front.
       const dir = handR.clone().sub(handL).normalize();
       t.shovel.position.copy(handR);
+      t.shovel.quaternion.setFromUnitVectors(UP, dir);
