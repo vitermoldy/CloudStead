@@ -61,3 +61,4 @@ function rock(): Group {
   small.rotation.set(0.5, 0.2, 0.7);
   g.add(big, small);
   // A tuft of grass on the boulder's crown, as on the reference's rock.
+  for (let i = 0; i < 6; i++) {
