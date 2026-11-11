@@ -227,3 +227,4 @@ function pole(): Group {
   // The far pole and the wires go up last, once the near pole stands.
   far.userData.late = true;
   g.add(far);
+  const wire = new LineBasicMaterial({ color: '#1d1b19', transparent: true, opacity: 0.85 });
