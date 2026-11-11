@@ -39,3 +39,4 @@ const std = (color: string, extra: Partial<ConstructorParameters<typeof MeshStan
 const WOOD = std('#86603f');
 const WOOD_DARK = std('#5c4029');
 const LEAF = std('#5f7c34', { flatShading: true });
+const LEAF_LIGHT = std('#7f9a40', { flatShading: true });
