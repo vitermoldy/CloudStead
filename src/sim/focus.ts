@@ -134,3 +134,4 @@ export class FocusTimer extends Emitter {
     this.emit('finished', was, true);
   }
 
+  private credit(until: number): void {
