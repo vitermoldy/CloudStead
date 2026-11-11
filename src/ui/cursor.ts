@@ -51,3 +51,4 @@ export class Cursor {
       this.over = false;
       this.el.classList.remove('is-on');
     });
+    addEventListener('pointerdown', () => this.el.classList.add('is-down'));
