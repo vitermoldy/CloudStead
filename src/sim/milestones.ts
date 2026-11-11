@@ -79,3 +79,4 @@ export const cellKey = (c: Cell): string => `${c[0]},${c[1]}`;
 export function tilesFor(reached: Iterable<Milestone>): Cell[] {
   const cells = [...START_TILES];
   for (const m of reached) if (m.kind === 'tiles' && m.tiles) cells.push(...m.tiles);
+  return cells;
