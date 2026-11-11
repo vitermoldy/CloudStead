@@ -199,3 +199,4 @@ export class Fx {
       const o = b.userData.offset as Vector3;
       b.position.copy(o);
       const flap = Math.sin(this.birdT * 9 + (b.userData.phase as number));
+      const pos = (b as Line).geometry.getAttribute('position') as BufferAttribute;
