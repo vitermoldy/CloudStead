@@ -74,3 +74,4 @@ export interface YTPlayer {
   seekTo(s: number, allow: boolean): void;
   getCurrentTime(): number;
   getDuration(): number;
+  getPlaylist(): string[] | null;
