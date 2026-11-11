@@ -504,3 +504,4 @@ function downloadSave(): void {
   if (isReadOnly()) {
     toast('Ini pratinjau, jadi tidak ada simpanan untuk diunduh.');
     return;
+  }
