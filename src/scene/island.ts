@@ -254,3 +254,4 @@ export class Island {
     rock.castShadow = true;
     rock.receiveShadow = true;
     g.add(slab, earth, rock);
+    g.userData.cell = cell;
