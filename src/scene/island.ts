@@ -276,3 +276,4 @@ export class Island {
       if (animate) {
         t.rise = 0;
         t.target = 1;
+        t.landed = false;
