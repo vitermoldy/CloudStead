@@ -300,3 +300,4 @@ function renderHud(force = false): void {
     digits.forEach((d, i) => {
       d.textContent = text[i] ?? '0';
     });
+  }
