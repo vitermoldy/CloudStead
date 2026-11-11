@@ -138,3 +138,4 @@ html:not([data-motion="off"]) .tabs.m-has-ind .tab { position: relative; z-index
 html:not([data-motion="off"]) .tabs.m-has-ind .tab[aria-selected="true"] { background: transparent; border-color: transparent; }
 /* the pill takes its new size at once and travels by transform alone (motion.js: it starts scaled to
    the old tab's size at the old place and settles to scale 1 at the new one), so nothing is laid out
+   again while it moves and its corners are true at rest */
