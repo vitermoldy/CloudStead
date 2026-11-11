@@ -575,3 +575,4 @@ export class World extends Emitter {
 
   // ------------------------------------------------------------ settings
   setTime(mode: TimeMode): void {
+    this.timeMode = mode;
