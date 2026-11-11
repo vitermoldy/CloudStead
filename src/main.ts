@@ -63,3 +63,4 @@ let justBuilt: { text: string; until: number } | null = null;
 
 async function startWorld(): Promise<void> {
   const { World } = await import('./scene/world');
+  if (!World.supported()) {
