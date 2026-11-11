@@ -554,3 +554,5 @@ export class PropsLayer {
     this.group.add(group);
     this.entries.push(entry);
     return entry;
+  }
+
