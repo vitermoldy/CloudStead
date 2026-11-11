@@ -108,3 +108,4 @@ html:not([data-motion="off"]) .footer ul a:hover { color: var(--ink); }
    takes it away to the right; the page you are on keeps its still bar (system.css draws it, at the same inset) */
 @media (min-width: 1024px) {
   /* the full-width panel: fades and settles 6px in 200ms with its columns together (one surface, read
+     as one); it closes in 120ms. While one menu is open, the next word swaps the panel at once
