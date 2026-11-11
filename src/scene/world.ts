@@ -218,3 +218,4 @@ export class World extends Emitter {
     if (mode === this.mode) return;
     this.mode = mode;
     if (mode !== 'free') this.idleFor = 0;
+    if (!this.celebrating) this.replan = true;
