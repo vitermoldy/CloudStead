@@ -121,3 +121,4 @@ function garden(): Group {
     const a = (i * Math.PI) / 2;
     m.position.set(Math.sin(a) * 0.38, 0.06, Math.cos(a) * 0.38);
     m.rotation.y = a;
+    g.add(m);
