@@ -60,3 +60,4 @@ export const MILESTONES: Milestone[] = [
   { id: 'papan', minutes: 470, title: 'Papan tulis', done: 'Papan tulis mencatat waktu fokusmu hari ini.', doing: 'membuat papan tulis', work: 'build', kind: 'prop', prop: 'board', at: [0, -2] },
   { id: 'petak-5', minutes: 540, title: 'Enam petak baru', done: 'Enam petak baru, pulau hampir utuh.', doing: 'menarik enam petak baru dari awan', work: 'haul', kind: 'tiles', tiles: [[-2, -2], [-2, 2], [2, 2], [-3, 0], [3, -1], [3, 1]] },
   { id: 'kolam', minutes: 600, title: 'Kolam', done: 'Kolam kecil terisi air.', doing: 'menggali kolam', work: 'dig', kind: 'prop', prop: 'pond', at: [2, 2] },
+  { id: 'syal', minutes: 660, title: 'Syal rajut', done: 'Syal rajut untuk angin di ketinggian.', doing: 'merajut syal', work: 'craft', kind: 'gear', gear: 'scarf' },
