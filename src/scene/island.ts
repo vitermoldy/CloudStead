@@ -197,3 +197,4 @@ export class Island {
   }
 
   cells(): Cell[] {
+    return [...this.tiles.values()].filter((t) => t.landed).map((t) => t.cell);
