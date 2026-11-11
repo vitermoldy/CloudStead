@@ -27,3 +27,4 @@ const fresh = (): ProgressData => ({
   todayMs: 0,
   todayDate: today(),
   sessions: 0,
+  reachedAt: {},
