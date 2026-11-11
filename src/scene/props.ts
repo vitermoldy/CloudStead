@@ -415,3 +415,4 @@ function telescope(): Group {
 function balloon(): Group {
   const g = new Group();
   g.add(mesh(new CylinderGeometry(0.02, 0.03, 0.18, 5), WOOD_DARK, 0, 0.09, 0));
+  const float = new Group();
