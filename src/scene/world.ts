@@ -610,3 +610,4 @@ export class World extends Emitter {
     return this.look.night;
   }
 
+  setMusic(on: boolean): void {
