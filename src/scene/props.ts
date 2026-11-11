@@ -66,3 +66,4 @@ function rock(): Group {
     t.rotation.z = (i - 2.5) * 0.18;
     g.add(t);
   }
+  return g;
