@@ -322,3 +322,4 @@ function enterSteps(hero, h1, media) {
     if (el.matches('.btn-row')) { [...el.children].forEach(take); return; }
     const own = [...el.childNodes].some(n => n.nodeType === 3 && n.textContent.trim());
     if (own || !el.children.length || el.matches(ENTER_LEAF)) out.push(el);
+    else [...el.children].forEach(take);
