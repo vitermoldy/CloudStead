@@ -64,3 +64,4 @@ tetap berjalan; hanya pulaunya yang tidak tergambar.
 | Spasi | Mulai atau jeda fokus |
 | S | Simpan progres |
 | P | Jeda atau lanjutkan pemandangan |
+| M | Buka panel musik |
