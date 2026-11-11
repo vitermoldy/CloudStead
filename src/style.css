@@ -258,3 +258,5 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 .queue__meta { font-size: 13px; color: var(--muted); }
 .queue li.has-error .queue__meta { color: var(--danger); }
 .queue__remove { flex: none; min-height: 44px; padding: 0 12px; border: 0; border-radius: var(--r-sm); background: none; color: var(--muted); font-size: 14px; }
+.queue__remove:hover { color: var(--ink); background: rgba(231, 228, 209, .08); }
+
