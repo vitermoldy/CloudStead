@@ -64,3 +64,4 @@ function tabs() {
     list.classList.add('m-has-ind');
     let instant = true, at = null;
     const set = (b, sx = 1, sy = 1) => {
+      ind.style.setProperty('--x', `${b.x}px`); ind.style.setProperty('--y', `${b.y}px`);
