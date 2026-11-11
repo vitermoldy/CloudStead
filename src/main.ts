@@ -337,3 +337,4 @@ function renderHud(force = false): void {
   const label = timer.running
     ? (timer.phase === 'focus' ? 'Jeda fokus' : 'Jeda istirahat')
     : timer.active ? (timer.phase === 'focus' ? 'Lanjutkan fokus' : 'Lanjutkan istirahat') : 'Mulai fokus';
+  $('focus-toggle-text').textContent = label;
