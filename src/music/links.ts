@@ -80,3 +80,4 @@ export interface YTPlayer {
 }
 
 declare global {
+  interface Window {
