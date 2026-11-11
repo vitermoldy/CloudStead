@@ -128,3 +128,4 @@ function garden(): Group {
   const cabbage = new IcosahedronGeometry(0.08, 1);
   for (let r = 0; r < 3; r++) {
     for (let c = 0; c < 4; c++) {
+      const x = -0.24 + c * 0.16, z = -0.22 + r * 0.22;
