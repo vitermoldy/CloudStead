@@ -622,3 +622,4 @@ export class Character {
     const seatedHip = 0.085 + cushion;
     const breathe = Math.sin(time * 1.7) * 0.004;
     this.workT += dt;
+    const digC = (this.workT % 1.3) / 1.3;
