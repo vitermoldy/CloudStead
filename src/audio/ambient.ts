@@ -235,3 +235,4 @@ export class Ambient {
     o.frequency.setValueAtTime(140 + Math.random() * 30, t);
     o.frequency.linearRampToValueAtTime(95, t + 0.25);
     const lp = ctx.createBiquadFilter();
+    lp.type = 'lowpass';
