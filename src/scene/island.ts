@@ -433,3 +433,4 @@ export class Island {
       t.rise = t.target;
       if (t.rise >= 1) {
         t.landed = true;
+        t.group.position.y = 0;
