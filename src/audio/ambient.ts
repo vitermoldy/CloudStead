@@ -77,3 +77,4 @@ export class Ambient {
     lp.frequency.value = 520;
     lp.Q.value = 0.6;
     const lfo = ctx.createOscillator();
+    const lfoGain = ctx.createGain();
