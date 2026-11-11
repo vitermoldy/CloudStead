@@ -104,3 +104,4 @@ export class PropSite {
       this.parts.forEach((o, i) => {
         o.visible = i < Math.max(1, Math.ceil(k * n));
       });
+    } else if (mode === 'pond') {
