@@ -284,3 +284,4 @@ export class Island {
       this.group.add(t.group);
       added.push(c);
     }
+    this.layGrass();
