@@ -141,3 +141,4 @@ function projectShare(): number {
   const next = progress.next();
   if (!next) return 1;
   const from = progress.previousMinutes();
+  return Math.max(0, Math.min(1, (progress.minutes - from) / (next.minutes - from)));
