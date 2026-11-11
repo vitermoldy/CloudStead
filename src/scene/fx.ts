@@ -138,3 +138,4 @@ export class Fx {
     return p;
   }
 
+  spawn(kind: FxKind, at: Vector3, count = 1): void {
