@@ -43,3 +43,4 @@ function puffAtlas(): DataTexture {
             nearest = d - c.r;
             rx = dx / d;
             ry = -dy / d;
+          }
