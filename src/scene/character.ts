@@ -553,3 +553,4 @@ export class Character {
           pos.z += (dz / d) * move;
         }
         if (d < 0.025) this.next();
+        return;
