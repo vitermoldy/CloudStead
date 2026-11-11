@@ -123,3 +123,4 @@ html:not([data-motion="off"]) .footer ul a:hover { color: var(--ink); }
   html:not([data-motion="off"]) .nav.m-menu-open .nav__menu,
   html:not([data-motion="off"]) .nav.m-menu-open .nav__item:is(:hover, :focus-within) > .nav__menu { transition-duration: 0s; transition-delay: 0s; }
   html:not([data-motion="off"]) .menu-col a { transition: color var(--m-out) var(--m-ease); }
+  html:not([data-motion="off"]) .menu-col a:hover { transition-duration: var(--m-in); }
