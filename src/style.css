@@ -44,3 +44,4 @@ body {
   overflow: hidden;
   -webkit-font-smoothing: antialiased;
 }
+button, input, select { font: inherit; color: inherit; }
