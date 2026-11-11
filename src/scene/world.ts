@@ -600,3 +600,5 @@ export class World extends Emitter {
     if (on) this.renderer.setAnimationLoop(null);
     else this.start();
     if (on) this.frame();
+  }
+
