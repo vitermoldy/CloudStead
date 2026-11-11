@@ -305,3 +305,4 @@ function pondShape(): Shape {
   const s = new Shape();
   const rand = rng(31);
   const n = 14;
+  for (let i = 0; i <= n; i++) {
