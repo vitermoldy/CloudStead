@@ -561,3 +561,4 @@ export class PropsLayer {
     switch (e.kind) {
       case 'tree':
         e.update = (_dt, ctx) => {
+          const crown = u.crown as Group;
