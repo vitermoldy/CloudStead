@@ -163,3 +163,4 @@ export function makeGear(kind: Gear): Group {
       break;
     }
     case 'beanie': {
+      const cap = m(new SphereGeometry(0.094, 16, 10, 0, Math.PI * 2, 0, Math.PI * 0.5), '#d6ab45');
