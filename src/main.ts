@@ -14,3 +14,4 @@ import type { Hover, TimeMode, World as WorldType } from './scene/world';
 import { Cursor } from './ui/cursor';
 import { mountMusicUi } from './ui/music-ui';
 
+const $ = <T extends HTMLElement = HTMLElement>(id: string) => document.getElementById(id) as T;
