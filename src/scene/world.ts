@@ -501,3 +501,4 @@ export class World extends Emitter {
         if (prev.has(nk) || !free(n)) continue;
         if (dx && dz && (!free([c[0] + dx, c[1]]) || !free([c[0], c[1] + dz]))) continue;
         prev.set(nk, cellKey(c));
+        if (accept(n)) {
