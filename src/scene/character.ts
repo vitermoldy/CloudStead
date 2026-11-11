@@ -378,3 +378,5 @@ export class Character {
     const plank2 = plank.clone();
     plank2.position.y = 0.032;
     plank2.rotation.y = 0.12;
+    t.plank.add(plank, plank2);
+
