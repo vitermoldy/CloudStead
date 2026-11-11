@@ -689,3 +689,4 @@ export class Character {
     const laptopLap = new Vector3(0, lapY - 0.012, 0.15);
     const laptopGround = new Vector3(-0.2, 0.006, 0.26);
     const lk = clamp(this.sit * 1.4 - 0.4, 0, 1) * onLap;
+    this.laptop.position.lerp(laptopGround.clone().lerp(laptopLap, lk), 1 - Math.exp(-8 * dt));
