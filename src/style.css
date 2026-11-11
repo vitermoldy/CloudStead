@@ -392,3 +392,4 @@ html.has-cursor .cursor.is-on { opacity: 1; }
   .story__line { font-size: 15px; }
   .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
+@media (max-width: 430px) {
