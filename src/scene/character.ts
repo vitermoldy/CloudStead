@@ -788,3 +788,4 @@ export class Character {
         break;
       case 'sleep':
         pitch = 0.62;
+        roll = 0.25 + Math.sin(time * 0.9) * 0.04;
