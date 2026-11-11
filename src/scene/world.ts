@@ -213,3 +213,4 @@ export class World extends Emitter {
   // is seen doing the work: hammering and carrying planks, digging and watering, hauling new
   // cells up from the clouds on a rope, or making a piece by hand at the seat.
 
+  /** work: a focus block runs; rest: a break; free: no timer. */
