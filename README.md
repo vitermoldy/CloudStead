@@ -5,3 +5,5 @@ membangun pulau kecilnya: selama kamu fokus, dia menarik petak baru dari awan, m
 pondok, sampai membuka air terjun ke lautan awan. Pulaunya tidak pernah berubah sendiri; semua dibangun
 VMK.
 
+![CloudStead](public/share.jpg)
+
