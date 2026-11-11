@@ -278,3 +278,4 @@ html:not([data-motion="off"]) .field :is(input, select, textarea):focus, .m-inpu
         :is([data-enter-media], .hero__bg, .hero__media, .hero__stage, .hero__art, .hero__window, .hero-visual, .ly-collage) > :is(img, picture, video, .frame__img)) {
     transition: scale 1100ms var(--m-ease-enter), clip-path 1100ms var(--m-ease-enter);
   }
+  /* the clip's resting value, kept below the waiting rule's weight so that one wins while it applies */
