@@ -562,3 +562,4 @@ export class World extends Emitter {
     const a = this.character.grip;
     const b = this.island.tileTop(this.ropeCell) ?? a;
     const pos = this.rope.geometry.getAttribute('position');
+    for (let i = 0; i < 4; i++) {
