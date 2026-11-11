@@ -595,3 +595,4 @@ export class Character {
     return null;
   }
 
+  bubbleAnchor(camera: Camera, w: number, h: number): { x: number; y: number; visible: boolean } {
