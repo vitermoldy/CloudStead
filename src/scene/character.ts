@@ -539,3 +539,4 @@ export class Character {
       case 'walk': {
         this.workPoint = null;
         // Get up first.
+        if (this.sit > 0.2) {
