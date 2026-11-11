@@ -441,3 +441,4 @@ export class Character {
     for (const k of [...this.gear.keys()]) this.setGear(k, false);
   }
 
+  /** The piece in the making on the lap, growing with the work (null puts it away). */
