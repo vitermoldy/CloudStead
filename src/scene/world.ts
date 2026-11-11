@@ -612,3 +612,4 @@ export class World extends Emitter {
 
   setMusic(on: boolean): void {
     this.character.setMusic(on);
+    if (this.paused) this.frame();
