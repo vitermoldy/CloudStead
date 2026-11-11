@@ -366,3 +366,4 @@ export class Island {
         s.set(0.04 + rand() * 0.03, h, 1);
         m.compose(p, q, s);
         this.grass.setMatrixAt(i++, m);
+      }
