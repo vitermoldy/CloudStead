@@ -406,3 +406,4 @@ html.has-cursor .cursor.is-on { opacity: 1; }
   .tab__item { padding: 0 6px; font-size: 13px; }
   .tab__icon--pause { display: none; }
 }
+@media (max-height: 560px) and (min-width: 761px) {
