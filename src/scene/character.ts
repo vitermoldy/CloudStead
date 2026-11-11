@@ -577,3 +577,4 @@ export class Character {
       case 'sit': {
         this.workPoint = null;
         let d = 0 - this.heading;
+        d = Math.atan2(Math.sin(d), Math.cos(d));
