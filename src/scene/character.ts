@@ -532,3 +532,4 @@ export class Character {
       this.heading += d * Math.min(1, dt * rate);
     };
     switch (step.kind) {
+      case 'call':
