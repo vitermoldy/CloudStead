@@ -521,3 +521,4 @@ export class Character {
     const pos = this.root.position;
     if (!step) {
       // Nothing planned: sit if at the seat, otherwise stand and look round.
+      this.act = this.atHome && this.seated ? (this.seatAct ?? 'sitIdle') : 'stand';
