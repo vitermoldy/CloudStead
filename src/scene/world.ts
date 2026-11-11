@@ -526,3 +526,4 @@ export class World extends Emitter {
     // Right beside it if a neighbour is free; one cell further off when the neighbours are all built on.
     const path = this.findPath(HOME, (c) => cellKey(c) !== tk && ring(c) === 1)
       ?? this.findPath(HOME, (c) => cellKey(c) !== tk && ring(c) === 2);
+    if (!path) return null;
