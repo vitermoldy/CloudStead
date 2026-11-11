@@ -46,3 +46,4 @@ const TEXTURES: Record<FxKind, () => CanvasTexture> = {
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
     ctx.fillText('♪', 32, 34);
+  }),
