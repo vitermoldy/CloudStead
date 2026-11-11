@@ -217,3 +217,4 @@ export class World extends Emitter {
   setWork(mode: WorkMode): void {
     if (mode === this.mode) return;
     this.mode = mode;
+    if (mode !== 'free') this.idleFor = 0;
