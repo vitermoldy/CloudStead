@@ -173,3 +173,4 @@ function counts() {
       /** print: stop waiting and show the written number */
       show() { if (state === 'done') return; state = 'done'; stop(); span.textContent = p.raw; },
       /** first seen: measure again (a font or a tab that changed since), then tick once */
+      hit() {
