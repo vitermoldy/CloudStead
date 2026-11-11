@@ -404,3 +404,4 @@ function telescope(): Group {
     g.add(leg);
   }
   const tube = new Group();
+  tube.position.y = 0.55;
