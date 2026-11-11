@@ -5,3 +5,4 @@
   It starts by itself. references/motion.md says what moves and how fast.
 
   - the hero's entrance: .hero[data-enter] enters once on load (the h1 line by line, then the lead,
+    the buttons and the facts, the picture settling), about 1.1 s, when the head line set html.m-enter
