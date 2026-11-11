@@ -260,3 +260,4 @@ export function createClouds(count: number): Clouds {
         vec3 world = c + right * position.x * aSize.x + up * position.y * aSize.y;
         vec4 mv = viewMatrix * vec4(world, 1.0);
         gl_Position = projectionMatrix * mv;
+        vUv = uv;
