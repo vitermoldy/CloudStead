@@ -104,3 +104,4 @@ export class World extends Emitter {
     this.renderer.localClippingEnabled = true;
 
     this.sun.castShadow = true;
+    this.sun.shadow.mapSize.set(opts.small ? 1024 : 2048, opts.small ? 1024 : 2048);
