@@ -26,3 +26,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
         gl_Position = p.xyww;
       }
     `,
+    fragmentShader: /* glsl */ `
