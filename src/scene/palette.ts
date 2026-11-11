@@ -89,3 +89,4 @@ export class LiveLook {
       LiveLook.tmpB.set(b[key]);
       this[key].copy(LiveLook.tmpA).lerp(LiveLook.tmpB, t);
     };
+    c('zenith'); c('horizon'); c('glow'); c('sun'); c('hemiSky'); c('hemiGround'); c('cloudLit'); c('cloudShade'); c('fog');
