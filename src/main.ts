@@ -438,3 +438,4 @@ function renderIsland(): void {
     const li = document.createElement('li');
     const done = progress.isReached(m);
     li.className = done ? 'is-done' : m === next ? 'is-next' : 'is-locked';
+    const mark = document.createElement('span');
