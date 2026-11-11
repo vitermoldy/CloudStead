@@ -309,3 +309,5 @@ export class Ambient {
     save('sound', this.settings);
     if (this.settings.on && !this.ctx) return;
     this.apply();
+  }
+
