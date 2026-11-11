@@ -21,3 +21,4 @@ export interface PropEntry {
   group: Group;
   blocking: boolean;
   grow: number;
+  wiggle: number;
