@@ -184,3 +184,4 @@ function hut(): Group {
   const door = new Mesh(new PlaneGeometry(0.22, 0.46), glow);
   door.position.set(0, 0.3, 0.355);
   g.add(door);
+  const roofMat = std('#3b2f28', { flatShading: true });
