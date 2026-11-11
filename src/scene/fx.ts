@@ -33,3 +33,4 @@ const TEXTURES: Record<FxKind, () => CanvasTexture> = {
     ctx.fillStyle = g;
     ctx.fillRect(0, 0, 64, 64);
   }),
+  steam: () => glyphTexture((ctx) => {
