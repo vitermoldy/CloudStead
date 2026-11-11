@@ -902,3 +902,4 @@ export class World extends Emitter {
     if (this.replan && !this.celebrating) {
       this.replan = false;
       this.think();
+    }
