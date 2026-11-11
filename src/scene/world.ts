@@ -850,3 +850,4 @@ export class World extends Emitter {
     this.sun.position.copy(L.sunDir).multiplyScalar(22);
     const cam = this.sun.shadow.camera;
     const r = reach + 1.5;
+    if (cam.right !== r) {
