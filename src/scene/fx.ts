@@ -84,3 +84,4 @@ interface Particle {
 
 export class Fx {
   readonly group = new Group();
+  private pools = new Map<FxKind, Particle[]>();
