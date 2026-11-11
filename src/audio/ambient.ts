@@ -181,3 +181,4 @@ export class Ambient {
   }
 
   private tone(freq: number, dur: number, gain: number, type: OscillatorType = 'sine', at = 0, slideTo?: number): void {
+    const ctx = this.ctx;
