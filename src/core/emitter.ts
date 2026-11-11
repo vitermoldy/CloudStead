@@ -12,3 +12,5 @@ export class Emitter {
     }
     set.add(fn);
     return () => set!.delete(fn);
+  }
+
