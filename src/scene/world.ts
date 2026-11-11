@@ -395,3 +395,4 @@ export class World extends Emitter {
       steps.push({ kind: 'do', act: 'stand', seconds: 0.6, face: c.seat.localToWorld(new Vector3(0.3, 0, -0.3)) });
       steps.push(...this.walkTo(stand, true));
       steps.push({ kind: 'call', fn: () => this.site?.deliver() });
+    } else {
