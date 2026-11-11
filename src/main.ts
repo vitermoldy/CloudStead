@@ -415,3 +415,4 @@ function openPanel(id: string | null, focus = true): void {
     }
   } else if (was && focus) {
     tabItems.find((t) => t.dataset.panel === was)?.focus();
+  }
