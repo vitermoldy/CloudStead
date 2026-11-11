@@ -187,3 +187,4 @@ function onGreet(): void {
       `Lagi kerja, nih. ${next.title} sudah ${pct}%.`,
       `Kamu fokus, aku kerja. ${left} lagi ${next.title.toLowerCase()} jadi.`,
       'Sebentar, tanggung. Lanjut fokus, ya.',
+    ] : ['Pulaunya sudah utuh. Aku temani kamu fokus.']));
