@@ -694,3 +694,4 @@ export class World extends Emitter {
     // Registered before OrbitControls, so a press on the resident never turns the camera.
     c.addEventListener('pointerdown', (e) => {
       toNdc(e);
+      this.pointerIn = e.pointerType === 'mouse' ? true : this.pointerIn;
