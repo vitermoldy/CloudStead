@@ -181,3 +181,5 @@ export function makeGear(kind: Gear): Group {
 }
 
 /** Textiles are knitted or sewn; the rest is put together by hand. */
+const KNITTED = new Set<Gear>(['cushion', 'scarf', 'beanie']);
+
