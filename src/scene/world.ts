@@ -262,3 +262,4 @@ export class World extends Emitter {
     this.site?.dispose();
     this.site = null;
     this.rope.visible = false;
+    this.character.setCraft(null);
