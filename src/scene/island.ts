@@ -402,3 +402,4 @@ export class Island {
     for (const t of this.tiles.values()) {
       if (t.landed) continue;
       // Follow the work smoothly; a cell on the rope sways a little.
+      t.rise += (t.target - t.rise) * Math.min(1, dt * 1.6);
