@@ -189,3 +189,4 @@ export class World extends Emitter {
     this.frame();
   }
 
+  private addProp(kind: NonNullable<Milestone['prop']>, at: Cell, animate: boolean): PropEntry {
