@@ -94,3 +94,5 @@ export class FocusTimer extends Emitter {
     if (!(id in PRESETS) || id === this.preset) return;
     this.preset = id;
     this.reset();
+  }
+
