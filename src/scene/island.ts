@@ -301,3 +301,4 @@ export class Island {
           const m = new Mesh(dash, mat);
           const along = -0.32 + i * 0.32;
           const a = (side * Math.PI) / 2;
+          m.position.set(Math.cos(a) * along + Math.sin(a) * 0.47, 0, -Math.sin(a) * along + Math.cos(a) * 0.47);
