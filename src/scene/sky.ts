@@ -49,3 +49,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
         // Below the horizon the sky keeps the horizon colour: the cloud sea covers it.
         float up = pow(clamp(h, 0.0, 1.0), 0.55);
         vec3 col = mix(uHorizon, uZenith, up);
+        // Under the horizon the eye meets the cloud sea in shadow, never a glowing void.
