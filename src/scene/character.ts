@@ -780,3 +780,4 @@ export class Character {
     switch (act) {
       case 'type':
         yaw = this.looking ? lookYaw * 0.6 : Math.sin(time * 0.4) * 0.08;
+        pitch = this.looking ? lookPitch * 0.5 + 0.2 : 0.45;
