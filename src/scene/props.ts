@@ -141,3 +141,4 @@ function garden(): Group {
 
 function hutFrame(): Group {
   const g = new Group();
+  g.add(mesh(new BoxGeometry(0.86, 0.06, 0.9), WOOD_DARK, 0, 0.03, 0));
