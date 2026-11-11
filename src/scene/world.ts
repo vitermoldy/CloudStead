@@ -338,3 +338,5 @@ export class World extends Emitter {
       { kind: 'do', act: 'cheer', seconds: 1.4 },
       { kind: 'call', fn: () => { this.celebrating = false; } },
     ]);
+  }
+
