@@ -401,3 +401,4 @@ function telescope(): Group {
     const a = (i / 3) * Math.PI * 2;
     const leg = mesh(new CylinderGeometry(0.012, 0.012, 0.55, 4), IRON, Math.cos(a) * 0.1, 0.26, Math.sin(a) * 0.1);
     leg.rotation.set(Math.sin(a) * 0.35, 0, -Math.cos(a) * 0.35);
+    g.add(leg);
