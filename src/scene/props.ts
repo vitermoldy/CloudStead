@@ -317,3 +317,4 @@ function pondShape(): Shape {
 
 function pond(): Group {
   const g = new Group();
+  const water = new Mesh(
