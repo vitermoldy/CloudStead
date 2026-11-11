@@ -141,3 +141,4 @@ export class MusicPlayer extends Emitter {
           : 'YouTube tidak termuat. Periksa koneksi atau pemblokir iklan, lalu coba lagi.';
         this.emit('change');
         return false;
+      } finally {
