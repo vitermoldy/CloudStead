@@ -906,3 +906,4 @@ export class Character {
       this.blade.copy(handR).addScaledVector(dir, -0.3);
       this.root.localToWorld(this.blade);
     }
+    if (t.can.visible) {
