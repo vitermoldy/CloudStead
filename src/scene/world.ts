@@ -270,3 +270,4 @@ export class World extends Emitter {
   /** Puts the progress line into the picture: the piece built up to it, the cells up the rope, the piece on the lap. */
   private applyProgress(): void {
     const m = this.project;
+    if (!m) return;
