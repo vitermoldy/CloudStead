@@ -610,3 +610,5 @@ export class Character {
   handsWorld(out = new Vector3()): Vector3 {
     out.copy(this.hands[0]).add(this.hands[1]).multiplyScalar(0.5);
     return this.root.localToWorld(out);
+  }
+
