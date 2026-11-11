@@ -629,3 +629,4 @@ export class PropsLayer {
       case 'waterfall':
         e.update = (_dt, ctx) => {
           const m = u.mat as ShaderMaterial;
+          m.uniforms.uTime.value = ctx.time;
