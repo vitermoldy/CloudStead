@@ -144,3 +144,4 @@ export class Island {
     this.rockMat = new MeshStandardMaterial({ vertexColors: true, roughness: 0.92, flatShading: true });
     this.group.add(this.ghosts);
 
+    const bladeMat = new MeshStandardMaterial({ vertexColors: true, roughness: 0.9, side: 2 });
