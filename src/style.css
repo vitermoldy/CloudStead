@@ -156,3 +156,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 .meter__fill { display: block; height: 100%; width: 0; border-radius: inherit; background: var(--accent); transition: width 600ms var(--ease); }
 .story__actions { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-top: 2px; }
 
+/* ---------------------------------------------------------------- buttons */
