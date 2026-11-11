@@ -598,3 +598,4 @@ export class PropsLayer {
         break;
       case 'pond':
         e.update = (dt) => {
+          for (const r of u.rings as Mesh[]) {
