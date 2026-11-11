@@ -11,3 +11,4 @@ export class Emitter {
       this.handlers.set(event, set);
     }
     set.add(fn);
+    return () => set!.delete(fn);
