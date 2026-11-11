@@ -546,3 +546,4 @@ export class World extends Emitter {
     return steps;
   }
 
+  private goHome(): Step[] {
