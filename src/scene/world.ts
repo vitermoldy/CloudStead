@@ -862,3 +862,4 @@ export class World extends Emitter {
     this.bounce.position.set(-L.sunDir.x, -0.35, Math.abs(L.sunDir.z) + 0.6);
     (this.scene.fog as Fog).color.copy(L.fog);
     this.renderer.toneMappingExposure = L.exposure;
+    this.context.night = L.night;
