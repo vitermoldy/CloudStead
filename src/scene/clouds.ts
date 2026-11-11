@@ -131,3 +131,5 @@ function layout(count: number): Puff[] {
     }
   }
   return puffs;
+}
+
