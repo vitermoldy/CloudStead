@@ -820,3 +820,4 @@ export class Character {
     }
     this.headYaw = damp(this.headYaw, yaw, 8, dt);
     this.headPitch = damp(this.headPitch, pitch, 8, dt);
+    this.headRoll = damp(this.headRoll, roll, 6, dt);
