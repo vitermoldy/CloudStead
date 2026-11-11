@@ -56,3 +56,4 @@ export class MusicPlayer extends Emitter {
     if (dup >= 0) {
       if (playNow || this.current < 0) this.play(dup);
       throw new LinkError(this.current === dup ? 'Tautan itu sedang diputar.' : 'Tautan itu sudah ada di antrean.');
+    }
