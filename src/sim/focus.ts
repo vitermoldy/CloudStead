@@ -40,3 +40,4 @@ export class FocusTimer extends Emitter {
     super();
     this.persistOn = persist;
     const s = persist ? load<Partial<Saved>>('focus', {}) : {};
+    this.preset = s.preset && s.preset in PRESETS ? s.preset : 'short';
