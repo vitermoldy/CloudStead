@@ -192,3 +192,4 @@ export class Fx {
       return;
     }
     this.birdT += dt;
+    this.birds.position.x += dt * 2.1 * this.birdDir;
