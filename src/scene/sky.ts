@@ -43,3 +43,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
         return fract(p.x * p.y * p.z * (p.x + p.y + p.z));
       }
 
+      void main() {
