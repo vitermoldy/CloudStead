@@ -183,3 +183,4 @@ function onGreet(): void {
   const pct = Math.floor(projectShare() * 100);
   if (timer.focusing) {
     c.wave();
+    speak(pick(next ? [
