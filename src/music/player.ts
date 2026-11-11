@@ -303,3 +303,4 @@ export class MusicPlayer extends Emitter {
       volume: this.volume,
       loop: this.loop,
     });
+  }
