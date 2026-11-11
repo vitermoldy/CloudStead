@@ -296,3 +296,4 @@ export class World extends Emitter {
     if (this.project?.id !== m.id) this.startProject(m);
     if (m.kind === 'prop' && m.prop && m.at) {
       this.site?.dispose();
+      this.site = null;
