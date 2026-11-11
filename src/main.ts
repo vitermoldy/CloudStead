@@ -578,3 +578,4 @@ nameInput.addEventListener('change', () => {
   renderHud(true);
 });
 
+// ------------------------------------------------------------ the mood panel
