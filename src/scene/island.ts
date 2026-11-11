@@ -116,3 +116,5 @@ export interface GrassUniforms {
   uTime: { value: number };
   uCursor: { value: Vector3 };
   uWind: { value: number };
+}
+
