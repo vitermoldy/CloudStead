@@ -706,3 +706,4 @@ export class Character {
           t.set(s * 0.035 + Math.sin(time * 7 + i * 2) * 0.012, lapY + 0.035 + Math.cos(time * 7 + i * 1.3) * 0.01, 0.14);
           break;
         case 'rest':
+          if (this.stretchT > 0) t.set(s * 0.07, this.hipY + 0.47, -0.02);
