@@ -680,3 +680,4 @@ export class PropsLayer {
       const entry = (h.object as Object3D).userData.prop as PropEntry | undefined;
       if (entry) return { entry, point: h.point };
     }
+    return null;
