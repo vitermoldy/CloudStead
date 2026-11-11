@@ -246,3 +246,4 @@ export class Island {
     slab.receiveShadow = true;
     slab.castShadow = true;
     const earth = new Mesh(this.dirtGeo, this.earthMat);
+    earth.position.y = -0.25;
