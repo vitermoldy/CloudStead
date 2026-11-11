@@ -424,3 +424,5 @@ export class Island {
     const sc = 0.92 + this.highlightAlpha * 0.08;
     this.highlight.scale.set(sc, 1, sc);
     this.highlight.visible = this.highlightAlpha > 0.01;
+  }
+
