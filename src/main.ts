@@ -597,3 +597,4 @@ for (const [id, key] of soundBoxes) {
     if (key === 'on' && box.checked) ambient.start();
     syncSoundBoxes();
   });
+}
