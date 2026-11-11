@@ -231,3 +231,4 @@ function pole(): Group {
   for (const x of [-0.26, 0, 0.26]) {
     const a = new Vector3(x, 2.21, 0);
     const b = new Vector3(8.5 + x * Math.cos(0.5), -5.2 + 2.21, -11 - x * Math.sin(0.5));
+    const c = new Vector3(20 + x, -9, -34);
