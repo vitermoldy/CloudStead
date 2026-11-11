@@ -138,3 +138,4 @@ export class MusicPlayer extends Emitter {
         this.status = 'api-error';
         this.apiError = err instanceof Error && err.message === 'timeout'
           ? 'YouTube terlalu lama menjawab. Periksa koneksi, lalu coba lagi.'
+          : 'YouTube tidak termuat. Periksa koneksi atau pemblokir iklan, lalu coba lagi.';
