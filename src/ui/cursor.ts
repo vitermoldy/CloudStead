@@ -7,3 +7,4 @@ export type CursorState = 'idle' | 'char' | 'pet' | 'tile' | 'ghost' | 'prop' | 
  * moment later, stretching along fast moves and changing shape over what it can touch. Mouse
  * only; over the interface the system pointer takes over, so every control keeps its own.
  */
+export class Cursor {
