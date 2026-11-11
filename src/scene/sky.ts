@@ -74,3 +74,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
   });
   const below = new Color();
   const mesh = new Mesh(new SphereGeometry(500, 48, 24), material);
+  mesh.frustumCulled = false;
