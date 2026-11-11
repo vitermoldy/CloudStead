@@ -174,3 +174,4 @@ function cloudFloor(): { mesh: Mesh; material: ShaderMaterial } {
         return v;
       }
       void main() {
+        vec2 p = vWorld.xz * 0.05 + vec2(uTime * 0.006, 0.0);
