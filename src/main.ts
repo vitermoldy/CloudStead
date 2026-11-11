@@ -593,3 +593,4 @@ for (const [id, key] of soundBoxes) {
   const box = $<HTMLInputElement>(id);
   box.checked = Boolean(ambient.settings[key]);
   box.addEventListener('change', () => {
+    ambient.update({ [key]: box.checked });
