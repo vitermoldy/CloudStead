@@ -87,3 +87,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
       btn.type = 'button';
       btn.className = 'queue__play';
       const name = q.title || (q.kind === 'playlist' ? 'Playlist' : 'Video') + ' YouTube';
+      btn.setAttribute('aria-label', `Putar ${name}`);
