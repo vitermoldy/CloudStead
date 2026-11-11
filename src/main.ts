@@ -642,3 +642,4 @@ addEventListener('keydown', (e) => {
     }
     return;
   }
+  if (typing || e.ctrlKey || e.metaKey || e.altKey) return;
