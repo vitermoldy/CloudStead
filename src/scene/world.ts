@@ -981,3 +981,4 @@ export class World extends Emitter {
           const lum = 0.2126 * lin(px[0]) + 0.7152 * lin(px[1]) + 0.0722 * lin(px[2]);
           sum += lum;
           max = Math.max(max, lum);
+          n++;
