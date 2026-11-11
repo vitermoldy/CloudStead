@@ -617,3 +617,4 @@ function setScenePaused(on: boolean, remember = true): void {
     const b = $(id);
     b.setAttribute('aria-pressed', String(on));
   }
+  $('scene-pause').setAttribute('aria-label', on ? 'Lanjutkan pemandangan' : 'Jeda pemandangan');
