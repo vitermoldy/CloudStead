@@ -878,3 +878,4 @@ export class World extends Emitter {
       this.character.looking = null;
     }
 
+    // Holding the press on the resident turns into petting.
