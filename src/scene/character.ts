@@ -274,3 +274,4 @@ export class Character {
     for (const s of [-1, 1]) {
       const eye = new Mesh(new SphereGeometry(0.011, 8, 6), DARK);
       eye.position.set(s * 0.03, 0.005, 0.078);
+      eye.scale.set(1, 1.3, 0.6);
