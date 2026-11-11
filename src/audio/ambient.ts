@@ -323,3 +323,4 @@ export class Ambient {
     this.fxGain!.gain.setTargetAtTime(s.effects ? 1 : 0, t, 0.05);
     if (this.ctx.state === 'suspended' && s.on) void this.ctx.resume();
   }
+}
