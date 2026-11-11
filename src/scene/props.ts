@@ -328,3 +328,4 @@ function pond(): Group {
   const rand = rng(57);
   const stone = new DodecahedronGeometry(0.06, 0);
   for (let i = 0; i < 16; i++) {
+    const a = (i / 16) * Math.PI * 2 + rand() * 0.2;
