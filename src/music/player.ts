@@ -132,3 +132,4 @@ export class MusicPlayer extends Emitter {
               onError: (e: { data: number }) => this.onError(e.data),
             },
           });
+        });
