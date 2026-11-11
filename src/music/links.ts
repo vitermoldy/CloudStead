@@ -20,3 +20,4 @@ export function parseLink(raw: string): ParsedLink {
   if (VIDEO_ID.test(text)) return { kind: 'video', videoId: text, listId: null, source: 'YouTube', url: `https://www.youtube.com/watch?v=${text}` };
 
   const notLink = 'Itu bukan tautan. Salin dari bilah alamat atau tombol Bagikan.';
+  if (/\s/.test(text) || !text.includes('.')) throw new LinkError(notLink);
