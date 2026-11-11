@@ -911,3 +911,4 @@ export class World extends Emitter {
       if (this.noteClock <= 0) {
         this.noteClock = 1.6 + Math.random();
         this.fx.spawn('note', this.character.headWorld().add(new Vector3(0.12, 0.08, 0)));
+      }
