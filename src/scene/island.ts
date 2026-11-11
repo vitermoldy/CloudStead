@@ -430,3 +430,4 @@ export class Island {
   settle(): void {
     for (const t of this.tiles.values()) {
       if (t.landed) continue;
+      t.rise = t.target;
