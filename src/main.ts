@@ -678,3 +678,4 @@ setInterval(() => {
   timer.tick();
   renderHud();
   if (world) {
+    ambient.setNight(world.night);
