@@ -22,3 +22,4 @@ tetap berjalan; hanya pulaunya yang tidak tergambar.
 ## Cara kerja
 
 - **Timer fokus.** Pola 25/5 (4 putaran, istirahat panjang 15 menit) atau 50/10 (3 putaran,
+  istirahat panjang 20 menit). VMK hanya bekerja selama fase fokus berjalan.
