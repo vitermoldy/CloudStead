@@ -140,3 +140,4 @@ export function makeGear(kind: Gear): Group {
       tea.position.y = 0.058;
       g.add(cup, handle, tea);
       break;
+    }
