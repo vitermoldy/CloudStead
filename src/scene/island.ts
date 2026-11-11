@@ -369,3 +369,4 @@ export class Island {
       }
     }
     this.grass.count = i;
+    this.grass.instanceMatrix.needsUpdate = true;
