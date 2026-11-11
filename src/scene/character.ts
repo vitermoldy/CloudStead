@@ -310,3 +310,4 @@ export class Character {
     const base = new Mesh(new BoxGeometry(0.17, 0.012, 0.115), new MeshStandardMaterial({ color: '#c9c6bd', roughness: 0.4, metalness: 0.4 }));
     const lid = new Group();
     lid.position.set(0, 0.006, -0.055);
+    lid.rotation.x = -0.32;
