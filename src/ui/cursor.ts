@@ -44,3 +44,4 @@ export class Cursor {
           this.rx = this.x;
           this.ry = this.y;
         }
+      }
