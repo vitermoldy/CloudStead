@@ -185,3 +185,4 @@ const KNITTED = new Set<Gear>(['cushion', 'scarf', 'beanie']);
 
 export class Character {
   readonly root = new Group();
+  /** What stays at the seat while the resident walks off: the laptop, the crate, the cushion, the books, the mug. */
