@@ -691,3 +691,4 @@ export class Character {
     const lk = clamp(this.sit * 1.4 - 0.4, 0, 1) * onLap;
     this.laptop.position.lerp(laptopGround.clone().lerp(laptopLap, lk), 1 - Math.exp(-8 * dt));
     this.laptop.rotation.y = (1 - lk) * 0.5;
+    const R = 1;
