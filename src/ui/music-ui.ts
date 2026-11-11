@@ -85,3 +85,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
       li.classList.toggle('has-error', q.status === 'error');
       const btn = document.createElement('button');
       btn.type = 'button';
+      btn.className = 'queue__play';
