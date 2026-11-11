@@ -80,3 +80,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
     lastError = st === 'api-error' ? player.apiError : '';
 
     queue.replaceChildren(...player.queue.map((q, i) => {
+      const li = document.createElement('li');
