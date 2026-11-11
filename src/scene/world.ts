@@ -146,3 +146,5 @@ export class World extends Emitter {
     this.scene.add(this.rope);
     this.character.onPlanDone = () => {
       this.replan = true;
+    };
+
