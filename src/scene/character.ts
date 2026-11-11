@@ -612,3 +612,4 @@ export class Character {
     return this.root.localToWorld(out);
   }
 
+  // ------------------------------------------------------------ frame
