@@ -453,3 +453,4 @@ function renderIsland(): void {
       when.textContent = `${formatMinutesLong(m.minutes - progress.minutes)} lagi`;
     } else {
       when.textContent = `di ${formatMinutes(m.minutes)}`;
+    }
