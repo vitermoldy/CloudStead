@@ -179,3 +179,4 @@ export class World extends Emitter {
     this.character.clearGear();
     const done = MILESTONES.filter((m) => reached.has(m.id));
     this.island.setTiles(tilesFor(done));
+    for (const p of START_PROPS) this.addProp(p.prop, p.at, false);
