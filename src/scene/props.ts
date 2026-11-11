@@ -145,3 +145,4 @@ function hutFrame(): Group {
   const beam = new BoxGeometry(0.05, 1.05, 0.05);
   for (const z of [-0.4, 0.4]) {
     for (const s of [-1, 1]) {
+      const m = mesh(beam, WOOD, s * 0.21, 0.5, z);
