@@ -907,3 +907,4 @@ export class Character {
       this.root.localToWorld(this.blade);
     }
     if (t.can.visible) {
+      t.can.position.copy(handR);
