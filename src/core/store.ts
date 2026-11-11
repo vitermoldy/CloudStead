@@ -20,3 +20,4 @@ function readAll(): Bag {
   } catch {
     cache = {};
   }
+  return cache!;
