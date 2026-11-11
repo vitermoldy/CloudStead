@@ -331,3 +331,4 @@ export class Island {
     const q = new Quaternion();
     const s = new Vector3();
     const p = new Vector3();
+    const up = new Vector3(0, 1, 0);
