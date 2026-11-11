@@ -89,3 +89,4 @@ export class PropSite {
 
   /** p from 0 to 1: how much of the piece stands. */
   setProgress(p: number): void {
+    const k = Math.max(0, Math.min(1, p));
