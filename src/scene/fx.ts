@@ -114,3 +114,4 @@ export class Fx {
     for (let i = 0; i < 5; i++) {
       const g = new BufferGeometry();
       g.setAttribute('position', new BufferAttribute(new Float32Array([-0.22, 0.06, 0, 0, 0, 0, 0.22, 0.06, 0]), 3));
+      const b = new Line(g, wing);
