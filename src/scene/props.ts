@@ -154,3 +154,4 @@ function hutFrame(): Group {
   return g;
 }
 
+function hut(): Group {
