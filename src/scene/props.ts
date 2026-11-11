@@ -135,3 +135,4 @@ function garden(): Group {
         g.add(mesh(sprout, LEAF_LIGHT, x, 0.14, z, false));
       }
     }
+  }
