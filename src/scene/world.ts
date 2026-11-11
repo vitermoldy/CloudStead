@@ -385,3 +385,4 @@ export class World extends Emitter {
     }
     // A piece on a cell.
     const at = m.at!;
+    const target = new Vector3(at[0], 0, at[1]);
