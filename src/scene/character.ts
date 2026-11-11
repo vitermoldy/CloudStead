@@ -69,3 +69,4 @@ function screenTexture(): { tex: CanvasTexture; draw: (lines: number, mode: 'cod
   const draw = (lines: number, mode: 'code' | 'rest' | 'sleep' | 'away') => {
     ctx.fillStyle = mode === 'sleep' ? '#0c1016' : '#16202b';
     ctx.fillRect(0, 0, 128, 84);
+    if (mode === 'sleep') {
