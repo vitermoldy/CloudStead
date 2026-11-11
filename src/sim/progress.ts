@@ -51,3 +51,4 @@ export class Progress extends Emitter {
     }
   }
 
+  private read(): ProgressData {
