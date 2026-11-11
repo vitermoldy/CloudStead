@@ -353,3 +353,4 @@ export function createClouds(count: number): Clouds {
       const u = material.uniforms;
       (u.uLit.value as Color).copy(look.cloudLit);
       (u.uShade.value as Color).copy(look.cloudShade);
+      (u.uFog.value as Color).copy(look.fog);
