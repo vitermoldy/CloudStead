@@ -198,3 +198,4 @@ function cloudFloor(): { mesh: Mesh; material: ShaderMaterial } {
   mesh.rotation.x = -Math.PI / 2;
   mesh.position.y = -10.5;
   mesh.renderOrder = -5;
+  return { mesh, material };
