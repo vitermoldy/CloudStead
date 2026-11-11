@@ -83,3 +83,4 @@ export class LiveLook {
   private static tmpA = new Color();
   private static tmpB = new Color();
 
+  set(a: Look, b: Look = a, t = 0): void {
