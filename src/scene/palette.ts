@@ -6,3 +6,4 @@ export type TimeId = 'pagi' | 'siang' | 'senja' | 'malam';
 export interface Look {
   zenith: string;
   horizon: string;
+  glow: string;
