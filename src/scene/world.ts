@@ -657,3 +657,4 @@ export class World extends Emitter {
     const w = this.canvas.clientWidth || innerWidth;
     const h = this.canvas.clientHeight || innerHeight;
     this.renderer.setSize(w, h, false);
+    this.camera.aspect = w / h;
