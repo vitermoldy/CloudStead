@@ -188,3 +188,4 @@ export class Character {
   /** What stays at the seat while the resident walks off: the laptop, the crate, the cushion, the books, the mug. */
   readonly seat = new Group();
   private rig = new Group();
+  readonly home = new Vector3(0, 0, 0);
