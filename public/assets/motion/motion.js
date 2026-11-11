@@ -329,3 +329,4 @@ function enterSteps(hero, h1, media) {
     .sort((a, b) => (a.compareDocumentPosition(b) & Node.DOCUMENT_POSITION_FOLLOWING ? -1 : 1));
 }
 function enter() {
+  const hero = document.querySelector('.hero[data-enter]:not([data-enter="off"])');
