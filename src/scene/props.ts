@@ -347,3 +347,4 @@ function pond(): Group {
     r.rotation.x = -Math.PI / 2;
     r.position.y = 0.03;
     r.userData.age = 9;
+    g.add(r);
