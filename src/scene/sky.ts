@@ -19,3 +19,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
       uTime: { value: 0 },
     },
     vertexShader: /* glsl */ `
+      varying vec3 vDir;
