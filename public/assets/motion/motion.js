@@ -106,3 +106,4 @@ function parse(text) {
   const lastSep = raw.search(/[^\d](?=\d+$)/);
   if (lastSep >= 0) {
     const tail = raw.length - lastSep - 1;
+    // a last separator before exactly three digits groups thousands; otherwise it is the decimal point
