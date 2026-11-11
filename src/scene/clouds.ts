@@ -218,3 +218,4 @@ export function createClouds(count: number): Clouds {
   const aSize = new InstancedBufferAttribute(new Float32Array(n * 2), 2);
   const aMeta = new InstancedBufferAttribute(new Float32Array(n * 4), 4);
   geo.setAttribute('aOffset', aOffset);
+  geo.setAttribute('aSize', aSize);
