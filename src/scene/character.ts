@@ -570,3 +570,4 @@ export class Character {
             this.beats = n;
             step.onBeat(n);
           }
+        }
