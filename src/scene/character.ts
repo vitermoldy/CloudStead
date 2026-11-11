@@ -200,3 +200,4 @@ export class Character {
   private beats = 0;
   private sit = 1;
   private hipY = 0.09;
+  private spine = new Vector3(0, 1, 0.1).normalize();
