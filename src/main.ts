@@ -293,3 +293,4 @@ function storyLine(): string {
 
 let lastHud = '';
 function renderHud(force = false): void {
+  const ms = timer.remaining();
