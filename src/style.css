@@ -320,3 +320,4 @@ fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
 }
 .bubble.is-on { opacity: 1; transform: translate(-50%, calc(-100% - 10px)) scale(1); }
 
+/* The resident's name tag: a real button that greets them (keyboard and touch), riding above the head. */
