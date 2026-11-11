@@ -109,3 +109,4 @@ export class MusicPlayer extends Emitter {
   private async ensurePlayer(): Promise<boolean> {
     if (this.ready) return true;
     if (this.creating) return this.creating;
+    this.status = 'loading-api';
