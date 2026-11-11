@@ -11,3 +11,4 @@
 <script>
   (() => {
     const q = new URLSearchParams(location.search), h = document.documentElement;
+    if (q.get('theme') === 'dark') h.dataset.theme = 'dark';
