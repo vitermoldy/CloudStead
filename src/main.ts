@@ -221,3 +221,4 @@ function onPokeProp(e: { kind: keyof typeof PROP_TITLE; title: string }): void {
     waterfall: 'Airnya jatuh sampai ke awan.',
     flowers: 'Bunganya ikut bergoyang kena angin.',
   };
+  speak(lines[e.kind] ?? `${e.title}.`, 2400);
