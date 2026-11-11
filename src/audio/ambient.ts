@@ -289,3 +289,5 @@ export class Ambient {
 
   setTyping(on: boolean): void {
     this.typing = on;
+  }
+
