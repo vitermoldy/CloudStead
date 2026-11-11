@@ -597,3 +597,4 @@ export class PropsLayer {
         };
         break;
       case 'pond':
+        e.update = (dt) => {
