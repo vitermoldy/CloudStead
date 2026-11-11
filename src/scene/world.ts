@@ -656,3 +656,4 @@ export class World extends Emitter {
   resize(): void {
     const w = this.canvas.clientWidth || innerWidth;
     const h = this.canvas.clientHeight || innerHeight;
+    this.renderer.setSize(w, h, false);
