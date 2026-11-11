@@ -156,3 +156,4 @@ export class PropSite {
       const mesh = o as Mesh;
       if (mesh.material && (mesh.material as Material).clippingPlanes) (mesh.material as Material).dispose();
     });
+  }
