@@ -64,3 +64,4 @@ html:not([data-motion="off"]) :is(.btn--arrow, .link):focus-visible::after { tra
 .m-arrow { width: 12px; height: 12px; flex: none; overflow: visible; fill: none; stroke: currentColor; stroke-width: 1.6;
            stroke-linecap: round; stroke-linejoin: round; }
 .m-arrow__stem { opacity: 0; transform: scaleX(.2); transform-origin: 1px 50%; transform-box: fill-box;
+                 transition: opacity var(--m-out) var(--m-ease), transform var(--m-out) var(--m-ease); }
