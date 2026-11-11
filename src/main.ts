@@ -112,3 +112,4 @@ async function startWorld(): Promise<void> {
     renderHud(true);
     renderIsland();
   });
+  greetBtn.hidden = false;
