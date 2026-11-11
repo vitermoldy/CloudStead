@@ -69,3 +69,4 @@ export class LiveLook {
   glow = new Color();
   sun = new Color();
   sunIntensity = 1;
+  sunDir = new Vector3();
