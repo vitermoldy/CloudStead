@@ -468,3 +468,4 @@ function waterfall(): Group {
         vUv = uv;
         vec3 p = position;
         // The lip curls out, then the water falls almost straight.
+        float t = 1.0 - uv.y;
