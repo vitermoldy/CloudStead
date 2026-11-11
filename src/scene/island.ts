@@ -161,3 +161,4 @@ export class Island {
           wpos.xz += (dv / max(dl, 0.0001)) * push * 0.11 * k;
           wpos.y -= push * 0.06 * k;
           vec4 mvPosition = modelViewMatrix * wpos;
+          gl_Position = projectionMatrix * mvPosition;
