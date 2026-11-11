@@ -254,3 +254,4 @@ export class Ambient {
       const g = ctx.createGain();
       o.type = 'triangle';
       o.frequency.setValueAtTime(200, t);
+      o.frequency.exponentialRampToValueAtTime(120, t + 0.12);
