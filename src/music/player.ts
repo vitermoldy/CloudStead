@@ -123,3 +123,4 @@ export class MusicPlayer extends Emitter {
             height: '100%',
             playerVars: { playsinline: 1, rel: 0, origin: location.origin },
             events: {
+              onReady: () => {
