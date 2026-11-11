@@ -835,3 +835,4 @@ export class World extends Emitter {
 
   private step(dt: number): void {
     this.time += dt;
+    const t = this.time;
