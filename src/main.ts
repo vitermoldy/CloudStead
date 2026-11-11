@@ -203,3 +203,4 @@ function onGreet(): void {
 }
 
 function onPokeProp(e: { kind: keyof typeof PROP_TITLE; title: string }): void {
+  const lines: Partial<Record<keyof typeof PROP_TITLE, string>> = {
