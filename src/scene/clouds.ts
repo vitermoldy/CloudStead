@@ -70,3 +70,4 @@ function puffAtlas(): DataTexture {
         const wave = Math.sin(x * 23 + k) * 0.012 + Math.sin(x * 57 + k * 3) * 0.006;
         const bottom = Math.min(1, Math.max(0, (base + wave - y) / 0.07));
         // The flat base faces down; billows near it turn down too, gradually.
+        const down = Math.min(1, Math.max(0, (y - (base - 0.12)) / 0.1));
