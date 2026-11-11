@@ -407,3 +407,4 @@ function openPanel(id: string | null, focus = true): void {
   if (id) {
     if (id === 'island') renderIsland();
     if (focus) {
+      const panel = $(`panel-${id}`);
