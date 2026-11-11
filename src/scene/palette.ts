@@ -67,3 +67,4 @@ export class LiveLook {
   zenith = new Color();
   horizon = new Color();
   glow = new Color();
+  sun = new Color();
