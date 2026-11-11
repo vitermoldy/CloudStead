@@ -259,3 +259,4 @@ export class Character {
 
   constructor() {
     this.root.add(this.rig);
+    this.torso = new Mesh(new CapsuleGeometry(0.078, L_TORSO - 0.1, 4, 10), HOODIE);
