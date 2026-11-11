@@ -328,3 +328,4 @@ export class Character {
     box.position.y = 0.065;
     const lidBar = new Mesh(new BoxGeometry(0.21, 0.02, 0.03), new MeshStandardMaterial({ color: '#5c4029' }));
     lidBar.position.set(0, 0.13, 0);
+    const planks = new Mesh(new BoxGeometry(0.06, 0.04, 0.18), new MeshStandardMaterial({ color: '#b08a5c' }));
