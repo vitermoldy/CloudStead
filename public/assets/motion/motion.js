@@ -98,3 +98,4 @@ function tabs() {
 // separators: . , and the no-break spaces (U+00A0, U+202F); a plain space ends the number ("12 4 h" is 12)
 const NUM = /\d+(?:[.,\u00A0\u202F]\d+)*/;
 function parse(text) {
+  const m = text.match(NUM);
