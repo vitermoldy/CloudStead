@@ -125,3 +125,4 @@ export class Island {
   private highlight: Group;
   private highlightTarget = 0;
   private highlightAlpha = 0;
+  private grass: InstancedMesh;
