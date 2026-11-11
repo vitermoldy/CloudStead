@@ -357,3 +357,4 @@ export class World extends Emitter {
     const c = this.character;
     this.loopN++;
     if (m.kind === 'gear') {
+      // Making it by hand at the seat, up every other round for more material from the crate.
