@@ -346,3 +346,4 @@ export function createClouds(count: number): Clouds {
     update(look, camera, time, moving) {
       const f = floor.material.uniforms;
       (f.uLit.value as Color).copy(look.cloudLit);
+      (f.uShade.value as Color).copy(look.cloudShade);
