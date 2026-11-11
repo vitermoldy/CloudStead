@@ -229,3 +229,4 @@ export class Ambient {
   private creak(): void {
     const ctx = this.ctx!;
     const t = ctx.currentTime + 0.01;
+    const o = ctx.createOscillator();
