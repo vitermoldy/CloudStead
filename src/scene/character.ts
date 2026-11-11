@@ -120,3 +120,4 @@ export function makeGear(kind: Gear): Group {
       const seam = m(new BoxGeometry(0.35, 0.012, 0.31), '#8a4430');
       seam.position.y = 0.03;
       g.add(c, seam);
+      break;
