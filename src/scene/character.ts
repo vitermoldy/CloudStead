@@ -246,3 +246,4 @@ export class Character {
   private screenLight: PointLight;
   private tools: Record<'hammer' | 'shovel' | 'can' | 'plank' | 'yarn', Group> = {
     hammer: new Group(), shovel: new Group(), can: new Group(), plank: new Group(), yarn: new Group(),
+  };
