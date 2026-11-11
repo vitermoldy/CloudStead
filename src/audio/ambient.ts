@@ -197,3 +197,4 @@ export class Ambient {
     o.stop(t + dur + 0.02);
   }
 
+  /** The resident's work, beat by beat: hammer, shovel, watering can, rope. Under the "work" switch. */
