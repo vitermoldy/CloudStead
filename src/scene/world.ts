@@ -762,3 +762,4 @@ export class World extends Emitter {
         this.character.headWorld(this.hitPoint);
       } else {
         const prop = this.props.pick(this.ray);
+        if (prop) {
