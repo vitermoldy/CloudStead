@@ -25,3 +25,4 @@ if (previewMinutes !== null) setReadOnly(true);
 
 // ------------------------------------------------------------ state
 const progress = new Progress(previewMinutes);
+const ambient = new Ambient();
