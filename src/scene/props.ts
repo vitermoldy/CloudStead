@@ -656,3 +656,4 @@ export class PropsLayer {
   }
 
   has(kind: PropKind): boolean {
+    return this.entries.some((e) => e.kind === kind);
