@@ -689,3 +689,4 @@ export class PropsLayer {
         e.grow = Math.min(1, e.grow + dt / 0.9);
         const k = e.grow;
         // Out-back: it grows a touch past its size and settles.
+        const c = 1.7;
