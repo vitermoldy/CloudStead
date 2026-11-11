@@ -78,3 +78,5 @@ export class PropSite {
       mesh.castShadow = false;
       mesh.receiveShadow = false;
     });
+    if (mode === 'parts' || mode === 'pond') this.parts = [...this.build.children];
+
