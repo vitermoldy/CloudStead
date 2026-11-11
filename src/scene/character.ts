@@ -891,3 +891,4 @@ export class Character {
     const t = this.tools;
     t.hammer.visible = act === 'hammer' && this.waveT <= 0;
     t.shovel.visible = act === 'dig';
+    t.can.visible = act === 'water' && this.waveT <= 0;
