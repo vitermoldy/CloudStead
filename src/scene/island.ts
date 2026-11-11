@@ -267,3 +267,4 @@ export class Island {
         this.tiles.delete(key);
       }
     }
+    const added: Cell[] = [];
