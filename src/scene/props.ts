@@ -103,3 +103,4 @@ function tree(): Group {
   g.add(trunk);
   const crown = new Group();
   crown.position.y = 1.15;
+  const blobs: [number, number, number, number, MeshStandardMaterial][] = [
