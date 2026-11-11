@@ -501,3 +501,4 @@ export class Character {
     return SEATED.has(this.act) ? (this.act as SeatAct) : null;
   }
 
+  wave(): void {
