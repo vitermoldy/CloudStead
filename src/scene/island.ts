@@ -352,3 +352,4 @@ export class Island {
         } else {
           x *= 0.94;
           z *= 0.94;
+        }
