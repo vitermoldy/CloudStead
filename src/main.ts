@@ -309,3 +309,4 @@ function renderHud(force = false): void {
   }
   document.title = timer.running ? `${clockText(ms)} · ${timer.phaseLabel} · CloudStead` : 'CloudStead: pulau belajar yang tumbuh setiap menit fokus';
 
+  const next = progress.next();
