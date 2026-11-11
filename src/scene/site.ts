@@ -52,3 +52,4 @@ export class PropSite {
     this.ghost = buildProp(kind);
     this.group.add(this.ghost, this.build);
     this.group.updateMatrixWorld(true);
+    const box = new Box3().setFromObject(this.build);
