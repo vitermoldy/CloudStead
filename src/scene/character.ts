@@ -173,3 +173,4 @@ export function makeGear(kind: Gear): Group {
       break;
     }
   }
+  g.traverse((o) => {
