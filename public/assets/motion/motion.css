@@ -260,3 +260,4 @@ html:not([data-motion="off"]) .field :is(input, select, textarea):focus, .m-inpu
    Markup: data-enter on the hero <section> and the one head line that sets html.m-enter before the
    first paint (with its 700ms safety mark, m-enter-done). Only the words wait, and only in that window
    until motion.js takes over (.is-entering): no script, reduced motion, print and data-motion="off"
+   show the hero as written; a script later than the mark finds the words fading in here.
