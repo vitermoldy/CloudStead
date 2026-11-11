@@ -296,3 +296,4 @@ export class MusicPlayer extends Emitter {
     }, 1800);
   }
 
+  persist(): void {
