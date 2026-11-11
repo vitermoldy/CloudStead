@@ -175,3 +175,4 @@ export class FocusTimer extends Emitter {
   private store(): void {
     if (!this.persistOn) return;
     const s: Saved = {
+      preset: this.preset, phase: this.phase, round: this.round, running: this.running,
