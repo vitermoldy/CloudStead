@@ -123,3 +123,4 @@ export class Ambient {
       o.connect(g).connect(this.lifeGain!);
       o.start(t);
       o.stop(t + 0.12);
+      t += 0.12 + Math.random() * 0.08;
