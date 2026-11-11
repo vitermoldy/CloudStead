@@ -10,3 +10,4 @@ export interface ProgressData {
   /** Milestone id -> ISO date it was reached. */
   reachedAt: Record<string, string>;
   startedAt: string;
+  name: string;
