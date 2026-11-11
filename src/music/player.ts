@@ -116,3 +116,4 @@ export class MusicPlayer extends Emitter {
       try {
         const YT = await loadYouTubeApi();
         await new Promise<void>((resolve) => {
+          const mount = document.createElement('div');
