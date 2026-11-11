@@ -356,3 +356,4 @@ export class Character {
   private buildTools(): void {
     const t = this.tools;
     const handle = new Mesh(new BoxGeometry(0.02, 0.15, 0.02), new MeshStandardMaterial({ color: '#7a5636' }));
+    handle.position.y = 0.04;
