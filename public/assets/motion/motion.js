@@ -375,3 +375,4 @@ function enter() {
     const after = 80 + (lines.length - 1) * lineStep + 220;
     let k = 0;
     steps.forEach(el => {
+      const above = !!(el.compareDocumentPosition(h1) & Node.DOCUMENT_POSITION_FOLLOWING);
