@@ -947,3 +947,4 @@ export class Character {
     this.wanderClock -= dt;
     if (this.wanderClock <= 0) {
       this.wanderClock = 3 + Math.random() * 4;
+      const a = (Math.random() - 0.5) * 2.2;
