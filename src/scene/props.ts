@@ -72,3 +72,4 @@ function rock(): Group {
 function flowers(): Group {
   const g = new Group();
   const rand = rng(99);
+  const heads = [std('#efe6c8'), std('#e8643c'), std('#f0bf48')];
