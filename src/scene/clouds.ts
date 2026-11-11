@@ -54,3 +54,4 @@ function puffAtlas(): DataTexture {
           for (const c of circles) {
             const dx = x - c.x, dy = y - c.y;
             const d2 = dx * dx + dy * dy;
+            if (d2 >= c.r * c.r) continue;
