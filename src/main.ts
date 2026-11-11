@@ -240,3 +240,4 @@ function positionBubble(): void {
   bubble.style.top = `${Math.max(bubble.offsetHeight + 80, a.y)}px`;
 }
 
+const greetBtn = $<HTMLButtonElement>('greet');
