@@ -473,3 +473,4 @@ export class Character {
     if (this.gear.has('headphones')) {
       this.gear.get('headphones')!.removeFromParent();
       this.place('headphones');
+    }
