@@ -591,3 +591,4 @@ export class Character {
   // ------------------------------------------------------------ picking and anchors
   pick(ray: Raycaster): 'head' | 'body' | null {
     if (ray.intersectObject(this.hitHead, false).length) return 'head';
+    if (ray.intersectObject(this.hitBody, false).length) return 'body';
