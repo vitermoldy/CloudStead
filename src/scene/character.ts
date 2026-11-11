@@ -467,3 +467,4 @@ export class Character {
     }
   }
 
+  setMusic(on: boolean): void {
