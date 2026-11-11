@@ -958,3 +958,4 @@ export class Character {
     this.plan = [];
     this.stepT = 0;
     this.root.position.copy(this.home);
+    this.heading = 0;
