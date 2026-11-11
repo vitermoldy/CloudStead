@@ -253,3 +253,4 @@ export class World extends Emitter {
       this.site = new PropSite(m.prop, m.at, pileAt);
       this.scene.add(this.site.group);
     } else if (m.kind === 'tiles' && m.tiles) {
+      this.island.addPending(m.tiles);
