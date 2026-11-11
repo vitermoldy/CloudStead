@@ -897,3 +897,4 @@ export class Character {
     if (t.hammer.visible) {
       t.hammer.position.copy(handR);
       t.hammer.quaternion.setFromUnitVectors(UP, handR.clone().sub(elbows[R]).normalize());
+    }
