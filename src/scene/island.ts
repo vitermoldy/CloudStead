@@ -106,3 +106,4 @@ interface Tile {
   rise: number;
   target: number;
   landed: boolean;
+  depth: number;
