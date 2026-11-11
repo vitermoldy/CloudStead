@@ -284,3 +284,4 @@ export class Character {
       cheek.position.set(s * 0.05, -0.02, 0.068);
       cheek.scale.set(1, 0.6, 0.3);
       this.blush.push(cheek);
+      const ear = new Mesh(new SphereGeometry(0.018, 8, 6), SKIN);
