@@ -46,3 +46,4 @@ export class Ambient {
     const ctx = new AC();
     this.ctx = ctx;
     this.master = ctx.createGain();
+    this.master.connect(ctx.destination);
