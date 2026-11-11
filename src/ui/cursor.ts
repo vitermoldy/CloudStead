@@ -85,3 +85,4 @@ export class Cursor {
     // Stretch along the move, round shapes only (a tile's square keeps its corners square to the screen).
     const round = this.state === 'idle' || this.state === 'grab' || this.state === 'prop';
     const stretch = round && !reducedMotion() ? Math.min(0.32, speed / 4200) : 0;
+    const angle = Math.atan2(this.vy, this.vx);
