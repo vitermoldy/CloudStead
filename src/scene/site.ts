@@ -112,3 +112,4 @@ export class PropSite {
       rest.forEach((o, i) => {
         o.visible = k > 0.5 && i < Math.ceil(((k - 0.5) / 0.5) * rest.length);
       });
+    } else if (mode === 'fall') {
