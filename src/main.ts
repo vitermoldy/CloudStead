@@ -317,3 +317,4 @@ function renderHud(force = false): void {
   $('story').textContent = storyLine();
   const fill = $('meter-fill');
   const meter = $('meter');
+  if (next) {
