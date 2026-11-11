@@ -211,3 +211,4 @@ function pole(): Group {
   const g = new Group();
   const build = (parent: Group, h: number) => {
     parent.add(mesh(new CylinderGeometry(0.03, 0.045, h, 6), WOOD_DARK, 0, h / 2, 0));
+    parent.add(mesh(new BoxGeometry(0.62, 0.04, 0.05), WOOD_DARK, 0, h - 0.14, 0));
