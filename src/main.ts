@@ -150,3 +150,4 @@ function onHover(h: Hover & { dragging?: boolean }, petting: boolean): void {
   if (h.dragging) return cursor.set('grab');
   if (petting) return cursor.set('pet', 'Elus');
   switch (h.kind) {
+    case 'char': {
