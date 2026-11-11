@@ -53,3 +53,4 @@ export function lookForHour(hour: number): { a: TimeId; b: TimeId; t: number } {
   const h = ((hour % 24) + 24) % 24;
   for (let i = stops.length - 1; i >= 0; i--) {
     const [at, id] = stops[(i + stops.length) % stops.length];
+    if (h >= at) {
