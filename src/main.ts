@@ -199,3 +199,4 @@ function onGreet(): void {
     if (player.isPlaying) lines.push('Musiknya enak. Lanjut belajar?');
     speak(pick(lines));
   }
+  ambient.greet();
