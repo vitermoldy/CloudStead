@@ -391,3 +391,4 @@ progress.on('change', () => {
 });
 
 // ------------------------------------------------------------ panels
+const tabItems = [...document.querySelectorAll<HTMLButtonElement>('.tab__item')];
