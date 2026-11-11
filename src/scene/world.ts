@@ -318,3 +318,4 @@ export class World extends Emitter {
           g.scale.setScalar(Math.max(0.01, 1 - Math.pow(1 - grow.t, 3)));
           return grow.t >= 1;
         });
+        this.fx.spawn('dust', this.character.headWorld().add(new Vector3(0, -0.15, 0.1)), 6);
