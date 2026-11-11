@@ -211,3 +211,4 @@ export class Island {
   addPending(cells: Cell[]): void {
     for (const c of cells) {
       const key = cellKey(c);
+      if (this.tiles.has(key)) continue;
