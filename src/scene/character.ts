@@ -191,3 +191,4 @@ export class Character {
   readonly home = new Vector3(0, 0, 0);
   heading = 0;
   act: Act = 'sitIdle';
+  name = 'VMK';
