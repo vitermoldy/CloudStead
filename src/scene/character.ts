@@ -347,3 +347,4 @@ export class Character {
         o.castShadow = true;
         o.receiveShadow = true;
       }
+    });
