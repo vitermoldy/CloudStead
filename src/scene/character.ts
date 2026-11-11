@@ -569,3 +569,4 @@ export class Character {
           if (n > this.beats) {
             this.beats = n;
             step.onBeat(n);
+          }
