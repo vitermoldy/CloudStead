@@ -506,3 +506,4 @@ function waterfall(): Group {
   return g;
 }
 
+const BUILDERS: Record<PropKind, () => Group> = {
