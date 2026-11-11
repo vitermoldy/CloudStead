@@ -381,3 +381,4 @@ export class World extends Emitter {
         { kind: 'do', act: 'haul', seconds: 6, face: top, beat: 1.1, onBeat: () => this.emit('beat', 'haul') },
         { kind: 'call', fn: () => { this.rope.visible = false; } },
       ]);
+      return;
