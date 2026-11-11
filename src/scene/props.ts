@@ -484,3 +484,4 @@ function waterfall(): Group {
         return mix(mix(hash(i), hash(i + vec2(1, 0)), u.x), mix(hash(i + vec2(0, 1)), hash(i + vec2(1, 1)), u.x), u.y);
       }
       void main() {
+        float streak = noise(vec2(vUv.x * 9.0, vUv.y * 3.0 + uTime * 2.2)) * 0.6 + noise(vec2(vUv.x * 23.0, vUv.y * 7.0 + uTime * 3.4)) * 0.4;
