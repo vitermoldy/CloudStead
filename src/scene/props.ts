@@ -291,3 +291,4 @@ function board(): Group {
     g.add(leg);
   }
   g.add(mesh(new BoxGeometry(0.72, 0.48, 0.05), WOOD, 0, 0.56, 0.02));
+  const { tex, draw } = boardTexture();
