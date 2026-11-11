@@ -525,3 +525,4 @@ export class Character {
       this.workPoint = null;
       return;
     }
+    const turnTo = (x: number, z: number, rate = 8) => {
