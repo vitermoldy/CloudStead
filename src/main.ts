@@ -603,3 +603,4 @@ function syncSoundBoxes(): void {
 }
 syncSoundBoxes();
 const sndVol = $<HTMLInputElement>('snd-volume');
+sndVol.value = String(ambient.settings.volume);
