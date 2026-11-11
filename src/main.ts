@@ -605,3 +605,5 @@ syncSoundBoxes();
 const sndVol = $<HTMLInputElement>('snd-volume');
 sndVol.value = String(ambient.settings.volume);
 sndVol.addEventListener('input', () => ambient.update({ volume: Number(sndVol.value) }));
+$('view-reset').addEventListener('click', () => world?.resetView());
+
