@@ -924,3 +924,4 @@ export class Character {
     if (this.craftPiece) {
       const p = (this.craftPiece.userData.p as number) ?? 0;
       const lapY = this.hipY + 0.07;
+      this.craftPiece.visible = act === 'craft';
