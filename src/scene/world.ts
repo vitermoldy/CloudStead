@@ -140,3 +140,4 @@ export class World extends Emitter {
       this.moving = true;
     });
 
+    this.rope = new Line(new BufferGeometry().setFromPoints([new Vector3(), new Vector3(), new Vector3(), new Vector3()]), new LineBasicMaterial({ color: '#c9a472' }));
