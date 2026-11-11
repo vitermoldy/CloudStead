@@ -37,3 +37,4 @@ export class World extends Emitter {
   readonly scene = new Scene();
   readonly controls: OrbitControls;
   readonly island = new Island();
+  readonly props = new PropsLayer();
