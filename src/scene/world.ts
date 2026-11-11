@@ -975,3 +975,4 @@ export class World extends Emitter {
           if (x < 0 || y < 0 || x >= this.canvas.width || y >= ch) continue;
           gl.readPixels(x, y, 1, 1, gl.RGBA, gl.UNSIGNED_BYTE, px);
           const lin = (v: number) => {
+            const c = v / 255;
