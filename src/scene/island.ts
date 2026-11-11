@@ -422,3 +422,4 @@ export class Island {
     const mat = (this.highlight.children[0] as Mesh).material as MeshBasicMaterial;
     mat.opacity = this.highlightAlpha * 0.9;
     const sc = 0.92 + this.highlightAlpha * 0.08;
+    this.highlight.scale.set(sc, 1, sc);
