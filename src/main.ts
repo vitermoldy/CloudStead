@@ -86,3 +86,4 @@ async function startWorld(): Promise<void> {
   w.setContext(progress.todayMinutes, progress.minutes);
   syncWork();
 
+  w.on('ink', (avg: number) => {
