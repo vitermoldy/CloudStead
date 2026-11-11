@@ -87,3 +87,4 @@ function tabs() {
       instant = false;
     };
     place();
+    new MutationObserver(place).observe(list, { subtree: true, attributes: true, attributeFilter: ['aria-selected'] });
