@@ -10,3 +10,4 @@ export interface ParsedLink {
   videoId: string | null;
   listId: string | null;
   source: 'YouTube' | 'YouTube Music';
+  url: string;
