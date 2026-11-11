@@ -147,3 +147,4 @@ export function makeGear(kind: Gear): Group {
       const l = m(cupGeo, '#2b2b2e', 0.5);
       const r = m(cupGeo, '#2b2b2e', 0.5);
       l.rotation.z = Math.PI / 2;
+      r.rotation.z = Math.PI / 2;
