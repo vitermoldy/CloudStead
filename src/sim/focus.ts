@@ -61,3 +61,4 @@ export class FocusTimer extends Emitter {
   }
 
   get config() {
+    return PRESETS[this.preset];
