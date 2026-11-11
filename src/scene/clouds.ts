@@ -226,3 +226,4 @@ export function createClouds(count: number): Clouds {
     transparent: true,
     depthWrite: false,
     side: DoubleSide,
+    fog: false,
