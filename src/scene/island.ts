@@ -401,3 +401,4 @@ export class Island {
     let landed = false;
     for (const t of this.tiles.values()) {
       if (t.landed) continue;
+      // Follow the work smoothly; a cell on the rope sways a little.
