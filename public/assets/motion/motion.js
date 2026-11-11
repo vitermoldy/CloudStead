@@ -23,3 +23,4 @@
     they pause off screen, restart when the pointer enters the card around them, and get the
     system's pause button (one per panel, shared with ui.js). ui.js restarts its own fragments.
   - switches: a click on .m-switch flips aria-checked unless a handler before it called
+    preventDefault().
