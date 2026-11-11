@@ -116,3 +116,5 @@ async function startWorld(): Promise<void> {
   w.onFrame = () => {
     positionGreet();
     if (bubbleUntil) positionBubble();
+  };
+
