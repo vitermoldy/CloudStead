@@ -248,3 +248,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 .slider { display: flex; align-items: center; gap: 10px; margin-left: 8px; font-size: 14px; color: var(--muted); flex: 1; min-width: 150px; }
 .slider--wide { margin: 10px 0 0; }
 .slider input { flex: 1; min-width: 0; height: 44px; accent-color: var(--accent); }
+.check { display: flex; align-items: center; gap: 10px; min-height: 44px; font-size: 15px; }
