@@ -281,3 +281,4 @@ const ENTER_TEXT = 'h1 ~ *, :has(> h1) ~ *, :has(~ h1)';
 const ENTER_LEAF = 'p, dl, ul, ol, a, button, img, picture, video, figure, blockquote, h2, h3, .pill, .btn';
 function maskWords(h1) {
   // an h1 another script reworks (layout.js: a live word, letters, a picture in the line) rises whole
+  if (h1.matches('[data-ly-letters], [data-enter-whole]') || h1.querySelector('.ly-word, .ly-pic, .ly-mark, svg, img')) return null;
