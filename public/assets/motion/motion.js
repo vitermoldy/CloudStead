@@ -330,3 +330,4 @@ function enterSteps(hero, h1, media) {
 }
 function enter() {
   const hero = document.querySelector('.hero[data-enter]:not([data-enter="off"])');
+  if (!hero || hero.classList.contains('is-entered') || hero.classList.contains('is-entering')) return;
