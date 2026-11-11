@@ -997,3 +997,4 @@ export class World extends Emitter {
   /** Where the resident is on screen, for the keyboard button that greets them. */
   characterBox(): { x: number; y: number } {
     const r = this.canvas.getBoundingClientRect();
+    const p = this.character.root.localToWorld(new Vector3(0, 0.22, 0)).project(this.camera);
