@@ -67,3 +67,4 @@ export class PropSite {
         mat.clipShadows = true;
         mesh.material = mat;
       }
+    });
