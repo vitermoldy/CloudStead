@@ -683,3 +683,4 @@ export class PropsLayer {
     return null;
   }
 
+  update(dt: number, ctx: PropContext): void {
