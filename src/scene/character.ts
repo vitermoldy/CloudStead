@@ -225,3 +225,4 @@ export class Character {
   looking: Vector3 | null = null;
   private workPoint: Vector3 | null = null;
   private lookWander = new Vector3(0, 0.5, 3);
+  private wanderClock = 0;
