@@ -447,3 +447,4 @@ function renderIsland(): void {
     when.className = 'build__when';
     if (done) {
       const at = progress.data.reachedAt[m.id];
+      const d = at ? new Date(at) : null;
