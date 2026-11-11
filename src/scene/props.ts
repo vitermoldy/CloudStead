@@ -382,3 +382,4 @@ function bench(): Group {
   g.add(mesh(new BoxGeometry(0.66, 0.12, 0.03), WOOD, 0, 0.38, -0.13));
   for (const x of [-0.27, 0.27]) {
     for (const z of [-0.09, 0.09]) g.add(mesh(new BoxGeometry(0.035, 0.24, 0.035), WOOD_DARK, x, 0.12, z));
+    g.add(mesh(new BoxGeometry(0.035, 0.2, 0.035), WOOD_DARK, x, 0.33, -0.13));
