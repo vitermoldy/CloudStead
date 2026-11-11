@@ -168,3 +168,4 @@ export class Fx {
           p.spin = (Math.random() - 0.5) * 6;
           break;
         case 'drop':
+          p.vel.set((Math.random() - 0.5) * 0.12, -0.15, (Math.random() - 0.5) * 0.12);
