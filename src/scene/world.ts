@@ -382,3 +382,4 @@ export class World extends Emitter {
         { kind: 'call', fn: () => { this.rope.visible = false; } },
       ]);
       return;
+    }
