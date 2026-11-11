@@ -359,3 +359,4 @@ html.has-cursor .cursor.is-on { opacity: 1; }
               background-color 200ms var(--ease), border-color 200ms var(--ease);
 }
 .cursor__label {
+  position: absolute; left: 0; top: 0; padding: 5px 10px; border-radius: 999px; background: var(--bg); color: var(--ink);
