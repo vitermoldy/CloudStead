@@ -888,3 +888,4 @@ export class Character {
     const R = 1;
     const handR = this.palms[R].position;
     const handL = this.palms[0].position;
+    const t = this.tools;
