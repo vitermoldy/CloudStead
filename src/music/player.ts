@@ -185,3 +185,4 @@ export class MusicPlayer extends Emitter {
     void this.load(index, false);
   }
 
+  toggle(): void {
