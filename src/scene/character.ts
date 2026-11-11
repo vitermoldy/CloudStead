@@ -635,3 +635,4 @@ export class Character {
       case 'rest': lean.set(0, 1, this.stretchT > 0 ? -0.05 : -0.12); break;
       case 'sleep': lean.set(0.05, 1, 0.42); break;
       case 'walk': lean.set(0, 1, 0.12); break;
+      case 'carry': lean.set(0, 1, 0.04); break;
