@@ -23,3 +23,4 @@ export interface Milestone {
   work: Work;
   kind: 'tiles' | 'prop' | 'gear';
   tiles?: Cell[];
+  at?: Cell;
