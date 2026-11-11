@@ -69,3 +69,4 @@ export class Cursor {
     if (!this.raf) {
       this.last = performance.now();
       this.raf = requestAnimationFrame((t) => this.frame(t));
+    }
