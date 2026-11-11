@@ -338,3 +338,4 @@ export function createClouds(count: number): Clouds {
     }
     aOffset.needsUpdate = true;
     aSize.needsUpdate = true;
+    aMeta.needsUpdate = true;
