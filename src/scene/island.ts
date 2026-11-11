@@ -124,3 +124,4 @@ export class Island {
   private ghosts = new Group();
   private highlight: Group;
   private highlightTarget = 0;
+  private highlightAlpha = 0;
