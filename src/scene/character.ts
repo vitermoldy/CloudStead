@@ -682,3 +682,4 @@ export class Character {
       this.shoes[i].rotation.y = this.sit * -s * 1.2;
     }
 
+    // ---- arms
