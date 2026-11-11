@@ -268,3 +268,4 @@ function boardTexture(): { tex: CanvasTexture; draw: (today: number, total: numb
     return h ? `${h} j ${m % 60} m` : `${m} m`;
   };
   const draw = (today: number, total: number) => {
+    ctx.fillStyle = '#26302a';
