@@ -36,3 +36,4 @@ const TEXTURES: Record<FxKind, () => CanvasTexture> = {
   steam: () => glyphTexture((ctx) => {
     const g = ctx.createRadialGradient(32, 32, 2, 32, 32, 30);
     g.addColorStop(0, 'rgba(255, 255, 255, 0.55)');
+    g.addColorStop(1, 'rgba(255, 255, 255, 0)');
