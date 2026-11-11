@@ -949,3 +949,4 @@ export class Character {
       this.wanderClock = 3 + Math.random() * 4;
       const a = (Math.random() - 0.5) * 2.2;
       this.lookWander.set(Math.sin(a) * 4, 0.3 + Math.random() * 1.6, Math.cos(a) * 4);
+    }
