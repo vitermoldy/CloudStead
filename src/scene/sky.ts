@@ -31,3 +31,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
       uniform vec3 uHorizon;
       uniform vec3 uGlow;
       uniform vec3 uBelow;
+      uniform vec3 uSunDir;
