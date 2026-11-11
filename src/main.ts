@@ -612,3 +612,4 @@ function setScenePaused(on: boolean, remember = true): void {
     settings.paused = on;
     save('settings', settings);
   }
+  world?.setPaused(on);
