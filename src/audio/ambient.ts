@@ -281,3 +281,4 @@ export class Ambient {
     this.tone(1110, 0.16, 0.06, 'sine', 0.08);
   }
 
+  chime(): void {
