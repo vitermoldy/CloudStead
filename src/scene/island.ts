@@ -407,3 +407,4 @@ export class Island {
       const e = 1 - Math.pow(1 - t.rise, 2);
       const sway = (1 - t.rise) * (t.target > 0 ? 1 : 0);
       t.group.position.y = -11 * (1 - e);
+      t.group.rotation.z = Math.sin(time * 1.3 + t.cell[0]) * 0.05 * sway;
