@@ -40,3 +40,4 @@ export const HOME: Cell = [0, 0];
 /** Present from the first visit: the boulder behind the resident. */
 export const START_PROPS: { at: Cell; prop: PropKind }[] = [{ at: [-1, -1], prop: 'rock' }];
 
+export const MILESTONES: Milestone[] = [
