@@ -742,3 +742,4 @@ export class World extends Emitter {
   }
 
   private lookAt(p: Vector3): void {
+    this.lookPoint.copy(p);
