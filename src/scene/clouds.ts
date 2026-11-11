@@ -345,3 +345,4 @@ export function createClouds(count: number): Clouds {
     mesh: group,
     update(look, camera, time, moving) {
       const f = floor.material.uniforms;
+      (f.uLit.value as Color).copy(look.cloudLit);
