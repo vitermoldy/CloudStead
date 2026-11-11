@@ -26,3 +26,4 @@ dial **ENERGY 3 / RHYTHM 1 / MOTION 3**.
 
 - Kind: software (page type software, site-kind software). The live island is the hero and the
   page's one effect; it carries `data-enter="off"` because the scene has its own load motion.
+- Palette through `start.mjs brand`, taken from the reference: tab black `#0d0e11`, cloud cream
