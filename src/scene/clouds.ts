@@ -331,3 +331,4 @@ export function createClouds(count: number): Clouds {
       return db - da;
     });
     for (let k = 0; k < n; k++) {
+      const p = puffs[order[k]];
