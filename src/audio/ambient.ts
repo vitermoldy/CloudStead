@@ -95,3 +95,4 @@ export class Ambient {
   }
 
   private later(ms: number, fn: () => void): void {
+    this.timers.push(window.setTimeout(fn, ms));
