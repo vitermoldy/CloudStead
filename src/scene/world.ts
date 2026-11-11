@@ -863,3 +863,5 @@ export class World extends Emitter {
     (this.scene.fog as Fog).color.copy(L.fog);
     this.renderer.toneMappingExposure = L.exposure;
     this.context.night = L.night;
+    this.context.time = t;
+
