@@ -424,3 +424,4 @@ export class World extends Emitter {
   /** No timer running: the resident lives on the island, and the work in progress waits. */
   private planFree(): void {
     const c = this.character;
+    if (this.idleFor > 150) {
