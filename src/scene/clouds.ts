@@ -360,3 +360,4 @@ export function createClouds(count: number): Clouds {
       // Back-to-front order, refreshed a few times a second (every frame while the view turns).
       if (sortClock < 0 || moving || time - sortClock > 0.5) {
         sortClock = time;
+        write(time);
