@@ -256,3 +256,4 @@ export class Ambient {
       o.frequency.setValueAtTime(200, t);
       o.frequency.exponentialRampToValueAtTime(120, t + 0.12);
       g.gain.setValueAtTime(0.0001, t);
+      g.gain.exponentialRampToValueAtTime(0.9, t + 0.005);
