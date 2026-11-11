@@ -256,3 +256,4 @@ document.addEventListener('click', e => {
     const paused = !btn.classList.contains('is-paused');
     btn.__show(paused);
     setPaused(box, paused);
+    box.querySelectorAll('[data-ui]').forEach(r => { try { paused ? r.__ui?.pause() : r.__ui?.resume(); } catch { /* none */ } });
