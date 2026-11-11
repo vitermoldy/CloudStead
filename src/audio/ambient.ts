@@ -20,3 +20,4 @@ export class Ambient {
   private ctx: AudioContext | null = null;
   private master: GainNode | null = null;
   private windGain: GainNode | null = null;
+  private lifeGain: GainNode | null = null;
