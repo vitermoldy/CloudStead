@@ -696,3 +696,4 @@ export class PropsLayer {
         e.wiggle = Math.max(0, e.wiggle - dt * 2.2);
         const w = Math.sin(e.wiggle * 18) * e.wiggle * 0.06;
         e.group.scale.set(1 + w, 1 - w, 1 + w);
+      }
