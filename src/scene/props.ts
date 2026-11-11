@@ -31,3 +31,5 @@ export const PROP_TITLE: Record<PropKind, string> = {
   'hut-frame': 'Rangka pondok', hut: 'Pondok kayu', pole: 'Tiang listrik', lamp: 'Lampu taman', board: 'Papan tulis',
   pond: 'Kolam', windmill: 'Kincir angin', bench: 'Bangku kayu', pine: 'Pohon cemara', telescope: 'Teleskop',
   balloon: 'Balon udara', waterfall: 'Air terjun',
+};
+
