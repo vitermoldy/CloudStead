@@ -413,3 +413,4 @@ export class Island {
         t.group.position.y = 0;
         t.group.rotation.set(0, 0, 0);
         t.landed = true;
+        landed = true;
