@@ -84,3 +84,5 @@ section for a kit moment; the growing piece is the moment). Kept on purpose and 
 - the timer and the story plate bottom-aligned, off the 12-column split lines (the reference);
 - on a phone, the tab over the top of the picture (the reference's hanging tab).
 
+## Placeholders to confirm (antislop R-23)
+
