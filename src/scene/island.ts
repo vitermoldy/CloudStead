@@ -305,3 +305,4 @@ export class Island {
           m.rotation.y = a;
           g.add(m);
         }
+      }
