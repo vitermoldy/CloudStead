@@ -19,3 +19,4 @@ export class Cursor {
   private ry = -100;
   private vx = 0;
   private vy = 0;
+  private state: CursorState = 'idle';
