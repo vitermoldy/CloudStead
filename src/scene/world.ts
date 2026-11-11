@@ -235,3 +235,4 @@ export class World extends Emitter {
     this.applyProgress();
   }
 
+  get currentProject(): Milestone | null {
