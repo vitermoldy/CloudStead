@@ -210,3 +210,4 @@ export class Character {
   private blink = 0;
   private nextBlink = 2;
   private screenTick = 0;
+  private screenLines = 0;
