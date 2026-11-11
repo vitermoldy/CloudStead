@@ -37,3 +37,4 @@ const fresh = (): ProgressData => ({
  * change, reach (milestone), saved.
  */
 export class Progress extends Emitter {
+  data: ProgressData;
