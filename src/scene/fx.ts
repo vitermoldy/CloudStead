@@ -220,3 +220,4 @@ export class Fx {
         if (k >= 1) {
           p.active = false;
           p.sprite.visible = false;
+          continue;
