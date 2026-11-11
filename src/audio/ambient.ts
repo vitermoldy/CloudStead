@@ -301,3 +301,4 @@ export class Ambient {
   }
 
   setHidden(on: boolean): void {
+    this.hidden = on;
