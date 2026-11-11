@@ -553,3 +553,4 @@ export class PropsLayer {
     if (animate) group.scale.setScalar(0.001);
     this.group.add(group);
     this.entries.push(entry);
+    return entry;
