@@ -217,3 +217,4 @@ export class Fx {
         if (!p.active) continue;
         p.life += dt;
         const k = p.life / p.max;
+        if (k >= 1) {
