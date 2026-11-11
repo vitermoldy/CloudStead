@@ -287,3 +287,4 @@ export function createClouds(count: number): Clouds {
         vec4 t = texture2D(uAtlas, auv);
         float w = fwidth(t.a) * 1.4 + 0.02;
         float a = smoothstep(0.5 - w, 0.5 + w, t.a) * t.b * vAlpha;
+        if (a < 0.01) discard;
