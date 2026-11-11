@@ -90,3 +90,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
       u.uTime.value = time;
     },
   };
+}
