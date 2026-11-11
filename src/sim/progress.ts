@@ -61,3 +61,4 @@ export class Progress extends Emitter {
     if (typeof d.name !== 'string' || !d.name.trim() || d.name === OLD_DEFAULT) d.name = DEFAULT_NAME;
     d.name = d.name.slice(0, 18);
     // Anything the time already covers counts as reached, even from an older save.
+    for (const m of MILESTONES) if (m.minutes * 60000 <= d.focusMs && !d.reachedAt[m.id]) d.reachedAt[m.id] = new Date().toISOString();
