@@ -156,3 +156,4 @@ function onHover(h: Hover & { dragging?: boolean }, petting: boolean): void {
       break;
     }
     case 'prop':
+      cursor.set('prop', h.prop?.title ?? '');
