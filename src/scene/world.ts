@@ -727,3 +727,4 @@ export class World extends Emitter {
         }
         this.lookAt(p.point ?? p.prop.group.position);
         this.emit('poke-prop', p.prop);
+      } else if (p.on === 'tile' && p.point) {
