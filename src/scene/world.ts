@@ -47,3 +47,4 @@ export class World extends Emitter {
   /** Light thrown back by the cloud sea onto the faces that turn from the sun. */
   private bounce = new DirectionalLight('#ffffff', 0.5);
   private look = new LiveLook();
+  private target = new LiveLook();
