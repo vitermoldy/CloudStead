@@ -31,3 +31,4 @@ function flush(): boolean {
     lastWrite = Date.now();
     for (const fn of listeners) fn(lastWrite);
     return true;
+  } catch {
