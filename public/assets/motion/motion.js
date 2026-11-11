@@ -136,3 +136,4 @@ function counts() {
     // moves. Until it is measured it shows its own text, never a 0
     const after = node.splitText(p.index);
     after.splitText(p.raw.length);
+    const span = document.createElement('span');
