@@ -662,3 +662,4 @@ export class Character {
     }
 
     // ---- legs
+    const moving = act === 'walk' || act === 'carry';
