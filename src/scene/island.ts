@@ -330,3 +330,4 @@ export class Island {
     const m = new Matrix4();
     const q = new Quaternion();
     const s = new Vector3();
+    const p = new Vector3();
