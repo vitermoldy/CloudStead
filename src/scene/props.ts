@@ -285,3 +285,4 @@ function boardTexture(): { tex: CanvasTexture; draw: (today: number, total: numb
 
 function board(): Group {
   const g = new Group();
+  for (const x of [-0.3, 0.3]) {
