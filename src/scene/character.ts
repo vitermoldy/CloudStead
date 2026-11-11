@@ -415,3 +415,4 @@ export class Character {
       case 'mug':
         g.position.set(-0.27, 0, 0.13);
         g.userData.rest = g.position.clone();
+        this.seat.add(g);
