@@ -302,3 +302,4 @@ export class World extends Emitter {
       if (!instant) {
         this.fx.spawn('dust', new Vector3(m.at[0], 0.1, m.at[1]), 10);
         this.emit('pop');
+      }
