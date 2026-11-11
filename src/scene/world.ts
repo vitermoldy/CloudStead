@@ -478,3 +478,4 @@ export class World extends Emitter {
   }
 
   private freeCells(): Cell[] {
+    const b = this.blockedCells();
