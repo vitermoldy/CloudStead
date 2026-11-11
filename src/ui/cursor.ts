@@ -14,3 +14,4 @@ export class Cursor {
   private dot: HTMLElement;
   private label: HTMLElement;
   private x = -100;
+  private y = -100;
