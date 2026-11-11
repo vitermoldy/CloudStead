@@ -277,3 +277,4 @@ export class Character {
       eye.scale.set(1, 1.3, 0.6);
       this.eyes.push(eye);
       const arc = new Mesh(new TorusGeometry(0.012, 0.0035, 4, 8, Math.PI), DARK);
+      arc.position.set(s * 0.03, 0.0, 0.079);
