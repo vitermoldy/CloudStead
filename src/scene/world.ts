@@ -794,3 +794,4 @@ export class World extends Emitter {
   private loopOn = false;
 
   start(): void {
+    this.loopOn = true;
