@@ -883,3 +883,4 @@ export class Character {
     if (this.stretchT > 0) this.stretchT -= dt;
   }
 
+  /** Puts the right tool in the right hand for the act, and the piece in the making on the lap. */
