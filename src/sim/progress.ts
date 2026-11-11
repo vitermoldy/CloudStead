@@ -33,3 +33,4 @@ const fresh = (): ProgressData => ({
 });
 
 /**
+ * Focus time and what it has built. Events:
