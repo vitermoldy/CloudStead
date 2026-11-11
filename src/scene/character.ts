@@ -474,3 +474,5 @@ export class Character {
       this.gear.get('headphones')!.removeFromParent();
       this.place('headphones');
     }
+  }
+
