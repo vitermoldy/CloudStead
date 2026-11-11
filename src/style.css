@@ -99,3 +99,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
   position: relative; min-height: 48px; padding: 0 clamp(10px, 1.6vw, 22px); border: 0; background: none;
   color: rgba(231, 228, 209, 0.82); font-size: 15px; font-weight: 450; border-radius: var(--r-sm);
   transition: color 120ms var(--ease), background-color 120ms var(--ease);
+}
