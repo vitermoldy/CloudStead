@@ -868,3 +868,4 @@ export class Character {
     // ---- seated life during a break: stretches and sips
     if (act === 'rest') {
       this.nextStretch -= dt;
+      if (this.nextStretch <= 0 && this.stretchT <= 0) {
