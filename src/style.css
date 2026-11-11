@@ -180,3 +180,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 }
 .go:hover .go__dot { transform: scale(1.06); }
 .go__dot svg { width: 18px; height: 18px; fill: var(--ink); }
+.go .i-pause, .go.is-running .i-play { display: none; }
