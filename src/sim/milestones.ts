@@ -29,3 +29,4 @@ export interface Milestone {
 }
 
 /** The nine cells the island starts with. */
+export const START_TILES: Cell[] = [
