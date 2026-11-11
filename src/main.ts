@@ -59,3 +59,5 @@ const clockNow = () => new Date().toLocaleTimeString('id-ID', { hour: '2-digit',
 const canvas = $<HTMLCanvasElement>('scene');
 let world: WorldType | null = null;
 const cursor = new Cursor($('cursor'), canvas);
+let justBuilt: { text: string; until: number } | null = null;
+
