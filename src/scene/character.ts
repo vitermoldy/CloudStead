@@ -518,3 +518,4 @@ export class Character {
 
   private runPlan(dt: number): void {
     const step = this.plan[0];
+    const pos = this.root.position;
