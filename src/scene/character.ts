@@ -91,3 +91,4 @@ function screenTexture(): { tex: CanvasTexture; draw: (lines: number, mode: 'cod
         ctx.fillStyle = '#e9b46a';
         ctx.fillRect(34 + 45 + 2, 18 + 30 + 2, 9, 9);
       }
+      tex.needsUpdate = true;
