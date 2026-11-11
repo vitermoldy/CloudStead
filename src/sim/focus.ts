@@ -66,3 +66,5 @@ export class FocusTimer extends Emitter {
 
   get phaseLabel(): string {
     return PHASE_LABEL[this.phase];
+  }
+
