@@ -156,3 +156,4 @@ export class World extends Emitter {
       this.fitDistance(this.island.reach());
       if (this.dist > before) {
         if (this.paused || this.instant) {
+          const dir = this.camera.position.clone().sub(this.controls.target).normalize();
