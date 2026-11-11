@@ -275,3 +275,4 @@ export class Island {
       const t = this.buildTile(c);
       if (animate) {
         t.rise = 0;
+        t.target = 1;
