@@ -65,3 +65,4 @@ export class Progress extends Emitter {
     return d;
   }
 
+  reload(): void {
