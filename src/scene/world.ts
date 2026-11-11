@@ -271,3 +271,4 @@ export class World extends Emitter {
   private applyProgress(): void {
     const m = this.project;
     if (!m) return;
+    if (m.kind === 'prop') this.site?.setProgress(this.p);
