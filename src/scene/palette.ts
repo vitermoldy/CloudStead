@@ -90,3 +90,4 @@ export class LiveLook {
       this[key].copy(LiveLook.tmpA).lerp(LiveLook.tmpB, t);
     };
     c('zenith'); c('horizon'); c('glow'); c('sun'); c('hemiSky'); c('hemiGround'); c('cloudLit'); c('cloudShade'); c('fog');
+    const n = (x: number, y: number) => x + (y - x) * t;
