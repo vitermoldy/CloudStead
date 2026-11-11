@@ -238,3 +238,4 @@ export class Fx {
       const pos = this.fireflies.geometry.getAttribute('position') as BufferAttribute;
       const spread = reach / 3;
       for (let i = 0; i < pos.count; i++) {
+        const b = this.flyBase.subarray(i * 4, i * 4 + 4);
