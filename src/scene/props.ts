@@ -651,3 +651,4 @@ export class PropsLayer {
     }
   }
 
+  clear(): void {
