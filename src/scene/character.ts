@@ -11,3 +11,5 @@ export type Act =
   | 'sitIdle' | 'type' | 'rest' | 'sleep' | 'craft'
   | 'stand' | 'walk' | 'carry' | 'hammer' | 'dig' | 'water' | 'haul' | 'cheer';
 
+export type SeatAct = 'sitIdle' | 'type' | 'rest' | 'sleep' | 'craft';
+
