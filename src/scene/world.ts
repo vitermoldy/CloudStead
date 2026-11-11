@@ -538,3 +538,4 @@ export class World extends Emitter {
   private walkTo(to: Vector3, carry = false): Step[] {
     const pos = this.character.root.position;
     if (pos.distanceTo(to) < 0.05) return [];
+    const goal = this.cellOf(to);
