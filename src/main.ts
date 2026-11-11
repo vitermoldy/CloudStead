@@ -658,3 +658,4 @@ addEventListener('keydown', (e) => {
 
 // The first gesture anywhere starts the island's sound (browsers block it before that).
 addEventListener('pointerdown', () => ambient.start(), { once: true });
+addEventListener('keydown', () => ambient.start(), { once: true });
