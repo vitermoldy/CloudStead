@@ -28,3 +28,4 @@ export type WorkMode = 'work' | 'rest' | 'free';
 const PRESS_TO_PET = 0.45;
 
 /**
+ * The live island. Events: hover (Hover), greet, pet (bool), poke-prop (PropEntry), built (Milestone),
