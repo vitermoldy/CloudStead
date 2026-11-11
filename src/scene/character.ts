@@ -320,3 +320,5 @@ export class Character {
     this.screenLight = new PointLight('#a9c6ff', 0, 0.7, 1.6);
     this.screenLight.position.set(0, 0.09, 0.05);
     this.laptop.add(this.screenLight);
+    this.seat.add(this.laptop);
+
