@@ -125,3 +125,4 @@ export function makeGear(kind: Gear): Group {
     case 'books': {
       ['#8c3b2e', '#2f4b5e', '#c9a75c'].forEach((col, i) => {
         const b = m(new BoxGeometry(0.15 - i * 0.012, 0.035, 0.11), col);
+        b.position.set(0, 0.018 + i * 0.036, 0);
