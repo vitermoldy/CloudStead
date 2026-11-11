@@ -164,3 +164,4 @@ export class Fx {
           break;
         case 'leaf':
           p.vel.set((Math.random() - 0.5) * 0.6, 0.2 + Math.random() * 0.3, (Math.random() - 0.5) * 0.6);
+          p.max = 1.6; p.size = 0.05; p.grow = 0; p.gravity = 0.55;
