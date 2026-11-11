@@ -252,3 +252,4 @@ export class Character {
   private gear = new Map<Gear, Group>();
   private hitBody: Mesh;
   private hitHead: Mesh;
+  private readonly crate: Group;
