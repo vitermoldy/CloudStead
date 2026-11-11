@@ -106,3 +106,4 @@ function layout(count: number): Puff[] {
     const w = 13 + rand() * 20 + r * 0.1;
     puffs.push({ x: Math.cos(a) * r, z: Math.sin(a) * r, y: -8 - rand() * 2 + Math.min(3, r * 0.025), w, h: w * (0.5 + rand() * 0.22), seed: rand(), alpha: 1, speed: 0.25 + rand() * 0.2 });
   }
+  // A ring hugging the island's rock at mid height, as in the reference.
