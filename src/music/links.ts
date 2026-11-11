@@ -92,3 +92,4 @@ let apiPromise: Promise<YTNamespace> | null = null;
 export function loadYouTubeApi(): Promise<YTNamespace> {
   if (window.YT && window.YT.Player) return Promise.resolve(window.YT);
   if (apiPromise) return apiPromise;
+  apiPromise = new Promise((resolve, reject) => {
