@@ -80,3 +80,4 @@ export class Ambient {
     const lfoGain = ctx.createGain();
     lfo.frequency.value = 0.06;
     lfoGain.gain.value = 260;
+    lfo.connect(lfoGain).connect(lp.frequency);
