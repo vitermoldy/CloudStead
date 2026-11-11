@@ -224,3 +224,4 @@ export function createClouds(count: number): Clouds {
 
   const material = new ShaderMaterial({
     transparent: true,
+    depthWrite: false,
