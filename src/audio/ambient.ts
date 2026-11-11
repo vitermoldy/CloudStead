@@ -246,3 +246,4 @@ export class Ambient {
   }
 
   knock(work = false): void {
+    if (work) {
