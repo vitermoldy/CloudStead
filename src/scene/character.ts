@@ -839,3 +839,4 @@ export class Character {
       this.blink = 0.13;
       this.nextBlink = 2 + Math.random() * 4;
     }
+    this.blink = Math.max(0, this.blink - dt);
