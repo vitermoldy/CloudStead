@@ -398,3 +398,4 @@ function pine(): Group {
 function telescope(): Group {
   const g = new Group();
   for (let i = 0; i < 3; i++) {
+    const a = (i / 3) * Math.PI * 2;
