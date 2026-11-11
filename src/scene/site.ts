@@ -29,3 +29,5 @@ export class PropSite {
   private planks = 0;
   private parts: Object3D[] = [];
   private late: Object3D[] = [];
+  private p = -1;
+
