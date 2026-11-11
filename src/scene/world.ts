@@ -805,3 +805,4 @@ export class World extends Emitter {
     this.render();
   }
 
+  private tick(): void {
