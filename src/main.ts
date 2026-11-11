@@ -637,3 +637,4 @@ addEventListener('keydown', (e) => {
   const typing = t.closest('input, textarea, select, [contenteditable="true"]');
   if (e.key === 'Escape') {
     if (openId) {
+      openPanel(null);
