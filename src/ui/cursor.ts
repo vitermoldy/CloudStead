@@ -86,3 +86,4 @@ export class Cursor {
     const round = this.state === 'idle' || this.state === 'grab' || this.state === 'prop';
     const stretch = round && !reducedMotion() ? Math.min(0.32, speed / 4200) : 0;
     const angle = Math.atan2(this.vy, this.vx);
+    this.ring.style.transform = stretch > 0.01
