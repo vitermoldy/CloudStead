@@ -903,3 +903,4 @@ export class World extends Emitter {
       this.replan = false;
       this.think();
     }
+    this.character.update(dt, t);
