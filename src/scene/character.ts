@@ -447,3 +447,4 @@ export class Character {
       this.craftPiece?.removeFromParent();
       this.craftPiece = kind ? makeGear(kind) : null;
       this.craftKind = kind;
+      if (this.craftPiece) this.rig.add(this.craftPiece);
