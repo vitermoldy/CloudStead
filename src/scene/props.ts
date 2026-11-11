@@ -288,3 +288,4 @@ function board(): Group {
   for (const x of [-0.3, 0.3]) {
     const leg = mesh(new BoxGeometry(0.04, 0.85, 0.04), WOOD, x, 0.42, 0);
     leg.rotation.x = -0.12;
+    g.add(leg);
