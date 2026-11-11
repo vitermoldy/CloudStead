@@ -190,3 +190,4 @@ export class Fx {
         this.birds.visible = true;
       }
       return;
+    }
