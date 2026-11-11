@@ -634,3 +634,4 @@ export class World extends Emitter {
   }
 
   resetView(): void {
+    const reach = this.island.reach();
