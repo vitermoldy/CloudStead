@@ -121,3 +121,5 @@ export class Fx {
     }
     this.birds.visible = false;
     this.group.add(this.birds);
+  }
+
