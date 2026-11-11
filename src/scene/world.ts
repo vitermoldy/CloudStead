@@ -976,3 +976,4 @@ export class World extends Emitter {
           gl.readPixels(x, y, 1, 1, gl.RGBA, gl.UNSIGNED_BYTE, px);
           const lin = (v: number) => {
             const c = v / 255;
+            return c <= 0.04045 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
