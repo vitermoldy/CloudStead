@@ -16,3 +16,4 @@ export class Cursor {
   private x = -100;
   private y = -100;
   private rx = -100;
+  private ry = -100;
