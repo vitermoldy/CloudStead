@@ -52,3 +52,4 @@ export class Ambient {
     const data = this.noise.getChannelData(0);
     let last = 0;
     for (let i = 0; i < len; i++) {
+      // Brown-ish noise: softer than white, closer to wind.
