@@ -58,3 +58,4 @@ export class Cursor {
 
   set(state: CursorState, text = ''): void {
     if (!this.enabled) return;
+    this.state = state;
