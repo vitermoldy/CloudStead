@@ -244,3 +244,4 @@ export class Character {
   private laptop = new Group();
   private screen: ReturnType<typeof screenTexture>;
   private screenLight: PointLight;
+  private tools: Record<'hammer' | 'shovel' | 'can' | 'plank' | 'yarn', Group> = {
