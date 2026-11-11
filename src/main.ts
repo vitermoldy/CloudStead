@@ -113,3 +113,4 @@ async function startWorld(): Promise<void> {
     renderIsland();
   });
   greetBtn.hidden = false;
+  w.onFrame = () => {
