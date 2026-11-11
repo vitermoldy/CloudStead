@@ -181,3 +181,4 @@ export class Fx {
 
   /** A flock crossing the sky now and then, by day only. */
   private flyBirds(dt: number, night: number): void {
+    if (this.birdT < 0) {
