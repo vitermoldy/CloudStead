@@ -371,3 +371,4 @@ function windmill(): Group {
     hub.add(arm);
   }
   g.add(hub);
+  g.userData.hub = hub;
