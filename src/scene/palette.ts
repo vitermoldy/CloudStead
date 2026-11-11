@@ -73,3 +73,4 @@ export class LiveLook {
   hemiSky = new Color();
   hemiGround = new Color();
   hemiIntensity = 1;
+  cloudLit = new Color();
