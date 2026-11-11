@@ -30,3 +30,4 @@ function puffAtlas(): DataTexture {
       circles.push({ x: Math.min(0.94 - rr, Math.max(0.06 + rr, x)), y: Math.min(0.76, 0.36 + rand() * 0.28 + side * 0.32), r: rr, z: rand() * 0.1 });
     }
     const base = 0.76;
+    for (let py = 0; py < CELL; py++) {
