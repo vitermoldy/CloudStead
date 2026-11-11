@@ -229,3 +229,4 @@ function positionBubble(): void {
     bubble.classList.remove('is-on');
     return;
   }
+  if (performance.now() > bubbleUntil) {
