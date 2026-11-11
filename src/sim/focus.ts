@@ -16,3 +16,4 @@ interface Saved {
   preset: PresetId;
   phase: Phase;
   round: number;
+  running: boolean;
