@@ -111,3 +111,4 @@ type GeoMaker = BoxGeometry | CylinderGeometry | SphereGeometry | TorusGeometry;
 
 /** A gear piece as a fresh model (used both for the finished piece and for the one in the making). */
 export function makeGear(kind: Gear): Group {
+  const g = new Group();
