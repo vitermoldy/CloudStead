@@ -4,3 +4,4 @@ type Handler = (...args: any[]) => void;
 export class Emitter {
   private handlers = new Map<string, Set<Handler>>();
 
+  on(event: string, fn: Handler): () => void {
