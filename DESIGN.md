@@ -76,3 +76,4 @@ dial **ENERGY 3 / RHYTHM 1 / MOTION 3**.
 ## Checks
 
 The taste-skill gate is written for multi-section company sites. This page is one screen of app,
+so some of its structure rules do not fit. Waived, with reasons in `.taste-skill/waivers.json`:
