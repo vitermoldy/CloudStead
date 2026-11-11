@@ -218,3 +218,4 @@ export class Character {
   private stretchT = 0;
   private nextStretch = 3;
   private workT = 0;
+  petting = false;
