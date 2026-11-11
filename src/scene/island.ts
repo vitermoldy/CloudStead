@@ -358,3 +358,4 @@ export class Island {
         const outward = new Vector3(x, 0, z);
         const rim = Math.max(Math.abs(x), Math.abs(z)) > 0.4;
         const lean = rim ? 0.5 : 0.18;
+        const axis = new Vector3(outward.z, 0, -outward.x).normalize();
