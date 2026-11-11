@@ -127,3 +127,4 @@ export class Fx {
     const pool = this.pools.get(kind)!;
     let p = pool.find((q) => !q.active);
     if (!p) {
+      const sprite = new Sprite(this.mats.get(kind)!.clone());
