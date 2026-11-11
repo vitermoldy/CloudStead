@@ -75,3 +75,4 @@ export class Ambient {
     const lp = ctx.createBiquadFilter();
     lp.type = 'lowpass';
     lp.frequency.value = 520;
+    lp.Q.value = 0.6;
