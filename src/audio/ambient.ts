@@ -81,3 +81,4 @@ export class Ambient {
     lfo.frequency.value = 0.06;
     lfoGain.gain.value = 260;
     lfo.connect(lfoGain).connect(lp.frequency);
+    const swell = ctx.createOscillator();
