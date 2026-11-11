@@ -752,3 +752,4 @@ export class World extends Emitter {
   private pick(): void {
     this.hoverDirty = false;
     const prev = this.hover;
+    if (!this.pointerIn || this.dragging) {
