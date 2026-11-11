@@ -112,3 +112,4 @@ export class Fx {
 
     const wing = new LineBasicMaterial({ color: '#1c1a19', transparent: true, opacity: 0.75 });
     for (let i = 0; i < 5; i++) {
+      const g = new BufferGeometry();
