@@ -670,3 +670,5 @@ export class World extends Emitter {
     this.camera.updateProjectionMatrix();
     this.hoverDirty = true;
     if (this.paused || !this.loopOn) this.frame();
+  }
+
