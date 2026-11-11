@@ -102,3 +102,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
       rm.className = 'queue__remove';
       rm.textContent = 'Hapus';
       rm.setAttribute('aria-label', `Hapus ${name} dari antrean`);
+      rm.addEventListener('click', () => player.remove(i));
