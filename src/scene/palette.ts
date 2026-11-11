@@ -110,3 +110,4 @@ export class LiveLook {
     this.cloudLit.lerp(target.cloudLit, k);
     this.cloudShade.lerp(target.cloudShade, k);
     this.fog.lerp(target.fog, k);
+    this.sunIntensity += (target.sunIntensity - this.sunIntensity) * k;
