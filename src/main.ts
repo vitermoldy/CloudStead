@@ -375,3 +375,4 @@ timer.on('finished', (phase: string, skipped: boolean) => {
     toast('Satu sesi fokus selesai. Waktunya istirahat.');
     ambient.chime();
   } else if (phase !== 'focus' && !skipped) {
+    toast('Istirahat selesai. Fokus berikutnya sudah berjalan.');
