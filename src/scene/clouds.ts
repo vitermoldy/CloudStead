@@ -268,3 +268,4 @@ export function createClouds(count: number): Clouds {
         vDist = length(mv.xyz);
         vToward = max(dot(normalize(world - cameraPosition), normalize(uSunDir)), 0.0);
       }
+    `,
