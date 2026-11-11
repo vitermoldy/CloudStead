@@ -54,3 +54,4 @@ dial **ENERGY 3 / RHYTHM 1 / MOTION 3**.
 | Gold accent only on the meter, the active tab mark, focus rings and state | One warm note, the low sun. The primary button is cream with a black round end, as in the reference. |
 | Clouds drawn as lit billows (a union of spheres stored as normals and a distance field) | The reference's crisp cumulus, lit from wherever the sun stands, smooth at any size. |
 | Senja (golden hour) by default, with morning, midday, night and "follow the clock" | The reference's light is the first impression; the other times give long sessions a change. Night lights the lamp, the hut and the laptop screen. |
+| Sound made in the browser: wind, birds by day and crickets at night, the resident's keys, building knocks | The island's own sound under the visitor's music; it ducks when music plays and every layer has its own switch. |
