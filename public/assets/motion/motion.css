@@ -301,3 +301,4 @@ html:not([data-motion="off"]) .field :is(input, select, textarea):focus, .m-inpu
 @media (prefers-reduced-motion: reduce) {
   html:not([data-motion="off"]) .card:hover, html:not([data-motion="off"]) .card--open:hover > .panel,
   html:not([data-motion="off"]) :is(a, .card:has(a), .m-zoom):hover :is(.frame__img, .tile__media > img, img, video),
+  html:not([data-motion="off"]) .btn:is(:hover, :active), html:not([data-motion="off"]) :is(.btn--arrow, .link):hover::after,
