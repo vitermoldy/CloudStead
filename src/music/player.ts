@@ -90,3 +90,4 @@ export class MusicPlayer extends Emitter {
       }
     }
     this.persist();
+    this.emit('change');
