@@ -768,3 +768,4 @@ export class World extends Emitter {
         } else if (this.ray.ray.intersectPlane(this.ground, this.hitPoint)) {
           const cell = this.island.cellAt(this.hitPoint.x, this.hitPoint.z);
           const ghost = cell ? null : this.island.ghostAt(this.hitPoint.x, this.hitPoint.z);
+          this.hover = cell ? { kind: 'tile', cell } : ghost ? { kind: 'ghost', cell: ghost } : { kind: null };
