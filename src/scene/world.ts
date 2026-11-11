@@ -109,3 +109,4 @@ export class World extends Emitter {
     this.sun.shadow.normalBias = 0.02;
     this.sun.shadow.radius = 3;
     this.bounce.position.set(-0.5, -0.35, 0.8);
+    this.scene.add(this.sun, this.sun.target, this.hemi, this.bounce);
