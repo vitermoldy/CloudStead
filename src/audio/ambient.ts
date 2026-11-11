@@ -292,3 +292,4 @@ export class Ambient {
   }
 
   setNight(n: number): void {
+    this.night = n;
