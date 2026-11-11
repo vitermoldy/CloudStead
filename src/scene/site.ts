@@ -143,3 +143,4 @@ export class PropSite {
     const last = this.pile.children[this.pile.children.length - 1];
     if (!last || this.planks <= 1) return;
     this.pile.remove(last);
+    this.planks--;
