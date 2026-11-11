@@ -123,3 +123,4 @@ export class Progress extends Emitter {
     this.emit('change');
   }
 
+  finishSession(): void {
