@@ -73,3 +73,4 @@ export function onSaved(fn: (at: number) => void): () => void {
 
 /** The whole save as a file the visitor keeps. */
 export function exportSave(): string {
+  return JSON.stringify({ app: 'CloudStead', version: 1, exportedAt: new Date().toISOString(), data: readAll() }, null, 2);
