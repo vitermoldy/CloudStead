@@ -169,3 +169,5 @@ export class Island {
     this.grass.count = 0;
     this.grass.receiveShadow = true;
     this.grass.frustumCulled = false;
+    this.group.add(this.grass);
+
