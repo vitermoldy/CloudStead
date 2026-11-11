@@ -36,3 +36,4 @@ tetap berjalan; hanya pulaunya yang tidak tergambar.
   di panel **Pulau** dan di [src/sim/milestones.ts](src/sim/milestones.ts).
 - **Simpan dan reset.** Progres tersimpan otomatis di browser (localStorage). Tombol simpan
   (ikon disket, atau tombol S) menyimpan saat itu juga. Di panel **Pulau** ada unduh berkas
+  simpanan (JSON), muat berkas, dan reset progres (dengan konfirmasi).
