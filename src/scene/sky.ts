@@ -54,3 +54,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
         float sunAmount = max(dot(d, normalize(uSunDir)), 0.0);
         // Wide warm glow round the sun, a tighter halo, and the disc (the moon at night).
         col += uGlow * pow(sunAmount, 6.0) * 0.55;
+        col += uGlow * pow(sunAmount, 48.0) * 0.6;
