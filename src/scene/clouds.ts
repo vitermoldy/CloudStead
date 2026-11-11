@@ -25,3 +25,4 @@ function puffAtlas(): DataTexture {
       const x = 0.14 + rand() * 0.72;
       const side = Math.abs(x - 0.5);
       const r = 0.06 + rand() * 0.16 * (1 - side * 1.3);
+      const rr = Math.max(0.05, r);
