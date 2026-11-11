@@ -632,3 +632,4 @@ player.on('change', () => {
 });
 
 // ------------------------------------------------------------ keyboard
+addEventListener('keydown', (e) => {
