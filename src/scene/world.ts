@@ -490,3 +490,4 @@ export class World extends Emitter {
   private findPath(from: Cell, accept: (c: Cell) => boolean): Cell[] | null {
     const blocked = this.blockedCells();
     const free = (c: Cell) => this.island.has(c) && !blocked.has(cellKey(c));
+    const prev = new Map<string, string | null>([[cellKey(from), null]]);
