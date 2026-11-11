@@ -304,3 +304,4 @@ function board(): Group {
 function pondShape(): Shape {
   const s = new Shape();
   const rand = rng(31);
+  const n = 14;
