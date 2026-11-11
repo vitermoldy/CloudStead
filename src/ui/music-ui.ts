@@ -62,3 +62,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
     const has = player.queue.length > 0;
     empty.hidden = has;
     now.hidden = !has;
+    volume.value = String(player.volume);
