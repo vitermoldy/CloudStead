@@ -171,3 +171,4 @@ function counts() {
         return true;
       },
       /** print: stop waiting and show the written number */
+      show() { if (state === 'done') return; state = 'done'; stop(); span.textContent = p.raw; },
