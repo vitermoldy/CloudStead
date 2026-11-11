@@ -404,3 +404,4 @@ export class Island {
       // Follow the work smoothly; a cell on the rope sways a little.
       t.rise += (t.target - t.rise) * Math.min(1, dt * 1.6);
       if (t.target >= 1 && t.rise > 0.995) t.rise = 1;
+      const e = 1 - Math.pow(1 - t.rise, 2);
