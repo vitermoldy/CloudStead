@@ -751,3 +751,4 @@ export class World extends Emitter {
 
   private pick(): void {
     this.hoverDirty = false;
+    const prev = this.hover;
