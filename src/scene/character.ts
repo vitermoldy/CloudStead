@@ -452,3 +452,4 @@ export class Character {
     if (this.craftPiece) this.craftPiece.userData.p = p;
   }
 
+  /** Headphones go on the ears with the music and rest round the neck without it. */
