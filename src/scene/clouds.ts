@@ -278,3 +278,4 @@ export function createClouds(count: number): Clouds {
       varying float vAlpha;
       varying float vSeed;
       varying float vVariant;
+      varying vec3 vSunView;
