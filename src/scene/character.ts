@@ -571,3 +571,4 @@ export class Character {
             step.onBeat(n);
           }
         }
+        if (this.stepT >= step.seconds) this.next();
