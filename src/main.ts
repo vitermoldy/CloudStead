@@ -670,3 +670,4 @@ if (previewMinutes !== null) {
   $('peek-link').closest('p')!.hidden = true;
 }
 
+// ------------------------------------------------------------ the loop
