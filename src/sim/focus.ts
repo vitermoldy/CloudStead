@@ -52,3 +52,4 @@ export class FocusTimer extends Emitter {
   /** Called once the island exists: a block that ran while the page was closed is credited up to its end. */
   resume(): void {
     if (!this.running) return;
+    if (this.phase === 'focus') this.credit(Math.min(Date.now(), this.endAt));
