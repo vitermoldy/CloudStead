@@ -139,3 +139,4 @@ export class PropSite {
   }
 
   /** Takes a plank from the pile as the work goes on. */
+  use(): void {
