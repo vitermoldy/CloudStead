@@ -227,3 +227,4 @@ html:not([data-motion="off"]) .field :is(input, select, textarea):focus, .m-inpu
   opacity: 0; transform: rotate(-45deg) scale(.7); transform-origin: 50% 50%;
   transition: transform 160ms var(--m-ease), opacity 100ms var(--m-ease);
 }
+.m-check:hover:not(:checked) { border-color: color-mix(in oklab, var(--ink) 64%, var(--bg)); }
