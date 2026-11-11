@@ -31,3 +31,4 @@
   --gutter: clamp(16px, 4.5vw, 96px);
   --ease: cubic-bezier(.2, .8, .2, 1);
 
+  color-scheme: dark;
