@@ -506,3 +506,4 @@ function downloadSave(): void {
     return;
   }
   progress.persist(true);
+  const blob = new Blob([exportSave()], { type: 'application/json' });
