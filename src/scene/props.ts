@@ -269,3 +269,4 @@ function boardTexture(): { tex: CanvasTexture; draw: (today: number, total: numb
   };
   const draw = (today: number, total: number) => {
     ctx.fillStyle = '#26302a';
+    ctx.fillRect(0, 0, 256, 160);
