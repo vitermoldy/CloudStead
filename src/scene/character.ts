@@ -623,3 +623,4 @@ export class Character {
     const breathe = Math.sin(time * 1.7) * 0.004;
     this.workT += dt;
     const digC = (this.workT % 1.3) / 1.3;
+    const dip = act === 'dig' ? Math.max(0, Math.sin(digC * Math.PI * 2)) * 0.05 : 0;
