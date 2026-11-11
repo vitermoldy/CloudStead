@@ -558,3 +558,4 @@ export class World extends Emitter {
 
   /** The rope from the resident's hands down to the cell being hauled, with a little sag. */
   private updateRope(): void {
+    if (!this.rope.visible || !this.ropeCell) return;
