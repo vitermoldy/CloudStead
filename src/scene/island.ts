@@ -272,3 +272,4 @@ export class Island {
     for (const c of cells) {
       const key = cellKey(c);
       if (this.tiles.has(key)) continue;
+      const t = this.buildTile(c);
