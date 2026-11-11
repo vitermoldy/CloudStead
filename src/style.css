@@ -366,3 +366,4 @@ html.has-cursor .cursor.is-on { opacity: 1; }
 .cursor[data-label="true"] .cursor__label { opacity: 1; }
 .cursor[data-state="char"] .cursor__ring { width: 66px; height: 66px; margin: -33px 0 0 -33px; border-color: var(--accent); background: rgba(240, 160, 75, .16); }
 .cursor[data-state="char"] .cursor__label { transform: translate(38px, 24px); }
+.cursor[data-state="pet"] .cursor__ring { width: 54px; height: 54px; margin: -27px 0 0 -27px; border-color: var(--accent); background: rgba(240, 160, 75, .28); }
