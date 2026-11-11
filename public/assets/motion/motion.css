@@ -255,3 +255,4 @@ html:not([data-motion="off"]) .field :is(input, select, textarea):focus, .m-inpu
 [data-m-loop].is-m-off *, [data-m-loop].is-m-paused * { animation-play-state: paused !important; }
 
 /* ---------------------------------------------------------------- the hero's entrance */
+/* Once on load the hero enters (motion.js enter(), motion.md): the h1 line by line out of word masks,
