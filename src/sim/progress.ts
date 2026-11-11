@@ -18,3 +18,4 @@ export const DEFAULT_NAME = 'VMK';
 const OLD_DEFAULT = 'Bayu';
 
 const today = (): string => {
+  const d = new Date();
