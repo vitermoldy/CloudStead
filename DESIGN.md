@@ -18,3 +18,4 @@ screen with music on, in a cinematic golden-hour diorama style taken from the ow
 dial **ENERGY 3 / RHYTHM 1 / MOTION 3**.
 
 - ENERGY 3: a full-bleed live scene and giant numerals, as in the reference.
+- RHYTHM 1: one screen; every panel uses the same template, so the island is what changes.
