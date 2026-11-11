@@ -128,3 +128,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 
 /* ---------------------------------------------------------------- the heads-up layer */
 .hud {
+  position: relative; z-index: 3; width: 100%; pointer-events: none;
