@@ -130,3 +130,4 @@ function counts() {
   els.forEach(el => {
     const walk = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
     let node, p;
+    while ((node = walk.nextNode()) && !(p = parse(node.data))) { /* next */ }
