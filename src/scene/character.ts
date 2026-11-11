@@ -243,3 +243,4 @@ export class Character {
   private shoes: Mesh[] = [];
   private laptop = new Group();
   private screen: ReturnType<typeof screenTexture>;
+  private screenLight: PointLight;
