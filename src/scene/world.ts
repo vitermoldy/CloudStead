@@ -18,3 +18,4 @@ export type TimeMode = TimeId | 'auto';
 
 export interface Hover {
   kind: 'char' | 'prop' | 'tile' | 'ghost' | null;
+  part?: 'head' | 'body';
