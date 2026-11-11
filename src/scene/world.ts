@@ -148,3 +148,4 @@ export class World extends Emitter {
       this.replan = true;
     };
 
+    this.island.onLanded = (cell) => {
