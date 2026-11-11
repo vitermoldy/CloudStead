@@ -88,3 +88,4 @@ export function formatMinutes(min: number): string {
   const h = Math.floor(m / 60);
   const r = m % 60;
   if (h === 0) return `${r} m`;
+  return r === 0 ? `${h} j` : `${h} j ${r} m`;
