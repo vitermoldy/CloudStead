@@ -236,3 +236,4 @@ export class Character {
   private mouth: Mesh;
   private blush: Mesh[] = [];
   private upper: Mesh[] = [];
+  private fore: Mesh[] = [];
