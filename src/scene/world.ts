@@ -367,3 +367,4 @@ export class World extends Emitter {
         steps.push(...this.goHome());
       }
       steps.push({ kind: 'sit', act: 'craft', seconds: 9 });
+      c.run(steps);
