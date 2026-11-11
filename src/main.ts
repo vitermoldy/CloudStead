@@ -111,3 +111,4 @@ async function startWorld(): Promise<void> {
     ambient.chime();
     renderHud(true);
     renderIsland();
+  });
