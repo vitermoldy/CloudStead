@@ -280,3 +280,4 @@ const ENTER_MEDIA = '[data-enter-media], .hero__bg, .hero__media, .hero__stage, 
 const ENTER_TEXT = 'h1 ~ *, :has(> h1) ~ *, :has(~ h1)';
 const ENTER_LEAF = 'p, dl, ul, ol, a, button, img, picture, video, figure, blockquote, h2, h3, .pill, .btn';
 function maskWords(h1) {
+  // an h1 another script reworks (layout.js: a live word, letters, a picture in the line) rises whole
