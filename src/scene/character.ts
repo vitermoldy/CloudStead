@@ -880,3 +880,4 @@ export class Character {
         }
       }
     }
+    if (this.stretchT > 0) this.stretchT -= dt;
