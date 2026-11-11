@@ -684,3 +684,4 @@ export class PropsLayer {
   }
 
   update(dt: number, ctx: PropContext): void {
+    for (const e of this.entries) {
