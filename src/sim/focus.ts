@@ -190,3 +190,4 @@ export class FocusTimer extends Emitter {
 /** "24:59" */
 export function clockText(ms: number): string {
   const total = Math.ceil(ms / 1000);
+  const m = Math.floor(total / 60);
