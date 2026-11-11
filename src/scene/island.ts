@@ -326,3 +326,4 @@ export class Island {
     this.bare.clear();
   }
 
+  private layGrass(): void {
