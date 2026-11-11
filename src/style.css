@@ -191,3 +191,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
   backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
   opacity: 0; visibility: hidden; transform: translate(-50%, 6px);
   transition: opacity 120ms var(--ease), transform 120ms var(--ease), visibility 0s linear 120ms;
+  scrollbar-width: thin; scrollbar-color: rgba(231, 228, 209, .25) transparent;
