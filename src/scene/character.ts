@@ -959,3 +959,4 @@ export class Character {
     this.stepT = 0;
     this.root.position.copy(this.home);
     this.heading = 0;
+    this.sit = 1;
