@@ -228,3 +228,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 .music-empty p { margin: 16px 0 10px; font-size: 15px; color: var(--muted); }
 .music-empty__picks { display: flex; flex-wrap: wrap; gap: 8px; }
 .now { margin-top: 16px; }
+.player { position: relative; aspect-ratio: 16 / 9; border-radius: var(--r-md); overflow: hidden; background: #000; }
