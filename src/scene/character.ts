@@ -26,3 +26,4 @@ const UP = new Vector3(0, 1, 0);
 const L_UPPER = 0.12, L_FORE = 0.11, L_THIGH = 0.14, L_SHIN = 0.135, L_TORSO = 0.17;
 const WALK_SPEED = 0.62;
 
+const SKIN = new MeshStandardMaterial({ color: '#d6a27c', roughness: 0.7 });
