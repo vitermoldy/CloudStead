@@ -7,3 +7,5 @@
   is the number tick in a headless shot (motion.js).
   references/motion.md says what moves and how fast. Everything here answers the pointer, the
   keyboard or a number coming into view once, plus the hero's one entrance on load (the end of this
+  file); nothing moves because the page scrolled (that is a dealt moment's job, assets/moments).
+
