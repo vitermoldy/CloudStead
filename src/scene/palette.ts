@@ -8,3 +8,4 @@ export interface Look {
   horizon: string;
   glow: string;
   sun: string;
+  sunIntensity: number;
