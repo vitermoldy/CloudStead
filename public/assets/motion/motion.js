@@ -386,3 +386,5 @@ function enter() {
     Promise.all(anims.map(a => a.finished)).then(finish, finish);
   }).catch(finish);
   setTimeout(finish, 2400);   // whatever stalls (a hidden tab), the hero stands after 2.4 s
+}
+
