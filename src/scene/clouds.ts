@@ -203,3 +203,4 @@ function cloudFloor(): { mesh: Mesh; material: ShaderMaterial } {
 
 export interface Clouds {
   mesh: Group;
+  update(look: LiveLook, camera: Camera, time: number, moving: boolean): void;
