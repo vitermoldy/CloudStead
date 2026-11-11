@@ -164,3 +164,4 @@ export class Island {
           gl_Position = projectionMatrix * mvPosition;
         `);
     };
+    this.grass = new InstancedMesh(bladeGeometry(), bladeMat, BLADES_PER_TILE * MAX_TILES);
