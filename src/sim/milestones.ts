@@ -95,3 +95,4 @@ export function formatMinutes(min: number): string {
 export function formatMinutesLong(min: number): string {
   const m = Math.max(0, Math.ceil(min));
   const h = Math.floor(m / 60);
+  const r = m % 60;
