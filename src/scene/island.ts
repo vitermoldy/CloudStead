@@ -392,3 +392,4 @@ export class Island {
   }
 
   get rising(): boolean {
+    for (const t of this.tiles.values()) if (!t.landed && t.target > t.rise + 0.01) return true;
