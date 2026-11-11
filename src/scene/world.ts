@@ -674,3 +674,4 @@ export class World extends Emitter {
 
   // ------------------------------------------------------------ pointer
   private bindPointer(): void {
+    const c = this.canvas;
