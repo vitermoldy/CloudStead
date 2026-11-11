@@ -301,3 +301,4 @@ function renderHud(force = false): void {
       d.textContent = text[i] ?? '0';
     });
   }
+  bigEl.classList.toggle('is-paused', timer.active && !timer.running);
