@@ -435,3 +435,4 @@ function renderIsland(): void {
   const next = progress.next();
   const list = $('build-list');
   list.replaceChildren(...MILESTONES.map((m) => {
+    const li = document.createElement('li');
