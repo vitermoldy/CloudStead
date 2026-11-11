@@ -428,3 +428,4 @@ function balloon(): Group {
   const cols: number[] = [];
   const cream = new Color('#ece2c6'), warm = new Color('#d9733a');
   const pos = env.getAttribute('position');
+  for (let i = 0; i < pos.count; i++) {
