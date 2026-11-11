@@ -114,3 +114,4 @@ function tree(): Group {
 }
 
 function garden(): Group {
+  const g = new Group();
