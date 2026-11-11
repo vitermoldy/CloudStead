@@ -621,3 +621,4 @@ function setScenePaused(on: boolean, remember = true): void {
   $('scene-pause').title = on ? 'Lanjutkan pemandangan (P)' : 'Jeda pemandangan (P)';
   $('scene-pause-2').textContent = on ? 'Lanjutkan pemandangan' : 'Jeda pemandangan';
 }
+$('scene-pause').addEventListener('click', () => setScenePaused(!(world?.isPaused ?? false)));
