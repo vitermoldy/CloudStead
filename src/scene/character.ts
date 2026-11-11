@@ -680,3 +680,5 @@ export class Character {
       span(this.shins[i], knee, foot);
       this.shoes[i].position.copy(foot).add(new Vector3(0, -0.005, 0.02));
       this.shoes[i].rotation.y = this.sit * -s * 1.2;
+    }
+
