@@ -930,3 +930,4 @@ export class World extends Emitter {
 
     this.island.update(dt, t);
     this.props.update(dt, this.context);
+    this.fx.update(dt, t, L.night, reach);
