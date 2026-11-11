@@ -267,3 +267,4 @@ document.addEventListener('click', e => {
   sw.setAttribute('aria-checked', String(sw.getAttribute('aria-checked') !== 'true'));
 });
 
+/* ---------------------------------------------------------------- the hero's entrance */
