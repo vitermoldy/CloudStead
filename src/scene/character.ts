@@ -777,3 +777,4 @@ export class Character {
     const local = this.root.worldToLocal(target.clone()).sub(headPos);
     const lookYaw = clamp(Math.atan2(local.x, local.z), -1.15, 1.15);
     const lookPitch = clamp(-Math.atan2(local.y, Math.hypot(local.x, local.z)), -0.55, 0.7);
+    switch (act) {
