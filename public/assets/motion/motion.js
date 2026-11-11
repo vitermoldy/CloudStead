@@ -126,3 +126,4 @@ function counts() {
   if (!els.length || reduced() || shot()) return;
   const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) e.target.__mCount?.hit(); }), { threshold: 0.6 });
   const ro = new ResizeObserver(es => es.forEach(e => e.target.__mCount?.arm()));
+  const items = [];
