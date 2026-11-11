@@ -201,3 +201,4 @@ export class Character {
   private sit = 1;
   private hipY = 0.09;
   private spine = new Vector3(0, 1, 0.1).normalize();
+  private hands = [new Vector3(0.1, 0.2, 0.12), new Vector3(-0.1, 0.2, 0.12)];
