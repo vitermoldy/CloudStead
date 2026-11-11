@@ -242,3 +242,4 @@ export class Fx {
         const t = time * 0.35 + b[3];
         pos.setXYZ(i, b[0] * spread + Math.sin(t * 1.3) * 0.3, b[1] + Math.sin(t * 2.1) * 0.12, b[2] * spread + Math.cos(t * 0.9) * 0.3);
       }
+      pos.needsUpdate = true;
