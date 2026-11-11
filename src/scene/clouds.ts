@@ -53,3 +53,4 @@ function puffAtlas(): DataTexture {
           let sx = 0, sy = 0, sz = 0, ws = 0;
           for (const c of circles) {
             const dx = x - c.x, dy = y - c.y;
+            const d2 = dx * dx + dy * dy;
