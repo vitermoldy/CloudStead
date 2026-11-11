@@ -161,3 +161,4 @@ function hut(): Group {
     const s = new Shape();
     s.moveTo(-0.4, 0);
     s.lineTo(0.4, 0);
+    s.lineTo(0, 0.92);
