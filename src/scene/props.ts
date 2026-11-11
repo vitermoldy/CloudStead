@@ -473,3 +473,4 @@ function waterfall(): Group {
         gl_Position = projectionMatrix * modelViewMatrix * vec4(p, 1.0);
       }
     `,
+    fragmentShader: /* glsl */ `
