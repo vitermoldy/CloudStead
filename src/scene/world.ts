@@ -360,3 +360,4 @@ export class World extends Emitter {
       // Making it by hand at the seat, up every other round for more material from the crate.
       const steps: Step[] = [];
       if (this.loopN % 2 === 0) {
+        steps.push(...this.walkTo(this.home.clone().add(new Vector3(0.12, 0, -0.1))));
