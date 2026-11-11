@@ -62,3 +62,4 @@ export class PropSite {
       const mesh = o as Mesh;
       if (!mesh.material) return;
       if (mode === 'rise') {
+        const mat = (mesh.material as Material).clone();
