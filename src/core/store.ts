@@ -82,3 +82,4 @@ export class SaveFileError extends Error {}
 export function parseSaveFile(text: string): Bag {
   let parsed: unknown;
   try {
+    parsed = JSON.parse(text);
