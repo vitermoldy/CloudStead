@@ -913,3 +913,4 @@ export class World extends Emitter {
         this.fx.spawn('note', this.character.headWorld().add(new Vector3(0.12, 0.08, 0)));
       }
     }
+    if (this.character.act === 'sleep') {
