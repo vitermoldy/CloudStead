@@ -79,3 +79,4 @@ html:not([data-motion="off"]) a.pill { transition: background-color var(--m-out)
 html:not([data-motion="off"]) a.pill:hover { background: color-mix(in oklab, var(--card) 90%, var(--ink)); border-color: var(--line-strong); transition-duration: var(--m-in); }
 
 /* ---------------------------------------------------------------- links: an underline that draws */
+/* .link and links in running text: a rest line, and the ink line draws left to right on hover and
