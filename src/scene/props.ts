@@ -229,3 +229,4 @@ function pole(): Group {
   g.add(far);
   const wire = new LineBasicMaterial({ color: '#1d1b19', transparent: true, opacity: 0.85 });
   for (const x of [-0.26, 0, 0.26]) {
+    const a = new Vector3(x, 2.21, 0);
