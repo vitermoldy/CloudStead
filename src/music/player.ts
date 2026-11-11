@@ -27,3 +27,4 @@ export class MusicPlayer extends Emitter {
   apiError = '';
   private player: YTPlayer | null = null;
   private ready = false;
+  private creating: Promise<boolean> | null = null;
