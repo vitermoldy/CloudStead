@@ -33,3 +33,4 @@
 /* ---------------------------------------------------------------- buttons */
 html:not([data-motion="off"]) .btn {
   position: relative;
+  transition: background-color var(--m-out) var(--m-ease), color var(--m-out) var(--m-ease),
