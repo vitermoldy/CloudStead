@@ -329,3 +329,4 @@ export class World extends Emitter {
     this.updateGhosts(reached);
     if (instant) {
       this.frame();
+      this.replan = true;
