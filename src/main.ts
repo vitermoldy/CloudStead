@@ -674,3 +674,4 @@ if (previewMinutes !== null) {
 timer.resume();
 renderHud(true);
 renderIsland();
+setInterval(() => {
