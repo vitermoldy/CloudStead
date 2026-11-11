@@ -43,3 +43,4 @@ export const START_PROPS: { at: Cell; prop: PropKind }[] = [{ at: [-1, -1], prop
 export const MILESTONES: Milestone[] = [
   { id: 'bunga', minutes: 5, title: 'Bunga liar', done: 'Bunga liar mulai tumbuh di sela rumput.', doing: 'menanam bunga liar', work: 'plant', kind: 'prop', prop: 'flowers', at: [1, 1] },
   { id: 'petak-1', minutes: 15, title: 'Dua petak baru', done: 'Dua petak baru sudah ditarik naik dari awan.', doing: 'menarik dua petak baru dari awan', work: 'haul', kind: 'tiles', tiles: [[-2, 0], [2, 0]] },
+  { id: 'bantal', minutes: 25, title: 'Bantal duduk', done: 'Sekarang ada bantal untuk duduk lama.', doing: 'menjahit bantal duduk', work: 'craft', kind: 'gear', gear: 'cushion' },
