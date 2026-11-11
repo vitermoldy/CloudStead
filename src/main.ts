@@ -276,3 +276,4 @@ function storyLine(): string {
   const c = world?.character;
   const next = progress.next();
   if (c?.act === 'cheer') return `${n} selesai. Lihat hasilnya.`;
+  if (c?.act === 'sleep') return `${n} tertidur. Klik dia untuk membangunkan.`;
