@@ -112,3 +112,4 @@ html:not([data-motion="off"]) .footer ul a:hover { color: var(--ink); }
      (motion.js .m-menu-open) */
   html:not([data-motion="off"]) .nav__menu {
     transform: translateY(-6px);
+    transition: opacity var(--m-close) var(--m-ease), transform var(--m-close) var(--m-ease), visibility 0s linear var(--m-close);
