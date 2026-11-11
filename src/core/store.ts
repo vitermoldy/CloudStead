@@ -7,3 +7,4 @@ type Bag = Record<string, unknown>;
 
 let cache: Bag | null = null;
 let readOnly = false;
+let timer = 0;
