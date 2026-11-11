@@ -32,3 +32,4 @@ export class PropSite {
   private p = -1;
 
   constructor(kind: PropKind, cell: Cell, pileAt: Vector3 | null) {
+    this.kind = kind;
