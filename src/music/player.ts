@@ -58,3 +58,4 @@ export class MusicPlayer extends Emitter {
       throw new LinkError(this.current === dup ? 'Tautan itu sedang diputar.' : 'Tautan itu sudah ada di antrean.');
     }
     const item: QueueItem = { id: newId(), ...parsed, title: '', author: '', thumb: '', status: 'ready', error: '' };
+    this.queue.push(item);
