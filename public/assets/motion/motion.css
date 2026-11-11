@@ -19,3 +19,4 @@
   --m-out: 120ms;                             /* hover out */
   --m-press: 90ms;                            /* a press */
   --m-panel: 200ms;                           /* a menu or sheet opening */
+  --m-close: 120ms;                           /* a menu closing */
