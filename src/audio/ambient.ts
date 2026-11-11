@@ -61,3 +61,4 @@ export class Ambient {
     this.keyGain = ctx.createGain();
     this.fxGain = ctx.createGain();
     for (const g of [this.windGain, this.lifeGain, this.keyGain, this.fxGain]) g.connect(this.master);
+    this.startWind();
