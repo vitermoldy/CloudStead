@@ -517,3 +517,5 @@ export class World extends Emitter {
       k = prev.get(k) ?? null;
     }
     return cells;
+  }
+
