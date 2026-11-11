@@ -13,3 +13,4 @@ export interface ParsedLink {
   url: string;
 }
 
+/** Throws LinkError with a sentence the visitor can act on. */
