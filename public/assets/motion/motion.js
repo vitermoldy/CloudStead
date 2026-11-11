@@ -324,3 +324,4 @@ function enterSteps(hero, h1, media) {
     if (own || !el.children.length || el.matches(ENTER_LEAF)) out.push(el);
     else [...el.children].forEach(take);
   };
+  hero.querySelectorAll(ENTER_TEXT).forEach(take);
