@@ -101,3 +101,5 @@ export function parseSaveFile(text: string): Bag {
 export function replaceAll(data: Bag): void {
   cache = { ...data };
   saveNow();
+}
+
