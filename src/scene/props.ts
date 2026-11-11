@@ -78,3 +78,4 @@ function flowers(): Group {
   for (let i = 0; i < 16; i++) {
     const a = rand() * Math.PI * 2;
     const r = 0.22 + rand() * 0.22;
+    const h = 0.08 + rand() * 0.1;
