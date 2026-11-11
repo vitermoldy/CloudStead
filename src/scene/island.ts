@@ -261,3 +261,4 @@ export class Island {
   /** Brings the island to exactly these cells, all in place (a load, a reset, a preview). */
   setTiles(cells: Cell[], animate = false): Cell[] {
     const want = new Set(cells.map(cellKey));
+    for (const [key, t] of this.tiles) {
