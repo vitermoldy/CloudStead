@@ -324,3 +324,5 @@ export class Island {
 
   clearBare(): void {
     this.bare.clear();
+  }
+
