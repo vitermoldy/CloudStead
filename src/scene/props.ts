@@ -80,3 +80,4 @@ function flowers(): Group {
     const r = 0.22 + rand() * 0.22;
     const h = 0.08 + rand() * 0.1;
     const s = mesh(stem, LEAF, Math.cos(a) * r, h / 2, Math.sin(a) * r, false);
+    s.scale.y = h;
