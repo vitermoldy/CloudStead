@@ -11,3 +11,5 @@ export interface ProgressData {
   reachedAt: Record<string, string>;
   startedAt: string;
   name: string;
+}
+
