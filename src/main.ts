@@ -263,3 +263,4 @@ const digits = [...bigEl.querySelectorAll<HTMLElement>('.big__d')];
 let lastDigits = '';
 let lastMinuteSr = -1;
 
+function phaseLine(): string {
