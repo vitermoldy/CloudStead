@@ -170,3 +170,5 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 .btn--danger { background: transparent; color: var(--danger); border-color: rgba(242, 155, 128, 0.5); }
 .btn--danger:hover { border-color: var(--danger); background: rgba(242, 155, 128, 0.08); }
 .btn--sm { min-height: 44px; padding: 0 16px; font-size: 14px; }
+.btn:active { transform: translateY(1px) scale(.985); }
+
