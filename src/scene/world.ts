@@ -588,3 +588,5 @@ export class World extends Emitter {
       this.target.set(LOOKS[this.timeMode]);
     }
     if (jump && (this.instant || this.paused)) this.look.approach(this.target, 1);
+  }
+
