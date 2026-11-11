@@ -140,3 +140,4 @@ export class Fx {
 
   spawn(kind: FxKind, at: Vector3, count = 1): void {
     for (let i = 0; i < count; i++) {
+      const p = this.take(kind);
