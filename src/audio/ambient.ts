@@ -320,3 +320,4 @@ export class Ambient {
     this.windGain!.gain.setTargetAtTime(s.wind ? 0.5 : 0, t, 0.2);
     this.lifeGain!.gain.setTargetAtTime(s.life ? 0.8 : 0, t, 0.2);
     this.keyGain!.gain.setTargetAtTime(s.keys ? 0.3 : 0, t, 0.1);
+    this.fxGain!.gain.setTargetAtTime(s.effects ? 1 : 0, t, 0.05);
