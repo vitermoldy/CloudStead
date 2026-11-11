@@ -93,3 +93,4 @@ async function startWorld(): Promise<void> {
   w.on('hover', (h: Hover & { dragging?: boolean }, petting: boolean) => onHover(h, petting));
   w.on('greet', onGreet);
   w.on('pet', (on: boolean) => {
+    if (on) {
