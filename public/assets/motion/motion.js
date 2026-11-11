@@ -175,3 +175,4 @@ function counts() {
       /** first seen: measure again (a font or a tab that changed since), then tick once */
       hit() {
         if (state === 'run' || state === 'done' || !ctl.arm()) return;
+        state = 'run';
