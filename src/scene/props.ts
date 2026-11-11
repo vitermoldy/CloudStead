@@ -214,3 +214,4 @@ function pole(): Group {
     parent.add(mesh(new BoxGeometry(0.62, 0.04, 0.05), WOOD_DARK, 0, h - 0.14, 0));
     for (const x of [-0.26, 0, 0.26]) parent.add(mesh(new CylinderGeometry(0.018, 0.018, 0.07, 5), std('#9aa3a1'), x, h - 0.09, 0, false));
   };
+  build(g, 2.3);
