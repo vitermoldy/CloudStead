@@ -338,3 +338,4 @@ export class Island {
       const key = cellKey(t.cell);
       const dirt = DIRT.has(key);
       const bare = this.bare.get(key);
+      if (bare === 'none') continue;
