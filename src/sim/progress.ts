@@ -92,3 +92,5 @@ export class Progress extends Emitter {
 
   next(): Milestone | null {
     return MILESTONES.find((m) => !this.isReached(m)) ?? null;
+  }
+
