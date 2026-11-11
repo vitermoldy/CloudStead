@@ -220,3 +220,4 @@ export class MusicPlayer extends Emitter {
         this.player.previousVideo();
         return;
       }
+    }
