@@ -145,3 +145,4 @@ function counts() {
     const ms = +el.dataset.mCount || 1200;
     let state = 'wait', timer = 0;          // wait (own text) -> armed (0, width held) -> run -> done
     const stop = () => { clearTimeout(timer); io.unobserve(el); ro.unobserve(el); };
+    const onScreen = () => {
