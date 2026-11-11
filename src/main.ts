@@ -335,3 +335,4 @@ function renderHud(force = false): void {
   const go = $('focus-toggle');
   go.classList.toggle('is-running', timer.running);
   const label = timer.running
+    ? (timer.phase === 'focus' ? 'Jeda fokus' : 'Jeda istirahat')
