@@ -246,3 +246,4 @@ export class MusicPlayer extends Emitter {
     if (this.ready && this.player) this.player.stopVideo();
   }
 
+  private onState(s: number): void {
