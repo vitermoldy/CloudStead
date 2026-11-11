@@ -368,3 +368,4 @@ export class Character {
     t.shovel.add(shaft, spade);
 
     const can = new Mesh(new CylinderGeometry(0.035, 0.04, 0.07, 10), new MeshStandardMaterial({ color: '#6f8f86', roughness: 0.5, metalness: 0.3 }));
+    can.position.set(0, -0.04, 0.03);
