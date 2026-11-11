@@ -86,3 +86,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
   border-radius: var(--r-md); background: var(--plate); text-align: center; pointer-events: auto;
 }
 
+/* ---------------------------------------------------------------- the black tab, hanging from the top */
