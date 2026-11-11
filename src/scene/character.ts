@@ -960,3 +960,4 @@ export class Character {
     this.root.position.copy(this.home);
     this.heading = 0;
     this.sit = 1;
+    this.act = 'sitIdle';
