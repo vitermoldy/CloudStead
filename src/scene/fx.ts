@@ -221,3 +221,4 @@ export class Fx {
           p.active = false;
           p.sprite.visible = false;
           continue;
+        }
