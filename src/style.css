@@ -244,3 +244,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 .round--main { background: var(--ink); color: var(--bg); border-color: var(--ink); }
 .round--main:hover { background: color-mix(in oklab, var(--ink) 86%, var(--bg)); }
 .round .i-pause, .round.is-playing .i-play { display: none; }
+.round.is-playing .i-pause { display: block; }
