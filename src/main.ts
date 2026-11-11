@@ -259,3 +259,4 @@ nameTag();
 
 // ------------------------------------------------------------ the heads-up display
 const bigEl = $('big');
+const digits = [...bigEl.querySelectorAll<HTMLElement>('.big__d')];
