@@ -433,3 +433,4 @@ export class Character {
     return g;
   }
 
+  hasGear(kind: Gear): boolean {
