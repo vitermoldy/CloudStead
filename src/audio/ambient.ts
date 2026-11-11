@@ -173,3 +173,4 @@ export class Ambient {
     bp.frequency.value = 1800 + Math.random() * 1500;
     bp.Q.value = 3;
     const g = ctx.createGain();
+    g.gain.setValueAtTime(0.0001, t);
