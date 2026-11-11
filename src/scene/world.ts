@@ -331,3 +331,4 @@ export class World extends Emitter {
       this.frame();
       this.replan = true;
       return;
+    }
