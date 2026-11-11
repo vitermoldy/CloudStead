@@ -284,3 +284,4 @@ export class MusicPlayer extends Emitter {
     const item = this.item;
     if (item) {
       item.status = 'error';
+      item.error = ERROR_TEXT[code] || 'Video ini tidak bisa diputar di sini.';
