@@ -354,3 +354,5 @@ for (const input of document.querySelectorAll<HTMLInputElement>('#preset-group i
   input.addEventListener('change', () => {
     if (input.checked) timer.setPreset(input.value as PresetId);
   });
+}
+
