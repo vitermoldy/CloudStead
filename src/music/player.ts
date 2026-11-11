@@ -218,3 +218,4 @@ export class MusicPlayer extends Emitter {
       const at = this.player.getPlaylistIndex?.() ?? -1;
       if (at > 0) {
         this.player.previousVideo();
+        return;
