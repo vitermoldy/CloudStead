@@ -683,3 +683,4 @@ export class World extends Emitter {
       toNdc(e);
       this.pointerIn = true;
       this.hoverDirty = true;
+      this.nudge();
