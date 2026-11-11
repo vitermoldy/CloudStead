@@ -42,3 +42,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
     if (error.textContent) showError('');
   });
 
+  for (const s of SUGGESTIONS) {
