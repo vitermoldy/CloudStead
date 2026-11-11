@@ -409,3 +409,4 @@ export class Island {
       t.group.position.y = -11 * (1 - e);
       t.group.rotation.z = Math.sin(time * 1.3 + t.cell[0]) * 0.05 * sway;
       t.group.rotation.x = Math.cos(time * 1.1 + t.cell[1]) * 0.04 * sway;
+      if (t.rise >= 1) {
