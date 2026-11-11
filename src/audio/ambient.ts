@@ -194,3 +194,4 @@ export class Ambient {
     g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
     o.connect(g).connect(this.fxGain!);
     o.start(t);
+    o.stop(t + dur + 0.02);
