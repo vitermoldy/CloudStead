@@ -239,3 +239,4 @@ export class World extends Emitter {
     return this.project;
   }
 
+  private startProject(m: Milestone | null): void {
