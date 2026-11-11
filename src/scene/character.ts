@@ -267,3 +267,4 @@ export class Character {
     const hair = new Mesh(new SphereGeometry(0.091, 18, 14, 0, Math.PI * 2, 0, Math.PI * 0.56), HAIR);
     hair.rotation.x = -0.35;
     hair.position.set(0, 0.012, -0.008);
+    const fringe = new Mesh(new BoxGeometry(0.12, 0.03, 0.04), HAIR);
