@@ -667,3 +667,4 @@ export class World extends Emitter {
       const dir = this.camera.position.clone().sub(this.controls.target).normalize();
       this.camera.position.copy(this.controls.target).addScaledVector(dir, this.dist);
     }
+    this.camera.updateProjectionMatrix();
