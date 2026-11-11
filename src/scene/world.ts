@@ -505,3 +505,4 @@ export class World extends Emitter {
           goal = n;
           break;
         }
+        queue.push(n);
