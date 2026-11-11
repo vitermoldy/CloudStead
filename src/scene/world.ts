@@ -547,3 +547,4 @@ export class World extends Emitter {
   }
 
   private goHome(): Step[] {
+    const c = this.character;
