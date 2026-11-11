@@ -195,3 +195,4 @@ export class Character {
   /** Called when a plan runs out, so the world can hand over the next one. */
   onPlanDone: (() => void) | null = null;
 
+  private plan: Step[] = [];
