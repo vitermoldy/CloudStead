@@ -199,3 +199,4 @@ html:not([data-motion="off"]) .field :is(input, select, textarea):focus, .m-inpu
    (motion.js flips aria-checked on click unless the page handles it). The knob slides in 180ms and
    stretches 4px while pressed, both by transform (a scaleX from its left edge; on, the 12px shift
    keeps its right edge where it rests). The off track is ink at 48% (3.3:1 or more against the knob
+   and the ground, the 3:1 a control needs) */
