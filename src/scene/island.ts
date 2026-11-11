@@ -17,3 +17,5 @@ function tint(hex: string, rand: () => number, spread: number): Color {
   c.getHSL(hsl);
   c.setHSL(hsl.h + (rand() - 0.5) * spread * 0.1, clamp(hsl.s + (rand() - 0.5) * spread * 0.2, 0, 1), clamp(hsl.l + (rand() - 0.5) * spread * 0.12, 0, 1));
   return c;
+}
+
