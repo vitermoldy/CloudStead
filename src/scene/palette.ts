@@ -75,3 +75,4 @@ export class LiveLook {
   hemiIntensity = 1;
   cloudLit = new Color();
   cloudShade = new Color();
+  fog = new Color();
