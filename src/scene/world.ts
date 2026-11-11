@@ -226,3 +226,4 @@ export class World extends Emitter {
     return this.mode;
   }
 
+  /** The next milestone and how far its work has got (0..1). */
