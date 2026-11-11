@@ -779,3 +779,4 @@ export class Character {
     const lookPitch = clamp(-Math.atan2(local.y, Math.hypot(local.x, local.z)), -0.55, 0.7);
     switch (act) {
       case 'type':
+        yaw = this.looking ? lookYaw * 0.6 : Math.sin(time * 0.4) * 0.08;
