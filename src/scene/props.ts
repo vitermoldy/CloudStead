@@ -18,3 +18,4 @@ export interface PropEntry {
   kind: PropKind;
   cell: Cell;
   title: string;
+  group: Group;
