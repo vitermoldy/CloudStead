@@ -256,3 +256,4 @@ export class MusicPlayer extends Emitter {
       if (item && item.kind === 'video' && !item.title && data.title) {
         item.title = data.title;
         item.author = data.author || '';
+        this.persist();
