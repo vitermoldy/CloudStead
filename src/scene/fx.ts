@@ -196,3 +196,4 @@ export class Fx {
     this.birds.position.y += Math.sin(this.birdT * 0.5) * dt * 0.1;
     this.birds.scale.x = this.birdDir;
     for (const b of this.birds.children) {
+      const o = b.userData.offset as Vector3;
