@@ -799,3 +799,4 @@ export class World extends Emitter {
     this.renderer.setAnimationLoop(() => this.tick());
   }
 
+  /** One still frame (paused scene, reduced motion, a resize). */
