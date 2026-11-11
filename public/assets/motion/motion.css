@@ -178,3 +178,4 @@ html:not([data-motion="off"]) .card--open > .panel { transition: transform var(-
 .m-zoom { overflow: clip; }
 html:not([data-motion="off"]) :is(.frame__img, .tile__media > img, .m-zoom img, .m-zoom > video) {
   transition: transform var(--m-image-out) var(--m-ease);
+}
