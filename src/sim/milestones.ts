@@ -15,3 +15,4 @@ export type Work = 'build' | 'plant' | 'dig' | 'haul' | 'craft';
 export interface Milestone {
   id: string;
   minutes: number;
+  title: string;
