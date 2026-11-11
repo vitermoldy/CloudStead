@@ -258,3 +258,4 @@ export class Character {
   readonly grip = new Vector3();
 
   constructor() {
+    this.root.add(this.rig);
