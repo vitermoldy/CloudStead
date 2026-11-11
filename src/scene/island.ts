@@ -340,3 +340,4 @@ export class Island {
       const bare = this.bare.get(key);
       if (bare === 'none') continue;
       const rand = rng(hash(t.cell) ^ 0x2f6b);
+      const n = dirt ? 26 : BLADES_PER_TILE;
