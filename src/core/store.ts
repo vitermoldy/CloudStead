@@ -18,3 +18,4 @@ function readAll(): Bag {
     const parsed = raw ? JSON.parse(raw) : {};
     cache = parsed && typeof parsed === 'object' && !Array.isArray(parsed) ? parsed : {};
   } catch {
+    cache = {};
