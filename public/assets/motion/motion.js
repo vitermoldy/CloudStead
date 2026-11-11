@@ -400,3 +400,5 @@ export function init() {
 }
 /** call again after the page adds markup (a tab list, a stat, a loop) */
 export const refresh = init;
+export default { init, refresh };
+
