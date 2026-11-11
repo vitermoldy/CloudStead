@@ -606,3 +606,4 @@ export class Character {
     return this.head.getWorldPosition(out);
   }
 
+  /** Between the two hands, in the world: where a hauled rope starts. */
