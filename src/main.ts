@@ -537,3 +537,4 @@ importInput.addEventListener('change', async () => {
     replaceAll(data);
     try {
       sessionStorage.setItem('cloudstead:toast', 'Simpanan dimuat. Pulaumu sudah kembali.');
+    } catch {
