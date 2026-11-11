@@ -171,3 +171,4 @@ export class Island {
     this.grass.frustumCulled = false;
     this.group.add(this.grass);
 
+    this.highlight = this.frame(0.99, 0.022, new MeshBasicMaterial({ color: '#f3efd9', transparent: true, opacity: 0, depthTest: false }));
