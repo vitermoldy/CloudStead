@@ -75,3 +75,4 @@ function flowers(): Group {
   const heads = [std('#efe6c8'), std('#e8643c'), std('#f0bf48')];
   const stem = new CylinderGeometry(0.006, 0.006, 1, 3);
   const head = new IcosahedronGeometry(0.03, 0);
+  for (let i = 0; i < 16; i++) {
