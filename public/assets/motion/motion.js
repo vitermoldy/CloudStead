@@ -28,3 +28,4 @@
 */
 const html = document.documentElement;
 const reducedQ = matchMedia('(prefers-reduced-motion: reduce)');
+const reduced = () => reducedQ.matches;
