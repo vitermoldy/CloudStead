@@ -159,3 +159,4 @@ export class MusicPlayer extends Emitter {
     this.emit('change');
     if (!(await this.ensurePlayer()) || !this.player) return;
     this.status = autoplay ? 'loading' : 'paused';
+    this.seekToVideo = item.kind === 'playlist' && item.videoId ? item.videoId : null;
