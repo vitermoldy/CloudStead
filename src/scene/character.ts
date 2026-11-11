@@ -912,3 +912,4 @@ export class Character {
       this.spout.set(0, -0.06, 0.15).applyEuler(t.can.rotation).add(handR);
       this.root.localToWorld(this.spout);
     }
+    if (t.plank.visible) {
