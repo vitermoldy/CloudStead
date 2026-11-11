@@ -62,3 +62,4 @@ function rock(): Group {
   g.add(big, small);
   // A tuft of grass on the boulder's crown, as on the reference's rock.
   for (let i = 0; i < 6; i++) {
+    const t = mesh(new ConeGeometry(0.035, 0.2, 4), LEAF_LIGHT, -0.05 + (i % 3) * 0.06, 0.48, -0.08 + Math.floor(i / 3) * 0.07);
