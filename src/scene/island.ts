@@ -415,3 +415,4 @@ export class Island {
         t.landed = true;
         landed = true;
         this.onLanded?.(t.cell);
+      }
