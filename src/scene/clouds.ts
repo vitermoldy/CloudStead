@@ -156,3 +156,4 @@ function cloudFloor(): { mesh: Mesh; material: ShaderMaterial } {
       }
     `,
     fragmentShader: /* glsl */ `
+      uniform vec3 uLit;
