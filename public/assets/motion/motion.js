@@ -119,3 +119,4 @@ function format(v, p) {
   if (p.group) i = i.replace(/\B(?=(\d{3})+(?!\d))/g, p.group);
   return d ? i + p.dec + d : i;
 }
+// the web fonts, or 3 s at most: a number measured in the fallback font comes out narrower
