@@ -721,3 +721,4 @@ export class Character {
           t.set(s * 0.075, this.hipY + 0.17, 0.13);
           break;
         case 'hammer':
+          t.set(s * 0.09, this.hipY + 0.08, 0.15);
