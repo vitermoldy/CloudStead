@@ -136,3 +136,4 @@ function syncWork(): void {
   world.setProgress(progress.next(), projectShare());
 }
 
+/** How far the current project has got, 0 to 1. */
