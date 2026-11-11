@@ -245,3 +245,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 .round--main:hover { background: color-mix(in oklab, var(--ink) 86%, var(--bg)); }
 .round .i-pause, .round.is-playing .i-play { display: none; }
 .round.is-playing .i-pause { display: block; }
+.slider { display: flex; align-items: center; gap: 10px; margin-left: 8px; font-size: 14px; color: var(--muted); flex: 1; min-width: 150px; }
