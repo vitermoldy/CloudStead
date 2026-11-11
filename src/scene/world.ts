@@ -280,3 +280,5 @@ export class World extends Emitter {
       this.character.setCraft(m.gear, this.p);
     }
     if (this.paused) this.frame();
+  }
+
