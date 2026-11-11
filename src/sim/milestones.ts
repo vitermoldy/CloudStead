@@ -4,3 +4,4 @@
 export type Cell = readonly [number, number];
 
 export type PropKind =
+  | 'rock' | 'flowers' | 'sapling' | 'tree' | 'garden' | 'hut-frame' | 'hut' | 'pole' | 'lamp'
