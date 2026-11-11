@@ -102,3 +102,4 @@ export class Fx {
     const pos = new Float32Array(n * 3);
     this.flyBase = new Float32Array(n * 4);
     for (let i = 0; i < n; i++) {
+      this.flyBase.set([(Math.random() - 0.5) * 6, 0.25 + Math.random() * 1.1, (Math.random() - 0.5) * 6, Math.random() * 100], i * 4);
