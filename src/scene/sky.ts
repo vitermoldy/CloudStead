@@ -77,3 +77,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
   mesh.frustumCulled = false;
   mesh.renderOrder = -10;
   return {
+    mesh,
