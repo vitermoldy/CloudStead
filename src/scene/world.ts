@@ -732,3 +732,4 @@ export class World extends Emitter {
         this.fx.spawn('leaf', p.point.clone().setY(0.06), 2);
         this.emit('poke-tile', this.hover.cell);
       }
+    };
