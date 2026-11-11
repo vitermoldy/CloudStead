@@ -150,3 +150,4 @@ export class PropSite {
     return this.planks;
   }
 
+  dispose(): void {
