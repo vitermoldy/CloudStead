@@ -338,3 +338,4 @@ function enter() {
   // final number, unless data-motion="live") or the visitor is already below the hero (a reload half way
   // down): the hero stands as written. The safety mark has passed: motion.css is fading the words in and
   // settling the picture; the hero is marked done once they are through
+  if (!html.classList.contains('m-enter') || reduced() || shot() || hero.getBoundingClientRect().bottom < 0) return done(true);
