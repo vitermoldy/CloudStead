@@ -361,3 +361,4 @@ function toggleFocus(): void {
   ambient.start();
   world?.nudge();
   if (timer.running && timer.phase === 'focus') {
+    const next = progress.next();
