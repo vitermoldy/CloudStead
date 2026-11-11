@@ -952,3 +952,4 @@ export class World extends Emitter {
     this.renderer.render(this.scene, this.camera);
     this.inkClock -= 1;
     if (this.inkClock <= 0) {
+      this.inkClock = 45;
