@@ -81,3 +81,4 @@ export class SaveFileError extends Error {}
 /** Reads a save file back. Throws SaveFileError with a sentence the visitor can act on. */
 export function parseSaveFile(text: string): Bag {
   let parsed: unknown;
+  try {
