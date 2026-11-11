@@ -8,3 +8,4 @@ export type CursorState = 'idle' | 'char' | 'pet' | 'tile' | 'ghost' | 'prop' | 
  * only; over the interface the system pointer takes over, so every control keeps its own.
  */
 export class Cursor {
+  readonly enabled: boolean;
