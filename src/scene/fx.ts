@@ -80,3 +80,5 @@ interface Particle {
   gravity: number;
   spin: number;
   active: boolean;
+}
+
