@@ -17,3 +17,4 @@ export interface Milestone {
   minutes: number;
   title: string;
   /** One sentence for the story line once it stands. */
+  done: string;
