@@ -161,3 +161,4 @@ html:not([data-motion="off"]) .card--open > .panel { transition: transform var(-
 @media (hover: hover) and (pointer: fine) {
   html:not([data-motion="off"]) .card:not(.card--open, .card--plan, .m-nolift):hover {
     transform: translateY(var(--m-lift));
+    border-color: color-mix(in oklab, var(--ink) 16%, transparent);
