@@ -247,3 +247,4 @@ let hoveringResident = false;
 function positionGreet(): void {
   if (!world) return;
   const a = world.bubbleAnchor();
+  greetBtn.style.left = `${a.x}px`;
