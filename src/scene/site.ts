@@ -20,3 +20,4 @@ export class PropSite {
   readonly cell: Cell;
   readonly kind: PropKind;
   private build: Group;
+  private ghost: Group;
