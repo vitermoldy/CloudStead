@@ -307,3 +307,4 @@ export class Character {
     // The laptop: on the lap while typing, on the ground beside the seat otherwise.
     this.screen = screenTexture();
     this.screen.draw(0, 'code');
+    const base = new Mesh(new BoxGeometry(0.17, 0.012, 0.115), new MeshStandardMaterial({ color: '#c9c6bd', roughness: 0.4, metalness: 0.4 }));
