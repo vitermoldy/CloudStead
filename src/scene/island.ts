@@ -354,3 +354,4 @@ export class Island {
           z *= 0.94;
         }
         p.set(t.cell[0] + x, 0, t.cell[1] + z);
+        // Blades on an outer rim lean out over the cliff.
