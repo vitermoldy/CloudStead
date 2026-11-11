@@ -154,3 +154,4 @@ export class MusicPlayer extends Emitter {
     this.current = index;
     this.nowTitle = '';
     if (item.status === 'error') item.status = 'ready';
+    item.error = '';
