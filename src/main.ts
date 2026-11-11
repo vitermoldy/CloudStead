@@ -164,3 +164,4 @@ function onHover(h: Hover & { dragging?: boolean }, petting: boolean): void {
       break;
     }
     case 'tile':
+      cursor.set('tile');
