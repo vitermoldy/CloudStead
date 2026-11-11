@@ -155,3 +155,4 @@ export class World extends Emitter {
       const before = this.dist;
       this.fitDistance(this.island.reach());
       if (this.dist > before) {
+        if (this.paused || this.instant) {
