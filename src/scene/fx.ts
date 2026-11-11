@@ -99,3 +99,4 @@ export class Fx {
       this.pools.set(k, []);
     }
     const n = 28;
+    const pos = new Float32Array(n * 3);
