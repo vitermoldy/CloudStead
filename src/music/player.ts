@@ -24,3 +24,4 @@ export class MusicPlayer extends Emitter {
   loop: boolean;
   status: MusicStatus = 'idle';
   nowTitle = '';
+  apiError = '';
