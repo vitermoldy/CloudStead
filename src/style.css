@@ -176,3 +176,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 .go { padding: 4px 4px 4px 20px; min-height: 52px; font-size: 16px; gap: 14px; }
 .go__dot {
   display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; background: var(--bg);
+  transition: transform 150ms var(--ease);
