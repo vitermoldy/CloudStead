@@ -651,3 +651,4 @@ addEventListener('keydown', (e) => {
     setScenePaused(!(world?.isPaused ?? false));
   } else if (e.key === 's' || e.key === 'S') {
     saveProgress();
+  } else if (e.key === 'm' || e.key === 'M') {
