@@ -54,3 +54,4 @@ function span(m: Mesh, p: Vector3, q: Vector3): void {
   const dir = q.clone().sub(p);
   const len = dir.length();
   m.position.copy(p).addScaledVector(dir, 0.5);
+  if (len > 1e-6) m.quaternion.setFromUnitVectors(UP, dir.divideScalar(len));
