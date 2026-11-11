@@ -644,3 +644,4 @@ export class World extends Emitter {
     if (this.paused) this.frame();
   }
 
+  private fitDistance(reach: number): void {
