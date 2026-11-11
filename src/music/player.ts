@@ -28,3 +28,5 @@ export class MusicPlayer extends Emitter {
   private player: YTPlayer | null = null;
   private ready = false;
   private creating: Promise<boolean> | null = null;
+  private seekToVideo: string | null = null;
+
