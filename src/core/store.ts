@@ -67,3 +67,4 @@ export function saveNow(): boolean {
 export const lastSaved = (): number => lastWrite;
 
 export function onSaved(fn: (at: number) => void): () => void {
+  listeners.add(fn);
