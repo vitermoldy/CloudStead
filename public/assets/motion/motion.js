@@ -366,3 +366,4 @@ function enter() {
     const lines = masks ? masks.lines : [[h1]];
     const lineStep = Math.min(80, 240 / Math.max(1, lines.length - 1));
     // a word starts wholly below its mask, which reaches .12em under the line: no tops show before it rises
+    lines.forEach((ws, k) => ws.forEach(w => anims.push(w.animate(masks
