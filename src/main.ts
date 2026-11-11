@@ -465,3 +465,4 @@ function renderIsland(): void {
 
 function renderSaveStatus(): void {
   const el = $('save-status');
+  if (isReadOnly()) {
