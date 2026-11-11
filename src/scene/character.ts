@@ -215,3 +215,4 @@ export class Character {
   private pokeT = 0;
   private sipT = 0;
   private nextSip = 8;
+  private stretchT = 0;
