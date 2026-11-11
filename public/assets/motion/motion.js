@@ -153,3 +153,4 @@ function counts() {
     const watch = () => {
       clearTimeout(timer);
       timer = setTimeout(() => {
+        if (state !== 'armed') return;
