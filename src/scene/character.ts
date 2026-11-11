@@ -489,3 +489,4 @@ export class Character {
   }
 
   get seated(): boolean {
+    return this.sit > 0.5;
