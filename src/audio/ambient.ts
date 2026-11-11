@@ -262,3 +262,4 @@ export class Ambient {
       o.start(t);
       o.stop(t + 0.16);
       return;
+    }
