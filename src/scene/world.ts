@@ -739,3 +739,5 @@ export class World extends Emitter {
     c.addEventListener('dblclick', () => {
       if (this.hover.kind === null) this.resetView();
     });
+  }
+
