@@ -151,3 +151,4 @@ export class Progress extends Emitter {
     this.unsavedMs = 0;
     return saveNow();
   }
+}
