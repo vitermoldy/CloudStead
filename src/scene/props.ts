@@ -238,3 +238,5 @@ function pole(): Group {
     g.add(line);
   }
   return g;
+}
+
