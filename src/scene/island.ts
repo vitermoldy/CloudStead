@@ -447,3 +447,4 @@ export class Island {
     this.group.traverse((o: Object3D) => {
       const mesh = o as Mesh;
       if (mesh.geometry) mesh.geometry.dispose();
+    });
