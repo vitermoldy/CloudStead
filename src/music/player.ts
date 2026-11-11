@@ -290,3 +290,4 @@ export class MusicPlayer extends Emitter {
     this.status = 'paused';
     this.emit('change');
     const failed = this.current;
+    setTimeout(() => {
