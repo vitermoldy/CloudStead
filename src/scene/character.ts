@@ -736,3 +736,4 @@ export class Character {
         }
         case 'cheer':
           t.set(s * 0.12, this.hipY + 0.47 + Math.sin(time * 10 + i * 1.5) * 0.03, 0.03);
+          break;
