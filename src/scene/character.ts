@@ -931,3 +931,4 @@ export class Character {
       this.craftPiece.rotation.set(this.craftKind === 'beanie' || this.craftKind === 'headphones' ? -0.6 : 0, 0, 0);
     }
     if (mug) {
+      if (this.sipT > 0 && act === 'rest') {
