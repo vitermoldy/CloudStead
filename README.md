@@ -55,3 +55,5 @@ tetap berjalan; hanya pulaunya yang tidak tergambar.
 - Klik kolam, kincir, pohon, dan bangunan lain; arahkan ke garis putus-putus untuk melihat kapan
   petak berikutnya naik.
 - Seret untuk memutar pulau, gulir atau cubit untuk mendekat, klik dua kali di langit untuk
+  mengembalikan kamera.
+
