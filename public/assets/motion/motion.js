@@ -361,3 +361,4 @@ function enter() {
     if (html.classList.contains('m-enter-done') && !hero.classList.contains('is-entering')) { over = true; return late(); }   // the safety mark won: CSS shows it
     masks = maskWords(h1);
     // .is-entering ends the CSS hold: the words are held by their animations from here, and the
+    // picture starts its CSS settle in the same frame
