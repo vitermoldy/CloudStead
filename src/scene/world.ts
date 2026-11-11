@@ -658,3 +658,4 @@ export class World extends Emitter {
     const h = this.canvas.clientHeight || innerHeight;
     this.renderer.setSize(w, h, false);
     this.camera.aspect = w / h;
+    // Lift the island above the big clock: more on a phone held upright.
