@@ -9,3 +9,5 @@ import { cellKey, type Cell } from '../sim/milestones';
 /** Cells with bare earth: the clearing round the resident and the path east and south. */
 const DIRT = new Set(['0,0', '0,1', '1,0', '0,2', '2,0', '0,3', '3,0']);
 
+const hash = (c: Cell) => ((c[0] + 11) * 73856093) ^ ((c[1] + 7) * 19349663);
+
