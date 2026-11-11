@@ -190,3 +190,4 @@ function onGreet(): void {
     ] : ['Pulaunya sudah utuh. Aku temani kamu fokus.']));
   } else if (timer.resting) {
     c.wave();
+    speak(pick(['Istirahat dulu. Minum air, ya.', 'Regangkan badan sebentar.', 'Matamu juga perlu lepas dari layar.']));
