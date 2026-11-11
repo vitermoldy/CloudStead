@@ -138,3 +138,4 @@ export class Progress extends Emitter {
 
   reset(): void {
     const name = this.data.name;
+    this.data = fresh();
