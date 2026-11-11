@@ -204,3 +204,4 @@ export class Fx {
       pos.setY(2, 0.06 + flap * 0.07);
       pos.needsUpdate = true;
     }
+    if (Math.abs(this.birds.position.x) > 28) {
