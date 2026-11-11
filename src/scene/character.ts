@@ -326,3 +326,4 @@ export class Character {
     this.crate = new Group();
     const box = new Mesh(new BoxGeometry(0.2, 0.13, 0.16), WOOD);
     box.position.y = 0.065;
+    const lidBar = new Mesh(new BoxGeometry(0.21, 0.02, 0.03), new MeshStandardMaterial({ color: '#5c4029' }));
