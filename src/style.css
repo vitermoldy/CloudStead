@@ -401,3 +401,4 @@ html.has-cursor .cursor.is-on { opacity: 1; }
   .panel { max-height: calc(100% - 78px); padding: 16px; }
   .hud { padding: 0 var(--gutter) 18px; }
   .go { flex: 1; justify-content: space-between; }
+}
