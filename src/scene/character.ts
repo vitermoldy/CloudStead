@@ -115,3 +115,4 @@ export function makeGear(kind: Gear): Group {
   const m = (geo: GeoMaker, color: string, rough = 0.85) => new Mesh(geo, new MeshStandardMaterial({ color, roughness: rough }));
   switch (kind) {
     case 'cushion': {
+      const c = m(new BoxGeometry(0.34, 0.06, 0.3), '#a4553b');
