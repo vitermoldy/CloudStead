@@ -895,3 +895,4 @@ export class Character {
     t.plank.visible = act === 'carry';
     t.yarn.visible = act === 'craft' && this.craftKind !== null && KNITTED.has(this.craftKind);
     if (t.hammer.visible) {
+      t.hammer.position.copy(handR);
