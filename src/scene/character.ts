@@ -343,3 +343,4 @@ export class Character {
     this.root.add(this.hitBody, this.hitHead);
 
     for (const group of [this.root, this.seat]) group.traverse((o) => {
+      if ((o as Mesh).isMesh && o !== this.hitBody && o !== this.hitHead) {
