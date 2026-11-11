@@ -535,3 +535,4 @@ importInput.addEventListener('change', async () => {
     if (file.size > 2_000_000) throw new SaveFileError('Berkas ini terlalu besar untuk sebuah simpanan.');
     const data = parseSaveFile(await file.text());
     replaceAll(data);
+    try {
