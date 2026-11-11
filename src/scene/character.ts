@@ -266,3 +266,4 @@ export class Character {
     const skull = new Mesh(new SphereGeometry(0.085, 18, 14), SKIN);
     const hair = new Mesh(new SphereGeometry(0.091, 18, 14, 0, Math.PI * 2, 0, Math.PI * 0.56), HAIR);
     hair.rotation.x = -0.35;
+    hair.position.set(0, 0.012, -0.008);
