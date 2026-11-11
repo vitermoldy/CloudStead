@@ -169,3 +169,4 @@ export class Fx {
           break;
         case 'drop':
           p.vel.set((Math.random() - 0.5) * 0.12, -0.15, (Math.random() - 0.5) * 0.12);
+          p.max = 0.7; p.size = 0.025; p.grow = 0; p.gravity = 2.2;
