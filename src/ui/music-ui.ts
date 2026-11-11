@@ -9,3 +9,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
   const input = $<HTMLInputElement>('music-link');
   const error = $('music-error');
   const empty = $('music-empty');
+  const picks = $('music-picks');
