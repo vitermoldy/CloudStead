@@ -5,3 +5,4 @@ clouds that its resident, VMK, builds out while the visitor focuses. The island 
 itself: every new cell, plant, building and piece of gear is seen being made by VMK.
 
 **Direction (from the owner).** A reference screenshot of a cinematic hero: a floating chunk of
+cliff in a sea of golden clouds at a low sun, a person sitting with a laptop on it, a small
