@@ -121,3 +121,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 
 .preview {
   position: fixed; top: 76px; left: 50%; transform: translateX(-50%); z-index: 25; margin: 0;
+  padding: 10px 16px; border-radius: var(--r-md); background: var(--plate); font-size: 14px; text-align: center;
