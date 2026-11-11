@@ -247,3 +247,4 @@ export class Character {
   private tools: Record<'hammer' | 'shovel' | 'can' | 'plank' | 'yarn', Group> = {
     hammer: new Group(), shovel: new Group(), can: new Group(), plank: new Group(), yarn: new Group(),
   };
+  private craftPiece: Group | null = null;
