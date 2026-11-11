@@ -74,3 +74,4 @@ html:not([data-motion="off"]) :is(.btn--arrow, .link):focus-visible::after { tra
   :is(a, button):hover > .m-arrow .m-arrow__head { transform: translateX(3px); transition-duration: var(--m-in); }
 }
 
+/* a pill that is a link (the line above a hero headline) */
