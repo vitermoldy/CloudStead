@@ -236,3 +236,4 @@ function positionBubble(): void {
   }
   const a = world.bubbleAnchor();
   const half = Math.min(120, bubble.offsetWidth / 2);
+  bubble.style.left = `${Math.max(half + 12, Math.min(innerWidth - half - 12, a.x))}px`;
