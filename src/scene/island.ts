@@ -72,3 +72,4 @@ function rockGeometry(cell: Cell, depth: number): BufferGeometry {
   const tip = new Vector3(tipX, -0.4 - depth - 0.35, tipZ);
   for (let s = 0; s < sides; s++) tri(bottom[s], bottom[(s + 1) % sides], tip);
   const g = new BufferGeometry();
+  g.setAttribute('position', new BufferAttribute(new Float32Array(positions), 3));
