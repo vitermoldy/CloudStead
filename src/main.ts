@@ -87,3 +87,4 @@ async function startWorld(): Promise<void> {
   syncWork();
 
   w.on('ink', (avg: number) => {
+    // Cream until the scene behind the clock gets bright; dark ink keeps 3:1 or better there.
