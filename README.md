@@ -75,3 +75,4 @@ src/
   core/              emitter dan penyimpanan (localStorage, berkas simpanan)
   sim/               timer fokus, progres, daftar tahap pulau
   music/             pembaca tautan YouTube dan antrean pemutar
+  audio/ambient.ts   suara pulau (Web Audio)
