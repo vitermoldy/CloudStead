@@ -336,3 +336,4 @@ function renderHud(force = false): void {
   go.classList.toggle('is-running', timer.running);
   const label = timer.running
     ? (timer.phase === 'focus' ? 'Jeda fokus' : 'Jeda istirahat')
+    : timer.active ? (timer.phase === 'focus' ? 'Lanjutkan fokus' : 'Lanjutkan istirahat') : 'Mulai fokus';
