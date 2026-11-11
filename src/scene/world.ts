@@ -222,3 +222,4 @@ export class World extends Emitter {
     this.applyProgress();
   }
 
+  get workMode(): WorkMode {
