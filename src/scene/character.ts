@@ -410,3 +410,4 @@ export class Character {
         break;
       case 'books':
         g.position.set(0.3, 0, 0.06);
+        this.seat.add(g);
