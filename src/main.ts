@@ -517,3 +517,4 @@ function downloadSave(): void {
   setTimeout(() => URL.revokeObjectURL(a.href), 2000);
   toast('Berkas simpanan diunduh.');
 }
+$('save-export').addEventListener('click', downloadSave);
