@@ -772,3 +772,4 @@ export class Character {
 
     // ---- head
     let yaw = 0, pitch = 0.05, roll = 0;
+    const headPos = neck.clone().addScaledVector(this.spine, 0.105);
