@@ -104,3 +104,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
       rm.setAttribute('aria-label', `Hapus ${name} dari antrean`);
       rm.addEventListener('click', () => player.remove(i));
       li.append(btn, rm);
+      return li;
