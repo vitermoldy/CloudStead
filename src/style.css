@@ -168,3 +168,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 .btn--quiet { background: transparent; color: var(--muted); padding: 0 12px; }
 .btn--quiet:hover { color: var(--ink); background: rgba(231, 228, 209, 0.06); }
 .btn--danger { background: transparent; color: var(--danger); border-color: rgba(242, 155, 128, 0.5); }
+.btn--danger:hover { border-color: var(--danger); background: rgba(242, 155, 128, 0.08); }
