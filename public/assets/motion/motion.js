@@ -251,3 +251,4 @@ function loops() {
 document.addEventListener('click', e => {
   const btn = e.target.closest('.loop-pause');
   if (!btn) return;
+  const box = btn.parentElement;
