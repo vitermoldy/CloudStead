@@ -75,3 +75,4 @@ export const TOTAL_MINUTES = MILESTONES[MILESTONES.length - 1].minutes;
 
 export const cellKey = (c: Cell): string => `${c[0]},${c[1]}`;
 
+/** Cells that exist once these milestones are reached. */
