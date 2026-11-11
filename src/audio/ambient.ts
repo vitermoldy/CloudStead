@@ -170,3 +170,4 @@ export class Ambient {
     src.buffer = this.noise;
     const bp = ctx.createBiquadFilter();
     bp.type = 'bandpass';
+    bp.frequency.value = 1800 + Math.random() * 1500;
