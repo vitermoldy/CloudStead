@@ -38,3 +38,4 @@ export class PropSite {
 
     // Stakes at the corners, a string between them.
     const stake = new CylinderGeometry(0.012, 0.012, 0.16, 4);
+    const corners = [[-0.44, -0.44], [0.44, -0.44], [0.44, 0.44], [-0.44, 0.44]];
