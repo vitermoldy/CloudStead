@@ -431,3 +431,4 @@ function renderIsland(): void {
   $('stat-tiles').textContent = String(tilesFor(progress.reached()).length);
   $('stat-sessions').textContent = String(progress.data.sessions);
   const nameInput = $<HTMLInputElement>('resident-name');
+  if (document.activeElement !== nameInput) nameInput.value = progress.name;
