@@ -71,3 +71,4 @@ function screenTexture(): { tex: CanvasTexture; draw: (lines: number, mode: 'cod
     ctx.fillRect(0, 0, 128, 84);
     if (mode === 'sleep') {
       tex.needsUpdate = true;
+      return;
