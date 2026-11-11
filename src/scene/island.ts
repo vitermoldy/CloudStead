@@ -182,3 +182,4 @@ export class Island {
     const bar = new BoxGeometry(size, 0.01, thick);
     for (let i = 0; i < 4; i++) {
       const m = new Mesh(bar, mat);
+      const a = (i * Math.PI) / 2;
