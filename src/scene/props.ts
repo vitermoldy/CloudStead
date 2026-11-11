@@ -458,3 +458,4 @@ function waterfall(): Group {
   channel.position.set(0, 0.02, 0.3);
   g.add(channel);
   const mat = new ShaderMaterial({
+    transparent: true,
