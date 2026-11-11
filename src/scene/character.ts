@@ -505,3 +505,4 @@ export class Character {
     this.waveT = 1.6;
   }
 
+  poke(): void {
