@@ -286,3 +286,5 @@ export class Island {
     }
     this.layGrass();
     return added;
+  }
+
