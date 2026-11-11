@@ -966,3 +966,4 @@ export class World extends Emitter {
     const ch = this.canvas.height;
     const cr = this.canvas.getBoundingClientRect();
     const px = new Uint8Array(4);
+    let sum = 0, n = 0, max = 0;
