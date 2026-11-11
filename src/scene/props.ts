@@ -286,3 +286,4 @@ function boardTexture(): { tex: CanvasTexture; draw: (today: number, total: numb
 function board(): Group {
   const g = new Group();
   for (const x of [-0.3, 0.3]) {
+    const leg = mesh(new BoxGeometry(0.04, 0.85, 0.04), WOOD, x, 0.42, 0);
