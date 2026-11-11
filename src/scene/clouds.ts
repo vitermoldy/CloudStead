@@ -155,3 +155,4 @@ function cloudFloor(): { mesh: Mesh; material: ShaderMaterial } {
         gl_Position = projectionMatrix * viewMatrix * w;
       }
     `,
+    fragmentShader: /* glsl */ `
