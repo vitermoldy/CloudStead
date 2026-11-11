@@ -381,3 +381,4 @@ timer.on('finished', (phase: string, skipped: boolean) => {
   renderIsland();
 });
 
+progress.on('reach', (m: Milestone) => {
