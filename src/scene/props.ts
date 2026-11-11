@@ -627,3 +627,4 @@ export class PropsLayer {
         };
         break;
       case 'waterfall':
+        e.update = (_dt, ctx) => {
