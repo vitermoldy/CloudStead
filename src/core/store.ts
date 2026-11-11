@@ -9,3 +9,5 @@ let cache: Bag | null = null;
 let readOnly = false;
 let timer = 0;
 let lastWrite = 0;
+const listeners = new Set<(at: number) => void>();
+
