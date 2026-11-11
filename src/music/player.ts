@@ -25,3 +25,4 @@ export class MusicPlayer extends Emitter {
   status: MusicStatus = 'idle';
   nowTitle = '';
   apiError = '';
+  private player: YTPlayer | null = null;
