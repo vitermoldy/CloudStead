@@ -560,3 +560,4 @@ export class World extends Emitter {
   private updateRope(): void {
     if (!this.rope.visible || !this.ropeCell) return;
     const a = this.character.grip;
+    const b = this.island.tileTop(this.ropeCell) ?? a;
