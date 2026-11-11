@@ -337,3 +337,4 @@ fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
 .greet:focus-visible .greet__name { background: var(--bg); color: var(--accent); }
 
 .toast {
+  position: fixed; top: 78px; left: 50%; z-index: 26; transform: translate(-50%, -6px); max-width: calc(100% - 32px);
