@@ -298,3 +298,4 @@ export function createClouds(count: number): Clouds {
         vec3 col = mix(uShade, uLit, lit);
         // A bright rim where a billow's edge turns toward the sun, stronger against the light.
         float rim = pow(1.0 - nz, 3.0) * max(ndl, 0.0);
+        col += uLit * rim * 0.35 + uLit * pow(vToward, 6.0) * (1.0 - nz) * 0.9;
