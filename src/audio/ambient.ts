@@ -253,3 +253,4 @@ export class Ambient {
       const o = ctx.createOscillator();
       const g = ctx.createGain();
       o.type = 'triangle';
+      o.frequency.setValueAtTime(200, t);
