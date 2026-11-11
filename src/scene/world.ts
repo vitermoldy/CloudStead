@@ -260,3 +260,4 @@ export class World extends Emitter {
 
   private endProject(): void {
     this.site?.dispose();
+    this.site = null;
