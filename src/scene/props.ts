@@ -616,3 +616,4 @@ export class PropsLayer {
         };
         break;
       case 'balloon':
+        e.update = (_dt, ctx) => {
