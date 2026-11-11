@@ -87,3 +87,4 @@ export function parseSaveFile(text: string): Bag {
     throw new SaveFileError('Berkas ini bukan simpanan CloudStead (isinya tidak bisa dibaca).');
   }
   const p = parsed as { app?: unknown; data?: unknown };
+  if (!p || p.app !== 'CloudStead' || !p.data || typeof p.data !== 'object') {
