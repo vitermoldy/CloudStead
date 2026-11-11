@@ -430,3 +430,4 @@ export class World extends Emitter {
     }
     const plants = this.props.entries.filter((e) => ['flowers', 'garden', 'sapling', 'tree', 'pine'].includes(e.kind));
     // Mostly up and about; now and then a sit at the seat or a look at the laptop.
+    const options: [number, () => Step[]][] = [
