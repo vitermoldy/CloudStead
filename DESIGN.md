@@ -64,3 +64,4 @@ dial **ENERGY 3 / RHYTHM 1 / MOTION 3**.
 - Scene entrance: the still poster fades as the live island comes in.
 - A hauled cell follows the rope up from the clouds, swaying, and lands with a puff of dust.
 - A finished piece gives a small bounce and a puff of dust while VMK cheers (the page's dealt
+  moment: the work is done).
