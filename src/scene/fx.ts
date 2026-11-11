@@ -227,3 +227,4 @@ export class Fx {
         p.vel.multiplyScalar(1 - dt * 0.8);
         const s = p.size + p.grow * p.life;
         p.sprite.scale.set(s, s, s);
+        const m = p.sprite.material as SpriteMaterial;
