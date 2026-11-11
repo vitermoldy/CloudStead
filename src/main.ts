@@ -628,3 +628,4 @@ $('scene-pause-2').addEventListener('click', () => setScenePaused(!(world?.isPau
 mountMusicUi(player, toast);
 player.on('change', () => {
   world?.setMusic(player.isPlaying);
+  ambient.setDucked(player.isPlaying);
