@@ -202,3 +202,5 @@ export class World extends Emitter {
     const tiles = upcoming && upcoming.kind === 'tiles' ? upcoming : null;
     this.island.setGhosts(tiles?.tiles ?? []);
     this.ghostMilestone = tiles;
+  }
+
