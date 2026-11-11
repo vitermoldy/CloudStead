@@ -94,3 +94,4 @@ export class MusicPlayer extends Emitter {
   }
 
   setVolume(v: number): void {
+    this.volume = clamp(Math.round(v), 0, 100);
