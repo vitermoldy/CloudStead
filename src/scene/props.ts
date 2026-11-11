@@ -340,3 +340,4 @@ function pond(): Group {
     p.rotation.x = -Math.PI / 2;
     g.add(p);
   }
+  const rings: Mesh[] = [];
