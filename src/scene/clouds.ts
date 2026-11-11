@@ -223,3 +223,4 @@ export function createClouds(count: number): Clouds {
   geo.instanceCount = n;
 
   const material = new ShaderMaterial({
+    transparent: true,
