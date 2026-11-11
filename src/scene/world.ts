@@ -32,3 +32,4 @@ const PRESS_TO_PET = 0.45;
  * knock, land, ink (luminance 0..1), ready.
  */
 export class World extends Emitter {
+  readonly renderer: WebGLRenderer;
