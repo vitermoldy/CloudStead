@@ -573,3 +573,4 @@ const nameInput = $<HTMLInputElement>('resident-name');
 nameInput.addEventListener('change', () => {
   progress.rename(nameInput.value);
   nameInput.value = progress.name;
+  nameTag();
