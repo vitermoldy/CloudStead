@@ -249,3 +249,4 @@ export class World extends Emitter {
       const target = new Vector3(m.at[0], 0, m.at[1]);
       const pileAt = this.approach && m.work === 'build'
         ? this.approach.clone().lerp(target, 0.2).add(new Vector3(this.approach.z - target.z, 0, target.x - this.approach.x).normalize().multiplyScalar(0.22))
+        : null;
