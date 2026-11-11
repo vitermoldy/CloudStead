@@ -67,3 +67,4 @@ export class Ambient {
     this.apply();
   }
 
+  private startWind(): void {
