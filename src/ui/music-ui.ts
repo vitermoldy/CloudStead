@@ -14,3 +14,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
   const status = $('player-status');
   const title = $('now-title');
   const play = $<HTMLButtonElement>('music-play');
+  const volume = $<HTMLInputElement>('music-volume');
