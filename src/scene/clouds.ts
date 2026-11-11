@@ -235,3 +235,4 @@ export function createClouds(count: number): Clouds {
       uFog: { value: new Color() },
       uSunDir: { value: new Vector3() },
       uTime: { value: 0 },
+      uSpan: { value: 130 },
