@@ -268,3 +268,4 @@ document.addEventListener('click', e => {
 });
 
 /* ---------------------------------------------------------------- the hero's entrance */
+// Once, on load (motion.md, The hero's entrance): the h1 rises line by line out of its masks, then what
