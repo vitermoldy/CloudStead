@@ -83,3 +83,4 @@ function bladeGeometry(): BufferGeometry {
   const h = 1;
   const pos = [-0.5, 0, 0, 0.5, 0, 0, -0.32, 0.45 * h, 0, 0.32, 0.45 * h, 0, -0.12, 0.8 * h, 0, 0.12, 0.8 * h, 0, 0, h, 0];
   const idx = [0, 1, 2, 2, 1, 3, 2, 3, 4, 4, 3, 5, 4, 5, 6];
+  const g = new BufferGeometry();
