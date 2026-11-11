@@ -146,3 +146,4 @@ export class Island {
 
     const bladeMat = new MeshStandardMaterial({ vertexColors: true, roughness: 0.9, side: 2 });
     bladeMat.onBeforeCompile = (shader) => {
+      Object.assign(shader.uniforms, this.grassUniforms);
