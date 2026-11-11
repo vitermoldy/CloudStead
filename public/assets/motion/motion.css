@@ -234,3 +234,4 @@ html:not([data-motion="off"]) .field :is(input, select, textarea):focus, .m-inpu
 /* ---------------------------------------------------------------- FAQ
    Every answer stays open (ST-47, system.css): nothing here opens, closes or animates its height. */
 
+/* ---------------------------------------------------------------- numbers that tick once */
