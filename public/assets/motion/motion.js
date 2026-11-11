@@ -169,3 +169,4 @@ function counts() {
         span.textContent = format(0, p);
         if (state !== 'armed') { state = 'armed'; watch(); }
         return true;
+      },
