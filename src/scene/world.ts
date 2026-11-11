@@ -964,3 +964,4 @@ export class World extends Emitter {
     const gl = this.renderer.getContext();
     const ratio = this.renderer.getPixelRatio();
     const ch = this.canvas.height;
+    const cr = this.canvas.getBoundingClientRect();
