@@ -379,3 +379,4 @@ function enter() {
       // the rise is added to whatever transform the part has of its own; the fade replaces its opacity
       const t = { duration: 520, delay: above ? 40 : after + Math.min(k++, 6) * 60, easing: EASE, fill: 'both' };
       anims.push(el.animate([{ opacity: 0 }, { opacity: 1 }], t), el.animate([{ transform: 'translateY(12px)' }, { transform: 'none' }], { ...t, composite: 'add' }));
+    });
