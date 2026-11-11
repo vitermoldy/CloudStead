@@ -56,3 +56,4 @@ export class Ambient {
       last = (last + (Math.random() * 2 - 1) * 0.02) / 1.02;
       data[i] = last * 3.5;
     }
+    this.windGain = ctx.createGain();
