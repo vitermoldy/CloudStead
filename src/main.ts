@@ -432,3 +432,4 @@ function renderIsland(): void {
   $('stat-sessions').textContent = String(progress.data.sessions);
   const nameInput = $<HTMLInputElement>('resident-name');
   if (document.activeElement !== nameInput) nameInput.value = progress.name;
+  const next = progress.next();
