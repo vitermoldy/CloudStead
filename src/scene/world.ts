@@ -23,3 +23,5 @@ export interface Hover {
   cell?: Cell;
 }
 
+export type WorkMode = 'work' | 'rest' | 'free';
+
