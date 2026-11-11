@@ -458,3 +458,4 @@ function renderIsland(): void {
     sr.className = 'sr-only';
     sr.textContent = done ? 'Sudah dibangun: ' : m === next ? 'Berikutnya: ' : 'Belum: ';
     li.append(mark, sr, title, when);
+    return li;
