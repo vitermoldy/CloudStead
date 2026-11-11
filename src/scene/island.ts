@@ -150,3 +150,4 @@ export class Island {
       shader.vertexShader = shader.vertexShader
         .replace('#include <common>', '#include <common>\nuniform float uTime;\nuniform vec3 uCursor;\nuniform float uWind;')
         .replace('#include <project_vertex>', /* glsl */ `
+          vec4 wpos = instanceMatrix * vec4(transformed, 1.0);
