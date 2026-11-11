@@ -76,3 +76,5 @@ export function exportSave(): string {
   return JSON.stringify({ app: 'CloudStead', version: 1, exportedAt: new Date().toISOString(), data: readAll() }, null, 2);
 }
 
+export class SaveFileError extends Error {}
+
