@@ -5,3 +5,4 @@ import {
 
 export type FxKind = 'heart' | 'dust' | 'note' | 'z' | 'leaf' | 'steam' | 'drop';
 
+function glyphTexture(draw: (ctx: CanvasRenderingContext2D) => void): CanvasTexture {
