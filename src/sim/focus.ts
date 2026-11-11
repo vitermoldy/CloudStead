@@ -112,3 +112,4 @@ export class FocusTimer extends Emitter {
     this.commit();
   }
 
+  toggle(): void {
