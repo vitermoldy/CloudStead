@@ -346,3 +346,4 @@ export class Character {
       if ((o as Mesh).isMesh && o !== this.hitBody && o !== this.hitHead) {
         o.castShadow = true;
         o.receiveShadow = true;
+      }
