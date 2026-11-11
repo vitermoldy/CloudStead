@@ -443,3 +443,4 @@ function renderIsland(): void {
     mark.setAttribute('aria-hidden', 'true');
     const title = document.createElement('span');
     title.textContent = m.title;
+    const when = document.createElement('span');
