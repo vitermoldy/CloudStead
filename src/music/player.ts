@@ -8,3 +8,4 @@ export interface QueueItem extends ParsedLink {
   author: string;
   thumb: string;
   status: 'ready' | 'error';
+  error: string;
