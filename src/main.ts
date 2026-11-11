@@ -536,3 +536,4 @@ importInput.addEventListener('change', async () => {
     const data = parseSaveFile(await file.text());
     replaceAll(data);
     try {
+      sessionStorage.setItem('cloudstead:toast', 'Simpanan dimuat. Pulaumu sudah kembali.');
