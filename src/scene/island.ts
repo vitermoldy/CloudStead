@@ -133,3 +133,4 @@ export class Island {
   private dirtTopMat: MeshStandardMaterial;
   private earthMat: MeshStandardMaterial;
   private rockMat: MeshStandardMaterial;
+  /** Cells whose lawn is kept short or bare because something stands on them. */
