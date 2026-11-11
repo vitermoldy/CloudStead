@@ -94,3 +94,4 @@ function bladeGeometry(): BufferGeometry {
     const c = root.clone().lerp(tip, Math.pow(pos[i + 1], 1.2));
     cols.push(c.r, c.g, c.b);
   }
+  g.setAttribute('color', new BufferAttribute(new Float32Array(cols), 3));
