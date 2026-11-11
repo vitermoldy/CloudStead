@@ -197,3 +197,4 @@ html:not([data-motion="off"]) .field :is(input, select, textarea):focus, .m-inpu
 }
 /* a switch: <button class="m-switch" role="switch" aria-checked="false" aria-label="..."></button>
    (motion.js flips aria-checked on click unless the page handles it). The knob slides in 180ms and
+   stretches 4px while pressed, both by transform (a scaleX from its left edge; on, the 12px shift
