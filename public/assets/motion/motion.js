@@ -43,3 +43,4 @@ function nav() {
   let t = 0;
   bar.querySelectorAll('.nav__item').forEach(item => {
     const has = !!item.querySelector('.nav__menu');
+    item.addEventListener('pointerenter', () => {
