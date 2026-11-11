@@ -90,3 +90,4 @@ let apiPromise: Promise<YTNamespace> | null = null;
 
 /** Loads the YouTube IFrame API once; rejects after 15 s. */
 export function loadYouTubeApi(): Promise<YTNamespace> {
+  if (window.YT && window.YT.Player) return Promise.resolve(window.YT);
