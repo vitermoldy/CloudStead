@@ -211,3 +211,4 @@ export class Fx {
     }
   }
 
+  update(dt: number, time: number, night: number, reach: number): void {
