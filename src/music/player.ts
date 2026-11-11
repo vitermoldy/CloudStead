@@ -69,3 +69,4 @@ export class MusicPlayer extends Emitter {
       if (d && d.error === 'missing') Object.assign(it, { status: 'error', error: 'YouTube tidak menemukan video atau playlist ini.' });
       this.persist();
       this.emit('change');
+    });
