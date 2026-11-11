@@ -43,3 +43,4 @@ export class PropSite {
       const m = new Mesh(stake, STAKE);
       m.position.set(x, 0.08, z);
       m.castShadow = true;
+      this.group.add(m);
