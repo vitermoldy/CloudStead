@@ -178,3 +178,4 @@ function cloudFloor(): { mesh: Mesh; material: ShaderMaterial } {
         float h = fbm(p);
         float e = 0.03;
         float hx = fbm(p + vec2(e, 0.0));
+        float hz = fbm(p + vec2(0.0, e));
