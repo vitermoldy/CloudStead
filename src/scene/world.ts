@@ -577,3 +577,5 @@ export class World extends Emitter {
   setTime(mode: TimeMode): void {
     this.timeMode = mode;
     this.applyClock(true);
+  }
+
