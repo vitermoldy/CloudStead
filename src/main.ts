@@ -422,3 +422,5 @@ for (const t of tabItems) t.addEventListener('click', () => openPanel(t.dataset.
 for (const b of document.querySelectorAll<HTMLButtonElement>('[data-close]')) b.addEventListener('click', () => openPanel(null));
 canvas.addEventListener('pointerdown', () => {
   if (openId) openPanel(null, false);
+});
+
