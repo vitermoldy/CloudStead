@@ -226,3 +226,5 @@ export class Character {
   private workPoint: Vector3 | null = null;
   private lookWander = new Vector3(0, 0.5, 3);
   private wanderClock = 0;
+  musicOn = false;
+
