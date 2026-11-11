@@ -840,3 +840,4 @@ export class World extends Emitter {
     if (this.clockCheck <= 0) {
       this.clockCheck = 30;
       this.applyClock();
+    }
