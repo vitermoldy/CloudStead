@@ -543,3 +543,4 @@ export class PropsLayer {
     const group = BUILDERS[kind]();
     group.position.set(cell[0], 0, cell[1]);
     group.rotation.y = FACING[kind] ?? 0;
+    const entry: PropEntry = {
