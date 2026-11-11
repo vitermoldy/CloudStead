@@ -463,3 +463,4 @@ export class World extends Emitter {
     for (const [w, make] of options) {
       r -= w;
       if (r <= 0) {
+        const steps = make();
