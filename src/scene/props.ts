@@ -174,3 +174,4 @@ function hut(): Group {
     }
     return new ExtrudeGeometry(s, { depth: 0.04, bevelEnabled: false });
   };
+  const front = mesh(tri(true), WOOD, 0, 0.07, 0.38);
