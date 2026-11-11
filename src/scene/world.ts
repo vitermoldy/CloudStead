@@ -943,3 +943,4 @@ export class World extends Emitter {
       this.camera.position.copy(this.controls.target).addScaledVector(dir, next);
       this.moving = true;
     }
+    this.controls.update();
