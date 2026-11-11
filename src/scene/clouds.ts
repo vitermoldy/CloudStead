@@ -12,3 +12,4 @@ const CELL = 256;
  * Four cumulus heads drawn once into an atlas. Each is a union of spheres on a flat base; the
  * texture keeps the surface normal (RGB) and the coverage (A), so the shader can light every
  * billow from wherever the sun stands.
+ */
