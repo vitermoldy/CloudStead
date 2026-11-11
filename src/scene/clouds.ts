@@ -192,3 +192,4 @@ function cloudFloor(): { mesh: Mesh; material: ShaderMaterial } {
         gl_FragColor = vec4(col, 1.0);
         #include <colorspace_fragment>
       }
+    `,
