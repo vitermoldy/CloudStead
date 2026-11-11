@@ -548,3 +548,4 @@ export class PropsLayer {
     };
     this.wire(entry);
     group.traverse((o) => {
+      o.userData.prop = entry;
