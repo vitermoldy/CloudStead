@@ -312,3 +312,4 @@ fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
   position: fixed; left: 0; top: 0; z-index: 20; pointer-events: none; max-width: 240px; padding: 10px 14px;
   border-radius: var(--r-md); background: var(--ink); color: var(--bg); font-size: 15px; line-height: 1.3;
   transform: translate(-50%, calc(-100% - 10px)) scale(.92); opacity: 0;
+  transition: opacity 160ms var(--ease), transform 200ms var(--ease);
