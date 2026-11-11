@@ -53,3 +53,4 @@ function mesh(geo: BufferGeometry, mat: MeshStandardMaterial | MeshBasicMaterial
 }
 
 function rock(): Group {
+  const g = new Group();
