@@ -155,3 +155,4 @@ export class PropSite {
     this.group.traverse((o) => {
       const mesh = o as Mesh;
       if (mesh.material && (mesh.material as Material).clippingPlanes) (mesh.material as Material).dispose();
+    });
