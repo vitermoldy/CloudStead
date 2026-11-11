@@ -281,3 +281,4 @@ export class Island {
         order++;
       }
       this.tiles.set(key, t);
+      this.group.add(t.group);
