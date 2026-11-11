@@ -954,3 +954,4 @@ export class Character {
   }
 
   /** Back to the seat at once, nothing planned (reduced motion, a reset, a load). */
+  settle(): void {
