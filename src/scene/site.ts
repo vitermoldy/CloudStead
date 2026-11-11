@@ -31,3 +31,4 @@ export class PropSite {
   private late: Object3D[] = [];
   private p = -1;
 
+  constructor(kind: PropKind, cell: Cell, pileAt: Vector3 | null) {
