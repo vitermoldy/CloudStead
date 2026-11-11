@@ -34,3 +34,4 @@ const settings = load<{ time: TimeMode; paused: boolean | null }>('settings', { 
 const toastEl = $('toast');
 let toastTimer = 0;
 function toast(text: string, ms = 3200): void {
+  toastEl.textContent = text;
