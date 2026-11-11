@@ -354,3 +354,4 @@ export function createClouds(count: number): Clouds {
       (u.uLit.value as Color).copy(look.cloudLit);
       (u.uShade.value as Color).copy(look.cloudShade);
       (u.uFog.value as Color).copy(look.fog);
+      (u.uSunDir.value as Vector3).copy(look.sunDir);
