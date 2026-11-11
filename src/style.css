@@ -104,3 +104,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 .tab__item:active { transform: translateY(1px); }
 .tab__item[aria-expanded="true"] { color: var(--ink); }
 .tab__item[aria-expanded="true"]::after {
+  content: ""; position: absolute; left: 50%; bottom: 7px; width: 18px; height: 2px; margin-left: -9px;
