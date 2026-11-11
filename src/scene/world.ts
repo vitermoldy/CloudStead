@@ -507,3 +507,4 @@ export class World extends Emitter {
         }
         queue.push(n);
       }
+    }
