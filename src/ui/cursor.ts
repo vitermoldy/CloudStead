@@ -36,3 +36,4 @@ export class Cursor {
       if (e.pointerType !== 'mouse') return;
       this.x = e.clientX;
       this.y = e.clientY;
+      const on = e.target === this.surface;
