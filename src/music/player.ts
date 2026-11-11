@@ -170,3 +170,4 @@ export class MusicPlayer extends Emitter {
     this.emit('change');
   }
 
+  play(index = this.current): void {
