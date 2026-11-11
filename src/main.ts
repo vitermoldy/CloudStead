@@ -395,3 +395,4 @@ const tabItems = [...document.querySelectorAll<HTMLButtonElement>('.tab__item')]
 let openId: string | null = null;
 
 function openPanel(id: string | null, focus = true): void {
+  if (openId === id) id = null;
