@@ -39,3 +39,5 @@ export function rng(seed: number): () => number {
     s ^= s << 5;
     return ((s >>> 0) % 100000) / 100000;
   };
+}
+
