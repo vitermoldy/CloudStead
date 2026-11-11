@@ -641,3 +641,4 @@ export class Character {
       case 'water': lean.set(0, 1, 0.16); break;
       case 'haul': lean.set(0, 1, -0.2 + Math.sin(time * 4) * 0.04); break;
       case 'stand': lean.set(0, 1, 0.03); break;
+      default: break;
