@@ -537,3 +537,4 @@ export class Character {
         this.next();
         return;
       case 'walk': {
+        this.workPoint = null;
