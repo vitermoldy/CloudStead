@@ -133,3 +133,4 @@ function garden(): Group {
         g.add(mesh(cabbage, LEAF_LIGHT, x, 0.15, z));
       } else {
         g.add(mesh(sprout, LEAF_LIGHT, x, 0.14, z, false));
+      }
