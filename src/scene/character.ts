@@ -579,3 +579,4 @@ export class Character {
         let d = 0 - this.heading;
         d = Math.atan2(Math.sin(d), Math.cos(d));
         this.heading += d * Math.min(1, dt * 6);
+        pos.lerp(this.home, Math.min(1, dt * 6));
