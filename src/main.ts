@@ -685,3 +685,4 @@ setInterval(() => {
 
 try {
   const msg = sessionStorage.getItem('cloudstead:toast');
+  if (msg) {
