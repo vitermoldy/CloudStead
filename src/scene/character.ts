@@ -643,3 +643,4 @@ export class Character {
       case 'stand': lean.set(0, 1, 0.03); break;
       default: break;
     }
+    if (this.petAmount > 0.01) lean.x += Math.sin(time * 3) * 0.06 * this.petAmount;
