@@ -161,3 +161,4 @@ export class World extends Emitter {
           this.controls.update();
         } else this.refitT = 3;
       }
+    };
