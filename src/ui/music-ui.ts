@@ -51,3 +51,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
     picks.append(b);
   }
 
+  play.addEventListener('click', () => player.toggle());
