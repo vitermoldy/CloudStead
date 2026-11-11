@@ -722,3 +722,4 @@ export class World extends Emitter {
       } else if (p.on === 'prop' && p.prop) {
         p.prop.wiggle = 1;
         p.prop.poke?.(p.prop, p.point ?? new Vector3());
+        if (p.prop.kind === 'tree' || p.prop.kind === 'sapling' || p.prop.kind === 'pine') {
