@@ -496,3 +496,4 @@ function saveProgress(): void {
     toast('Browser menolak menyimpan. Unduh berkas simpanan sebagai cadangan.', 5000);
   }
   renderSaveStatus();
+}
