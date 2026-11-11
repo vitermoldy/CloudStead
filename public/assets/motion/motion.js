@@ -165,3 +165,4 @@ function counts() {
         span.style.minWidth = '';
         const w = span.getBoundingClientRect().width;
         if (!w) { state = 'wait'; clearTimeout(timer); return false; }
+        span.style.minWidth = `${w}px`;
