@@ -944,3 +944,4 @@ export class Character {
   }
 
   private wander(dt: number): Vector3 {
+    this.wanderClock -= dt;
