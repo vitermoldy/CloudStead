@@ -12,3 +12,4 @@ export interface Look {
   /** Direction toward the sun (or the moon at night). */
   sunDir: [number, number, number];
   hemiSky: string;
+  hemiGround: string;
