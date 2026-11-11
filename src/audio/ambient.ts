@@ -135,3 +135,4 @@ export class Ambient {
     const amGain = ctx.createGain();
     const g = ctx.createGain();
     o.frequency.value = 4300 + Math.random() * 400;
+    am.frequency.value = 38;
