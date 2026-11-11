@@ -885,3 +885,4 @@ export class World extends Emitter {
       this.character.petting = true;
       this.emit('pet', true);
       this.emitHover();
+    }
