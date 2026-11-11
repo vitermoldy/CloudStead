@@ -233,3 +233,4 @@ function pauseButton(loop) {
   if (getComputedStyle(box).position === 'static') box.style.position = 'relative';
   box.append(btn);
   btn.__show = show;
+}
