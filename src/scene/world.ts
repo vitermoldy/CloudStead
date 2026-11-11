@@ -746,3 +746,4 @@ export class World extends Emitter {
     this.lookHold = 2.2;
   }
 
+  private hitPoint = new Vector3();
