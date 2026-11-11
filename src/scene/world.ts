@@ -199,3 +199,4 @@ export class World extends Emitter {
   /** Dashed outlines for the cells the current tile project brings. */
   updateGhosts(reached: Set<string>): void {
     const upcoming = MILESTONES.find((m) => !reached.has(m.id));
+    const tiles = upcoming && upcoming.kind === 'tiles' ? upcoming : null;
