@@ -562,3 +562,4 @@ export class PropsLayer {
       case 'tree':
         e.update = (_dt, ctx) => {
           const crown = u.crown as Group;
+          crown.rotation.z = Math.sin(ctx.time * 0.9 + 1) * 0.025 + e.wiggle * Math.sin(ctx.time * 30) * 0.08;
