@@ -835,3 +835,4 @@ export class Character {
 
     // ---- face
     this.nextBlink -= dt;
+    if (this.nextBlink <= 0) {
