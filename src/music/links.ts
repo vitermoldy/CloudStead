@@ -24,3 +24,4 @@ export function parseLink(raw: string): ParsedLink {
   let url: URL;
   try {
     url = new URL(/^https?:\/\//i.test(text) ? text : `https://${text}`);
+  } catch {
