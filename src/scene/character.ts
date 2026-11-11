@@ -604,3 +604,5 @@ export class Character {
 
   headWorld(out = new Vector3()): Vector3 {
     return this.head.getWorldPosition(out);
+  }
+
