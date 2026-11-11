@@ -398,3 +398,4 @@ html.has-cursor .cursor.is-on { opacity: 1; }
   .tab__item { padding: 0 9px; font-size: 14px; }
   .tab__tools { padding-left: 2px; }
   .panel, .toast, .preview { top: 66px; }
+  .panel { max-height: calc(100% - 78px); padding: 16px; }
