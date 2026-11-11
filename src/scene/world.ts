@@ -470,3 +470,4 @@ export class World extends Emitter {
     }
   }
 
+  // ------------------------------------------------------------ getting around
