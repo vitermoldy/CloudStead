@@ -306,3 +306,4 @@ function pondShape(): Shape {
   const rand = rng(31);
   const n = 14;
   for (let i = 0; i <= n; i++) {
+    const a = (i / n) * Math.PI * 2;
