@@ -375,3 +375,4 @@ export class World extends Emitter {
       const stand = cell ? this.standPoint(cell) : null;
       if (!cell || !stand) return this.planFree();
       const top = new Vector3(cell[0], -1, cell[1]);
+      c.run([
