@@ -291,3 +291,4 @@ fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
 .build__mark { width: 14px; height: 14px; border-radius: 50%; border: 1.5px solid var(--line-strong); justify-self: center; }
 .build li.is-done .build__mark { background: var(--ink); border-color: var(--ink); }
 .build li.is-next { background: rgba(240, 160, 75, .1); }
+.build li.is-next .build__mark { border-color: var(--accent); box-shadow: inset 0 0 0 3px var(--bg), inset 0 0 0 8px var(--accent); }
