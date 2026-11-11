@@ -324,3 +324,4 @@ function pond(): Group {
   water.rotation.x = -Math.PI / 2;
   water.position.y = 0.0;
   water.receiveShadow = true;
+  g.add(water);
