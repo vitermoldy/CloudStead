@@ -166,3 +166,5 @@ export class World extends Emitter {
     this.target.set(LOOKS.senja);
     this.resize();
     addEventListener('resize', () => this.resize());
+  }
+
