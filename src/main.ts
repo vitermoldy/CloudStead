@@ -580,3 +580,4 @@ nameInput.addEventListener('change', () => {
 
 // ------------------------------------------------------------ the mood panel
 for (const input of document.querySelectorAll<HTMLInputElement>('#time-group input')) {
+  input.checked = input.value === settings.time;
