@@ -73,3 +73,4 @@ function puffAtlas(): DataTexture {
         const down = Math.min(1, Math.max(0, (y - (base - 0.12)) / 0.1));
         ny = ny + (Math.min(ny, -0.25) - ny) * down;
         const len = Math.hypot(nx, ny, nz) || 1;
+        nx /= len;
