@@ -668,3 +668,5 @@ if (previewMinutes !== null) {
   p.hidden = false;
   p.innerHTML = `Pratinjau pulau setelah ${formatMinutesLong(previewMinutes)} fokus. Tidak ada yang disimpan. <a href="./">Kembali ke pulauku</a>`;
   $('peek-link').closest('p')!.hidden = true;
+}
+
