@@ -24,3 +24,4 @@
   --m-image: 600ms;                           /* a photograph scaling inside its mask */
   --m-image-out: 400ms;                       /* ...and settling back */
   --m-ease: var(--ease, cubic-bezier(.2, .8, .2, 1)); /* the one UI ease-out (system.css --ease): fast start, soft landing */
+  --m-ease-io: cubic-bezier(.65, 0, .35, 1);  /* the indicator: leaves and lands softly */
