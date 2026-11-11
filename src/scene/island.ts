@@ -373,3 +373,4 @@ export class Island {
   }
 
   /** The cell under a point on the island's top, or null over the edge. */
+  cellAt(x: number, z: number): Cell | null {
