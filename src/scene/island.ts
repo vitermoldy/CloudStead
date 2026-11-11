@@ -405,3 +405,4 @@ export class Island {
       t.rise += (t.target - t.rise) * Math.min(1, dt * 1.6);
       if (t.target >= 1 && t.rise > 0.995) t.rise = 1;
       const e = 1 - Math.pow(1 - t.rise, 2);
+      const sway = (1 - t.rise) * (t.target > 0 ? 1 : 0);
