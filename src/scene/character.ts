@@ -400,3 +400,4 @@ export class Character {
         had.removeFromParent();
         this.gear.delete(kind);
       }
+      return null;
