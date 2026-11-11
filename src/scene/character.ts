@@ -222,3 +222,4 @@ export class Character {
   private petAmount = 0;
   private happy = 0;
   /** What the pointer or the work asks the head to look at. */
+  looking: Vector3 | null = null;
