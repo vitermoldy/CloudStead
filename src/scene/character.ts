@@ -460,3 +460,4 @@ export class Character {
       this.head.add(g);
       g.position.set(0, 0.01, -0.005);
       g.rotation.set(0, 0, 0);
+      g.userData.neck = false;
