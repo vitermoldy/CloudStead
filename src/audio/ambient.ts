@@ -228,3 +228,4 @@ export class Ambient {
   /** A rope pulled tight over the edge. */
   private creak(): void {
     const ctx = this.ctx!;
+    const t = ctx.currentTime + 0.01;
