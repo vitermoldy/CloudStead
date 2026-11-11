@@ -288,3 +288,4 @@ export class Character {
       ear.position.set(s * 0.083, -0.005, 0);
       this.head.add(eye, arc, cheek, ear);
     }
+    this.mouth = new Mesh(new TorusGeometry(0.013, 0.003, 4, 10, Math.PI), DARK);
