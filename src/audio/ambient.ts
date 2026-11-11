@@ -245,3 +245,4 @@ export class Ambient {
     o.stop(t + 0.32);
   }
 
+  knock(work = false): void {
