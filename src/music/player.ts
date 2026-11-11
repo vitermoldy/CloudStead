@@ -182,3 +182,4 @@ export class MusicPlayer extends Emitter {
       this.emit('change');
       return;
     }
+    void this.load(index, false);
