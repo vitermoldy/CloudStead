@@ -92,3 +92,4 @@ export class Cursor {
     this.dot.style.transform = `translate3d(${this.x}px, ${this.y}px, 0)`;
     this.label.style.left = `${this.rx}px`;
     this.label.style.top = `${this.ry}px`;
+    const settled = Math.abs(this.x - this.rx) < 0.3 && Math.abs(this.y - this.ry) < 0.3;
