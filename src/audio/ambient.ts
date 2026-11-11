@@ -30,3 +30,4 @@ export class Ambient {
   private hidden = false;
   private timers: number[] = [];
 
+  constructor() {
