@@ -672,3 +672,4 @@ export class World extends Emitter {
     if (this.paused || !this.loopOn) this.frame();
   }
 
+  // ------------------------------------------------------------ pointer
