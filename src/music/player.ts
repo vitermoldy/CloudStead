@@ -183,3 +183,5 @@ export class MusicPlayer extends Emitter {
       return;
     }
     void this.load(index, false);
+  }
+
