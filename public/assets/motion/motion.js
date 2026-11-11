@@ -163,3 +163,4 @@ function counts() {
         if (state === 'run' || state === 'done') return false;
         span.textContent = p.raw;
         span.style.minWidth = '';
+        const w = span.getBoundingClientRect().width;
