@@ -927,3 +927,4 @@ export class Character {
       this.craftPiece.visible = act === 'craft';
       this.craftPiece.position.set(0, lapY + 0.02, 0.14);
       const s = (0.25 + 0.75 * p) * (this.craftKind === 'cushion' ? 0.55 : 0.85);
+      this.craftPiece.scale.setScalar(Math.max(0.05, s));
