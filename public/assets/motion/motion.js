@@ -167,3 +167,4 @@ function counts() {
         if (!w) { state = 'wait'; clearTimeout(timer); return false; }
         span.style.minWidth = `${w}px`;
         span.textContent = format(0, p);
+        if (state !== 'armed') { state = 'armed'; watch(); }
