@@ -37,3 +37,4 @@ export const START_TILES: Cell[] = [
 
 export const HOME: Cell = [0, 0];
 
+/** Present from the first visit: the boulder behind the resident. */
