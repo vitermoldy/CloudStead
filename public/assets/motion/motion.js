@@ -47,3 +47,4 @@ function nav() {
       clearTimeout(t);
       // 150ms: the panel has started to show (motion.css lets it finish its own fade)
       if (has) t = setTimeout(() => bar.classList.add('m-menu-open'), 150);
+      else bar.classList.remove('m-menu-open');
