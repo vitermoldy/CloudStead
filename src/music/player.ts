@@ -228,3 +228,4 @@ export class MusicPlayer extends Emitter {
     const n = this.queue.length;
     if (!n) return;
     let next = this.current + dir;
+    if (next >= n) {
