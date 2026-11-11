@@ -275,3 +275,4 @@ function storyLine(): string {
   if (justBuilt && performance.now() < justBuilt.until) return justBuilt.text;
   const c = world?.character;
   const next = progress.next();
+  if (c?.act === 'cheer') return `${n} selesai. Lihat hasilnya.`;
