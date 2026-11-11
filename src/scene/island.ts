@@ -88,3 +88,4 @@ function bladeGeometry(): BufferGeometry {
   const normals = new Float32Array(pos.length);
   for (let i = 1; i < normals.length; i += 3) normals[i] = 1;
   g.setAttribute('normal', new BufferAttribute(normals, 3));
+  const cols: number[] = [];
