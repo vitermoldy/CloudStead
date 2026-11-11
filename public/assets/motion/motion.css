@@ -201,3 +201,4 @@ html:not([data-motion="off"]) .field :is(input, select, textarea):focus, .m-inpu
    keeps its right edge where it rests). The off track is ink at 48% (3.3:1 or more against the knob
    and the ground, the 3:1 a control needs) */
 .m-switch {
+  position: relative; flex: none; width: 40px; height: 24px; padding: 0; border: 0; border-radius: 999px; cursor: pointer;
