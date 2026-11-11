@@ -616,3 +616,4 @@ export class Character {
   update(dt: number, time: number): void {
     this.runPlan(dt);
     const act = this.act;
+    const sitTarget = SEATED.has(act) ? 1 : 0;
