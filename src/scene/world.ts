@@ -42,3 +42,4 @@ export class World extends Emitter {
   readonly fx = new Fx();
   private clouds: Clouds;
   private sky = createSky();
+  private sun = new DirectionalLight('#ffffff', 2);
