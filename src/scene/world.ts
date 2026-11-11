@@ -121,3 +121,4 @@ export class World extends Emitter {
     this.controls = new OrbitControls(this.camera, canvas);
     this.controls.enableDamping = true;
     this.controls.dampingFactor = 0.07;
+    this.controls.enablePan = false;
