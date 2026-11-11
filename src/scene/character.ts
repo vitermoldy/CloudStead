@@ -733,3 +733,4 @@ export class Character {
           const ph = time * 4 + i * Math.PI;
           t.set(s * 0.03, this.hipY + 0.17 + Math.sin(ph) * 0.04, 0.12 + Math.cos(ph) * 0.06);
           break;
+        }
