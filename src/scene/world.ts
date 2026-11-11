@@ -313,3 +313,4 @@ export class World extends Emitter {
       if (g && !instant) {
         g.scale.setScalar(0.01);
         const grow = { t: 0 };
+        this.tweens.push((dt) => {
