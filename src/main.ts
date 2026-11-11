@@ -601,3 +601,4 @@ for (const [id, key] of soundBoxes) {
 function syncSoundBoxes(): void {
   for (const [id, key] of soundBoxes) if (key !== 'on') $<HTMLInputElement>(id).disabled = !ambient.settings.on;
 }
+syncSoundBoxes();
