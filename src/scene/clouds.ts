@@ -8,3 +8,4 @@ import type { LiveLook } from './palette';
 const VARIANTS = 4;
 const CELL = 256;
 
+/**
