@@ -9,3 +9,4 @@ const VARIANTS = 4;
 const CELL = 256;
 
 /**
+ * Four cumulus heads drawn once into an atlas. Each is a union of spheres on a flat base; the
