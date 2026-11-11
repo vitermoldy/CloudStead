@@ -290,3 +290,4 @@ fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
 .build li { display: grid; grid-template-columns: 22px minmax(0, 1fr) auto; gap: 10px; align-items: center; padding: 8px 6px; border-radius: var(--r-sm); font-size: 15px; }
 .build__mark { width: 14px; height: 14px; border-radius: 50%; border: 1.5px solid var(--line-strong); justify-self: center; }
 .build li.is-done .build__mark { background: var(--ink); border-color: var(--ink); }
+.build li.is-next { background: rgba(240, 160, 75, .1); }
