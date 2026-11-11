@@ -298,3 +298,4 @@ html:not([data-motion="off"]) .field :is(input, select, textarea):focus, .m-inpu
 .hero[data-enter] .m-w__in { display: inline-block; }
 
 /* ---------------------------------------------------------------- reduced motion */
+@media (prefers-reduced-motion: reduce) {
