@@ -91,3 +91,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
       if (i === player.current) btn.setAttribute('aria-current', 'true');
       const t = document.createElement('span');
       t.className = 'queue__title';
+      t.textContent = name;
