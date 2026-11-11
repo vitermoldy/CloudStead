@@ -45,3 +45,4 @@ export class PropSite {
       m.castShadow = true;
       this.group.add(m);
     }
+    const loop = corners.concat([corners[0]]).map(([x, z]) => new Vector3(x, 0.13, z));
