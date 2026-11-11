@@ -237,3 +237,4 @@ function pauseButton(loop) {
 function loops() {
   const els = [...document.querySelectorAll('[data-m-loop]')].filter(el => !el.__mLoop);
   if (!els.length) return;
+  if (reduced() || matchMedia('(max-width: 639px)').matches) return;   // motion.css holds them on their finished picture
