@@ -378,3 +378,4 @@ export class Island {
     return this.has(c) ? c : null;
   }
 
+  ghostAt(x: number, z: number): Cell | null {
