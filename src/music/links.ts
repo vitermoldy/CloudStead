@@ -117,3 +117,4 @@ export function loadYouTubeApi(): Promise<YTNamespace> {
   return apiPromise;
 }
 
+export interface Details {
