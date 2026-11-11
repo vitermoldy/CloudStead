@@ -239,3 +239,4 @@ export function createClouds(count: number): Clouds {
     },
     vertexShader: /* glsl */ `
       attribute vec3 aOffset;
+      attribute vec2 aSize;
