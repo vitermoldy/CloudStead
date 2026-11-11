@@ -514,3 +514,4 @@ function downloadSave(): void {
   document.body.append(a);
   a.click();
   a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 2000);
