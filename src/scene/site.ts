@@ -109,3 +109,4 @@ export class PropSite {
       const [water, ...rest] = this.parts;
       const w = 0.15 + 0.85 * Math.min(1, k * 1.4);
       water.scale.set(w, w, 1);
+      rest.forEach((o, i) => {
