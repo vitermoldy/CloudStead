@@ -691,3 +691,4 @@ export class PropsLayer {
         // Out-back: it grows a touch past its size and settles.
         const c = 1.7;
         const s = 1 + (c + 1) * Math.pow(k - 1, 3) + c * Math.pow(k - 1, 2);
+        e.group.scale.setScalar(Math.max(0.001, s));
