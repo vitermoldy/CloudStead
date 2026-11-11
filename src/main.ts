@@ -666,3 +666,4 @@ addEventListener('pointerdown', () => world?.nudge(), { passive: true });
 if (previewMinutes !== null) {
   const p = $('preview');
   p.hidden = false;
+  p.innerHTML = `Pratinjau pulau setelah ${formatMinutesLong(previewMinutes)} fokus. Tidak ada yang disimpan. <a href="./">Kembali ke pulauku</a>`;
