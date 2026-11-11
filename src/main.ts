@@ -446,3 +446,4 @@ function renderIsland(): void {
     const when = document.createElement('span');
     when.className = 'build__when';
     if (done) {
+      const at = progress.data.reachedAt[m.id];
