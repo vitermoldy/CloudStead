@@ -47,3 +47,4 @@ export const LOOKS: Record<TimeId, Look> = {
 };
 
 /** The look the real clock asks for, blended across the hour of change. */
+export function lookForHour(hour: number): { a: TimeId; b: TimeId; t: number } {
