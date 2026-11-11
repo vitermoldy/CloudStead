@@ -523,3 +523,4 @@ export class Character {
       // Nothing planned: sit if at the seat, otherwise stand and look round.
       this.act = this.atHome && this.seated ? (this.seatAct ?? 'sitIdle') : 'stand';
       this.workPoint = null;
+      return;
