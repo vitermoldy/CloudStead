@@ -42,3 +42,4 @@ body {
   color: var(--ink);
   font: 400 16px/1.45 var(--font-text);
   overflow: hidden;
+  -webkit-font-smoothing: antialiased;
