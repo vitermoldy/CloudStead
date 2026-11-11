@@ -142,3 +142,4 @@ function cloudFloor(): { mesh: Mesh; material: ShaderMaterial } {
     depthWrite: false,
     uniforms: {
       uLit: { value: new Color() },
+      uShade: { value: new Color() },
