@@ -41,3 +41,4 @@ function rockGeometry(cell: Cell, depth: number): BufferGeometry {
       const taper = Math.pow(1 - k, 0.9);
       const bulge = r === 1 ? 1.06 + rand() * 0.06 : 1;
       const jitter = 0.85 + rand() * 0.3;
+      const rad = sq * taper * bulge * jitter;
