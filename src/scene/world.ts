@@ -758,3 +758,4 @@ export class World extends Emitter {
       this.ray.setFromCamera(this.ndc, this.camera);
       const part = this.character.pick(this.ray);
       if (part) {
+        this.hover = { kind: 'char', part };
