@@ -995,3 +995,4 @@ export class World extends Emitter {
   }
 
   /** Where the resident is on screen, for the keyboard button that greets them. */
+  characterBox(): { x: number; y: number } {
