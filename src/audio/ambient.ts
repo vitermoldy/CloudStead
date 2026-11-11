@@ -211,3 +211,4 @@ export class Ambient {
   private burst(freq: number, dur: number, gain: number, q: number): void {
     const ctx = this.ctx!;
     const t = ctx.currentTime + 0.01;
+    const src = ctx.createBufferSource();
