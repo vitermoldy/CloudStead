@@ -201,3 +201,4 @@ export class Island {
   }
 
   /** How far the island reaches from its centre, for the camera. */
+  reach(): number {
