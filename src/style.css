@@ -236,3 +236,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 .now__controls { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
 .round {
   display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--line-strong);
+  background: none; color: var(--ink); transition: background-color 120ms var(--ease), border-color 120ms var(--ease);
