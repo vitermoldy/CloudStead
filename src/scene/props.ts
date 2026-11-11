@@ -230,3 +230,4 @@ function pole(): Group {
   const wire = new LineBasicMaterial({ color: '#1d1b19', transparent: true, opacity: 0.85 });
   for (const x of [-0.26, 0, 0.26]) {
     const a = new Vector3(x, 2.21, 0);
+    const b = new Vector3(8.5 + x * Math.cos(0.5), -5.2 + 2.21, -11 - x * Math.sin(0.5));
