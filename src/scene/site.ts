@@ -110,3 +110,4 @@ export class PropSite {
       const w = 0.15 + 0.85 * Math.min(1, k * 1.4);
       water.scale.set(w, w, 1);
       rest.forEach((o, i) => {
+        o.visible = k > 0.5 && i < Math.ceil(((k - 0.5) / 0.5) * rest.length);
