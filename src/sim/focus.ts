@@ -14,3 +14,4 @@ export const PHASE_LABEL: Record<Phase, string> = { focus: 'Fokus', short: 'Isti
 
 interface Saved {
   preset: PresetId;
+  phase: Phase;
