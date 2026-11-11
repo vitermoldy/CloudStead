@@ -28,3 +28,4 @@ dial **ENERGY 3 / RHYTHM 1 / MOTION 3**.
   page's one effect; it carries `data-enter="off"` because the scene has its own load motion.
 - Palette through `start.mjs brand`, taken from the reference: tab black `#0d0e11`, cloud cream
   `#e7e4d1`, low-sun gold `#f0a04b` (accent).
+- Type: Funnel Display and Funnel Sans (the first dealt pairing), self-hosted through Fontsource.
