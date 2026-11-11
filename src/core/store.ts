@@ -47,3 +47,4 @@ export const isReadOnly = (): boolean => readOnly;
 export function load<T>(section: string, fallback: T): T {
   const value = readAll()[section];
   if (value === undefined || value === null) return fallback;
+  if (fallback && typeof fallback === 'object' && !Array.isArray(fallback) && typeof value === 'object') {
