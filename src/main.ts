@@ -559,3 +559,4 @@ $('reset-cancel').addEventListener('click', () => resetDialog.close());
 $('reset-confirm').addEventListener('click', () => {
   resetDialog.close();
   timer.reset();
+  progress.reset();
