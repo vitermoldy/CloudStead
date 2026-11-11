@@ -131,3 +131,4 @@ function garden(): Group {
       const x = -0.24 + c * 0.16, z = -0.22 + r * 0.22;
       if (r === 1 && (c === 1 || c === 2)) {
         g.add(mesh(cabbage, LEAF_LIGHT, x, 0.15, z));
+      } else {
