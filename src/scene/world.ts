@@ -938,3 +938,4 @@ export class World extends Emitter {
     if (this.refitT > 0 && !this.dragging) {
       this.refitT = Math.max(0, this.refitT - dt);
       const cur = this.camera.position.distanceTo(this.controls.target);
+      const next = cur + (this.dist - cur) * Math.min(1, dt * 1.5);
