@@ -446,3 +446,4 @@ function balloon(): Group {
   const tether = new Line(new BufferGeometry().setFromPoints([new Vector3(0, 0.18, 0), new Vector3(0, 1.5, 0)]), rope);
   g.add(tether);
   g.userData.float = float;
+  g.userData.tether = tether;
