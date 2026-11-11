@@ -317,3 +317,4 @@ export class Character {
     face.position.set(0, 0.055, 0.0012);
     lid.add(lidBack, face);
     this.laptop.add(base, lid);
+    this.screenLight = new PointLight('#a9c6ff', 0, 0.7, 1.6);
