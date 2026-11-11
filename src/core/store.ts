@@ -3,3 +3,5 @@
 
 const KEY = 'cloudstead:v1';
 
+type Bag = Record<string, unknown>;
+
