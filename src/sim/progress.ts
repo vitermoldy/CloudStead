@@ -100,3 +100,4 @@ export class Progress extends Emitter {
     return done.length ? done[done.length - 1].minutes : 0;
   }
 
+  /** Adds focus time. Emits 'reach' for every milestone it passes, in order. */
