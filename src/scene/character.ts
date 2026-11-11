@@ -951,3 +951,5 @@ export class Character {
       this.lookWander.set(Math.sin(a) * 4, 0.3 + Math.random() * 1.6, Math.cos(a) * 4);
     }
     return this.root.localToWorld(this.lookWander.clone());
+  }
+
