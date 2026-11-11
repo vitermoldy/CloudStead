@@ -34,3 +34,4 @@ function rockGeometry(cell: Cell, depth: number): BufferGeometry {
       const a = (s / sides) * Math.PI * 2 + Math.PI / sides;
       // The top ring follows the square exactly so neighbouring cells meet without a seam.
       const sq = 0.5 / Math.max(Math.abs(Math.cos(a)), Math.abs(Math.sin(a)));
+      if (r === 0) {
