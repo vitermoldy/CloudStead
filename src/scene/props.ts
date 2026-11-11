@@ -246,3 +246,4 @@ function lamp(): Group {
   g.add(mesh(new BoxGeometry(0.14, 0.02, 0.14), IRON, 0.28, 1.06, 0.22));
   const bulbMat = new MeshStandardMaterial({ color: '#fff0d0', emissive: new Color('#ffb14f'), emissiveIntensity: 0 });
   g.add(mesh(new BoxGeometry(0.1, 0.13, 0.1), bulbMat, 0.28, 0.98, 0.22, false));
+  g.add(mesh(new ConeGeometry(0.1, 0.07, 4), IRON, 0.28, 1.1, 0.22));
