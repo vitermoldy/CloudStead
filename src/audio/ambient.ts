@@ -219,3 +219,4 @@ export class Ambient {
     bp.Q.value = q;
     const g = ctx.createGain();
     g.gain.setValueAtTime(0.0001, t);
+    g.gain.exponentialRampToValueAtTime(gain, t + 0.02);
