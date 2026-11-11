@@ -30,3 +30,4 @@ export class Cursor {
     this.dot = el.querySelector('.cursor__dot') as HTMLElement;
     this.label = el.querySelector('.cursor__label') as HTMLElement;
     this.enabled = matchMedia('(hover: hover) and (pointer: fine)').matches;
+    if (!this.enabled) return;
