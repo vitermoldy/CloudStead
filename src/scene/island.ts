@@ -89,3 +89,4 @@ function bladeGeometry(): BufferGeometry {
   for (let i = 1; i < normals.length; i += 3) normals[i] = 1;
   g.setAttribute('normal', new BufferAttribute(normals, 3));
   const cols: number[] = [];
+  const root = new Color('#4f5c27'), tip = new Color('#d9d27a');
