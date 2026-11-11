@@ -169,3 +169,4 @@ export class Ambient {
     const src = ctx.createBufferSource();
     src.buffer = this.noise;
     const bp = ctx.createBiquadFilter();
+    bp.type = 'bandpass';
