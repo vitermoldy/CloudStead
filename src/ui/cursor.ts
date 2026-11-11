@@ -32,3 +32,4 @@ export class Cursor {
     this.enabled = matchMedia('(hover: hover) and (pointer: fine)').matches;
     if (!this.enabled) return;
     document.documentElement.classList.add('has-cursor');
+    addEventListener('pointermove', (e) => {
