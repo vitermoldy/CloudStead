@@ -344,3 +344,4 @@ function renderHud(force = false): void {
 }
 
 // ------------------------------------------------------------ focus controls
+$('focus-toggle').addEventListener('click', () => toggleFocus());
