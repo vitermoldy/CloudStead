@@ -415,3 +415,5 @@ html.has-cursor .cursor.is-on { opacity: 1; }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition-duration: 1ms !important; animation: none !important; }
+}
+
