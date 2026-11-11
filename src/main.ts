@@ -98,3 +98,4 @@ async function startWorld(): Promise<void> {
       ambient.greet();
     }
   });
+  w.on('woke', () => speak('Eh, aku ketiduran.'));
