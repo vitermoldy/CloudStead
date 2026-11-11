@@ -371,3 +371,4 @@ export class World extends Emitter {
       return;
     }
     if (m.kind === 'tiles') {
+      const cell = this.activeTile();
