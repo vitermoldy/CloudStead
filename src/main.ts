@@ -454,3 +454,4 @@ function renderIsland(): void {
     } else {
       when.textContent = `di ${formatMinutes(m.minutes)}`;
     }
+    const sr = document.createElement('span');
