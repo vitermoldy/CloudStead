@@ -44,3 +44,4 @@ export function setReadOnly(on: boolean): void {
 
 export const isReadOnly = (): boolean => readOnly;
 
+export function load<T>(section: string, fallback: T): T {
