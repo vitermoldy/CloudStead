@@ -200,3 +200,4 @@ export class Island {
     return [...this.tiles.values()].filter((t) => t.landed).map((t) => t.cell);
   }
 
+  /** How far the island reaches from its centre, for the camera. */
