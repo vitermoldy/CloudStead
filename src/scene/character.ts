@@ -205,3 +205,4 @@ export class Character {
   private feet = [new Vector3(-0.08, 0.03, 0.13), new Vector3(0.08, 0.03, 0.11)];
   private headYaw = 0;
   private headPitch = 0.3;
+  private headRoll = 0;
