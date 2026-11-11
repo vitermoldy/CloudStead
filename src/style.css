@@ -410,3 +410,4 @@ html.has-cursor .cursor.is-on { opacity: 1; }
   .big { font-size: clamp(72px, 22vh, 160px); }
 }
 
+@media (hover: none), (pointer: coarse) {
