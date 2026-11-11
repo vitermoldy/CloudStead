@@ -241,3 +241,4 @@ html:not([data-motion="off"]) .field :is(input, select, textarea):focus, .m-inpu
 /* a CSS loop the page writes inside [data-m-loop] runs one cycle in --m-cycle (2.5-4 s) and repeats
    while on screen; motion.js pauses it off screen and restarts it on hover (motion.md) */
 [data-m-loop] { --m-cycle: 3.2s; --m-still: 0.6; --m-safe: 48px; }
+/* the pause button (a 32px disc 12px in from the bottom-right corner) gets a clear band: content in
