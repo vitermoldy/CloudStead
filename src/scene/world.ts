@@ -247,3 +247,4 @@ export class World extends Emitter {
     if (m.kind === 'prop' && m.prop && m.at) {
       this.approach = this.standPoint(m.at);
       const target = new Vector3(m.at[0], 0, m.at[1]);
+      const pileAt = this.approach && m.work === 'build'
