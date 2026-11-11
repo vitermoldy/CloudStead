@@ -65,3 +65,4 @@ export function lookForHour(hour: number): { a: TimeId; b: TimeId; t: number } {
 /** A look as live three.js values, blended in place. */
 export class LiveLook {
   zenith = new Color();
+  horizon = new Color();
