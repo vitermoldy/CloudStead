@@ -97,3 +97,4 @@ function tabs() {
 // the first number in the element's text: "8,402", "4.2", "64%", "EUR 1.200", "12k"
 // separators: . , and the no-break spaces (U+00A0, U+202F); a plain space ends the number ("12 4 h" is 12)
 const NUM = /\d+(?:[.,\u00A0\u202F]\d+)*/;
+function parse(text) {
