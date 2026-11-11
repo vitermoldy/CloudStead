@@ -58,3 +58,4 @@ export function save(section: string, value: unknown): void {
   if (!timer) timer = window.setTimeout(flush, 400);
 }
 
+/** Writes now. Returns false when the browser refused (private window, full storage, preview). */
