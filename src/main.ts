@@ -343,3 +343,4 @@ function renderHud(force = false): void {
   $('focus-state').textContent = `Putaran ${timer.round} dari ${timer.config.rounds} · ${timer.active ? (timer.running ? timer.phaseLabel.toLowerCase() + ' berjalan' : timer.phaseLabel.toLowerCase() + ' dijeda') : 'belum dimulai'}`;
 }
 
+// ------------------------------------------------------------ focus controls
