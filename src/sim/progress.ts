@@ -105,3 +105,4 @@ export class Progress extends Emitter {
     if (!(ms > 0)) return;
     const d = this.data;
     if (d.todayDate !== today()) {
+      d.todayDate = today();
