@@ -445,3 +445,4 @@ export class Character {
   setCraft(kind: Gear | null, p = 0): void {
     if (kind !== this.craftKind) {
       this.craftPiece?.removeFromParent();
+      this.craftPiece = kind ? makeGear(kind) : null;
