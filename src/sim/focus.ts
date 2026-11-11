@@ -69,3 +69,4 @@ export class FocusTimer extends Emitter {
   }
 
   /** True once a block has been started and not reset. */
+  get active(): boolean {
