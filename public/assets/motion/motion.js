@@ -94,3 +94,4 @@ function tabs() {
 }
 
 /* ---------------------------------------------------------------- numbers */
+// the first number in the element's text: "8,402", "4.2", "64%", "EUR 1.200", "12k"
