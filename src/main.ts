@@ -437,3 +437,4 @@ function renderIsland(): void {
   list.replaceChildren(...MILESTONES.map((m) => {
     const li = document.createElement('li');
     const done = progress.isReached(m);
+    li.className = done ? 'is-done' : m === next ? 'is-next' : 'is-locked';
