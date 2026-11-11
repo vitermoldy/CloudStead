@@ -848,3 +848,4 @@ export class Character {
       this.eyes[i].scale.y = act === 'sleep' || this.blink > 0 ? 0.15 : 1.3;
       this.happyEyes[i].visible = closed && act !== 'sleep';
       (this.blush[i].material as MeshBasicMaterial).opacity = this.petAmount * 0.75;
+    }
