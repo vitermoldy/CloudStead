@@ -51,3 +51,4 @@ function puffAtlas(): DataTexture {
           // Where billows overlap, blend their normals over a few texels instead of a hard switch:
           // a hard switch turns into stair steps once a near cloud is magnified.
           let sx = 0, sy = 0, sz = 0, ws = 0;
+          for (const c of circles) {
