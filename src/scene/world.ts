@@ -185,3 +185,4 @@ export class World extends Emitter {
       if (m.kind === 'gear' && m.gear) this.character.setGear(m.gear, true);
     }
     this.updateGhosts(reached);
+    this.replan = true;
