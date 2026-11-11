@@ -9,3 +9,4 @@ VMK.
 
 ## Menjalankan
 
+```bash
