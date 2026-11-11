@@ -503,3 +503,4 @@ $('save-now-2').addEventListener('click', saveProgress);
 function downloadSave(): void {
   if (isReadOnly()) {
     toast('Ini pratinjau, jadi tidak ada simpanan untuk diunduh.');
+    return;
