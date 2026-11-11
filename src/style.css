@@ -151,3 +151,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 .story__line { margin: 0; font-size: 16px; line-height: 1.35; text-wrap: pretty; }
 .next__row { display: flex; justify-content: space-between; gap: 12px; font-size: 14px; color: var(--muted); }
 .next__row strong { color: var(--ink); font-weight: 500; }
+.next__left { white-space: nowrap; font-variant-numeric: tabular-nums; }
