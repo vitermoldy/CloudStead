@@ -228,3 +228,4 @@ function pole(): Group {
   far.userData.late = true;
   g.add(far);
   const wire = new LineBasicMaterial({ color: '#1d1b19', transparent: true, opacity: 0.85 });
+  for (const x of [-0.26, 0, 0.26]) {
