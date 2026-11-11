@@ -729,3 +729,4 @@ export class Character {
         case 'water':
           t.set(s * 0.12, this.hipY - 0.02, 0.02);
           break;
+        case 'haul': {
