@@ -172,3 +172,4 @@ export class Fx {
           p.max = 0.7; p.size = 0.025; p.grow = 0; p.gravity = 2.2;
           break;
         case 'steam':
+          p.vel.set((Math.random() - 0.5) * 0.03, 0.09, (Math.random() - 0.5) * 0.03);
