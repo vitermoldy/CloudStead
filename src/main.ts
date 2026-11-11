@@ -272,3 +272,4 @@ function phaseLine(): string {
 
 function storyLine(): string {
   const n = progress.name;
+  if (justBuilt && performance.now() < justBuilt.until) return justBuilt.text;
