@@ -148,3 +148,4 @@ export class Progress extends Emitter {
   persist(now = false): boolean {
     save('progress', this.data);
     if (!now) return true;
+    this.unsavedMs = 0;
