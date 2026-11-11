@@ -69,3 +69,4 @@ function rockGeometry(cell: Cell, depth: number): BufferGeometry {
     }
   }
   const bottom = pts[rings];
+  const tip = new Vector3(tipX, -0.4 - depth - 0.35, tipZ);
