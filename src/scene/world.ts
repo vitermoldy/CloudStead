@@ -865,3 +865,4 @@ export class World extends Emitter {
     this.context.night = L.night;
     this.context.time = t;
 
+    // Who the resident looks at: the work in hand, a poked spot, the pointer, or around.
