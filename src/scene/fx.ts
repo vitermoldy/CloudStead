@@ -146,3 +146,4 @@ export class Fx {
       p.spin = 0;
       switch (kind) {
         case 'heart':
+          p.vel.set((Math.random() - 0.5) * 0.25, 0.45 + Math.random() * 0.25, (Math.random() - 0.5) * 0.25);
