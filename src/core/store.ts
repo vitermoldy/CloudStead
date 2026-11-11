@@ -110,3 +110,4 @@ export function clearSection(section: string): void {
 
 addEventListener('pagehide', () => {
   if (timer) saveNow();
+});
