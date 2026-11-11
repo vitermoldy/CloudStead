@@ -380,3 +380,4 @@ function enter() {
       const t = { duration: 520, delay: above ? 40 : after + Math.min(k++, 6) * 60, easing: EASE, fill: 'both' };
       anims.push(el.animate([{ opacity: 0 }, { opacity: 1 }], t), el.animate([{ transform: 'translateY(12px)' }, { transform: 'none' }], { ...t, composite: 'add' }));
     });
+    // a panel the words sit on stands from the first paint (it was never hidden, so it never blinks);
