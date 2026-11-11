@@ -626,3 +626,4 @@ export class PropsLayer {
           p.needsUpdate = true;
         };
         break;
+      case 'waterfall':
