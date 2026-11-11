@@ -397,3 +397,4 @@ export class Character {
     const had = this.gear.get(kind);
     if (!on) {
       if (had) {
+        had.removeFromParent();
