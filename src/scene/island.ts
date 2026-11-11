@@ -271,3 +271,4 @@ export class Island {
     let order = 0;
     for (const c of cells) {
       const key = cellKey(c);
+      if (this.tiles.has(key)) continue;
