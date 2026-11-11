@@ -390,3 +390,4 @@ function enter() {
 
 /* ---------------------------------------------------------------- start */
 export function init() {
+  if (html.dataset.motion === 'off') { html.classList.add('m-enter-done'); return; }
