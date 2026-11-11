@@ -503,3 +503,4 @@ function waterfall(): Group {
   mist.scale.set(1.4, 0.6, 1.4);
   g.add(mist);
   g.userData.mat = mat;
+  return g;
