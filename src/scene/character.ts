@@ -653,3 +653,4 @@ export class Character {
     const forward = new Vector3().crossVectors(side, this.spine).normalize();
     side.crossVectors(this.spine, forward).normalize();
     span(this.torso, pelvis, neck);
+    this.hood.position.copy(neck).addScaledVector(forward, -0.035).addScaledVector(this.spine, -0.005);
