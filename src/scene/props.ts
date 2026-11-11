@@ -321,3 +321,4 @@ function pond(): Group {
     new ExtrudeGeometry(pondShape(), { depth: 0.02, bevelEnabled: false }),
     new MeshStandardMaterial({ color: '#3d6e77', roughness: 0.12, metalness: 0.15 }),
   );
+  water.rotation.x = -Math.PI / 2;
