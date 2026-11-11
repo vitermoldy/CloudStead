@@ -127,3 +127,4 @@ export function makeGear(kind: Gear): Group {
         const b = m(new BoxGeometry(0.15 - i * 0.012, 0.035, 0.11), col);
         b.position.set(0, 0.018 + i * 0.036, 0);
         b.rotation.y = (i - 1) * 0.18;
+        g.add(b);
