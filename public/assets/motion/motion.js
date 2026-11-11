@@ -381,3 +381,4 @@ function enter() {
       anims.push(el.animate([{ opacity: 0 }, { opacity: 1 }], t), el.animate([{ transform: 'translateY(12px)' }, { transform: 'none' }], { ...t, composite: 'add' }));
     });
     // a panel the words sit on stands from the first paint (it was never hidden, so it never blinks);
+    // the pictures settle by CSS over 1.1 s: the hero is done when both are through
