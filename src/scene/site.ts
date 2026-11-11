@@ -25,3 +25,4 @@ export class PropSite {
   private ghostCut = new Plane(new Vector3(0, 1, 0), 0);
   private lo = 0;
   private hi = 1;
+  private pile = new Group();
