@@ -446,3 +446,4 @@ export class World extends Emitter {
       options.push([2, () => {
         const pl = plants[Math.floor(Math.random() * plants.length)];
         const stand = this.standPoint(pl.cell);
+        if (!stand) return [];
