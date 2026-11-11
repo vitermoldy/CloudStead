@@ -3,3 +3,5 @@
 const VIDEO_ID = /^[A-Za-z0-9_-]{11}$/;
 const LIST_ID = /^[A-Za-z0-9_-]{10,64}$/;
 
+export class LinkError extends Error {}
+
