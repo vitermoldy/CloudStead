@@ -343,3 +343,4 @@ function pond(): Group {
   const rings: Mesh[] = [];
   const ringGeo = new TorusGeometry(1, 0.012, 4, 32);
   for (let i = 0; i < 4; i++) {
+    const r = new Mesh(ringGeo, new MeshBasicMaterial({ color: '#d9ecee', transparent: true, opacity: 0 }));
