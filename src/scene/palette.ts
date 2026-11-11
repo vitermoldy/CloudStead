@@ -104,3 +104,4 @@ export class LiveLook {
     this.zenith.lerp(target.zenith, k);
     this.horizon.lerp(target.horizon, k);
     this.glow.lerp(target.glow, k);
+    this.sun.lerp(target.sun, k);
