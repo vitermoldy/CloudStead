@@ -254,3 +254,4 @@ export function createClouds(count: number): Clouds {
       void main() {
         vec3 c = aOffset;
         // Wind from the west; puffs wrap round a wide square so the sea never runs out.
+        c.x = mod(c.x + uTime * aMeta.z + uSpan, uSpan * 2.0) - uSpan;
