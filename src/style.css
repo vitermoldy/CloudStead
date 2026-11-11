@@ -46,3 +46,4 @@ body {
 }
 button, input, select { font: inherit; color: inherit; }
 button, a[href], label[for], summary, select, input[type="checkbox"], input[type="radio"], input[type="range"], .choice, .check, .segments label { cursor: pointer; }
+button:disabled { cursor: not-allowed; opacity: .5; }
