@@ -139,3 +139,4 @@ export class Island {
 
   constructor() {
     this.grassMat = new MeshStandardMaterial({ color: '#6b7b36', roughness: 0.95 });
+    this.dirtTopMat = new MeshStandardMaterial({ color: '#8a6a47', roughness: 1 });
