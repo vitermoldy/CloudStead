@@ -123,3 +123,4 @@ function format(v, p) {
 const fontsIn = () => Promise.race([document.fonts?.ready ?? Promise.resolve(), new Promise(r => setTimeout(r, 3000))]);
 function counts() {
   const els = [...document.querySelectorAll('[data-m-count]')].filter(el => !el.__mCount);
+  if (!els.length || reduced() || shot()) return;
