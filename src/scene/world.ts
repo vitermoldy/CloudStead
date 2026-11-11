@@ -344,3 +344,4 @@ export class World extends Emitter {
   private think(): void {
     if (this.mode === 'rest') {
       this.character.run([...this.goHome(), { kind: 'sit', act: 'rest', seconds: 1e9 }]);
+      return;
