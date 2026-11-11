@@ -427,3 +427,4 @@ export class World extends Emitter {
     if (this.idleFor > 150) {
       c.run([...this.goHome(), { kind: 'sit', act: 'sleep', seconds: 1e9 }]);
       return;
+    }
