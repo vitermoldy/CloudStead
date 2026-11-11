@@ -254,3 +254,4 @@ export class MusicPlayer extends Emitter {
       const data = this.player!.getVideoData?.() || {};
       this.nowTitle = data.title || '';
       if (item && item.kind === 'video' && !item.title && data.title) {
+        item.title = data.title;
