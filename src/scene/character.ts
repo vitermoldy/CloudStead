@@ -39,3 +39,4 @@ const DARK = new MeshBasicMaterial({ color: '#1b1512' });
 function reach(a: Vector3, target: Vector3, l1: number, l2: number, pole: Vector3, mid: Vector3, end: Vector3): void {
   const d = target.clone().sub(a);
   const dist = clamp(d.length(), Math.abs(l1 - l2) + 0.002, l1 + l2 - 0.0005);
+  const dir = d.lengthSq() > 1e-8 ? d.normalize() : new Vector3(0, -1, 0);
