@@ -516,3 +516,4 @@ function downloadSave(): void {
   a.remove();
   setTimeout(() => URL.revokeObjectURL(a.href), 2000);
   toast('Berkas simpanan diunduh.');
+}
