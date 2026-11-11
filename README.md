@@ -25,3 +25,4 @@ tetap berjalan; hanya pulaunya yang tidak tergambar.
   istirahat panjang 20 menit). VMK hanya bekerja selama fase fokus berjalan.
 - **VMK yang membangun.** 28 proyek, dari bunga liar di menit ke-5 sampai air terjun di 23 jam
   20 menit; pulau mulai dari 9 petak dan menjadi 37. Selama fase fokus berjalan, VMK mengerjakan
+  proyek berikutnya dan hasilnya naik sedikit demi sedikit sesuai persentasenya:
