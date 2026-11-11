@@ -629,3 +629,4 @@ export class World extends Emitter {
     this.idleFor = 0;
     if (this.character.act === 'sleep') {
       this.replan = true;
+      this.emit('woke');
