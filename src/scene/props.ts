@@ -429,3 +429,4 @@ function balloon(): Group {
   const cream = new Color('#ece2c6'), warm = new Color('#d9733a');
   const pos = env.getAttribute('position');
   for (let i = 0; i < pos.count; i++) {
+    const a = Math.atan2(pos.getZ(i), pos.getX(i));
