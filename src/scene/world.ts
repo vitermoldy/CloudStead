@@ -711,3 +711,4 @@ export class World extends Emitter {
       if (c.hasPointerCapture(e.pointerId)) c.releasePointerCapture(e.pointerId);
       if (!p) return;
       if (p.petting) {
+        this.character.petting = false;
