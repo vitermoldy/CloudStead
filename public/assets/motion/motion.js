@@ -325,3 +325,4 @@ function enterSteps(hero, h1, media) {
     else [...el.children].forEach(take);
   };
   hero.querySelectorAll(ENTER_TEXT).forEach(take);
+  return out.filter(el => !el.closest('[aria-hidden="true"]') && !out.some(o => o !== el && o.contains(el)))
