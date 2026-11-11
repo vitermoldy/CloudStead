@@ -46,3 +46,4 @@ function puffAtlas(): DataTexture {
           }
           if (d < c.r) best = Math.max(best, c.z + Math.sqrt(c.r * c.r - d * d));
         }
+        let nx = rx, ny = ry, nz = 0;
