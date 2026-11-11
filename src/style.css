@@ -137,3 +137,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
   letter-spacing: -0.06em; color: var(--ink); user-select: none; transition: color 600ms var(--ease);
   text-shadow: 0 0 60px rgba(0, 0, 0, .18);
 }
+.big__d { display: inline-block; width: 0.56em; text-align: center; }
