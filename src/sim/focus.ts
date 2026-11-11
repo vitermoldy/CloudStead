@@ -140,3 +140,4 @@ export class FocusTimer extends Emitter {
     if (ms > 0) this.onFocusTime(Math.min(ms, this.lengthMs('focus')));
   }
 
+  private advance(keepRunning: boolean, completed = true): void {
