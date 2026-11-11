@@ -520,3 +520,4 @@ export class Character {
     const step = this.plan[0];
     const pos = this.root.position;
     if (!step) {
+      // Nothing planned: sit if at the seat, otherwise stand and look round.
