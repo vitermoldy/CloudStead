@@ -35,3 +35,4 @@ dial **ENERGY 3 / RHYTHM 1 / MOTION 3**.
 
 | Decision | Reason |
 | --- | --- |
+| Vite, TypeScript and a live Three.js scene, no React or shadcn | One screen with a canvas: a framework adds nothing, and the owner's other ambient apps use the same stack. The reference's pasted component is a reference only. |
