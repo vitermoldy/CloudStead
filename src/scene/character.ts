@@ -482,3 +482,5 @@ export class Character {
     this.plan = steps;
     this.stepT = 0;
     this.beats = 0;
+  }
+
