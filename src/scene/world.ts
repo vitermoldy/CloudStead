@@ -300,3 +300,4 @@ export class World extends Emitter {
       const e = this.addProp(m.prop, m.at, false);
       e.wiggle = instant ? 0 : 1;
       if (!instant) {
+        this.fx.spawn('dust', new Vector3(m.at[0], 0.1, m.at[1]), 10);
