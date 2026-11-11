@@ -10,3 +10,4 @@ export class Emitter {
       set = new Set();
       this.handlers.set(event, set);
     }
+    set.add(fn);
