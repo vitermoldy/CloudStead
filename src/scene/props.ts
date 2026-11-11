@@ -186,3 +186,4 @@ function hut(): Group {
   g.add(door);
   const roofMat = std('#3b2f28', { flatShading: true });
   const roofGeo = new BoxGeometry(0.06, 1.12, 1.04);
+  for (const s of [-1, 1]) {
