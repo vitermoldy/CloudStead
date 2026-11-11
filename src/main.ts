@@ -563,3 +563,4 @@ $('reset-confirm').addEventListener('click', () => {
   world?.sync(new Set());
   world?.setProgress(progress.next(), 0);
   world?.resetView();
+  justBuilt = null;
