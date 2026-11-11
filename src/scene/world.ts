@@ -86,3 +86,4 @@ export class World extends Emitter {
   private maxRatio: number;
   private inkRects: () => DOMRect[] = () => [];
   private inkClock = 0;
+  private moving = false;
