@@ -324,3 +324,4 @@ export function createClouds(count: number): Clouds {
     const span = material.uniforms.uSpan.value as number;
     order.sort((ia, ib) => {
       const pa = puffs[ia], pb = puffs[ib];
+      const xa = ((pa.x + time * pa.speed + span) % (span * 2) + span * 2) % (span * 2) - span;
