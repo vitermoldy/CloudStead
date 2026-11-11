@@ -136,3 +136,4 @@ export class FocusTimer extends Emitter {
 
   private credit(until: number): void {
     const ms = until - this.creditedAt;
+    this.creditedAt = until;
