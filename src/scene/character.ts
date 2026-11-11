@@ -667,3 +667,4 @@ export class Character {
     for (let i = 0; i < 2; i++) {
       const s = i === 0 ? 1 : -1;
       const seatedFoot = new Vector3(-s * 0.075, 0.035 + cushion * 0.6, 0.12 - i * 0.015);
+      const ph = this.walkPhase + i * Math.PI;
