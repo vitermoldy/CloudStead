@@ -277,3 +277,4 @@ export class World extends Emitter {
       m.tiles.forEach((c, i) => this.island.setRise(c, Math.max(0, Math.min(0.999, this.p * n - i))));
       if (this.paused || this.instant) this.island.settle();
     } else if (m.kind === 'gear' && m.gear) {
+      this.character.setCraft(m.gear, this.p);
