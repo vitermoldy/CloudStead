@@ -211,3 +211,4 @@ export class Character {
   private nextBlink = 2;
   private screenTick = 0;
   private screenLines = 0;
+  private waveT = 0;
