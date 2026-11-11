@@ -531,3 +531,4 @@ export class Character {
       d = Math.atan2(Math.sin(d), Math.cos(d));
       this.heading += d * Math.min(1, dt * rate);
     };
+    switch (step.kind) {
