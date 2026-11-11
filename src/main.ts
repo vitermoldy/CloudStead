@@ -55,3 +55,4 @@ const pick = <T,>(list: T[]): T => list[Math.floor(Math.random() * list.length)]
 const clockNow = () => new Date().toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit' });
 
 
+// ------------------------------------------------------------ the world
