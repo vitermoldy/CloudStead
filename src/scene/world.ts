@@ -969,3 +969,4 @@ export class World extends Emitter {
     let sum = 0, n = 0, max = 0;
     for (const r of rects) {
       for (let i = 0; i < 5; i++) {
+        for (let j = 0; j < 3; j++) {
