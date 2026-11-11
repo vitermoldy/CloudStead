@@ -91,3 +91,5 @@ export class Fx {
   private birds = new Group();
   private birdClock = 12;
   private birdT = -1;
+  private birdDir = 1;
+
