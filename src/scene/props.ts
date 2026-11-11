@@ -359,3 +359,4 @@ function windmill(): Group {
   g.add(mesh(new CylinderGeometry(0.13, 0.23, 1.45, 6), std('#d8cbb0', { flatShading: true }), 0, 0.72, 0));
   g.add(mesh(new ConeGeometry(0.19, 0.3, 6), std('#4a3a30', { flatShading: true }), 0, 1.6, 0));
   g.add(mesh(new BoxGeometry(0.1, 0.18, 0.02), WOOD_DARK, 0, 0.12, 0.2, false));
+  const hub = new Group();
