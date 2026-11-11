@@ -306,3 +306,4 @@ export class Island {
           g.add(m);
         }
       }
+      g.userData.ghost = c;
