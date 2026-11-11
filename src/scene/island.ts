@@ -391,3 +391,4 @@ export class Island {
     this.highlightTarget = cell ? 1 : 0;
   }
 
+  get rising(): boolean {
