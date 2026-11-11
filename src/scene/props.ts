@@ -615,3 +615,4 @@ export class PropsLayer {
           free.userData.age = 0;
         };
         break;
+      case 'balloon':
