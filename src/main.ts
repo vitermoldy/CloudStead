@@ -287,3 +287,4 @@ function storyLine(): string {
   const pct = Math.floor(projectShare() * 100);
   if (timer.active) return `Fokus dijeda. ${n} berhenti kerja, ${next.title.toLowerCase()} di ${pct}%.`;
   return pct > 0
+    ? `${n} menunggu kamu fokus. ${next.title} berhenti di ${pct}%.`
