@@ -122,3 +122,5 @@ export interface Details {
   author?: string;
   thumb?: string;
   error?: 'private' | 'missing' | null;
+}
+
