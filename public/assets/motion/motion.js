@@ -11,3 +11,4 @@
 
   - nav: .m-menu-open from the moment a menu starts to show (150ms of intent), so the next word swaps the panel at once
     instead of waiting 150ms again; it stays while the pointer is on the word or its panel.
+  - tabs: every .tabs[role=tablist] gets one indicator that slides to the selected tab (system.js
