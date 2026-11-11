@@ -165,3 +165,4 @@ function hut(): Group {
     s.lineTo(-0.4, 0);
     if (door) {
       const hole = new Shape();
+      hole.moveTo(-0.12, 0);
