@@ -568,3 +568,4 @@ export class PropsLayer {
         break;
       case 'hut':
         e.update = (_dt, ctx) => {
+          (u.glow as MeshBasicMaterial).opacity = Math.min(1, ctx.night * 1.1) * 0.9;
