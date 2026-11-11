@@ -456,3 +456,4 @@ export class Character {
   private place(kind: Gear): void {
     const g = this.gear.get(kind);
     if (!g || kind !== 'headphones') return;
+    if (this.musicOn) {
