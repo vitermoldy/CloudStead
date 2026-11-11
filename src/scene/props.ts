@@ -527,3 +527,4 @@ export function buildProp(kind: PropKind): Group {
 }
 
 /** How a piece shows its progress while it is being made. */
+export const REVEAL: Record<PropKind, 'rise' | 'parts' | 'pond' | 'fall'> = {
