@@ -35,3 +35,4 @@ tetap berjalan; hanya pulaunya yang tidak tergambar.
   proyeknya, atau main laptop, dan proyeknya berhenti di persentase terakhir. Daftar lengkapnya ada
   di panel **Pulau** dan di [src/sim/milestones.ts](src/sim/milestones.ts).
 - **Simpan dan reset.** Progres tersimpan otomatis di browser (localStorage). Tombol simpan
+  (ikon disket, atau tombol S) menyimpan saat itu juga. Di panel **Pulau** ada unduh berkas
