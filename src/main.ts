@@ -65,3 +65,4 @@ async function startWorld(): Promise<void> {
   const { World } = await import('./scene/world');
   if (!World.supported()) {
     $('fallback').hidden = false;
+    return;
