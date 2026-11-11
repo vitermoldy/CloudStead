@@ -493,3 +493,4 @@ export class Character {
   }
 
   get atHome(): boolean {
+    return this.root.position.distanceTo(this.home) < 0.05;
