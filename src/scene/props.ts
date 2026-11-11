@@ -354,3 +354,4 @@ function pond(): Group {
   return g;
 }
 
+function windmill(): Group {
