@@ -833,3 +833,4 @@ export class Character {
       phones.scale.setScalar(1);
     }
 
+    // ---- face
