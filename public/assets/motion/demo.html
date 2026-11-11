@@ -468,3 +468,4 @@
     e.preventDefault();
     const dark = h.dataset.theme !== 'dark';
     if (dark) h.dataset.theme = 'dark'; else delete h.dataset.theme;
+    sw.setAttribute('aria-checked', String(dark));
