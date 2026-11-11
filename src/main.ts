@@ -186,3 +186,4 @@ function onGreet(): void {
     speak(pick(next ? [
       `Lagi kerja, nih. ${next.title} sudah ${pct}%.`,
       `Kamu fokus, aku kerja. ${left} lagi ${next.title.toLowerCase()} jadi.`,
+      'Sebentar, tanggung. Lanjut fokus, ya.',
