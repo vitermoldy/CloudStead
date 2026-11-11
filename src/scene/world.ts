@@ -326,3 +326,4 @@ export class World extends Emitter {
     this.approach = null;
     this.emit('built', m);
     const reached = new Set(MILESTONES.filter((x) => x.minutes <= m.minutes).map((x) => x.id));
+    this.updateGhosts(reached);
