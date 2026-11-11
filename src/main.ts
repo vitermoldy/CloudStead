@@ -643,3 +643,4 @@ addEventListener('keydown', (e) => {
     return;
   }
   if (typing || e.ctrlKey || e.metaKey || e.altKey) return;
+  const onControl = t.closest('button, a, label, summary');
