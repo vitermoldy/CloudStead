@@ -136,3 +136,5 @@ export class PropSite {
     m.receiveShadow = true;
     this.pile.add(m);
     this.planks++;
+  }
+
