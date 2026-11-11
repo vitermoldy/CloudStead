@@ -181,3 +181,4 @@ export class FocusTimer extends Emitter {
     save('focus', s);
   }
 
+  private commit(): void {
