@@ -267,3 +267,4 @@ export function createClouds(count: number): Clouds {
         vSunView = normalize((viewMatrix * vec4(uSunDir, 0.0)).xyz);
         vDist = length(mv.xyz);
         vToward = max(dot(normalize(world - cameraPosition), normalize(uSunDir)), 0.0);
+      }
