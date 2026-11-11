@@ -311,3 +311,4 @@ function pondShape(): Shape {
     const p = new Vector2(Math.cos(a) * r, Math.sin(a) * r);
     if (i === 0) s.moveTo(p.x, p.y);
     else s.lineTo(p.x, p.y);
+  }
