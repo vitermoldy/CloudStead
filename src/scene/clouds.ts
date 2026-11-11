@@ -151,3 +151,4 @@ function cloudFloor(): { mesh: Mesh; material: ShaderMaterial } {
       varying vec3 vWorld;
       void main() {
         vec4 w = modelMatrix * vec4(position, 1.0);
+        vWorld = w.xyz;
