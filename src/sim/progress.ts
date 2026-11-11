@@ -90,3 +90,4 @@ export class Progress extends Emitter {
     return MILESTONES.filter((m) => this.isReached(m));
   }
 
+  next(): Milestone | null {
