@@ -102,3 +102,4 @@ function tree(): Group {
   trunk.rotation.z = 0.05;
   g.add(trunk);
   const crown = new Group();
+  crown.position.y = 1.15;
