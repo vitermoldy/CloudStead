@@ -453,3 +453,4 @@ export class World extends Emitter {
     }
     const m = this.project;
     if (m && m.kind === 'prop' && this.approach && this.p > 0) {
+      // Goes to look at the unfinished piece now and then.
