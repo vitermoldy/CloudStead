@@ -309,3 +309,4 @@ export class World extends Emitter {
       this.island.setGhosts([]);
     } else if (m.kind === 'gear' && m.gear) {
       this.character.setCraft(null);
+      const g = this.character.setGear(m.gear, true);
