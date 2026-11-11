@@ -56,3 +56,4 @@ dial **ENERGY 3 / RHYTHM 1 / MOTION 3**.
 | Senja (golden hour) by default, with morning, midday, night and "follow the clock" | The reference's light is the first impression; the other times give long sessions a change. Night lights the lamp, the hut and the laptop screen. |
 | Sound made in the browser: wind, birds by day and crickets at night, the resident's keys, building knocks | The island's own sound under the visitor's music; it ducks when music plays and every layer has its own switch. |
 | Music by pasted YouTube or YouTube Music links, plus two public Lofi Girl live streams as suggestions | Same approach as StudyCabin; the suggestions were live and embeddable on 12 November 2026 (live stream addresses change when a stream restarts). |
+| Green hoodie, dark hair, headphones (on the ears with music, round the neck without) | The same person as the owner's profile art, so the resident reads as theirs. |
