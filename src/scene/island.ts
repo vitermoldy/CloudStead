@@ -218,3 +218,4 @@ export class Island {
       t.landed = false;
       t.group.position.y = -11;
       this.tiles.set(key, t);
+      this.group.add(t.group);
