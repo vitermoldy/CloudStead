@@ -896,3 +896,4 @@ export class World extends Emitter {
 
     // Without a timer, nothing happening for a while sends the resident to sleep.
     if (this.mode === 'free') {
+      this.idleFor += dt;
