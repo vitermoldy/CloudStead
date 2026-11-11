@@ -660,3 +660,4 @@ export class World extends Emitter {
     this.camera.aspect = w / h;
     // Lift the island above the big clock: more on a phone held upright.
     const shift = w / h < 0.8 ? 0.16 : 0.09;
+    this.camera.setViewOffset(w, h, 0, h * shift, w, h);
