@@ -374,3 +374,5 @@ function windmill(): Group {
   g.userData.hub = hub;
   g.userData.spin = 0;
   return g;
+}
+
