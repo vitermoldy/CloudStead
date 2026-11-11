@@ -60,3 +60,4 @@ function tabs() {
     const ind = document.createElement('span');
     ind.className = 'm-tab-ind';
     ind.setAttribute('aria-hidden', 'true');
+    list.prepend(ind);
