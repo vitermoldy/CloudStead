@@ -669,3 +669,4 @@ export class Character {
       const seatedFoot = new Vector3(-s * 0.075, 0.035 + cushion * 0.6, 0.12 - i * 0.015);
       const ph = this.walkPhase + i * Math.PI;
       const standFoot = new Vector3(s * (act === 'haul' ? 0.06 : 0.05), moving ? Math.max(0, Math.sin(ph)) * 0.045 : 0.0, moving ? Math.cos(ph) * 0.075 : act === 'haul' ? (i ? -0.06 : 0.05) : 0.01);
+      if (act === 'cheer') standFoot.y = Math.max(0, Math.sin(time * 9 + i)) * 0.02;
