@@ -243,3 +243,4 @@ export class World extends Emitter {
     this.endProject();
     this.project = m;
     this.loopN = 0;
+    if (!m) return;
