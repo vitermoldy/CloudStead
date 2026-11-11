@@ -551,3 +551,4 @@ export class PropsLayer {
       o.userData.prop = entry;
     });
     if (animate) group.scale.setScalar(0.001);
+    this.group.add(group);
