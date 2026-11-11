@@ -63,3 +63,4 @@ function tabs() {
     list.prepend(ind);
     list.classList.add('m-has-ind');
     let instant = true, at = null;
+    const set = (b, sx = 1, sy = 1) => {
