@@ -313,3 +313,4 @@ function renderHud(force = false): void {
   const key = [timer.running, timer.phase, timer.round, timer.active, Math.floor(progress.minutes * 4), next?.id, world?.character.act, justBuilt?.until, progress.name].join('|');
   if (!force && key === lastHud) return;
   lastHud = key;
+  $('phase').innerHTML = phaseLine();
