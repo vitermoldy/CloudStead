@@ -77,3 +77,4 @@ function screenTexture(): { tex: CanvasTexture; draw: (lines: number, mode: 'cod
       // Resting: a moon. Away at work: the island's plan, a grid of cells.
       if (mode === 'rest') {
         ctx.fillStyle = '#e9b46a';
+        ctx.beginPath();
