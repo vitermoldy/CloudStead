@@ -7,3 +7,4 @@ const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as 
 export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void): void {
   const form = $<HTMLFormElement>('music-form');
   const input = $<HTMLInputElement>('music-link');
+  const error = $('music-error');
