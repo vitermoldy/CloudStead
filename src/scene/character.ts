@@ -158,3 +158,4 @@ export function makeGear(kind: Gear): Group {
       ring.rotation.x = Math.PI / 2;
       const tail = m(new BoxGeometry(0.04, 0.11, 0.015), '#c05a3c');
       tail.position.set(0.03, -0.06, 0.06);
+      tail.rotation.z = 0.15;
