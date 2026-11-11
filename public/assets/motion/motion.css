@@ -164,3 +164,4 @@ html:not([data-motion="off"]) .card--open > .panel { transition: transform var(-
     border-color: color-mix(in oklab, var(--ink) 16%, transparent);
     /* the shadow is deeper on a dark card (its lightness l): about .2 on white, .64 on near-black */
     box-shadow: inset 0 1px 0 var(--c-hi, transparent), 0 1px 2px rgb(0 0 0 / .06),
+                0 14px 32px -18px oklch(from var(--card, #fff) 0 0 0 / calc(0.75 - l * 0.55));
