@@ -158,3 +158,4 @@ export class FocusTimer extends Emitter {
   tick(): void {
     if (!this.running) return;
     const now = Date.now();
+    if (this.phase === 'focus' && now - this.creditedAt >= 1000) {
