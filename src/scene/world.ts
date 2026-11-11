@@ -21,3 +21,5 @@ export interface Hover {
   part?: 'head' | 'body';
   prop?: PropEntry;
   cell?: Cell;
+}
+
