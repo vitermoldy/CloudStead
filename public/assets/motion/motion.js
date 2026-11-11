@@ -81,3 +81,4 @@ function tabs() {
         set({ ...to, x: at.x, y: at.y }, at.w / to.w, at.h / to.h);
         ind.getBoundingClientRect();
         jump(ind, false);
+        set(to);
