@@ -218,3 +218,4 @@ export class Fx {
         p.life += dt;
         const k = p.life / p.max;
         if (k >= 1) {
+          p.active = false;
