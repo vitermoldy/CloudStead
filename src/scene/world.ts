@@ -169,3 +169,4 @@ export class World extends Emitter {
   }
 
   // ------------------------------------------------------------ setup from progress
+  /** Makes the island match the reached milestones at once (first load, import, reset, preview). */
