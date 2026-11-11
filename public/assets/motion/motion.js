@@ -211,3 +211,4 @@ function restart(loop) {
   const main = anims.reduce((m, a) => (dur(a) > dur(m) ? a : m));
   const d = dur(main), t = Number(main.currentTime) || 0;
   // restart only when the cycle is past its first quarter, so a quick in-and-out never stutters
+  if (!d || (t % d) / d > 0.25) anims.forEach(a => { a.currentTime = 0; });
