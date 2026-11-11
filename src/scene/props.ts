@@ -7,3 +7,4 @@ import {
 import { rng } from '../core/emitter';
 import { cellKey, type Cell, type PropKind } from '../sim/milestones';
 
+export interface PropContext {
