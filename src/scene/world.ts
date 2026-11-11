@@ -867,3 +867,4 @@ export class World extends Emitter {
 
     // Who the resident looks at: the work in hand, a poked spot, the pointer, or around.
     if (this.lookHold > 0) {
+      this.lookHold -= dt;
