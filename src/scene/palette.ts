@@ -7,3 +7,4 @@ export interface Look {
   zenith: string;
   horizon: string;
   glow: string;
+  sun: string;
