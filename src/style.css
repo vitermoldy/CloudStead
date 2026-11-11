@@ -116,3 +116,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 .tab__icon:active { transform: scale(.94); }
 .tab__icon svg { width: 20px; height: 20px; fill: currentColor; }
 .tab__icon.is-saved { color: var(--accent); }
+.tab__icon--pause .i-play, .tab__icon--pause[aria-pressed="true"] .i-pause { display: none; }
