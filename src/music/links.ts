@@ -26,3 +26,4 @@ export function parseLink(raw: string): ParsedLink {
     url = new URL(/^https?:\/\//i.test(text) ? text : `https://${text}`);
   } catch {
     throw new LinkError(notLink);
+  }
