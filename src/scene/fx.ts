@@ -90,3 +90,4 @@ export class Fx {
   private flyBase: Float32Array;
   private birds = new Group();
   private birdClock = 12;
+  private birdT = -1;
