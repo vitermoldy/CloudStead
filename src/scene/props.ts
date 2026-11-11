@@ -452,3 +452,4 @@ function balloon(): Group {
 
 function waterfall(): Group {
   const g = new Group();
+  // A channel from the pond to the south rim, then the drop.
