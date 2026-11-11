@@ -269,3 +269,4 @@ export class MusicPlayer extends Emitter {
     } else if (s === YT.PlayerState.BUFFERING) {
       this.status = 'buffering';
     } else if (s === YT.PlayerState.ENDED) {
+      if (item && item.kind === 'playlist') {
