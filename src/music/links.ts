@@ -139,3 +139,5 @@ export async function fetchDetails(item: { kind: string; videoId: string | null;
   } finally {
     clearTimeout(timer);
   }
+}
+
