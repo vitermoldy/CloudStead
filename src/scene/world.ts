@@ -923,3 +923,4 @@ export class World extends Emitter {
     if (this.character.hasGear('mug') && (this.character.act === 'rest' || L.night > 0.6)) {
       this.steamClock -= dt;
       if (this.steamClock <= 0) {
+        this.steamClock = 0.7;
