@@ -346,3 +346,4 @@ function pond(): Group {
     const r = new Mesh(ringGeo, new MeshBasicMaterial({ color: '#d9ecee', transparent: true, opacity: 0 }));
     r.rotation.x = -Math.PI / 2;
     r.position.y = 0.03;
+    r.userData.age = 9;
