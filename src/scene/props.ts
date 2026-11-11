@@ -405,3 +405,4 @@ function telescope(): Group {
   }
   const tube = new Group();
   tube.position.y = 0.55;
+  tube.rotation.set(-0.75, 0.5, 0);
