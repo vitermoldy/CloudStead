@@ -383,3 +383,4 @@ export class Island {
     return this.ghostCells().find((g) => g[0] === c[0] && g[1] === c[1]) ?? null;
   }
 
+  showHighlight(cell: Cell | null): void {
