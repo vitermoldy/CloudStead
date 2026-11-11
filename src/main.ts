@@ -693,3 +693,4 @@ try {
   /* private window */
 }
 
+void startWorld();
