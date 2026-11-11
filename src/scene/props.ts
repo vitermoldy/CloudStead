@@ -450,3 +450,4 @@ function balloon(): Group {
   return g;
 }
 
+function waterfall(): Group {
