@@ -553,3 +553,4 @@ export class World extends Emitter {
   }
 
   private get home(): Vector3 {
+    return this.character.home;
