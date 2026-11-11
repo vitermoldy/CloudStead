@@ -575,3 +575,4 @@ export class PropsLayer {
         e.update = (_dt, ctx) => {
           const on = Math.max(0, (ctx.night - 0.2) / 0.8);
           (u.bulb as MeshStandardMaterial).emissiveIntensity = on * 2.4;
+          (u.light as PointLight).intensity = on * 2.2;
