@@ -191,3 +191,4 @@ export class MusicPlayer extends Emitter {
       this.play(this.current < 0 ? 0 : this.current);
       return;
     }
+    if (this.isPlaying) this.player!.pauseVideo();
