@@ -369,3 +369,4 @@ function enter() {
     lines.forEach((ws, k) => ws.forEach(w => anims.push(w.animate(masks
       ? [{ transform: 'translateY(calc(100% + .2em))' }, { transform: 'none' }]
       : [{ transform: 'translateY(.35em)', opacity: 0 }, { transform: 'none', opacity: 1 }],
+      { duration: 700, delay: 80 + k * lineStep, easing: EASE, fill: 'both' }))));
