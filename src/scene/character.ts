@@ -121,3 +121,4 @@ export function makeGear(kind: Gear): Group {
       seam.position.y = 0.03;
       g.add(c, seam);
       break;
+    }
