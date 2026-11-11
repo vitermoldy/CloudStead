@@ -195,3 +195,4 @@ function counts() {
   addEventListener('beforeprint', () => items.forEach(el => el.__mCount.show()));
 }
 
+/* ---------------------------------------------------------------- loops inside cards */
