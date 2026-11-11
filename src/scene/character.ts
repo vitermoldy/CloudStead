@@ -352,3 +352,4 @@ export class Character {
     this.seat.position.copy(this.home);
   }
 
+  /** Hammer, shovel, watering can, a plank to carry, yarn and needles. Each hangs off the right hand. */
