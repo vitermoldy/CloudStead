@@ -387,3 +387,4 @@ export class Character {
     t.yarn.add(ball, needle);
 
     for (const g of Object.values(t)) {
+      g.visible = false;
