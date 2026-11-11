@@ -5,3 +5,4 @@ import {
 import { rng } from '../core/emitter';
 import type { LiveLook } from './palette';
 
+const VARIANTS = 4;
