@@ -33,3 +33,4 @@ function flush(): boolean {
     return true;
   } catch {
     return false;
+  }
