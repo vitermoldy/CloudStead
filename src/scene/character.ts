@@ -85,3 +85,4 @@ function screenTexture(): { tex: CanvasTexture; draw: (lines: number, mode: 'cod
         ctx.arc(70, 37, 11, 0, Math.PI * 2);
         ctx.fill();
       } else {
+        ctx.strokeStyle = '#9fc7a0';
