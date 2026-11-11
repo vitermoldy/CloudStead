@@ -226,3 +226,4 @@ function onPokeProp(e: { kind: keyof typeof PROP_TITLE; title: string }): void {
 
 function positionBubble(): void {
   if (!world) {
+    bubble.classList.remove('is-on');
