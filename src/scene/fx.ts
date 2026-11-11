@@ -83,3 +83,4 @@ interface Particle {
 }
 
 export class Fx {
+  readonly group = new Group();
