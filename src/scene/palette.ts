@@ -9,3 +9,4 @@ export interface Look {
   glow: string;
   sun: string;
   sunIntensity: number;
+  /** Direction toward the sun (or the moon at night). */
