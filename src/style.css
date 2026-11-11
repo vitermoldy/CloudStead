@@ -119,3 +119,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 .tab__icon--pause .i-play, .tab__icon--pause[aria-pressed="true"] .i-pause { display: none; }
 .tab__icon--pause[aria-pressed="true"] .i-play { display: block; }
 
+.preview {
