@@ -61,3 +61,4 @@ interface YTNamespace {
 
 export interface YTPlayer {
   setVolume(v: number): void;
+  loadVideoById(id: string): void;
