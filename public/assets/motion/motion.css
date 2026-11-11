@@ -305,3 +305,4 @@ html:not([data-motion="off"]) .field :is(input, select, textarea):focus, .m-inpu
   :is(a, button):hover > .m-arrow :is(.m-arrow__head, .m-arrow__stem) { transform: none !important; }
   .m-arrow__stem { opacity: 1; transform: none; }
   html:not([data-motion="off"]) .nav__menu { transform: none !important; }
+  /* the controls keep their state and their colour change, without travel: the tab pill and the switch
