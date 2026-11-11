@@ -148,3 +148,4 @@ function projectShare(): number {
 function onHover(h: Hover & { dragging?: boolean }, petting: boolean): void {
   hoveringResident = h.kind === 'char' || petting;
   if (h.dragging) return cursor.set('grab');
+  if (petting) return cursor.set('pet', 'Elus');
