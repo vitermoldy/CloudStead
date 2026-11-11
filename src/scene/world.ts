@@ -71,3 +71,4 @@ export class World extends Emitter {
   private refitT = 0;
   private time = 0;
   private last = performance.now();
+  private paused = false;
