@@ -201,3 +201,4 @@ function cloudFloor(): { mesh: Mesh; material: ShaderMaterial } {
   return { mesh, material };
 }
 
+export interface Clouds {
