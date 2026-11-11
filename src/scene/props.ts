@@ -366,3 +366,4 @@ function windmill(): Group {
   for (let i = 0; i < 4; i++) {
     const arm = new Group();
     arm.rotation.z = (i * Math.PI) / 2;
+    arm.add(mesh(blade, std('#efe7d2'), 0.03, 0.36, 0.03));
