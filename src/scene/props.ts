@@ -539,3 +539,4 @@ export class PropsLayer {
 
   add(kind: PropKind, cell: Cell, animate: boolean): PropEntry {
     const replaced = REPLACES[kind];
+    if (replaced) this.remove((e) => e.kind === replaced && cellKey(e.cell) === cellKey(cell));
