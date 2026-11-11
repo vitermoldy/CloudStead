@@ -118,3 +118,4 @@ html:not([data-motion="off"]) .footer ul a:hover { color: var(--ink); }
     transition: opacity var(--m-panel) var(--m-ease) 150ms, transform var(--m-panel) var(--m-ease) 150ms, visibility 0s linear 150ms;
   }
   /* .m-menu-open comes on when the first panel starts to show (150ms): from then the next word swaps
+     the panel at once. Duration and delay go to 0, the properties stay listed, so the panel that is
