@@ -556,3 +556,4 @@ $('save-reset').addEventListener('click', () => {
   $('reset-cancel').focus();
 });
 $('reset-cancel').addEventListener('click', () => resetDialog.close());
+$('reset-confirm').addEventListener('click', () => {
