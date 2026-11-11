@@ -34,3 +34,4 @@ export function parseLink(raw: string): ParsedLink {
 
   let videoId: string | null = null;
   const parts = url.pathname.split('/').filter(Boolean);
+  if (host === 'youtu.be') videoId = parts[0] || null;
