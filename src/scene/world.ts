@@ -528,3 +528,4 @@ export class World extends Emitter {
       ?? this.findPath(HOME, (c) => cellKey(c) !== tk && ring(c) === 2);
     if (!path) return null;
     const cell = path[path.length - 1];
+    const mid = new Vector3(cell[0], 0, cell[1]);
