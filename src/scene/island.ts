@@ -380,3 +380,4 @@ export class Island {
 
   ghostAt(x: number, z: number): Cell | null {
     const c: Cell = [Math.round(x), Math.round(z)];
+    return this.ghostCells().find((g) => g[0] === c[0] && g[1] === c[1]) ?? null;
