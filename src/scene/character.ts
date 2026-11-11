@@ -586,3 +586,5 @@ export class Character {
         return;
       }
     }
+  }
+
