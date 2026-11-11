@@ -517,3 +517,4 @@ export class Character {
   }
 
   private runPlan(dt: number): void {
+    const step = this.plan[0];
