@@ -59,3 +59,4 @@ html:not([data-motion="off"]) .btn:active { transform: translateY(1px) scale(.98
 /* the arrow: the text arrow (.btn--arrow, .link) nudges 3px; the drawn arrow (.m-arrow) grows its
    stem and moves its head 3px, the way a good product site's "Learn more" does. The pointer's move
    only for a fine pointer; keyboard focus shows it anywhere */
+html:not([data-motion="off"]) :is(.btn--arrow, .link)::after { transition: transform var(--m-out) var(--m-ease); }
