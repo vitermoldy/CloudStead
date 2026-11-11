@@ -860,3 +860,4 @@ export class Character {
       this.screen.draw(this.screenLines, act === 'sleep' ? 'sleep' : act === 'rest' ? 'rest' : act === 'type' || act === 'sitIdle' ? 'code' : 'away');
     }
 
+    // ---- root and the hit shapes
