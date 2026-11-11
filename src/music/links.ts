@@ -71,3 +71,4 @@ export interface YTPlayer {
   nextVideo(): void;
   previousVideo(): void;
   playVideoAt(i: number): void;
+  seekTo(s: number, allow: boolean): void;
