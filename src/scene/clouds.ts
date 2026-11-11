@@ -87,3 +87,4 @@ function puffAtlas(): DataTexture {
   tex.minFilter = LinearFilter;
   tex.magFilter = LinearFilter;
   tex.generateMipmaps = false;
+  tex.needsUpdate = true;
