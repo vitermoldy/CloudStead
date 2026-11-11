@@ -760,3 +760,4 @@ export class World extends Emitter {
       if (part) {
         this.hover = { kind: 'char', part };
         this.character.headWorld(this.hitPoint);
+      } else {
