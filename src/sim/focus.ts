@@ -185,3 +185,5 @@ export class FocusTimer extends Emitter {
     this.store();
     this.emit('change');
   }
+}
+
