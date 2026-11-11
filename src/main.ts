@@ -153,3 +153,4 @@ function onHover(h: Hover & { dragging?: boolean }, petting: boolean): void {
     case 'char': {
       const sleeping = world?.character.act === 'sleep';
       cursor.set('char', sleeping ? 'Bangunkan' : `Sapa ${progress.name}`);
+      break;
