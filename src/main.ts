@@ -244,3 +244,4 @@ const greetBtn = $<HTMLButtonElement>('greet');
 greetBtn.addEventListener('click', () => onGreet());
 let hoveringResident = false;
 /** The name tag rides above the head; it steps aside while the resident speaks or the pointer is on them. */
+function positionGreet(): void {
