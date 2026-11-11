@@ -891,3 +891,4 @@ export class World extends Emitter {
       if (this.heartClock <= 0) {
         this.heartClock = 0.28;
         this.fx.spawn('heart', this.character.headWorld().add(new Vector3(0, 0.12, 0)));
+      }
