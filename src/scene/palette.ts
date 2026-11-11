@@ -50,3 +50,4 @@ export const LOOKS: Record<TimeId, Look> = {
 export function lookForHour(hour: number): { a: TimeId; b: TimeId; t: number } {
   // pagi 5-7, siang 7-16, senja 16-19, malam 19-5; each change takes an hour.
   const stops: [number, TimeId][] = [[5, 'pagi'], [7.5, 'siang'], [16.5, 'senja'], [19, 'malam']];
+  const h = ((hour % 24) + 24) % 24;
