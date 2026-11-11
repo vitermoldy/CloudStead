@@ -858,3 +858,4 @@ export class World extends Emitter {
     this.hemi.groundColor.copy(L.hemiGround);
     this.hemi.intensity = L.hemiIntensity;
     this.bounce.color.copy(L.cloudLit);
+    this.bounce.intensity = 0.25 + L.sunIntensity * 0.16;
