@@ -448,3 +448,4 @@ export class Character {
       this.craftPiece = kind ? makeGear(kind) : null;
       this.craftKind = kind;
       if (this.craftPiece) this.rig.add(this.craftPiece);
+    }
