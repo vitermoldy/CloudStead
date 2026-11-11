@@ -138,3 +138,4 @@ export class Ambient {
     am.frequency.value = 38;
     amGain.gain.value = 0.5;
     g.gain.value = 0;
+    am.connect(amGain).connect(g.gain);
