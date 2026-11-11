@@ -292,3 +292,4 @@ export class Island {
   setGhosts(cells: Cell[]): void {
     this.ghosts.clear();
     const mat = new MeshBasicMaterial({ color: '#f3efd9', transparent: true, opacity: 0.32, depthWrite: false });
+    const dash = new BoxGeometry(0.16, 0.012, 0.022);
