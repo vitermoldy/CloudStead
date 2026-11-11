@@ -79,3 +79,4 @@ interface Particle {
   grow: number;
   gravity: number;
   spin: number;
+  active: boolean;
