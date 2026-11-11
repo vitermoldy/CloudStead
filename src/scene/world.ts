@@ -471,3 +471,4 @@ export class World extends Emitter {
   }
 
   // ------------------------------------------------------------ getting around
+  private blockedCells(): Set<string> {
