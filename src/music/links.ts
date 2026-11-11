@@ -36,3 +36,4 @@ export function parseLink(raw: string): ParsedLink {
   const parts = url.pathname.split('/').filter(Boolean);
   if (host === 'youtu.be') videoId = parts[0] || null;
   else if (url.pathname === '/watch') videoId = url.searchParams.get('v');
+  else if (['shorts', 'embed', 'live', 'v'].includes(parts[0])) videoId = parts[1] || null;
