@@ -209,3 +209,4 @@ export class Character {
   private walkPhase = 0;
   private blink = 0;
   private nextBlink = 2;
+  private screenTick = 0;
