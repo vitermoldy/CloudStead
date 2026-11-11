@@ -428,3 +428,4 @@ canvas.addEventListener('pointerdown', () => {
 function renderIsland(): void {
   $('stat-total').textContent = formatMinutes(progress.minutes);
   $('stat-today').textContent = formatMinutes(progress.todayMinutes);
+  $('stat-tiles').textContent = String(tilesFor(progress.reached()).length);
