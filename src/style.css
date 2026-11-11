@@ -142,3 +142,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 .big[data-ink="dark"] { color: var(--bg); text-shadow: 0 0 60px rgba(255, 255, 255, .2); }
 .big.is-paused .big__c { opacity: .45; }
 
+.story {
