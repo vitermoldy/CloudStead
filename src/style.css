@@ -338,3 +338,4 @@ fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
 
 .toast {
   position: fixed; top: 78px; left: 50%; z-index: 26; transform: translate(-50%, -6px); max-width: calc(100% - 32px);
+  padding: 10px 16px; border-radius: 999px; background: var(--ink); color: var(--bg); font-size: 15px; font-weight: 500;
