@@ -70,3 +70,4 @@ function rock(): Group {
 }
 
 function flowers(): Group {
+  const g = new Group();
