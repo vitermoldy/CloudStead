@@ -503,3 +503,4 @@ export class World extends Emitter {
         prev.set(nk, cellKey(c));
         if (accept(n)) {
           goal = n;
+          break;
