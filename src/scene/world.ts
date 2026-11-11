@@ -846,3 +846,4 @@ export class World extends Emitter {
     this.sky.update(L, t);
     this.sun.color.copy(L.sun);
     this.sun.intensity = L.sunIntensity;
+    const reach = this.island.reach();
