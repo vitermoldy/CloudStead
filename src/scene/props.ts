@@ -593,3 +593,4 @@ export class PropsLayer {
           (u.hub as Group).rotation.z -= dt * (0.9 + (u.spin as number) * 5);
         };
         e.poke = () => {
+          u.spin = 1.4;
