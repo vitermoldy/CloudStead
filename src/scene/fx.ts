@@ -89,3 +89,4 @@ export class Fx {
   private fireflies: Points;
   private flyBase: Float32Array;
   private birds = new Group();
+  private birdClock = 12;
