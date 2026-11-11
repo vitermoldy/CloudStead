@@ -436,3 +436,4 @@ export class World extends Emitter {
       [3, () => {
         const cells = this.freeCells();
         const cell = cells[Math.floor(Math.random() * cells.length)];
+        if (!cell) return [];
