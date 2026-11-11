@@ -94,3 +94,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
       t.textContent = name;
       const meta = document.createElement('span');
       meta.className = 'queue__meta';
+      meta.textContent = q.status === 'error' ? q.error : [q.author, q.kind === 'playlist' ? 'playlist' : '', q.source].filter(Boolean).join(' · ');
