@@ -136,3 +136,4 @@ export class Progress extends Emitter {
     this.emit('change');
   }
 
+  reset(): void {
