@@ -326,3 +326,4 @@ function renderHud(force = false): void {
     fill.style.width = `${(k * 100).toFixed(1)}%`;
     meter.setAttribute('aria-valuenow', String(Math.round(k * 100)));
   } else {
+    $('next-label').textContent = '';
