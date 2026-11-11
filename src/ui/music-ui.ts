@@ -59,3 +59,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
 
   let lastError = '';
   const render = () => {
+    const has = player.queue.length > 0;
