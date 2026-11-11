@@ -59,3 +59,4 @@ export function lookForHour(hour: number): { a: TimeId; b: TimeId; t: number } {
       return { a: prev, b: id, t };
     }
   }
+  return { a: 'senja', b: 'malam', t: 1 };
