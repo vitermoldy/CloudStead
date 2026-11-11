@@ -19,3 +19,4 @@ export interface Milestone {
   /** One sentence for the story line once it stands. */
   done: string;
   /** What the resident is doing while it is in progress, after "<name> sedang". */
+  doing: string;
