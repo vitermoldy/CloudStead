@@ -221,3 +221,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 .field__input::placeholder { color: rgba(231, 228, 209, .45); }
 .field__input:hover { border-color: rgba(231, 228, 209, .5); }
 .field__input:focus-visible { border-color: var(--accent); outline-offset: 1px; }
+.field__input[aria-invalid="true"] { border-color: var(--danger); }
