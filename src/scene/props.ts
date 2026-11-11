@@ -146,3 +146,4 @@ function hutFrame(): Group {
   for (const z of [-0.4, 0.4]) {
     for (const s of [-1, 1]) {
       const m = mesh(beam, WOOD, s * 0.21, 0.5, z);
+      m.rotation.z = s * 0.42;
