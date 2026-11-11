@@ -120,3 +120,4 @@ export class MusicPlayer extends Emitter {
           this.host.replaceChildren(mount);
           this.player = new YT.Player(mount, {
             width: '100%',
+            height: '100%',
