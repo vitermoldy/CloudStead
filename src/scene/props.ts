@@ -479,3 +479,4 @@ function waterfall(): Group {
       varying vec2 vUv;
       float hash(vec2 p) { return fract(sin(dot(p, vec2(41.3, 289.1))) * 43758.5453); }
       float noise(vec2 p) {
+        vec2 i = floor(p), f = fract(p);
