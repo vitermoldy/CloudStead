@@ -61,3 +61,4 @@ export class PropSite {
       if (o.userData.late) this.late.push(o);
       const mesh = o as Mesh;
       if (!mesh.material) return;
+      if (mode === 'rise') {
