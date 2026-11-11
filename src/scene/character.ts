@@ -862,3 +862,4 @@ export class Character {
 
     // ---- root and the hit shapes
     this.root.rotation.y = this.heading;
+    this.hitBody.position.set(0, 0.2 + (1 - this.sit) * 0.1, 0.02);
