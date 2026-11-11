@@ -145,3 +145,4 @@ export class World extends Emitter {
     this.rope.visible = false;
     this.scene.add(this.rope);
     this.character.onPlanDone = () => {
+      this.replan = true;
