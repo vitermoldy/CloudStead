@@ -53,3 +53,4 @@ export class World extends Emitter {
   private ray = new Raycaster();
   private ndc = new Vector2(9, 9);
   private pointerIn = false;
+  private hoverDirty = true;
