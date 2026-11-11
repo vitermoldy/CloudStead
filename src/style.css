@@ -373,3 +373,4 @@ html.has-cursor .cursor.is-on { opacity: 1; }
   animation: pat 420ms ease-in-out infinite alternate;
 }
 .cursor[data-state="pet"] .cursor__label { transform: translate(34px, 20px); }
+.cursor[data-state="tile"] .cursor__ring, .cursor[data-state="ghost"] .cursor__ring { width: 30px; height: 30px; margin: -15px 0 0 -15px; border-radius: 9px; }
