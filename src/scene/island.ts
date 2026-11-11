@@ -115,3 +115,4 @@ const MAX_TILES = 40;
 export interface GrassUniforms {
   uTime: { value: number };
   uCursor: { value: Vector3 };
+  uWind: { value: number };
