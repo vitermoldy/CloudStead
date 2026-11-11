@@ -842,3 +842,4 @@ export class World extends Emitter {
       this.applyClock();
     }
     this.look.approach(this.target, dt > 0 ? 1 - Math.exp(-dt * 1.2) : 0);
+    const L = this.look;
