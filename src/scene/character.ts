@@ -792,3 +792,4 @@ export class Character {
         yaw = 0.1;
         break;
       case 'walk':
+      case 'carry':
