@@ -31,3 +31,4 @@ export class Ambient {
   private timers: number[] = [];
 
   constructor() {
+    this.settings = { ...DEFAULTS, ...load<Partial<SoundSettings>>('sound', {}) };
