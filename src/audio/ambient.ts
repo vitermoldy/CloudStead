@@ -260,3 +260,4 @@ export class Ambient {
       g.gain.exponentialRampToValueAtTime(0.0001, t + 0.14);
       o.connect(g).connect(this.keyGain!);
       o.start(t);
+      o.stop(t + 0.16);
