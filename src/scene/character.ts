@@ -749,3 +749,4 @@ export class Character {
       targets[R].set(-0.06, this.hipY + 0.28 + swing * 0.08, 0.17 - swing * 0.04);
     }
     if (act === 'water') targets[R].set(-0.07, this.hipY + 0.12, 0.17);
+    if (this.waveT > 0) {
