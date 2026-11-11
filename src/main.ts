@@ -478,3 +478,5 @@ function renderSaveStatus(): void {
 let savedFlash = 0;
 onSaved(() => {
   if (openId === 'island') renderSaveStatus();
+});
+
