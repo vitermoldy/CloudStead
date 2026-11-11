@@ -648,3 +648,4 @@ export class PropsLayer {
         if (m.geometry) m.geometry.dispose();
       });
       this.entries.splice(i, 1);
+    }
