@@ -316,3 +316,4 @@ export class Character {
     const face = new Mesh(new PlaneGeometry(0.155, 0.096), new MeshBasicMaterial({ map: this.screen.tex }));
     face.position.set(0, 0.055, 0.0012);
     lid.add(lidBack, face);
+    this.laptop.add(base, lid);
