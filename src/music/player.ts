@@ -188,3 +188,4 @@ export class MusicPlayer extends Emitter {
   toggle(): void {
     if (!this.queue.length) return;
     if (!this.ready || this.current < 0 || this.status === 'ended' || this.status === 'api-error') {
+      this.play(this.current < 0 ? 0 : this.current);
