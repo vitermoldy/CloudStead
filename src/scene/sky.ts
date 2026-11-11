@@ -50,3 +50,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
         float up = pow(clamp(h, 0.0, 1.0), 0.55);
         vec3 col = mix(uHorizon, uZenith, up);
         // Under the horizon the eye meets the cloud sea in shadow, never a glowing void.
+        col = mix(col, uBelow, smoothstep(0.0, -0.22, h));
