@@ -228,3 +228,4 @@ export function createClouds(count: number): Clouds {
     side: DoubleSide,
     fog: false,
     toneMapped: false,
+    uniforms: {
