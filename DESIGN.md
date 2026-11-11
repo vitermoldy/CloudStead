@@ -80,3 +80,4 @@ so some of its structure rules do not fit. Waived, with reasons in `.taste-skill
 four shader-lint hits inside three.js's own shader chunks, and moment-none (no scroll, so no
 section for a kit moment; the growing piece is the moment). Kept on purpose and reported as open:
 
+- the centred black tab (the checker wants the nav's content on the page margins);
