@@ -522,3 +522,4 @@ export class World extends Emitter {
   /** Where to stand to work on a cell: the nearest free neighbour, a step toward it from its middle. */
   private standPoint(target: Cell): Vector3 | null {
     const tk = cellKey(target);
+    const ring = (c: Cell) => Math.max(Math.abs(c[0] - target[0]), Math.abs(c[1] - target[1]));
