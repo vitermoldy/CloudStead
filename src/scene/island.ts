@@ -417,3 +417,4 @@ export class Island {
         this.onLanded?.(t.cell);
       }
     }
+    if (landed) this.layGrass();
