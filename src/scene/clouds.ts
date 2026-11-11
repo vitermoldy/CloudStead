@@ -272,3 +272,4 @@ export function createClouds(count: number): Clouds {
     fragmentShader: /* glsl */ `
       uniform sampler2D uAtlas;
       uniform vec3 uLit;
+      uniform vec3 uShade;
