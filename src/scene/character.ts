@@ -817,3 +817,4 @@ export class Character {
     if (this.pokeT > 0) {
       this.pokeT -= dt;
       pitch -= Math.sin((this.pokeT / 0.5) * Math.PI) * 0.25;
+    }
