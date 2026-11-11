@@ -330,3 +330,4 @@ function pond(): Group {
   for (let i = 0; i < 16; i++) {
     const a = (i / 16) * Math.PI * 2 + rand() * 0.2;
     const r = 0.42 + rand() * 0.04;
+    const s = mesh(stone, STONE, Math.cos(a) * r, 0.02, Math.sin(a) * r);
