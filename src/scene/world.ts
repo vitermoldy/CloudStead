@@ -1007,3 +1007,4 @@ export class World extends Emitter {
       return Boolean(c.getContext('webgl2') || c.getContext('webgl'));
     } catch {
       return false;
+    }
