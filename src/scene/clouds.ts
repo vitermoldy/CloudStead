@@ -193,3 +193,4 @@ function cloudFloor(): { mesh: Mesh; material: ShaderMaterial } {
         #include <colorspace_fragment>
       }
     `,
+  });
