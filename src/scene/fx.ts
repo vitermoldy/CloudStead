@@ -159,3 +159,4 @@ export class Fx {
           p.spin = (Math.random() - 0.5) * 1.2;
           break;
         case 'z':
+          p.vel.set(0.08, 0.16, 0.02);
