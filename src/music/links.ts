@@ -54,3 +54,4 @@ export function parseLink(raw: string): ParsedLink {
   return { kind, videoId, listId, source, url: clean };
 }
 
+interface YTNamespace {
