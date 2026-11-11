@@ -493,3 +493,4 @@ export class World extends Emitter {
     const prev = new Map<string, string | null>([[cellKey(from), null]]);
     const queue: Cell[] = [from];
     let goal: Cell | null = accept(from) ? from : null;
+    while (queue.length && !goal) {
