@@ -214,3 +214,4 @@ export class World extends Emitter {
   // cells up from the clouds on a rope, or making a piece by hand at the seat.
 
   /** work: a focus block runs; rest: a break; free: no timer. */
+  setWork(mode: WorkMode): void {
