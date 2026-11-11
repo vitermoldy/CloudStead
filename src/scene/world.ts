@@ -40,3 +40,4 @@ export class World extends Emitter {
   readonly props = new PropsLayer();
   readonly character = new Character();
   readonly fx = new Fx();
+  private clouds: Clouds;
