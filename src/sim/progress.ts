@@ -104,3 +104,4 @@ export class Progress extends Emitter {
   add(ms: number): void {
     if (!(ms > 0)) return;
     const d = this.data;
+    if (d.todayDate !== today()) {
