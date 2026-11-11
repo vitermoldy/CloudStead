@@ -81,3 +81,4 @@ export class FocusTimer extends Emitter {
     return this.running && this.phase !== 'focus';
   }
 
+  lengthMs(phase: Phase = this.phase): number {
