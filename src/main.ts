@@ -688,3 +688,4 @@ try {
   if (msg) {
     sessionStorage.removeItem('cloudstead:toast');
     setTimeout(() => toast(msg, 4000), 600);
+  }
