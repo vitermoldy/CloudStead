@@ -316,3 +316,4 @@ export class Ambient {
     const s = this.settings;
     const t = this.ctx.currentTime;
     const vol = s.on ? (s.volume / 100) * (this.ducked ? 0.45 : 1) : 0;
+    this.master.gain.setTargetAtTime(vol, t, 0.2);
