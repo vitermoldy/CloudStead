@@ -286,3 +286,4 @@ export function createClouds(count: number): Clouds {
         vec2 auv = vec2((clamp(ux, 0.005, 0.995) + vVariant) / ${VARIANTS.toFixed(1)}, vUv.y);
         vec4 t = texture2D(uAtlas, auv);
         float w = fwidth(t.a) * 1.4 + 0.02;
+        float a = smoothstep(0.5 - w, 0.5 + w, t.a) * t.b * vAlpha;
