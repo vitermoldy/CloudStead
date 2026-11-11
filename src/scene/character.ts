@@ -652,3 +652,4 @@ export class Character {
     const side = new Vector3(1, 0, 0);
     const forward = new Vector3().crossVectors(side, this.spine).normalize();
     side.crossVectors(this.spine, forward).normalize();
+    span(this.torso, pelvis, neck);
