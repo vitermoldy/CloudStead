@@ -1004,3 +1004,4 @@ export class World extends Emitter {
   static supported(): boolean {
     try {
       const c = document.createElement('canvas');
+      return Boolean(c.getContext('webgl2') || c.getContext('webgl'));
