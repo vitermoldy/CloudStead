@@ -201,3 +201,4 @@ const ICON_PLAY = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5.25 3.
 const boxOf = el => el.closest('[data-ui-pause-host], .panel__screen, .panel, .frame') || el;
 const hostOf = el => el.closest('.card, .tile, .menu-card, a') || boxOf(el);
 
+function restart(loop) {
