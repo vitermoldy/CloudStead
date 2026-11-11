@@ -350,3 +350,4 @@ function pond(): Group {
     g.add(r);
     rings.push(r);
   }
+  g.userData.rings = rings;
