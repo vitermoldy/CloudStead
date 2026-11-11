@@ -558,3 +558,4 @@ export class Character {
       case 'do': {
         if (this.sit > 0.2 && !SEATED.has(step.act)) {
           this.act = 'stand';
+          return;
