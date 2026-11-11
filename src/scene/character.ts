@@ -514,3 +514,5 @@ export class Character {
     this.stepT = 0;
     this.beats = 0;
     if (!this.plan.length) this.onPlanDone?.();
+  }
+
