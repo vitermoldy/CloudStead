@@ -916,3 +916,4 @@ export class World extends Emitter {
     if (this.character.act === 'sleep') {
       this.zClock -= dt;
       if (this.zClock <= 0) {
+        this.zClock = 1.5;
