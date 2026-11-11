@@ -300,3 +300,4 @@ function maskWords(h1) {
     n.replaceWith(frag);
   });
   walk(copy);
+  const label = h1.hasAttribute('aria-label');
