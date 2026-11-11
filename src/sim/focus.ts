@@ -28,3 +28,4 @@ interface Saved {
  */
 export class FocusTimer extends Emitter {
   preset: PresetId;
+  phase: Phase;
