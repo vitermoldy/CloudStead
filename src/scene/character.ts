@@ -574,3 +574,4 @@ export class Character {
         if (this.stepT >= step.seconds) this.next();
         return;
       }
+      case 'sit': {
