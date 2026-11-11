@@ -32,3 +32,4 @@ function flush(): boolean {
     for (const fn of listeners) fn(lastWrite);
     return true;
   } catch {
+    return false;
