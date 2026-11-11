@@ -22,3 +22,4 @@ export interface PropEntry {
   blocking: boolean;
   grow: number;
   wiggle: number;
+  update?: (dt: number, ctx: PropContext, self: PropEntry) => void;
