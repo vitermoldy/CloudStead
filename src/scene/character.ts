@@ -87,3 +87,4 @@ function screenTexture(): { tex: CanvasTexture; draw: (lines: number, mode: 'cod
       } else {
         ctx.strokeStyle = '#9fc7a0';
         ctx.lineWidth = 2;
+        for (let i = 0; i < 4; i++) for (let j = 0; j < 3; j++) ctx.strokeRect(34 + i * 15, 18 + j * 15, 13, 13);
