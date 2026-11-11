@@ -187,3 +187,4 @@ function cloudFloor(): { mesh: Mesh; material: ShaderMaterial } {
         float dist = length(vWorld - cameraPosition);
         col = mix(col, uFog, smoothstep(40.0, 150.0, dist) * 0.9);
 
+        // Film grain, fixed to the screen, as in the reference render.
