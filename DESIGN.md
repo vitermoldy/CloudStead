@@ -37,3 +37,4 @@ dial **ENERGY 3 / RHYTHM 1 / MOTION 3**.
 | --- | --- |
 | Vite, TypeScript and a live Three.js scene, no React or shadcn | One screen with a canvas: a framework adds nothing, and the owner's other ambient apps use the same stack. The reference's pasted component is a reference only. |
 | The island is made of tiles that rise out of the clouds | "Dunia petak": each cell is a block with a grass top, an earth band and a faceted rock under it, so the island literally grows by cells (9 at the start, 37 at the end). |
+| 28 milestones over 23 hours 20 minutes of focus | The first ones come in minutes (flowers at 5, two cells at 15) so the first session already changes the island; the last ones (a balloon, a waterfall) reward a semester. |
