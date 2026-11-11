@@ -536,3 +536,4 @@ export class Character {
         step.fn();
         this.next();
         return;
+      case 'walk': {
