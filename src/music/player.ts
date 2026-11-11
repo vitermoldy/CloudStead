@@ -89,3 +89,4 @@ export class MusicPlayer extends Emitter {
         else this.cue(this.current);
       }
     }
+    this.persist();
