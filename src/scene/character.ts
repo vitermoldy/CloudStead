@@ -213,3 +213,4 @@ export class Character {
   private screenLines = 0;
   private waveT = 0;
   private pokeT = 0;
+  private sipT = 0;
