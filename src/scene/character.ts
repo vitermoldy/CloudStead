@@ -827,3 +827,4 @@ export class Character {
     const phones = this.gear.get('headphones');
     if (phones && phones.userData.neck && phones.parent === this.rig) {
       phones.position.copy(neck).addScaledVector(forward, 0.01);
+      phones.quaternion.copy(spineQ).multiply(new Quaternion().setFromAxisAngle(new Vector3(1, 0, 0), 1.25));
