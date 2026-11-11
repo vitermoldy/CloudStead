@@ -810,3 +810,4 @@ export class World extends Emitter {
     const dt = Math.min(0.05, (now - this.last) / 1000);
     this.last = now;
     this.frameMs = this.frameMs * 0.95 + (dt * 1000) * 0.05;
+    this.step(dt);
