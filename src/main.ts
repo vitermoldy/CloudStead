@@ -332,3 +332,4 @@ function renderHud(force = false): void {
     fill.style.width = '100%';
     meter.setAttribute('aria-valuenow', '100');
   }
+  const go = $('focus-toggle');
