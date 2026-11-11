@@ -79,3 +79,4 @@ export interface YTPlayer {
   getVideoData(): { title?: string; author?: string };
 }
 
+declare global {
