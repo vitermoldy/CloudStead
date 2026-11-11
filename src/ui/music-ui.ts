@@ -57,3 +57,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
   volume.addEventListener('input', () => player.setVolume(Number(volume.value)));
   loop.addEventListener('change', () => player.setLoop(loop.checked));
 
+  let lastError = '';
