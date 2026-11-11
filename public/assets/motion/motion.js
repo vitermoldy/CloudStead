@@ -260,3 +260,4 @@ document.addEventListener('click', e => {
   } else setPaused(box, btn.classList.contains('is-paused'));
 });
 
+/* ---------------------------------------------------------------- switches */
