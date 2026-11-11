@@ -124,3 +124,4 @@ const fontsIn = () => Promise.race([document.fonts?.ready ?? Promise.resolve(), 
 function counts() {
   const els = [...document.querySelectorAll('[data-m-count]')].filter(el => !el.__mCount);
   if (!els.length || reduced() || shot()) return;
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) e.target.__mCount?.hit(); }), { threshold: 0.6 });
