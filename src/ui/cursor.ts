@@ -33,3 +33,4 @@ export class Cursor {
     if (!this.enabled) return;
     document.documentElement.classList.add('has-cursor');
     addEventListener('pointermove', (e) => {
+      if (e.pointerType !== 'mouse') return;
