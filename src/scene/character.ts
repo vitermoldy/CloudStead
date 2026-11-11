@@ -449,3 +449,4 @@ export class Character {
       this.craftKind = kind;
       if (this.craftPiece) this.rig.add(this.craftPiece);
     }
+    if (this.craftPiece) this.craftPiece.userData.p = p;
