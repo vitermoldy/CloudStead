@@ -307,3 +307,4 @@ export class World extends Emitter {
       for (const c of m.tiles) this.island.setRise(c, 1);
       if (instant) this.island.settle();
       this.island.setGhosts([]);
+    } else if (m.kind === 'gear' && m.gear) {
