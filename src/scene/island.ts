@@ -154,3 +154,4 @@ export class Island {
           float k = position.y * position.y;
           float sway = sin(uTime * 1.6 + wpos.x * 1.7 + wpos.z * 1.1) + 0.5 * sin(uTime * 2.7 + wpos.z * 2.3);
           wpos.x += sway * 0.022 * k * uWind;
+          wpos.z += cos(uTime * 1.2 + wpos.x * 0.8) * 0.012 * k * uWind;
