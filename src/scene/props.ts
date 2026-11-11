@@ -189,3 +189,4 @@ function hut(): Group {
   for (const s of [-1, 1]) {
     const r = mesh(roofGeo, roofMat, s * 0.24, 0.55, 0);
     r.rotation.z = s * 0.43;
+    g.add(r);
