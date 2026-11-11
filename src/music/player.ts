@@ -41,3 +41,4 @@ export class MusicPlayer extends Emitter {
     this.loop = saved.loop !== false;
   }
 
+  get item(): QueueItem | null {
