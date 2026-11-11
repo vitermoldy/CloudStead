@@ -150,3 +150,4 @@ function hutFrame(): Group {
       g.add(m);
     }
   }
+  g.add(mesh(new BoxGeometry(0.05, 0.05, 0.9), WOOD, 0, 0.98, 0));
