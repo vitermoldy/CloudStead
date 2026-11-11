@@ -754,3 +754,4 @@ export class Character {
       targets[R].set(-0.16 + Math.sin(time * 12) * 0.03, neck.y + 0.16, 0.04);
     }
     const mug = this.gear.get('mug');
+    if (mug && act === 'rest' && this.sipT > 0) {
