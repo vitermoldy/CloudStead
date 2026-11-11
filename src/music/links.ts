@@ -29,3 +29,4 @@ export function parseLink(raw: string): ParsedLink {
   }
   const host = url.hostname.toLowerCase().replace(/^(www\.|m\.)/, '');
   const known = ['youtube.com', 'music.youtube.com', 'youtu.be', 'youtube-nocookie.com'];
+  if (!known.includes(host)) throw new LinkError('Yang bisa diputar di sini hanya tautan YouTube dan YouTube Music.');
