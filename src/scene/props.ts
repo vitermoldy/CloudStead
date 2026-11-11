@@ -220,3 +220,4 @@ function pole(): Group {
   far.position.set(8.5, -5.2, -11);
   far.rotation.y = 0.5;
   const islet = mesh(new ConeGeometry(0.9, 2.6, 7), std('#5e5044', { flatShading: true }), 0, -1.3, 0);
+  islet.rotation.x = Math.PI;
