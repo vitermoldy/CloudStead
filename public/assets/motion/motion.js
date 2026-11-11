@@ -208,3 +208,4 @@ function restart(loop) {
   const anims = loop.getAnimations({ subtree: true }).filter(a => typeof CSSAnimation === 'function' && a instanceof CSSAnimation);
   if (!anims.length) return;
   const dur = a => Number(a.effect?.getComputedTiming().duration) || 0;
+  const main = anims.reduce((m, a) => (dur(a) > dur(m) ? a : m));
