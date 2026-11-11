@@ -97,3 +97,4 @@ export function loadYouTubeApi(): Promise<YTNamespace> {
       apiPromise = null;
       reject(new Error('timeout'));
     }, 15000);
+    const prev = window.onYouTubeIframeAPIReady;
