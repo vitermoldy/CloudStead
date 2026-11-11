@@ -243,3 +243,4 @@ html:not([data-motion="off"]) .field :is(input, select, textarea):focus, .m-inpu
 [data-m-loop] { --m-cycle: 3.2s; --m-still: 0.6; --m-safe: 48px; }
 /* the pause button (a 32px disc 12px in from the bottom-right corner) gets a clear band: content in
    the flow ends --m-safe (48px) above the bottom edge, and a fading stage dissolves above that band,
+   never under the button. Size the panel so the loop's subject sits above the fade */
