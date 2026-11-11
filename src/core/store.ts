@@ -68,3 +68,4 @@ export const lastSaved = (): number => lastWrite;
 
 export function onSaved(fn: (at: number) => void): () => void {
   listeners.add(fn);
+  return () => listeners.delete(fn);
