@@ -307,3 +307,5 @@ function renderHud(force = false): void {
     lastMinuteSr = minLeft;
     $('timer-sr').textContent = `Sisa ${formatMinutesLong(ms / 60000)} ${timer.phase === 'focus' ? 'fokus' : 'istirahat'}.`;
   }
+  document.title = timer.running ? `${clockText(ms)} · ${timer.phaseLabel} · CloudStead` : 'CloudStead: pulau belajar yang tumbuh setiap menit fokus';
+
