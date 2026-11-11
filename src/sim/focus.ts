@@ -86,3 +86,4 @@ export class FocusTimer extends Emitter {
     return (phase === 'focus' ? c.focus : phase === 'short' ? c.short : c.long) * 60000;
   }
 
+  remaining(): number {
