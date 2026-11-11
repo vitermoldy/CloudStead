@@ -188,3 +188,4 @@ export class FocusTimer extends Emitter {
 }
 
 /** "24:59" */
+export function clockText(ms: number): string {
