@@ -68,3 +68,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
         // A whisper of dither so the long gradients never band.
         col += (fract(sin(dot(gl_FragCoord.xy, vec2(12.9898, 78.233))) * 43758.5453) - 0.5) * 0.03;
         gl_FragColor = vec4(col, 1.0);
+        #include <colorspace_fragment>
