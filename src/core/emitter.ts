@@ -8,3 +8,4 @@ export class Emitter {
     let set = this.handlers.get(event);
     if (!set) {
       set = new Set();
+      this.handlers.set(event, set);
