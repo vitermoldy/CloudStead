@@ -237,3 +237,4 @@ export class Island {
   private buildTile(cell: Cell): Tile {
     const rand = rng(hash(cell) ^ 0x5bd1e995);
     const g = new Group();
+    g.position.set(cell[0], 0, cell[1]);
