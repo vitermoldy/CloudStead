@@ -40,3 +40,4 @@ export const LOOKS: Record<TimeId, Look> = {
     cloudLit: '#f7c47f', cloudShade: '#3d3f4c', fog: '#8f7562', stars: 0.08, night: 0.35, exposure: 1.0,
   },
   malam: {
+    zenith: '#060a14', horizon: '#1b2840', glow: '#6f86ad', sun: '#a9bfe6', sunIntensity: 1.5,
