@@ -60,3 +60,4 @@ export class FocusTimer extends Emitter {
     this.commit();
   }
 
+  get config() {
