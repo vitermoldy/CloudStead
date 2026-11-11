@@ -55,3 +55,4 @@ const TEXTURES: Record<FxKind, () => CanvasTexture> = {
     ctx.fillText('z', 32, 32);
   }),
   drop: () => glyphTexture((ctx) => {
+    ctx.fillStyle = '#9fd0de';
