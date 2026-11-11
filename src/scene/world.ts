@@ -541,3 +541,4 @@ export class World extends Emitter {
     const goal = this.cellOf(to);
     const path = this.findPath(this.cellOf(pos), (c) => c[0] === goal[0] && c[1] === goal[1]);
     const steps: Step[] = [];
+    if (path) for (const c of path.slice(1, -1)) steps.push({ kind: 'walk', to: new Vector3(c[0], 0, c[1]), carry });
