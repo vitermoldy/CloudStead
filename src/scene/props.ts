@@ -162,3 +162,4 @@ function hut(): Group {
     s.moveTo(-0.4, 0);
     s.lineTo(0.4, 0);
     s.lineTo(0, 0.92);
+    s.lineTo(-0.4, 0);
