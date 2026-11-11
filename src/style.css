@@ -133,3 +133,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
   display: grid; grid-template-columns: minmax(0, 1fr) minmax(300px, 380px); align-items: end; gap: clamp(16px, 3vw, 48px);
 }
 .big {
+  margin: 0; display: flex; font: 500 clamp(96px, 15.5vw, 250px)/0.86 var(--font-display);
