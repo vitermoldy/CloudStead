@@ -458,3 +458,4 @@ export class World extends Emitter {
       const at = this.approach;
       options.push([2, () => [...this.walkTo(at), { kind: 'do', act: 'stand', seconds: 3, face: t }]]);
     }
+    const total = options.reduce((n, o) => n + o[0], 0);
