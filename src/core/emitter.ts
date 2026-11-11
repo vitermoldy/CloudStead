@@ -5,3 +5,4 @@ export class Emitter {
   private handlers = new Map<string, Set<Handler>>();
 
   on(event: string, fn: Handler): () => void {
+    let set = this.handlers.get(event);
