@@ -5,3 +5,4 @@
   The layer is ON as soon as this file is linked: no attribute is needed (a hover shot of a linked card or photo
   shows the 2px lift and the 1.03 zoom). <html data-motion="off"> switches the whole layer off; data-motion="live"
   is the number tick in a headless shot (motion.js).
+  references/motion.md says what moves and how fast. Everything here answers the pointer, the
