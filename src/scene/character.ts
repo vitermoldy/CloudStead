@@ -554,3 +554,4 @@ export class Character {
         }
         if (d < 0.025) this.next();
         return;
+      }
