@@ -122,3 +122,4 @@ export class Island {
   readonly group = new Group();
   readonly tiles = new Map<string, Tile>();
   private ghosts = new Group();
+  private highlight: Group;
