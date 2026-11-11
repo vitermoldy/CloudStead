@@ -638,3 +638,4 @@ export class PropsLayer {
     }
   }
 
+  remove(match: (e: PropEntry) => boolean): void {
