@@ -91,3 +91,4 @@ export class World extends Emitter {
   onFrame: ((dt: number) => void) | null = null;
 
   constructor(private canvas: HTMLCanvasElement, opts: { small: boolean }) {
+    super();
