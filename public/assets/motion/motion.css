@@ -1,2 +1,3 @@
 /*
   taste-skill motion.css - the micro-interactions a company site has (figma.com, x.ai): one small
+  opt-in layer over system.css and ui/cards.css. Link it after them (data-motion on <html> is optional);
