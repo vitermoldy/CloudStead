@@ -20,3 +20,4 @@ export interface Milestone {
   done: string;
   /** What the resident is doing while it is in progress, after "<name> sedang". */
   doing: string;
+  work: Work;
