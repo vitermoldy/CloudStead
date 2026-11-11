@@ -39,3 +39,4 @@ export const LOOKS: Record<TimeId, Look> = {
     sunDir: [0.86, 0.36, 0.28], hemiSky: '#7b7e8f', hemiGround: '#4a3828', hemiIntensity: 1.9,
     cloudLit: '#f7c47f', cloudShade: '#3d3f4c', fog: '#8f7562', stars: 0.08, night: 0.35, exposure: 1.0,
   },
+  malam: {
