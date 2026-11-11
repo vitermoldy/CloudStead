@@ -26,3 +26,4 @@ export class MusicPlayer extends Emitter {
   nowTitle = '';
   apiError = '';
   private player: YTPlayer | null = null;
+  private ready = false;
