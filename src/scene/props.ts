@@ -218,3 +218,4 @@ function pole(): Group {
   // A second pole on a small rock farther out: the line runs on to other islands.
   const far = new Group();
   far.position.set(8.5, -5.2, -11);
+  far.rotation.y = 0.5;
