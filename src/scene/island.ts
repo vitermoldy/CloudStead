@@ -400,3 +400,4 @@ export class Island {
     this.grassUniforms.uTime.value = time;
     let landed = false;
     for (const t of this.tiles.values()) {
+      if (t.landed) continue;
