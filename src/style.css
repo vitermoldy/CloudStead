@@ -101,3 +101,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
   transition: color 120ms var(--ease), background-color 120ms var(--ease);
 }
 .tab__item:hover { color: var(--ink); background: rgba(231, 228, 209, 0.06); }
+.tab__item:active { transform: translateY(1px); }
