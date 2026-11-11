@@ -617,3 +617,4 @@ export class PropsLayer {
         break;
       case 'balloon':
         e.update = (_dt, ctx) => {
+          const f = u.float as Group;
