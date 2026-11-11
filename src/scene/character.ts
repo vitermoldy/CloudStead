@@ -372,3 +372,5 @@ export class Character {
     const spout = new Mesh(new CylinderGeometry(0.006, 0.009, 0.09, 5), can.material);
     spout.position.set(0, -0.02, 0.1);
     spout.rotation.x = 1.1;
+    t.can.add(can, spout);
+
