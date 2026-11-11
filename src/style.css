@@ -194,3 +194,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
   scrollbar-width: thin; scrollbar-color: rgba(231, 228, 209, .25) transparent;
 }
 .panel--wide { width: min(560px, calc(100% - 32px)); }
+.panel[data-open="true"] {
