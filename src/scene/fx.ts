@@ -151,3 +151,4 @@ export class Fx {
           break;
         case 'dust':
           p.vel.set((Math.random() - 0.5) * 0.9, 0.15 + Math.random() * 0.3, (Math.random() - 0.5) * 0.9);
+          p.max = 0.9 + Math.random() * 0.4; p.size = 0.12 + Math.random() * 0.1; p.grow = 0.35; p.gravity = 0.05;
