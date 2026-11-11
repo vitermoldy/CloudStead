@@ -15,3 +15,4 @@ export class Emitter {
   }
 
   emit(event: string, ...args: unknown[]): void {
+    const set = this.handlers.get(event);
