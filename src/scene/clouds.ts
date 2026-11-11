@@ -149,3 +149,4 @@ function cloudFloor(): { mesh: Mesh; material: ShaderMaterial } {
     },
     vertexShader: /* glsl */ `
       varying vec3 vWorld;
+      void main() {
