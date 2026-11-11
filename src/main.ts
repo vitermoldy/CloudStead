@@ -370,3 +370,4 @@ timer.on('change', () => {
   syncWork();
   renderHud(true);
 });
+timer.on('finished', (phase: string, skipped: boolean) => {
