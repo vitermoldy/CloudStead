@@ -304,3 +304,4 @@ export class Ambient {
     this.hidden = on;
   }
 
+  update(patch: Partial<SoundSettings>): void {
