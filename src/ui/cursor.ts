@@ -38,3 +38,4 @@ export class Cursor {
       this.y = e.clientY;
       const on = e.target === this.surface;
       if (on !== this.over) {
+        this.over = on;
