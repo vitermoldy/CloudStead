@@ -190,3 +190,4 @@ export class MusicPlayer extends Emitter {
     if (!this.ready || this.current < 0 || this.status === 'ended' || this.status === 'api-error') {
       this.play(this.current < 0 ? 0 : this.current);
       return;
+    }
