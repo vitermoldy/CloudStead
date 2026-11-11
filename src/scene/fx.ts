@@ -232,3 +232,4 @@ export class Fx {
         m.rotation += p.spin * dt;
       }
     }
+    const fm = this.fireflies.material as PointsMaterial;
