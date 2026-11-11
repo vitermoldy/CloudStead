@@ -873,3 +873,4 @@ export class Character {
         this.nextStretch = 14 + Math.random() * 10;
       }
       if (mug) {
+        this.nextSip -= dt;
