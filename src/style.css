@@ -172,3 +172,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 .btn--sm { min-height: 44px; padding: 0 16px; font-size: 14px; }
 .btn:active { transform: translateY(1px) scale(.985); }
 
+/* The reference's pill with its dark round end: here the round end is the play or pause sign. */
