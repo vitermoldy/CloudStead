@@ -694,3 +694,4 @@ export class Character {
     const R = 1;
     const targets = [new Vector3(), new Vector3()];
     for (let i = 0; i < 2; i++) {
+      const s = i === 0 ? 1 : -1;
