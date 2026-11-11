@@ -283,3 +283,4 @@ function storyLine(): string {
     return `${n} sedang ${next.doing}.`;
   }
   if (timer.resting) return `Istirahat. ${n} ikut duduk${c?.hasGear('mug') ? ' dan minum teh' : ''}, kerjanya lanjut nanti.`;
+  if (!next) return 'Pulau sudah utuh. Waktu fokusmu tetap dicatat.';
