@@ -130,3 +130,4 @@ export class Ambient {
   private cricket(): void {
     const ctx = this.ctx!;
     const t = ctx.currentTime + 0.02;
+    const o = ctx.createOscillator();
