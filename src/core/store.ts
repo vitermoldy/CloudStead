@@ -91,3 +91,4 @@ export function parseSaveFile(text: string): Bag {
     throw new SaveFileError('Berkas ini bukan simpanan CloudStead.');
   }
   const data = p.data as Bag;
+  const progress = data.progress as { focusMs?: unknown } | undefined;
