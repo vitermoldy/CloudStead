@@ -28,3 +28,5 @@ const progress = new Progress(previewMinutes);
 const ambient = new Ambient();
 const timer = new FocusTimer((ms) => progress.add(ms), () => progress.finishSession(), previewMinutes === null);
 const player = new MusicPlayer($('player-host'));
+const settings = load<{ time: TimeMode; paused: boolean | null }>('settings', { time: 'senja', paused: null });
+
