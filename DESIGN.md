@@ -34,3 +34,4 @@ dial **ENERGY 3 / RHYTHM 1 / MOTION 3**.
 ## Decisions and their reasons (R-31)
 
 | Decision | Reason |
+| --- | --- |
