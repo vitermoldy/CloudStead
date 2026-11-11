@@ -749,3 +749,4 @@ export class World extends Emitter {
   private hitPoint = new Vector3();
   private ground = new Plane(new Vector3(0, 1, 0), 0);
 
+  private pick(): void {
