@@ -17,3 +17,4 @@ function puffAtlas(): DataTexture {
   // Raw bytes, not a canvas: a canvas premultiplies alpha and would crush the normals in the soft rims.
   const width = CELL * VARIANTS;
   const img = { data: new Uint8Array(width * CELL * 4) };
+  const rand = rng(7);
