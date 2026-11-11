@@ -100,3 +100,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
       const rm = document.createElement('button');
       rm.type = 'button';
       rm.className = 'queue__remove';
+      rm.textContent = 'Hapus';
