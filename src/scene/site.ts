@@ -92,3 +92,4 @@ export class PropSite {
     const k = Math.max(0, Math.min(1, p));
     if (Math.abs(k - this.p) < 0.0005) return;
     this.p = k;
+    const mode = REVEAL[this.kind];
