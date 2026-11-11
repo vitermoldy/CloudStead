@@ -210,3 +210,4 @@ export class Ambient {
   /** A short filtered noise: earth for a shovel, a trickle for water. */
   private burst(freq: number, dur: number, gain: number, q: number): void {
     const ctx = this.ctx!;
+    const t = ctx.currentTime + 0.01;
