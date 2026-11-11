@@ -24,3 +24,4 @@ export class PropSite {
   private cut = new Plane(new Vector3(0, -1, 0), 0);
   private ghostCut = new Plane(new Vector3(0, 1, 0), 0);
   private lo = 0;
+  private hi = 1;
