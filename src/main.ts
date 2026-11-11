@@ -552,3 +552,4 @@ $('save-reset').addEventListener('click', () => {
     toast('Ini pratinjau, progres aslimu tidak tersentuh.');
     return;
   }
+  resetDialog.showModal();
