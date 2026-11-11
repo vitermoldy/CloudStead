@@ -11,3 +11,4 @@ export interface PropContext {
   night: number;
   time: number;
   todayMinutes: number;
+  totalMinutes: number;
