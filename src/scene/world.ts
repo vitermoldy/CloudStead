@@ -176,3 +176,4 @@ export class World extends Emitter {
     this.character.settle();
     this.props.clear();
     this.island.clearBare();
+    this.character.clearGear();
