@@ -354,3 +354,4 @@ function enter() {
     masks?.restore();
     hero.classList.remove('is-entering');
     done();
+  };
