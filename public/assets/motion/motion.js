@@ -345,3 +345,4 @@ function enter() {
   const media = [...hero.querySelectorAll(ENTER_MEDIA)].filter((m, i, all) => !all.some(o => o !== m && o.contains(m)));
   const steps = enterSteps(hero, h1, media);
   const EASE = 'cubic-bezier(.22, 1, .36, 1)';
+  const anims = [];
