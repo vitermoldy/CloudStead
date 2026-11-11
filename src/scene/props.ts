@@ -647,3 +647,4 @@ export class PropsLayer {
         const m = o as Mesh;
         if (m.geometry) m.geometry.dispose();
       });
+      this.entries.splice(i, 1);
