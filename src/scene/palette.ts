@@ -103,3 +103,4 @@ export class LiveLook {
   approach(target: LiveLook, k: number): void {
     this.zenith.lerp(target.zenith, k);
     this.horizon.lerp(target.horizon, k);
+    this.glow.lerp(target.glow, k);
