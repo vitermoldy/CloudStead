@@ -970,3 +970,4 @@ export class World extends Emitter {
     for (const r of rects) {
       for (let i = 0; i < 5; i++) {
         for (let j = 0; j < 3; j++) {
+          const x = Math.round((r.left - cr.left + (r.width * (i + 0.5)) / 5) * ratio);
