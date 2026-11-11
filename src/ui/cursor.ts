@@ -11,3 +11,4 @@ export class Cursor {
   readonly enabled: boolean;
   private el: HTMLElement;
   private ring: HTMLElement;
+  private dot: HTMLElement;
