@@ -145,3 +145,4 @@ export class Progress extends Emitter {
   }
 
   /** Writes the progress section; with now, straight to storage. */
+  persist(now = false): boolean {
