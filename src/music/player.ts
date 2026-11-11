@@ -62,3 +62,4 @@ export class MusicPlayer extends Emitter {
     this.persist();
     this.emit('change');
     fetchDetails(item).then((d) => {
+      const it = this.queue.find((q) => q.id === item.id);
