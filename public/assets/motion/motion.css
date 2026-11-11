@@ -314,3 +314,4 @@ html:not([data-motion="off"]) .field :is(input, select, textarea):focus, .m-inpu
   .m-check::before { transform: rotate(-45deg) scale(1); transition-property: opacity; }
   html:not([data-motion="off"]) :is(.link, .m-link, p a:not([class]), .footer ul a, .footer .link) { transition-property: color, opacity, background-color, border-color; }
   /* a press still shows, as a deeper tone instead of a move */
+  html:not([data-motion="off"]) .btn--primary:active { background: color-mix(in oklab, var(--action) 74%, var(--bg)); }
