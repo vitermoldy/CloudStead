@@ -109,3 +109,4 @@ function screenTexture(): { tex: CanvasTexture; draw: (lines: number, mode: 'cod
 
 type GeoMaker = BoxGeometry | CylinderGeometry | SphereGeometry | TorusGeometry;
 
+/** A gear piece as a fresh model (used both for the finished piece and for the one in the making). */
