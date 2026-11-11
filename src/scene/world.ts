@@ -232,3 +232,4 @@ export class World extends Emitter {
     const next = Math.max(0, Math.min(1, p));
     if (Math.abs(next - this.p) < 0.0004 && this.project === m) return;
     this.p = next;
+    this.applyProgress();
