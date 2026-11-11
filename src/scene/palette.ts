@@ -113,3 +113,4 @@ export class LiveLook {
     this.sunIntensity += (target.sunIntensity - this.sunIntensity) * k;
     this.hemiIntensity += (target.hemiIntensity - this.hemiIntensity) * k;
     this.stars += (target.stars - this.stars) * k;
+    this.night += (target.night - this.night) * k;
