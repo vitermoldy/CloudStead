@@ -390,3 +390,4 @@ progress.on('change', () => {
   world?.setProgress(progress.next(), projectShare());
 });
 
+// ------------------------------------------------------------ panels
