@@ -353,3 +353,4 @@ export class World extends Emitter {
     this.planFree();
   }
 
+  private planWork(m: Milestone): void {
