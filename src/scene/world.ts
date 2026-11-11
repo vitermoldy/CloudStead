@@ -733,3 +733,4 @@ export class World extends Emitter {
         this.emit('poke-tile', this.hover.cell);
       }
     };
+    c.addEventListener('pointerup', up);
