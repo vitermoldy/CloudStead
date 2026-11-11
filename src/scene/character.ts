@@ -480,3 +480,4 @@ export class Character {
   /** Replaces whatever the resident was doing with a new plan. */
   run(steps: Step[]): void {
     this.plan = steps;
+    this.stepT = 0;
