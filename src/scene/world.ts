@@ -531,3 +531,4 @@ export class World extends Emitter {
     const mid = new Vector3(cell[0], 0, cell[1]);
     const toward = new Vector3(target[0], 0, target[1]).sub(mid).normalize();
     // At the seat itself, step clear of the cushion and the laptop.
+    return mid.addScaledVector(toward, cellKey(cell) === cellKey(HOME) ? 0.4 : 0.3);
