@@ -105,3 +105,4 @@ export class FocusTimer extends Emitter {
   }
 
   pause(): void {
+    if (!this.running) return;
