@@ -178,3 +178,5 @@ export function makeGear(kind: Gear): Group {
     o.receiveShadow = true;
   });
   return g;
+}
+
