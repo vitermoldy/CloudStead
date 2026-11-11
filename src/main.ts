@@ -564,3 +564,4 @@ $('reset-confirm').addEventListener('click', () => {
   world?.setProgress(progress.next(), 0);
   world?.resetView();
   justBuilt = null;
+  renderIsland();
