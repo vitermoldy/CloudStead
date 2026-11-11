@@ -707,3 +707,4 @@ export class PropsLayer {
       e.group.scale.setScalar(1);
     }
   }
+}
