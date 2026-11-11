@@ -162,3 +162,4 @@ export class World extends Emitter {
         } else this.refitT = 3;
       }
     };
+    this.look.set(LOOKS.senja);
