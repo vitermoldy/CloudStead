@@ -643,3 +643,4 @@ export class PropsLayer {
       const e = this.entries[i];
       if (!match(e)) continue;
       this.group.remove(e.group);
+      e.group.traverse((o) => {
