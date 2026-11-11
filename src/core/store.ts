@@ -55,3 +55,4 @@ export function load<T>(section: string, fallback: T): T {
 
 export function save(section: string, value: unknown): void {
   readAll()[section] = value;
+  if (!timer) timer = window.setTimeout(flush, 400);
