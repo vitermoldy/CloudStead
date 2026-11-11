@@ -499,3 +499,4 @@ export class World extends Emitter {
         const n: Cell = [c[0] + dx, c[1] + dz];
         const nk = cellKey(n);
         if (prev.has(nk) || !free(n)) continue;
+        if (dx && dz && (!free([c[0] + dx, c[1]]) || !free([c[0], c[1] + dz]))) continue;
