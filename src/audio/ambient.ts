@@ -69,3 +69,4 @@ export class Ambient {
 
   private startWind(): void {
     const ctx = this.ctx!;
+    const src = ctx.createBufferSource();
