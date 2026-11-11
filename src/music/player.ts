@@ -178,3 +178,4 @@ export class MusicPlayer extends Emitter {
 
   private cue(index: number): void {
     if (!this.ready) {
+      this.current = index;
