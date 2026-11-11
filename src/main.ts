@@ -316,3 +316,4 @@ function renderHud(force = false): void {
   $('phase').innerHTML = phaseLine();
   $('story').textContent = storyLine();
   const fill = $('meter-fill');
+  const meter = $('meter');
