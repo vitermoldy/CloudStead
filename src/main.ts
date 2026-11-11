@@ -254,3 +254,4 @@ function positionGreet(): void {
 function nameTag(): void {
   $('greet-name').textContent = progress.name;
   greetBtn.setAttribute('aria-label', `Sapa ${progress.name}`);
+}
