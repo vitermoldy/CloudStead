@@ -990,3 +990,4 @@ export class World extends Emitter {
 
   bubbleAnchor(): { x: number; y: number; visible: boolean } {
     const r = this.canvas.getBoundingClientRect();
+    const a = this.character.bubbleAnchor(this.camera, r.width, r.height);
