@@ -81,3 +81,4 @@ export class PropSite {
     if (mode === 'parts' || mode === 'pond') this.parts = [...this.build.children];
 
     if (pileAt) {
+      this.pile.position.copy(pileAt).sub(this.group.position);
