@@ -620,3 +620,4 @@ export class Character {
     this.sit = damp(this.sit, sitTarget, 5, dt);
     const cushion = this.gear.has('cushion') ? 0.055 : 0;
     const seatedHip = 0.085 + cushion;
+    const breathe = Math.sin(time * 1.7) * 0.004;
