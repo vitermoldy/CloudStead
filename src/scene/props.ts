@@ -390,3 +390,4 @@ function bench(): Group {
 function pine(): Group {
   const g = new Group();
   g.add(mesh(new CylinderGeometry(0.04, 0.07, 0.5, 6), WOOD_DARK, 0, 0.25, 0));
+  const tiers: [number, number, number][] = [[0.42, 0.62, 0.62], [0.33, 0.55, 0.98], [0.22, 0.45, 1.3]];
