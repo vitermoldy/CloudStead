@@ -85,3 +85,4 @@ export function parseSaveFile(text: string): Bag {
     parsed = JSON.parse(text);
   } catch {
     throw new SaveFileError('Berkas ini bukan simpanan CloudStead (isinya tidak bisa dibaca).');
+  }
