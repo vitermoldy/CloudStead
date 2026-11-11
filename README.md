@@ -59,3 +59,4 @@ tetap berjalan; hanya pulaunya yang tidak tergambar.
 
 ## Tombol keyboard
 
+| Tombol | Fungsi |
