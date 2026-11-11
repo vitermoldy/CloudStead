@@ -184,3 +184,4 @@ function onGreet(): void {
   if (timer.focusing) {
     c.wave();
     speak(pick(next ? [
+      `Lagi kerja, nih. ${next.title} sudah ${pct}%.`,
