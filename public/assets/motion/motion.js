@@ -37,3 +37,5 @@ function nav() {
   const bar = document.querySelector('.nav');
   const links = bar?.querySelector('.nav__links');
   if (!links || bar.dataset.mNav) return;
+  bar.dataset.mNav = '1';   // no pill under the words (ST-08, ST-11): system.css draws their underline
+
