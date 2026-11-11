@@ -56,3 +56,4 @@ export class Cursor {
     addEventListener('blur', () => this.el.classList.remove('is-on'));
   }
 
+  set(state: CursorState, text = ''): void {
