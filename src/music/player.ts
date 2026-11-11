@@ -291,3 +291,4 @@ export class MusicPlayer extends Emitter {
     this.emit('change');
     const failed = this.current;
     setTimeout(() => {
+      if (this.current !== failed) return;
