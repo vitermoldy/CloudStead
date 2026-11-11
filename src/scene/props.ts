@@ -255,3 +255,4 @@ function lamp(): Group {
   return g;
 }
 
+function boardTexture(): { tex: CanvasTexture; draw: (today: number, total: number) => void } {
