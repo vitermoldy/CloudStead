@@ -265,3 +265,5 @@ export class World extends Emitter {
     this.character.setCraft(null);
     this.project = null;
     this.approach = null;
+  }
+
