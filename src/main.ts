@@ -463,3 +463,4 @@ function renderIsland(): void {
   renderSaveStatus();
 }
 
+function renderSaveStatus(): void {
