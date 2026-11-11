@@ -607,3 +607,4 @@ sndVol.value = String(ambient.settings.volume);
 sndVol.addEventListener('input', () => ambient.update({ volume: Number(sndVol.value) }));
 $('view-reset').addEventListener('click', () => world?.resetView());
 
+function setScenePaused(on: boolean, remember = true): void {
