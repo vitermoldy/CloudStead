@@ -148,3 +148,4 @@ export class MusicPlayer extends Emitter {
     return this.creating;
   }
 
+  private async load(index: number, autoplay: boolean): Promise<void> {
