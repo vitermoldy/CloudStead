@@ -141,3 +141,4 @@ html:not([data-motion="off"]) .tabs.m-has-ind .tab[aria-selected="true"] { backg
    again while it moves and its corners are true at rest */
 .m-tab-ind {
   position: absolute; left: 0; top: 0; z-index: 0; width: var(--w, 0px); height: var(--h, 0px);
+  border-radius: var(--r-btn); background: var(--ink); pointer-events: none;
