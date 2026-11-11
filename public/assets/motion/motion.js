@@ -129,3 +129,4 @@ function counts() {
   const items = [];
   els.forEach(el => {
     const walk = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+    let node, p;
