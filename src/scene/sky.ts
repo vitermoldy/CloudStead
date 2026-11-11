@@ -56,3 +56,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
         col += uGlow * pow(sunAmount, 6.0) * 0.55;
         col += uGlow * pow(sunAmount, 48.0) * 0.6;
         float disc = smoothstep(0.9993, 0.9997, sunAmount);
+        col = mix(col, uGlow * (1.4 - uNight * 0.3), disc * 0.9);
