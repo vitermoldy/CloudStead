@@ -607,3 +607,4 @@ export class PropsLayer {
           }
         };
         e.poke = (_self, point) => {
+          const rings = u.rings as Mesh[];
