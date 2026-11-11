@@ -939,3 +939,4 @@ export class World extends Emitter {
       this.refitT = Math.max(0, this.refitT - dt);
       const cur = this.camera.position.distanceTo(this.controls.target);
       const next = cur + (this.dist - cur) * Math.min(1, dt * 1.5);
+      const dir = this.camera.position.clone().sub(this.controls.target).normalize();
