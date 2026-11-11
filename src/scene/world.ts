@@ -812,3 +812,4 @@ export class World extends Emitter {
     this.frameMs = this.frameMs * 0.95 + (dt * 1000) * 0.05;
     this.step(dt);
     this.render();
+    this.adapt(dt);
