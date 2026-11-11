@@ -15,3 +15,4 @@ export interface ParsedLink {
 
 /** Throws LinkError with a sentence the visitor can act on. */
 export function parseLink(raw: string): ParsedLink {
+  const text = String(raw || '').trim();
