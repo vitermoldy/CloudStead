@@ -870,3 +870,4 @@ export class Character {
       this.nextStretch -= dt;
       if (this.nextStretch <= 0 && this.stretchT <= 0) {
         this.stretchT = 2.4;
+        this.nextStretch = 14 + Math.random() * 10;
