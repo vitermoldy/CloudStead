@@ -318,3 +318,5 @@ export function createClouds(count: number): Clouds {
 
   const order = puffs.map((_, i) => i);
   const camPos = new Vector3();
+  let sortClock = -1;
+
