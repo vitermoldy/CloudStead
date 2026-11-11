@@ -677,3 +677,4 @@ renderIsland();
 setInterval(() => {
   timer.tick();
   renderHud();
+  if (world) {
