@@ -904,3 +904,4 @@ export class Character {
       t.shovel.position.copy(handR);
       t.shovel.quaternion.setFromUnitVectors(UP, dir);
       this.blade.copy(handR).addScaledVector(dir, -0.3);
+      this.root.localToWorld(this.blade);
