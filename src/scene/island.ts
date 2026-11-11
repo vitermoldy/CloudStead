@@ -315,3 +315,4 @@ export class Island {
     return this.ghosts.children.map((g) => g.userData.ghost as Cell);
   }
 
+  /** What grows on a cell: 'none' for water, 'edges' for a bed or a floor. */
