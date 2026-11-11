@@ -679,3 +679,4 @@ setInterval(() => {
   renderHud();
   if (world) {
     ambient.setNight(world.night);
+    ambient.setTyping(world.character.act === 'type');
