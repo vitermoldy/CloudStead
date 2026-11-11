@@ -968,3 +968,4 @@ export class World extends Emitter {
     const px = new Uint8Array(4);
     let sum = 0, n = 0, max = 0;
     for (const r of rects) {
+      for (let i = 0; i < 5; i++) {
