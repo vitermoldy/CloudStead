@@ -107,3 +107,5 @@ function screenTexture(): { tex: CanvasTexture; draw: (lines: number, mode: 'cod
   return { tex, draw };
 }
 
+type GeoMaker = BoxGeometry | CylinderGeometry | SphereGeometry | TorusGeometry;
+
