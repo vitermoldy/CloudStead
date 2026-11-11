@@ -202,3 +202,4 @@ function cloudFloor(): { mesh: Mesh; material: ShaderMaterial } {
 }
 
 export interface Clouds {
+  mesh: Group;
