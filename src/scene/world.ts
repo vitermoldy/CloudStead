@@ -946,3 +946,5 @@ export class World extends Emitter {
     this.controls.update();
     this.clouds.update(L, this.camera, t, this.moving);
     this.moving = false;
+  }
+
