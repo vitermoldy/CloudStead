@@ -267,3 +267,4 @@ export class Ambient {
     this.tone(900, 0.04, 0.08, 'square');
   }
 
+  pop(): void {
