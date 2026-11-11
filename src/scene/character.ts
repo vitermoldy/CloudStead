@@ -937,3 +937,5 @@ export class Character {
         mug.position.lerp(mug.userData.rest as Vector3, 1 - Math.exp(-10 * dt));
       }
     }
+  }
+
