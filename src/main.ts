@@ -672,3 +672,4 @@ if (previewMinutes !== null) {
 
 // ------------------------------------------------------------ the loop
 timer.resume();
+renderHud(true);
