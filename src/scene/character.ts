@@ -149,3 +149,4 @@ export function makeGear(kind: Gear): Group {
       l.rotation.z = Math.PI / 2;
       r.rotation.z = Math.PI / 2;
       l.position.x = 0.093;
+      r.position.x = -0.093;
