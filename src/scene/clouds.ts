@@ -124,3 +124,4 @@ function layout(count: number): Puff[] {
     for (let i = 0; i < n; i++) {
       const k = i / n;
       const w = (15 - k * 7) * (0.8 + rand() * 0.5);
+      puffs.push({
