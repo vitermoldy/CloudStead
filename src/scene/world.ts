@@ -631,3 +631,5 @@ export class World extends Emitter {
       this.replan = true;
       this.emit('woke');
     }
+  }
+
