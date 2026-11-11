@@ -582,3 +582,4 @@ export class Character {
         pos.lerp(this.home, Math.min(1, dt * 6));
         this.act = step.act;
         this.stepT += dt;
+        if (this.stepT >= step.seconds) this.next();
