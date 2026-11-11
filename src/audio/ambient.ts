@@ -47,3 +47,4 @@ export class Ambient {
     this.ctx = ctx;
     this.master = ctx.createGain();
     this.master.connect(ctx.destination);
+    const len = ctx.sampleRate * 2;
