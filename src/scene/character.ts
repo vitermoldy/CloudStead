@@ -600,3 +600,5 @@ export class Character {
     this.head.localToWorld(p);
     p.project(camera);
     return { x: (p.x * 0.5 + 0.5) * w, y: (-p.y * 0.5 + 0.5) * h, visible: p.z < 1 };
+  }
+
