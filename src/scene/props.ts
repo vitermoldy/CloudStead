@@ -279,3 +279,4 @@ function boardTexture(): { tex: CanvasTexture; draw: (today: number, total: numb
     ctx.fillStyle = 'rgba(235, 232, 214, 0.7)';
     ctx.fillText(`Total ${fmt(total)}`, 18, 136);
     tex.needsUpdate = true;
+  };
