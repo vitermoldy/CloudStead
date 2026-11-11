@@ -257,3 +257,4 @@ export class Character {
   readonly blade = new Vector3();
   readonly grip = new Vector3();
 
+  constructor() {
