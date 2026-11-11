@@ -98,3 +98,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
       btn.append(t, meta);
       btn.addEventListener('click', () => player.play(i));
       const rm = document.createElement('button');
+      rm.type = 'button';
