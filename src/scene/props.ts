@@ -679,3 +679,4 @@ export class PropsLayer {
       if (h.object instanceof Line) continue;
       const entry = (h.object as Object3D).userData.prop as PropEntry | undefined;
       if (entry) return { entry, point: h.point };
+    }
