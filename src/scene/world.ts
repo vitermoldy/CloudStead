@@ -405,3 +405,4 @@ export class World extends Emitter {
       steps.push({ kind: 'do', act: 'water', seconds: 3.5, face: target, beat: 0.5, onBeat: () => this.workBeat('water', target, 0) });
     } else {
       steps.push({ kind: 'do', act: 'dig', seconds: 5.2, face: target, beat: 1.3, onBeat: () => this.workBeat('dig', target, 0) });
+    }
