@@ -65,3 +65,4 @@ export class Cursor {
     this.wake();
   }
 
+  private wake(): void {
