@@ -765,3 +765,4 @@ export class Character {
       const hand = new Vector3();
       reach(shoulders[i], this.hands[i], L_UPPER, L_FORE, new Vector3(s * 1, -0.7, -0.5), elbows[i], hand);
       span(this.upper[i], shoulders[i], elbows[i]);
+      span(this.fore[i], elbows[i], hand);
