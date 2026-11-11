@@ -297,3 +297,4 @@ export class Character {
     for (let i = 0; i < 2; i++) {
       this.upper.push(new Mesh(new CapsuleGeometry(0.03, L_UPPER - 0.06, 4, 8), HOODIE));
       this.fore.push(new Mesh(new CapsuleGeometry(0.026, L_FORE - 0.05, 4, 8), HOODIE));
+      this.palms.push(new Mesh(new SphereGeometry(0.023, 8, 6), SKIN));
