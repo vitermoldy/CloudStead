@@ -6,3 +6,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
   const material = new ShaderMaterial({
     side: BackSide,
     depthWrite: false,
+    fog: false,
