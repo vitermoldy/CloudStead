@@ -337,3 +337,4 @@ function enter() {
   // the head line did not run, reduced motion, a headless shot (it sees the hero at rest, as it sees the
   // final number, unless data-motion="live") or the visitor is already below the hero (a reload half way
   // down): the hero stands as written. The safety mark has passed: motion.css is fading the words in and
+  // settling the picture; the hero is marked done once they are through
