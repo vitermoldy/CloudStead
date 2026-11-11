@@ -549,3 +549,4 @@ export class World extends Emitter {
   private goHome(): Step[] {
     const c = this.character;
     if (c.atHome && c.seated) return [];
+    return this.walkTo(c.home);
