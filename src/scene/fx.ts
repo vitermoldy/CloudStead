@@ -22,3 +22,4 @@ const TEXTURES: Record<FxKind, () => CanvasTexture> = {
     ctx.moveTo(32, 54);
     ctx.bezierCurveTo(6, 36, 6, 12, 22, 12);
     ctx.bezierCurveTo(28, 12, 32, 18, 32, 22);
+    ctx.bezierCurveTo(32, 18, 36, 12, 42, 12);
