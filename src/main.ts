@@ -334,3 +334,4 @@ function renderHud(force = false): void {
   }
   const go = $('focus-toggle');
   go.classList.toggle('is-running', timer.running);
+  const label = timer.running
