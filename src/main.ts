@@ -401,3 +401,4 @@ function openPanel(id: string | null, focus = true): void {
     p.dataset.open = String(on);
     p.inert = !on;
   }
+  for (const t of tabItems) t.setAttribute('aria-expanded', String(t.dataset.panel === id));
