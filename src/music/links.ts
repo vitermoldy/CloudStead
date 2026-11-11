@@ -155,3 +155,4 @@ export const ERROR_TEXT: Record<number, string> = {
  * Live streams get new addresses when a stream restarts: when one stops, replace its id here.
  */
 export const SUGGESTIONS = [
+  { label: 'Radio lofi untuk belajar', url: 'https://www.youtube.com/watch?v=rFZHOHl-L8A' },
