@@ -45,3 +45,4 @@ export function parseLink(raw: string): ParsedLink {
   const unplayable = listId && (/^RD/.test(listId) || listId === 'LL' || listId === 'WL' || listId === 'LM');
   if (unplayable) {
     if (videoId) listId = null;
+    else throw new LinkError('Mix dan daftar pribadi tidak bisa diputar di luar YouTube. Tempel satu lagu, album, atau playlist publik.');
