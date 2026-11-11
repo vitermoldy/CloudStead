@@ -310,3 +310,4 @@ html:not([data-motion="off"]) .field :is(input, select, textarea):focus, .m-inpu
   .m-tab-ind { transition: none; }
   .m-switch::before { transition-property: background-color; }
   .m-switch:active::before { transform: none; }
+  .m-switch[aria-checked="true"]::before, .m-switch[aria-checked="true"]:active::before { transform: translateX(16px); }
