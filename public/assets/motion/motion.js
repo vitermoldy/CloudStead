@@ -133,3 +133,4 @@ function counts() {
     while ((node = walk.nextNode()) && !(p = parse(node.data))) { /* next */ }
     if (!node || !p) return;
     // the number gets its own span, as wide as the final number and right-aligned, so nothing beside it
+    // moves. Until it is measured it shows its own text, never a 0
