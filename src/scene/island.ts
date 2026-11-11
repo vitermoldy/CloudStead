@@ -93,3 +93,4 @@ function bladeGeometry(): BufferGeometry {
   for (let i = 0; i < pos.length; i += 3) {
     const c = root.clone().lerp(tip, Math.pow(pos[i + 1], 1.2));
     cols.push(c.r, c.g, c.b);
+  }
