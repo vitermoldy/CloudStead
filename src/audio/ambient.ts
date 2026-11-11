@@ -295,3 +295,4 @@ export class Ambient {
     this.night = n;
   }
 
+  setDucked(on: boolean): void {
