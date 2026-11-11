@@ -673,3 +673,4 @@ export class PropsLayer {
   }
 
   /** The prop under the pointer ray, with the point it was hit. */
+  pick(ray: Raycaster): { entry: PropEntry; point: Vector3 } | null {
