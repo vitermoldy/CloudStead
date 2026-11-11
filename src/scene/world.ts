@@ -62,3 +62,4 @@ export class World extends Emitter {
   private p = 0;
   private site: PropSite | null = null;
   private approach: Vector3 | null = null;
+  private loopN = 0;
