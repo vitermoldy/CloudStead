@@ -45,3 +45,4 @@ const STONE = std('#857767', { flatShading: true });
 const IRON = std('#2b2a28', { roughness: 0.6, metalness: 0.3 });
 
 function mesh(geo: BufferGeometry, mat: MeshStandardMaterial | MeshBasicMaterial, x = 0, y = 0, z = 0, shadow = true): Mesh {
+  const m = new Mesh(geo, mat);
