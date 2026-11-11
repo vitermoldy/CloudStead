@@ -62,3 +62,4 @@ button:disabled { cursor: not-allowed; opacity: .5; }
 
 /* ---------------------------------------------------------------- the hero: the island in a frame, one screen */
 main { display: block; }
+.hero {
