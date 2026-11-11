@@ -98,3 +98,4 @@ export class Fx {
       this.mats.set(k, new SpriteMaterial({ map: TEXTURES[k](), transparent: true, depthWrite: false, opacity: 0 }));
       this.pools.set(k, []);
     }
+    const n = 28;
