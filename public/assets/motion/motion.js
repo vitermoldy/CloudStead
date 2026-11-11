@@ -230,3 +230,4 @@ function pauseButton(loop) {
     btn.classList.toggle('is-paused', paused);
   };
   show(false);
+  if (getComputedStyle(box).position === 'static') box.style.position = 'relative';
