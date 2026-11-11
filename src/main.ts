@@ -271,3 +271,4 @@ function phaseLine(): string {
 }
 
 function storyLine(): string {
+  const n = progress.name;
