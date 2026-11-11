@@ -41,3 +41,4 @@ export class Progress extends Emitter {
   private unsavedMs = 0;
 
   constructor(previewMinutes: number | null = null) {
+    super();
