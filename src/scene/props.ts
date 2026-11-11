@@ -100,3 +100,4 @@ function tree(): Group {
   const g = new Group();
   const trunk = mesh(new CylinderGeometry(0.05, 0.085, 0.95, 6), WOOD, 0, 0.47, 0);
   trunk.rotation.z = 0.05;
+  g.add(trunk);
