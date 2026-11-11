@@ -96,3 +96,5 @@ export function parseSaveFile(text: string): Bag {
     throw new SaveFileError('Simpanan ini tidak punya catatan waktu fokus yang valid.');
   }
   return data;
+}
+
