@@ -206,3 +206,4 @@ export class Character {
   private headYaw = 0;
   private headPitch = 0.3;
   private headRoll = 0;
+  private walkPhase = 0;
