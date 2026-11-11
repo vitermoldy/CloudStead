@@ -36,3 +36,4 @@ export class FocusTimer extends Emitter {
   private creditedAt: number;
   private readonly persistOn: boolean;
 
+  constructor(private onFocusTime: (ms: number) => void, private onFocusDone: () => void, persist = true) {
