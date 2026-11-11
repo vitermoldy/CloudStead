@@ -82,3 +82,4 @@ async function startWorld(): Promise<void> {
   w.setInstant(reducedMotion());
   w.resetView();
   w.setInkSource(() => [$('big').getBoundingClientRect()]);
+  w.setMusic(player.isPlaying);
