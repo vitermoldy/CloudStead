@@ -592,3 +592,4 @@ export class World extends Emitter {
 
   /** Reduced motion: builds appear at once, the camera stays still. */
   setInstant(on: boolean): void {
+    this.instant = on;
