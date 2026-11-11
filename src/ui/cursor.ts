@@ -26,3 +26,4 @@ export class Cursor {
 
   constructor(el: HTMLElement, private surface: HTMLElement) {
     this.el = el;
+    this.ring = el.querySelector('.cursor__ring') as HTMLElement;
