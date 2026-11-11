@@ -440,3 +440,4 @@ function balloon(): Group {
   float.add(basket);
   const rope = new LineBasicMaterial({ color: '#3a2f25' });
   for (const [x, z] of [[-0.12, -0.12], [0.12, -0.12], [-0.12, 0.12], [0.12, 0.12]]) {
+    float.add(new Line(new BufferGeometry().setFromPoints([new Vector3(x, -1.2, z), new Vector3(x * 1.6, -0.82, z * 1.6)]), rope));
