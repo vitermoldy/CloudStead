@@ -235,3 +235,4 @@ function pole(): Group {
     const pts = [...catenary(a, b, 0.7), ...catenary(b, c, 1.5).slice(1)];
     const line = new Line(new BufferGeometry().setFromPoints(pts), wire);
     line.userData.late = true;
+    g.add(line);
