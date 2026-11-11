@@ -59,3 +59,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
         col = mix(col, uGlow * (1.4 - uNight * 0.3), disc * 0.9);
         // Stars: a fixed field on the dome, twinkling slowly, only above the haze.
         if (uStars > 0.01) {
+          vec3 cell = floor(d * 220.0);
