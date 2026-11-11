@@ -12,3 +12,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
   const picks = $('music-picks');
   const now = $('now');
   const status = $('player-status');
+  const title = $('now-title');
