@@ -812,3 +812,4 @@ export class Character {
     }
     if (this.petAmount > 0.01) {
       roll += Math.sin(time * 3) * 0.12 * this.petAmount;
+      pitch = pitch * (1 - this.petAmount) - 0.1 * this.petAmount;
