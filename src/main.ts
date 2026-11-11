@@ -366,3 +366,4 @@ function toggleFocus(): void {
   }
 }
 
+timer.on('change', () => {
