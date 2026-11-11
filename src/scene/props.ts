@@ -52,3 +52,4 @@ function mesh(geo: BufferGeometry, mat: MeshStandardMaterial | MeshBasicMaterial
   return m;
 }
 
+function rock(): Group {
