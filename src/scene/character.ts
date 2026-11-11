@@ -381,3 +381,4 @@ export class Character {
     t.plank.add(plank, plank2);
 
     const ball = new Mesh(new SphereGeometry(0.03, 10, 8), new MeshStandardMaterial({ color: '#c05a3c' }));
+    ball.position.set(0.09, -0.02, 0.02);
