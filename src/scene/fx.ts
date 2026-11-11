@@ -124,3 +124,4 @@ export class Fx {
   }
 
   private take(kind: FxKind): Particle {
+    const pool = this.pools.get(kind)!;
