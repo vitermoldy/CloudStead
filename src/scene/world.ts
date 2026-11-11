@@ -70,3 +70,4 @@ export class World extends Emitter {
   private tweens: ((dt: number) => boolean)[] = [];
   private refitT = 0;
   private time = 0;
+  private last = performance.now();
