@@ -18,3 +18,4 @@ function puffAtlas(): DataTexture {
   const width = CELL * VARIANTS;
   const img = { data: new Uint8Array(width * CELL * 4) };
   const rand = rng(7);
+  for (let k = 0; k < VARIANTS; k++) {
