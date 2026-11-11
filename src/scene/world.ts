@@ -879,3 +879,4 @@ export class World extends Emitter {
     }
 
     // Holding the press on the resident turns into petting.
+    const p = this.press;
