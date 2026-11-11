@@ -33,3 +33,4 @@ export class FocusTimer extends Emitter {
   running: boolean;
   endAt: number;
   remainingMs: number;
+  private creditedAt: number;
