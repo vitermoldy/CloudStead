@@ -73,3 +73,4 @@ async function startWorld(): Promise<void> {
     $('fallback').hidden = false;
     return;
   }
+  const w = world;
