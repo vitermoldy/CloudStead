@@ -351,3 +351,4 @@ function enter() {
     if (over) return;
     over = true;
     anims.forEach(a => { try { a.cancel(); } catch { /* gone */ } });
+    masks?.restore();
