@@ -167,3 +167,4 @@ export function makeGear(kind: Gear): Group {
       const rim = m(new TorusGeometry(0.088, 0.016, 6, 18), '#c29835');
       rim.rotation.x = Math.PI / 2;
       rim.position.y = 0.01;
+      const pom = m(new SphereGeometry(0.025, 8, 6), '#efe6cf');
