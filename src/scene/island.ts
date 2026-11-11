@@ -51,3 +51,4 @@ function rockGeometry(cell: Cell, depth: number): BufferGeometry {
   const colors: number[] = [];
   const bandColor = (y: number) => {
     const band = Math.floor((-y + Math.sin(y * 3 + cell[0]) * 0.12) / 0.38);
+    const c = new Color(strata[((band % strata.length) + strata.length) % strata.length]);
