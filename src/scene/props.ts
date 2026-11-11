@@ -116,3 +116,4 @@ function tree(): Group {
 function garden(): Group {
   const g = new Group();
   const side = new BoxGeometry(0.8, 0.12, 0.05);
+  for (let i = 0; i < 4; i++) {
