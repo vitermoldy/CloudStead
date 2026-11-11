@@ -46,3 +46,5 @@ export class PropSite {
       this.group.add(m);
     }
     const loop = corners.concat([corners[0]]).map(([x, z]) => new Vector3(x, 0.13, z));
+    this.group.add(new Line(new BufferGeometry().setFromPoints(loop), STRING));
+
