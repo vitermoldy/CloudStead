@@ -875,3 +875,4 @@ export class Character {
       if (mug) {
         this.nextSip -= dt;
         if (this.nextSip <= 0 && this.stretchT <= 0) {
+          this.sipT = 2.2;
