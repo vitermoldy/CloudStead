@@ -209,3 +209,5 @@ export class Fx {
       this.birds.visible = false;
       this.birdClock = 35 + Math.random() * 50;
     }
+  }
+
