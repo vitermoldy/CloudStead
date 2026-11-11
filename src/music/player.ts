@@ -71,3 +71,4 @@ export class MusicPlayer extends Emitter {
       this.emit('change');
     });
     if (playNow || this.current < 0 || this.status === 'ended') this.play(this.queue.length - 1);
+    return item;
