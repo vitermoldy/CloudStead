@@ -172,3 +172,4 @@ function hut(): Group {
       hole.lineTo(-0.12, 0);
       s.holes.push(hole);
     }
+    return new ExtrudeGeometry(s, { depth: 0.04, bevelEnabled: false });
