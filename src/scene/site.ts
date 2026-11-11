@@ -57,3 +57,4 @@ export class PropSite {
     this.hi = Math.max(this.lo + 0.05, box.max.y);
 
     const mode = REVEAL[kind];
+    this.build.traverse((o) => {
