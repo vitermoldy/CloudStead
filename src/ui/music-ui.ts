@@ -82,3 +82,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
     queue.replaceChildren(...player.queue.map((q, i) => {
       const li = document.createElement('li');
       li.classList.toggle('is-current', i === player.current);
+      li.classList.toggle('has-error', q.status === 'error');
