@@ -164,3 +164,4 @@ export class Ambient {
   }
 
   private key(): void {
+    const ctx = this.ctx!;
