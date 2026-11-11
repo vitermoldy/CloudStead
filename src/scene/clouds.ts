@@ -127,3 +127,4 @@ function layout(count: number): Puff[] {
       puffs.push({
         x: cx + (rand() - 0.5) * (16 - k * 9), z: cz + (rand() - 0.5) * (16 - k * 9),
         y: -7 + k * height + rand() * 2, w, h: w * (0.72 + rand() * 0.25), seed: rand(), alpha: 1, speed: 0.12,
+      });
