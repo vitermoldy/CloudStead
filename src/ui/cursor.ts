@@ -77,3 +77,4 @@ export class Cursor {
     this.last = now;
     const k = reducedMotion() ? 1 : 1 - Math.exp(-dt * 18);
     const px = this.rx, py = this.ry;
+    this.rx += (this.x - this.rx) * k;
