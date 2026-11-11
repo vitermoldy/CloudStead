@@ -88,3 +88,4 @@ function flowers(): Group {
 }
 
 function sapling(): Group {
+  const g = new Group();
