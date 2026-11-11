@@ -184,3 +184,4 @@ export class World extends Emitter {
       if (m.kind === 'prop' && m.prop && m.at) this.addProp(m.prop, m.at, false);
       if (m.kind === 'gear' && m.gear) this.character.setGear(m.gear, true);
     }
+    this.updateGhosts(reached);
