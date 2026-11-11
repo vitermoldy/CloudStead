@@ -360,3 +360,4 @@ function toggleFocus(): void {
   timer.toggle();
   ambient.start();
   world?.nudge();
+  if (timer.running && timer.phase === 'focus') {
