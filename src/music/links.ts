@@ -49,3 +49,4 @@ export function parseLink(raw: string): ParsedLink {
   }
 
   if (!videoId && !listId) throw new LinkError('Tautan ini tidak berisi video atau playlist. Buka lagunya, lalu salin lagi tautannya.');
+  const kind = listId ? 'playlist' : 'video';
