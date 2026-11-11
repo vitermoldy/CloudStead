@@ -81,3 +81,5 @@ export class LiveLook {
   exposure = 1;
 
   private static tmpA = new Color();
+  private static tmpB = new Color();
+
