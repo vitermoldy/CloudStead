@@ -382,3 +382,4 @@ timer.on('finished', (phase: string, skipped: boolean) => {
 });
 
 progress.on('reach', (m: Milestone) => {
+  if (world) world.reach(m);
