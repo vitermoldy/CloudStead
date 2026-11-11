@@ -78,3 +78,5 @@ dial **ENERGY 3 / RHYTHM 1 / MOTION 3**.
 The taste-skill gate is written for multi-section company sites. This page is one screen of app,
 so some of its structure rules do not fit. Waived, with reasons in `.taste-skill/waivers.json`:
 four shader-lint hits inside three.js's own shader chunks, and moment-none (no scroll, so no
+section for a kit moment; the growing piece is the moment). Kept on purpose and reported as open:
+
