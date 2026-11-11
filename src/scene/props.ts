@@ -550,3 +550,4 @@ export class PropsLayer {
     group.traverse((o) => {
       o.userData.prop = entry;
     });
+    if (animate) group.scale.setScalar(0.001);
