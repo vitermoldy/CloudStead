@@ -74,3 +74,4 @@ async function startWorld(): Promise<void> {
     return;
   }
   const w = world;
+  // Development only: a handle for the headless checks.
