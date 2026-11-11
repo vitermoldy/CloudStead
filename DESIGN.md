@@ -14,3 +14,4 @@ progress, for progress that can be saved and reset, and for a responsive cursor 
 the resident. The reference's own code, video and copy are not used; only its look is.
 
 **Design Read.** Reading this as: an ambient study app (software) for students who study at a
+screen with music on, in a cinematic golden-hour diorama style taken from the owner's reference,
