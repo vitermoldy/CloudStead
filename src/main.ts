@@ -403,3 +403,4 @@ function openPanel(id: string | null, focus = true): void {
   }
   for (const t of tabItems) t.setAttribute('aria-expanded', String(t.dataset.panel === id));
   const was = openId;
+  openId = id;
