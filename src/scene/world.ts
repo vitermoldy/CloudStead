@@ -428,3 +428,4 @@ export class World extends Emitter {
       c.run([...this.goHome(), { kind: 'sit', act: 'sleep', seconds: 1e9 }]);
       return;
     }
+    const plants = this.props.entries.filter((e) => ['flowers', 'garden', 'sapling', 'tree', 'pine'].includes(e.kind));
