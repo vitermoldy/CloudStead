@@ -394,3 +394,4 @@ export function init() {
   if (!html.hasAttribute('data-motion')) html.setAttribute('data-motion', '');
   try { enter(); } catch (e) { console.warn('motion.js: enter', e); document.querySelector('.hero[data-enter]')?.classList.add('is-entered'); }
   try { nav(); } catch (e) { console.warn('motion.js: nav', e); }
+  try { tabs(); } catch (e) { console.warn('motion.js: tabs', e); }
