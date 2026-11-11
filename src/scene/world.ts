@@ -556,3 +556,4 @@ export class World extends Emitter {
     return this.character.home;
   }
 
+  /** The rope from the resident's hands down to the cell being hauled, with a little sag. */
