@@ -171,3 +171,4 @@ function onHover(h: Hover & { dragging?: boolean }, petting: boolean): void {
   }
 }
 
+function onGreet(): void {
