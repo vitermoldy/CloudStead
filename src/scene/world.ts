@@ -677,3 +677,4 @@ export class World extends Emitter {
     const c = this.canvas;
     const toNdc = (e: PointerEvent) => {
       const r = c.getBoundingClientRect();
+      this.ndc.set(((e.clientX - r.left) / r.width) * 2 - 1, -((e.clientY - r.top) / r.height) * 2 + 1);
