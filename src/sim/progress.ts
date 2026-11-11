@@ -67,3 +67,4 @@ export class Progress extends Emitter {
 
   reload(): void {
     this.data = this.read();
+    this.emit('change');
