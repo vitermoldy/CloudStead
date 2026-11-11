@@ -255,3 +255,4 @@ export class Ambient {
       o.type = 'triangle';
       o.frequency.setValueAtTime(200, t);
       o.frequency.exponentialRampToValueAtTime(120, t + 0.12);
+      g.gain.setValueAtTime(0.0001, t);
