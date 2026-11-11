@@ -103,3 +103,4 @@ export function replaceAll(data: Bag): void {
   saveNow();
 }
 
+export function clearSection(section: string): void {
