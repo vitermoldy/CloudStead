@@ -25,3 +25,4 @@ export class Ambient {
   private fxGain: GainNode | null = null;
   private noise: AudioBuffer | null = null;
   private night = 0;
+  private typing = false;
