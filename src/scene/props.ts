@@ -297,3 +297,4 @@ function board(): Group {
   g.add(face);
   g.rotation.x = -0.05;
   g.userData.draw = draw;
+  g.userData.drawn = -1;
