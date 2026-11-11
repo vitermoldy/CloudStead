@@ -331,3 +331,4 @@ function renderHud(force = false): void {
     $('next-left').textContent = `total ${formatMinutes(progress.minutes)}`;
     fill.style.width = '100%';
     meter.setAttribute('aria-valuenow', '100');
+  }
