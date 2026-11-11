@@ -606,3 +606,4 @@ export class World extends Emitter {
     return this.paused;
   }
 
+  get night(): number {
