@@ -389,3 +389,4 @@ export class World extends Emitter {
     const stand = this.approach ?? this.standPoint(at);
     if (!stand) return this.planFree();
     const steps: Step[] = [];
+    // Building takes planks: every few rounds the resident fetches an armful from the crate at the seat.
