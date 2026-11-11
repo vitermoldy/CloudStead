@@ -428,3 +428,4 @@ export class Island {
 
   /** Puts every cell where the work has got it, at once (reduced motion, a paused scene). */
   settle(): void {
+    for (const t of this.tiles.values()) {
