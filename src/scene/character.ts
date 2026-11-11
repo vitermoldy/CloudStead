@@ -82,3 +82,4 @@ function screenTexture(): { tex: CanvasTexture; draw: (lines: number, mode: 'cod
         ctx.fill();
         ctx.fillStyle = '#16202b';
         ctx.beginPath();
+        ctx.arc(70, 37, 11, 0, Math.PI * 2);
