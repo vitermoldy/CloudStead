@@ -127,3 +127,4 @@ function garden(): Group {
   const sprout = new ConeGeometry(0.03, 0.12, 4);
   const cabbage = new IcosahedronGeometry(0.08, 1);
   for (let r = 0; r < 3; r++) {
+    for (let c = 0; c < 4; c++) {
