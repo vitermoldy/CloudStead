@@ -900,3 +900,4 @@ export class World extends Emitter {
       if (this.idleFor > 150 && this.character.act !== 'sleep' && !this.celebrating && this.idleFor - dt <= 150) this.replan = true;
     }
     if (this.replan && !this.celebrating) {
+      this.replan = false;
