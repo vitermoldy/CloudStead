@@ -116,3 +116,4 @@ export class Ambient {
       const g = ctx.createGain();
       o.type = 'sine';
       o.frequency.setValueAtTime(base, t);
+      o.frequency.exponentialRampToValueAtTime(base * (1.25 + Math.random() * 0.3), t + 0.07);
