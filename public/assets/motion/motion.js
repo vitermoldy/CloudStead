@@ -297,3 +297,4 @@ function maskWords(h1) {
       w.className = 'm-w'; i.className = 'm-w__in'; i.textContent = part;
       w.append(i); frag.append(w); words.push(w);
     });
+    n.replaceWith(frag);
