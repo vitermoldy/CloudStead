@@ -449,3 +449,4 @@ export class World extends Emitter {
         if (!stand) return [];
         const t = new Vector3(pl.cell[0], 0, pl.cell[1]);
         return [...this.walkTo(stand), { kind: 'do', act: 'water', seconds: 4, face: t, beat: 0.5, onBeat: () => this.workBeat('water', t, 0) }];
+      }]);
