@@ -61,3 +61,4 @@ export class Cursor {
     this.state = state;
     this.el.dataset.state = state;
     if (text) this.label.textContent = text;
+    this.el.dataset.label = text ? 'true' : 'false';
