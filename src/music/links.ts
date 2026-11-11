@@ -104,3 +104,4 @@ export function loadYouTubeApi(): Promise<YTNamespace> {
       resolve(window.YT as YTNamespace);
     };
     const s = document.createElement('script');
+    s.src = 'https://www.youtube.com/iframe_api';
