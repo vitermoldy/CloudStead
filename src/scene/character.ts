@@ -314,3 +314,4 @@ export class Character {
     const lidBack = new Mesh(new BoxGeometry(0.17, 0.11, 0.008), base.material);
     lidBack.position.set(0, 0.055, -0.004);
     const face = new Mesh(new PlaneGeometry(0.155, 0.096), new MeshBasicMaterial({ map: this.screen.tex }));
+    face.position.set(0, 0.055, 0.0012);
