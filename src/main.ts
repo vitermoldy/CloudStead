@@ -125,3 +125,4 @@ async function startWorld(): Promise<void> {
   // Once the island has faded in over it, the still is no longer needed.
   setTimeout(() => {
     $('poster').hidden = true;
+  }, 1200);
