@@ -260,3 +260,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 .queue__remove { flex: none; min-height: 44px; padding: 0 12px; border: 0; border-radius: var(--r-sm); background: none; color: var(--muted); font-size: 14px; }
 .queue__remove:hover { color: var(--ink); background: rgba(231, 228, 209, .08); }
 
+fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
