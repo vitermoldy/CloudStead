@@ -68,3 +68,4 @@ export class Cursor {
   private wake(): void {
     if (!this.raf) {
       this.last = performance.now();
+      this.raf = requestAnimationFrame((t) => this.frame(t));
