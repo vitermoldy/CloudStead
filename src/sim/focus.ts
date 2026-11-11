@@ -32,3 +32,4 @@ export class FocusTimer extends Emitter {
   round: number;
   running: boolean;
   endAt: number;
+  remainingMs: number;
