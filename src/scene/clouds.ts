@@ -99,3 +99,4 @@ function layout(count: number): Puff[] {
   const rand = rng(1234);
   const puffs: Puff[] = [];
   const scale = count / 380;
+  // Billows on the sea of clouds under the island: big, flat-bottomed, close together.
