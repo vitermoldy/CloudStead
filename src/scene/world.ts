@@ -906,3 +906,4 @@ export class World extends Emitter {
     this.character.update(dt, t);
     this.updateRope();
     this.character.setScreenGlow(L.night);
+    if (this.character.musicOn && this.character.act !== 'sleep') {
