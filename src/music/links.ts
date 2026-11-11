@@ -109,3 +109,4 @@ export function loadYouTubeApi(): Promise<YTNamespace> {
     s.onerror = () => {
       clearTimeout(timer);
       apiPromise = null;
+      s.remove();
