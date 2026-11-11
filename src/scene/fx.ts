@@ -206,3 +206,4 @@ export class Fx {
     }
     if (Math.abs(this.birds.position.x) > 28) {
       this.birdT = -1;
+      this.birds.visible = false;
