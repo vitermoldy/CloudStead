@@ -5,3 +5,4 @@ import {
 import type { Cell, PropKind } from '../sim/milestones';
 import { buildProp, REVEAL } from './props';
 
+const GHOST = new MeshBasicMaterial({ color: '#f3efd9', transparent: true, opacity: 0.16, depthWrite: false });
