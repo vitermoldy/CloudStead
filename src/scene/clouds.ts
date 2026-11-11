@@ -257,3 +257,4 @@ export function createClouds(count: number): Clouds {
         c.x = mod(c.x + uTime * aMeta.z + uSpan, uSpan * 2.0) - uSpan;
         vec3 right = vec3(viewMatrix[0][0], viewMatrix[1][0], viewMatrix[2][0]);
         vec3 up = vec3(viewMatrix[0][1], viewMatrix[1][1], viewMatrix[2][1]);
+        vec3 world = c + right * position.x * aSize.x + up * position.y * aSize.y;
