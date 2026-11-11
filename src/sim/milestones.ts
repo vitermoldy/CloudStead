@@ -24,3 +24,4 @@ export interface Milestone {
   kind: 'tiles' | 'prop' | 'gear';
   tiles?: Cell[];
   at?: Cell;
+  prop?: PropKind;
