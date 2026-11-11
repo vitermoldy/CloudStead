@@ -176,3 +176,4 @@ export class Fx {
           p.max = 1.8; p.size = 0.03; p.grow = 0.04; p.gravity = 0;
           break;
       }
+    }
