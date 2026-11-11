@@ -224,3 +224,4 @@ export class MusicPlayer extends Emitter {
     this.advance(-1);
   }
 
+  private advance(dir: number): void {
