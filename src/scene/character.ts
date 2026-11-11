@@ -477,3 +477,4 @@ export class Character {
   }
 
   // ------------------------------------------------------------ plans
+  /** Replaces whatever the resident was doing with a new plan. */
