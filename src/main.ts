@@ -89,3 +89,4 @@ async function startWorld(): Promise<void> {
   w.on('ink', (avg: number) => {
     // Cream until the scene behind the clock gets bright; dark ink keeps 3:1 or better there.
     $('big').dataset.ink = avg > 0.17 ? 'dark' : 'light';
+  });
