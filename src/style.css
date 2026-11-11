@@ -178,3 +178,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
   display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; background: var(--bg);
   transition: transform 150ms var(--ease);
 }
+.go:hover .go__dot { transform: scale(1.06); }
