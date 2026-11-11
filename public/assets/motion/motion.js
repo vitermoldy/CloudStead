@@ -110,3 +110,4 @@ function parse(text) {
     if (tail === 3 && !(seps.length === 1 && raw[lastSep] === '.' && /^0/.test(raw))) group = raw[lastSep];
     else { dec = raw[lastSep]; decimals = tail; group = seps.length > 1 ? seps[0] : ''; }
   }
+  const intPart = dec ? raw.slice(0, lastSep) : raw;
