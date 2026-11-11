@@ -613,3 +613,4 @@ export class Character {
   }
 
   // ------------------------------------------------------------ frame
+  update(dt: number, time: number): void {
