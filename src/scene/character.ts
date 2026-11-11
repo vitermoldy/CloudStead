@@ -170,3 +170,4 @@ export function makeGear(kind: Gear): Group {
       const pom = m(new SphereGeometry(0.025, 8, 6), '#efe6cf');
       pom.position.y = 0.1;
       g.add(cap, rim, pom);
+      break;
