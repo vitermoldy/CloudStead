@@ -204,3 +204,5 @@ export class World extends Emitter {
     this.ghostMilestone = tiles;
   }
 
+  ghostMilestone: Milestone | null = null;
+
