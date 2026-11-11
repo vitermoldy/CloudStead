@@ -231,3 +231,4 @@ export class Character {
   private torso: Mesh;
   private hood: Mesh;
   private head = new Group();
+  private eyes: Mesh[] = [];
