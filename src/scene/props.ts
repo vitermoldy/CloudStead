@@ -243,3 +243,4 @@ function pole(): Group {
 function lamp(): Group {
   const g = new Group();
   g.add(mesh(new CylinderGeometry(0.018, 0.03, 1.05, 6), IRON, 0.28, 0.52, 0.22));
+  g.add(mesh(new BoxGeometry(0.14, 0.02, 0.14), IRON, 0.28, 1.06, 0.22));
