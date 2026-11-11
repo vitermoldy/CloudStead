@@ -755,3 +755,4 @@ export class Character {
     }
     const mug = this.gear.get('mug');
     if (mug && act === 'rest' && this.sipT > 0) {
+      this.sipT -= dt;
