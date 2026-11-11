@@ -179,3 +179,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
   transition: transform 150ms var(--ease);
 }
 .go:hover .go__dot { transform: scale(1.06); }
+.go__dot svg { width: 18px; height: 18px; fill: var(--ink); }
