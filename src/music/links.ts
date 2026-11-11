@@ -94,3 +94,4 @@ export function loadYouTubeApi(): Promise<YTNamespace> {
   if (apiPromise) return apiPromise;
   apiPromise = new Promise((resolve, reject) => {
     const timer = setTimeout(() => {
+      apiPromise = null;
