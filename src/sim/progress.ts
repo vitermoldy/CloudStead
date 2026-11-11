@@ -47,3 +47,4 @@ export class Progress extends Emitter {
       this.data.focusMs = previewMinutes * 60000;
       for (const m of MILESTONES) if (m.minutes <= previewMinutes) this.data.reachedAt[m.id] = this.data.startedAt;
     } else {
+      this.data = this.read();
