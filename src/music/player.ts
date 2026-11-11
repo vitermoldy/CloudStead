@@ -304,3 +304,4 @@ export class MusicPlayer extends Emitter {
       loop: this.loop,
     });
   }
+}
