@@ -136,3 +136,5 @@ export class Fx {
     p.active = true;
     p.sprite.visible = true;
     return p;
+  }
+
