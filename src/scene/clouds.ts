@@ -288,3 +288,4 @@ export function createClouds(count: number): Clouds {
         float w = fwidth(t.a) * 1.4 + 0.02;
         float a = smoothstep(0.5 - w, 0.5 + w, t.a) * t.b * vAlpha;
         if (a < 0.01) discard;
+        vec2 nxy = vec2((t.r * 2.0 - 1.0) * (vSeed > 0.5 ? -1.0 : 1.0), t.g * 2.0 - 1.0);
