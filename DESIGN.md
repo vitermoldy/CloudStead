@@ -59,3 +59,5 @@ dial **ENERGY 3 / RHYTHM 1 / MOTION 3**.
 | Green hoodie, dark hair, headphones (on the ears with music, round the neck without) | The same person as the owner's profile art, so the resident reads as theirs. |
 | Film grain inside the sky and cloud shaders | The reference's grain, kept off the island and the interface. |
 
+## Motion and why
+
