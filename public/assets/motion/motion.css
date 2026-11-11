@@ -15,3 +15,4 @@
 */
 
 :root {
+  --m-in: 150ms;                              /* hover in: buttons, links, nav, tabs */
