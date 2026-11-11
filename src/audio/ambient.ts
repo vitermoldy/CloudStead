@@ -6,3 +6,4 @@ export interface SoundSettings {
   wind: boolean;
   life: boolean;
   keys: boolean;
+  effects: boolean;
