@@ -124,3 +124,4 @@ export class World extends Emitter {
     this.controls.enablePan = false;
     this.controls.rotateSpeed = 0.55;
     this.controls.zoomSpeed = 0.7;
+    this.controls.minPolarAngle = 0.5;
