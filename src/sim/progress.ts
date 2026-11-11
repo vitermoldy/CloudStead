@@ -107,3 +107,4 @@ export class Progress extends Emitter {
     if (d.todayDate !== today()) {
       d.todayDate = today();
       d.todayMs = 0;
+    }
