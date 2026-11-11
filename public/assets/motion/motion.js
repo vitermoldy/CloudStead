@@ -284,3 +284,4 @@ function maskWords(h1) {
   if (h1.matches('[data-ly-letters], [data-enter-whole]') || h1.querySelector('.ly-word, .ly-pic, .ly-mark, svg, img')) return null;
   const own = document.createDocumentFragment();
   own.append(...h1.childNodes);
+  const copy = own.cloneNode(true);
