@@ -89,3 +89,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
       const name = q.title || (q.kind === 'playlist' ? 'Playlist' : 'Video') + ' YouTube';
       btn.setAttribute('aria-label', `Putar ${name}`);
       if (i === player.current) btn.setAttribute('aria-current', 'true');
+      const t = document.createElement('span');
