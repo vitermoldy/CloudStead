@@ -57,3 +57,4 @@ function rockGeometry(cell: Cell, depth: number): BufferGeometry {
   const tri = (a: Vector3, b: Vector3, c: Vector3) => {
     const col = bandColor((a.y + b.y + c.y) / 3);
     for (const p of [a, b, c]) {
+      positions.push(p.x, p.y, p.z);
