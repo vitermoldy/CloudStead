@@ -62,3 +62,4 @@ function tabs() {
     ind.setAttribute('aria-hidden', 'true');
     list.prepend(ind);
     list.classList.add('m-has-ind');
+    let instant = true, at = null;
