@@ -462,3 +462,4 @@ export class Character {
       g.rotation.set(0, 0, 0);
       g.userData.neck = false;
     } else {
+      this.rig.add(g);
