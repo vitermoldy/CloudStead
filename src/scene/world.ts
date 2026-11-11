@@ -410,3 +410,4 @@ export class World extends Emitter {
   }
 
   private workBeat(kind: 'hammer' | 'dig' | 'water', target: Vector3, n: number): void {
+    if (kind === 'hammer') {
