@@ -213,3 +213,4 @@ export class MusicPlayer extends Emitter {
       this.player.seekTo(0, true);
       return;
     }
+    const item = this.item;
