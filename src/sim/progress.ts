@@ -82,3 +82,4 @@ export class Progress extends Emitter {
     return this.data.name;
   }
 
+  isReached(m: Milestone): boolean {
