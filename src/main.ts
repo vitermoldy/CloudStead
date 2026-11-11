@@ -261,3 +261,5 @@ nameTag();
 const bigEl = $('big');
 const digits = [...bigEl.querySelectorAll<HTMLElement>('.big__d')];
 let lastDigits = '';
+let lastMinuteSr = -1;
+
