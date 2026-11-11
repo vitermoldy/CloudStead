@@ -110,3 +110,4 @@ function layout(count: number): Puff[] {
   for (let i = 0; i < Math.round(40 * scale); i++) {
     const r = 6 + rand() * 10;
     const a = rand() * Math.PI * 2;
+    const w = 4 + rand() * 6;
