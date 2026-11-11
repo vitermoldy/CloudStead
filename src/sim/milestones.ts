@@ -97,3 +97,4 @@ export function formatMinutesLong(min: number): string {
   const h = Math.floor(m / 60);
   const r = m % 60;
   if (h === 0) return `${r} menit`;
+  return r === 0 ? `${h} jam` : `${h} jam ${r} menit`;
