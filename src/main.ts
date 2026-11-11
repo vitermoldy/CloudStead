@@ -119,3 +119,4 @@ async function startWorld(): Promise<void> {
   };
 
   const paused = settings.paused ?? reducedMotion();
+  setScenePaused(paused, false);
