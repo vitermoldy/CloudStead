@@ -27,3 +27,4 @@ export function parseLink(raw: string): ParsedLink {
   } catch {
     throw new LinkError(notLink);
   }
+  const host = url.hostname.toLowerCase().replace(/^(www\.|m\.)/, '');
