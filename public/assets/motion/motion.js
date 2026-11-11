@@ -183,3 +183,4 @@ function counts() {
           span.textContent = k < 1 ? format(p.value * (1 - Math.pow(1 - k, 4)), p) : p.raw;
           if (k < 1) requestAnimationFrame(step); else state = 'done';
         };
+        requestAnimationFrame(step);
