@@ -64,3 +64,4 @@ export class World extends Emitter {
   private approach: Vector3 | null = null;
   private loopN = 0;
   private replan = true;
+  private celebrating = false;
