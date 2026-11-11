@@ -195,3 +195,4 @@ export class MusicPlayer extends Emitter {
     else this.player!.playVideo();
   }
 
+  next(): void {
