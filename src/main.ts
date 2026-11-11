@@ -531,3 +531,4 @@ importInput.addEventListener('change', async () => {
     err.textContent = 'Keluar dari pratinjau dulu untuk memuat simpanan.';
     return;
   }
+  try {
