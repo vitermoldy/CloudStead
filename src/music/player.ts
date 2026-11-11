@@ -152,3 +152,4 @@ export class MusicPlayer extends Emitter {
     const item = this.queue[index];
     if (!item) return;
     this.current = index;
+    this.nowTitle = '';
