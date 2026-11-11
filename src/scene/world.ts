@@ -324,3 +324,4 @@ export class World extends Emitter {
     this.rope.visible = false;
     this.project = null;
     this.approach = null;
+    this.emit('built', m);
