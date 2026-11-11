@@ -27,3 +27,4 @@ export interface PropEntry {
 }
 
 export const PROP_TITLE: Record<PropKind, string> = {
+  rock: 'Batu besar', flowers: 'Bunga liar', sapling: 'Pohon muda', tree: 'Pohon rindang', garden: 'Kebun kecil',
