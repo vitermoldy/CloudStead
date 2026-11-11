@@ -838,3 +838,4 @@ export class World extends Emitter {
     const t = this.time;
     this.clockCheck -= dt;
     if (this.clockCheck <= 0) {
+      this.clockCheck = 30;
