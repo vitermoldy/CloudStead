@@ -153,3 +153,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 .next__row strong { color: var(--ink); font-weight: 500; }
 .next__left { white-space: nowrap; font-variant-numeric: tabular-nums; }
 .meter { margin-top: 8px; height: 4px; border-radius: 4px; background: rgba(231, 228, 209, 0.14); overflow: hidden; }
+.meter__fill { display: block; height: 100%; width: 0; border-radius: inherit; background: var(--accent); transition: width 600ms var(--ease); }
