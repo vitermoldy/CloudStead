@@ -948,3 +948,4 @@ export class World extends Emitter {
     this.moving = false;
   }
 
+  private render(): void {
