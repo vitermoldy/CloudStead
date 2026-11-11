@@ -43,3 +43,4 @@ tetap berjalan; hanya pulaunya yang tidak tergambar.
   radio Lofi Girl sebagai saran; alamat siaran langsung bisa berganti, jadi kalau salah satunya
   berhenti, ganti ID-nya di [src/music/links.ts](src/music/links.ts).
 - **Suasana.** Waktu senja (bawaan), pagi, siang, malam, atau ikut jam. Suara pulau dibuat di
+  browser: angin, burung siang dan jangkrik malam, suara kerja VMK (palu, sekop, tali, ketikan), dan
