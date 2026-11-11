@@ -687,3 +687,4 @@ export class Character {
     const lapY = this.hipY + 0.07;
     const onLap = (act === 'type' || act === 'sitIdle' || act === 'sleep') && this.atHome ? 1 : 0;
     const laptopLap = new Vector3(0, lapY - 0.012, 0.15);
+    const laptopGround = new Vector3(-0.2, 0.006, 0.26);
