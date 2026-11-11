@@ -515,3 +515,4 @@ export class World extends Emitter {
       const [x, z] = k.split(',').map(Number);
       cells.unshift([x, z]);
       k = prev.get(k) ?? null;
+    }
