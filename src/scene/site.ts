@@ -16,3 +16,4 @@ const STRING = new LineBasicMaterial({ color: '#f0a04b' });
  * thing, the real thing built up to the progress line, and a pile of the planks carried there.
  */
 export class PropSite {
+  readonly group = new Group();
