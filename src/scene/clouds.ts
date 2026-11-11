@@ -196,3 +196,4 @@ function cloudFloor(): { mesh: Mesh; material: ShaderMaterial } {
   });
   const mesh = new Mesh(new CircleGeometry(220, 48), material);
   mesh.rotation.x = -Math.PI / 2;
+  mesh.position.y = -10.5;
