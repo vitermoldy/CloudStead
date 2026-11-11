@@ -66,3 +66,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
           col += vec3(0.85, 0.9, 1.0) * star * tw * uStars;
         }
         // A whisper of dither so the long gradients never band.
+        col += (fract(sin(dot(gl_FragCoord.xy, vec2(12.9898, 78.233))) * 43758.5453) - 0.5) * 0.03;
