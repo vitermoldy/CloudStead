@@ -633,3 +633,4 @@ player.on('change', () => {
 
 // ------------------------------------------------------------ keyboard
 addEventListener('keydown', (e) => {
+  const t = e.target as HTMLElement;
