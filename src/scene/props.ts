@@ -461,3 +461,4 @@ function waterfall(): Group {
     transparent: true,
     depthWrite: false,
     side: DoubleSide,
+    uniforms: { uTime: { value: 0 }, uNight: { value: 0 } },
