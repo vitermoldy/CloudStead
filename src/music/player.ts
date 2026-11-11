@@ -230,3 +230,4 @@ export class MusicPlayer extends Emitter {
     let next = this.current + dir;
     if (next >= n) {
       if (!this.loop) {
+        this.status = 'ended';
