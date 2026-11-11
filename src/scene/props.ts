@@ -333,3 +333,4 @@ function pond(): Group {
     const s = mesh(stone, STONE, Math.cos(a) * r, 0.02, Math.sin(a) * r);
     s.scale.setScalar(0.7 + rand() * 0.7);
     g.add(s);
+  }
