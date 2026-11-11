@@ -90,3 +90,4 @@ export class FocusTimer extends Emitter {
     return this.running ? Math.max(0, this.endAt - Date.now()) : this.remainingMs;
   }
 
+  setPreset(id: PresetId): void {
