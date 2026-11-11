@@ -43,3 +43,4 @@ export class Cursor {
         if (on && this.rx < -50) {
           this.rx = this.x;
           this.ry = this.y;
+        }
