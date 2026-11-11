@@ -427,3 +427,4 @@ export class Character {
         break;
       default:
         break;
+    }
