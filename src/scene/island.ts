@@ -137,3 +137,4 @@ export class Island {
   private bare = new Map<string, 'none' | 'edges'>();
   onLanded: ((cell: Cell) => void) | null = null;
 
+  constructor() {
