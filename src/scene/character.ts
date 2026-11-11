@@ -771,3 +771,4 @@ export class Character {
     this.placeTools(act, elbows, mug, dt);
 
     // ---- head
+    let yaw = 0, pitch = 0.05, roll = 0;
