@@ -74,3 +74,4 @@ function tabs() {
       const sel = list.querySelector('[role="tab"][aria-selected="true"]');
       if (!sel) { ind.style.opacity = '0'; return; }
       ind.style.opacity = '';
+      const to = { x: sel.offsetLeft, y: sel.offsetTop, w: sel.offsetWidth, h: sel.offsetHeight };
