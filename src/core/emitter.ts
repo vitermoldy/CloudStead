@@ -18,3 +18,4 @@ export class Emitter {
     const set = this.handlers.get(event);
     if (!set) return;
     for (const fn of [...set]) fn(...args);
+  }
