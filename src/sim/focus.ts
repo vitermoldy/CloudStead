@@ -150,3 +150,4 @@ export class FocusTimer extends Emitter {
     }
     this.remainingMs = this.lengthMs();
     this.running = keepRunning;
+    this.creditedAt = Date.now();
