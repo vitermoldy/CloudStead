@@ -323,3 +323,4 @@ function renderHud(force = false): void {
     $('next-label').textContent = timer.focusing ? 'Dikerjakan: ' : 'Berikutnya: ';
     $('next-title').textContent = next.title;
     $('next-left').textContent = `${formatMinutesLong(next.minutes - progress.minutes)} lagi`;
+    fill.style.width = `${(k * 100).toFixed(1)}%`;
