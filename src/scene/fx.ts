@@ -110,3 +110,4 @@ export class Fx {
     this.fireflies.frustumCulled = false;
     this.group.add(this.fireflies);
 
+    const wing = new LineBasicMaterial({ color: '#1c1a19', transparent: true, opacity: 0.75 });
