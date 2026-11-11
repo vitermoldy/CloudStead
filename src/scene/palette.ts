@@ -99,3 +99,4 @@ export class LiveLook {
     this.sunDir.set(n(a.sunDir[0], b.sunDir[0]), n(a.sunDir[1], b.sunDir[1]), n(a.sunDir[2], b.sunDir[2])).normalize();
   }
 
+  /** Moves this look toward another by a fraction (for smooth changes). */
