@@ -402,3 +402,4 @@ html.has-cursor .cursor.is-on { opacity: 1; }
   .hud { padding: 0 var(--gutter) 18px; }
   .go { flex: 1; justify-content: space-between; }
 }
+@media (max-width: 360px) {
