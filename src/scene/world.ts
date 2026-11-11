@@ -649,3 +649,4 @@ export class World extends Emitter {
     // Narrow screens step back so the whole island stays in frame, with the clouds round it.
     const narrow = Math.pow(Math.max(1, 1.45 / Math.max(0.5, aspect)), 0.85);
     this.dist = clamp((2.5 + reach * 2.9) * narrow, 7, 34);
+    this.controls.minDistance = this.dist * 0.45;
