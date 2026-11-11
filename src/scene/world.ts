@@ -254,3 +254,4 @@ export class World extends Emitter {
       this.scene.add(this.site.group);
     } else if (m.kind === 'tiles' && m.tiles) {
       this.island.addPending(m.tiles);
+    }
