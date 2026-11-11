@@ -592,3 +592,4 @@ export class PropsLayer {
           u.spin = Math.max(0, (u.spin as number) - dt * 0.6);
           (u.hub as Group).rotation.z -= dt * (0.9 + (u.spin as number) * 5);
         };
+        e.poke = () => {
