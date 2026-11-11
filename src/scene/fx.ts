@@ -75,3 +75,4 @@ interface Particle {
   vel: Vector3;
   life: number;
   max: number;
+  size: number;
