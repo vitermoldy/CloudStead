@@ -20,3 +20,5 @@ export type Step =
   | { kind: 'walk'; to: Vector3; carry?: boolean }
   | { kind: 'do'; act: Act; seconds: number; face?: Vector3; beat?: number; onBeat?: (n: number) => void }
   | { kind: 'sit'; act: SeatAct; seconds: number }
+  | { kind: 'call'; fn: () => void };
+
