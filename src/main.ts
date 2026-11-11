@@ -314,3 +314,4 @@ function renderHud(force = false): void {
   if (!force && key === lastHud) return;
   lastHud = key;
   $('phase').innerHTML = phaseLine();
+  $('story').textContent = storyLine();
