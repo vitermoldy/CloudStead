@@ -37,3 +37,4 @@ function puffAtlas(): DataTexture {
         for (const c of circles) {
           const dx = x - c.x, dy = y - c.y;
           const d = Math.hypot(dx, dy);
+          // Coverage as a distance field: 0.5 on the edge, a ramp 24 texels wide, cut sharp in the shader.
