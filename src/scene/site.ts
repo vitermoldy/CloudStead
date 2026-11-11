@@ -133,3 +133,4 @@ export class PropSite {
     m.position.set((this.planks % 2) * 0.02, 0.013 + this.planks * 0.026, 0);
     m.rotation.y = (this.planks % 2 ? 1 : -1) * 0.12 + 0.3;
     m.castShadow = true;
+    m.receiveShadow = true;
