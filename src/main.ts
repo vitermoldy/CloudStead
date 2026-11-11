@@ -492,3 +492,4 @@ function saveProgress(): void {
     icon.classList.add('is-saved');
     clearTimeout(savedFlash);
     savedFlash = window.setTimeout(() => icon.classList.remove('is-saved'), 1600);
+  } else {
