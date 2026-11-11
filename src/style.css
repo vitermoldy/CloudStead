@@ -55,3 +55,4 @@ button:disabled { cursor: not-allowed; opacity: .5; }
 }
 .skip-link {
   position: fixed; left: 16px; top: 16px; z-index: 100; padding: 12px 18px; border-radius: var(--r-sm);
+  background: var(--ink); color: var(--bg); font-weight: 500; text-decoration: none;
