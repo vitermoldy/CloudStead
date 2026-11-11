@@ -256,3 +256,4 @@ html:not([data-motion="off"]) .field :is(input, select, textarea):focus, .m-inpu
 
 /* ---------------------------------------------------------------- the hero's entrance */
 /* Once on load the hero enters (motion.js enter(), motion.md): the h1 line by line out of word masks,
+   then its lead, each button and its facts 60ms apart, the picture settling; about 1.1 s.
