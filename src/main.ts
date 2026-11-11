@@ -242,3 +242,4 @@ function positionBubble(): void {
 
 const greetBtn = $<HTMLButtonElement>('greet');
 greetBtn.addEventListener('click', () => onGreet());
+let hoveringResident = false;
