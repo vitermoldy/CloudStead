@@ -58,3 +58,4 @@ function span(m: Mesh, p: Vector3, q: Vector3): void {
 }
 
 function screenTexture(): { tex: CanvasTexture; draw: (lines: number, mode: 'code' | 'rest' | 'sleep' | 'away') => void } {
+  const canvas = document.createElement('canvas');
