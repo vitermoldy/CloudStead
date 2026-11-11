@@ -431,3 +431,5 @@ export class Character {
     this.gear.set(kind, g);
     this.place(kind);
     return g;
+  }
+
