@@ -88,3 +88,4 @@
   .l-late .st > * { position: absolute; right: 0; top: 0; }
   .l-late .st-late { color: #c2410c; background: color-mix(in oklab, #c2410c 12%, transparent); animation: late-on var(--m-cycle) var(--m-ease) infinite; }
   .l-late .st-prog { animation: late-off var(--m-cycle) linear infinite; }
+  @keyframes late-on { 0%, 34% { opacity: 0; transform: translateY(4px); } 40%, 90% { opacity: 1; transform: none; } 93%, 100% { opacity: 0; transform: none; } }
