@@ -774,3 +774,4 @@ export class World extends Emitter {
         }
       }
     }
+    const u = this.island.grassUniforms.uCursor.value;
