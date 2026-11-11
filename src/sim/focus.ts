@@ -17,3 +17,4 @@ interface Saved {
   phase: Phase;
   round: number;
   running: boolean;
+  endAt: number;
