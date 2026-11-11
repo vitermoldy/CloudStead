@@ -22,3 +22,4 @@
   --m-close: 120ms;                           /* a menu closing */
   --m-slide: 240ms;                           /* an indicator travelling between two tabs or links */
   --m-image: 600ms;                           /* a photograph scaling inside its mask */
+  --m-image-out: 400ms;                       /* ...and settling back */
