@@ -26,3 +26,4 @@ export interface PropEntry {
   poke?: (self: PropEntry, point: Vector3) => void;
 }
 
+export const PROP_TITLE: Record<PropKind, string> = {
