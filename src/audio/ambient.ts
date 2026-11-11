@@ -305,3 +305,4 @@ export class Ambient {
   }
 
   update(patch: Partial<SoundSettings>): void {
+    this.settings = { ...this.settings, ...patch };
