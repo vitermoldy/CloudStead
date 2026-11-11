@@ -337,3 +337,4 @@ export class Island {
       if (!t.landed) continue;
       const key = cellKey(t.cell);
       const dirt = DIRT.has(key);
+      const bare = this.bare.get(key);
