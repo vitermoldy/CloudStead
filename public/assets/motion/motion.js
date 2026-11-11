@@ -234,3 +234,4 @@ function pauseButton(loop) {
   box.append(btn);
   btn.__show = show;
 }
+function loops() {
