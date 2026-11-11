@@ -755,3 +755,4 @@ export class World extends Emitter {
     if (!this.pointerIn || this.dragging) {
       this.hover = { kind: null };
     } else {
+      this.ray.setFromCamera(this.ndc, this.camera);
