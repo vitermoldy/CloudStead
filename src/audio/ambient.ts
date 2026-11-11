@@ -188,3 +188,4 @@ export class Ambient {
     const g = ctx.createGain();
     o.type = type;
     o.frequency.setValueAtTime(freq, t);
+    if (slideTo) o.frequency.exponentialRampToValueAtTime(slideTo, t + dur);
