@@ -364,3 +364,4 @@ html.has-cursor .cursor.is-on { opacity: 1; }
   transition: opacity 150ms var(--ease);
 }
 .cursor[data-label="true"] .cursor__label { opacity: 1; }
+.cursor[data-state="char"] .cursor__ring { width: 66px; height: 66px; margin: -33px 0 0 -33px; border-color: var(--accent); background: rgba(240, 160, 75, .16); }
