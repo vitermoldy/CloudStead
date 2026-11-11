@@ -628,3 +628,4 @@ export class World extends Emitter {
   nudge(): void {
     this.idleFor = 0;
     if (this.character.act === 'sleep') {
+      this.replan = true;
