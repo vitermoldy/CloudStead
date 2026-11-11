@@ -299,3 +299,4 @@ export class Character {
       this.fore.push(new Mesh(new CapsuleGeometry(0.026, L_FORE - 0.05, 4, 8), HOODIE));
       this.palms.push(new Mesh(new SphereGeometry(0.023, 8, 6), SKIN));
       this.thighs.push(new Mesh(new CapsuleGeometry(0.038, L_THIGH - 0.07, 4, 8), PANTS));
+      this.shins.push(new Mesh(new CapsuleGeometry(0.032, L_SHIN - 0.06, 4, 8), PANTS));
