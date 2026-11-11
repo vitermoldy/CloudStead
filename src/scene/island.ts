@@ -335,3 +335,4 @@ export class Island {
     let i = 0;
     for (const t of this.tiles.values()) {
       if (!t.landed) continue;
+      const key = cellKey(t.cell);
