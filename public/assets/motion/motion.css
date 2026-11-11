@@ -196,3 +196,4 @@ html:not([data-motion="off"]) .field :is(input, select, textarea):focus, .m-inpu
   box-shadow: 0 0 0 1px var(--action), 0 0 0 4px color-mix(in oklab, var(--action) 20%, transparent); transition-duration: 0s;
 }
 /* a switch: <button class="m-switch" role="switch" aria-checked="false" aria-label="..."></button>
+   (motion.js flips aria-checked on click unless the page handles it). The knob slides in 180ms and
