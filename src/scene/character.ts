@@ -240,3 +240,4 @@ export class Character {
   private palms: Mesh[] = [];
   private thighs: Mesh[] = [];
   private shins: Mesh[] = [];
+  private shoes: Mesh[] = [];
