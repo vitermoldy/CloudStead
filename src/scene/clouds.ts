@@ -283,3 +283,4 @@ export function createClouds(count: number): Clouds {
       varying float vToward;
       void main() {
         float ux = vSeed > 0.5 ? 1.0 - vUv.x : vUv.x;
+        vec2 auv = vec2((clamp(ux, 0.005, 0.995) + vVariant) / ${VARIANTS.toFixed(1)}, vUv.y);
