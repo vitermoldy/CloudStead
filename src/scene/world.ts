@@ -486,3 +486,4 @@ export class World extends Emitter {
     return [Math.round(v.x), Math.round(v.z)];
   }
 
+  /** A breadth-first walk over free cells (8 directions, no corner cutting) to the first cell the test accepts. */
