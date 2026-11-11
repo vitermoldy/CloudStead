@@ -255,3 +255,4 @@ export function createClouds(count: number): Clouds {
         vec3 c = aOffset;
         // Wind from the west; puffs wrap round a wide square so the sea never runs out.
         c.x = mod(c.x + uTime * aMeta.z + uSpan, uSpan * 2.0) - uSpan;
+        vec3 right = vec3(viewMatrix[0][0], viewMatrix[1][0], viewMatrix[2][0]);
