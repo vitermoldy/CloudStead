@@ -105,3 +105,4 @@ export function replaceAll(data: Bag): void {
 
 export function clearSection(section: string): void {
   delete readAll()[section];
+  saveNow();
