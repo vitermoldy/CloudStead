@@ -305,3 +305,4 @@ export function createClouds(count: number): Clouds {
         col += (fract(sin(dot(gl_FragCoord.xy, vec2(12.9898, 78.233))) * 43758.5453) - 0.5) * 0.03;
         gl_FragColor = vec4(col, a);
         #include <colorspace_fragment>
+      }
