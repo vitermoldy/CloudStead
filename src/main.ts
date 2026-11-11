@@ -129,3 +129,4 @@ async function startWorld(): Promise<void> {
   document.fonts?.ready.then(() => w.frame());
 }
 
+/** The resident works while a focus block runs, rests in a break, and lives on the island otherwise. */
