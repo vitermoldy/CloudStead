@@ -225,3 +225,4 @@ export class Ambient {
     src.start(t, Math.random() * 1.2, dur + 0.05);
   }
 
+  /** A rope pulled tight over the edge. */
