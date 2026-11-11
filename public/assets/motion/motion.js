@@ -223,3 +223,4 @@ function pauseButton(loop) {
   const btn = document.createElement('button');
   btn.type = 'button';
   btn.className = 'loop-pause m-own';
+  const show = paused => {
