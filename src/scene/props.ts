@@ -179,3 +179,4 @@ function hut(): Group {
   g.add(front, back);
   // Inside, a warm dark room; after dusk the doorway glows.
   const inside = new MeshBasicMaterial({ color: '#1a1410' });
+  g.add(mesh(new BoxGeometry(0.5, 0.5, 0.7), inside, 0, 0.32, 0, false));
