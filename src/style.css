@@ -78,3 +78,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 }
 /* The rounded frame round the picture: a spread shadow outside a rounded box. */
 .hero::after {
+  content: ""; position: absolute; inset: 10px; z-index: 2; pointer-events: none;
