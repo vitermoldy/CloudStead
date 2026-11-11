@@ -52,3 +52,4 @@ export class World extends Emitter {
   private clockCheck = 0;
   private ray = new Raycaster();
   private ndc = new Vector2(9, 9);
+  private pointerIn = false;
