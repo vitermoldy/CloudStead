@@ -725,3 +725,4 @@ export class World extends Emitter {
         if (p.prop.kind === 'tree' || p.prop.kind === 'sapling' || p.prop.kind === 'pine') {
           this.fx.spawn('leaf', p.prop.group.position.clone().setY(1.0), 4);
         }
+        this.lookAt(p.point ?? p.prop.group.position);
