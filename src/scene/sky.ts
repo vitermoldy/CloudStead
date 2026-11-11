@@ -38,3 +38,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
       varying vec3 vDir;
 
       float hash(vec3 p) {
+        p = fract(p * 0.3183099 + 0.1);
