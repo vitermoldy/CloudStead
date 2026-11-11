@@ -561,3 +561,4 @@ export class World extends Emitter {
     if (!this.rope.visible || !this.ropeCell) return;
     const a = this.character.grip;
     const b = this.island.tileTop(this.ropeCell) ?? a;
+    const pos = this.rope.geometry.getAttribute('position');
