@@ -57,3 +57,4 @@ export class MusicPlayer extends Emitter {
       if (playNow || this.current < 0) this.play(dup);
       throw new LinkError(this.current === dup ? 'Tautan itu sedang diputar.' : 'Tautan itu sudah ada di antrean.');
     }
+    const item: QueueItem = { id: newId(), ...parsed, title: '', author: '', thumb: '', status: 'ready', error: '' };
