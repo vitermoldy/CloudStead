@@ -48,3 +48,4 @@ function puffAtlas(): DataTexture {
         }
         let nx = rx, ny = ry, nz = 0;
         if (best > 0) {
+          // Where billows overlap, blend their normals over a few texels instead of a hard switch:
