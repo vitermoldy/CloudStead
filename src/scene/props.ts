@@ -435,3 +435,4 @@ function balloon(): Group {
     cols.push(c.r, c.g, c.b);
   }
   env.setAttribute('color', new Float32BufferAttribute(cols, 3));
+  float.add(mesh(env, new MeshStandardMaterial({ vertexColors: true, roughness: 0.7, side: DoubleSide })));
