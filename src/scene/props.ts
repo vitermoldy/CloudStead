@@ -283,3 +283,4 @@ function boardTexture(): { tex: CanvasTexture; draw: (today: number, total: numb
   return { tex, draw };
 }
 
+function board(): Group {
