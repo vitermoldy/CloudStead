@@ -127,3 +127,4 @@ export interface Details {
 /** Title and thumbnail from YouTube's oEmbed endpoint; null when it cannot be read. */
 export async function fetchDetails(item: { kind: string; videoId: string | null; listId: string | null }): Promise<Details | null> {
   const target = item.kind === 'playlist' ? `https://www.youtube.com/playlist?list=${item.listId}` : `https://www.youtube.com/watch?v=${item.videoId}`;
+  const ctrl = new AbortController();
