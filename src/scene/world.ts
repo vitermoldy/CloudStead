@@ -779,3 +779,4 @@ export class World extends Emitter {
       u.set(this.hitPoint.x, this.hitPoint.z, 1);
     } else {
       u.z = 0;
+    }
