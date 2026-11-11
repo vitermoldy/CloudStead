@@ -73,3 +73,5 @@ dial **ENERGY 3 / RHYTHM 1 / MOTION 3**.
 - The scene pause (the tab's pause button, the Suasana panel, the P key) freezes everything.
   Under reduced motion the scene starts paused and builds appear at once.
 
+## Checks
+
