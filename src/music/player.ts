@@ -196,3 +196,4 @@ export class MusicPlayer extends Emitter {
   }
 
   next(): void {
+    const item = this.item;
