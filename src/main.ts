@@ -200,3 +200,5 @@ function onGreet(): void {
     speak(pick(lines));
   }
   ambient.greet();
+}
+
