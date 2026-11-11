@@ -754,3 +754,4 @@ export class World extends Emitter {
     const prev = this.hover;
     if (!this.pointerIn || this.dragging) {
       this.hover = { kind: null };
+    } else {
