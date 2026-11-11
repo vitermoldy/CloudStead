@@ -213,3 +213,4 @@ function restart(loop) {
   // restart only when the cycle is past its first quarter, so a quick in-and-out never stutters
   if (!d || (t % d) / d > 0.25) anims.forEach(a => { a.currentTime = 0; });
 }
+function setPaused(box, paused) {
