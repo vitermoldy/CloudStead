@@ -48,3 +48,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
     b.className = 'btn btn--secondary btn--sm';
     b.textContent = s.label;
     b.addEventListener('click', () => add(s.url));
+    picks.append(b);
