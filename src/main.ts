@@ -168,3 +168,4 @@ function onHover(h: Hover & { dragging?: boolean }, petting: boolean): void {
       break;
     default:
       cursor.set('idle');
+  }
