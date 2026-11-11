@@ -160,3 +160,4 @@ export class World extends Emitter {
           this.camera.position.copy(this.controls.target).addScaledVector(dir, this.dist);
           this.controls.update();
         } else this.refitT = 3;
+      }
