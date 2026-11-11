@@ -578,3 +578,4 @@ export class PropsLayer {
           (u.light as PointLight).intensity = on * 2.2;
         };
         break;
+      case 'board':
