@@ -620,3 +620,4 @@ function setScenePaused(on: boolean, remember = true): void {
   $('scene-pause').setAttribute('aria-label', on ? 'Lanjutkan pemandangan' : 'Jeda pemandangan');
   $('scene-pause').title = on ? 'Lanjutkan pemandangan (P)' : 'Jeda pemandangan (P)';
   $('scene-pause-2').textContent = on ? 'Lanjutkan pemandangan' : 'Jeda pemandangan';
+}
