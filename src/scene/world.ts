@@ -757,3 +757,4 @@ export class World extends Emitter {
     } else {
       this.ray.setFromCamera(this.ndc, this.camera);
       const part = this.character.pick(this.ray);
+      if (part) {
