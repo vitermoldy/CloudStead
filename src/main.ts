@@ -127,3 +127,5 @@ async function startWorld(): Promise<void> {
     $('poster').hidden = true;
   }, 1200);
   document.fonts?.ready.then(() => w.frame());
+}
+
