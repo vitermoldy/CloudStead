@@ -290,3 +290,4 @@ function maskWords(h1) {
     if (n.nodeType === 1) return walk(n);
     if (n.nodeType !== 3) return;
     const frag = document.createDocumentFragment();
+    n.textContent.split(/(\s+)/).forEach(part => {
