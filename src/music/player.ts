@@ -149,3 +149,4 @@ export class MusicPlayer extends Emitter {
   }
 
   private async load(index: number, autoplay: boolean): Promise<void> {
+    const item = this.queue[index];
