@@ -702,3 +702,4 @@ export class Character {
           t.set(s * 0.045, lapY + 0.012 + tap, 0.15);
           break;
         }
+        case 'craft':
