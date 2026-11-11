@@ -18,3 +18,4 @@ const $ = <T extends HTMLElement = HTMLElement>(id: string) => document.getEleme
 const html = document.documentElement;
 
 // ------------------------------------------------------------ preview mode (?pratinjau=menit)
+const params = new URLSearchParams(location.search);
