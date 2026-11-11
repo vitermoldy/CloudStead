@@ -106,3 +106,4 @@ export class MusicPlayer extends Emitter {
     this.emit('change');
   }
 
+  private async ensurePlayer(): Promise<boolean> {
