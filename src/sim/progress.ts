@@ -52,3 +52,4 @@ export class Progress extends Emitter {
   }
 
   private read(): ProgressData {
+    const raw = load<Partial<ProgressData>>('progress', {});
