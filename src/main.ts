@@ -144,3 +144,4 @@ function projectShare(): number {
   return Math.max(0, Math.min(1, (progress.minutes - from) / (next.minutes - from)));
 }
 
+// ------------------------------------------------------------ cursor and the resident
