@@ -454,3 +454,4 @@ function waterfall(): Group {
   const g = new Group();
   // A channel from the pond to the south rim, then the drop.
   const channel = new Mesh(new PlaneGeometry(0.16, 0.42), new MeshStandardMaterial({ color: '#4c8590', roughness: 0.1, metalness: 0.1 }));
+  channel.rotation.x = -Math.PI / 2;
