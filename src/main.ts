@@ -26,3 +26,4 @@ if (previewMinutes !== null) setReadOnly(true);
 // ------------------------------------------------------------ state
 const progress = new Progress(previewMinutes);
 const ambient = new Ambient();
+const timer = new FocusTimer((ms) => progress.add(ms), () => progress.finishSession(), previewMinutes === null);
