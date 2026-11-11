@@ -645,3 +645,4 @@ export class World extends Emitter {
   }
 
   private fitDistance(reach: number): void {
+    const aspect = this.camera.aspect;
