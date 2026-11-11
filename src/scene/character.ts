@@ -744,3 +744,4 @@ export class Character {
           t.set(s * 0.11, lapY, 0.11);
       }
     }
+    if (act === 'hammer') {
