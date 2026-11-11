@@ -132,3 +132,4 @@ async function startWorld(): Promise<void> {
 /** The resident works while a focus block runs, rests in a break, and lives on the island otherwise. */
 function syncWork(): void {
   if (!world) return;
+  world.setWork(timer.focusing ? 'work' : timer.resting ? 'rest' : 'free');
