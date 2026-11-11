@@ -322,3 +322,4 @@ export class Character {
     this.laptop.add(this.screenLight);
     this.seat.add(this.laptop);
 
+    // The crate the building material comes from, behind the seat.
