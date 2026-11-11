@@ -26,3 +26,5 @@ export interface Milestone {
   at?: Cell;
   prop?: PropKind;
   gear?: Gear;
+}
+
