@@ -287,3 +287,4 @@ export class MusicPlayer extends Emitter {
       item.error = ERROR_TEXT[code] || 'Video ini tidak bisa diputar di sini.';
       this.persist();
     }
+    this.status = 'paused';
