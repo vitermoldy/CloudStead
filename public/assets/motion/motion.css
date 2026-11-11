@@ -52,3 +52,4 @@ html:not([data-motion="off"]) .btn:active { transform: translateY(1px) scale(.98
   html:not([data-motion="off"]) .btn:hover { transform: translateY(-1px); }
   html:not([data-motion="off"]) .btn--xl:hover { transform: translateY(-2px); }
   html:not([data-motion="off"]):is([data-buttons="arrow"], [data-buttons="block"]) .btn--secondary:hover { transform: none; }
+  html:not([data-motion="off"]) .btn:active { transform: translateY(1px) scale(.985); }
