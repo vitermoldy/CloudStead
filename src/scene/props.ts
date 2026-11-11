@@ -182,3 +182,4 @@ function hut(): Group {
   g.add(mesh(new BoxGeometry(0.5, 0.5, 0.7), inside, 0, 0.32, 0, false));
   const glow = new MeshBasicMaterial({ color: '#ffb35c', transparent: true, opacity: 0 });
   const door = new Mesh(new PlaneGeometry(0.22, 0.46), glow);
+  door.position.set(0, 0.3, 0.355);
