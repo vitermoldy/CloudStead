@@ -297,3 +297,4 @@ export class MusicPlayer extends Emitter {
   }
 
   persist(): void {
+    save('music', {
