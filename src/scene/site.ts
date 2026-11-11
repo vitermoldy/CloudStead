@@ -82,3 +82,4 @@ export class PropSite {
 
     if (pileAt) {
       this.pile.position.copy(pileAt).sub(this.group.position);
+      this.group.add(this.pile);
