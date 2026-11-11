@@ -117,3 +117,4 @@ export function makeGear(kind: Gear): Group {
     case 'cushion': {
       const c = m(new BoxGeometry(0.34, 0.06, 0.3), '#a4553b');
       c.position.y = 0.03;
+      const seam = m(new BoxGeometry(0.35, 0.012, 0.31), '#8a4430');
