@@ -495,3 +495,4 @@ export class World extends Emitter {
     let goal: Cell | null = accept(from) ? from : null;
     while (queue.length && !goal) {
       const c = queue.shift()!;
+      for (const [dx, dz] of [[1, 0], [-1, 0], [0, 1], [0, -1], [1, 1], [1, -1], [-1, 1], [-1, -1]]) {
