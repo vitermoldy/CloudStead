@@ -142,3 +142,4 @@ function counts() {
     span.style.textAlign = 'right';
     span.textContent = p.raw;
     after.replaceWith(span);
+    const ms = +el.dataset.mCount || 1200;
