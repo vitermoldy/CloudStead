@@ -31,3 +31,4 @@ export class MusicPlayer extends Emitter {
   private seekToVideo: string | null = null;
 
   constructor(private host: HTMLElement) {
+    super();
