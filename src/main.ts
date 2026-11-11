@@ -108,3 +108,4 @@ async function startWorld(): Promise<void> {
     justBuilt = { text: m.done, until: performance.now() + 9000 };
     toast(m.done);
     speak(pick(['Selesai!', 'Jadi juga.', 'Bagus, kan?']), 2200);
+    ambient.chime();
