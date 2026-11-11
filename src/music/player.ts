@@ -263,3 +263,4 @@ export class MusicPlayer extends Emitter {
         const k = list.indexOf(this.seekToVideo);
         this.seekToVideo = null;
         if (k > 0) this.player!.playVideoAt(k);
+      }
