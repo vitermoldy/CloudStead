@@ -113,3 +113,4 @@ export class MusicPlayer extends Emitter {
     this.apiError = '';
     this.emit('change');
     this.creating = (async () => {
+      try {
