@@ -690,3 +690,4 @@ export class World extends Emitter {
       this.pointerIn = false;
       this.ndc.set(9, 9);
       this.hoverDirty = true;
+    });
