@@ -48,3 +48,4 @@ export class World extends Emitter {
   private bounce = new DirectionalLight('#ffffff', 0.5);
   private look = new LiveLook();
   private target = new LiveLook();
+  private timeMode: TimeMode = 'senja';
