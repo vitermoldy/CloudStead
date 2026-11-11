@@ -278,3 +278,4 @@ document.addEventListener('click', e => {
 // The h1 gets its word masks for the length of the entrance and its own nodes back afterwards.
 const ENTER_MEDIA = '[data-enter-media], .hero__bg, .hero__media, .hero__stage, .hero__art, .hero__window, .hero-visual, .ly-collage';
 const ENTER_TEXT = 'h1 ~ *, :has(> h1) ~ *, :has(~ h1)';
+const ENTER_LEAF = 'p, dl, ul, ol, a, button, img, picture, video, figure, blockquote, h2, h3, .pill, .btn';
