@@ -228,3 +228,4 @@ export class Character {
   private wanderClock = 0;
   musicOn = false;
 
+  private torso: Mesh;
