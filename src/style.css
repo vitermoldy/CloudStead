@@ -110,3 +110,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 .tab__tools { display: flex; align-items: center; gap: 2px; padding-left: 8px; border-left: 1px solid var(--line); }
 .tab__icon {
   display: grid; place-items: center; width: 44px; height: 44px; border: 0; border-radius: 50%;
+  background: none; color: rgba(231, 228, 209, 0.82); transition: color 120ms var(--ease), background-color 120ms var(--ease);
