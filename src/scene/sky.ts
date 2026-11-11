@@ -80,3 +80,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
     mesh,
     update(look, time) {
       const u = material.uniforms;
+      u.uZenith.value = look.zenith;
