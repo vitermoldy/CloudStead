@@ -21,3 +21,4 @@ export interface Milestone {
   /** What the resident is doing while it is in progress, after "<name> sedang". */
   doing: string;
   work: Work;
+  kind: 'tiles' | 'prop' | 'gear';
