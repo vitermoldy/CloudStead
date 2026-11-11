@@ -12,3 +12,4 @@ export class Cursor {
   private el: HTMLElement;
   private ring: HTMLElement;
   private dot: HTMLElement;
+  private label: HTMLElement;
