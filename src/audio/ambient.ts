@@ -114,3 +114,4 @@ export class Ambient {
     for (let i = 0; i < n; i++) {
       const o = ctx.createOscillator();
       const g = ctx.createGain();
+      o.type = 'sine';
