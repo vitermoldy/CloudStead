@@ -509,3 +509,4 @@ function downloadSave(): void {
   const blob = new Blob([exportSave()], { type: 'application/json' });
   const a = document.createElement('a');
   const d = new Date();
+  a.href = URL.createObjectURL(blob);
