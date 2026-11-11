@@ -40,3 +40,4 @@ export class Ambient {
 
   /** Call from a user gesture. */
   start(): void {
+    if (this.ctx || !this.settings.on) return;
