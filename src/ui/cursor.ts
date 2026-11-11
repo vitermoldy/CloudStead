@@ -24,3 +24,4 @@ export class Cursor {
   private last = 0;
   private over = false;
 
+  constructor(el: HTMLElement, private surface: HTMLElement) {
