@@ -19,3 +19,4 @@ dial **ENERGY 3 / RHYTHM 1 / MOTION 3**.
 
 - ENERGY 3: a full-bleed live scene and giant numerals, as in the reference.
 - RHYTHM 1: one screen; every panel uses the same template, so the island is what changes.
+- MOTION 3: the product is a living place (clouds drifting, the resident typing, building,
