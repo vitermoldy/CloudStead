@@ -239,3 +239,4 @@ export class Fx {
       const spread = reach / 3;
       for (let i = 0; i < pos.count; i++) {
         const b = this.flyBase.subarray(i * 4, i * 4 + 4);
+        const t = time * 0.35 + b[3];
