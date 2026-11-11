@@ -277,3 +277,4 @@ export class Island {
         t.rise = 0;
         t.target = 1;
         t.landed = false;
+        t.group.position.y = -11 - order * 0.6;
