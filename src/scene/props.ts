@@ -188,3 +188,4 @@ function hut(): Group {
   const roofGeo = new BoxGeometry(0.06, 1.12, 1.04);
   for (const s of [-1, 1]) {
     const r = mesh(roofGeo, roofMat, s * 0.24, 0.55, 0);
+    r.rotation.z = s * 0.43;
