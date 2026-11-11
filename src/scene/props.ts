@@ -48,3 +48,4 @@ function mesh(geo: BufferGeometry, mat: MeshStandardMaterial | MeshBasicMaterial
   const m = new Mesh(geo, mat);
   m.position.set(x, y, z);
   m.castShadow = shadow;
+  m.receiveShadow = true;
