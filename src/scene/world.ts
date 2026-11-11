@@ -833,3 +833,4 @@ export class World extends Emitter {
     }
   }
 
+  private step(dt: number): void {
