@@ -481,3 +481,4 @@ export class Character {
   run(steps: Step[]): void {
     this.plan = steps;
     this.stepT = 0;
+    this.beats = 0;
