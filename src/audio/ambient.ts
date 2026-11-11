@@ -127,3 +127,4 @@ export class Ambient {
     }
   }
 
+  private cricket(): void {
