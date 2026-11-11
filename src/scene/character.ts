@@ -342,3 +342,4 @@ export class Character {
     this.hitHead = new Mesh(new SphereGeometry(0.12, 10, 8), ghost);
     this.root.add(this.hitBody, this.hitHead);
 
+    for (const group of [this.root, this.seat]) group.traverse((o) => {
