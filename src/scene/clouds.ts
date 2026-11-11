@@ -14,3 +14,4 @@ const CELL = 256;
  * billow from wherever the sun stands.
  */
 function puffAtlas(): DataTexture {
+  // Raw bytes, not a canvas: a canvas premultiplies alpha and would crush the normals in the soft rims.
