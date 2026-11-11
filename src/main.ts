@@ -40,3 +40,4 @@ function toast(text: string, ms = 3200): void {
   toastTimer = window.setTimeout(() => toastEl.classList.remove('is-on'), ms);
 }
 
+const bubble = $('bubble');
