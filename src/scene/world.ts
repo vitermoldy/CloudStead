@@ -822,3 +822,4 @@ export class World extends Emitter {
   private adapt(dt: number): void {
     this.adaptClock += dt;
     if (this.adaptClock < 2.5) return;
+    this.adaptClock = 0;
