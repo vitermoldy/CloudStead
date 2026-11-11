@@ -511,3 +511,4 @@ function downloadSave(): void {
   const d = new Date();
   a.href = URL.createObjectURL(blob);
   a.download = `cloudstead-simpanan-${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}.json`;
+  document.body.append(a);
