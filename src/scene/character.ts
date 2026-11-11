@@ -838,3 +838,4 @@ export class Character {
     if (this.nextBlink <= 0) {
       this.blink = 0.13;
       this.nextBlink = 2 + Math.random() * 4;
+    }
