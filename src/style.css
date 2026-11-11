@@ -269,3 +269,4 @@ fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
 .choice:has(input:checked) { border-color: var(--accent); background: rgba(240, 160, 75, .07); }
 .segments { display: flex; flex-wrap: wrap; gap: 6px; }
 .segments legend { margin-bottom: 8px; }
+.segments label { position: relative; }
