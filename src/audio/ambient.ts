@@ -48,3 +48,4 @@ export class Ambient {
     this.master = ctx.createGain();
     this.master.connect(ctx.destination);
     const len = ctx.sampleRate * 2;
+    this.noise = ctx.createBuffer(1, len, ctx.sampleRate);
