@@ -451,3 +451,4 @@ function renderIsland(): void {
       when.textContent = d && !isReadOnly() ? `selesai ${d.toLocaleDateString('id-ID', { day: 'numeric', month: 'short' })}` : 'selesai';
     } else if (m === next) {
       when.textContent = `${formatMinutesLong(m.minutes - progress.minutes)} lagi`;
+    } else {
