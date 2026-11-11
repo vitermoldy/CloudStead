@@ -432,3 +432,4 @@ export class Island {
       if (t.landed) continue;
       t.rise = t.target;
       if (t.rise >= 1) {
+        t.landed = true;
