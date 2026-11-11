@@ -491,3 +491,4 @@ export class World extends Emitter {
     const blocked = this.blockedCells();
     const free = (c: Cell) => this.island.has(c) && !blocked.has(cellKey(c));
     const prev = new Map<string, string | null>([[cellKey(from), null]]);
+    const queue: Cell[] = [from];
