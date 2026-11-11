@@ -130,3 +130,4 @@ export class World extends Emitter {
     this.controls.addEventListener('start', () => {
       this.dragging = true;
       this.emitHover();
+    });
