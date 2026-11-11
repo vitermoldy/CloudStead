@@ -62,3 +62,5 @@ export function save(section: string, value: unknown): void {
 export function saveNow(): boolean {
   if (timer) clearTimeout(timer);
   return flush();
+}
+
