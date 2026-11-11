@@ -54,3 +54,4 @@ export class Ambient {
     for (let i = 0; i < len; i++) {
       // Brown-ish noise: softer than white, closer to wind.
       last = (last + (Math.random() * 2 - 1) * 0.02) / 1.02;
+      data[i] = last * 3.5;
