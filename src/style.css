@@ -145,3 +145,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 .story {
   pointer-events: auto; display: grid; gap: 12px; padding: 18px 18px 18px 20px; border-radius: var(--r-lg);
   background: var(--plate); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+}
