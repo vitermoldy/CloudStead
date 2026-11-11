@@ -19,3 +19,4 @@ export interface Look {
   fog: string;
   stars: number;
   /** 0 by day, 1 when lamps and screens should light the island. */
+  night: number;
