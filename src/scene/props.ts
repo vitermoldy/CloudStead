@@ -14,3 +14,4 @@ export interface PropContext {
   totalMinutes: number;
 }
 
+export interface PropEntry {
