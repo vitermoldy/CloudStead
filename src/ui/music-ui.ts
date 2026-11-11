@@ -30,3 +30,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
       showError('');
     } catch (err) {
       if (err instanceof LinkError) showError(err.message);
+      else showError('Tautan ini tidak bisa ditambahkan.');
