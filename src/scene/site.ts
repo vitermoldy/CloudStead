@@ -118,3 +118,4 @@ export class PropSite {
         if (i === 0) o.visible = true;
         else if (i === 1) {
           o.visible = k > 0.15;
+          const f = Math.max(0.02, (k - 0.15) / 0.85);
