@@ -31,3 +31,4 @@ function rockGeometry(cell: Cell, depth: number): BufferGeometry {
     const y = -0.4 - k * depth;
     const ring: Vector3[] = [];
     for (let s = 0; s < sides; s++) {
+      const a = (s / sides) * Math.PI * 2 + Math.PI / sides;
