@@ -287,3 +287,4 @@ export class Ambient {
     this.tone(784, 1.1, 0.07, 'sine', 0.24);
   }
 
+  setTyping(on: boolean): void {
