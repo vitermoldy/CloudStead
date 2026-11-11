@@ -23,3 +23,4 @@ function tint(hex: string, rand: () => number, spread: number): Color {
 function rockGeometry(cell: Cell, depth: number): BufferGeometry {
   const rand = rng(hash(cell));
   const rings = 6;
+  const sides = 12;
