@@ -208,3 +208,4 @@ export class Character {
   private headRoll = 0;
   private walkPhase = 0;
   private blink = 0;
+  private nextBlink = 2;
