@@ -391,3 +391,4 @@ export class World extends Emitter {
     const steps: Step[] = [];
     // Building takes planks: every few rounds the resident fetches an armful from the crate at the seat.
     if (m.work === 'build' && this.site && (this.site.stock < 2 || this.loopN % 3 === 1)) {
+      steps.push(...this.walkTo(this.home.clone().add(new Vector3(0.12, 0, -0.1))));
