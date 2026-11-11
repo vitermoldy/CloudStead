@@ -509,3 +509,4 @@ export class Character {
     this.pokeT = 0.5;
   }
 
+  private next(): void {
