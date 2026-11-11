@@ -661,3 +661,4 @@ export class Character {
       scarf.quaternion.setFromUnitVectors(UP, this.spine);
     }
 
+    // ---- legs
