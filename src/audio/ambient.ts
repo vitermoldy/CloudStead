@@ -16,3 +16,4 @@ const DEFAULTS: SoundSettings = { on: true, volume: 45, wind: true, life: true, 
  * night, the resident's keys, and small effects for building. It starts on the first gesture.
  */
 export class Ambient {
+  settings: SoundSettings;
