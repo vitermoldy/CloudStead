@@ -585,3 +585,4 @@ export class PropsLayer {
             u.drawn = key;
             (u.draw as (a: number, b: number) => void)(ctx.todayMinutes, ctx.totalMinutes);
           }
+        };
