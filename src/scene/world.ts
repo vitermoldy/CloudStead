@@ -618,3 +618,5 @@ export class World extends Emitter {
   setContext(today: number, total: number): void {
     this.context.todayMinutes = today;
     this.context.totalMinutes = total;
+  }
+
