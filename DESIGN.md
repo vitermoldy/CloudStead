@@ -62,3 +62,4 @@ dial **ENERGY 3 / RHYTHM 1 / MOTION 3**.
 ## Motion and why
 
 - Scene entrance: the still poster fades as the live island comes in.
+- A hauled cell follows the rope up from the clouds, swaying, and lands with a puff of dust.
