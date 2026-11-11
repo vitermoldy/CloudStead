@@ -280,3 +280,4 @@ function storyLine(): string {
   if (timer.focusing) {
     if (!next) return `Pulau sudah utuh. ${n} menemanimu fokus.`;
     if (c?.act === 'carry') return `${n} mengangkut kayu untuk ${next.title.toLowerCase()}.`;
+    return `${n} sedang ${next.doing}.`;
