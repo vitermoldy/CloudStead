@@ -162,3 +162,4 @@ export class FocusTimer extends Emitter {
       this.credit(Math.min(now, this.endAt));
       this.store();
     }
+    if (now >= this.endAt) {
