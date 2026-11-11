@@ -910,3 +910,4 @@ export class Character {
       t.can.position.copy(handR);
       t.can.rotation.set(0.25 + Math.sin(this.workT * 2) * 0.12, 0, 0);
       this.spout.set(0, -0.06, 0.15).applyEuler(t.can.rotation).add(handR);
+      this.root.localToWorld(this.spout);
