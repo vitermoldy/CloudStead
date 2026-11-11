@@ -81,3 +81,4 @@ export class Cursor {
     this.ry += (this.y - this.ry) * k;
     this.vx = (this.rx - px) / Math.max(dt, 0.001);
     this.vy = (this.ry - py) / Math.max(dt, 0.001);
+    const speed = Math.hypot(this.vx, this.vy);
