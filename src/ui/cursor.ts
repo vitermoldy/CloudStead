@@ -63,3 +63,5 @@ export class Cursor {
     if (text) this.label.textContent = text;
     this.el.dataset.label = text ? 'true' : 'false';
     this.wake();
+  }
+
