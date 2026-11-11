@@ -79,3 +79,4 @@ export class World extends Emitter {
   private zClock = 0;
   private steamClock = 0;
   private heartClock = 0;
+  private lookHold = 0;
