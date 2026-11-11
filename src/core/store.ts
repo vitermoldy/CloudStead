@@ -40,3 +40,5 @@ function flush(): boolean {
 export function setReadOnly(on: boolean): void {
   readOnly = on;
   if (on) cache = {};
+}
+
