@@ -99,3 +99,4 @@ export class Ambient {
   }
 
   private loopLife(): void {
+    const ctx = this.ctx;
