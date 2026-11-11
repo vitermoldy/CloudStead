@@ -107,3 +107,4 @@ export class PropSite {
     } else if (mode === 'pond') {
       // The water widens as the hole is dug; the stones go round it after.
       const [water, ...rest] = this.parts;
+      const w = 0.15 + 0.85 * Math.min(1, k * 1.4);
