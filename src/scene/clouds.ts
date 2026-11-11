@@ -85,3 +85,4 @@ function puffAtlas(): DataTexture {
   }
   const tex = new DataTexture(img.data, width, CELL, RGBAFormat);
   tex.minFilter = LinearFilter;
+  tex.magFilter = LinearFilter;
