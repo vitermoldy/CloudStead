@@ -144,3 +144,4 @@ export async function fetchDetails(item: { kind: string; videoId: string | null;
 export const ERROR_TEXT: Record<number, string> = {
   2: 'YouTube tidak bisa membaca tautan ini.',
   5: 'Video ini tidak bisa diputar di pemutar browser.',
+  100: 'Video ini sudah dihapus atau dijadikan pribadi.',
