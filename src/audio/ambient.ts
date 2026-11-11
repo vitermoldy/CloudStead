@@ -84,3 +84,4 @@ export class Ambient {
     const swell = ctx.createOscillator();
     const swellGain = ctx.createGain();
     swell.frequency.value = 0.09;
+    swellGain.gain.value = 0.25;
