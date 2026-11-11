@@ -542,3 +542,4 @@ export class PropsLayer {
     if (replaced) this.remove((e) => e.kind === replaced && cellKey(e.cell) === cellKey(cell));
     const group = BUILDERS[kind]();
     group.position.set(cell[0], 0, cell[1]);
+    group.rotation.y = FACING[kind] ?? 0;
