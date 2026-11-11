@@ -419,3 +419,4 @@ export class Character {
         break;
       case 'scarf':
         this.rig.add(g);
+        break;
