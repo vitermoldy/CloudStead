@@ -331,3 +331,4 @@ export class Character {
     const planks = new Mesh(new BoxGeometry(0.06, 0.04, 0.18), new MeshStandardMaterial({ color: '#b08a5c' }));
     planks.position.set(0.03, 0.15, 0);
     this.crate.add(box, lidBar, planks);
+    this.crate.position.set(0.3, 0, -0.3);
