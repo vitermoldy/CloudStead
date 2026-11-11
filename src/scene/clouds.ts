@@ -310,3 +310,4 @@ export function createClouds(count: number): Clouds {
   });
 
   const mesh = new Mesh(geo, material);
+  mesh.frustumCulled = false;
