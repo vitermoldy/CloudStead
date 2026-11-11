@@ -92,3 +92,4 @@ export function formatMinutes(min: number): string {
 }
 
 /** "1 jam 20 menit", for sentences and screen readers. */
+export function formatMinutesLong(min: number): string {
