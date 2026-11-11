@@ -823,3 +823,4 @@ export class Character {
     this.headRoll = damp(this.headRoll, roll, 6, dt);
     this.head.position.copy(headPos);
     const spineQ = new Quaternion().setFromUnitVectors(UP, this.spine);
+    this.head.quaternion.copy(spineQ).multiply(new Quaternion().setFromEuler(new Euler(this.headPitch, this.headYaw, this.headRoll, 'YXZ')));
