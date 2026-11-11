@@ -131,3 +131,4 @@ export class Fx {
       sprite.renderOrder = 15;
       this.group.add(sprite);
       p = { sprite, vel: new Vector3(), life: 0, max: 1, size: 0.1, grow: 0, gravity: 0, spin: 0, active: false };
+      pool.push(p);
