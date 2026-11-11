@@ -424,3 +424,4 @@ canvas.addEventListener('pointerdown', () => {
   if (openId) openPanel(null, false);
 });
 
+// ------------------------------------------------------------ the island panel
