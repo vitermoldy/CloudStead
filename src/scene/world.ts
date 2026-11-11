@@ -579,3 +579,4 @@ export class World extends Emitter {
     this.applyClock(true);
   }
 
+  private applyClock(jump = false): void {
