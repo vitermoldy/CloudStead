@@ -730,3 +730,4 @@ export class World extends Emitter {
       } else if (p.on === 'tile' && p.point) {
         this.lookAt(p.point);
         this.fx.spawn('leaf', p.point.clone().setY(0.06), 2);
+        this.emit('poke-tile', this.hover.cell);
