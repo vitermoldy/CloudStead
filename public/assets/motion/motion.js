@@ -105,3 +105,4 @@ function parse(text) {
   let dec = '', group = '', decimals = 0;
   const lastSep = raw.search(/[^\d](?=\d+$)/);
   if (lastSep >= 0) {
+    const tail = raw.length - lastSep - 1;
