@@ -223,3 +223,4 @@ export class Island {
   }
 
   setRise(cell: Cell, k: number): void {
+    const t = this.tiles.get(cellKey(cell));
