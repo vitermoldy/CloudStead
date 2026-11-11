@@ -393,3 +393,4 @@ export class World extends Emitter {
     if (m.work === 'build' && this.site && (this.site.stock < 2 || this.loopN % 3 === 1)) {
       steps.push(...this.walkTo(this.home.clone().add(new Vector3(0.12, 0, -0.1))));
       steps.push({ kind: 'do', act: 'stand', seconds: 0.6, face: c.seat.localToWorld(new Vector3(0.3, 0, -0.3)) });
+      steps.push(...this.walkTo(stand, true));
