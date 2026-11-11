@@ -291,3 +291,4 @@ export class Ambient {
     this.typing = on;
   }
 
+  setNight(n: number): void {
