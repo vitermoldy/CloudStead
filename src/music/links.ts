@@ -28,3 +28,4 @@ export function parseLink(raw: string): ParsedLink {
     throw new LinkError(notLink);
   }
   const host = url.hostname.toLowerCase().replace(/^(www\.|m\.)/, '');
+  const known = ['youtube.com', 'music.youtube.com', 'youtu.be', 'youtube-nocookie.com'];
