@@ -49,3 +49,4 @@ dial **ENERGY 3 / RHYTHM 1 / MOTION 3**.
 | Hover makes the resident look at you; a click greets (a poke during focus); holding pets them | The interaction the owner asked for, with lines that fit the moment (focus, break, idle). The grass parts round the pointer too. |
 | VMK's name tag is a real button | Keyboard and touch users can greet him; it steps aside while he speaks or the pointer is on him. |
 | The black tab hanging from the top, centred | The reference's composition, kept on purpose; the wordmark sits inside it so its contrast never depends on the sky. |
+| Giant numerals bottom left are the timer | The reference's giant word, made into live state. Its ink switches between cream and black from the pixels under it, so it keeps 3:1 or better on gold clouds and on night. |
