@@ -233,3 +233,4 @@ export class Fx {
       }
     }
     const fm = this.fireflies.material as PointsMaterial;
+    fm.opacity = Math.max(0, (night - 0.5) * 2) * 0.9;
