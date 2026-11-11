@@ -537,3 +537,4 @@ export class World extends Emitter {
   /** Walk steps from where the resident is to a point, cell by cell. */
   private walkTo(to: Vector3, carry = false): Step[] {
     const pos = this.character.root.position;
+    if (pos.distanceTo(to) < 0.05) return [];
