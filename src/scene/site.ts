@@ -50,3 +50,4 @@ export class PropSite {
 
     this.build = buildProp(kind);
     this.ghost = buildProp(kind);
+    this.group.add(this.ghost, this.build);
