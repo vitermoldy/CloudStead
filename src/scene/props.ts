@@ -326,3 +326,4 @@ function pond(): Group {
   water.receiveShadow = true;
   g.add(water);
   const rand = rng(57);
+  const stone = new DodecahedronGeometry(0.06, 0);
