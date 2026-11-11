@@ -608,3 +608,5 @@ export class World extends Emitter {
 
   get night(): number {
     return this.look.night;
+  }
+
