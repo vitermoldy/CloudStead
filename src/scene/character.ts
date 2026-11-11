@@ -547,3 +547,4 @@ export class Character {
         const dx = step.to.x - pos.x, dz = step.to.z - pos.z;
         const d = Math.hypot(dx, dz);
         if (d > 0.02) turnTo(step.to.x, step.to.z, 10);
+        const move = Math.min(d, dt * WALK_SPEED * (step.carry ? 0.8 : 1));
