@@ -206,3 +206,4 @@ html:not([data-motion="off"]) .field :is(input, select, textarea):focus, .m-inpu
   transition: background-color 180ms var(--m-ease);
 }
 .m-switch::before {
+  content: ""; position: absolute; left: 3px; top: 3px; width: 18px; height: 18px; border-radius: 999px;
