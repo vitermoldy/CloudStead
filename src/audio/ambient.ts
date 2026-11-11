@@ -195,3 +195,5 @@ export class Ambient {
     o.connect(g).connect(this.fxGain!);
     o.start(t);
     o.stop(t + dur + 0.02);
+  }
+
