@@ -278,3 +278,4 @@ export class World extends Emitter {
       if (this.paused || this.instant) this.island.settle();
     } else if (m.kind === 'gear' && m.gear) {
       this.character.setCraft(m.gear, this.p);
+    }
