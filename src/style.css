@@ -134,3 +134,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
 }
 .big {
   margin: 0; display: flex; font: 500 clamp(96px, 15.5vw, 250px)/0.86 var(--font-display);
+  letter-spacing: -0.06em; color: var(--ink); user-select: none; transition: color 600ms var(--ease);
