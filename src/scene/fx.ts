@@ -145,3 +145,4 @@ export class Fx {
       p.life = 0;
       p.spin = 0;
       switch (kind) {
+        case 'heart':
