@@ -296,3 +296,4 @@ function renderHud(force = false): void {
   const ms = timer.remaining();
   const text = clockText(ms).replace(':', '');
   if (text !== lastDigits) {
+    lastDigits = text;
