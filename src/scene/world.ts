@@ -84,3 +84,4 @@ export class World extends Emitter {
   private frameMs = 16;
   private pixelRatio: number;
   private maxRatio: number;
+  private inkRects: () => DOMRect[] = () => [];
