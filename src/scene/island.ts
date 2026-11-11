@@ -361,3 +361,4 @@ export class Island {
         const axis = new Vector3(outward.z, 0, -outward.x).normalize();
         q.setFromAxisAngle(up, rand() * Math.PI);
         if (axis.lengthSq() > 0) q.premultiply(new Quaternion().setFromAxisAngle(axis, lean * rand()));
+        const tall = rand() < 0.12;
