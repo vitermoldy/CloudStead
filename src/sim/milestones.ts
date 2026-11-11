@@ -22,3 +22,4 @@ export interface Milestone {
   doing: string;
   work: Work;
   kind: 'tiles' | 'prop' | 'gear';
+  tiles?: Cell[];
