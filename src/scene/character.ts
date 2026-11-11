@@ -701,3 +701,4 @@ export class Character {
           const tap = Math.max(0, Math.sin(time * 15 + i * 2.1 + Math.sin(time * 3.3 + i) * 2)) * 0.012;
           t.set(s * 0.045, lapY + 0.012 + tap, 0.15);
           break;
+        }
