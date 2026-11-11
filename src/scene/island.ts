@@ -177,3 +177,4 @@ export class Island {
     this.group.add(this.highlight);
   }
 
+  private frame(size: number, thick: number, mat: Material): Group {
