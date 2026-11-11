@@ -425,3 +425,4 @@ export class World extends Emitter {
   private planFree(): void {
     const c = this.character;
     if (this.idleFor > 150) {
+      c.run([...this.goHome(), { kind: 'sit', act: 'sleep', seconds: 1e9 }]);
