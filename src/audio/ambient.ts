@@ -149,3 +149,4 @@ export class Ambient {
     am.stop(t + 0.35);
   }
 
+  private loopKeys(): void {
