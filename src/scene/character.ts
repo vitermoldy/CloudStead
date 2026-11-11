@@ -348,3 +348,4 @@ export class Character {
         o.receiveShadow = true;
       }
     });
+    this.root.position.copy(this.home);
