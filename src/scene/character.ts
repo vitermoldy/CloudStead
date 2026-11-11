@@ -608,3 +608,4 @@ export class Character {
 
   /** Between the two hands, in the world: where a hauled rope starts. */
   handsWorld(out = new Vector3()): Vector3 {
+    out.copy(this.hands[0]).add(this.hands[1]).multiplyScalar(0.5);
