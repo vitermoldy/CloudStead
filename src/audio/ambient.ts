@@ -203,3 +203,4 @@ export class Ambient {
     if (!ctx || !this.settings.keys || this.hidden) return;
     if (kind === 'hammer') this.knock(true);
     else if (kind === 'dig') this.burst(320, 0.18, 0.5, 0.9);
+    else if (kind === 'water') this.burst(3200, 0.25, 0.12, 0.4);
