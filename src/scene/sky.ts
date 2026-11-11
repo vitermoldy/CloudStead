@@ -9,3 +9,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
     fog: false,
     toneMapped: false,
     uniforms: {
+      uZenith: { value: null },
