@@ -402,3 +402,4 @@ export function init() {
 export const refresh = init;
 export default { init, refresh };
 
+if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init, { once: true });
