@@ -119,3 +119,4 @@ export class Progress extends Emitter {
       }
     }
     this.persist(passed.length > 0 || this.unsavedMs >= 30000);
+    for (const m of passed) this.emit('reach', m);
