@@ -48,3 +48,4 @@ function speak(text: string, ms = 2800): void {
   bubble.classList.add('is-on');
   say.textContent = `${progress.name}: ${text}`;
   bubbleUntil = performance.now() + ms;
+  positionBubble();
