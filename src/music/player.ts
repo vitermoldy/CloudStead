@@ -127,3 +127,4 @@ export class MusicPlayer extends Emitter {
                 this.ready = true;
                 this.player!.setVolume(this.volume);
                 resolve();
+              },
