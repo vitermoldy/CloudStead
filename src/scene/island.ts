@@ -255,3 +255,4 @@ export class Island {
     rock.receiveShadow = true;
     g.add(slab, earth, rock);
     g.userData.cell = cell;
+    return { cell, group: g, rise: 1, target: 1, landed: true, depth };
