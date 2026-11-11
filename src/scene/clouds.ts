@@ -236,3 +236,4 @@ export function createClouds(count: number): Clouds {
       uSunDir: { value: new Vector3() },
       uTime: { value: 0 },
       uSpan: { value: 130 },
+    },
