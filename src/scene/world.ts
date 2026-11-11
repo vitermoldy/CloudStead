@@ -182,3 +182,4 @@ export class World extends Emitter {
     for (const p of START_PROPS) this.addProp(p.prop, p.at, false);
     for (const m of done) {
       if (m.kind === 'prop' && m.prop && m.at) this.addProp(m.prop, m.at, false);
+      if (m.kind === 'gear' && m.gear) this.character.setGear(m.gear, true);
