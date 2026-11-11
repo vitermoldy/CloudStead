@@ -53,3 +53,4 @@ function reach(a: Vector3, target: Vector3, l1: number, l2: number, pole: Vector
 function span(m: Mesh, p: Vector3, q: Vector3): void {
   const dir = q.clone().sub(p);
   const len = dir.length();
+  m.position.copy(p).addScaledVector(dir, 0.5);
