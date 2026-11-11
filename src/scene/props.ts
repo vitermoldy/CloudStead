@@ -628,3 +628,4 @@ export class PropsLayer {
         break;
       case 'waterfall':
         e.update = (_dt, ctx) => {
+          const m = u.mat as ShaderMaterial;
