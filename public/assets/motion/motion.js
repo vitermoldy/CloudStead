@@ -311,3 +311,4 @@ function maskWords(h1) {
   return { lines, restore() { h1.replaceChildren(own); if (!label) h1.removeAttribute('aria-label'); } };
 }
 function enterSteps(hero, h1, media) {
+  // what follows (and precedes) the h1 in its column, as whole blocks in reading order; a box of
