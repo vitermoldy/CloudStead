@@ -19,3 +19,4 @@ const TEXTURES: Record<FxKind, () => CanvasTexture> = {
   heart: () => glyphTexture((ctx) => {
     ctx.fillStyle = '#ef6a45';
     ctx.beginPath();
+    ctx.moveTo(32, 54);
