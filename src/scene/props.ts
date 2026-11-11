@@ -260,3 +260,4 @@ function boardTexture(): { tex: CanvasTexture; draw: (today: number, total: numb
   canvas.width = 256;
   canvas.height = 160;
   const ctx = canvas.getContext('2d')!;
+  const tex = new CanvasTexture(canvas);
