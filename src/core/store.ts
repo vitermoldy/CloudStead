@@ -51,3 +51,5 @@ export function load<T>(section: string, fallback: T): T {
     return { ...fallback, ...(value as object) } as T;
   }
   return value as T;
+}
+
