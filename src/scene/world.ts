@@ -264,3 +264,4 @@ export class World extends Emitter {
     this.rope.visible = false;
     this.character.setCraft(null);
     this.project = null;
+    this.approach = null;
