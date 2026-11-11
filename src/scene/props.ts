@@ -424,3 +424,4 @@ function balloon(): Group {
     const r = Math.sin(Math.min(Math.PI, t * Math.PI * 1.05)) * (0.72 - (1 - t) * 0.2) + (t < 0.08 ? 0.12 : 0);
     profile.push(new Vector2(Math.max(0.06, r), y));
   }
+  const env = new LatheGeometry(profile, 16);
