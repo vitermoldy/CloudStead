@@ -780,3 +780,4 @@ export class World extends Emitter {
     } else {
       u.z = 0;
     }
+    this.island.showHighlight(this.hover.kind === 'tile' || this.hover.kind === 'ghost' ? this.hover.cell ?? null : null);
