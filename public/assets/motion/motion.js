@@ -140,3 +140,4 @@ function counts() {
     span.className = 'm-count__n';
     span.style.display = 'inline-block';
     span.style.textAlign = 'right';
+    span.textContent = p.raw;
