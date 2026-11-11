@@ -497,3 +497,4 @@ export class Character {
   }
 
   /** The seated act the resident is in, or null when up. */
+  get seatAct(): SeatAct | null {
