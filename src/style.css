@@ -219,3 +219,4 @@ html.scene-ready .poster { opacity: 0; pointer-events: none; }
   border: 1px solid var(--line-strong); background: rgba(0, 0, 0, .25); color: var(--ink);
 }
 .field__input::placeholder { color: rgba(231, 228, 209, .45); }
+.field__input:hover { border-color: rgba(231, 228, 209, .5); }
