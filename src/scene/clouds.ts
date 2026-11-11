@@ -207,3 +207,4 @@ export interface Clouds {
 }
 
 export function createClouds(count: number): Clouds {
+  const puffs = layout(count);
