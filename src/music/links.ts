@@ -65,3 +65,4 @@ export interface YTPlayer {
   cueVideoById(id: string): void;
   loadPlaylist(o: unknown): void;
   cuePlaylist(o: unknown): void;
+  playVideo(): void;
