@@ -699,3 +699,5 @@ export class PropsLayer {
       }
       e.update?.(dt, ctx, e);
     }
+  }
+
