@@ -879,3 +879,4 @@ export class Character {
           this.nextSip = 9 + Math.random() * 8;
         }
       }
+    }
