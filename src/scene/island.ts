@@ -253,3 +253,4 @@ export class Island {
     const rock = new Mesh(rockGeometry(cell, depth), this.rockMat);
     rock.castShadow = true;
     rock.receiveShadow = true;
+    g.add(slab, earth, rock);
