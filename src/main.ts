@@ -330,3 +330,4 @@ function renderHud(force = false): void {
     $('next-title').textContent = 'Semua sudah dibangun';
     $('next-left').textContent = `total ${formatMinutes(progress.minutes)}`;
     fill.style.width = '100%';
+    meter.setAttribute('aria-valuenow', '100');
