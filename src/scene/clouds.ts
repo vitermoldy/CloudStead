@@ -40,3 +40,4 @@ function puffAtlas(): DataTexture {
           // Coverage as a distance field: 0.5 on the edge, a ramp 24 texels wide, cut sharp in the shader.
           cover = Math.max(cover, Math.min(1, Math.max(0, 0.5 + (c.r - d) / (24 / CELL))));
           if (d - c.r < nearest && d > 0) {
+            nearest = d - c.r;
