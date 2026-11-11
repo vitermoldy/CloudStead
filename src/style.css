@@ -404,3 +404,4 @@ html.has-cursor .cursor.is-on { opacity: 1; }
 }
 @media (max-width: 360px) {
   .tab__item { padding: 0 6px; font-size: 13px; }
+  .tab__icon--pause { display: none; }
