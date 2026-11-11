@@ -15,3 +15,4 @@ export interface Look {
   hemiGround: string;
   hemiIntensity: number;
   cloudLit: string;
+  cloudShade: string;
