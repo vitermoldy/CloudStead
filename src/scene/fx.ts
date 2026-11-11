@@ -128,3 +128,4 @@ export class Fx {
     let p = pool.find((q) => !q.active);
     if (!p) {
       const sprite = new Sprite(this.mats.get(kind)!.clone());
+      sprite.renderOrder = 15;
