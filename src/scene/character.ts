@@ -380,3 +380,4 @@ export class Character {
     plank2.rotation.y = 0.12;
     t.plank.add(plank, plank2);
 
+    const ball = new Mesh(new SphereGeometry(0.03, 10, 8), new MeshStandardMaterial({ color: '#c05a3c' }));
