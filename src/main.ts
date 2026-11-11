@@ -194,3 +194,4 @@ function onGreet(): void {
   } else {
     c.wave();
     const lines = ['Hai! Mulai fokus, nanti aku kerja.', 'Aku cuma bisa membangun selama kamu fokus.'];
+    if (next && pct > 0) lines.push(`${next.title} baru ${pct}%. Lanjut fokus, yuk.`);
