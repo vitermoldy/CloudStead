@@ -107,3 +107,5 @@ interface Tile {
   target: number;
   landed: boolean;
   depth: number;
+}
+
