@@ -861,3 +861,4 @@ export class Character {
     }
 
     // ---- root and the hit shapes
+    this.root.rotation.y = this.heading;
