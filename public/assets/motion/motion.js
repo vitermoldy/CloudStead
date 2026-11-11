@@ -218,3 +218,4 @@ function setPaused(box, paused) {
   if (box.matches('[data-m-loop]')) box.classList.toggle('is-m-paused', paused);
 }
 function pauseButton(loop) {
+  const box = boxOf(loop);
