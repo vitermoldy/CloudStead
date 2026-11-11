@@ -396,3 +396,4 @@ export class Island {
     return false;
   }
 
+  update(dt: number, time: number): void {
