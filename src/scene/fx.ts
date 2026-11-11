@@ -57,3 +57,4 @@ const TEXTURES: Record<FxKind, () => CanvasTexture> = {
   drop: () => glyphTexture((ctx) => {
     ctx.fillStyle = '#9fd0de';
     ctx.beginPath();
+    ctx.moveTo(32, 10);
