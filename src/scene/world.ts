@@ -293,3 +293,4 @@ export class World extends Emitter {
   /** A milestone was reached: the piece in progress is finished, with a cheer when there is time to watch. */
   reach(m: Milestone): void {
     const instant = this.instant || this.paused || document.hidden;
+    if (this.project?.id !== m.id) this.startProject(m);
