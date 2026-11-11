@@ -528,3 +528,4 @@ export class Character {
     const turnTo = (x: number, z: number, rate = 8) => {
       const want = Math.atan2(x - pos.x, z - pos.z);
       let d = want - this.heading;
+      d = Math.atan2(Math.sin(d), Math.cos(d));
