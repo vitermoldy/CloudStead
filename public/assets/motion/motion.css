@@ -287,3 +287,4 @@ html:not([data-motion="off"]) .field :is(input, select, textarea):focus, .m-inpu
   html.m-enter:not(.m-enter-done, [data-motion="off"]) .hero[data-enter]:not([data-enter="off"], .is-entering, .is-entered)
     :is(:is([data-enter-media], .hero__bg, .hero__media, .hero__stage, .hero__art, .hero__window, .hero-visual, .ly-collage):is(img, picture, video),
         :is([data-enter-media], .hero__bg, .hero__media, .hero__stage, .hero__art, .hero__window, .hero-visual, .ly-collage) > :is(img, picture, video, .frame__img)) { scale: 1.05; }
+  html.m-enter:not(.m-enter-done, [data-motion="off"]) .hero[data-enter]:not([data-enter="off"], .is-entering, .is-entered)
