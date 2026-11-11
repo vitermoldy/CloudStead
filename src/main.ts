@@ -310,3 +310,4 @@ function renderHud(force = false): void {
   document.title = timer.running ? `${clockText(ms)} · ${timer.phaseLabel} · CloudStead` : 'CloudStead: pulau belajar yang tumbuh setiap menit fokus';
 
   const next = progress.next();
+  const key = [timer.running, timer.phase, timer.round, timer.active, Math.floor(progress.minutes * 4), next?.id, world?.character.act, justBuilt?.until, progress.name].join('|');
