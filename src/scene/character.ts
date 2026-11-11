@@ -142,3 +142,4 @@ export function makeGear(kind: Gear): Group {
       break;
     }
     case 'headphones': {
+      const band = m(new TorusGeometry(0.093, 0.009, 5, 18, Math.PI), '#2b2b2e', 0.5);
