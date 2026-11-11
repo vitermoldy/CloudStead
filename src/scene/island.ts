@@ -99,3 +99,4 @@ function bladeGeometry(): BufferGeometry {
   return g;
 }
 
+interface Tile {
