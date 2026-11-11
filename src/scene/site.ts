@@ -115,3 +115,4 @@ export class PropSite {
     } else if (mode === 'fall') {
       // The channel first, then the water reaches further down the cliff.
       this.build.children.forEach((o, i) => {
+        if (i === 0) o.visible = true;
