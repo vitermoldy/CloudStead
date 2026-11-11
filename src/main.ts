@@ -645,3 +645,4 @@ addEventListener('keydown', (e) => {
   if (typing || e.ctrlKey || e.metaKey || e.altKey) return;
   const onControl = t.closest('button, a, label, summary');
   if (e.key === ' ' && !onControl) {
+    e.preventDefault();
