@@ -245,3 +245,4 @@ export class Fx {
       pos.needsUpdate = true;
     }
     this.flyBirds(dt, night);
+  }
