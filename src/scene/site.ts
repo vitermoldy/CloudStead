@@ -128,3 +128,4 @@ export class PropSite {
 
   /** One more armful of planks on the pile. */
   deliver(): void {
+    if (this.planks >= 6) return;
