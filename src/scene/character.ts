@@ -395,3 +395,4 @@ export class Character {
   // ------------------------------------------------------------ gear
   setGear(kind: Gear, on: boolean): Group | null {
     const had = this.gear.get(kind);
+    if (!on) {
