@@ -32,3 +32,4 @@ export interface Milestone {
 export const START_TILES: Cell[] = [
   [-1, -1], [0, -1], [1, -1],
   [-1, 0], [0, 0], [1, 0],
+  [-1, 1], [0, 1], [1, 1],
