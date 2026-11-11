@@ -365,3 +365,5 @@ export class Character {
     shaft.position.y = -0.1;
     const spade = new Mesh(new BoxGeometry(0.07, 0.08, 0.008), IRON);
     spade.position.y = -0.3;
+    t.shovel.add(shaft, spade);
+
