@@ -128,3 +128,4 @@ html:not([data-motion="off"]) .footer ul a:hover { color: var(--ink); }
 }
 /* the phone sheet slides in 8px and fades (system.js opens it) */
 @media (max-width: 1023px) {
+  html:not([data-motion="off"]) .nav.is-open .nav__links { transition: opacity var(--m-panel) var(--m-ease), transform var(--m-panel) var(--m-ease); }
