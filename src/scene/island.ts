@@ -76,3 +76,5 @@ function rockGeometry(cell: Cell, depth: number): BufferGeometry {
   g.setAttribute('color', new BufferAttribute(new Float32Array(colors), 3));
   g.computeVertexNormals();
   return g;
+}
+
