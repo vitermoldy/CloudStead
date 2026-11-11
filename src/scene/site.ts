@@ -72,3 +72,4 @@ export class PropSite {
       const mesh = o as Mesh;
       if (!mesh.material) return;
       const isLine = (o as Line).isLine;
+      const mat = (isLine ? GHOST_LINE : GHOST).clone();
