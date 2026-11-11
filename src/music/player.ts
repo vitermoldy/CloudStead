@@ -45,3 +45,4 @@ export class MusicPlayer extends Emitter {
     return this.queue[this.current] || null;
   }
 
+  get isPlaying(): boolean {
