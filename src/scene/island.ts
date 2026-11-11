@@ -38,3 +38,4 @@ function rockGeometry(cell: Cell, depth: number): BufferGeometry {
         ring.push(new Vector3(Math.cos(a) * sq, y, Math.sin(a) * sq));
         continue;
       }
+      const taper = Math.pow(1 - k, 0.9);
