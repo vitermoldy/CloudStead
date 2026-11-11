@@ -206,3 +206,4 @@ export class World extends Emitter {
 
   ghostMilestone: Milestone | null = null;
 
+  // ------------------------------------------------------------ the resident's work
