@@ -29,3 +29,4 @@ export function createSky(): { mesh: Mesh; update: (look: LiveLook, time: number
     fragmentShader: /* glsl */ `
       uniform vec3 uZenith;
       uniform vec3 uHorizon;
+      uniform vec3 uGlow;
