@@ -664,3 +664,4 @@ export class PropsLayer {
     return this.entries.filter((e) => cellKey(e.cell) === k);
   }
 
+  blocked(): Set<string> {
