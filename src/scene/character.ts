@@ -751,3 +751,4 @@ export class Character {
     if (act === 'water') targets[R].set(-0.07, this.hipY + 0.12, 0.17);
     if (this.waveT > 0) {
       this.waveT -= dt;
+      targets[R].set(-0.16 + Math.sin(time * 12) * 0.03, neck.y + 0.16, 0.04);
