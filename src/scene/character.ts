@@ -217,3 +217,4 @@ export class Character {
   private nextSip = 8;
   private stretchT = 0;
   private nextStretch = 3;
+  private workT = 0;
