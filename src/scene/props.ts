@@ -587,3 +587,4 @@ export class PropsLayer {
           }
         };
         break;
+      case 'windmill':
