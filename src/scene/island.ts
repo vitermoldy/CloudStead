@@ -67,3 +67,4 @@ function rockGeometry(cell: Cell, depth: number): BufferGeometry {
       tri(a, b, c);
       tri(b, d, c);
     }
+  }
