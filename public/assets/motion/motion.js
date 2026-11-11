@@ -229,3 +229,4 @@ function pauseButton(loop) {
     btn.title = btn.getAttribute('aria-label');
     btn.classList.toggle('is-paused', paused);
   };
+  show(false);
