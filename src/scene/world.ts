@@ -377,3 +377,4 @@ export class World extends Emitter {
       const top = new Vector3(cell[0], -1, cell[1]);
       c.run([
         ...this.walkTo(stand),
+        { kind: 'call', fn: () => { this.ropeCell = cell; this.rope.visible = true; } },
