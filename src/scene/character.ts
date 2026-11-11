@@ -798,3 +798,4 @@ export class Character {
         break;
       case 'hammer':
       case 'dig':
+      case 'water':
