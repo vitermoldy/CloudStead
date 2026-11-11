@@ -183,3 +183,4 @@ export class Island {
     for (let i = 0; i < 4; i++) {
       const m = new Mesh(bar, mat);
       const a = (i * Math.PI) / 2;
+      m.position.set(Math.sin(a) * (size / 2), 0.012, Math.cos(a) * (size / 2));
