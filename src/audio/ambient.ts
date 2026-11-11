@@ -150,3 +150,4 @@ export class Ambient {
   }
 
   private loopKeys(): void {
+    const ctx = this.ctx;
