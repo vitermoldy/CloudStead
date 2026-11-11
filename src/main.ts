@@ -43,3 +43,4 @@ function toast(text: string, ms = 3200): void {
 const bubble = $('bubble');
 const say = $('say');
 let bubbleUntil = 0;
+function speak(text: string, ms = 2800): void {
