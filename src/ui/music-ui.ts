@@ -40,3 +40,5 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
   });
   input.addEventListener('input', () => {
     if (error.textContent) showError('');
+  });
+
