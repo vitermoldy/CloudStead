@@ -241,3 +241,4 @@ export class Island {
     const dirt = DIRT.has(cellKey(cell));
     const slabMat = (dirt ? this.dirtTopMat : this.grassMat).clone();
     slabMat.color = tint(dirt ? '#8a6a47' : '#6b7b36', rand, dirt ? 0.35 : 1);
+    const slab = new Mesh(this.slabGeo, slabMat);
