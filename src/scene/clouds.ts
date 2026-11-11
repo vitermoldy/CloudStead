@@ -146,3 +146,4 @@ function cloudFloor(): { mesh: Mesh; material: ShaderMaterial } {
       uFog: { value: new Color() },
       uSunDir: { value: new Vector3() },
       uTime: { value: 0 },
+    },
