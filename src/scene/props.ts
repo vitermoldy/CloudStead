@@ -493,3 +493,4 @@ function waterfall(): Group {
         gl_FragColor = vec4(col, a);
         #include <colorspace_fragment>
       }
+    `,
