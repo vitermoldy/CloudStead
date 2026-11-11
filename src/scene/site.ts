@@ -11,3 +11,4 @@ const STAKE = new MeshStandardMaterial({ color: '#c9a472', roughness: 0.9 });
 const PLANK = new MeshStandardMaterial({ color: '#b08a5c', roughness: 0.9 });
 const STRING = new LineBasicMaterial({ color: '#f0a04b' });
 
+/**
