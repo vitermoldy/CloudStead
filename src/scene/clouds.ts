@@ -32,3 +32,4 @@ function puffAtlas(): DataTexture {
     const base = 0.76;
     for (let py = 0; py < CELL; py++) {
       for (let px = 0; px < CELL; px++) {
+        const x = (px + 0.5) / CELL, y = (py + 0.5) / CELL;
