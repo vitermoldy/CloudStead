@@ -538,3 +538,4 @@ importInput.addEventListener('change', async () => {
     try {
       sessionStorage.setItem('cloudstead:toast', 'Simpanan dimuat. Pulaumu sudah kembali.');
     } catch {
+      /* no session storage: the reload still shows the island */
