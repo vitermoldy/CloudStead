@@ -9,3 +9,4 @@ cliff in a sea of golden clouds at a low sun, a person sitting with a laptop on 
 wooden hut and power poles, giant words bottom left, a short paragraph and a pill button bottom
 right, and a black tab hanging from the top edge with the navigation. The owner asked for it
 without the reference's word ("tanpa tulisan prisma"), for a web app to study with music like
+their StudyCabin and SongPlay, for a resident who develops a world of tiles ("dunia petak") as
