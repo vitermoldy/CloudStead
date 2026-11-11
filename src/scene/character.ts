@@ -139,3 +139,4 @@ export function makeGear(kind: Gear): Group {
       const tea = m(new CylinderGeometry(0.024, 0.024, 0.005, 12), '#7a4a2a', 0.3);
       tea.position.y = 0.058;
       g.add(cup, handle, tea);
+      break;
