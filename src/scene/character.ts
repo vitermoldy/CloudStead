@@ -957,3 +957,4 @@ export class Character {
   settle(): void {
     this.plan = [];
     this.stepT = 0;
+    this.root.position.copy(this.home);
