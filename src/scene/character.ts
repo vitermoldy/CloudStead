@@ -617,3 +617,4 @@ export class Character {
     this.runPlan(dt);
     const act = this.act;
     const sitTarget = SEATED.has(act) ? 1 : 0;
+    this.sit = damp(this.sit, sitTarget, 5, dt);
