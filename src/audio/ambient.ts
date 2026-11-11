@@ -112,3 +112,4 @@ export class Ambient {
     const base = 2600 + Math.random() * 1400;
     let t = ctx.currentTime + 0.02;
     for (let i = 0; i < n; i++) {
+      const o = ctx.createOscillator();
