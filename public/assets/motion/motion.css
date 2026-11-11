@@ -168,3 +168,4 @@ html:not([data-motion="off"]) .card--open > .panel { transition: transform var(-
     transition-duration: 180ms;
   }
   html:not([data-motion="off"]) .card--open:not(.m-nolift):hover > .panel {
+    transform: translateY(var(--m-lift)); box-shadow: 0 14px 32px -18px oklch(from var(--bg, #fff) 0 0 0 / calc(0.75 - l * 0.55)); transition-duration: 180ms;
