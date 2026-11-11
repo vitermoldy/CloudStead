@@ -119,3 +119,4 @@ export class MusicPlayer extends Emitter {
           const mount = document.createElement('div');
           this.host.replaceChildren(mount);
           this.player = new YT.Player(mount, {
+            width: '100%',
