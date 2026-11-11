@@ -294,3 +294,4 @@ export function createClouds(count: number): Clouds {
         float ndl = dot(nrm, vSunView);
         float lit = smoothstep(-0.3, 0.85, ndl);
         // Undersides sit in their own shadow; the lower billows get less sky.
+        lit *= mix(0.42, 1.0, smoothstep(0.18, 0.62, vUv.y));
