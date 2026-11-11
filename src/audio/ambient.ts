@@ -201,3 +201,4 @@ export class Ambient {
   work(kind: 'hammer' | 'dig' | 'water' | 'haul'): void {
     const ctx = this.ctx;
     if (!ctx || !this.settings.keys || this.hidden) return;
+    if (kind === 'hammer') this.knock(true);
