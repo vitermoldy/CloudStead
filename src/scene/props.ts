@@ -377,3 +377,4 @@ function windmill(): Group {
 }
 
 function bench(): Group {
+  const g = new Group();
