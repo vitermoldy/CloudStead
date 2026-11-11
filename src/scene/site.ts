@@ -18,3 +18,4 @@ const STRING = new LineBasicMaterial({ color: '#f0a04b' });
 export class PropSite {
   readonly group = new Group();
   readonly cell: Cell;
+  readonly kind: PropKind;
