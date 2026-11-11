@@ -84,3 +84,4 @@ export class Cursor {
     const speed = Math.hypot(this.vx, this.vy);
     // Stretch along the move, round shapes only (a tile's square keeps its corners square to the screen).
     const round = this.state === 'idle' || this.state === 'grab' || this.state === 'prop';
+    const stretch = round && !reducedMotion() ? Math.min(0.32, speed / 4200) : 0;
