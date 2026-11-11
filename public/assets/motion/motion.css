@@ -182,3 +182,5 @@ html:not([data-motion="off"]) :is(.frame__img, .tile__media > img, .m-zoom img, 
 @media (hover: hover) and (pointer: fine) {
   html:not([data-motion="off"]) :is(a, .card:has(a), .m-zoom):hover :is(.frame__img, .tile__media > img),
   html:not([data-motion="off"]) .m-zoom:hover :is(img, video) { transform: scale(1.03); transition-duration: var(--m-image); }
+}
+
