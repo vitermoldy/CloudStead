@@ -108,3 +108,4 @@ function layout(count: number): Puff[] {
   }
   // A ring hugging the island's rock at mid height, as in the reference.
   for (let i = 0; i < Math.round(40 * scale); i++) {
+    const r = 6 + rand() * 10;
