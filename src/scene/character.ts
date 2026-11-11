@@ -768,3 +768,5 @@ export class Character {
       span(this.fore[i], elbows[i], hand);
       this.palms[i].position.copy(hand);
     }
+    this.placeTools(act, elbows, mug, dt);
+
