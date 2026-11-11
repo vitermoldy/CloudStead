@@ -484,3 +484,5 @@ export class World extends Emitter {
 
   private cellOf(v: Vector3): Cell {
     return [Math.round(v.x), Math.round(v.z)];
+  }
+
