@@ -25,3 +25,4 @@ dial **ENERGY 3 / RHYTHM 1 / MOTION 3**.
 ## The deal (taste-skill 2.5.1)
 
 - Kind: software (page type software, site-kind software). The live island is the hero and the
+  page's one effect; it carries `data-enter="off"` because the scene has its own load motion.
