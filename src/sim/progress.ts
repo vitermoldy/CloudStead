@@ -56,3 +56,4 @@ export class Progress extends Emitter {
     const d = { ...fresh(), ...raw };
     if (!Number.isFinite(d.focusMs) || d.focusMs < 0) d.focusMs = 0;
     if (!Number.isFinite(d.todayMs) || d.todayMs < 0) d.todayMs = 0;
+    if (!Number.isInteger(d.sessions) || d.sessions < 0) d.sessions = 0;
