@@ -486,3 +486,4 @@ function saveProgress(): void {
     return;
   }
   const ok = progress.persist(true);
+  const icon = $('save-now');
