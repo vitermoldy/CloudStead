@@ -38,3 +38,5 @@ function toast(text: string, ms = 3200): void {
   toastEl.classList.add('is-on');
   clearTimeout(toastTimer);
   toastTimer = window.setTimeout(() => toastEl.classList.remove('is-on'), ms);
+}
+
