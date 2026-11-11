@@ -57,3 +57,4 @@ export class World extends Emitter {
   hover: Hover = { kind: null };
   private press: { x: number; y: number; t: number; on: 'char' | 'prop' | 'tile' | null; moved: boolean; petting: boolean; prop?: PropEntry; point?: Vector3 } | null = null;
   private dragging = false;
+  private mode: WorkMode = 'free';
