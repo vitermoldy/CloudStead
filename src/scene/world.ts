@@ -245,3 +245,4 @@ export class World extends Emitter {
     this.loopN = 0;
     if (!m) return;
     if (m.kind === 'prop' && m.prop && m.at) {
+      this.approach = this.standPoint(m.at);
