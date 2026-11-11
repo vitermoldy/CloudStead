@@ -294,3 +294,4 @@ html:not([data-motion="off"]) .field :is(input, select, textarea):focus, .m-inpu
   html.m-enter:not([data-motion="off"]) .hero[data-enter]:not([data-enter="off"], .is-entered) { overflow: clip; }
 }
 /* while it runs: each word of the h1 in its own mask (the masks go when the h1 gets its own nodes back) */
+.hero[data-enter] .m-w { display: inline-block; overflow: clip; vertical-align: top; padding-bottom: .12em; margin-bottom: -.12em; }
