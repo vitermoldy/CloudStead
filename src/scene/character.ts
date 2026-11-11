@@ -741,3 +741,4 @@ export class Character {
           t.set(s * 0.115, this.hipY - 0.03, 0.01);
           break;
         default:
+          t.set(s * 0.11, lapY, 0.11);
