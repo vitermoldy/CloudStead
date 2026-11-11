@@ -414,3 +414,4 @@ function openPanel(id: string | null, focus = true): void {
       requestAnimationFrame(() => (first ?? panel.querySelector<HTMLElement>('.panel__title') ?? panel).focus({ preventScroll: true }));
     }
   } else if (was && focus) {
+    tabItems.find((t) => t.dataset.panel === was)?.focus();
