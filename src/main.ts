@@ -75,3 +75,4 @@ async function startWorld(): Promise<void> {
   }
   const w = world;
   // Development only: a handle for the headless checks.
+  if (import.meta.env.DEV) Object.assign(window, { __cs: { world: w, progress, timer, player } });
