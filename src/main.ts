@@ -584,3 +584,4 @@ for (const input of document.querySelectorAll<HTMLInputElement>('#time-group inp
   input.addEventListener('change', () => {
     if (!input.checked) return;
     settings.time = input.value as TimeMode;
+    save('settings', settings);
