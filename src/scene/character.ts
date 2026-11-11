@@ -513,3 +513,4 @@ export class Character {
     this.plan.shift();
     this.stepT = 0;
     this.beats = 0;
+    if (!this.plan.length) this.onPlanDone?.();
