@@ -716,3 +716,4 @@ export class World extends Emitter {
         this.emitHover();
         return;
       }
+      if (p.moved) return;
