@@ -342,3 +342,5 @@ fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
   opacity: 0; pointer-events: none; transition: opacity 200ms var(--ease), transform 200ms var(--ease);
   width: max-content; text-align: center;
 }
+.toast.is-on { opacity: 1; transform: translate(-50%, 0); }
+
