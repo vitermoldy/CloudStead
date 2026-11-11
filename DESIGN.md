@@ -87,3 +87,4 @@ section for a kit moment; the growing piece is the moment). Kept on purpose and 
 ## Placeholders to confirm (antislop R-23)
 
 - The favicon (a small floating tile with a sun) is a placeholder; no logo was given.
+- The resident's name "VMK" (asked for by the owner) can be changed in the Pulau panel.
