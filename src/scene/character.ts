@@ -876,3 +876,4 @@ export class Character {
         this.nextSip -= dt;
         if (this.nextSip <= 0 && this.stretchT <= 0) {
           this.sipT = 2.2;
+          this.nextSip = 9 + Math.random() * 8;
