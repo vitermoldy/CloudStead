@@ -406,3 +406,4 @@ export class World extends Emitter {
     } else {
       steps.push({ kind: 'do', act: 'dig', seconds: 5.2, face: target, beat: 1.3, onBeat: () => this.workBeat('dig', target, 0) });
     }
+    c.run(steps);
