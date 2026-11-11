@@ -180,3 +180,4 @@ export class MusicPlayer extends Emitter {
     if (!this.ready) {
       this.current = index;
       this.emit('change');
+      return;
