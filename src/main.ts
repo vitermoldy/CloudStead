@@ -598,3 +598,4 @@ for (const [id, key] of soundBoxes) {
     syncSoundBoxes();
   });
 }
+function syncSoundBoxes(): void {
