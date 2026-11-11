@@ -26,3 +26,4 @@ const TEXTURES: Record<FxKind, () => CanvasTexture> = {
     ctx.bezierCurveTo(58, 12, 58, 36, 32, 54);
     ctx.fill();
   }),
+  dust: () => glyphTexture((ctx) => {
