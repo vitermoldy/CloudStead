@@ -197,3 +197,4 @@ export class World extends Emitter {
   }
 
   /** Dashed outlines for the cells the current tile project brings. */
+  updateGhosts(reached: Set<string>): void {
