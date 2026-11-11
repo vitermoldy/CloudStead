@@ -807,3 +807,4 @@ export class World extends Emitter {
 
   private tick(): void {
     const now = performance.now();
+    const dt = Math.min(0.05, (now - this.last) / 1000);
