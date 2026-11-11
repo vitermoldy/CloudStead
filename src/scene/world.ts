@@ -771,3 +771,4 @@ export class World extends Emitter {
           this.hover = cell ? { kind: 'tile', cell } : ghost ? { kind: 'ghost', cell: ghost } : { kind: null };
         } else {
           this.hover = { kind: null };
+        }
