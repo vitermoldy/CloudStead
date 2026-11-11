@@ -19,3 +19,4 @@ export function mountMusicUi(player: MusicPlayer, toast: (text: string) => void)
   const queue = $('queue');
 
   const showError = (msg: string) => {
+    error.textContent = msg;
