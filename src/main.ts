@@ -333,3 +333,4 @@ function renderHud(force = false): void {
     meter.setAttribute('aria-valuenow', '100');
   }
   const go = $('focus-toggle');
+  go.classList.toggle('is-running', timer.running);
