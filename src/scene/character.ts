@@ -141,3 +141,4 @@ export function makeGear(kind: Gear): Group {
       g.add(cup, handle, tea);
       break;
     }
+    case 'headphones': {
