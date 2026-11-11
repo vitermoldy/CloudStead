@@ -9,3 +9,5 @@ export interface SoundSettings {
   effects: boolean;
 }
 
+const DEFAULTS: SoundSettings = { on: true, volume: 45, wind: true, life: true, keys: true, effects: true };
+
