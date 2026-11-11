@@ -663,3 +663,4 @@ document.addEventListener('visibilitychange', () => ambient.setHidden(document.h
 addEventListener('pointerdown', () => world?.nudge(), { passive: true });
 
 // ------------------------------------------------------------ preview banner
+if (previewMinutes !== null) {
