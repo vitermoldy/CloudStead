@@ -461,3 +461,4 @@ export class World extends Emitter {
     const total = options.reduce((n, o) => n + o[0], 0);
     let r = Math.random() * total;
     for (const [w, make] of options) {
+      r -= w;
