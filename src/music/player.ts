@@ -128,3 +128,4 @@ export class MusicPlayer extends Emitter {
                 this.player!.setVolume(this.volume);
                 resolve();
               },
+              onStateChange: (e: { data: number }) => this.onState(e.data),
