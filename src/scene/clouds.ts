@@ -337,3 +337,4 @@ export function createClouds(count: number): Clouds {
       aMeta.setXYZW(k, p.seed, p.alpha, p.speed, Math.floor(p.seed * VARIANTS) % VARIANTS);
     }
     aOffset.needsUpdate = true;
+    aSize.needsUpdate = true;
