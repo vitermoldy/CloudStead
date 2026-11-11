@@ -63,3 +63,4 @@ const TEXTURES: Record<FxKind, () => CanvasTexture> = {
     ctx.fill();
   }),
   leaf: () => glyphTexture((ctx) => {
+    ctx.fillStyle = '#86a046';
