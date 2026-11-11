@@ -419,3 +419,5 @@ export class World extends Emitter {
       this.fx.spawn('drop', this.character.spout, 3);
     }
     this.emit('beat', kind);
+  }
+
