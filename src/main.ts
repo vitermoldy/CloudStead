@@ -137,3 +137,4 @@ function syncWork(): void {
 }
 
 /** How far the current project has got, 0 to 1. */
+function projectShare(): number {
