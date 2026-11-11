@@ -312,3 +312,4 @@ function pondShape(): Shape {
     if (i === 0) s.moveTo(p.x, p.y);
     else s.lineTo(p.x, p.y);
   }
+  return s;
