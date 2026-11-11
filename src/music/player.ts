@@ -227,3 +227,4 @@ export class MusicPlayer extends Emitter {
   private advance(dir: number): void {
     const n = this.queue.length;
     if (!n) return;
+    let next = this.current + dir;
