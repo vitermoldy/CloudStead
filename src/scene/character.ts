@@ -756,3 +756,4 @@ export class Character {
     const mug = this.gear.get('mug');
     if (mug && act === 'rest' && this.sipT > 0) {
       this.sipT -= dt;
+      targets[R].set(-0.03, neck.y + 0.05, 0.1);
