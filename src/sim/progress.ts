@@ -6,3 +6,4 @@ export interface ProgressData {
   focusMs: number;
   todayMs: number;
   todayDate: string;
+  sessions: number;
