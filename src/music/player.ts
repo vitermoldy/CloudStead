@@ -21,3 +21,4 @@ export class MusicPlayer extends Emitter {
   queue: QueueItem[];
   current: number;
   volume: number;
+  loop: boolean;
