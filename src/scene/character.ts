@@ -255,3 +255,5 @@ export class Character {
   private readonly crate: Group;
   readonly spout = new Vector3();
   readonly blade = new Vector3();
+  readonly grip = new Vector3();
+
