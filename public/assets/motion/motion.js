@@ -32,3 +32,4 @@ const reduced = () => reducedQ.matches;
 const shot = () => /HeadlessChrome/.test(navigator.userAgent) && html.dataset.motion !== 'live';
 const jump = (el, on) => { el.classList.toggle('is-jump', on); };
 
+/* ---------------------------------------------------------------- nav */
