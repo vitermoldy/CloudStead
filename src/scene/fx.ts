@@ -219,3 +219,4 @@ export class Fx {
         const k = p.life / p.max;
         if (k >= 1) {
           p.active = false;
+          p.sprite.visible = false;
