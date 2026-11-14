@@ -47,3 +47,7 @@ export function createApi(getPool) {
   api.use(express.json({ limit: project.maxSaveBytes + 64 * 1024 }))
   api.use(sameOriginWrites)
   api.use(rateLimit(120))
+  api.use((req, res, next) => (getPool() ? next() : res.status(503).json({ error: 'Database belum terhubung.' })))
+
+  const touch = (device) => getPool().query('INSERT INTO devices (id) VALUES (?) ON DUPLICATE KEY UPDATE last_seen = CURRENT_TIMESTAMP', [device])
+
