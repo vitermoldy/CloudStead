@@ -8,3 +8,5 @@ export function dayRange(today, days) {
 }
 
 /** Consecutive days with at least one event, counting back from today (or yesterday, if today has none yet). */
+export function streak(activeDays, today) {
+  const set = new Set(activeDays)
