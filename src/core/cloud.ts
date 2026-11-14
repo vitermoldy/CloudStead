@@ -119,3 +119,5 @@ export function logEvent(kind: string, data: unknown): void {
 
 let flushing = false;
 export async function flushEvents(): Promise<void> {
+  if (flushing) return;
+  const list = outbox();
