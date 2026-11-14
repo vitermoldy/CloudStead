@@ -35,3 +35,5 @@ const read = (key: string): string | null => {
   } catch {
     return null;
   }
+};
+const write = (key: string, value: string): boolean => {
