@@ -476,6 +476,8 @@ function renderIsland(): void {
 
 // ------------------------------------------------------------ the server (npm run server)
 interface FocusStats {
+  sessions: number;
+  minutes: number;
 function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
