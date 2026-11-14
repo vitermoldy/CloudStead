@@ -474,6 +474,8 @@ function renderIsland(): void {
   void loadCloudStats();
 }
 
+// ------------------------------------------------------------ the server (npm run server)
+interface FocusStats {
 function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
