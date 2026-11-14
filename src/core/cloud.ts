@@ -157,3 +157,5 @@ async function pushSave(leaving = false): Promise<void> {
   if (!saveText || frozen) return;
   clearTimeout(saveTimer);
   try {
+    await api('/save', { method: 'PUT', body: JSON.stringify({ device: code, data: saveText }), keepalive: leaving });
+    lastSaved = Date.now();
