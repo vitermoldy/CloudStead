@@ -29,3 +29,5 @@ interface PendingEvent {
   data: unknown;
 }
 
+const read = (key: string): string | null => {
+  try {
