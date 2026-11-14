@@ -22,3 +22,5 @@ export const config = {
     user: str('DB_USER', 'root'),
     password: str('DB_PASSWORD', ''),
     database: str('DB_NAME', project.database),
+  },
+}
