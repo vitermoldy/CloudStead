@@ -9,3 +9,5 @@ import mysql from 'mysql2/promise'
  * in the stats is the visitor's own day.
  */
 const TABLES = [
+  `CREATE TABLE IF NOT EXISTS devices (
+    id CHAR(12) PRIMARY KEY,
