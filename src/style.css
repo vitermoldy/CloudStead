@@ -298,6 +298,8 @@ fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
 
 /* The server block: fourteen days of focus as bars, the recovery code in a monospace box. */
 .days { display: grid; grid-template-columns: repeat(14, minmax(0, 1fr)); align-items: end; gap: 3px; height: 48px; margin-top: 12px; }
+.days__bar { display: block; height: calc(4px + var(--h, 0) * 44px); border-radius: 2px; background: var(--accent); opacity: .85; }
+.days__bar[style*="--h: 0;"] { background: var(--line-strong); opacity: 1; }
 .link { color: var(--ink); text-decoration: underline; text-decoration-color: var(--line-strong); text-underline-offset: 3px; }
 .link:hover { text-decoration-color: var(--ink); }
 
