@@ -31,6 +31,8 @@ const timer = new FocusTimer(
   (ms) => progress.add(ms),
   () => {
     progress.finishSession();
+    // A finished focus block goes to the server for the history (waits in the browser if it is off).
+    if (previewMinutes === null) logEvent('focus', { minutes: PRESETS[timer.preset].focus, preset: timer.preset });
 const player = new MusicPlayer($('player-host'));
 const settings = load<{ time: TimeMode; paused: boolean | null }>('settings', { time: 'senja', paused: null });
 
