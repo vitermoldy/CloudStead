@@ -25,6 +25,8 @@ Server kecil (Express dan MySQL) menyimpan riwayat fokus dan salinan simpanan pu
 tanpa server: progres tetap di browser, dan blok fokus yang selesai menunggu di antrean browser sampai server
 menjawab.
 
+```bash
+cp .env.example .env   # isi DB_USER dan DB_PASSWORD akun MySQL-mu
 ## Cara kerja
 
 - **Timer fokus.** Pola 25/5 (4 putaran, istirahat panjang 15 menit) atau 50/10 (3 putaran,
