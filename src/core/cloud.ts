@@ -14,3 +14,5 @@ const ALPHABET = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
 const CODE = /^[A-HJ-NP-Z2-9]{12}$/;
 const OUTBOX_CAP = 500;
 
+export type CloudStatus = 'unknown' | 'online' | 'offline';
+export interface CloudState {
