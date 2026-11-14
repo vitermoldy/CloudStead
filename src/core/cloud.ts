@@ -200,3 +200,5 @@ export async function restoreFrom(input: string): Promise<string> {
 }
 
 addEventListener('online', () => void flushEvents());
+addEventListener('pagehide', () => {
+  if (saveText && !frozen) void pushSave(true);
