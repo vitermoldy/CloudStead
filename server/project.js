@@ -19,3 +19,5 @@ export default {
     },
   },
   async stats(pool, device, { days, today }) {
+    const range = dayRange(today, days)
+    const [[total]] = await pool.query(
