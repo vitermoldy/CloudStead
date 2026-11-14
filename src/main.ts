@@ -545,6 +545,8 @@ $('cloud-restore').addEventListener('submit', async (event) => {
   const err = $('cloud-error');
   err.textContent = '';
   input.removeAttribute('aria-invalid');
+  try {
+    const bag = parseSaveFile(JSON.stringify({ app: 'CloudStead', data: JSON.parse(await restoreFrom(input.value)) }));
 function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
