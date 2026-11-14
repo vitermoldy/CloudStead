@@ -31,3 +31,6 @@ const TABLES = [
     INDEX events_by_device (device_id, kind, day),
     CONSTRAINT events_device FOREIGN KEY (device_id) REFERENCES devices(id) ON DELETE CASCADE
   ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci`,
+]
+
+/** Creates the database and the tables if they are missing, then hands back a pool. */
