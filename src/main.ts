@@ -515,6 +515,8 @@ function renderCloud(state: CloudState = cloudState()): void {
       bar.title = `${new Date(d.day + 'T12:00').toLocaleDateString('id-ID', { weekday: 'short', day: 'numeric', month: 'short' })}: ${formatMinutes(d.minutes)}`;
       return bar;
     }),
+  );
+  const fortnight = s.perDay.reduce((a, d) => a + d.minutes, 0);
 function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
