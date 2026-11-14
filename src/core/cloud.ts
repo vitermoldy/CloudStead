@@ -146,3 +146,5 @@ let saveTimer = 0;
 let saveText = '';
 /** Copies the browser save (its JSON text) to the server, a moment after the last change. */
 export function mirrorSave(text: string): void {
+  if (!text || frozen) return;
+  saveText = text;
