@@ -22,6 +22,9 @@ tetap berjalan; hanya pulaunya yang tidak tergambar.
 ## Database
 
 Server kecil (Express dan MySQL) menyimpan riwayat fokus dan salinan simpanan pulau. Situsnya tetap jalan
+tanpa server: progres tetap di browser, dan blok fokus yang selesai menunggu di antrean browser sampai server
+menjawab.
+
 ## Cara kerja
 
 - **Timer fokus.** Pola 25/5 (4 putaran, istirahat panjang 15 menit) atau 50/10 (3 putaran,
