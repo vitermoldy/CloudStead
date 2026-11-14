@@ -82,3 +82,5 @@ export function createApi(getPool) {
 
   api.post('/events', async (req, res) => {
     const { device, events } = req.body ?? {}
+    if (!CODE.test(device ?? '')) return res.status(400).json({ error: 'Kode perangkat tidak dikenal.' })
+    if (!Array.isArray(events) || events.length === 0 || events.length > 200) return res.status(400).json({ error: 'Kirim 1 sampai 200 kejadian.' })
