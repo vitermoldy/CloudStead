@@ -553,6 +553,8 @@ $('cloud-restore').addEventListener('submit', async (event) => {
     try {
       sessionStorage.setItem('cloudstead:toast', 'Progres dari kode itu sudah dimuat.');
     } catch {
+      /* no session storage: the reload still shows the island */
+    }
 function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
