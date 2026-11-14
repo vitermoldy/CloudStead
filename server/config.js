@@ -20,3 +20,5 @@ export const config = {
     host: str('DB_HOST', '127.0.0.1'),
     port: num('DB_PORT', 3306),
     user: str('DB_USER', 'root'),
+    password: str('DB_PASSWORD', ''),
+    database: str('DB_NAME', project.database),
