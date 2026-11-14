@@ -137,3 +137,5 @@ export async function flushEvents(): Promise<void> {
     }
     setStatus(reached(err) ? 'online' : 'offline');
   } finally {
+    flushing = false;
+  }
