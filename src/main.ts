@@ -559,6 +559,9 @@ $('cloud-restore').addEventListener('submit', async (event) => {
   } catch (e) {
     input.setAttribute('aria-invalid', 'true');
     err.textContent = e instanceof Error ? e.message : 'Kode itu tidak bisa dipakai.';
+  }
+});
+
 function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
