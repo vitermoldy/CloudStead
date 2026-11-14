@@ -536,6 +536,9 @@ $('cloud-copy').addEventListener('click', async () => {
     toast('Kode pemulihan disalin.');
   } catch {
     toast(`Kode pemulihanmu: ${recoveryCode()}`, 6000);
+  }
+});
+
 function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
