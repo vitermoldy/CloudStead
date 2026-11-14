@@ -58,3 +58,5 @@ export function createApi(getPool) {
     if (!CODE.test(device ?? '')) return res.status(400).json({ error: 'Kode perangkat tidak dikenal.' })
     if (typeof data !== 'string' || data.length === 0) return res.status(400).json({ error: 'Simpanan kosong.' })
     const bytes = Buffer.byteLength(data)
+    if (bytes > project.maxSaveBytes) return res.status(413).json({ error: 'Simpanan terlalu besar.' })
+    try {
