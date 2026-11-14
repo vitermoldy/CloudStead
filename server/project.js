@@ -25,3 +25,5 @@ export default {
       [device],
     )
     const [rows] = await pool.query(
+      "SELECT day, COUNT(*) AS sessions, SUM(JSON_EXTRACT(data, '$.minutes')) AS minutes FROM events WHERE device_id = ? AND kind = 'focus' AND day >= ? GROUP BY day",
+      [device, range[0]],
