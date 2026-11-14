@@ -34,3 +34,5 @@ const TABLES = [
 ]
 
 /** Creates the database and the tables if they are missing, then hands back a pool. */
+export async function connect(db) {
+  const boot = await mysql.createConnection({ host: db.host, port: db.port, user: db.user, password: db.password })
