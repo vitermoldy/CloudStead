@@ -9,3 +9,5 @@ export default {
   database: 'cloudstead',
   port: 8791,
   maxSaveBytes: 256 * 1024,
+  events: {
+    /** A focus phase that reached zero. */
