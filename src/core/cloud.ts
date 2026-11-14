@@ -16,3 +16,5 @@ const OUTBOX_CAP = 500;
 
 export type CloudStatus = 'unknown' | 'online' | 'offline';
 export interface CloudState {
+  status: CloudStatus;
+  /** Epoch ms the save last reached the server, 0 if never. */
