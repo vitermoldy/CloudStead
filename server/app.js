@@ -70,3 +70,6 @@ export function createApi(getPool) {
       [device, data, bytes],
     )
     res.json({ ok: true, savedAt: new Date().toISOString() })
+  })
+
+  api.get('/save/:device', async (req, res) => {
