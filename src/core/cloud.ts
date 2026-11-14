@@ -79,3 +79,5 @@ export function onCloud(fn: (state: CloudState) => void): () => void {
 
 class ApiError extends Error {
   constructor(
+    message: string,
+    readonly status: number,
