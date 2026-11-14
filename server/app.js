@@ -75,3 +75,5 @@ export function createApi(getPool) {
   api.get('/save/:device', async (req, res) => {
     const device = String(req.params.device).toUpperCase().replace(/[^A-Z0-9]/g, '')
     if (!CODE.test(device)) return res.status(400).json({ error: 'Kode pemulihan harus 12 huruf dan angka.' })
+    const [rows] = await getPool().query('SELECT data, updated_at AS updatedAt FROM saves WHERE device_id = ?', [device])
+    if (!rows[0]) return res.status(404).json({ error: 'Tidak ada simpanan untuk kode ini.' })
