@@ -495,6 +495,8 @@ function renderCloud(state: CloudState = cloudState()): void {
         : `Tersambung ke server.${waiting}`
       : state.status === 'offline'
         ? `Server tidak terhubung. Progres tetap aman di browser ini.${waiting}`
+        : 'Mengecek server…';
+  const days = $('cloud-days');
 function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
