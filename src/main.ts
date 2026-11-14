@@ -517,6 +517,9 @@ function renderCloud(state: CloudState = cloudState()): void {
     }),
   );
   const fortnight = s.perDay.reduce((a, d) => a + d.minutes, 0);
+  summary.textContent = `${s.perDay.length} hari terakhir: ${formatMinutes(fortnight)} fokus. Total di server ${formatMinutes(s.minutes)} dalam ${s.sessions} sesi${s.streak > 1 ? `, ${s.streak} hari berturut-turut` : ''}.`;
+}
+
 function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
