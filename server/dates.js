@@ -18,3 +18,5 @@ export function streak(activeDays, today) {
     n++
     t -= 86_400_000
   }
+  return n
+}
