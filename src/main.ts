@@ -547,6 +547,8 @@ $('cloud-restore').addEventListener('submit', async (event) => {
   input.removeAttribute('aria-invalid');
   try {
     const bag = parseSaveFile(JSON.stringify({ app: 'CloudStead', data: JSON.parse(await restoreFrom(input.value)) }));
+    replaceAll(bag);
+    // Nothing may write over the restored save on the way out of this page.
 function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
