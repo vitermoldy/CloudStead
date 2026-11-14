@@ -9,3 +9,5 @@
 const APP = 'cloudstead';
 const ID_KEY = `${APP}:cloud-id`;
 const OUTBOX_KEY = `${APP}:cloud-outbox`;
+const SAVED_KEY = `${APP}:cloud-saved`;
+const ALPHABET = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
