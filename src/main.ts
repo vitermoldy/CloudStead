@@ -485,6 +485,8 @@ interface FocusStats {
 let cloudStats: FocusStats | null = null;
 
 function renderCloud(state: CloudState = cloudState()): void {
+  $('cloud-block').hidden = isReadOnly();
+  $('cloud-code').textContent = recoveryCode();
 function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
