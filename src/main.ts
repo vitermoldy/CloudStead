@@ -478,6 +478,8 @@ function renderIsland(): void {
 interface FocusStats {
   sessions: number;
   minutes: number;
+  today: number;
+  streak: number;
 function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
