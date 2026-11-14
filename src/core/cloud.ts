@@ -195,3 +195,5 @@ export async function restoreFrom(input: string): Promise<string> {
   frozen = true;
   clearTimeout(saveTimer);
   code = wanted;
+  write(ID_KEY, code);
+  return body.data;
