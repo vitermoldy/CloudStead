@@ -60,3 +60,5 @@ let status: CloudStatus = 'unknown';
 let lastSaved = Number(read(SAVED_KEY)) || 0;
 let frozen = false;
 const listeners = new Set<(state: CloudState) => void>();
+const notify = (): void => listeners.forEach((fn) => fn(cloudState()));
+const setStatus = (next: CloudStatus): void => {
