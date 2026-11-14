@@ -549,6 +549,8 @@ $('cloud-restore').addEventListener('submit', async (event) => {
     const bag = parseSaveFile(JSON.stringify({ app: 'CloudStead', data: JSON.parse(await restoreFrom(input.value)) }));
     replaceAll(bag);
     // Nothing may write over the restored save on the way out of this page.
+    setReadOnly(true);
+    try {
 function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
