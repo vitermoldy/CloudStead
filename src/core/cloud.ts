@@ -129,3 +129,5 @@ export async function flushEvents(): Promise<void> {
     // Only what was sent leaves the queue; anything logged meanwhile stays.
     write(OUTBOX_KEY, JSON.stringify(outbox().slice(batch.length)));
     setStatus('online');
+    notify();
+  } catch (err) {
