@@ -482,6 +482,9 @@ interface FocusStats {
   streak: number;
   perDay: { day: string; sessions: number; minutes: number }[];
 }
+let cloudStats: FocusStats | null = null;
+
+function renderCloud(state: CloudState = cloudState()): void {
 function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
