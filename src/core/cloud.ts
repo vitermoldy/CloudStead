@@ -37,3 +37,5 @@ const read = (key: string): string | null => {
   }
 };
 const write = (key: string, value: string): boolean => {
+  try {
+    localStorage.setItem(key, value);
