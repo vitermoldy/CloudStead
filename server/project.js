@@ -31,3 +31,5 @@ export default {
     const [active] = await pool.query("SELECT DISTINCT day FROM events WHERE device_id = ? AND kind = 'focus' ORDER BY day DESC LIMIT 400", [device])
     const byDay = new Map(rows.map((r) => [r.day, r]))
     const perDay = range.map((day) => ({ day, sessions: Number(byDay.get(day)?.sessions ?? 0), minutes: Math.round(Number(byDay.get(day)?.minutes ?? 0)) }))
+    return {
+      sessions: Number(total.sessions),
