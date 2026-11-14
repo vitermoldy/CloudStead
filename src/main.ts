@@ -507,6 +507,8 @@ function renderCloud(state: CloudState = cloudState()): void {
   const max = Math.max(1, ...s.perDay.map((d) => d.minutes));
   days.hidden = false;
   days.setAttribute('aria-label', `Menit fokus ${s.perDay.length} hari terakhir: ${s.perDay.map((d) => `${d.day.slice(8)} ${d.minutes}`).join(', ')}`);
+  days.replaceChildren(
+    ...s.perDay.map((d) => {
 function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
