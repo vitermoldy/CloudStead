@@ -551,6 +551,8 @@ $('cloud-restore').addEventListener('submit', async (event) => {
     // Nothing may write over the restored save on the way out of this page.
     setReadOnly(true);
     try {
+      sessionStorage.setItem('cloudstead:toast', 'Progres dari kode itu sudah dimuat.');
+    } catch {
 function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
