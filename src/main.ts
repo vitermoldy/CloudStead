@@ -513,6 +513,8 @@ function renderCloud(state: CloudState = cloudState()): void {
       bar.className = 'days__bar';
       bar.style.setProperty('--h', String(d.minutes / max));
       bar.title = `${new Date(d.day + 'T12:00').toLocaleDateString('id-ID', { weekday: 'short', day: 'numeric', month: 'short' })}: ${formatMinutes(d.minutes)}`;
+      return bar;
+    }),
 function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
