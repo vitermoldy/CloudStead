@@ -60,3 +60,5 @@ export function createApi(getPool) {
     const bytes = Buffer.byteLength(data)
     if (bytes > project.maxSaveBytes) return res.status(413).json({ error: 'Simpanan terlalu besar.' })
     try {
+      JSON.parse(data)
+    } catch {
