@@ -30,3 +30,5 @@ function rateLimit(limit) {
   const hits = new Map()
   return (req, res, next) => {
     if (req.method === 'GET') return next()
+    const now = Date.now()
+    const key = req.ip ?? 'unknown'
