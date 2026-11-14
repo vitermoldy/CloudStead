@@ -56,3 +56,5 @@ if (!CODE.test(code)) {
 /** The recovery code, grouped for reading: ABCD-EFGH-JKLM. */
 export const recoveryCode = (): string => (code.match(/.{4}/g) ?? [code]).join('-');
 
+let status: CloudStatus = 'unknown';
+let lastSaved = Number(read(SAVED_KEY)) || 0;
