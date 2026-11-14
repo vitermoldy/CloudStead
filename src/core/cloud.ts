@@ -4,3 +4,6 @@
 //
 // A browser is known by a 12-character recovery code. The browser save is copied
 // to the server under that code, so typing the code into another browser brings
+// the same progress there.
+
+const APP = 'cloudstead';
