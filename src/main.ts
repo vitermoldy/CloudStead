@@ -543,6 +543,8 @@ $('cloud-restore').addEventListener('submit', async (event) => {
   event.preventDefault();
   const input = $<HTMLInputElement>('cloud-input');
   const err = $('cloud-error');
+  err.textContent = '';
+  input.removeAttribute('aria-invalid');
 function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
