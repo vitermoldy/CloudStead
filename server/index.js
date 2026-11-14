@@ -9,3 +9,5 @@ import project from './project.js'
  * `npm run server` in development (Vite forwards /api here), `npm start` after a
  * build (this also serves dist/). The site keeps working with the server off:
  * the browser holds its data and sends it once the server answers again.
+ */
+let pool = null
