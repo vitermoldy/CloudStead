@@ -32,6 +32,9 @@ npm run dev            # /api diteruskan ke server
 ```
 
 Server butuh Node 22 atau lebih baru dan MySQL 8. Setelah `npm run build`, `npm start` menyajikan `dist/`
+dan API di port yang sama.
+
+Tidak ada akun. Setiap browser mendapat kode pemulihan 12 karakter, terlihat di panel Simpanan bersama grafik
 ## Cara kerja
 
 - **Timer fokus.** Pola 25/5 (4 putaran, istirahat panjang 15 menit) atau 50/10 (3 putaran,
