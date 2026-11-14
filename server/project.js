@@ -11,3 +11,5 @@ export default {
   maxSaveBytes: 256 * 1024,
   events: {
     /** A focus phase that reached zero. */
+    focus(data) {
+      const minutes = Number(data?.minutes)
