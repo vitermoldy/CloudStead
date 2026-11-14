@@ -80,3 +80,5 @@ export function createApi(getPool) {
     res.json({ data: rows[0].data, updatedAt: rows[0].updatedAt })
   })
 
+  api.post('/events', async (req, res) => {
+    const { device, events } = req.body ?? {}
