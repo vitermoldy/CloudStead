@@ -35,6 +35,9 @@ Server butuh Node 22 atau lebih baru dan MySQL 8. Setelah `npm run build`, `npm 
 dan API di port yang sama.
 
 Tidak ada akun. Setiap browser mendapat kode pemulihan 12 karakter, terlihat di panel Simpanan bersama grafik
+fokus 14 hari terakhir. Kode itu, diketik di browser lain, membawa pulau yang sama ke sana. Tabelnya: `devices`
+(satu baris per kode), `saves` (salinan simpanan terbaru), dan `events` (satu baris per blok fokus selesai).
+
 ## Cara kerja
 
 - **Timer fokus.** Pola 25/5 (4 putaran, istirahat panjang 15 menit) atau 50/10 (3 putaran,
