@@ -555,6 +555,8 @@ $('cloud-restore').addEventListener('submit', async (event) => {
     } catch {
       /* no session storage: the reload still shows the island */
     }
+    location.reload();
+  } catch (e) {
 function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
