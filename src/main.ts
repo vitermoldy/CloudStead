@@ -532,6 +532,8 @@ onCloud((state) => {
 
 $('cloud-copy').addEventListener('click', async () => {
   try {
+    await navigator.clipboard.writeText(recoveryCode());
+    toast('Kode pemulihan disalin.');
 function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
