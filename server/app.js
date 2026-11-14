@@ -45,3 +45,5 @@ function rateLimit(limit) {
 export function createApi(getPool) {
   const api = express.Router()
   api.use(express.json({ limit: project.maxSaveBytes + 64 * 1024 }))
+  api.use(sameOriginWrites)
+  api.use(rateLimit(120))
