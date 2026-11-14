@@ -125,3 +125,5 @@ export async function flushEvents(): Promise<void> {
   flushing = true;
   const batch = list.slice(0, 200);
   try {
+    await api('/events', { method: 'POST', body: JSON.stringify({ device: code, events: batch }) });
+    // Only what was sent leaves the queue; anything logged meanwhile stays.
