@@ -110,3 +110,5 @@ const localDay = (t = new Date()): string =>
 
 /** Records something that happened; it is sent now, or later if the server is away. */
 export function logEvent(kind: string, data: unknown): void {
+  const list = outbox();
+  list.push({ kind, at: Date.now(), day: localDay(), data });
