@@ -29,7 +29,8 @@ function flush(): boolean {
   timer = 0;
   if (readOnly) return false;
   try {
-    localStorage.setItem(KEY, JSON.stringify(readAll()));
+    const text = JSON.stringify(readAll());
+    localStorage.setItem(KEY, text);
     lastWrite = Date.now();
     for (const fn of listeners) fn(lastWrite);
     return true;
