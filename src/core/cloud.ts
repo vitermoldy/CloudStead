@@ -135,3 +135,5 @@ export async function flushEvents(): Promise<void> {
     if (err instanceof ApiError && err.status >= 400 && err.status < 500 && err.status !== 429) {
       write(OUTBOX_KEY, JSON.stringify(outbox().slice(batch.length)));
     }
+    setStatus(reached(err) ? 'online' : 'offline');
+  } finally {
