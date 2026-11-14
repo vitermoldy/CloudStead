@@ -19,6 +19,9 @@ npm run preview
 Butuh Node 20 atau lebih baru dan browser dengan WebGL. Tanpa WebGL, timer, musik, dan progres
 tetap berjalan; hanya pulaunya yang tidak tergambar.
 
+## Database
+
+Server kecil (Express dan MySQL) menyimpan riwayat fokus dan salinan simpanan pulau. Situsnya tetap jalan
 ## Cara kerja
 
 - **Timer fokus.** Pola 25/5 (4 putaran, istirahat panjang 15 menit) atau 50/10 (3 putaran,
