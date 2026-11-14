@@ -17,3 +17,6 @@ app.use((_req, res, next) => {
   res.setHeader('X-Content-Type-Options', 'nosniff')
   res.setHeader('Referrer-Policy', 'same-origin')
   next()
+})
+app.use('/api', createApi(() => pool))
+
