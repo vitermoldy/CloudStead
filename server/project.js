@@ -15,3 +15,5 @@ export default {
       const minutes = Number(data?.minutes)
       if (!Number.isFinite(minutes) || minutes <= 0 || minutes > 240) return null
       const preset = typeof data?.preset === 'string' ? data.preset.slice(0, 16) : undefined
+      return { minutes: Math.round(minutes * 10) / 10, ...(preset ? { preset } : {}) }
+    },
