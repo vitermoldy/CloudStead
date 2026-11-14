@@ -23,3 +23,5 @@ const TABLES = [
   ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci`,
   `CREATE TABLE IF NOT EXISTS events (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    device_id CHAR(12) NOT NULL,
+    kind VARCHAR(24) NOT NULL,
