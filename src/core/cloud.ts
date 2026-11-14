@@ -185,3 +185,5 @@ export async function fetchStats<T>(days = 14): Promise<T | null> {
  * shares that code. Nothing is mirrored after this call, so the old save cannot
  * overwrite the restored one on the way out.
  */
+export async function restoreFrom(input: string): Promise<string> {
+  const wanted = input.toUpperCase().replace(/[^A-Z0-9]/g, '');
