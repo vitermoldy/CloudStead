@@ -114,3 +114,6 @@ export function logEvent(kind: string, data: unknown): void {
   list.push({ kind, at: Date.now(), day: localDay(), data });
   write(OUTBOX_KEY, JSON.stringify(list.slice(-OUTBOX_CAP)));
   notify();
+  void flushEvents();
+}
+
