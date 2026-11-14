@@ -35,3 +35,5 @@ export default {
       sessions: Number(total.sessions),
       minutes: Math.round(Number(total.minutes)),
       today: perDay[perDay.length - 1]?.minutes ?? 0,
+      streak: streak(active.map((r) => r.day), today),
+      perDay,
