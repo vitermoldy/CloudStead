@@ -103,3 +103,6 @@ export function createApi(getPool) {
     if (!CODE.test(device)) return res.status(400).json({ error: 'Kode perangkat tidak dikenal.' })
     const days = Math.min(60, Math.max(1, Number(req.query.days) || 14))
     const today = DAY.test(String(req.query.today ?? '')) ? String(req.query.today) : new Date().toISOString().slice(0, 10)
+    res.json(await project.stats(getPool(), device, { days, today }))
+  })
+
