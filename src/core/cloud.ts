@@ -20,3 +20,5 @@ export interface CloudState {
   /** Epoch ms the save last reached the server, 0 if never. */
   lastSaved: number;
   /** Events still waiting to be sent. */
+  pending: number;
+}
