@@ -92,3 +92,5 @@ export function createApi(getPool) {
       // A malformed event is dropped, not the whole batch: one bad entry must not block a queue forever.
       if (!clean || !Number.isFinite(at) || at < now - YEAR || at > now + 86_400_000 || !DAY.test(e?.day ?? '')) continue
       rows.push([device, e.kind, new Date(at), e.day, JSON.stringify(clean)])
+    }
+    await touch(device)
