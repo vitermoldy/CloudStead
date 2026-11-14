@@ -165,3 +165,6 @@ async function pushSave(leaving = false): Promise<void> {
   } catch (err) {
     setStatus(reached(err) ? 'online' : 'offline');
   }
+}
+
+/** This browser's totals from the server, or null when it cannot be reached. */
