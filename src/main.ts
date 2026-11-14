@@ -35,6 +35,7 @@ const timer = new FocusTimer(
     if (previewMinutes === null) logEvent('focus', { minutes: PRESETS[timer.preset].focus, preset: timer.preset });
   },
   previewMinutes === null,
+);
 const player = new MusicPlayer($('player-host'));
 const settings = load<{ time: TimeMode; paused: boolean | null }>('settings', { time: 'senja', paused: null });
 
