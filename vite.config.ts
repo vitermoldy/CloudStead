@@ -5,6 +5,8 @@ const api = { '/api': { target: `http://localhost:${process.env.PORT ?? 8791}` }
 
 export default defineConfig({
   base: './',
+  server: { proxy: api },
+  preview: { proxy: api },
   build: {
     assetsDir: 'build',
     chunkSizeWarningLimit: 900,
