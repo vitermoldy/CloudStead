@@ -117,3 +117,5 @@ export function logEvent(kind: string, data: unknown): void {
   void flushEvents();
 }
 
+let flushing = false;
+export async function flushEvents(): Promise<void> {
