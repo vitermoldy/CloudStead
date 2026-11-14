@@ -99,3 +99,5 @@ export function createApi(getPool) {
   })
 
   api.get('/stats/:device', async (req, res) => {
+    const device = String(req.params.device)
+    if (!CODE.test(device)) return res.status(400).json({ error: 'Kode perangkat tidak dikenal.' })
