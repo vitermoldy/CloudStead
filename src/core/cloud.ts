@@ -148,3 +148,5 @@ let saveText = '';
 export function mirrorSave(text: string): void {
   if (!text || frozen) return;
   saveText = text;
+  clearTimeout(saveTimer);
+  saveTimer = window.setTimeout(() => void pushSave(), 2000);
