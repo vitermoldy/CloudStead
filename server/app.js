@@ -96,3 +96,6 @@ export function createApi(getPool) {
     await touch(device)
     if (rows.length) await getPool().query('INSERT INTO events (device_id, kind, at, day, data) VALUES ?', [rows])
     res.json({ ok: true, stored: rows.length, dropped: events.length - rows.length })
+  })
+
+  api.get('/stats/:device', async (req, res) => {
