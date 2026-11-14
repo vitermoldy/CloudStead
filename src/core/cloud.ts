@@ -50,3 +50,6 @@ if (!CODE.test(code)) {
   const bytes = new Uint8Array(12);
   crypto.getRandomValues(bytes);
   code = Array.from(bytes, (b) => ALPHABET[b % ALPHABET.length]).join('');
+  write(ID_KEY, code);
+}
+
