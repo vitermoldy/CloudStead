@@ -9,3 +9,6 @@ import project from './project.js'
  *   GET  /api/stats/:device                     the app's own summary of those events
  *   GET  /api/health
  * There are no accounts: a device is its 12-character recovery code. Anyone who
+ * knows a code can read and replace that save, so the code is shown only to its owner.
+ */
+
