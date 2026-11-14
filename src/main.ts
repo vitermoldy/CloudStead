@@ -530,6 +530,8 @@ onCloud((state) => {
   if (openId === 'island') renderCloud(state);
 });
 
+$('cloud-copy').addEventListener('click', async () => {
+  try {
 function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
