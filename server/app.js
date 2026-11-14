@@ -62,3 +62,5 @@ export function createApi(getPool) {
     try {
       JSON.parse(data)
     } catch {
+      return res.status(400).json({ error: 'Simpanan bukan JSON.' })
+    }
