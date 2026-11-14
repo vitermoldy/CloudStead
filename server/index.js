@@ -20,3 +20,6 @@ app.use((_req, res, next) => {
 })
 app.use('/api', createApi(() => pool))
 
+const dist = ROOT + 'dist'
+if (existsSync(dist)) app.use(express.static(dist))
+
