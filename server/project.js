@@ -13,3 +13,5 @@ export default {
     /** A focus phase that reached zero. */
     focus(data) {
       const minutes = Number(data?.minutes)
+      if (!Number.isFinite(minutes) || minutes <= 0 || minutes > 240) return null
+      const preset = typeof data?.preset === 'string' ? data.preset.slice(0, 16) : undefined
