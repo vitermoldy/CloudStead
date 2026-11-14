@@ -41,3 +41,5 @@ const write = (key: string, value: string): boolean => {
     localStorage.setItem(key, value);
     return true;
   } catch {
+    return false;
+  }
