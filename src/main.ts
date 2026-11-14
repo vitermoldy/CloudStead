@@ -503,6 +503,8 @@ function renderCloud(state: CloudState = cloudState()): void {
     summary.textContent = state.status === 'offline' ? '' : 'Riwayat fokus dari server muncul di sini.';
     return;
   }
+  const s = cloudStats;
+  const max = Math.max(1, ...s.perDay.map((d) => d.minutes));
 function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
