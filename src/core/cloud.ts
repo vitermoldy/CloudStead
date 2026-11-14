@@ -142,3 +142,5 @@ export async function flushEvents(): Promise<void> {
   if (outbox().length > 0 && status === 'online') void flushEvents();
 }
 
+let saveTimer = 0;
+let saveText = '';
