@@ -539,6 +539,8 @@ $('cloud-copy').addEventListener('click', async () => {
   }
 });
 
+$('cloud-restore').addEventListener('submit', async (event) => {
+  event.preventDefault();
 function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
