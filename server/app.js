@@ -14,3 +14,6 @@ import project from './project.js'
 
 const CODE = /^[A-HJ-NP-Z2-9]{12}$/
 const DAY = /^\d{4}-\d{2}-\d{2}$/
+const YEAR = 365 * 24 * 3600 * 1000
+
+/** Writes come as JSON from this site only: no form posts, no other origin. */
