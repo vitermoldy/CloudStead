@@ -24,3 +24,5 @@ export interface CloudState {
 }
 interface PendingEvent {
   kind: string;
+  at: number;
+  day: string;
