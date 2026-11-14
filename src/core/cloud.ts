@@ -53,3 +53,6 @@ if (!CODE.test(code)) {
   write(ID_KEY, code);
 }
 
+/** The recovery code, grouped for reading: ABCD-EFGH-JKLM. */
+export const recoveryCode = (): string => (code.match(/.{4}/g) ?? [code]).join('-');
+
