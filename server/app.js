@@ -56,3 +56,5 @@ export function createApi(getPool) {
   api.put('/save', async (req, res) => {
     const { device, data } = req.body ?? {}
     if (!CODE.test(device ?? '')) return res.status(400).json({ error: 'Kode perangkat tidak dikenal.' })
+    if (typeof data !== 'string' || data.length === 0) return res.status(400).json({ error: 'Simpanan kosong.' })
+    const bytes = Buffer.byteLength(data)
