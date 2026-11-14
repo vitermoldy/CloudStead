@@ -33,3 +33,5 @@ export default {
     const perDay = range.map((day) => ({ day, sessions: Number(byDay.get(day)?.sessions ?? 0), minutes: Math.round(Number(byDay.get(day)?.minutes ?? 0)) }))
     return {
       sessions: Number(total.sessions),
+      minutes: Math.round(Number(total.minutes)),
+      today: perDay[perDay.length - 1]?.minutes ?? 0,
