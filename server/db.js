@@ -17,3 +17,5 @@ const TABLES = [
   `CREATE TABLE IF NOT EXISTS saves (
     device_id CHAR(12) PRIMARY KEY,
     data MEDIUMTEXT NOT NULL,
+    bytes INT NOT NULL,
+    updated_at DATETIME NOT NULL,
