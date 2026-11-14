@@ -66,3 +66,5 @@ export function createApi(getPool) {
     }
     await touch(device)
     await getPool().query(
+      'INSERT INTO saves (device_id, data, bytes, updated_at) VALUES (?, ?, ?, UTC_TIMESTAMP()) ON DUPLICATE KEY UPDATE data = VALUES(data), bytes = VALUES(bytes), updated_at = VALUES(updated_at)',
+      [device, data, bytes],
