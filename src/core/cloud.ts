@@ -187,3 +187,5 @@ export async function fetchStats<T>(days = 14): Promise<T | null> {
  */
 export async function restoreFrom(input: string): Promise<string> {
   const wanted = input.toUpperCase().replace(/[^A-Z0-9]/g, '');
+  if (!CODE.test(wanted)) throw Object.assign(new Error('Kode pemulihan terdiri dari 12 huruf dan angka.'), { code: 'format' });
+  const body = await api<{ data: string }>(`/save/${wanted}`).catch((err: unknown) => {
