@@ -524,6 +524,9 @@ async function loadCloudStats(): Promise<void> {
   if (isReadOnly()) return;
   cloudStats = await fetchStats<FocusStats>(14);
   if (openId === 'island') renderCloud();
+}
+
+onCloud((state) => {
 function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
