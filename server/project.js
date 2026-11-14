@@ -5,3 +5,5 @@ import { dayRange, streak } from './dates.js'
  * minutes and its timer preset), and a copy of the browser save.
  */
 export default {
+  name: 'CloudStead',
+  database: 'cloudstead',
