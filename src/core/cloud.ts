@@ -155,3 +155,5 @@ export function mirrorSave(text: string): void {
 /** `leaving`: the tab is being hidden or closed, so the request must outlive the page (keepalive). */
 async function pushSave(leaving = false): Promise<void> {
   if (!saveText || frozen) return;
+  clearTimeout(saveTimer);
+  try {
