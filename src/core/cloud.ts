@@ -150,3 +150,6 @@ export function mirrorSave(text: string): void {
   saveText = text;
   clearTimeout(saveTimer);
   saveTimer = window.setTimeout(() => void pushSave(), 2000);
+}
+
+/** `leaving`: the tab is being hidden or closed, so the request must outlive the page (keepalive). */
