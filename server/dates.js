@@ -10,3 +10,5 @@ export function dayRange(today, days) {
 /** Consecutive days with at least one event, counting back from today (or yesterday, if today has none yet). */
 export function streak(activeDays, today) {
   const set = new Set(activeDays)
+  const [y, m, d] = today.split('-').map(Number)
+  let t = Date.UTC(y, m - 1, d)
