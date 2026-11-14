@@ -34,3 +34,5 @@ async function connectLoop() {
   }
 }
 
+app.listen(config.port, () => console.log(`${project.name} server di http://localhost:${config.port}`))
+connectLoop()
