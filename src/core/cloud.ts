@@ -66,3 +66,6 @@ const setStatus = (next: CloudStatus): void => {
     status = next;
     notify();
   }
+};
+
+export function cloudState(): CloudState {
