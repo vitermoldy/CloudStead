@@ -176,3 +176,6 @@ export async function fetchStats<T>(days = 14): Promise<T | null> {
   } catch (err) {
     setStatus(reached(err) ? 'online' : 'offline');
     return null;
+  }
+}
+
