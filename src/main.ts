@@ -520,6 +520,8 @@ function renderCloud(state: CloudState = cloudState()): void {
   summary.textContent = `${s.perDay.length} hari terakhir: ${formatMinutes(fortnight)} fokus. Total di server ${formatMinutes(s.minutes)} dalam ${s.sessions} sesi${s.streak > 1 ? `, ${s.streak} hari berturut-turut` : ''}.`;
 }
 
+async function loadCloudStats(): Promise<void> {
+  if (isReadOnly()) return;
 function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
