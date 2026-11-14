@@ -72,3 +72,5 @@ export function cloudState(): CloudState {
   return { status, lastSaved, pending: outbox().length };
 }
 
+export function onCloud(fn: (state: CloudState) => void): () => void {
+  listeners.add(fn);
