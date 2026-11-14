@@ -11,3 +11,5 @@ import project from './project.js'
  * the browser holds its data and sends it once the server answers again.
  */
 let pool = null
+const app = express()
+app.disable('x-powered-by')
