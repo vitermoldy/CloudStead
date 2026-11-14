@@ -123,3 +123,5 @@ export async function flushEvents(): Promise<void> {
   const list = outbox();
   if (list.length === 0) return;
   flushing = true;
+  const batch = list.slice(0, 200);
+  try {
