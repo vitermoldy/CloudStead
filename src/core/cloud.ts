@@ -74,3 +74,6 @@ export function cloudState(): CloudState {
 
 export function onCloud(fn: (state: CloudState) => void): () => void {
   listeners.add(fn);
+  return () => listeners.delete(fn);
+}
+
