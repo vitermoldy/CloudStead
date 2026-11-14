@@ -16,3 +16,5 @@ export function streak(activeDays, today) {
   let n = 0
   while (set.has(new Date(t).toISOString().slice(0, 10))) {
     n++
+    t -= 86_400_000
+  }
