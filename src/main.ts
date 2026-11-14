@@ -480,6 +480,8 @@ interface FocusStats {
   minutes: number;
   today: number;
   streak: number;
+  perDay: { day: string; sessions: number; minutes: number }[];
+}
 function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
