@@ -133,3 +133,5 @@ export async function flushEvents(): Promise<void> {
   } catch (err) {
     // A 4xx means the batch itself is unusable; drop it rather than retry it forever.
     if (err instanceof ApiError && err.status >= 400 && err.status < 500 && err.status !== 429) {
+      write(OUTBOX_KEY, JSON.stringify(outbox().slice(batch.length)));
+    }
