@@ -64,3 +64,5 @@ export function createApi(getPool) {
     } catch {
       return res.status(400).json({ error: 'Simpanan bukan JSON.' })
     }
+    await touch(device)
+    await getPool().query(
