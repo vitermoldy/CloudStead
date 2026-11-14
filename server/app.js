@@ -88,3 +88,5 @@ export function createApi(getPool) {
     const rows = []
     for (const e of events) {
       const clean = project.events[e?.kind]?.(e?.data)
+      const at = Number(e?.at)
+      // A malformed event is dropped, not the whole batch: one bad entry must not block a queue forever.
