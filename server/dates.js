@@ -12,3 +12,5 @@ export function streak(activeDays, today) {
   const set = new Set(activeDays)
   const [y, m, d] = today.split('-').map(Number)
   let t = Date.UTC(y, m - 1, d)
+  if (!set.has(today)) t -= 86_400_000
+  let n = 0
