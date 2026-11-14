@@ -11,3 +11,5 @@ import mysql from 'mysql2/promise'
 const TABLES = [
   `CREATE TABLE IF NOT EXISTS devices (
     id CHAR(12) PRIMARY KEY,
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    last_seen DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
