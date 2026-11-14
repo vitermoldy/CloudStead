@@ -13,3 +13,5 @@ import project from './project.js'
 let pool = null
 const app = express()
 app.disable('x-powered-by')
+app.use((_req, res, next) => {
+  res.setHeader('X-Content-Type-Options', 'nosniff')
