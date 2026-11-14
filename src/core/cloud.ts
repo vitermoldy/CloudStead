@@ -62,3 +62,5 @@ let frozen = false;
 const listeners = new Set<(state: CloudState) => void>();
 const notify = (): void => listeners.forEach((fn) => fn(cloudState()));
 const setStatus = (next: CloudStatus): void => {
+  if (next !== status) {
+    status = next;
