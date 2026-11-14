@@ -27,6 +27,8 @@ menjawab.
 
 ```bash
 cp .env.example .env   # isi DB_USER dan DB_PASSWORD akun MySQL-mu
+npm run server         # API di http://localhost:8791, membuat database cloudstead dan tabelnya sendiri
+npm run dev            # /api diteruskan ke server
 ## Cara kerja
 
 - **Timer fokus.** Pola 25/5 (4 putaran, istirahat panjang 15 menit) atau 50/10 (3 putaran,
