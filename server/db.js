@@ -27,3 +27,5 @@ const TABLES = [
     kind VARCHAR(24) NOT NULL,
     at DATETIME NOT NULL,
     day CHAR(10) NOT NULL,
+    data JSON NULL,
+    INDEX events_by_device (device_id, kind, day),
