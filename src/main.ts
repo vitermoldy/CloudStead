@@ -509,6 +509,8 @@ function renderCloud(state: CloudState = cloudState()): void {
   days.setAttribute('aria-label', `Menit fokus ${s.perDay.length} hari terakhir: ${s.perDay.map((d) => `${d.day.slice(8)} ${d.minutes}`).join(', ')}`);
   days.replaceChildren(
     ...s.perDay.map((d) => {
+      const bar = document.createElement('span');
+      bar.className = 'days__bar';
 function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
