@@ -527,6 +527,9 @@ async function loadCloudStats(): Promise<void> {
 }
 
 onCloud((state) => {
+  if (openId === 'island') renderCloud(state);
+});
+
 function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
