@@ -94,3 +94,5 @@ export function createApi(getPool) {
       rows.push([device, e.kind, new Date(at), e.day, JSON.stringify(clean)])
     }
     await touch(device)
+    if (rows.length) await getPool().query('INSERT INTO events (device_id, kind, at, day, data) VALUES ?', [rows])
+    res.json({ ok: true, stored: rows.length, dropped: events.length - rows.length })
