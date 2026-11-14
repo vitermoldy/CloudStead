@@ -193,3 +193,5 @@ export async function restoreFrom(input: string): Promise<string> {
     throw Object.assign(new Error('Server tidak terhubung. Jalankan server dulu, lalu coba lagi.'), { code: 'offline' });
   });
   frozen = true;
+  clearTimeout(saveTimer);
+  code = wanted;
