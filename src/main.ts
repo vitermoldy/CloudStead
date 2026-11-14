@@ -489,6 +489,8 @@ function renderCloud(state: CloudState = cloudState()): void {
   $('cloud-code').textContent = recoveryCode();
   const waiting = state.pending > 0 ? ` ${state.pending} sesi fokus menunggu dikirim.` : '';
   $('cloud-status').textContent =
+    state.status === 'online'
+      ? state.lastSaved
 function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
