@@ -11,3 +11,6 @@ const ID_KEY = `${APP}:cloud-id`;
 const OUTBOX_KEY = `${APP}:cloud-outbox`;
 const SAVED_KEY = `${APP}:cloud-saved`;
 const ALPHABET = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+const CODE = /^[A-HJ-NP-Z2-9]{12}$/;
+const OUTBOX_CAP = 500;
+
