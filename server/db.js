@@ -25,3 +25,5 @@ const TABLES = [
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     device_id CHAR(12) NOT NULL,
     kind VARCHAR(24) NOT NULL,
+    at DATETIME NOT NULL,
+    day CHAR(10) NOT NULL,
