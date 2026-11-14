@@ -96,3 +96,5 @@ async function api<T>(path: string, init?: RequestInit): Promise<T> {
 /** A thrown ApiError means the server answered; anything else means it could not be reached. */
 const reached = (err: unknown): boolean => err instanceof ApiError;
 
+function outbox(): PendingEvent[] {
+  try {
