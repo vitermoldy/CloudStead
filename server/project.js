@@ -17,3 +17,5 @@ export default {
       const preset = typeof data?.preset === 'string' ? data.preset.slice(0, 16) : undefined
       return { minutes: Math.round(minutes * 10) / 10, ...(preset ? { preset } : {}) }
     },
+  },
+  async stats(pool, device, { days, today }) {
