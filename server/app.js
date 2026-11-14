@@ -73,3 +73,5 @@ export function createApi(getPool) {
   })
 
   api.get('/save/:device', async (req, res) => {
+    const device = String(req.params.device).toUpperCase().replace(/[^A-Z0-9]/g, '')
+    if (!CODE.test(device)) return res.status(400).json({ error: 'Kode pemulihan harus 12 huruf dan angka.' })
