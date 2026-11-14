@@ -493,6 +493,8 @@ function renderCloud(state: CloudState = cloudState()): void {
       ? state.lastSaved
         ? `Tersambung ke server. Progres terakhir dikirim pukul ${new Date(state.lastSaved).toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit' })}.${waiting}`
         : `Tersambung ke server.${waiting}`
+      : state.status === 'offline'
+        ? `Server tidak terhubung. Progres tetap aman di browser ini.${waiting}`
 function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
