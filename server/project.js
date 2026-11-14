@@ -23,3 +23,5 @@ export default {
     const [[total]] = await pool.query(
       "SELECT COUNT(*) AS sessions, COALESCE(SUM(JSON_EXTRACT(data, '$.minutes')), 0) AS minutes FROM events WHERE device_id = ? AND kind = 'focus'",
       [device],
+    )
+    const [rows] = await pool.query(
