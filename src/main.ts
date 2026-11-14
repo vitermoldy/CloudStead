@@ -470,6 +470,8 @@ function renderIsland(): void {
     return li;
   }));
   renderSaveStatus();
+  renderCloud();
+  void loadCloudStats();
 }
 
 function renderSaveStatus(): void {
