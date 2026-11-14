@@ -499,6 +499,8 @@ function renderCloud(state: CloudState = cloudState()): void {
   const days = $('cloud-days');
   const summary = $('cloud-summary');
   if (!cloudStats) {
+    days.hidden = true;
+    summary.textContent = state.status === 'offline' ? '' : 'Riwayat fokus dari server muncul di sini.';
 function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
