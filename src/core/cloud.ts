@@ -26,3 +26,6 @@ interface PendingEvent {
   kind: string;
   at: number;
   day: string;
+  data: unknown;
+}
+
