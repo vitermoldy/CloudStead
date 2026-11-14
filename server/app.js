@@ -23,3 +23,6 @@ function sameOriginWrites(req, res, next) {
   const origin = req.headers.origin
   if (origin && req.headers.host && new URL(origin).host !== req.headers.host) return res.status(403).json({ error: 'Asal permintaan tidak dikenal.' })
   next()
+}
+
+/** At most `limit` writes per minute per address, enough for a busy tab and not for a script. */
