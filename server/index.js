@@ -31,3 +31,6 @@ async function connectLoop() {
   } catch (err) {
     console.error(`${project.name}: database belum bisa dihubungi (${err.code ?? err.message}), mencoba lagi dalam 5 detik`)
     setTimeout(connectLoop, 5000)
+  }
+}
+
