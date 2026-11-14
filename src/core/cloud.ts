@@ -197,3 +197,6 @@ export async function restoreFrom(input: string): Promise<string> {
   code = wanted;
   write(ID_KEY, code);
   return body.data;
+}
+
+addEventListener('online', () => void flushEvents());
