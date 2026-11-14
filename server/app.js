@@ -86,3 +86,5 @@ export function createApi(getPool) {
     if (!Array.isArray(events) || events.length === 0 || events.length > 200) return res.status(400).json({ error: 'Kirim 1 sampai 200 kejadian.' })
     const now = Date.now()
     const rows = []
+    for (const e of events) {
+      const clean = project.events[e?.kind]?.(e?.data)
