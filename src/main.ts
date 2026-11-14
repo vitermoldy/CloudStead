@@ -541,6 +541,8 @@ $('cloud-copy').addEventListener('click', async () => {
 
 $('cloud-restore').addEventListener('submit', async (event) => {
   event.preventDefault();
+  const input = $<HTMLInputElement>('cloud-input');
+  const err = $('cloud-error');
 function renderSaveStatus(): void {
   const el = $('save-status');
   if (isReadOnly()) {
