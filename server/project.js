@@ -7,3 +7,5 @@ import { dayRange, streak } from './dates.js'
 export default {
   name: 'CloudStead',
   database: 'cloudstead',
+  port: 8791,
+  maxSaveBytes: 256 * 1024,
