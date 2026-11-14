@@ -102,3 +102,6 @@ function outbox(): PendingEvent[] {
     return Array.isArray(list) ? (list as PendingEvent[]) : [];
   } catch {
     return [];
+  }
+}
+
