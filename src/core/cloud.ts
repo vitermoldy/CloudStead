@@ -69,3 +69,6 @@ const setStatus = (next: CloudStatus): void => {
 };
 
 export function cloudState(): CloudState {
+  return { status, lastSaved, pending: outbox().length };
+}
+
