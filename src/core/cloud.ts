@@ -112,3 +112,5 @@ const localDay = (t = new Date()): string =>
 export function logEvent(kind: string, data: unknown): void {
   const list = outbox();
   list.push({ kind, at: Date.now(), day: localDay(), data });
+  write(OUTBOX_KEY, JSON.stringify(list.slice(-OUTBOX_CAP)));
+  notify();
