@@ -189,3 +189,5 @@ export async function restoreFrom(input: string): Promise<string> {
   const wanted = input.toUpperCase().replace(/[^A-Z0-9]/g, '');
   if (!CODE.test(wanted)) throw Object.assign(new Error('Kode pemulihan terdiri dari 12 huruf dan angka.'), { code: 'format' });
   const body = await api<{ data: string }>(`/save/${wanted}`).catch((err: unknown) => {
+    if (reached(err)) throw err;
+    throw Object.assign(new Error('Server tidak terhubung. Jalankan server dulu, lalu coba lagi.'), { code: 'offline' });
