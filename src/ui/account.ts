@@ -137,3 +137,5 @@ export function mountAccount(hooks: Hooks): void {
   }
   $('gate-skip').addEventListener('click', skip);
 
+  async function check(): Promise<void> {
+    const save = await checkAccount();
