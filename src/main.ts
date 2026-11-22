@@ -532,6 +532,8 @@ onCloud((state) => {
 
 // Accounts. The preview (?pratinjau=) borrows a finished island and never signs anyone in.
 if (!isReadOnly()) {
+  mountAccount({
+    applySave(text, toastText) {
 
 function renderSaveStatus(): void {
   const el = $('save-status');
