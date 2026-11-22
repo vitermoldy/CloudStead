@@ -7,3 +7,5 @@ import express from 'express'
  * the progress the browser already has and signing in elsewhere brings it along.
  *
  *   POST /api/auth/register  { username, password, device? }  new account, signed in
+ *   POST /api/auth/login     { username, password }           signed in
+ *   POST /api/auth/logout
