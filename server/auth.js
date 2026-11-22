@@ -32,3 +32,5 @@ export const AUTH_TABLES = [
     token_hash CHAR(64) PRIMARY KEY,
     user_id INT UNSIGNED NOT NULL,
     created_at DATETIME NOT NULL,
+    expires_at DATETIME NOT NULL,
+    user_agent VARCHAR(255) NULL,
