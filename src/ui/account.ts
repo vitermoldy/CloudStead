@@ -73,3 +73,5 @@ export function mountAccount(hooks: Hooks): void {
     }
   }
 
+  async function finish(save: string | null, welcome: string): Promise<void> {
+    if (save) {
