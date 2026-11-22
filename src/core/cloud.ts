@@ -57,6 +57,8 @@ const write = (key: string, value: string): boolean => {
     return false;
   }
 };
+const remove = (key: string): void => {
+  try {
 
 let code = read(ID_KEY) ?? '';
 if (!CODE.test(code)) {
