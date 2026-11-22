@@ -100,3 +100,5 @@ export function mountAccount(hooks: Hooks): void {
     submit.disabled = true;
     submit.textContent = mode === 'in' ? 'Memeriksa…' : 'Membuat akun…';
     try {
+      const save = mode === 'in' ? await signIn(name, password) : await signUp(name, password);
+      await finish(save, mode === 'in' ? `Masuk sebagai ${cloudState().account?.username}.` : `Akun ${name} dibuat. Selamat datang.`);
