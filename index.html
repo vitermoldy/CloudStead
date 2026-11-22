@@ -173,11 +173,8 @@
         </div>
         <p class="panel__note">Keluar menghapus pulau dari browser ini. Pulaunya tetap tersimpan di akunmu.</p>
       </div>
-      <form class="field" id="cloud-restore" novalidate>
-        <label class="field__label" for="cloud-input">Pulihkan progres dari kode lain</label>
-        <div class="field__row">
-          <input class="field__input" id="cloud-input" name="code" type="text" autocomplete="off" autocapitalize="characters" spellcheck="false" maxlength="16" placeholder="ABCD-EFGH-JKLM" aria-describedby="cloud-error cloud-hint">
-          <button class="btn btn--secondary btn--sm" type="submit">Pulihkan</button>
+      <div id="account-out-of">
+        <p class="panel__state">Belum masuk. Pulau hanya tersimpan di browser ini.</p>
         </div>
         <p class="panel__note" id="cloud-hint">Progres di browser ini diganti progres milik kode itu. Unduh berkas simpanan dulu kalau ingin cadangan.</p>
         <p class="field__error" id="cloud-error" role="alert"></p>
