@@ -61,3 +61,6 @@ export function mountAccount(hooks: Hooks): void {
     if (gate.open && shown !== state.auth) {
       if (state.auth === 'signed-out') user.focus();
       else if (offline) $('gate-retry').focus();
+    }
+    shown = gate.open ? state.auth : null;
+
