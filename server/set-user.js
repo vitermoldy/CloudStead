@@ -28,3 +28,5 @@ if (found) {
 } else {
   const [[free]] = await pool.query(
     `SELECT d.id, (SELECT COUNT(*) FROM events e WHERE e.device_id = d.id) AS events, (SELECT COUNT(*) FROM saves s WHERE s.device_id = d.id) AS saves
+     FROM devices d LEFT JOIN users u ON u.device_id = d.id WHERE u.id IS NULL ORDER BY d.last_seen DESC LIMIT 1`,
+  )
