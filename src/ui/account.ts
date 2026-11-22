@@ -66,3 +66,5 @@ export function mountAccount(hooks: Hooks): void {
 
     const signedIn = state.auth === 'signed-in' && state.account;
     $('account-in').hidden = !signedIn;
+    $('account-out-of').hidden = Boolean(signedIn);
+    if (signedIn) {
