@@ -24,3 +24,5 @@ export const AUTH_TABLES = [
     created_at DATETIME NOT NULL,
     last_login_at DATETIME NULL,
     last_seen_at DATETIME NULL,
+    login_count INT UNSIGNED NOT NULL DEFAULT 0,
+    UNIQUE KEY users_username (username),
