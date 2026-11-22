@@ -193,3 +193,5 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
     // The browser's own code joins the account, so the progress already in it is kept.
     // A code that already belongs to someone else gets a fresh one instead.
     let device = typeof req.body?.device === 'string' && deviceCode.test(req.body.device) ? req.body.device : ''
+    if (device) {
+      const [owner] = await pool.query('SELECT id FROM users WHERE device_id = ?', [device])
