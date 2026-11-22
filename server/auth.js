@@ -205,3 +205,5 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
     } catch (err) {
       // Two sign-ups racing for the same name: the unique key decides.
       if (err?.code === 'ER_DUP_ENTRY') return res.status(409).json({ error: t.taken })
+      throw err
+    }
