@@ -9,3 +9,5 @@ interface Hooks {
   /** Writes the browser save now, which also sends it to the account. */
   saveNow(): void;
   /** Removes the island from this browser before the reload that follows signing out. */
+  forget(): void;
+  toast(text: string, ms?: number): void;
