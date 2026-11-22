@@ -19,3 +19,5 @@ if (rows.length === 0) {
   console.log(`${project.name}: belum ada akun di database ${config.db.database}.`)
 } else {
   console.log(`${project.name}: ${rows.length} akun di database ${config.db.database}`)
+  console.table(
+    rows.map((r) => ({
