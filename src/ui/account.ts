@@ -7,3 +7,5 @@ interface Hooks {
   /** Puts the account's save in place of this browser's and reloads. */
   applySave(text: string, toastText: string): void;
   /** Writes the browser save now, which also sends it to the account. */
+  saveNow(): void;
+  /** Removes the island from this browser before the reload that follows signing out. */
