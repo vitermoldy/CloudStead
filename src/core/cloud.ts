@@ -246,6 +246,8 @@ export async function checkAccount(): Promise<string | null> {
     return await enter(await api<Entry>('/auth/me'));
   } catch (err) {
     account = null;
+    // 401: the server works and nobody is signed in. A 5xx is the server or its database being down.
+    auth = err instanceof ApiError && err.status === 401 ? 'signed-out' : 'unavailable';
  */
 export async function restoreFrom(input: string): Promise<string> {
   const wanted = input.toUpperCase().replace(/[^A-Z0-9]/g, '');
