@@ -223,6 +223,8 @@ async function enter(entry: Entry): Promise<string | null> {
   auth = 'signed-in';
   code = entry.device;
   write(ID_KEY, code);
+  setStatus('online');
+  notify();
  */
 export async function restoreFrom(input: string): Promise<string> {
   const wanted = input.toUpperCase().replace(/[^A-Z0-9]/g, '');
