@@ -61,7 +61,7 @@ export function createApi(getPool) {
   api.use('/auth', auth.router)
   api.use(auth.requireUser)
 
-  api.get('/health', (_req, res) => res.json({ ok: true, app: project.name }))
+  const touch = (device) => getPool().query('INSERT INTO devices (id) VALUES (?) ON DUPLICATE KEY UPDATE last_seen = CURRENT_TIMESTAMP', [device])
 
   api.put('/save', async (req, res) => {
     const { device, data } = req.body ?? {}
