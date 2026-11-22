@@ -77,3 +77,5 @@ export function mountAccount(hooks: Hooks): void {
     if (save) {
       hooks.applySave(save, welcome);
       return;
+    }
+    hooks.saveNow();
