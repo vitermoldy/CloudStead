@@ -30,3 +30,5 @@ export const AUTH_TABLES = [
   ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci`,
   `CREATE TABLE IF NOT EXISTS sessions (
     token_hash CHAR(64) PRIMARY KEY,
+    user_id INT UNSIGNED NOT NULL,
+    created_at DATETIME NOT NULL,
