@@ -39,6 +39,8 @@ interface PendingEvent {
 }
 interface Entry {
   user: Account;
+  device: string;
+}
 
 const read = (key: string): string | null => {
   try {
