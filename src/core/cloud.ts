@@ -231,6 +231,8 @@ async function enter(entry: Entry): Promise<string | null> {
       frozen = true;
       clearTimeout(saveTimer);
       return remote.data;
+    }
+  }
  */
 export async function restoreFrom(input: string): Promise<string> {
   const wanted = input.toUpperCase().replace(/[^A-Z0-9]/g, '');
