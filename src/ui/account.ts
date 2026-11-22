@@ -23,3 +23,5 @@ export function mountAccount(hooks: Hooks): void {
   const pass = $<HTMLInputElement>('gate-pass');
   const submit = $<HTMLButtonElement>('gate-submit');
   const error = $('gate-error');
+  let mode: 'in' | 'up' = 'in';
+  let busy = false;
