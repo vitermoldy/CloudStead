@@ -136,3 +136,5 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
     const expires = new Date(Date.now() + SESSION_DAYS * 86_400_000)
     const pool = getPool()
     await pool.query('INSERT INTO sessions (token_hash, user_id, created_at, expires_at, user_agent) VALUES (?, ?, UTC_TIMESTAMP(), ?, ?)', [
+      sha256(token),
+      userId,
