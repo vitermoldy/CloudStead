@@ -61,6 +61,8 @@ const remove = (key: string): void => {
   try {
     localStorage.removeItem(key);
   } catch {
+    /* blocked storage: nothing was kept either */
+  }
 
 let code = read(ID_KEY) ?? '';
 if (!CODE.test(code)) {
