@@ -106,3 +106,5 @@ export function mountAccount(hooks: Hooks): void {
       error.textContent = e instanceof Error ? e.message : 'Tidak bisa masuk. Coba lagi.';
       if (e instanceof ApiError && e.status === 401) pass.select();
       pass.setAttribute('aria-invalid', 'true');
+    } finally {
+      busy = false;
