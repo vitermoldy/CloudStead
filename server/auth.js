@@ -36,3 +36,6 @@ export const AUTH_TABLES = [
     user_agent VARCHAR(255) NULL,
     INDEX sessions_by_user (user_id),
     CONSTRAINT sessions_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci`,
+]
+
