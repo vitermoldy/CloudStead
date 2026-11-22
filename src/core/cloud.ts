@@ -259,6 +259,8 @@ async function authCall(path: string, body: unknown): Promise<string | null> {
   try {
     return await enter(await api<Entry>(path, { method: 'POST', body: JSON.stringify(body) }));
   } catch (err) {
+    if (err instanceof ApiError && err.status < 500) throw err;
+    auth = 'unavailable';
  */
 export async function restoreFrom(input: string): Promise<string> {
   const wanted = input.toUpperCase().replace(/[^A-Z0-9]/g, '');
