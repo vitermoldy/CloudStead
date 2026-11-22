@@ -11,8 +11,8 @@ import project from './project.js'
  *   POST /api/events          { events }        record what happened
  *   GET  /api/stats                             the app's own summary of those events
  *   GET  /api/health
- * There are no accounts: a device is its 12-character recovery code. Anyone who
- * knows a code can read and replace that save, so the code is shown only to its owner.
+ * Everything but health and auth needs a signed-in account. Each account files its
+ * data under one 12-character code (`devices.id`); the browser never chooses it.
  */
 
 const CODE = /^[A-HJ-NP-Z2-9]{12}$/
