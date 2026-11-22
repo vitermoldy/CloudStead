@@ -113,6 +113,8 @@ export function forget(): void {
   timer = 0;
   readOnly = true;
   cache = {};
+  try {
+    localStorage.removeItem(KEY);
 export function clearSection(section: string): void {
   delete readAll()[section];
   saveNow();
