@@ -15,3 +15,6 @@ const [username = '', password = ''] = process.argv.slice(2)
 if (!USERNAME.test(username) || password.length < PASSWORD_MIN || password.length > PASSWORD_MAX) {
   console.error(`Pakai: npm run set-user -- <username> <kata sandi>\nUsername 3 sampai 24 karakter (huruf, angka, titik, garis bawah, minus), kata sandi ${PASSWORD_MIN} sampai ${PASSWORD_MAX} karakter.`)
   process.exit(1)
+}
+
+const pool = await connect(config.db)
