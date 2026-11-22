@@ -154,3 +154,5 @@ export function mountAccount(hooks: Hooks): void {
     button.disabled = true;
     button.textContent = 'Keluar…';
     try {
+      hooks.saveNow();
+      await signOut();
