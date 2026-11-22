@@ -115,6 +115,8 @@ export function forget(): void {
   cache = {};
   try {
     localStorage.removeItem(KEY);
+  } catch {
+    /* blocked storage: nothing was kept either */
 export function clearSection(section: string): void {
   delete readAll()[section];
   saveNow();
