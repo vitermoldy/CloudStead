@@ -17,3 +17,5 @@ const $ = <T extends HTMLElement = HTMLElement>(id: string): T => document.getEl
 const joined = (iso: string): string => new Date(iso).toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' });
 
 export function mountAccount(hooks: Hooks): void {
+  const gate = $<HTMLDialogElement>('auth-gate');
+  const form = $<HTMLFormElement>('gate-form');
