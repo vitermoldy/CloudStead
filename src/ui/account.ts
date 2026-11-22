@@ -130,3 +130,5 @@ export function mountAccount(hooks: Hooks): void {
     if (cloudState().auth === 'unavailable') skip();
   });
 
+  function skip(): void {
+    skipped = true;
