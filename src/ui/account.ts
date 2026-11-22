@@ -165,3 +165,5 @@ export function mountAccount(hooks: Hooks): void {
     }
   });
 
+  onCloud((state) => render(state));
+  setMode('in');
