@@ -115,3 +115,6 @@ export function mountAccount(hooks: Hooks): void {
 
   /** Restores the submit label without clearing the error the visitor still needs to read. */
   function setModeLabelOnly(): void {
+    submit.textContent = mode === 'in' ? 'Masuk' : 'Buat akun';
+  }
+
