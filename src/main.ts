@@ -536,6 +536,8 @@ if (!isReadOnly()) {
     applySave(text, toastText) {
       try {
         replaceAll(parseSaveFile(JSON.stringify({ app: 'CloudStead', data: JSON.parse(text) })));
+      } catch (e) {
+        toast(e instanceof SaveFileError ? `Pulau di akun ini tidak bisa dibaca: ${e.message}` : 'Pulau di akun ini tidak bisa dibaca.', 6000);
 
 function renderSaveStatus(): void {
   const el = $('save-status');
