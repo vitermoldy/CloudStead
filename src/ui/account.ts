@@ -98,3 +98,5 @@ export function mountAccount(hooks: Hooks): void {
     }
     busy = true;
     submit.disabled = true;
+    submit.textContent = mode === 'in' ? 'Memeriksa…' : 'Membuat akun…';
+    try {
