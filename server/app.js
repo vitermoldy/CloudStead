@@ -7,6 +7,8 @@ import project from './project.js'
  * The API, the same in every app:
  *   /api/auth/...                               register, login, logout, me (see auth.js)
  *   PUT  /api/save            { data }          mirror the browser save
+ *   GET  /api/save                              the save, to bring it to another browser
+ *   POST /api/events          { events }        record what happened
  *   GET  /api/health
  * There are no accounts: a device is its 12-character recovery code. Anyone who
  * knows a code can read and replace that save, so the code is shown only to its owner.
