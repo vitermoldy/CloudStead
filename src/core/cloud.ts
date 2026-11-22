@@ -2,9 +2,8 @@
 // the server off, or the site opened as static files, the app works exactly as
 // before; events wait in the browser and go out once someone is signed in.
 //
-// A browser is known by a 12-character recovery code. The browser save is copied
-// to the server under that code, so typing the code into another browser brings
-// the same progress there.
+// The server knows people by account (username and password). Each account files
+// its progress under one code. A browser keeps a code of its own too, offered on
 
 const APP = 'cloudstead';
 const ID_KEY = `${APP}:cloud-id`;
