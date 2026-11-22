@@ -84,3 +84,5 @@ export function mountAccount(hooks: Hooks): void {
   }
 
   form.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    if (busy) return;
