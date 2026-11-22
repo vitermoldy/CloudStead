@@ -59,6 +59,8 @@ const write = (key: string, value: string): boolean => {
 };
 const remove = (key: string): void => {
   try {
+    localStorage.removeItem(key);
+  } catch {
 
 let code = read(ID_KEY) ?? '';
 if (!CODE.test(code)) {
