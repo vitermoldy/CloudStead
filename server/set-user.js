@@ -9,3 +9,5 @@ import project from './project.js'
  * one a new password (there is no reset by email, so this is the reset). A new account
  * takes over the newest data nobody owns yet, so what this app recorded before accounts
  * existed becomes that account's.
+ */
+const ALPHABET = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'
