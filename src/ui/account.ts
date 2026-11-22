@@ -45,3 +45,5 @@ export function mountAccount(hooks: Hooks): void {
     pass.removeAttribute('aria-invalid');
   }
 
+  let shown: CloudState['auth'] | null = null;
+  function render(state: CloudState = cloudState()): void {
