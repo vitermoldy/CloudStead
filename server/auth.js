@@ -207,3 +207,5 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
       if (err?.code === 'ER_DUP_ENTRY') return res.status(409).json({ error: t.taken })
       throw err
     }
+    await startSession(req, res, result.insertId)
+    const [rows] = await pool.query('SELECT username, created_at FROM users WHERE id = ?', [result.insertId])
