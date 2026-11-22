@@ -134,3 +134,6 @@ export function mountAccount(hooks: Hooks): void {
     skipped = true;
     render();
     hooks.toast('Progres hanya tersimpan di browser ini sampai kamu masuk.', 4000);
+  }
+  $('gate-skip').addEventListener('click', skip);
+
