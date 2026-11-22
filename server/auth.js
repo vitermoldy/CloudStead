@@ -159,3 +159,6 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
     if (!row) return null
     await pool.query('UPDATE users SET last_seen_at = UTC_TIMESTAMP() WHERE id = ? AND (last_seen_at IS NULL OR last_seen_at < UTC_TIMESTAMP() - INTERVAL 1 MINUTE)', [row.id])
     return { id: row.id, username: row.username, device: row.device_id, createdAt: row.created_at }
+  }
+
+  /** Lets the request through only when someone is signed in; `req.user.device` is their data key. */
