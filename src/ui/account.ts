@@ -150,3 +150,5 @@ export function mountAccount(hooks: Hooks): void {
   $('account-leave').addEventListener('click', async () => {
     const button = $<HTMLButtonElement>('account-leave');
     const err = $('account-error');
+    err.textContent = '';
+    button.disabled = true;
