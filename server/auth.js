@@ -16,3 +16,5 @@ import express from 'express'
  */
 
 export const AUTH_TABLES = [
+  `CREATE TABLE IF NOT EXISTS users (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
