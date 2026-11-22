@@ -280,6 +280,8 @@ export const signUp = (username: string, password: string): Promise<string | nul
  */
 export async function signOut(): Promise<void> {
   if (signedIn() && saveText && !frozen && !(await pushSave())) {
+    throw new ApiError('Progres terakhir belum terkirim ke server. Coba lagi sebentar lagi.', 0);
+  }
   frozen = true;
   clearTimeout(saveTimer);
   code = wanted;
