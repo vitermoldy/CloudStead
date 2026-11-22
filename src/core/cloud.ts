@@ -244,6 +244,8 @@ export async function checkAccount(): Promise<string | null> {
   notify();
   try {
     return await enter(await api<Entry>('/auth/me'));
+  } catch (err) {
+    account = null;
  */
 export async function restoreFrom(input: string): Promise<string> {
   const wanted = input.toUpperCase().replace(/[^A-Z0-9]/g, '');
