@@ -81,3 +81,6 @@ export function mountAccount(hooks: Hooks): void {
     hooks.saveNow();
     pass.value = '';
     hooks.toast(welcome);
+  }
+
+  form.addEventListener('submit', async (event) => {
