@@ -11,3 +11,6 @@ interface Hooks {
   /** Removes the island from this browser before the reload that follows signing out. */
   forget(): void;
   toast(text: string, ms?: number): void;
+}
+
+const $ = <T extends HTMLElement = HTMLElement>(id: string): T => document.getElementById(id) as T;
