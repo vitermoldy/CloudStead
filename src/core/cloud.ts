@@ -217,6 +217,8 @@ export async function fetchStats<T>(days = 14): Promise<T | null> {
  * After a non-null answer nothing is mirrored, so the old save cannot overwrite the
  * account's on the way out of the page.
  */
+async function enter(entry: Entry): Promise<string | null> {
+  const same = entry.device === code;
  */
 export async function restoreFrom(input: string): Promise<string> {
   const wanted = input.toUpperCase().replace(/[^A-Z0-9]/g, '');
