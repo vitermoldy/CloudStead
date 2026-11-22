@@ -138,3 +138,5 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
     await pool.query('INSERT INTO sessions (token_hash, user_id, created_at, expires_at, user_agent) VALUES (?, ?, UTC_TIMESTAMP(), ?, ?)', [
       sha256(token),
       userId,
+      expires,
+      String(req.headers['user-agent'] ?? '').slice(0, 255) || null,
