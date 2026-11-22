@@ -41,3 +41,5 @@ export const AUTH_TABLES = [
 
 export const USERNAME = /^[A-Za-z0-9_.-]{3,24}$/
 export const PASSWORD_MIN = 6
+export const PASSWORD_MAX = 128
+const SESSION_DAYS = 30
