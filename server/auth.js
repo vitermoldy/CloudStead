@@ -121,3 +121,6 @@ function attemptLimit(limit, message) {
 export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
   const t = MESSAGES[lang]
   const router = express.Router()
+  // Checked against when the username does not exist, so a wrong name takes as long as a wrong password.
+  const decoy = hashPassword(randomBytes(12).toString('hex'))
+
