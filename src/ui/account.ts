@@ -92,3 +92,5 @@ export function mountAccount(hooks: Hooks): void {
     user.toggleAttribute('aria-invalid', !name);
     pass.toggleAttribute('aria-invalid', !password);
     if (!name || !password) {
+      error.textContent = !name ? 'Isi username dulu.' : 'Isi kata sandi dulu.';
+      (!name ? user : pass).focus();
