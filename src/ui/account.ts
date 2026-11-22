@@ -156,3 +156,5 @@ export function mountAccount(hooks: Hooks): void {
     try {
       hooks.saveNow();
       await signOut();
+      hooks.forget();
+      location.reload();
