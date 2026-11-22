@@ -261,6 +261,8 @@ async function authCall(path: string, body: unknown): Promise<string | null> {
   } catch (err) {
     if (err instanceof ApiError && err.status < 500) throw err;
     auth = 'unavailable';
+    setStatus('offline');
+    notify();
  */
 export async function restoreFrom(input: string): Promise<string> {
   const wanted = input.toUpperCase().replace(/[^A-Z0-9]/g, '');
