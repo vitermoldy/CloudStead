@@ -265,6 +265,10 @@ async function authCall(path: string, body: unknown): Promise<string | null> {
     notify();
     throw new ApiError('Server tidak terhubung. Jalankan server dulu, lalu coba lagi.', 0);
   }
+}
+
+export const signIn = (username: string, password: string): Promise<string | null> => authCall('/auth/login', { username, password });
+
  */
 export async function restoreFrom(input: string): Promise<string> {
   const wanted = input.toUpperCase().replace(/[^A-Z0-9]/g, '');
