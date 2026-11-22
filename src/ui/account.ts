@@ -102,3 +102,5 @@ export function mountAccount(hooks: Hooks): void {
     try {
       const save = mode === 'in' ? await signIn(name, password) : await signUp(name, password);
       await finish(save, mode === 'in' ? `Masuk sebagai ${cloudState().account?.username}.` : `Akun ${name} dibuat. Selamat datang.`);
+    } catch (e) {
+      error.textContent = e instanceof Error ? e.message : 'Tidak bisa masuk. Coba lagi.';
