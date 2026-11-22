@@ -94,3 +94,5 @@ export function mountAccount(hooks: Hooks): void {
     if (!name || !password) {
       error.textContent = !name ? 'Isi username dulu.' : 'Isi kata sandi dulu.';
       (!name ? user : pass).focus();
+      return;
+    }
