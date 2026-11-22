@@ -25,3 +25,5 @@ if (rows.length === 0) {
       daftar: when(r.created_at),
       'terakhir masuk': when(r.last_login_at),
       'terakhir aktif': when(r.last_seen_at),
+      'kali masuk': r.login_count,
+      kejadian: Number(r.events),
