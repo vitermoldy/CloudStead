@@ -250,6 +250,8 @@ export async function checkAccount(): Promise<string | null> {
     auth = err instanceof ApiError && err.status === 401 ? 'signed-out' : 'unavailable';
     setStatus(auth === 'signed-out' ? 'online' : 'offline');
     notify();
+    return null;
+  }
  */
 export async function restoreFrom(input: string): Promise<string> {
   const wanted = input.toUpperCase().replace(/[^A-Z0-9]/g, '');
