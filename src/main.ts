@@ -554,6 +554,8 @@ if (!isReadOnly()) {
     saveNow: () => void progress.persist(true),
     forget,
     toast,
+  });
+}
 
 function renderSaveStatus(): void {
   const el = $('save-status');
