@@ -86,6 +86,7 @@ const setStatus = (next: CloudStatus): void => {
     notify();
   }
 };
+const signedIn = (): boolean => auth === 'signed-in';
 
 export function cloudState(): CloudState {
   return { status, lastSaved, pending: outbox().length };
