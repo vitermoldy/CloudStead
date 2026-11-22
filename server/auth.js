@@ -155,3 +155,5 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
       'SELECT u.id, u.username, u.device_id, u.created_at FROM sessions s JOIN users u ON u.id = s.user_id WHERE s.token_hash = ? AND s.expires_at > UTC_TIMESTAMP()',
       [sha256(token)],
     )
+    const row = rows[0]
+    if (!row) return null
