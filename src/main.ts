@@ -542,6 +542,8 @@ if (!isReadOnly()) {
       }
       // Nothing may write over the account's island on the way out of this page.
       setReadOnly(true);
+      try {
+        sessionStorage.setItem('cloudstead:toast', `${toastText} Pulaumu sudah dimuat.`);
 
 function renderSaveStatus(): void {
   const el = $('save-status');
