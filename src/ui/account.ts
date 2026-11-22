@@ -28,3 +28,5 @@ export function mountAccount(hooks: Hooks): void {
   // "Pakai tanpa akun" holds until the page reloads or the visitor asks to sign in.
   let skipped = false;
 
+  function setMode(next: 'in' | 'up'): void {
+    mode = next;
