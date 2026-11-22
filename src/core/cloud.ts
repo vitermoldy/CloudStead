@@ -185,7 +185,7 @@ async function pushSave(leaving = false): Promise<boolean> {
   if (!saveText || frozen || !signedIn()) return false;
   clearTimeout(saveTimer);
   try {
-    await api('/save', { method: 'PUT', body: JSON.stringify({ device: code, data: saveText }), keepalive: leaving });
+    await api('/save', { method: 'PUT', body: JSON.stringify({ data: saveText }), keepalive: leaving });
     lastSaved = Date.now();
     write(SAVED_KEY, String(lastSaved));
     setStatus('online');
