@@ -17,6 +17,8 @@ const OUTBOX_CAP = 500;
 export type CloudStatus = 'unknown' | 'online' | 'offline';
 /** checking: asking the server. unavailable: the server or its database cannot be reached. */
 export type AuthStatus = 'checking' | 'signed-in' | 'signed-out' | 'unavailable';
+export interface Account {
+  username: string;
 export interface CloudState {
   status: CloudStatus;
   /** Epoch ms the save last reached the server, 0 if never. */
