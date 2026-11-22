@@ -26,3 +26,5 @@ if (found) {
   await pool.query('DELETE FROM sessions WHERE user_id = ?', [found.id])
   console.log(`${project.name}: kata sandi ${found.username} diganti. Semua sesinya dikeluarkan.`)
 } else {
+  const [[free]] = await pool.query(
+    `SELECT d.id, (SELECT COUNT(*) FROM events e WHERE e.device_id = d.id) AS events, (SELECT COUNT(*) FROM saves s WHERE s.device_id = d.id) AS saves
