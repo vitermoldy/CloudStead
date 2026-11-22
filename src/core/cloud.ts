@@ -263,6 +263,8 @@ async function authCall(path: string, body: unknown): Promise<string | null> {
     auth = 'unavailable';
     setStatus('offline');
     notify();
+    throw new ApiError('Server tidak terhubung. Jalankan server dulu, lalu coba lagi.', 0);
+  }
  */
 export async function restoreFrom(input: string): Promise<string> {
   const wanted = input.toUpperCase().replace(/[^A-Z0-9]/g, '');
