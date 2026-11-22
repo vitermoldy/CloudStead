@@ -25,3 +25,6 @@ export function mountAccount(hooks: Hooks): void {
   const error = $('gate-error');
   let mode: 'in' | 'up' = 'in';
   let busy = false;
+  // "Pakai tanpa akun" holds until the page reloads or the visitor asks to sign in.
+  let skipped = false;
+
