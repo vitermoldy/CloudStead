@@ -544,6 +544,8 @@ if (!isReadOnly()) {
       setReadOnly(true);
       try {
         sessionStorage.setItem('cloudstead:toast', `${toastText} Pulaumu sudah dimuat.`);
+      } catch {
+        /* no session storage: the reload still shows the island */
 
 function renderSaveStatus(): void {
   const el = $('save-status');
