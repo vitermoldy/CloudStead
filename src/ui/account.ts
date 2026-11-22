@@ -38,3 +38,5 @@ export function mountAccount(hooks: Hooks): void {
     $('gate-switch').textContent = next === 'in' ? 'Daftar' : 'Masuk';
     $('gate-lead').textContent =
       next === 'in'
+        ? 'Pulaumu tersimpan di akunmu, jadi bisa dilanjutkan dari browser mana pun.'
+        : 'Pulau yang sudah ada di browser ini ikut masuk ke akun barumu.';
