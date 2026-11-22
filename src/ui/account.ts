@@ -19,3 +19,5 @@ const joined = (iso: string): string => new Date(iso).toLocaleDateString('id-ID'
 export function mountAccount(hooks: Hooks): void {
   const gate = $<HTMLDialogElement>('auth-gate');
   const form = $<HTMLFormElement>('gate-form');
+  const user = $<HTMLInputElement>('gate-user');
+  const pass = $<HTMLInputElement>('gate-pass');
