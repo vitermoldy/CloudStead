@@ -534,6 +534,8 @@ onCloud((state) => {
 if (!isReadOnly()) {
   mountAccount({
     applySave(text, toastText) {
+      try {
+        replaceAll(parseSaveFile(JSON.stringify({ app: 'CloudStead', data: JSON.parse(text) })));
 
 function renderSaveStatus(): void {
   const el = $('save-status');
