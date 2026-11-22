@@ -21,3 +21,5 @@ export function mountAccount(hooks: Hooks): void {
   const form = $<HTMLFormElement>('gate-form');
   const user = $<HTMLInputElement>('gate-user');
   const pass = $<HTMLInputElement>('gate-pass');
+  const submit = $<HTMLButtonElement>('gate-submit');
+  const error = $('gate-error');
