@@ -141,3 +141,5 @@ export function mountAccount(hooks: Hooks): void {
     const save = await checkAccount();
     if (save) hooks.applySave(save, `Masuk sebagai ${cloudState().account?.username}.`);
   }
+  $('gate-retry').addEventListener('click', () => void check());
+  $('account-enter').addEventListener('click', () => {
