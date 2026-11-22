@@ -29,3 +29,5 @@ if (rows.length === 0) {
       kejadian: Number(r.events),
       simpanan: r.save_bytes ? `${Math.ceil(r.save_bytes / 1024)} KB, ${when(r.saved_at)}` : '-',
     })),
+  )
+}
