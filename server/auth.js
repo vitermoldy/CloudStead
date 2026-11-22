@@ -13,3 +13,6 @@ import express from 'express'
  *
  * The session is an HttpOnly cookie. Only a SHA-256 of its token is stored, so a
  * copy of the sessions table cannot be used to sign in.
+ */
+
+export const AUTH_TABLES = [
