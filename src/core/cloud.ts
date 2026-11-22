@@ -37,6 +37,8 @@ interface PendingEvent {
   day: string;
   data: unknown;
 }
+interface Entry {
+  user: Account;
 
 const read = (key: string): string | null => {
   try {
