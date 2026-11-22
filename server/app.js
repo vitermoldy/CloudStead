@@ -55,6 +55,7 @@ export function createApi(getPool) {
   api.use(rateLimit(120))
 
   api.use((req, res, next) => (getPool() ? next() : res.status(503).json({ error: 'Database belum terhubung.' })))
+  api.get('/health', (_req, res) => res.json({ ok: true, app: project.name }))
 
   const touch = (device) => getPool().query('INSERT INTO devices (id) VALUES (?) ON DUPLICATE KEY UPDATE last_seen = CURRENT_TIMESTAMP', [device])
 
