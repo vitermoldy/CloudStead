@@ -79,3 +79,5 @@ export function mountAccount(hooks: Hooks): void {
       return;
     }
     hooks.saveNow();
+    pass.value = '';
+    hooks.toast(welcome);
