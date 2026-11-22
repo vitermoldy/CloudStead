@@ -19,6 +19,8 @@ export type CloudStatus = 'unknown' | 'online' | 'offline';
 export type AuthStatus = 'checking' | 'signed-in' | 'signed-out' | 'unavailable';
 export interface Account {
   username: string;
+  /** When the account was made, as an ISO date. */
+  createdAt: string;
 export interface CloudState {
   status: CloudStatus;
   /** Epoch ms the save last reached the server, 0 if never. */
