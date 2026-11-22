@@ -201,3 +201,5 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
     const hash = await hashPassword(input.password)
     let result
     try {
+      ;[result] = await pool.query('INSERT INTO users (username, password_hash, device_id, created_at) VALUES (?, ?, ?, UTC_TIMESTAMP())', [input.username, hash, device])
+    } catch (err) {
