@@ -5,3 +5,5 @@ import { ApiError, checkAccount, cloudState, onCloud, signIn, signOut, signUp, t
 
 interface Hooks {
   /** Puts the account's save in place of this browser's and reloads. */
+  applySave(text: string, toastText: string): void;
+  /** Writes the browser save now, which also sends it to the account. */
