@@ -115,6 +115,8 @@ async function api<T>(path: string, init?: RequestInit): Promise<T> {
       auth = 'signed-out';
       account = null;
       notify();
+    }
+    throw new ApiError(body.error || `HTTP ${res.status}`, res.status);
   return body;
 }
 
