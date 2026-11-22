@@ -216,3 +216,5 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
     const username = typeof req.body?.username === 'string' ? req.body.username.trim() : ''
     const password = typeof req.body?.password === 'string' ? req.body.password.slice(0, PASSWORD_MAX) : ''
     const [rows] = USERNAME.test(username) ? await getPool().query('SELECT id, username, password_hash, device_id, created_at FROM users WHERE username = ?', [username]) : [[]]
+    const row = rows[0]
+    const ok = await verifyPassword(password, row ? row.password_hash : await decoy)
