@@ -193,6 +193,7 @@ async function pushSave(leaving = false): Promise<boolean> {
     return true;
   } catch (err) {
     setStatus(reached(err) ? 'online' : 'offline');
+    return false;
   }
 }
 
