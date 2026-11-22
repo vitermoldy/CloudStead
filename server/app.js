@@ -57,7 +57,8 @@ export function createApi(getPool) {
   api.use((req, res, next) => (getPool() ? next() : res.status(503).json({ error: 'Database belum terhubung.' })))
   api.get('/health', (_req, res) => res.json({ ok: true, app: project.name }))
 
-  const touch = (device) => getPool().query('INSERT INTO devices (id) VALUES (?) ON DUPLICATE KEY UPDATE last_seen = CURRENT_TIMESTAMP', [device])
+  const auth = createAuth({ getPool, cookie: `${project.database}_session`, lang: 'id', deviceCode: CODE, newDevice: newCode })
+  api.use('/auth', auth.router)
 
   api.get('/health', (_req, res) => res.json({ ok: true, app: project.name }))
 
