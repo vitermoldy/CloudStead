@@ -93,3 +93,6 @@ function readCookie(req, name) {
     if (at > 0 && part.slice(0, at).trim() === name) return decodeURIComponent(part.slice(at + 1).trim())
   }
   return undefined
+}
+
+/** At most `limit` attempts per minute per address: slows down password guessing. */
