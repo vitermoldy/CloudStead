@@ -28,6 +28,8 @@ export interface CloudState {
   lastSaved: number;
   /** Events still waiting to be sent. */
   pending: number;
+  auth: AuthStatus;
+  account: Account | null;
 }
 interface PendingEvent {
   kind: string;
