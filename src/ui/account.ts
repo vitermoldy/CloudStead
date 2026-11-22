@@ -118,3 +118,5 @@ export function mountAccount(hooks: Hooks): void {
     submit.textContent = mode === 'in' ? 'Masuk' : 'Buat akun';
   }
 
+  $('gate-switch').addEventListener('click', () => {
+    setMode(mode === 'in' ? 'up' : 'in');
