@@ -30,3 +30,5 @@ if (found) {
     `SELECT d.id, (SELECT COUNT(*) FROM events e WHERE e.device_id = d.id) AS events, (SELECT COUNT(*) FROM saves s WHERE s.device_id = d.id) AS saves
      FROM devices d LEFT JOIN users u ON u.device_id = d.id WHERE u.id IS NULL ORDER BY d.last_seen DESC LIMIT 1`,
   )
+  const device = free?.id ?? Array.from({ length: 12 }, () => ALPHABET[randomInt(ALPHABET.length)]).join('')
+  await pool.query('INSERT INTO users (username, password_hash, device_id, created_at) VALUES (?, ?, ?, UTC_TIMESTAMP())', [username, hash, device])
