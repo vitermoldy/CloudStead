@@ -12,3 +12,6 @@ const [rows] = await pool.query(
      (SELECT s.bytes FROM saves s WHERE s.device_id = u.device_id) AS save_bytes,
      (SELECT s.updated_at FROM saves s WHERE s.device_id = u.device_id) AS saved_at
    FROM users u ORDER BY u.created_at`,
+)
+await pool.end()
+
