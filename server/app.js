@@ -84,6 +84,7 @@ export function createApi(getPool) {
 
   api.get('/save', async (req, res) => {
     const [rows] = await getPool().query('SELECT data, updated_at AS updatedAt FROM saves WHERE device_id = ?', [req.user.device])
+    res.json(rows[0] ? { data: rows[0].data, updatedAt: rows[0].updatedAt } : { data: null })
   })
 
   api.post('/events', async (req, res) => {
