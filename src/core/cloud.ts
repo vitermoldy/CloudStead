@@ -89,7 +89,7 @@ const setStatus = (next: CloudStatus): void => {
 const signedIn = (): boolean => auth === 'signed-in';
 
 export function cloudState(): CloudState {
-  return { status, lastSaved, pending: outbox().length };
+  return { status, lastSaved, pending: outbox().length, auth, account };
 }
 
 export function onCloud(fn: (state: CloudState) => void): () => void {
