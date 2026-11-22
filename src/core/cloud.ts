@@ -271,6 +271,9 @@ export const signIn = (username: string, password: string): Promise<string | nul
 
 /** A new account. The progress already in this browser becomes the account's. */
 export const signUp = (username: string, password: string): Promise<string | null> =>
+  authCall('/auth/register', { username, password, device: code });
+
+/**
  */
 export async function restoreFrom(input: string): Promise<string> {
   const wanted = input.toUpperCase().replace(/[^A-Z0-9]/g, '');
