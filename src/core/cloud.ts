@@ -225,6 +225,8 @@ async function enter(entry: Entry): Promise<string | null> {
   write(ID_KEY, code);
   setStatus('online');
   notify();
+  if (!same) {
+    const remote = await api<{ data: string | null }>('/save').catch(() => ({ data: null }));
  */
 export async function restoreFrom(input: string): Promise<string> {
   const wanted = input.toUpperCase().replace(/[^A-Z0-9]/g, '');
