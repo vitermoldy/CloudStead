@@ -144,3 +144,6 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
     await pool.query('UPDATE users SET last_login_at = UTC_TIMESTAMP(), last_seen_at = UTC_TIMESTAMP(), login_count = login_count + 1 WHERE id = ?', [userId])
     await pool.query('DELETE FROM sessions WHERE expires_at < UTC_TIMESTAMP()')
     setCookie(req, res, token, SESSION_DAYS * 86_400)
+  }
+
+  /** The signed-in user, or null. Also notes when the account was last active. */
