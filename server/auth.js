@@ -209,3 +209,6 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
     }
     await startSession(req, res, result.insertId)
     const [rows] = await pool.query('SELECT username, created_at FROM users WHERE id = ?', [result.insertId])
+    res.status(201).json({ user: publicUser(rows[0]), device })
+  })
+
