@@ -282,6 +282,7 @@ export async function signOut(): Promise<void> {
   if (signedIn() && saveText && !frozen && !(await pushSave())) {
     throw new ApiError('Progres terakhir belum terkirim ke server. Coba lagi sebentar lagi.', 0);
   }
+  await flushEvents();
   frozen = true;
   clearTimeout(saveTimer);
   code = wanted;
