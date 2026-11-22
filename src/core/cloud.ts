@@ -113,6 +113,8 @@ async function api<T>(path: string, init?: RequestInit): Promise<T> {
     // The session ran out or was signed out elsewhere: ask for the password again.
     if (res.status === 401 && !path.startsWith('/auth/') && auth === 'signed-in') {
       auth = 'signed-out';
+      account = null;
+      notify();
   return body;
 }
 
