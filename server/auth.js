@@ -218,3 +218,5 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
     const [rows] = USERNAME.test(username) ? await getPool().query('SELECT id, username, password_hash, device_id, created_at FROM users WHERE username = ?', [username]) : [[]]
     const row = rows[0]
     const ok = await verifyPassword(password, row ? row.password_hash : await decoy)
+    if (!row || !ok) return res.status(401).json({ error: t.wrong })
+    await startSession(req, res, row.id)
