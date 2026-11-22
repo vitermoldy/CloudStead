@@ -108,7 +108,7 @@ export function createApi(getPool) {
   api.get('/stats', async (req, res) => {
     const days = Math.min(60, Math.max(1, Number(req.query.days) || 14))
     const today = DAY.test(String(req.query.today ?? '')) ? String(req.query.today) : new Date().toISOString().slice(0, 10)
-    res.json(await project.stats(getPool(), device, { days, today }))
+    res.json(await project.stats(getPool(), req.user.device, { days, today }))
   })
 
   api.use((err, _req, res, _next) => {
