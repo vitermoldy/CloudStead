@@ -74,6 +74,8 @@ if (!CODE.test(code)) {
 }
 
 let status: CloudStatus = 'unknown';
+let auth: AuthStatus = 'checking';
+let account: Account | null = null;
 let lastSaved = Number(read(SAVED_KEY)) || 0;
 let frozen = false;
 const listeners = new Set<(state: CloudState) => void>();
