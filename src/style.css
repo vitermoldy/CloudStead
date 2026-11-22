@@ -324,6 +324,8 @@ fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
 .gate .gate__note { margin: 10px 0 0; font-size: 14px; }
 .gate__submit { width: 100%; margin-top: 4px; }
 .gate__submit:disabled { cursor: not-allowed; opacity: .7; }
+.gate .gate__switch { display: flex; align-items: center; flex-wrap: wrap; gap: 0 2px; margin: 10px 0 -8px; font-size: 14px; }
+.gate__link {
 /* ---------------------------------------------------------------- the resident's voice */
 .bubble {
   position: fixed; left: 0; top: 0; z-index: 20; pointer-events: none; max-width: 240px; padding: 10px 14px;
