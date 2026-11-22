@@ -51,3 +51,5 @@ export function mountAccount(hooks: Hooks): void {
     // The first check is not shown: a signed-in visitor should not see the screen flash by.
     const wanted = state.auth === 'signed-out' || (offline && !skipped) || (state.auth === 'checking' && gate.open);
     $('gate-checking').hidden = state.auth !== 'checking';
+    form.hidden = state.auth !== 'signed-out';
+    $('gate-switch-line').hidden = state.auth !== 'signed-out';
