@@ -36,3 +36,5 @@ if (found) {
     free
       ? `${project.name}: akun ${username} dibuat dan memegang data yang sudah ada (${free.saves ? 'simpanan dan ' : ''}${free.events} kejadian).`
       : `${project.name}: akun ${username} dibuat. Belum ada data sebelumnya.`,
+  )
+}
