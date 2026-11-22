@@ -97,7 +97,7 @@ export function onCloud(fn: (state: CloudState) => void): () => void {
   return () => listeners.delete(fn);
 }
 
-class ApiError extends Error {
+export class ApiError extends Error {
   constructor(
     message: string,
     readonly status: number,
