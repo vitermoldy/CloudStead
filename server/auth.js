@@ -220,3 +220,6 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
     const ok = await verifyPassword(password, row ? row.password_hash : await decoy)
     if (!row || !ok) return res.status(401).json({ error: t.wrong })
     await startSession(req, res, row.id)
+    res.json({ user: publicUser(row), device: row.device_id })
+  })
+
