@@ -119,3 +119,5 @@ function attemptLimit(limit, message) {
  * @param {() => string} options.newDevice  makes a fresh data key
  */
 export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
+  const t = MESSAGES[lang]
+  const router = express.Router()
