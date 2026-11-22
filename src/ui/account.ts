@@ -139,3 +139,5 @@ export function mountAccount(hooks: Hooks): void {
 
   async function check(): Promise<void> {
     const save = await checkAccount();
+    if (save) hooks.applySave(save, `Masuk sebagai ${cloudState().account?.username}.`);
+  }
