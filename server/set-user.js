@@ -5,3 +5,5 @@ import { connect } from './db.js'
 import project from './project.js'
 
 /**
+ * `npm run set-user -- <username> <password>`: makes an account, or gives an existing
+ * one a new password (there is no reset by email, so this is the reset). A new account
