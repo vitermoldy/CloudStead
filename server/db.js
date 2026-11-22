@@ -40,6 +40,6 @@ export async function connect(db) {
   await boot.query(`CREATE DATABASE IF NOT EXISTS \`${db.database.replace(/`/g, '')}\` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci`)
   await boot.end()
   const pool = mysql.createPool({ ...db, connectionLimit: 8, timezone: 'Z' })
-  for (const sql of TABLES) await pool.query(sql)
+  for (const sql of [...TABLES, ...AUTH_TABLES]) await pool.query(sql)
   return pool
 }
