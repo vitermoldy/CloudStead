@@ -70,3 +70,6 @@ export function mountAccount(hooks: Hooks): void {
     if (signedIn) {
       $('account-name').textContent = state.account!.username;
       $('account-since').textContent = joined(state.account!.createdAt);
+    }
+  }
+
