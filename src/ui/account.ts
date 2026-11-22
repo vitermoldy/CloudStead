@@ -160,3 +160,5 @@ export function mountAccount(hooks: Hooks): void {
       location.reload();
     } catch (e) {
       err.textContent = e instanceof Error ? e.message : 'Belum bisa keluar. Coba lagi.';
+      button.disabled = false;
+      button.textContent = 'Keluar';
