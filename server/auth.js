@@ -179,3 +179,6 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
     if (!USERNAME.test(username)) return { error: t.username }
     if (password.length < PASSWORD_MIN) return { error: t.password }
     if (password.length > PASSWORD_MAX) return { error: t.passwordLong }
+    return { username, password }
+  }
+
