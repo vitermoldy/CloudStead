@@ -58,3 +58,5 @@ const MESSAGES = {
   },
   en: {
     username: 'A username has 3 to 24 characters: letters, digits, dots, underscores or hyphens.',
+    password: `A password has at least ${PASSWORD_MIN} characters.`,
+    passwordLong: `A password has at most ${PASSWORD_MAX} characters.`,
