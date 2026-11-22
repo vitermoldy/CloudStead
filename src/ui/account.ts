@@ -3,3 +3,5 @@
 // still works and keeps its progress in this browser, as it did before accounts.
 import { ApiError, checkAccount, cloudState, onCloud, signIn, signOut, signUp, type CloudState } from '../core/cloud';
 
+interface Hooks {
+  /** Puts the account's save in place of this browser's and reloads. */
