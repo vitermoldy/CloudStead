@@ -110,3 +110,6 @@ export function mountAccount(hooks: Hooks): void {
       busy = false;
       submit.disabled = false;
       setModeLabelOnly();
+    }
+  });
+
