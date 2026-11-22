@@ -14,3 +14,6 @@ interface Hooks {
 }
 
 const $ = <T extends HTMLElement = HTMLElement>(id: string): T => document.getElementById(id) as T;
+const joined = (iso: string): string => new Date(iso).toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' });
+
+export function mountAccount(hooks: Hooks): void {
