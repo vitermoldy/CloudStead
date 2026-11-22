@@ -213,6 +213,8 @@ export async function fetchStats<T>(days = 14): Promise<T | null> {
 /**
  * Takes the account the server answered with. Returns the account's save when it
  * should replace this browser's (the browser was holding someone else's progress, or
+ * none), or null when this browser's own save stays and is sent up as the account's.
+ * After a non-null answer nothing is mirrored, so the old save cannot overwrite the
  */
 export async function restoreFrom(input: string): Promise<string> {
   const wanted = input.toUpperCase().replace(/[^A-Z0-9]/g, '');
