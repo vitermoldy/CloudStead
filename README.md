@@ -43,6 +43,8 @@ terakhir masuk, berapa kali masuk), `devices` (satu baris per akun), `saves` (sa
 
 ```bash
 npm run users                           # siapa saja yang punya akun, kapan daftar, dan apa yang tersimpan
+npm run set-user -- <username> <sandi>  # buat akun, atau ganti kata sandinya (tidak ada reset lewat email)
+```
 
 ## Cara kerja
 
