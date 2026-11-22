@@ -487,7 +487,6 @@ let cloudStats: FocusStats | null = null;
 
 function renderCloud(state: CloudState = cloudState()): void {
   $('cloud-block').hidden = isReadOnly();
-  $('cloud-code').textContent = recoveryCode();
   const waiting = state.pending > 0 ? ` ${state.pending} sesi fokus menunggu dikirim.` : '';
   $('cloud-status').textContent =
     state.status === 'online'
