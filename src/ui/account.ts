@@ -104,3 +104,5 @@ export function mountAccount(hooks: Hooks): void {
       await finish(save, mode === 'in' ? `Masuk sebagai ${cloudState().account?.username}.` : `Akun ${name} dibuat. Selamat datang.`);
     } catch (e) {
       error.textContent = e instanceof Error ? e.message : 'Tidak bisa masuk. Coba lagi.';
+      if (e instanceof ApiError && e.status === 401) pass.select();
+      pass.setAttribute('aria-invalid', 'true');
