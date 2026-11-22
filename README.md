@@ -41,6 +41,8 @@ browser dan ikut masuk ke akun begitu kamu mendaftar. Tabelnya: `users` dan `ses
 terakhir masuk, berapa kali masuk), `devices` (satu baris per akun), `saves` (salinan simpanan terbaru), dan
 `events` (satu baris per blok fokus selesai).
 
+```bash
+npm run users                           # siapa saja yang punya akun, kapan daftar, dan apa yang tersimpan
 
 ## Cara kerja
 
