@@ -232,3 +232,5 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
 
   router.get('/me', async (req, res) => {
     const user = await userFor(req)
+    if (!user) return res.status(401).json({ error: t.signedOut })
+    res.json({ user: { username: user.username, createdAt: user.createdAt }, device: user.device })
