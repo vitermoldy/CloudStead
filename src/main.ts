@@ -548,6 +548,8 @@ if (!isReadOnly()) {
         /* no session storage: the reload still shows the island */
       }
       location.reload();
+    },
+    // The progress section goes along even before the first focus minute, so the account's
 
 function renderSaveStatus(): void {
   const el = $('save-status');
