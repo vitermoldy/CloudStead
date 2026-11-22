@@ -88,3 +88,5 @@ export function mountAccount(hooks: Hooks): void {
     if (busy) return;
     error.textContent = '';
     const name = user.value.trim();
+    const password = pass.value;
+    user.toggleAttribute('aria-invalid', !name);
