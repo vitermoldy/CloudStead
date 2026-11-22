@@ -21,3 +21,5 @@ if (rows.length === 0) {
   console.log(`${project.name}: ${rows.length} akun di database ${config.db.database}`)
   console.table(
     rows.map((r) => ({
+      username: r.username,
+      daftar: when(r.created_at),
