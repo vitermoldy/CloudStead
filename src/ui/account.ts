@@ -152,3 +152,5 @@ export function mountAccount(hooks: Hooks): void {
     const err = $('account-error');
     err.textContent = '';
     button.disabled = true;
+    button.textContent = 'Keluar…';
+    try {
