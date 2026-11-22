@@ -105,7 +105,8 @@ src/
   audio/ambient.ts   suara pulau (Web Audio)
   scene/             Three.js: langit, awan, pulau petak, bangunan, lokasi konstruksi, VMK, partikel
   ui/                kursor dan panel musik
-  core/cloud.ts      sambungan ke server: kode pemulihan, antrean catatan, salinan simpanan
+  core/cloud.ts      sambungan ke server: akun, antrean catatan, salinan simpanan
+  ui/account.ts      layar masuk dan baris akun di panel Pulau
 server/              Express dan MySQL: API, tabel, statistik fokus (project.js)
 ```
 
