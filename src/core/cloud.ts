@@ -238,6 +238,8 @@ async function enter(entry: Entry): Promise<string | null> {
   return null;
 }
 
+/** Asks the server who is signed in on this browser. Same answer as `signIn` when someone is. */
+export async function checkAccount(): Promise<string | null> {
  */
 export async function restoreFrom(input: string): Promise<string> {
   const wanted = input.toUpperCase().replace(/[^A-Z0-9]/g, '');
