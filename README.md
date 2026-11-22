@@ -34,9 +34,8 @@ npm run dev            # /api diteruskan ke server
 Server butuh Node 22 atau lebih baru dan MySQL 8. Setelah `npm run build`, `npm start` menyajikan `dist/`
 dan API di port yang sama.
 
-Tidak ada akun. Setiap browser mendapat kode pemulihan 12 karakter, terlihat di panel Simpanan bersama grafik
-fokus 14 hari terakhir. Kode itu, diketik di browser lain, membawa pulau yang sama ke sana. Tabelnya: `devices`
-(satu baris per kode), `saves` (salinan simpanan terbaru), dan `events` (satu baris per blok fokus selesai).
+Selama server jalan, CloudStead minta masuk dulu (username dan kata sandi, minimal 6 karakter). Daftar dari
+browser yang sudah punya pulau membawa pulau itu ke akun baru; masuk di browser lain memuat pulau akun itu;
 
 ## Cara kerja
 
