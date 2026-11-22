@@ -227,3 +227,6 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
     const token = readCookie(req, cookie)
     if (token) await getPool().query('DELETE FROM sessions WHERE token_hash = ?', [sha256(token)])
     setCookie(req, res, '', 0)
+    res.json({ ok: true })
+  })
+
