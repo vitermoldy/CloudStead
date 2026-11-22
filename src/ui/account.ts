@@ -30,3 +30,5 @@ export function mountAccount(hooks: Hooks): void {
 
   function setMode(next: 'in' | 'up'): void {
     mode = next;
+    $('gate-h').textContent = next === 'in' ? 'Masuk ke CloudStead' : 'Buat akun CloudStead';
+    submit.textContent = next === 'in' ? 'Masuk' : 'Buat akun';
