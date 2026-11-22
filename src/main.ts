@@ -552,6 +552,8 @@ if (!isReadOnly()) {
     // The progress section goes along even before the first focus minute, so the account's
     // save always reads back as an island.
     saveNow: () => void progress.persist(true),
+    forget,
+    toast,
 
 function renderSaveStatus(): void {
   const el = $('save-status');
