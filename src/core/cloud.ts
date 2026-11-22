@@ -167,7 +167,7 @@ export async function flushEvents(): Promise<void> {
   } finally {
     flushing = false;
   }
-  if (outbox().length > 0 && status === 'online') void flushEvents();
+  if (outbox().length > 0 && status === 'online' && signedIn()) void flushEvents();
 }
 
 let saveTimer = 0;
