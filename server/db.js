@@ -4,6 +4,7 @@ import { AUTH_TABLES } from './auth.js'
 /**
  * Three tables for the data, the same in every app, plus users and sessions from auth.js:
  * - devices: one row per data key; each account owns one (users.device_id);
+ * - saves: the app's browser save, mirrored as one JSON text per account;
  * - events: what happened (a focus session finished, a song played), for the stats.
  * Times are stored in UTC; `day` is the local date the browser reported, so a day
  * in the stats is the visitor's own day.
