@@ -125,3 +125,5 @@ export function mountAccount(hooks: Hooks): void {
 
   // A required sign-in has no "close": Escape does nothing while the server waits for
   // a password, and means "Pakai tanpa akun" when the server is down.
+  gate.addEventListener('cancel', (event) => {
+    event.preventDefault();
