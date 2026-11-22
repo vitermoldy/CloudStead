@@ -181,8 +181,8 @@ export function mirrorSave(text: string): void {
 }
 
 /** `leaving`: the tab is being hidden or closed, so the request must outlive the page (keepalive). */
-async function pushSave(leaving = false): Promise<void> {
-  if (!saveText || frozen) return;
+async function pushSave(leaving = false): Promise<boolean> {
+  if (!saveText || frozen || !signedIn()) return false;
   clearTimeout(saveTimer);
   try {
     await api('/save', { method: 'PUT', body: JSON.stringify({ device: code, data: saveText }), keepalive: leaving });
