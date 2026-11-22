@@ -96,3 +96,5 @@ export function mountAccount(hooks: Hooks): void {
       (!name ? user : pass).focus();
       return;
     }
+    busy = true;
+    submit.disabled = true;
