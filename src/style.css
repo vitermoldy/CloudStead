@@ -312,6 +312,8 @@ fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
 .confirm__title { margin: 0 0 8px; font: 500 24px/1.15 var(--font-display); }
 .confirm p { margin: 0; color: var(--muted); }
 
+/* ---------------------------------------------------------------- sign-in
+   The confirm card again, so signing in reads as part of the island and not a separate site.
 /* ---------------------------------------------------------------- the resident's voice */
 .bubble {
   position: fixed; left: 0; top: 0; z-index: 20; pointer-events: none; max-width: 240px; padding: 10px 14px;
