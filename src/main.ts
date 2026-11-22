@@ -530,37 +530,8 @@ onCloud((state) => {
   if (openId === 'island') renderCloud(state);
 });
 
-$('cloud-copy').addEventListener('click', async () => {
-  try {
-    await navigator.clipboard.writeText(recoveryCode());
-    toast('Kode pemulihan disalin.');
-  } catch {
-    toast(`Kode pemulihanmu: ${recoveryCode()}`, 6000);
-  }
-});
-
-$('cloud-restore').addEventListener('submit', async (event) => {
-  event.preventDefault();
-  const input = $<HTMLInputElement>('cloud-input');
-  const err = $('cloud-error');
-  err.textContent = '';
-  input.removeAttribute('aria-invalid');
-  try {
-    const bag = parseSaveFile(JSON.stringify({ app: 'CloudStead', data: JSON.parse(await restoreFrom(input.value)) }));
-    replaceAll(bag);
-    // Nothing may write over the restored save on the way out of this page.
-    setReadOnly(true);
-    try {
-      sessionStorage.setItem('cloudstead:toast', 'Progres dari kode itu sudah dimuat.');
-    } catch {
-      /* no session storage: the reload still shows the island */
-    }
-    location.reload();
-  } catch (e) {
-    input.setAttribute('aria-invalid', 'true');
-    err.textContent = e instanceof Error ? e.message : 'Kode itu tidak bisa dipakai.';
-  }
-});
+// Accounts. The preview (?pratinjau=) borrows a finished island and never signs anyone in.
+if (!isReadOnly()) {
 
 function renderSaveStatus(): void {
   const el = $('save-status');
