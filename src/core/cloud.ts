@@ -63,6 +63,7 @@ const remove = (key: string): void => {
   } catch {
     /* blocked storage: nothing was kept either */
   }
+};
 
 let code = read(ID_KEY) ?? '';
 if (!CODE.test(code)) {
