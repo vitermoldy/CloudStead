@@ -70,3 +70,5 @@ const MESSAGES = {
 const scrypt = (password, salt, keylen, options) =>
   new Promise((resolve, reject) => scryptCb(password, salt, keylen, options, (err, key) => (err ? reject(err) : resolve(key))))
 
+/** "scrypt$N$r$p$salt$hash": everything needed to check the password again later. */
+export async function hashPassword(password) {
