@@ -257,6 +257,8 @@ export async function checkAccount(): Promise<string | null> {
 /** Failures carry a message meant for the person signing in. */
 async function authCall(path: string, body: unknown): Promise<string | null> {
   try {
+    return await enter(await api<Entry>(path, { method: 'POST', body: JSON.stringify(body) }));
+  } catch (err) {
  */
 export async function restoreFrom(input: string): Promise<string> {
   const wanted = input.toUpperCase().replace(/[^A-Z0-9]/g, '');
