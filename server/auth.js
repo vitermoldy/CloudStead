@@ -98,3 +98,5 @@ function readCookie(req, name) {
 /** At most `limit` attempts per minute per address: slows down password guessing. */
 function attemptLimit(limit, message) {
   const hits = new Map()
+  return (req, res, next) => {
+    const now = Date.now()
