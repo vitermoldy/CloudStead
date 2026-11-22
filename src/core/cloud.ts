@@ -252,6 +252,9 @@ export async function checkAccount(): Promise<string | null> {
     notify();
     return null;
   }
+}
+
+/** Failures carry a message meant for the person signing in. */
  */
 export async function restoreFrom(input: string): Promise<string> {
   const wanted = input.toUpperCase().replace(/[^A-Z0-9]/g, '');
