@@ -285,9 +285,8 @@ export async function signOut(): Promise<void> {
   await flushEvents();
   frozen = true;
   clearTimeout(saveTimer);
-  code = wanted;
-  write(ID_KEY, code);
-  return body.data;
+  await api('/auth/logout', { method: 'POST', body: '{}' }).catch(() => undefined);
+  for (const key of [ID_KEY, OUTBOX_KEY, SAVED_KEY]) remove(key);
 }
 
 addEventListener('online', () => void flushEvents());
