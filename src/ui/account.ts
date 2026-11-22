@@ -143,3 +143,5 @@ export function mountAccount(hooks: Hooks): void {
   }
   $('gate-retry').addEventListener('click', () => void check());
   $('account-enter').addEventListener('click', () => {
+    skipped = false;
+    void check();
