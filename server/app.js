@@ -59,6 +59,7 @@ export function createApi(getPool) {
 
   const auth = createAuth({ getPool, cookie: `${project.database}_session`, lang: 'id', deviceCode: CODE, newDevice: newCode })
   api.use('/auth', auth.router)
+  api.use(auth.requireUser)
 
   api.get('/health', (_req, res) => res.json({ ok: true, app: project.name }))
 
