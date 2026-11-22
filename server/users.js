@@ -27,3 +27,5 @@ if (rows.length === 0) {
       'terakhir aktif': when(r.last_seen_at),
       'kali masuk': r.login_count,
       kejadian: Number(r.events),
+      simpanan: r.save_bytes ? `${Math.ceil(r.save_bytes / 1024)} KB, ${when(r.saved_at)}` : '-',
+    })),
