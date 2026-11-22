@@ -169,3 +169,4 @@ export function mountAccount(hooks: Hooks): void {
   setMode('in');
   render();
   void check();
+}
