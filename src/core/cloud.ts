@@ -147,7 +147,7 @@ export function logEvent(kind: string, data: unknown): void {
 
 let flushing = false;
 export async function flushEvents(): Promise<void> {
-  if (flushing) return;
+  if (flushing || !signedIn()) return;
   const list = outbox();
   if (list.length === 0) return;
   flushing = true;
