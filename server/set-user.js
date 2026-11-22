@@ -24,3 +24,5 @@ if (found) {
   await pool.query('UPDATE users SET password_hash = ? WHERE id = ?', [hash, found.id])
   // A new password signs the account out everywhere.
   await pool.query('DELETE FROM sessions WHERE user_id = ?', [found.id])
+  console.log(`${project.name}: kata sandi ${found.username} diganti. Semua sesinya dikeluarkan.`)
+} else {
