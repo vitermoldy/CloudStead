@@ -242,6 +242,8 @@ async function enter(entry: Entry): Promise<string | null> {
 export async function checkAccount(): Promise<string | null> {
   auth = 'checking';
   notify();
+  try {
+    return await enter(await api<Entry>('/auth/me'));
  */
 export async function restoreFrom(input: string): Promise<string> {
   const wanted = input.toUpperCase().replace(/[^A-Z0-9]/g, '');
