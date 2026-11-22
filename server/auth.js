@@ -237,3 +237,4 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
   })
 
   return { router, requireUser }
+}
