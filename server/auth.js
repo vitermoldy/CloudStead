@@ -74,3 +74,6 @@ const scrypt = (password, salt, keylen, options) =>
 export async function hashPassword(password) {
   const salt = randomBytes(16)
   const hash = await scrypt(password, salt, KEYLEN, SCRYPT)
+  return ['scrypt', SCRYPT.N, SCRYPT.r, SCRYPT.p, salt.toString('base64'), hash.toString('base64')].join('$')
+}
+
