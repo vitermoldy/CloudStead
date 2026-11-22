@@ -162,3 +162,5 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
   }
 
   /** Lets the request through only when someone is signed in; `req.user.device` is their data key. */
+  async function requireUser(req, res, next) {
+    try {
