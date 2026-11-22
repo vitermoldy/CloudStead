@@ -158,3 +158,5 @@ export function mountAccount(hooks: Hooks): void {
       await signOut();
       hooks.forget();
       location.reload();
+    } catch (e) {
+      err.textContent = e instanceof Error ? e.message : 'Belum bisa keluar. Coba lagi.';
