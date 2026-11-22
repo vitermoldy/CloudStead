@@ -111,6 +111,8 @@ export function replaceAll(data: Bag): void {
 export function forget(): void {
   if (timer) clearTimeout(timer);
   timer = 0;
+  readOnly = true;
+  cache = {};
 export function clearSection(section: string): void {
   delete readAll()[section];
   saveNow();
