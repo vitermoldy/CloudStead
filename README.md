@@ -36,6 +36,8 @@ dan API di port yang sama.
 
 Selama server jalan, CloudStead minta masuk dulu (username dan kata sandi, minimal 6 karakter). Daftar dari
 browser yang sudah punya pulau membawa pulau itu ke akun baru; masuk di browser lain memuat pulau akun itu;
+keluar menghapus pulau dari browser itu (pulaunya tetap di akun). Kalau server mati, pulau tetap tumbuh di
+browser dan ikut masuk ke akun begitu kamu mendaftar. Tabelnya: `users` dan `sessions` (akun, kapan daftar,
 
 ## Cara kerja
 
