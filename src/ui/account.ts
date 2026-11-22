@@ -32,3 +32,5 @@ export function mountAccount(hooks: Hooks): void {
     mode = next;
     $('gate-h').textContent = next === 'in' ? 'Masuk ke CloudStead' : 'Buat akun CloudStead';
     submit.textContent = next === 'in' ? 'Masuk' : 'Buat akun';
+    pass.autocomplete = next === 'in' ? 'current-password' : 'new-password';
+    $('gate-pass-hint').hidden = next === 'in';
