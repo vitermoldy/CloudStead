@@ -81,3 +81,5 @@ export async function verifyPassword(password, stored) {
   const [kind, n, r, p, salt, hash] = String(stored).split('$')
   if (kind !== 'scrypt' || !salt || !hash) return false
   const expected = Buffer.from(hash, 'base64')
+  const actual = await scrypt(password, Buffer.from(salt, 'base64'), expected.length, { N: Number(n), r: Number(r), p: Number(p), maxmem: SCRYPT.maxmem })
+  return actual.length === expected.length && timingSafeEqual(actual, expected)
