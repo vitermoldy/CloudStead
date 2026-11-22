@@ -22,3 +22,5 @@ const hash = await hashPassword(password)
 const [[found]] = await pool.query('SELECT id, username FROM users WHERE username = ?', [username])
 if (found) {
   await pool.query('UPDATE users SET password_hash = ? WHERE id = ?', [hash, found.id])
+  // A new password signs the account out everywhere.
+  await pool.query('DELETE FROM sessions WHERE user_id = ?', [found.id])
