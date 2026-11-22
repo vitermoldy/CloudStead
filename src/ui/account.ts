@@ -145,3 +145,6 @@ export function mountAccount(hooks: Hooks): void {
   $('account-enter').addEventListener('click', () => {
     skipped = false;
     void check();
+  });
+
+  $('account-leave').addEventListener('click', async () => {
