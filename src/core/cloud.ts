@@ -4,6 +4,7 @@
 //
 // The server knows people by account (username and password). Each account files
 // its progress under one code. A browser keeps a code of its own too, offered on
+// sign-up so the progress made before signing up becomes the new account's.
 
 const APP = 'cloudstead';
 const ID_KEY = `${APP}:cloud-id`;
