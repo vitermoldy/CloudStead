@@ -229,6 +229,8 @@ async function enter(entry: Entry): Promise<string | null> {
     const remote = await api<{ data: string | null }>('/save').catch(() => ({ data: null }));
     if (remote.data) {
       frozen = true;
+      clearTimeout(saveTimer);
+      return remote.data;
  */
 export async function restoreFrom(input: string): Promise<string> {
   const wanted = input.toUpperCase().replace(/[^A-Z0-9]/g, '');
