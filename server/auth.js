@@ -132,3 +132,5 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
   }
 
   async function startSession(req, res, userId) {
+    const token = randomBytes(32).toString('base64url')
+    const expires = new Date(Date.now() + SESSION_DAYS * 86_400_000)
