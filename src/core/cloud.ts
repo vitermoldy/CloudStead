@@ -211,10 +211,8 @@ export async function fetchStats<T>(days = 14): Promise<T | null> {
 }
 
 /**
- * Fetches the save stored under another recovery code. The caller writes the
- * returned JSON text over its own save and reloads; from then on this browser
- * shares that code. Nothing is mirrored after this call, so the old save cannot
- * overwrite the restored one on the way out.
+ * Takes the account the server answered with. Returns the account's save when it
+ * should replace this browser's (the browser was holding someone else's progress, or
  */
 export async function restoreFrom(input: string): Promise<string> {
   const wanted = input.toUpperCase().replace(/[^A-Z0-9]/g, '');
