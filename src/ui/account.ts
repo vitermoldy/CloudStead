@@ -42,3 +42,6 @@ export function mountAccount(hooks: Hooks): void {
         : 'Pulau yang sudah ada di browser ini ikut masuk ke akun barumu.';
     error.textContent = '';
     user.removeAttribute('aria-invalid');
+    pass.removeAttribute('aria-invalid');
+  }
+
