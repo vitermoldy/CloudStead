@@ -233,6 +233,8 @@ async function enter(entry: Entry): Promise<string | null> {
       return remote.data;
     }
   }
+  void flushEvents();
+  if (saveText) void pushSave();
  */
 export async function restoreFrom(input: string): Promise<string> {
   const wanted = input.toUpperCase().replace(/[^A-Z0-9]/g, '');
