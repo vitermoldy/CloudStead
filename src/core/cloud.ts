@@ -219,6 +219,8 @@ export async function fetchStats<T>(days = 14): Promise<T | null> {
  */
 async function enter(entry: Entry): Promise<string | null> {
   const same = entry.device === code;
+  account = entry.user;
+  auth = 'signed-in';
  */
 export async function restoreFrom(input: string): Promise<string> {
   const wanted = input.toUpperCase().replace(/[^A-Z0-9]/g, '');
