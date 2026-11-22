@@ -47,3 +47,5 @@ export function mountAccount(hooks: Hooks): void {
 
   let shown: CloudState['auth'] | null = null;
   function render(state: CloudState = cloudState()): void {
+    const offline = state.auth === 'unavailable';
+    // The first check is not shown: a signed-in visitor should not see the screen flash by.
