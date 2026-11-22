@@ -190,6 +190,7 @@ async function pushSave(leaving = false): Promise<boolean> {
     write(SAVED_KEY, String(lastSaved));
     setStatus('online');
     notify();
+    return true;
   } catch (err) {
     setStatus(reached(err) ? 'online' : 'offline');
   }
