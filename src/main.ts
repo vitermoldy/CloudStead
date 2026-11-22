@@ -540,6 +540,8 @@ if (!isReadOnly()) {
         toast(e instanceof SaveFileError ? `Pulau di akun ini tidak bisa dibaca: ${e.message}` : 'Pulau di akun ini tidak bisa dibaca.', 6000);
         return;
       }
+      // Nothing may write over the account's island on the way out of this page.
+      setReadOnly(true);
 
 function renderSaveStatus(): void {
   const el = $('save-status');
