@@ -54,3 +54,5 @@ const MESSAGES = {
     taken: 'Username itu sudah dipakai. Pilih yang lain.',
     wrong: 'Username atau kata sandi salah.',
     signedOut: 'Kamu belum masuk.',
+    tooMany: 'Terlalu banyak percobaan masuk. Tunggu satu menit, lalu coba lagi.',
+  },
