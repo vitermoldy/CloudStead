@@ -59,3 +59,5 @@ export function mountAccount(hooks: Hooks): void {
     else if (!wanted && gate.open) gate.close();
     // Focus moves only when what the screen asks for changes, never on every update.
     if (gate.open && shown !== state.auth) {
+      if (state.auth === 'signed-out') user.focus();
+      else if (offline) $('gate-retry').focus();
