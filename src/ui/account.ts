@@ -108,3 +108,5 @@ export function mountAccount(hooks: Hooks): void {
       pass.setAttribute('aria-invalid', 'true');
     } finally {
       busy = false;
+      submit.disabled = false;
+      setModeLabelOnly();
