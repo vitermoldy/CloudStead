@@ -153,3 +153,5 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
     const pool = getPool()
     const [rows] = await pool.query(
       'SELECT u.id, u.username, u.device_id, u.created_at FROM sessions s JOIN users u ON u.id = s.user_id WHERE s.token_hash = ? AND s.expires_at > UTC_TIMESTAMP()',
+      [sha256(token)],
+    )
