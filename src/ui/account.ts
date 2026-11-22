@@ -55,3 +55,5 @@ export function mountAccount(hooks: Hooks): void {
     $('gate-switch-line').hidden = state.auth !== 'signed-out';
     $('gate-offline').hidden = !offline;
     $('gate-lead').hidden = state.auth !== 'signed-out';
+    if (wanted && !gate.open) gate.showModal();
+    else if (!wanted && gate.open) gate.close();
