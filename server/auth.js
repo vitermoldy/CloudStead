@@ -106,3 +106,5 @@ function attemptLimit(limit, message) {
     hits.set(key, recent)
     if (hits.size > 5000) hits.clear()
     if (recent.length > limit) return res.status(429).json({ error: message })
+    next()
+  }
