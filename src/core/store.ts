@@ -109,6 +109,8 @@ export function replaceAll(data: Bag): void {
 
 /** Signing out: the island leaves this browser, and nothing is written again before the reload. */
 export function forget(): void {
+  if (timer) clearTimeout(timer);
+  timer = 0;
 export function clearSection(section: string): void {
   delete readAll()[section];
   saveNow();
