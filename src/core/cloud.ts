@@ -201,7 +201,7 @@ async function pushSave(leaving = false): Promise<boolean> {
 export async function fetchStats<T>(days = 14): Promise<T | null> {
   if (!signedIn()) return null;
   try {
-    const stats = await api<T>(`/stats/${code}?days=${days}&today=${localDay()}`);
+    const stats = await api<T>(`/stats?days=${days}&today=${localDay()}`);
     setStatus('online');
     return stats;
   } catch (err) {
