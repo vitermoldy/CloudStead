@@ -248,6 +248,8 @@ export async function checkAccount(): Promise<string | null> {
     account = null;
     // 401: the server works and nobody is signed in. A 5xx is the server or its database being down.
     auth = err instanceof ApiError && err.status === 401 ? 'signed-out' : 'unavailable';
+    setStatus(auth === 'signed-out' ? 'online' : 'offline');
+    notify();
  */
 export async function restoreFrom(input: string): Promise<string> {
   const wanted = input.toUpperCase().replace(/[^A-Z0-9]/g, '');
