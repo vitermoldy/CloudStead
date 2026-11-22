@@ -105,9 +105,7 @@ export function createApi(getPool) {
     res.json({ ok: true, stored: rows.length, dropped: events.length - rows.length })
   })
 
-  api.get('/stats/:device', async (req, res) => {
-    const device = String(req.params.device)
-    if (!CODE.test(device)) return res.status(400).json({ error: 'Kode perangkat tidak dikenal.' })
+  api.get('/stats', async (req, res) => {
     const days = Math.min(60, Math.max(1, Number(req.query.days) || 14))
     const today = DAY.test(String(req.query.today ?? '')) ? String(req.query.today) : new Date().toISOString().slice(0, 10)
     res.json(await project.stats(getPool(), device, { days, today }))
