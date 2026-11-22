@@ -223,3 +223,5 @@ export function createAuth({ getPool, cookie, lang, deviceCode, newDevice }) {
     res.json({ user: publicUser(row), device: row.device_id })
   })
 
+  router.post('/logout', async (req, res) => {
+    const token = readCookie(req, cookie)
